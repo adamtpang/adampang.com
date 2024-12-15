@@ -1,11 +1,12 @@
 'use client';
 
-import { FloatingBubbles } from '@/components/FloatingBubbles';
-import { ThemeToggle } from '@/components/ThemeToggle';
-import { CalButton } from '@/components/CalButton';
 import { motion } from 'framer-motion';
 import { FC } from 'react';
 import Image from 'next/image';
+import { Background } from '@/components/Background';
+import { ThemeToggle } from '@/components/ThemeToggle';
+import { CalButton } from '@/components/CalButton';
+import { Logo } from '@/components/Logo';
 
 type IconProps = {
   className?: string;
@@ -46,47 +47,50 @@ const SocialLink: FC<{ href: string; icon: FC<IconProps>; label: string }> = ({ 
 const projects = [
   {
     title: 'Anchor Marianas',
-    description: 'Guam\'s premier streetwear brand',
+    description: 'Guam\'s premier streetwear brand. Building a lifestyle brand that represents the spirit and culture of the Marianas.',
     link: 'https://anchormarianas.com',
-    // Add image path when ready
     imagePath: '/images/anchor-marianas.jpg'
   },
-  // Add more projects here
+  // Add more projects when ready
 ];
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-text">
-      <FloatingBubbles />
+    <div className="relative min-h-screen bg-background text-text selection:bg-primary/20">
+      <Background />
 
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 p-6 flex justify-between items-center z-10 bg-background/80 backdrop-blur-sm">
-        <motion.a
-          href="/"
-          className="text-2xl font-bold"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          ATP
+        <motion.a href="/" className="text-2xl font-bold">
+          <Logo />
         </motion.a>
         <ThemeToggle />
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-6 pt-24">
+      <section className="relative min-h-[90vh] flex items-center justify-center px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 relative w-48 h-48 mx-auto">
-            {/* Profile image placeholder - add your image later */}
-            <div className="w-full h-full rounded-full bg-primary/10 flex items-center justify-center text-6xl font-bold">
-              AP
-            </div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="mb-8 relative w-48 h-48 mx-auto"
+          >
+            <Image
+              src="/images/profile.png"
+              alt="Adam Pang"
+              fill
+              className="object-cover rounded-full"
+              priority
+            />
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 via-secondary/20 to-accent/20" />
+          </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-5xl font-bold mb-6"
+            className="text-6xl sm:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent"
           >
             Adam Pang
           </motion.h1>
@@ -95,7 +99,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-xl mb-8 text-text/80 max-w-2xl mx-auto"
+            className="text-xl sm:text-2xl mb-8 text-text/80 max-w-2xl mx-auto leading-relaxed"
           >
             Software Engineer & Entrepreneur building products that matter.
             Currently working on Anchor Marianas and exploring new opportunities.
@@ -113,18 +117,18 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="py-24 px-6">
+      <section className="py-24 px-6 relative">
         <div className="max-w-4xl mx-auto">
           <motion.h2
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold mb-12 text-center"
+            className="text-4xl sm:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary"
           >
             Featured Projects
           </motion.h2>
 
-          <div className="grid gap-12">
+          <div className="grid gap-16">
             {projects.map((project, index) => (
               <motion.div
                 key={project.title}
@@ -138,7 +142,7 @@ export default function Home() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block relative aspect-video overflow-hidden rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors"
+                  className="block relative aspect-video overflow-hidden rounded-xl bg-primary/5 hover:bg-primary/10 transition-colors"
                 >
                   {project.imagePath && (
                     <Image
@@ -148,9 +152,13 @@ export default function Home() {
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                    <div>
+                      <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
+                      <p className="text-white/90 text-lg">{project.description}</p>
+                    </div>
+                  </div>
                 </a>
-                <h3 className="text-xl font-bold mt-4">{project.title}</h3>
-                <p className="text-text/80">{project.description}</p>
               </motion.div>
             ))}
           </div>
@@ -158,7 +166,7 @@ export default function Home() {
       </section>
 
       {/* Social Links */}
-      <footer className="py-12 px-6">
+      <footer className="py-12 px-6 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -169,6 +177,9 @@ export default function Home() {
           <SocialLink href="https://x.com/adamtpang" icon={TwitterIcon} label="Twitter" />
           <SocialLink href="https://instagram.com/adamtpang" icon={InstagramIcon} label="Instagram" />
         </motion.div>
+        <div className="mt-8 text-center text-text/60">
+          <p>© {new Date().getFullYear()} Adam Pang. All rights reserved.</p>
+        </div>
       </footer>
     </div>
   );
