@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
+  metadataBase: new URL('https://adampang.com'),
   title: "Adam Pang - Software Engineer & Entrepreneur",
   description: "Software Engineer & Entrepreneur building products that matter. Currently working on Anchor Marianas and exploring new opportunities.",
   keywords: ["Adam Pang", "Software Engineer", "Entrepreneur", "Anchor Marianas", "Web Development", "Guam"],
@@ -58,8 +58,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <body className={GeistSans.className}>
         <ThemeProvider>
           {children}
           <Analytics />

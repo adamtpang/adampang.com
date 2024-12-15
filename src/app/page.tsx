@@ -76,13 +76,14 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="mb-8 relative w-48 h-48 mx-auto"
           >
-            <Image
+            {/* Temporarily hide profile image until available */}
+            {/* <Image
               src="/images/profile.png"
               alt="Adam Pang"
               fill
               className="object-cover rounded-full"
               priority
-            />
+            /> */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/20 via-secondary/20 to-accent/20" />
           </motion.div>
 
@@ -144,14 +145,15 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="block relative aspect-video overflow-hidden rounded-xl bg-primary/5 hover:bg-primary/10 transition-colors"
                 >
-                  {project.imagePath && (
+                  {/* Temporarily hide project images until available */}
+                  {/* {project.imagePath && (
                     <Image
                       src={project.imagePath}
                       alt={project.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
-                  )}
+                  )} */}
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                     <div>
                       <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
