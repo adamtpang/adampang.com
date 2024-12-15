@@ -6,11 +6,15 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: 'hsl(var(--background))',
+        text: 'hsl(var(--text))',
+        primary: 'hsl(var(--primary))',
+        secondary: 'hsl(var(--secondary))',
+        accent: 'hsl(var(--accent))',
       },
     },
   },
