@@ -334,7 +334,7 @@
         // Listen for system theme changes
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
             if (!localStorage.getItem('theme')) {
-                setTheme(e.matches ? 'dark' : 'light');
+                setTheme('dark'); // Always default to dark mode
             }
         });
     </script>
