@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Pang</title>
+    <link id="favicon" rel="icon" type="image/png" href="atp-light.png">
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #0A0A0A;
+            --muted: #71717A;
+            --accent: #111111;
+
+            /* Brand Colors */
+            --twitter: #000000;
+            --github: #333333;
+            --instagram: #E4405F;
+            --soundcloud: #FF3300;
+            --bitcoin: #F7931A;
+            --tip: #0051FF;
+            --cal: #00C853;
+            --anchor: #0051FF;
+            --solana: #9945FF;
+        }
+
+        [data-theme="dark"] {
+            --bg: #000000;
+            --text: #ffffff;
+            --muted: #A1A1AA;
+            --accent: #111111;
+
+            /* Brand Colors - Dark Mode Adjustments */
+            --twitter: #ffffff;
+            --github: #ffffff;
+            --instagram: #E4405F;
+            --soundcloud: #FF3300;
+            --bitcoin: #F7931A;
+            --tip: #0051FF;
+            --cal: #00C853;
+            --anchor: #0051FF;
+            --solana: #9945FF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            transition: background-color 0.3s, color 0.3s;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .controls {
+            position: relative;
+            width: 100%;
+            height: 0;
+        }
+
+        #theme-toggle {
+            position: fixed;
+            top: 20%;
+            bottom: auto;
+            left: calc(50% - 10rem);
+            background: transparent;
+            border: 2px solid transparent;
+            padding: 1.25rem;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #theme-toggle:hover {
+            transform: scale(1.1);
+            border-color: var(--text);
+        }
+
+        #theme-toggle svg {
+            width: 2rem;
+            height: 2rem;
+            stroke: var(--text);
+            fill: none;
+            stroke-width: 2;
+        }
+
+        main {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .logo {
+            position: fixed;
+            top: 20%;
+            bottom: auto;
+            right: calc(50% - 10rem);
+            width: 72px;
+            height: 72px;
+            margin: 0;
+            transition: all 0.2s ease;
+            padding: 0.5rem;
+            border: 2px solid transparent;
+            border-radius: 50%;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+            border-color: var(--text);
+        }
+
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(9, auto);
+            gap: clamp(0.75rem, 2vw, 1.5rem);
+            justify-content: center;
+            width: 100%;
+            max-width: min(600px, 90vw);
+            margin: 0 auto;
+            margin-top: 16rem;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .social-link {
+            background: transparent;
+            padding: 1.25rem;
+            border-radius: 12px;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid transparent;
+        }
+
+        /* Smile curve formation */
+        .social-links a:nth-child(1) { transform: translateY(-4rem); }
+        .social-links a:nth-child(2) { transform: translateY(-2rem); }
+        .social-links a:nth-child(3) { transform: translateY(-0.75rem); }
+        .social-links a:nth-child(4) { transform: translateY(0); }
+        .social-links a:nth-child(5) { transform: translateY(0); }
+        .social-links a:nth-child(6) { transform: translateY(0); }
+        .social-links a:nth-child(7) { transform: translateY(-0.75rem); }
+        .social-links a:nth-child(8) { transform: translateY(-2rem); }
+        .social-links a:nth-child(9) { transform: translateY(-4rem); }
+
+        .social-link:hover {
+            transform: translateY(-2px);
+            border-color: var(--text);
+        }
+
+        .social-link svg {
+            width: 2rem;
+            height: 2rem;
+            transition: all 0.2s ease;
+        }
+
+        /* Remove individual icon transforms */
+        .social-link[href*="x.com"] svg { fill: var(--twitter); }
+        .social-link[href*="github"] svg { fill: var(--github); }
+        .social-link[href*="instagram"] svg { fill: var(--instagram); }
+        .social-link[href*="soundcloud"] svg { fill: var(--soundcloud); }
+        .social-link[data-type="tip"] svg { fill: var(--tip); }
+        .social-link[href*="cal.com"] svg { fill: var(--cal); }
+        .social-link[href*="anchormarianas"] svg { fill: var(--anchor); }
+        .social-link[data-type="solana"] svg { fill: var(--solana); }
+        .social-link[data-type="bitcoin"] svg { fill: var(--bitcoin); }
+
+        @media (max-width: 640px) {
+            .controls {
+                position: static;
+                height: auto;
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                gap: 1.25rem;
+                justify-content: center;
+                margin-bottom: 1.25rem;
+            }
+
+            #theme-toggle {
+                position: static;
+                padding: 1.15rem;
+            }
+
+            .logo {
+                position: static;
+                width: 64px;
+                height: 64px;
+                margin: 0;
+            }
+
+            #theme-toggle svg {
+                width: 1.75rem;
+                height: 1.75rem;
+            }
+
+            .social-links {
+                grid-template-columns: repeat(3, auto);
+                gap: 1.25rem;
+                padding: 1rem;
+                margin-top: 0;
+            }
+
+            /* Reset transforms for mobile */
+            .social-link {
+                transform: none !important;
+            }
+
+            .social-link:hover {
+                transform: translateY(-2px) !important;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .social-links {
+                gap: 1rem;
+            }
+
+            .social-link {
+                padding: 1rem;
+            }
+
+            .social-link svg {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+
+            .logo {
+                top: 12%;
+                right: calc(50% - 7rem);
+            }
+
+            #theme-toggle {
+                top: 12%;
+                left: calc(50% - 7rem);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="controls">
+            <img id="logo-light" class="logo" src="atp-light.png" alt="ATP Light Logo" style="display: none;">
+            <img id="logo-dark" class="logo" src="atp-dark.png" alt="ATP Dark Logo" style="display: none;">
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun" viewBox="0 0 24 24"><path d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>
+                <svg class="moon" viewBox="0 0 24 24" style="display: none;"><path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/></svg>
+            </button>
+        </div>
+
+        <div class="social-links">
+            <a href="https://x.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://github.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            </a>
+            <a href="https://instagram.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
+            </a>
+            <a href="https://soundcloud.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Music">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6zm-2 16c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                </svg>
+            </a>
+            <a class="social-link" data-type="bitcoin" aria-label="Bitcoin" onclick="navigator.clipboard.writeText('bc1qqqguenjrd5e6nl4tsnqwffapgy7d68puqqrcv8'); alert('Bitcoin address copied to clipboard!');">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z"/>
+                </svg>
+            </a>
+            <a class="social-link" data-type="solana" aria-label="Solana" onclick="navigator.clipboard.writeText('HLWmHJYJVUP759h5sUKVWpoeK6487TJXN2ffaG3jMgWk'); alert('Solana address copied to clipboard!');">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z"/>
+                </svg>
+            </a>
+            <a href="https://paypal.me/adampang" class="social-link" data-type="tip" target="_blank" rel="noopener noreferrer" aria-label="Tip">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42z"/>
+                </svg>
+            </a>
+            <a href="https://anchormarianas.com" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Anchor Marianas">
+                <svg viewBox="0 0 24 24">
+                    <path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12zm-7-8c-1.66 0-3-1.34-3-3H7c0 2.76 2.24 5 5 5s5-2.24 5-5h-2c0 1.66-1.34 3-3 3z"/>
+                </svg>
+            </a>
+            <a href="https://cal.com/adampang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Phone">
+                <svg viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z"/></svg>
+            </a>
+        </div>
+    </main>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const logoDark = document.getElementById('logo-dark');
+        const logoLight = document.getElementById('logo-light');
+        const favicon = document.getElementById('favicon');
+
+        // Check for saved theme preference, otherwise default to dark
+        const getPreferredTheme = () => {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme) return savedTheme;
+            return 'dark'; // Default to dark mode
+        };
+
+        const setTheme = (theme) => {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('theme', theme);
+
+            // Update theme toggle icons
+            document.querySelectorAll('.sun').forEach(icon => icon.style.display = theme === 'dark' ? 'block' : 'none');
+            document.querySelectorAll('.moon').forEach(icon => icon.style.display = theme === 'dark' ? 'none' : 'block');
+
+            // Update logo visibility
+            logoDark.style.display = theme === 'dark' ? 'block' : 'none';
+            logoLight.style.display = theme === 'light' ? 'block' : 'none';
+
+            // Update favicon
+            favicon.href = theme === 'dark' ? 'atp-dark.png' : 'atp-light.png';
+        };
+
+        // Set initial theme
+        setTheme(getPreferredTheme());
+
+        // Toggle theme on button click
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+        });
+
+        // Listen for system theme changes
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            if (!localStorage.getItem('theme')) {
+                setTheme(e.matches ? 'dark' : 'light');
+            }
+        });
+    </script>
+</body>
+</html>
