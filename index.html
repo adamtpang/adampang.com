@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Pang</title>
-    <link id="favicon" rel="icon" type="image/png" href="atp-light.png">
+    <link id="favicon" rel="icon" type="image/svg+xml"
+        href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="white"/></svg>'>
     <style>
         :root {
             --bg: #ffffff;
@@ -13,14 +15,14 @@
             --accent: #111111;
 
             /* Brand Colors */
-            --twitter: #000000;
-            --github: #333333;
-            --instagram: #E4405F;
-            --soundcloud: #FF3300;
-            --tip: #003087;
-            --cal: #00C853;
-            --anchor: #0051FF;
-            --solana: linear-gradient(139.73deg, #AA14F0 0%, #9945FF 100%);
+            --twitter: var(--text);
+            --github: var(--text);
+            --instagram: var(--text);
+            --soundcloud: var(--text);
+            --tip: var(--text);
+            --cal: var(--text);
+            --anchor: var(--text);
+            --solana: var(--text);
         }
 
         [data-theme="dark"] {
@@ -30,14 +32,14 @@
             --accent: #111111;
 
             /* Brand Colors - Dark Mode Adjustments */
-            --twitter: #ffffff;
-            --github: #ffffff;
-            --instagram: #E4405F;
-            --soundcloud: #FF3300;
-            --tip: #009cde;
-            --cal: #00C853;
-            --anchor: #0051FF;
-            --solana: linear-gradient(139.73deg, #AA14F0 0%, #9945FF 100%);
+            --twitter: var(--text);
+            --github: var(--text);
+            --instagram: var(--text);
+            --soundcloud: var(--text);
+            --tip: var(--text);
+            --cal: var(--text);
+            --anchor: var(--text);
+            --solana: var(--text);
         }
 
         * {
@@ -73,13 +75,15 @@
             left: calc(50% - 12rem);
             background: transparent;
             border: 2px solid transparent;
-            padding: 1.25rem;
+            padding: 0.5rem;
             border-radius: 50%;
             cursor: pointer;
             transition: all 0.2s ease;
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 72px;
+            height: 72px;
         }
 
         #theme-toggle:hover {
@@ -88,8 +92,8 @@
         }
 
         #theme-toggle svg {
-            width: 2rem;
-            height: 2rem;
+            width: 4rem;
+            height: 4rem;
             stroke: var(--text);
             fill: none;
             stroke-width: 2;
@@ -110,13 +114,15 @@
             height: 72px;
             margin: 0;
             transition: all 0.2s ease;
-            padding: 0.5rem;
+            padding: 0;
             border: 2px solid transparent;
             border-radius: 50%;
+            object-fit: contain;
+            transform: scale(1.4);
         }
 
         .logo:hover {
-            transform: scale(1.1);
+            transform: scale(1.5);
             border-color: var(--text);
         }
 
@@ -145,14 +151,37 @@
         }
 
         /* Smile curve formation */
-        .social-links a:nth-child(1) { transform: translateY(-4rem); }
-        .social-links a:nth-child(2) { transform: translateY(-2rem); }
-        .social-links a:nth-child(3) { transform: translateY(-0.75rem); }
-        .social-links a:nth-child(4) { transform: translateY(0); }
-        .social-links a:nth-child(5) { transform: translateY(0); }
-        .social-links a:nth-child(6) { transform: translateY(-0.75rem); }
-        .social-links a:nth-child(7) { transform: translateY(-2rem); }
-        .social-links a:nth-child(8) { transform: translateY(-4rem); }
+        .social-links a:nth-child(1) {
+            transform: translateY(-4rem);
+        }
+
+        .social-links a:nth-child(2) {
+            transform: translateY(-2rem);
+        }
+
+        .social-links a:nth-child(3) {
+            transform: translateY(-0.75rem);
+        }
+
+        .social-links a:nth-child(4) {
+            transform: translateY(0);
+        }
+
+        .social-links a:nth-child(5) {
+            transform: translateY(0);
+        }
+
+        .social-links a:nth-child(6) {
+            transform: translateY(-0.75rem);
+        }
+
+        .social-links a:nth-child(7) {
+            transform: translateY(-2rem);
+        }
+
+        .social-links a:nth-child(8) {
+            transform: translateY(-4rem);
+        }
 
         .social-link:hover {
             transform: translateY(-2px);
@@ -166,14 +195,37 @@
         }
 
         /* Remove individual icon transforms */
-        .social-link[href*="x.com"] svg { fill: var(--twitter); }
-        .social-link[href*="github"] svg { fill: var(--github); }
-        .social-link[href*="instagram"] svg { fill: var(--instagram); }
-        .social-link[href*="soundcloud"] svg { fill: var(--soundcloud); }
-        .social-link[data-type="tip"] svg { fill: var(--tip); }
-        .social-link[href*="cal.com"] svg { fill: var(--cal); }
-        .social-link[href*="anchormarianas"] svg { fill: var(--anchor); }
-        .social-link[data-type="solana"] svg { fill: var(--solana); }
+        .social-link[href*="x.com"] svg {
+            fill: var(--twitter);
+        }
+
+        .social-link[href*="github"] svg {
+            fill: var(--github);
+        }
+
+        .social-link[href*="instagram"] svg {
+            fill: var(--instagram);
+        }
+
+        .social-link[href*="soundcloud"] svg {
+            fill: var(--soundcloud);
+        }
+
+        .social-link[data-type="tip"] svg {
+            fill: var(--tip);
+        }
+
+        .social-link[href*="cal.com"] svg {
+            fill: var(--cal);
+        }
+
+        .social-link[href*="anchormarianas"] svg {
+            fill: var(--anchor);
+        }
+
+        .social-link[data-type="solana"] svg {
+            fill: var(--solana);
+        }
 
         @media (max-width: 640px) {
             .controls {
@@ -188,19 +240,23 @@
 
             #theme-toggle {
                 position: static;
-                padding: 1.15rem;
+                padding: 0.25rem;
+                width: 64px;
+                height: 64px;
             }
 
             .logo {
                 position: static;
                 width: 64px;
                 height: 64px;
+                padding: 0;
                 margin: 0;
+                transform: scale(1.4);
             }
 
             #theme-toggle svg {
-                width: 1.75rem;
-                height: 1.75rem;
+                width: 3.5rem;
+                height: 3.5rem;
             }
 
             .social-links {
@@ -246,59 +302,157 @@
         }
 
         .paypal-link svg {
-            fill: var(--tip) !important;
+            fill: var(--text) !important;
+        }
+
+        /* Remove any color overrides */
+        .social-link svg {
+            fill: var(--text);
+        }
+
+        /* Remove any specific color overrides */
+        .social-link[href*="anchormarianas"] svg,
+        .social-link[href*="paypal"] svg {
+            fill: var(--text) !important;
         }
     </style>
 </head>
+
 <body>
     <main>
         <div class="controls">
-            <img id="logo-light" class="logo" src="atp-light.png" alt="ATP Light Logo" style="display: none;">
-            <img id="logo-dark" class="logo" src="atp-dark.png" alt="ATP Dark Logo" style="display: none;">
+            <svg id="logo-light" class="logo" viewBox="0 0 6000 6000" style="display: none;">
+                <rect width="6000" height="6000" fill="white" />
+                <path
+                    d="M4499.5 3000C4499.5 3828.15 3828.15 4499.5 3000 4499.5C2171.85 4499.5 1500.5 3828.15 1500.5 3000C1500.5 2171.85 2171.85 1500.5 3000 1500.5C3828.15 1500.5 4499.5 2171.85 4499.5 3000Z"
+                    fill="black" stroke="black" />
+                <path
+                    d="M4300 3000C4300 3717.97 3717.97 4300 3000 4300C2282.03 4300 1700 3717.97 1700 3000C1700 2282.03 2282.03 1700 3000 1700C3717.97 1700 4300 2282.03 4300 3000Z"
+                    fill="white" stroke="black" />
+                <g filter="url(#filter0_d_29_23)">
+                    <path
+                        d="M1970 4020C2699.65 3700.42 2899.55 3350.88 2999.5 2502C3099.45 3350.88 3299.36 3700.42 4039 4010.01"
+                        stroke="black" stroke-width="200" fill="none" />
+                </g>
+                <path d="M2900 1612H3100V2562H2900V1612Z" fill="black" />
+                <path d="M2700 3600V3400H3300V3600H2700Z" fill="black" />
+                <rect x="1655" y="2600" width="200" height="2700" transform="rotate(-90 1655 2600)" fill="black" />
+                <defs>
+                    <filter id="filter0_d_29_23" x="1925.88" y="2490.31" width="2155.73" height="1629.29"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_29_23" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_29_23" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+            <svg id="logo-dark" class="logo" viewBox="0 0 6000 6000" style="display: none;">
+                <rect width="6000" height="6000" fill="black" />
+                <path
+                    d="M4499.5 3000C4499.5 3828.15 3828.15 4499.5 3000 4499.5C2171.85 4499.5 1500.5 3828.15 1500.5 3000C1500.5 2171.85 2171.85 1500.5 3000 1500.5C3828.15 1500.5 4499.5 2171.85 4499.5 3000Z"
+                    fill="white" stroke="white" />
+                <path
+                    d="M4299.5 3000C4299.5 3717.69 3717.69 4299.5 3000 4299.5C2282.31 4299.5 1700.5 3717.69 1700.5 3000C1700.5 2282.31 2282.31 1700.5 3000 1700.5C3717.69 1700.5 4299.5 2282.31 4299.5 3000Z"
+                    fill="black" stroke="white" />
+                <g filter="url(#filter0_d_76_2)">
+                    <path
+                        d="M1970 4020C2699.65 3700.42 2899.55 3350.88 2999.5 2502C3099.45 3350.88 3299.36 3700.42 4039 4010.01"
+                        stroke="white" stroke-width="200" />
+                </g>
+                <path d="M2900.5 1612.5H3099.5V2561.5H2900.5V1612.5Z" fill="white" stroke="white" />
+                <path d="M2700.5 3599.5V3400.5H3299.5V3599.5H2700.5Z" fill="white" stroke="white" />
+                <path d="M1655.5 2599.5V2400.5H4354.5V2599.5H1655.5Z" fill="white" stroke="white" />
+                <defs>
+                    <filter id="filter0_d_76_2" x="1925.88" y="2490.31" width="2155.73" height="1629.29"
+                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="4" />
+                        <feGaussianBlur stdDeviation="2" />
+                        <feComposite in2="hardAlpha" operator="out" />
+                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_76_2" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_76_2" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
             <button id="theme-toggle" aria-label="Toggle theme">
-                <svg class="sun" viewBox="0 0 24 24"><path d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>
-                <svg class="moon" viewBox="0 0 24 24" style="display: none;"><path d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"/></svg>
+                <svg class="sun" viewBox="0 0 24 24">
+                    <path
+                        d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg>
+                <svg class="moon" viewBox="0 0 24 24" style="display: none;">
+                    <path
+                        d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                </svg>
             </button>
         </div>
 
         <div class="social-links">
-            <a href="https://x.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            </a>
-            <a href="https://soundcloud.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Music">
+            <a href="https://x.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="Twitter">
                 <svg viewBox="0 0 24 24">
-                    <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6zm-2 16c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                    <path
+                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
             </a>
-            <a href="https://instagram.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <svg viewBox="0 0 24 24"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/></svg>
-            </a>
-            <a class="social-link" data-type="solana" aria-label="Solana" onclick="navigator.clipboard.writeText('HLWmHJYJVUP759h5sUKVWpoeK6487TJXN2ffaG3jMgWk'); alert('Solana address copied to clipboard!');">
-                <svg viewBox="0 0 128 128">
-                    <defs>
-                        <linearGradient id="solana-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#AA14F0"/>
-                            <stop offset="100%" style="stop-color:#9945FF"/>
-                        </linearGradient>
-                    </defs>
-                    <path d="M26 87.5c0.5-0.5 1.2-0.8 2-0.8h70.9c1.5 0 2.3 1.8 1.2 2.9l-11.7 11.7c-0.5 0.5-1.2 0.8-2 0.8H16.5c-1.5 0-2.3-1.8-1.2-2.9l10.7-11.7zm0-24.2c0.5-0.5 1.2-0.8 2-0.8h70.9c1.5 0 2.3 1.8 1.2 2.9l-11.7 11.7c-0.5 0.5-1.2 0.8-2 0.8H16.5c-1.5 0-2.3-1.8-1.2-2.9l10.7-11.7zm70.9-24.2H28c-0.7 0-1.5 0.3-2 0.8L15.3 51.6c-1.1 1.1-0.3 2.9 1.2 2.9h69.9c0.7 0 1.5-0.3 2-0.8l11.7-11.7c1.1-1.1 0.3-2.9-1.2-2.9z" fill="url(#solana-gradient)"/>
-                </svg>
-            </a>
-            <a href="https://anchormarianas.com" class="social-link" style="fill: #009cde" target="_blank" rel="noopener noreferrer" aria-label="Anchor Marianas">
+            <a href="https://instagram.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram">
                 <svg viewBox="0 0 24 24">
-                    <path d="M21 5h-3V4c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v1H3c-.6 0-1 .4-1 1v14c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-.6-.4-1-1-1zM8 4h8v1H8V4zm11 16H5V8h14v12z"/>
+                    <path
+                        d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
                 </svg>
             </a>
-            <a href="https://paypal.me/adampang" class="social-link" style="fill: #009cde" target="_blank" rel="noopener noreferrer" aria-label="PayPal">
+            <a href="https://anchormarianas.com" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="Anchor Marianas">
+                <svg viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="5" r="3" fill="none" />
+                    <line x1="12" x2="12" y1="22" y2="8" />
+                    <path d="M5 12H2a10 10 0 0 0 20 0h-3" fill="none" />
+                </svg>
+            </a>
+            <a href="https://cal.com/adampang" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="Phone">
                 <svg viewBox="0 0 24 24">
-                    <path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/>
+                    <path
+                        d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z" />
                 </svg>
             </a>
-            <a href="https://cal.com/adampang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Phone">
-                <svg viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z"/></svg>
+            <a href="https://soundcloud.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="Music">
+                <svg viewBox="0 0 291.319 291.319">
+                    <path
+                        d="M72.83,218.485h18.207V103.832c-6.828,1.93-12.982,5.435-18.207,10.041C72.83,113.874,72.83,218.485,72.83,218.485z M36.415,140.921v77.436l1.174,0.127h17.033v-77.682H37.589C37.589,140.803,36.415,140.921,36.415,140.921z M0,179.63c0,14.102,7.338,26.328,18.207,33.147V146.52C7.338,153.329,0,165.556,0,179.63z M109.245,218.485h18.207v-109.6c-5.444-3.396-11.607-5.635-18.207-6.5V218.485z M253.73,140.803h-10.242c0.519-3.168,0.847-6.382,0.847-9.705c0-32.182-25.245-58.264-56.388-58.264c-16.896,0-31.954,7.775-42.287,19.955v125.695h108.07c20.747,0,37.589-17.388,37.589-38.855C291.319,158.182,274.477,140.803,253.73,140.803z" />
+                </svg>
             </a>
-            <a href="https://github.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+            <a href="https://github.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                </svg>
+            </a>
+            <a class="social-link" data-type="solana" aria-label="Solana"
+                onclick="navigator.clipboard.writeText('HLWmHJYJVUP759h5sUKVWpoeK6487TJXN2ffaG3jMgWk'); alert('Solana address copied to clipboard!');">
+                <svg viewBox="0 0 101 88">
+                    <path
+                        d="M100.48 69.3817L83.8068 86.8015C83.4444 87.1799 83.0058 87.4816 82.5185 87.6878C82.0312 87.894 81.5055 88.0003 80.9743 88H1.93563C1.55849 88 1.18957 87.8926 0.874202 87.6912C0.558829 87.4897 0.31074 87.2029 0.160416 86.8659C0.0100923 86.529 -0.0359181 86.1566 0.0280382 85.7945C0.0919944 85.4324 0.263131 85.0964 0.520422 84.8278L17.2061 67.408C17.5676 67.0306 18.0047 66.7295 18.4904 66.5234C18.9762 66.3172 19.5002 66.2104 20.0301 66.2095H99.0644C99.4415 66.2095 99.8104 66.3169 100.126 66.5183C100.441 66.7198 100.689 67.0067 100.84 67.3436C100.99 67.6806 101.036 68.0529 100.972 68.415C100.908 68.7771 100.737 69.1131 100.48 69.3817ZM83.8068 34.3032C83.4444 33.9248 83.0058 33.6231 82.5185 33.4169C82.0312 33.2108 81.5055 33.1045 80.9743 33.1048H1.93563C1.55849 33.1048 1.18957 33.2121 0.874202 33.4136C0.558829 33.6151 0.31074 33.9019 0.160416 34.2388C0.0100923 34.5758 -0.0359181 34.9482 0.0280382 35.3103C0.0919944 35.6723 0.263131 36.0083 0.520422 36.277L17.2061 53.6968C17.5676 54.0742 18.0047 54.3752 18.4904 54.5814C18.9762 54.7875 19.5002 54.8944 20.0301 54.8952H99.0644C99.4415 54.8952 99.8104 54.7879 100.126 54.5864C100.441 54.3849 100.689 54.0981 100.84 53.7612C100.99 53.4242 101.036 53.0518 100.972 52.6897C100.908 52.3277 100.737 51.9917 100.48 51.723L83.8068 34.3032ZM1.93563 21.7905H80.9743C81.5055 21.7907 82.0312 21.6845 82.5185 21.4783C83.0058 21.2721 83.4444 20.9704 83.8068 20.592L100.48 3.17219C100.737 2.90357 100.908 2.56758 100.972 2.2055C101.036 1.84342 100.99 1.47103 100.84 1.13408C100.689 0.79713 100.441 0.510296 100.126 0.308823C99.8104 0.107349 99.4415 1.24074e-05 99.0644 0L20.0301 0C19.5002 0.000878397 18.9762 0.107699 18.4904 0.313848C18.0047 0.519998 17.5676 0.821087 17.2061 1.19848L0.524723 18.6183C0.267681 18.8866 0.0966198 19.2223 0.0325185 19.5839C-0.0315829 19.9456 0.0140624 20.3177 0.163856 20.6545C0.31365 20.9913 0.561081 21.2781 0.875804 21.4799C1.19053 21.6817 1.55886 21.7896 1.93563 21.7905Z" />
+                </svg>
+            </a>
+            <a href="https://paypal.me/adampang" class="social-link" target="_blank" rel="noopener noreferrer"
+                aria-label="PayPal">
+                <svg viewBox="0 0 16 16">
+                    <path
+                        d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.35.35 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91q.57-.403.993-1.005a4.94 4.94 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.7 2.7 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.7.7 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016q.326.186.548.438c.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.87.87 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.35.35 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32z" />
+                </svg>
             </a>
         </div>
     </main>
@@ -329,7 +483,9 @@
             logoLight.style.display = theme === 'light' ? 'block' : 'none';
 
             // Update favicon
-            favicon.href = theme === 'dark' ? 'atp-dark.png' : 'atp-light.png';
+            favicon.href = theme === 'dark' ?
+                'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="black"/></svg>' :
+                'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="white"/></svg>';
         };
 
         // Set initial theme
@@ -349,4 +505,5 @@
         });
     </script>
 </body>
+
 </html>
