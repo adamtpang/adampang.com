@@ -63,80 +63,68 @@
         }
 
         .controls {
-            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 4rem;
             width: 100%;
-            height: 0;
+            position: relative;
+        }
+
+        .theme-controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
         }
 
         #theme-toggle {
-            position: fixed;
-            top: 20%;
-            bottom: auto;
-            left: calc(50% - 12rem);
             background: transparent;
-            border: 2px solid transparent;
-            padding: 0.5rem;
-            border-radius: 50%;
+            border: none;
             cursor: pointer;
-            transition: all 0.2s ease;
+            padding: 1rem;
+            width: 72px;
+            height: 72px;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 72px;
-            height: 72px;
-        }
-
-        #theme-toggle:hover {
-            transform: scale(1.1);
-            border-color: var(--text);
         }
 
         #theme-toggle svg {
             width: 4rem;
             height: 4rem;
             stroke: var(--text);
-            fill: none;
             stroke-width: 2;
-        }
-
-        main {
-            text-align: center;
-            max-width: 600px;
-            width: 100%;
+            fill: none;
         }
 
         .logo {
-            position: fixed;
-            top: 20%;
-            bottom: auto;
-            right: calc(50% - 12rem);
             width: 72px;
             height: 72px;
-            margin: 0;
-            transition: all 0.2s ease;
-            padding: 0;
-            border: 2px solid transparent;
-            border-radius: 50%;
-            object-fit: contain;
-            transform: scale(1.4);
         }
 
-        .logo:hover {
-            transform: scale(1.5);
-            border-color: var(--text);
+        .social-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 8rem;
+            padding: 2rem;
+            width: 100%;
+            max-width: min(600px, 90vw);
         }
 
         .social-links {
-            display: grid;
-            grid-template-columns: repeat(7, auto);
-            gap: clamp(0.75rem, 2vw, 1.5rem);
-            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
             width: 100%;
-            max-width: min(600px, 90vw);
-            margin: 0 auto;
-            margin-top: 16rem;
-            padding: 2rem;
-            position: relative;
+        }
+
+        .social-link-container {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
         }
 
         .social-link {
@@ -148,35 +136,9 @@
             align-items: center;
             justify-content: center;
             border: 2px solid transparent;
-        }
-
-        /* Smile curve formation */
-        .social-links a:nth-child(1) {
-            transform: translateY(-4rem);
-        }
-
-        .social-links a:nth-child(2) {
-            transform: translateY(-2rem);
-        }
-
-        .social-links a:nth-child(3) {
-            transform: translateY(-0.75rem);
-        }
-
-        .social-links a:nth-child(4) {
-            transform: translateY(0);
-        }
-
-        .social-links a:nth-child(5) {
-            transform: translateY(-0.75rem);
-        }
-
-        .social-links a:nth-child(6) {
-            transform: translateY(-2rem);
-        }
-
-        .social-links a:nth-child(7) {
-            transform: translateY(-4rem);
+            width: 72px;
+            height: 72px;
+            flex-shrink: 0;
         }
 
         .social-link:hover {
@@ -187,88 +149,32 @@
         .social-link svg {
             width: 2rem;
             height: 2rem;
-            transition: all 0.2s ease;
+            fill: var(--text);
         }
 
-        /* Remove individual icon transforms */
-        .social-link[href*="x.com"] svg {
-            fill: var(--twitter);
-        }
-
-        .social-link[href*="github"] svg {
-            fill: var(--github);
-        }
-
-        .social-link[href*="instagram"] svg {
-            fill: var(--instagram);
-        }
-
-        .social-link[href*="soundcloud"] svg {
-            fill: var(--soundcloud);
-        }
-
-        .social-link[data-type="tip"] svg {
-            fill: var(--tip);
-        }
-
-        .social-link[href*="cal.com"] svg {
-            fill: var(--cal);
-        }
-
-        .social-link[href*="anchormarianas"] svg {
-            fill: var(--anchor);
-        }
-
-        .social-link[data-type="solana"] svg {
-            fill: var(--solana);
+        .link-description {
+            font-size: 1rem;
+            color: var(--muted);
         }
 
         @media (max-width: 640px) {
-            .controls {
-                position: static;
-                height: auto;
-                display: grid;
-                grid-template-columns: repeat(2, auto);
-                gap: 1.25rem;
-                justify-content: center;
-                margin-bottom: 1.25rem;
+            .social-container {
+                margin-top: 2rem;
             }
 
-            #theme-toggle {
-                position: static;
-                padding: 0.25rem;
-                width: 64px;
-                height: 64px;
-            }
-
-            .logo {
-                position: static;
-                width: 64px;
-                height: 64px;
-                padding: 0;
-                margin: 0;
-                transform: scale(1.4);
-            }
-
-            #theme-toggle svg {
-                width: 3.5rem;
-                height: 3.5rem;
-            }
-
-            .social-links {
-                grid-template-columns: repeat(3, auto);
-                gap: 1.25rem;
-                padding: 1rem;
-                margin-top: 0;
-            }
-
-            /* Reset transforms for mobile */
             .social-link {
-                transform: none !important;
+                width: 64px;
+                height: 64px;
+                padding: 1rem;
             }
 
-            .social-link:hover {
-                transform: translateY(-2px) !important;
+            .social-link svg {
+                width: 1.75rem;
+                height: 1.75rem;
+            }
+
+            .link-description {
+                font-size: 0.875rem;
             }
         }
 
@@ -311,131 +217,124 @@
         .social-link[href*="paypal"] svg {
             fill: var(--text) !important;
         }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            position: relative;
+            margin: auto;
+            max-width: 90%;
+            max-height: 90vh;
+            background: var(--bg);
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+        }
+
+        .modal img {
+            max-width: 100%;
+            max-height: 60vh;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-text {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .modal-text span {
+            padding: 0.5rem 1.5rem;
+            background: var(--accent);
+            border-radius: 2rem;
+            color: var(--text);
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+            text-transform: lowercase;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: var(--text);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            line-height: 1;
+        }
     </style>
 </head>
 
 <body>
     <main>
-        <div class="controls">
-            <svg id="logo-light" class="logo" viewBox="0 0 6000 6000" style="display: none;">
-                <rect width="6000" height="6000" fill="white" />
-                <path
-                    d="M4499.5 3000C4499.5 3828.15 3828.15 4499.5 3000 4499.5C2171.85 4499.5 1500.5 3828.15 1500.5 3000C1500.5 2171.85 2171.85 1500.5 3000 1500.5C3828.15 1500.5 4499.5 2171.85 4499.5 3000Z"
-                    fill="black" stroke="black" />
-                <path
-                    d="M4300 3000C4300 3717.97 3717.97 4300 3000 4300C2282.03 4300 1700 3717.97 1700 3000C1700 2282.03 2282.03 1700 3000 1700C3717.97 1700 4300 2282.03 4300 3000Z"
-                    fill="white" stroke="black" />
-                <g filter="url(#filter0_d_29_23)">
-                    <path
-                        d="M1970 4020C2699.65 3700.42 2899.55 3350.88 2999.5 2502C3099.45 3350.88 3299.36 3700.42 4039 4010.01"
-                        stroke="black" stroke-width="200" fill="none" />
-                </g>
-                <path d="M2900 1612H3100V2562H2900V1612Z" fill="black" />
-                <path d="M2700 3600V3400H3300V3600H2700Z" fill="black" />
-                <rect x="1655" y="2600" width="200" height="2700" transform="rotate(-90 1655 2600)" fill="black" />
-                <defs>
-                    <filter id="filter0_d_29_23" x="1925.88" y="2490.31" width="2155.73" height="1629.29"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                            result="hardAlpha" />
-                        <feOffset dy="4" />
-                        <feGaussianBlur stdDeviation="2" />
-                        <feComposite in2="hardAlpha" operator="out" />
-                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_29_23" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_29_23" result="shape" />
-                    </filter>
-                </defs>
-            </svg>
-            <svg id="logo-dark" class="logo" viewBox="0 0 6000 6000" style="display: none;">
-                <rect width="6000" height="6000" fill="black" />
-                <path
-                    d="M4499.5 3000C4499.5 3828.15 3828.15 4499.5 3000 4499.5C2171.85 4499.5 1500.5 3828.15 1500.5 3000C1500.5 2171.85 2171.85 1500.5 3000 1500.5C3828.15 1500.5 4499.5 2171.85 4499.5 3000Z"
-                    fill="white" stroke="white" />
-                <path
-                    d="M4299.5 3000C4299.5 3717.69 3717.69 4299.5 3000 4299.5C2282.31 4299.5 1700.5 3717.69 1700.5 3000C1700.5 2282.31 2282.31 1700.5 3000 1700.5C3717.69 1700.5 4299.5 2282.31 4299.5 3000Z"
-                    fill="black" stroke="white" />
-                <g filter="url(#filter0_d_76_2)">
-                    <path
-                        d="M1970 4020C2699.65 3700.42 2899.55 3350.88 2999.5 2502C3099.45 3350.88 3299.36 3700.42 4039 4010.01"
-                        stroke="white" stroke-width="200" />
-                </g>
-                <path d="M2900.5 1612.5H3099.5V2561.5H2900.5V1612.5Z" fill="white" stroke="white" />
-                <path d="M2700.5 3599.5V3400.5H3299.5V3599.5H2700.5Z" fill="white" stroke="white" />
-                <path d="M1655.5 2599.5V2400.5H4354.5V2599.5H1655.5Z" fill="white" stroke="white" />
-                <defs>
-                    <filter id="filter0_d_76_2" x="1925.88" y="2490.31" width="2155.73" height="1629.29"
-                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                            result="hardAlpha" />
-                        <feOffset dy="4" />
-                        <feGaussianBlur stdDeviation="2" />
-                        <feComposite in2="hardAlpha" operator="out" />
-                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_76_2" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_76_2" result="shape" />
-                    </filter>
-                </defs>
-            </svg>
-            <button id="theme-toggle" aria-label="Toggle theme">
-                <svg class="sun" viewBox="0 0 24 24">
-                    <path
-                        d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-                </svg>
-                <svg class="moon" viewBox="0 0 24 24" style="display: none;">
-                    <path
-                        d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-                </svg>
-            </button>
-        </div>
-
-        <div class="social-links">
-            <a href="https://x.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
-                aria-label="Twitter">
-                <svg viewBox="0 0 24 24">
-                    <path
-                        d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-                </svg>
-            </a>
-            <a href="https://instagram.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
-                aria-label="Instagram">
-                <svg viewBox="0 0 24 24">
-                    <path
-                        d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
-                </svg>
-            </a>
-            <a href="https://anchormarianas.com" class="social-link" target="_blank" rel="noopener noreferrer"
-                aria-label="Anchor Marianas">
-                <svg viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <circle cx="12" cy="5" r="3" fill="none" />
-                    <line x1="12" x2="12" y1="22" y2="8" />
-                    <path d="M5 12H2a10 10 0 0 0 20 0h-3" fill="none" />
-                </svg>
-            </a>
-            <a href="https://github.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
-                aria-label="GitHub">
-                <svg viewBox="0 0 24 24">
-                    <path
-                        d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
-            </a>
-            <a class="social-link" data-type="solana" aria-label="Solana"
-                onclick="navigator.clipboard.writeText('HLWmHJYJVUP759h5sUKVWpoeK6487TJXN2ffaG3jMgWk'); alert('Solana address copied to clipboard!');">
-                <svg viewBox="0 0 101 88">
-                    <path
-                        d="M100.48 69.3817L83.8068 86.8015C83.4444 87.1799 83.0058 87.4816 82.5185 87.6878C82.0312 87.894 81.5055 88.0003 80.9743 88H1.93563C1.55849 88 1.18957 87.8926 0.874202 87.6912C0.558829 87.4897 0.31074 87.2029 0.160416 86.8659C0.0100923 86.529 -0.0359181 86.1566 0.0280382 85.7945C0.0919944 85.4324 0.263131 85.0964 0.520422 84.8278L17.2061 67.408C17.5676 67.0306 18.0047 66.7295 18.4904 66.5234C18.9762 66.3172 19.5002 66.2104 20.0301 66.2095H99.0644C99.4415 66.2095 99.8104 66.3169 100.126 66.5183C100.441 66.7198 100.689 67.0067 100.84 67.3436C100.99 67.6806 101.036 68.0529 100.972 68.415C100.908 68.7771 100.737 69.1131 100.48 69.3817ZM83.8068 34.3032C83.4444 33.9248 83.0058 33.6231 82.5185 33.4169C82.0312 33.2108 81.5055 33.1045 80.9743 33.1048H1.93563C1.55849 33.1048 1.18957 33.2121 0.874202 33.4136C0.558829 33.6151 0.31074 33.9019 0.160416 34.2388C0.0100923 34.5758 -0.0359181 34.9482 0.0280382 35.3103C0.0919944 35.6723 0.263131 36.0083 0.520422 36.277L17.2061 53.6968C17.5676 54.0742 18.0047 54.3752 18.4904 54.5814C18.9762 54.7875 19.5002 54.8944 20.0301 54.8952H99.0644C99.4415 54.8952 99.8104 54.7879 100.126 54.5864C100.441 54.3849 100.689 54.0981 100.84 53.7612C100.99 53.4242 101.036 53.0518 100.972 52.6897C100.908 52.3277 100.737 51.9917 100.48 51.723L83.8068 34.3032ZM1.93563 21.7905H80.9743C81.5055 21.7907 82.0312 21.6845 82.5185 21.4783C83.0058 21.2721 83.4444 20.9704 83.8068 20.592L100.48 3.17219C100.737 2.90357 100.908 2.56758 100.972 2.2055C101.036 1.84342 100.99 1.47103 100.84 1.13408C100.689 0.79713 100.441 0.510296 100.126 0.308823C99.8104 0.107349 99.4415 1.24074e-05 99.0644 0L20.0301 0C19.5002 0.000878397 18.9762 0.107699 18.4904 0.313848C18.0047 0.519998 17.5676 0.821087 17.2061 1.19848L0.524723 18.6183C0.267681 18.8866 0.0966198 19.2223 0.0325185 19.5839C-0.0315829 19.9456 0.0140624 20.3177 0.163856 20.6545C0.31365 20.9913 0.561081 21.2781 0.875804 21.4799C1.19053 21.6817 1.55886 21.7896 1.93563 21.7905Z" />
-                </svg>
-            </a>
-            <a href="https://paypal.me/adampang" class="social-link" target="_blank" rel="noopener noreferrer"
-                aria-label="PayPal">
-                <svg viewBox="0 0 16 16">
-                    <path
-                        d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.35.35 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91q.57-.403.993-1.005a4.94 4.94 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.7 2.7 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.7.7 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016q.326.186.548.438c.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.87.87 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.35.35 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32z" />
-                </svg>
-            </a>
+        <div class="social-container">
+            <div class="social-links">
+                <div class="social-link-container">
+                    <a href="https://x.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
+                        aria-label="Twitter">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </a>
+                    <span class="link-description">Mind</span>
+                </div>
+                <div class="social-link-container">
+                    <a href="https://instagram.com/adamtpang" class="social-link" target="_blank"
+                        rel="noopener noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
+                        </svg>
+                    </a>
+                    <span class="link-description">Body</span>
+                </div>
+                <div class="social-link-container">
+                    <a href="https://github.com/adamtpang" class="social-link" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                        </svg>
+                    </a>
+                    <span class="link-description">Input</span>
+                </div>
+                <div class="social-link-container">
+                    <a href="https://anchormarianas.com" class="social-link" target="_blank" rel="noopener noreferrer"
+                        aria-label="Anchor Marianas">
+                        <svg viewBox="0 0 24 24" stroke="var(--text)" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="12" cy="5" r="3" fill="none" />
+                            <line x1="12" x2="12" y1="22" y2="8" />
+                            <path d="M5 12H2a10 10 0 0 0 20 0h-3" fill="none" />
+                        </svg>
+                    </a>
+                    <span class="link-description">Output</span>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -483,6 +382,24 @@
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
             if (!localStorage.getItem('theme')) {
                 setTheme('dark'); // Always default to dark mode
+            }
+        });
+
+        const modal = document.getElementById('profile-modal');
+        const openModal = document.getElementById('open-modal');
+        const closeModal = document.querySelector('.close-modal');
+
+        openModal.addEventListener('click', () => {
+            modal.classList.add('active');
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.classList.remove('active');
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
             }
         });
     </script>
