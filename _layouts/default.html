@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    typography: {
+                        DEFAULT: {
+                            css: {
+                                maxWidth: 'none',
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom styles for checkbox hack -->
+    <style>
+        #mobile-menu-toggle:checked~div {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+    {% include nav.html %}
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {{ content }}
+    </main>
+
+    <footer class="bg-white border-t mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="text-center text-gray-600 text-sm">
+                <p>&copy; {{ 'now' | date: "%Y" }} Adam Pangelinan. Built with Jekyll & hosted on GitHub Pages.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

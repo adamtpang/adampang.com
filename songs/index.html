@@ -1,0 +1,66 @@
+---
+layout: default
+title: Songs
+description: Musical creations and compositions by Adam Pangelinan
+---
+
+<section class="py-12">
+    <div class="mb-12">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Songs 🎵</h1>
+        <p class="text-lg md:text-xl text-gray-600">
+            Musical creations and compositions - {{ site.songs | size }} tracks so far
+        </p>
+    </div>
+
+    {% if site.songs.size > 0 %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {% for song in site.songs %}
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            {% if song.cover %}
+            <div class="aspect-square bg-gray-200">
+                <img src="{{ song.cover | relative_url }}" alt="{{ song.title }}" class="w-full h-full object-cover">
+            </div>
+            {% else %}
+            <div class="aspect-square bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                <span class="text-white text-6xl">🎵</span>
+            </div>
+            {% endif %}
+
+            <div class="p-4">
+                <h2 class="text-xl font-bold text-gray-900 mb-2">{{ song.title }}</h2>
+
+                {% if song.status %}
+                <div class="mb-2">
+                    {% if song.status == 'finished' %}
+                    <span
+                        class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs font-semibold">Finished</span>
+                    {% elsif song.status == 'wip' %}
+                    <span
+                        class="inline-block bg-yellow-100 text-yellow-800 px-2 py-1 rounded-full text-xs font-semibold">Work
+                        in Progress</span>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if song.content and song.content != '' %}
+                <p class="text-gray-600 text-sm mb-3">{{ song.content | strip_html | truncate: 100 }}</p>
+                {% endif %}
+
+                {% if song.link %}
+                <a href="{{ song.link }}" target="_blank" rel="noopener noreferrer"
+                    class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded text-sm transition-colors">
+                    Listen
+                </a>
+                {% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="text-center py-16">
+        <div class="text-6xl mb-4">🎵</div>
+        <h2 class="text-2xl font-bold text-gray-900 mb-2">No songs yet</h2>
+        <p class="text-gray-600">Check back soon for musical creations!</p>
+    </div>
+    {% endif %}
+</section>

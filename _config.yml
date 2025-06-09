@@ -1,0 +1,45 @@
+title: Adam Pangelinan
+description: Personal site of Adam Pangelinan - Songs, Apps, Essays
+url: "https://adampang.com"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+collections:
+  songs:
+    output: true
+    permalink: /songs/:name/
+  apps:
+    output: true
+    permalink: /apps/:name/
+  essays:
+    output: true
+    permalink: /essays/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "songs"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "apps"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
