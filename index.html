@@ -1,64 +1,465 @@
 ---
 layout: default
-title: Home
-description: Personal site of Adam Pangelinan - musician, developer, writer
 ---
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --rich-black: #05070F;
+        --oxford-blue: #050A2C;
+        --ultra-violet: #545D7C;
+        --space-cadet: #1F2A4B;
 
-<section class="py-12">
-    <div class="text-center mb-12">
-        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-4">Adam Pangelinan</h1>
-        <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            Building things with music, code, and words.
-        </p>
+        --primary: var(--ultra-violet);
+        --secondary: var(--space-cadet);
+        --accent: var(--ultra-violet);
+        --bg: var(--rich-black);
+        --text: #f0f0f0;
+        --glass: rgba(84, 93, 124, 0.1);
+        --border: rgba(84, 93, 124, 0.2);
+        --shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Syne', sans-serif;
+        text-transform: lowercase;
+        background: var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        overflow-x: hidden;
+        padding-top: 2rem;
+    }
+
+    /* Animated background */
+    body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 20% 50%, rgba(31, 42, 75, 0.4) 0%, rgba(84, 93, 124, 0.3) 25%, rgba(5, 10, 44, 0.4) 50%, rgba(5, 7, 15, 0.95) 100%);
+        background-size: 400% 400%;
+        animation: gradient 20s ease infinite;
+        z-index: -1;
+    }
+
+    @keyframes gradient {
+
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+
+    .container {
+        max-width: 600px;
+        width: 90%;
+        text-align: center;
+        animation: fadeIn 1s ease;
+        padding: 2rem 0;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin: 0 auto 2rem;
+        border: 3px solid var(--primary);
+        box-shadow: var(--shadow);
+        background: var(--glass);
+        backdrop-filter: blur(10px);
+    }
+
+    .bio-box {
+        background: var(--glass);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        backdrop-filter: blur(15px);
+        box-shadow: var(--shadow);
+        text-align: left;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .music-player {
+        background: var(--glass);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        backdrop-filter: blur(15px);
+        box-shadow: var(--shadow);
+    }
+
+    .music-controls {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .play-button {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: var(--primary);
+        border: none;
+        color: var(--bg);
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 16px rgba(148, 157, 61, 0.3);
+    }
+
+    .play-button:hover {
+        background: var(--accent);
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(158, 85, 75, 0.4);
+    }
+
+    .track-info {
+        flex: 1;
+        text-align: left;
+    }
+
+    .track-title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.25rem;
+        color: var(--primary);
+    }
+
+    .track-artist {
+        font-size: 1rem;
+        opacity: 0.8;
+        color: var(--cadet-gray);
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 6px;
+        background: rgba(130, 153, 162, 0.3);
+        border-radius: 3px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .progress-fill {
+        height: 100%;
+        background: var(--primary);
+        width: 0%;
+        border-radius: 3px;
+        transition: width 0.1s ease;
+    }
+
+    .time-display {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        margin-top: 0.75rem;
+        color: var(--rose-quartz);
+        font-weight: 500;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 2rem 1.5rem;
+        background: var(--glass);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        text-decoration: none;
+        color: var(--text);
+        transition: all 0.3s ease;
+        backdrop-filter: blur(15px);
+        aspect-ratio: 1;
+        box-shadow: var(--shadow);
+    }
+
+    .link:hover {
+        background: rgba(130, 153, 162, 0.2);
+        border-color: var(--primary);
+        transform: translateY(-6px);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .link-emoji {
+        font-size: 3rem;
+        line-height: 1;
+        margin-bottom: 0.5rem;
+    }
+
+    .link-text {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--text);
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+        .container {
+            max-width: 400px;
+        }
+
+        .links {
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+        }
+
+        .hero-image {
+            height: 250px;
+        }
+
+        .music-player {
+            padding: 1.5rem;
+        }
+
+        .link {
+            padding: 1.5rem 1rem;
+        }
+
+        .link-emoji {
+            font-size: 2.5rem;
+        }
+
+        .link-text {
+            font-size: 1rem;
+        }
+    }
+
+    .track-info,
+    .link-text {
+        font-family: 'Syne', sans-serif;
+    }
+</style>
+
+<div class="container">
+    <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image">
+
+    <div class="music-player">
+        <div class="music-controls">
+            <button class="play-button" id="playButton">▶</button>
+            <div class="track-info">
+                <div class="track-title">Punksong</div>
+                <div class="track-artist">CFCF</div>
+            </div>
+        </div>
+        <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="time-display">
+            <span id="currentTime">0:00</span>
+            <span id="duration">--:--</span>
+        </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
-        <!-- Songs Card -->
-        <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-            <div class="text-center">
-                <div class="text-4xl mb-4">🎵</div>
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">Songs</h2>
-                <p class="text-gray-600 mb-4">Musical creations and compositions</p>
-                <div class="text-sm text-gray-500 mb-4">
-                    count: {{ site.songs | size }} / 100
-                </div>
-                <a href="/songs/"
-                    class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition-colors">
-                    view all
-                </a>
-            </div>
-        </article>
-
-        <!-- Apps Card -->
-        <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-            <div class="text-center">
-                <div class="text-4xl mb-4">⚡</div>
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">Apps</h2>
-                <p class="text-gray-600 mb-4">Software projects and tools</p>
-                <div class="text-sm text-gray-500 mb-4">
-                    count: {{ site.apps | size }} / 100
-                </div>
-                <a href="/apps/"
-                    class="inline-block bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md transition-colors">
-                    view all
-                </a>
-            </div>
-        </article>
-
-        <!-- Essays Card -->
-        <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-            <div class="text-center">
-                <div class="text-4xl mb-4">✍️</div>
-                <h2 class="text-2xl font-bold text-gray-900 mb-2">Essays</h2>
-                <p class="text-gray-600 mb-4">Thoughts and reflections</p>
-                <div class="text-sm text-gray-500 mb-4">
-                    count: {{ site.essays | size }} / 100
-                </div>
-                <a href="/essays/"
-                    class="inline-block bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded-md transition-colors">
-                    view all
-                </a>
-            </div>
-        </article>
+    <div class="links">
+        {% for link in site.data.links %}
+        <a href="{{ link.url }}" class="link" {% if link.target %}target="{{ link.target }}" {% endif %}>
+            {% assign parts = link.title | split: ' ' %}
+            <span class="link-emoji">{{ parts[0] }}</span>
+            <span class="link-text">{{ parts[1] }}</span>
+        </a>
+        {% endfor %}
     </div>
-</section>
+</div>
+
+<audio id="audioPlayer" preload="none" loop>
+    <source src="{{ '/assets/song.mp3' | relative_url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    const audio = document.getElementById('audioPlayer');
+    const playButton = document.getElementById('playButton');
+    const progressBar = document.getElementById('progressBar');
+    const progressFill = document.getElementById('progressFill');
+    const currentTimeEl = document.getElementById('currentTime');
+    const durationEl = document.getElementById('duration');
+
+    // Format time helper
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+
+    // Update duration when metadata loads
+    audio.addEventListener('loadedmetadata', () => {
+        if (audio.duration && isFinite(audio.duration)) {
+            durationEl.textContent = formatTime(audio.duration);
+            console.log('Audio loaded successfully, duration:', audio.duration);
+        } else {
+            console.warn('Invalid audio duration:', audio.duration);
+            durationEl.textContent = '--:--';
+        }
+    });
+
+    // Audio error handling
+    audio.addEventListener('error', (e) => {
+        console.error('Audio error:', e);
+        console.error('Audio error code:', audio.error?.code);
+        console.error('Audio error message:', audio.error?.message);
+        console.error('Audio src:', audio.src);
+        console.error('Audio currentSrc:', audio.currentSrc);
+
+        // Reset UI on error
+        playButton.textContent = '▶';
+        progressFill.style.width = '0%';
+        currentTimeEl.textContent = '0:00';
+        durationEl.textContent = '--:--';
+
+        // Update track info to show error
+        document.querySelector('.track-title').textContent = 'Audio Error';
+        document.querySelector('.track-artist').textContent = 'File not found or corrupted';
+    });
+
+    // Audio can play through
+    audio.addEventListener('canplaythrough', () => {
+        console.log('Audio can play through');
+    });
+
+    // Handle audio loading issues
+    audio.addEventListener('loadstart', () => {
+        console.log('Audio loading started...');
+    });
+
+    // Handle when audio data starts loading
+    audio.addEventListener('loadeddata', () => {
+        console.log('Audio data loaded');
+    });
+
+    // Handle audio stalling
+    audio.addEventListener('stalled', () => {
+        console.warn('Audio loading stalled');
+    });
+
+    // Handle audio waiting for data
+    audio.addEventListener('waiting', () => {
+        console.log('Audio waiting for more data');
+    });
+
+    // Test if audio file is accessible
+    fetch("{{ '/assets/song.mp3' | relative_url }}", { method: 'HEAD' })
+        .then(response => {
+            if (response.ok) {
+                console.log('Audio file is accessible via HTTP');
+                console.log('Content-Type:', response.headers.get('content-type'));
+                console.log('Content-Length:', response.headers.get('content-length'));
+            } else {
+                console.error('Audio file HTTP check failed:', response.status, response.statusText);
+            }
+        })
+        .catch(error => {
+            console.error('Audio file fetch test failed:', error);
+        });
+
+    // Play/pause functionality
+    playButton.addEventListener('click', async () => {
+        try {
+            if (audio.paused) {
+                console.log('Attempting to play audio...');
+
+                // Load the audio first if not loaded
+                if (audio.readyState === 0) {
+                    audio.load();
+                    await new Promise(resolve => {
+                        audio.addEventListener('canplay', resolve, { once: true });
+                    });
+                }
+
+                await audio.play();
+                playButton.textContent = '⏸';
+                console.log('Audio playing successfully');
+            } else {
+                audio.pause();
+                playButton.textContent = '▶';
+                console.log('Audio paused');
+            }
+        } catch (error) {
+            console.error('Error playing audio:', error);
+
+            // Show user-friendly message
+            playButton.textContent = '❌';
+            setTimeout(() => {
+                playButton.textContent = '▶';
+            }, 2000);
+
+            // Update track info to show error
+            document.querySelector('.track-title').textContent = 'Audio Unavailable';
+            document.querySelector('.track-artist').textContent = 'Check console for details';
+        }
+    });
+
+    // Update progress bar and time
+    audio.addEventListener('timeupdate', () => {
+        if (audio.duration && isFinite(audio.duration) && audio.duration > 0) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressFill.style.width = `${Math.min(progress, 100)}%`;
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+        } else {
+            // If duration is unknown, just show current time
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+            progressFill.style.width = '0%';
+        }
+    });
+
+    // Click on progress bar to seek
+    progressBar.addEventListener('click', (e) => {
+        const rect = progressBar.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const clickPercent = clickX / rect.width;
+        audio.currentTime = clickPercent * audio.duration;
+    });
+
+    // Reset play button when song ends
+    audio.addEventListener('ended', () => {
+        playButton.textContent = '▶';
+        progressFill.style.width = '0%';
+        currentTimeEl.textContent = '0:00';
+    });
+</script>

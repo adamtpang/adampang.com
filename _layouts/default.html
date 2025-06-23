@@ -1,53 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description"
-        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yo</title>
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    typography: {
-                        DEFAULT: {
-                            css: {
-                                maxWidth: 'none',
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:description"
+        content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
 
-    <!-- Custom styles for checkbox hack -->
-    <style>
-        #mobile-menu-toggle:checked~div {
-            display: block !important;
-        }
-    </style>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="twitter:description"
+        content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
 </head>
 
-<body class="bg-gray-50 min-h-screen">
-    {% include nav.html %}
-
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {{ content }}
-    </main>
-
-    <footer class="bg-white border-t mt-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <div class="text-center text-gray-600 text-sm">
-                <p>&copy; {{ 'now' | date: "%Y" }} Adam Pangelinan. Built with Jekyll & hosted on GitHub Pages.</p>
-            </div>
-        </div>
-    </footer>
+<body>
+    {{ content }}
 </body>
 
 </html>

@@ -1,45 +1,25 @@
-title: Adam Pangelinan
-description: Personal site of Adam Pangelinan - Songs, Apps, Essays
+title: Adam Pang
+description: I build software that helps people make better decisions about real estate, while exploring music and ideas through creative projects.
 url: "https://adampang.com"
-baseurl: ""
+email: adam@adampang.com
 
+# Links collection
+# Single links file processing
+plugins:
+  - jekyll-feed
+
+# Site settings
+timezone: America/Los_Angeles
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+sass:
+  style: compressed
 
-collections:
-  songs:
-    output: true
-    permalink: /songs/:name/
-  apps:
-    output: true
-    permalink: /apps/:name/
-  essays:
-    output: true
-    permalink: /essays/:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "songs"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "apps"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "essays"
-    values:
-      layout: "default"
-
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+
+# Theme system
+current_theme: "memoryland"  # Change this to switch themes
+allow_theme_switching: true  # Set to false to disable user theme switching
