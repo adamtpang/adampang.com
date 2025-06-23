@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# adampang.com
 
-## Getting Started
+Personal site with theme system, progress tracking, and seamless link management. Inspired by [mem0ry.land](https://www.mem0ry.land/) aesthetics and [Maanasa's progress tracker](https://www.diaryofmaanasa.com/progress) functionality.
 
-First, run the development server:
+## Features
+
+- **🎨 Theme System**: 3 distinct "outfits" (memoryland, midnight, sunrise)
+- **🎵 Music Integration**: Theme-specific tracks with Spotify links
+- **📊 Progress Tracking**: Visual quest system (100 songs/apps/essays)
+- **🔗 Smart Links**: Single-file markdown management system
+- **📱 Mobile-First**: Responsive design with Space Grotesk typography
+- **✨ Interactive**: Floating particles, theme switching, easter eggs
+- **🔍 SEO Optimized**: Proper meta tags, Open Graph, Twitter cards
+- **🎮 Gamified**: Progress bars, quest tracking, achievement system
+
+## Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+jekyll serve
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:4000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Link Management
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit `_links/links.md` to manage all your links in one place:
 
-## Learn More
+```markdown
+---
+title: "Links"
+---
 
-To learn more about Next.js, take a look at the following resources:
+# My Links
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🎵 music | https://soundcloud.com/adampang | _blank
+💬 chat | https://cal.com/adampang | _blank
+💼 work | https://anchormarianas.com | _blank
+💻 code | https://github.com/adampang | _blank
+📧 email | mailto:adam@adampang.com |
+☕ support | https://buymeacoffee.com/adampang | _blank
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Format**: `emoji title | url | target`
+- `target` is optional (use `_blank` for new tabs)
+- The system automatically generates bento cards
 
-## Deploy on Vercel
+## Interactive Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Floating Particles**: Ambient background animation
+- **Cursor Trail**: Visual feedback on mouse movement
+- **Hover Effects**: Shimmer animations on link cards
+- **Easter Egg**: Try the Konami code (↑↑↓↓←→←→BA)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+- **Background**: Add `/assets/background.jpg` for custom background
+- **Music**: Add `/assets/vibes.mp3` for background music
+- **Colors**: Edit CSS variables in `index.html`
+- **Links**: Edit `_links/links.md` for all link management
+
+## Structure
+
+```
+adampang.com/
+├── _config.yml              # Jekyll configuration
+├── _layouts/default.html    # Main layout
+├── _links/links.md          # Single file for all links
+├── _plugins/links_parser.rb # Custom parser for links
+├── assets/                  # Images and audio
+├── index.html              # Main page with all styling
+└── README.md               # This file
+```
+
+## Philosophy
+
+This site embodies the "adampang.com" philosophy - 12 characters that say it all. The `.com` signals developer identity while the minimalist approach maximizes impact. It's designed as a memorable, game-like experience that serves as your internet hub.
+
+## Deployment
+
+Push to GitHub Pages main branch for automatic deployment.

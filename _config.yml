@@ -1,0 +1,25 @@
+title: Adam Pang
+description: I build software that helps people make better decisions about real estate, while exploring music and ideas through creative projects.
+url: "https://adampang.com"
+email: adam@adampang.com
+
+# Links collection
+# Single links file processing
+plugins:
+  - jekyll-feed
+
+# Site settings
+timezone: America/Los_Angeles
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Theme system
+current_theme: "memoryland"  # Change this to switch themes
+allow_theme_switching: true  # Set to false to disable user theme switching
