@@ -1,0 +1,41 @@
+default_theme: "memoryland"
+
+themes:
+  memoryland:
+    name: "memoryland"
+    description: "Nostalgic synthwave vibes inspired by CFCF"
+    colors:
+      primary: "#DA3D87"      # Magenta
+      secondary: "#233383"    # Resolution Blue
+      background: "#000000"   # Pure Black
+      text: "#ffffff"         # Pure White
+      accent: "#ff6b9d"       # Light Pink
+    gradient: "radial-gradient(circle at 20% 50%, rgba(35, 51, 131, 0.8) 0%, rgba(218, 61, 135, 0.6) 25%, rgba(35, 51, 131, 0.9) 50%, rgba(0, 0, 0, 0.95) 100%)"
+    particles: true
+    animations: "dreamy"
+
+  midnight:
+    name: "midnight"
+    description: "Dark minimal aesthetic"
+    colors:
+      primary: "#6366f1"      # Indigo
+      secondary: "#1e1b4b"    # Dark Indigo
+      background: "#0f0f0f"   # Near Black
+      text: "#f8fafc"         # Off White
+      accent: "#8b5cf6"       # Purple
+    gradient: "radial-gradient(circle at 30% 40%, rgba(30, 27, 75, 0.7) 0%, rgba(99, 102, 241, 0.4) 30%, rgba(15, 15, 15, 0.9) 70%, rgba(0, 0, 0, 1) 100%)"
+    particles: false
+    animations: "minimal"
+
+  sunrise:
+    name: "sunrise"
+    description: "Warm optimistic morning vibes"
+    colors:
+      primary: "#f59e0b"      # Amber
+      secondary: "#dc2626"    # Red
+      background: "#fef3c7"   # Light Amber
+      text: "#1f2937"         # Dark Gray
+      accent: "#f97316"       # Orange
+    gradient: "radial-gradient(circle at 70% 30%, rgba(252, 211, 77, 0.6) 0%, rgba(245, 158, 11, 0.4) 40%, rgba(220, 38, 38, 0.3) 70%, rgba(254, 243, 199, 0.9) 100%)"
+    particles: true
+    animations: "energetic"
