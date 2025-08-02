@@ -5,7 +5,7 @@ export default function Document() {
 	return (
 		<Html className="">
 			<Head>
-				<title>adampang.com</title>
+				<title>yo</title>
 				<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 				<meta name="title" content="Adam Pang" />
 				{/* facebook  / open graph */}

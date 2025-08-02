@@ -19,27 +19,27 @@ const IntroCard = ({ section }) => {
       }}
     >
       <div className="relative overflow-hidden">
-        <div className="md:hidden absolute top-8 right-10 rotate-180 -mt-10 w-[100px]">
+        {/* <div className="md:hidden absolute top-8 right-10 rotate-180 -mt-10 w-[100px]">
           <Image className="dark:brightness-75" src={Transparentpfp} />
-        </div>
+        </div> */}
         <div className="">
-          <motion.div
+          {/* <motion.div
             variants={{ groupHover: { y: 220 } }}
             style={{ rotate: 180, zIndex: 20 }}
             className="hidden 2xl:block absolute -top-32 2xl:-top-52 right-10 rotate-180
 						-mt-10 w-32 2xl:w-60"
           >
             <Image className="dark:brightness-90" src={Transparentpfp} />{" "}
-          </motion.div>
+          </motion.div> */}
         </div>
         <div>
-          <motion.div
+          {/* <motion.div
             variants={{ groupHover: { y: 150 } }}
             style={{ rotate: 180, zIndex: 20 }}
             className="2xl:hidden absolute -top-32 2xl:-top-52 right-10 rotate-180 -mt-10 w-32 2xl:w-60"
           >
             <Image className="dark:brightness-90" src={Transparentpfp} />{" "}
-          </motion.div>
+          </motion.div> */}
           <div className="text-3xl md:text-4xl 2xl:text-4xl 2xl:mt-16 m-6 md:ml-6 ml-5 md:m-8 font-nunito font-bold">
             Hi, I&apos;m Adam!
           </div>
