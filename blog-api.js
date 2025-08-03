@@ -376,32 +376,40 @@ app.post('/api/deploy', async (req, res) => {
     
     // Check git status
     const { stdout: gitStatus } = await execAsync('git status --porcelain');
+    const { stdout: gitStatusFull } = await execAsync('git status');
     
-    if (!gitStatus.trim()) {
+    // Check if we have uncommitted changes
+    const hasUncommittedChanges = gitStatus.trim().length > 0;
+    
+    // Check if we have commits to push
+    const hasCommitsToPush = gitStatusFull.includes('ahead of') || gitStatusFull.includes('branch is ahead');
+    
+    if (!hasUncommittedChanges && !hasCommitsToPush) {
       return res.json({ 
         success: true, 
-        message: 'No changes to deploy',
+        message: 'No changes to deploy - everything is up to date!',
         alreadyUpToDate: true 
       });
     }
     
-    console.log('Changes detected:', gitStatus);
+    console.log('Changes detected. Uncommitted:', hasUncommittedChanges, 'To push:', hasCommitsToPush);
     
-    // Add all changes
-    await execAsync('git add .');
-    console.log('Files added to git');
+    let commitMessage = '';
     
-    // Create commit message
-    const timestamp = new Date().toISOString().replace('T', ' ').split('.')[0];
-    const commitMessage = `Update blog posts - ${timestamp}
-
-🤖 Generated with [Claude Code](https://claude.ai/code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>`;
-    
-    // Commit changes
-    await execAsync(`git commit -m "${commitMessage}"`);
-    console.log('Changes committed');
+    // If we have uncommitted changes, commit them
+    if (hasUncommittedChanges) {
+      // Add all changes
+      await execAsync('git add .');
+      console.log('Files added to git');
+      
+      // Create commit message
+      const timestamp = new Date().toISOString().replace('T', ' ').split('.')[0];
+      commitMessage = `Update blog posts - ${timestamp}`;
+      
+      // Commit changes (using single quotes to avoid shell escaping issues)
+      await execAsync(`git commit -m '${commitMessage}'`);
+      console.log('Changes committed');
+    }
     
     // Push to GitHub
     await execAsync('git push origin main');
@@ -435,6 +443,62 @@ Co-Authored-By: Claude <noreply@anthropic.com>`;
     
     res.status(500).json({ 
       error: errorMessage,
+      details: error.message 
+    });
+  }
+});
+
+// Git status endpoint
+app.get('/api/git-status', async (req, res) => {
+  try {
+    const { stdout: gitStatus } = await execAsync('git status --porcelain');
+    const { stdout: gitStatusFull } = await execAsync('git status');
+    const { stdout: gitLog } = await execAsync('git log --oneline -5').catch(() => ({ stdout: 'No commits yet' }));
+    
+    const hasUncommittedChanges = gitStatus.trim().length > 0;
+    const hasCommitsToPush = gitStatusFull.includes('ahead of') || gitStatusFull.includes('branch is ahead');
+    
+    let statusHtml = '<div style="font-family: monospace; background: #f8f9fa; padding: 1rem; border-radius: 4px; margin: 1rem 0;">';
+    
+    if (!hasUncommittedChanges && !hasCommitsToPush) {
+      statusHtml += '<p style="color: #28a745;"><strong>✅ Everything up to date!</strong></p>';
+      statusHtml += '<p>No changes to commit or push.</p>';
+    } else {
+      if (hasUncommittedChanges) {
+        statusHtml += '<p style="color: #dc3545;"><strong>⚠️ Uncommitted changes:</strong></p>';
+        statusHtml += `<pre>${gitStatus}</pre>`;
+      }
+      
+      if (hasCommitsToPush) {
+        statusHtml += '<p style="color: #ffc107;"><strong>📤 Commits ready to push:</strong></p>';
+        const commitsToPush = gitStatusFull.match(/ahead of .* by (\d+) commit/);
+        if (commitsToPush) {
+          statusHtml += `<p>${commitsToPush[1]} commit(s) waiting to be pushed to GitHub</p>`;
+        }
+      }
+      
+      statusHtml += '<hr style="margin: 1rem 0;">';
+      statusHtml += '<p><strong>Manual commands to deploy:</strong></p>';
+      statusHtml += '<pre>git push origin main</pre>';
+    }
+    
+    statusHtml += '<hr style="margin: 1rem 0;">';
+    statusHtml += '<p><strong>Recent commits:</strong></p>';
+    statusHtml += `<pre>${gitLog}</pre>`;
+    statusHtml += '</div>';
+    
+    res.json({
+      hasUncommittedChanges,
+      hasCommitsToPush,
+      statusHtml,
+      gitStatus: gitStatus.trim(),
+      gitStatusFull
+    });
+    
+  } catch (error) {
+    console.error('Git status error:', error);
+    res.status(500).json({ 
+      error: 'Failed to get Git status',
       details: error.message 
     });
   }
