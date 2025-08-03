@@ -5,6 +5,10 @@ const fs = require('fs').promises;
 const path = require('path');
 const cors = require('cors');
 const matter = require('gray-matter');
+const { exec } = require('child_process');
+const { promisify } = require('util');
+
+const execAsync = promisify(exec);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -362,6 +366,77 @@ app.get('/api/drafts/:filename', async (req, res) => {
   } catch (error) {
     console.error('Error fetching draft:', error);
     res.status(404).json({ error: 'Draft not found' });
+  }
+});
+
+// Deploy to GitHub
+app.post('/api/deploy', async (req, res) => {
+  try {
+    console.log('Starting deployment process...');
+    
+    // Check git status
+    const { stdout: gitStatus } = await execAsync('git status --porcelain');
+    
+    if (!gitStatus.trim()) {
+      return res.json({ 
+        success: true, 
+        message: 'No changes to deploy',
+        alreadyUpToDate: true 
+      });
+    }
+    
+    console.log('Changes detected:', gitStatus);
+    
+    // Add all changes
+    await execAsync('git add .');
+    console.log('Files added to git');
+    
+    // Create commit message
+    const timestamp = new Date().toISOString().replace('T', ' ').split('.')[0];
+    const commitMessage = `Update blog posts - ${timestamp}
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>`;
+    
+    // Commit changes
+    await execAsync(`git commit -m "${commitMessage}"`);
+    console.log('Changes committed');
+    
+    // Push to GitHub
+    await execAsync('git push origin main');
+    console.log('Changes pushed to GitHub');
+    
+    res.json({ 
+      success: true, 
+      message: 'Successfully deployed to GitHub! Changes will be live in a few minutes.',
+      commitMessage: commitMessage.split('\n')[0]
+    });
+    
+  } catch (error) {
+    console.error('Deployment error:', error);
+    
+    // Handle specific Git errors
+    let errorMessage = 'Deployment failed';
+    
+    if (error.message.includes('nothing to commit')) {
+      return res.json({ 
+        success: true, 
+        message: 'No changes to deploy',
+        alreadyUpToDate: true 
+      });
+    } else if (error.message.includes('not a git repository')) {
+      errorMessage = 'This directory is not a Git repository';
+    } else if (error.message.includes('remote rejected')) {
+      errorMessage = 'GitHub rejected the push. Check permissions and repository settings.';
+    } else if (error.message.includes('failed to push')) {
+      errorMessage = 'Failed to push to GitHub. Check your internet connection and Git configuration.';
+    }
+    
+    res.status(500).json({ 
+      error: errorMessage,
+      details: error.message 
+    });
   }
 });
 
