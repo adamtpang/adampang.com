@@ -804,7 +804,12 @@ class BlogAdmin {
       if (response.ok) {
         const result = await response.json();
         deployBtn.innerHTML = '✅ Deployed!';
-        this.showMessage('Successfully deployed to GitHub! Your changes will be live in a few minutes.');
+        
+        if (result.alreadyUpToDate) {
+          this.showMessage('No changes to deploy - everything is up to date!');
+        } else {
+          this.showMessage('Successfully deployed to GitHub! Your changes will be live in a few minutes.');
+        }
         
         // Reset button after 3 seconds
         setTimeout(() => {
@@ -818,7 +823,13 @@ class BlogAdmin {
     } catch (error) {
       console.error('Deployment error:', error);
       deployBtn.innerHTML = '❌ Failed';
-      this.showError(`Deployment failed: ${error.message}`);
+      
+      // Show error with manual instructions if needed
+      if (error.message.includes('Username for') || error.message.includes('authentication')) {
+        this.showError('Git authentication required. Please run these commands manually in terminal:\n\n1. git add .\n2. git commit -m "Update blog posts"\n3. git push origin main');
+      } else {
+        this.showError(`Deployment failed: ${error.message}`);
+      }
       
       // Reset button after 3 seconds
       setTimeout(() => {
