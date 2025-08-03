@@ -1,5 +1,6 @@
 ---
-title: "Testing Cover Images"
+title: Testing Cover Images
+date: '2025-08-03'
 ---
 
 ![Cover Image](/public/images/preview.png)
