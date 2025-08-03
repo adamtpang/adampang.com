@@ -1,0 +1,12 @@
+new cool logo, do the anchor? yeah. anchor marianas anchor
+
+solarpunk aesthetics
+
+make the home button white, the podcast button blue, blog button blue
+
+vice-signalling. special mark, near AND far from social order
+
+black on white youtube thumbnail. minimalist logo of face?
+Adam Pangelinan + Miguel Hernandez:
+
+zahavian signals, showing what you can do\n\nmake the home button white, the podcast button blue, blog button blue\n\nvice signalling is stronger and builds more trust than virtue signalling\n\nput thumbnails on all blog posts better visual parsing. nah?\n\nbrand logo name pallete. ink sort black then rainbow for s o r t\n\ncoining a phrase makes the thing a thing: "experience designing"\n\ndo the balaji campus design. start w the spreadsheet. bird by bird..\n\ni gotta wireframe each page. minimal clicks and maximum clarity for a new user\n\nyou are influenced no matter what you do. you are signaling no matter what you do.\n\nask mama for birth hour and do human design like niklaus on Apr 21, 2025 at 9:00 AM - 9:30 AM\n\ncheck spectracities and design the campus with their assets? on Apr 13, 2025 at 10:00 AM - 10:30 AM\n\nmake townhall and the other apps look just as good and modern as this skill supply. it looks so sexy holy crap\n\nProfessional Aesthetics: A visually appealing and user-friendly design builds trust and keeps visitors engaged.\n\nsave and apply all the atp logos https://www.figma.com/design/CQCTJ6vRh7k3QFmVMPCOv3/adam-pang-flag---logo?fuid=1156412071806172106 to all profile pics?\n\nfix styling on personal site, inconsistent logo styling, text and buttons too big or small and diff on diff pages, and big screen vs small screen sizing. ugh...\n\nput the atp logo on every social, in the color scheme of that medium: https://www.figma.com/design/CQCTJ6vRh7k3QFmVMPCOv3/adam-pang-flag-%2F-logo?node-id=0-1&node-type=canvas&t=EnhjWhqjtR0pIiLG-0\n\nminimalize and improve aesthetics for am site. and https://x.com/i/grok/share/GhnX24zWi1dJLGbcOiMlFYplk for the new marketing. delete the old reddit stuff and maybe just do IG and X, where i actually go. dont go where i dont go. go where i go.\n\nmake a blog post in the start here showing that every post is tagged, color coded, with a thumbnail, multiple pics and links, standardized in size and you open it up. make the personal site dynamic site now? idk. i like the positive constraint. let people search? **\n\n

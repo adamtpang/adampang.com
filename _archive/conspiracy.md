@@ -1,0 +1,1 @@
+truth seekers converge on truth (see independent emergence) there are strange things happening under the hood.\n\n

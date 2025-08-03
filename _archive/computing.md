@@ -1,0 +1,3 @@
+blog terraform hadrian cover
+
+2 years of ns consulting? then higher context higher time commitment higher pay work..\n\npurchases are to increase quality of life and convenience. increasing my life budget to allocate to worthwhile projects. its the consumption of wealth that killed john lennon\n\nsocial motivation write about it. making anything social makes you improve at that thing. thiel said this. competition makes you better at that thing. instead lets compete on not competing. tie to the mimesis is cheap post\n\ndistributed compute like bittorrent, but for bitcoin mining or ai compute. compute for those 2, from a star farm, and star farm to sabatier. compute likes cool locations, solar likes sunny, nuclear like better regulation (network state)\n\n

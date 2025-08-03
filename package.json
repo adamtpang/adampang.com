@@ -1,0 +1,28 @@
+{
+  "name": "adampang-blog-admin",
+  "version": "1.0.0",
+  "description": "Blog admin interface for adampang.com",
+  "main": "blog-api.js",
+  "scripts": {
+    "start": "node blog-api.js",
+    "dev": "nodemon blog-api.js",
+    "serve": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "blog",
+    "jekyll",
+    "cms",
+    "admin"
+  ],
+  "author": "Adam Pang",
+  "license": "MIT"
+}

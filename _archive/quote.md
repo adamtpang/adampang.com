@@ -1,0 +1,1 @@
+whats that naval quote about values and friendship?\n\ncheck that naval deutsch tf vid on Jun 12, 2025 at 4:00 AM - 4:30 AM\n\n

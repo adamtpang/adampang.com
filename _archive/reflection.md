@@ -1,0 +1,3 @@
+check previous personal site and what i wrote then
+
+i keep thinking of the people that didnt show up\n\nyour best guess is always available to you. reflection on why is always available\n\ni've been struggling when it comes to knowing what to write. i know i want to write and continue this thread to get to the 100 day mark, but who am i writing for? for me? but what is the difference between private notes to self vs notes you share with others? i mean a lot of people that will see this i know irl, i don't know. what am i to make of this circumstance? idk..\n\n

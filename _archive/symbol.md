@@ -1,0 +1,1 @@
+symbolism is pattern guides for life\n\n

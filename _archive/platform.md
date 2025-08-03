@@ -1,0 +1,1 @@
+show on hackernews and indiehackers/show? and reddit. i should start with platforms i know and use, i can always delete messages etc and i can mute block negativity unhealthy criticism\n\n

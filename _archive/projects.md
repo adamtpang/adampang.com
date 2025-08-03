@@ -1,0 +1,8 @@
+figuring out if a project is economically feasible is fun to me. does it check out on paper? component by component
+
+derisk your projects to get even more asymmetric bets
+
+
+why im doing it shitty on purpose. ill clean later. procrastination history
+
+why im doing it shitty on purpose. ill clean later. procrastination history\n\nuse https://wayfind.world/ for showcasing the balaji campus project\n\nlist future project ideas and show whats pending vs finished. redo comparrow and sell on store\n\ni like standardized shit, not tests, but processes that you can change if it dont work. chains\n\nill finish this essay later lol its pretty deep with all the implications and rabbit holes i can go down\n\nwhat if you do 100 small projects, or 10 medium sized projects, or 1 big project, same amount of wealth creation?\n\nmake a repeatable boilerplate for all my projects, standardize my web process. sell it? means more when i have working projects.\n\nfor users maybe they can break down a project into components, each having a post to the local community. maybe there are things where its a mixed online and local kind of task\n\nput my active projects on X. like marc lou and pieter levels. with the mrr? nah just overall projects. and on AM site, put all the ideas on the backburner too, the num: +18 ideas\n\none by one, i cut out bad habits, one by one i added good habits. life idk has ever been this good. still lots of work to do but im principally seeing the progress and its fun, its meaningful after years of pain\n\n

@@ -1,0 +1,1 @@
+we can also make an iot lock for cars, for\n\nairbnb can do nft gated houses, tesla fsd cabs can do nft gated cabs. iot just tap your phone\n\n

@@ -1,0 +1,1 @@
+if she says no. keep fishing. just solve problems. find another girl + improve. product + marketing + sales.\n\n

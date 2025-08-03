@@ -1,0 +1,1 @@
+look into best nootropics\n\nglycine, NAC, check siim land's short list\n\nIts like the sopranos tornado thing. The 2 tornados are not seperate, they are manifestations of the ocean of wind and air, yes seperate in a sense, but connected as well. Like the 4 elements in ATLA\n\n

@@ -1,0 +1,7 @@
+to be able to render intelligible
+
+you always understand more than you are able to speak
+
+babel is unanimous, and therefore fragile
+
+give examples at every deutsch concept\n\nwords are incredibly loaded and often lossy\n\nfind other words for loaded terms, or coin a term\n\ncomprehensible input w languages is relevance again\n\nspeak as many languages as i can. know what people want\n\nlearn some mandarin. conversational mandarin. but also universal translator. FAST\n\ndont be accent biased. esl sound too stupid, british sound too smart. but the brain actually can be legit. see how they speak in their native tongue.\n\nif you wanna learn a language, learn the alphabet, listen to the songs, watch shows you genuinely like. english japanese korean. now i wanna learn mandarin hindi\n\nwords are memes and require definition with even MORE words. its like the meaning is found in other meanings. some words are axiomatic, some words are glue and abstractions\n\nwhat are the most valuable languages to learn? (univ fsc  translators withstanding). and which languages?ire seople most le rning? and why to both? probably cultural appreciation like korean japanese french etc. some people learn languages for business purposes\n\n

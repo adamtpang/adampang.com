@@ -1,0 +1,1 @@
+cal, then 11s then siftbest again. make public and launch with reelfarm. then 10s. and always taking notes, but gotta also solve the top problem and execute. discipline to counterbalance the openness. diligence and shit..\n\n

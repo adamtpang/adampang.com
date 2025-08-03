@@ -1,0 +1,1 @@
+make sure i can clear each listbox or all 3 with a confirmation\n\non every one of my apps, make a clear call to action, clear UI, minimal noise of text\n\nput this: Estimated reading time: 6 min 34 sec, and a progres bar, on every blog post page. maybe i needa make my site more than static???\n\n

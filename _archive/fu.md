@@ -1,0 +1,1 @@
+look at where the tech could be in the future, then build out. you have to be idealogue before pragmatic maybe\n\nmaybe most of our physical needs will be taken care of, and we solve digital problems for the most part now? are we on a species level, solving maslow level 1? like in 10 100 years, the physical abundance will be unimaginable..\n\n

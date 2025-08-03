@@ -1,0 +1,1 @@
+stand the test of time, the serious people will still be here after years, if they have the endurace inheritly aligned with their nature\n\nman tell olena the self burn dont work anymore i cant go cause bootcamp requires official ns burn nft whatever.. see again if i can gain those back now that the self burn link is turned off..  on Apr 22, 2025 at 7:30 AM - 8:00 AM\n\n

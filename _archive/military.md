@@ -1,0 +1,5 @@
+if we supply good homes for the military, then theyll stop taking more options from the locals. and why is that a problem? well we need meritacratic society for sure, and it doesnt matter if youre a local or a foreigner, we need good standards for all on Guam.
+
+if we supply good homes for the military, then theyll stop taking more options from the locals. and why is that a problem? well we need meritacratic society for sure, and it doesnt matter if youre a local or a foreigner, we need good standards for all on Guam.
+
+if we supply good homes for the military, then theyll stop taking more options from the locals. and why is that a problem? well we need meritacratic society for sure, and it doesnt matter if youre a local or a foreigner, we need good standards for all on Guam.\n\nany way to help the military on guam?\n\nstart packing for ns again\n\nspaceforce is always an option\n\nany way to help the military on guam?\n\ncheck read write own borrow from the library / upstairs cafe\n\nwrite my ns diary well on Apr 24, 2025 at 11:00 AM - 11:30 AM\n\nig carousel? nah lets wait and just do this stupid ns diary thing.. on Apr 22, 2025 at 7:30 AM - 8:00 AM\n\n

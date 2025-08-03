@@ -1,0 +1,3 @@
+i can always talk to em again
+
+one good post or reply creates a follow to your tribe\n\nnow just physically market and sell to people, no need for online.. were going back to the tribe\n\ngive a gift to every podcast guest, based on what ive learned about them and what theyd like, maybe a temu cart general gift, or a book etc. ill ship to them\n\n

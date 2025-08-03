@@ -1,0 +1,1 @@
+do 100 clips like divya venn. solo and duo.\n\nsave the donovan tango vid before he deletes that\n\nthe idea maze has a corresponding action maze. + ideas are for eventual action. **\n\nupload the car solo clips via iphone cable. and see what descript can find. video this time. video clips\n\n

@@ -1,0 +1,1 @@
+make a recruitment list if members that stay and vest in ns. find ig and x. ns.com/earn too\n\n
