@@ -1,0 +1,32 @@
+---
+layout: blog
+title: Essays
+---
+
+<div class="post-grid">
+  {% for post in site.posts %}
+    <article class="post-card">
+      <div class="post-cover">
+        <a href="{{ post.url | relative_url }}">
+          {% if post.cover_image %}
+            <img src="{{ post.cover_image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          {% else %}
+            <div class="blank-cover"></div>
+          {% endif %}
+        </a>
+      </div>
+      <div class="post-content">
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+{% if site.posts.size == 0 %}
+<div style="text-align: center; color: #666; font-style: italic; margin: 3rem 0;">
+  <p>No posts yet. Create your first post in the <code>_posts</code> directory!</p>
+  <p>File format: <code>title.md</code></p>
+</div>
+{% endif %}

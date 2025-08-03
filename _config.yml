@@ -12,6 +12,15 @@ plugins:
 timezone: America/Los_Angeles
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
 sass:
   style: compressed
 
@@ -23,3 +32,14 @@ plugins:
 # Theme system
 current_theme: "memoryland"  # Change this to switch themes
 allow_theme_switching: true  # Set to false to disable user theme switching
+
+# Posts configuration
+permalink: /:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
