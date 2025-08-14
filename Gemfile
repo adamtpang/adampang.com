@@ -1,8 +1,14 @@
 source "https://rubygems.org"
 
+ruby "~> 3.2.0"
+
 gem "jekyll", "~> 4.3.0"
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-sitemap"
+
+# Required for Ruby 3.4+ compatibility
+gem "logger"
+gem "csv"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
