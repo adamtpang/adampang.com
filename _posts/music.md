@@ -1,6 +1,6 @@
 ---
-title: 🎵My favorite music.
-date: '2025-08-11'
+title: "My favorite music"
+date: 2025-08-11
 ---
 
 check this out:

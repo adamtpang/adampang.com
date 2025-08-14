@@ -1,6 +1,6 @@
 ---
-title: 🤐T.M.I. online?
-date: '2025-08-04'
+title: "T.M.I. online?"
+date: 2025-08-04
 ---
 
 there are so many embarassing things i could write about
