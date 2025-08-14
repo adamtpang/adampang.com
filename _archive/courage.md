@@ -1,0 +1,1 @@
+be willing to contend with truth, no matter how harsh or nice. courage vision speech\n\n

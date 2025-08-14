@@ -8,4 +8,4 @@ my plan for singapore
 
 can you just get methane out of the atmosphere?
 
-can you just get methane out of the atmosphere?\n\n
+can you just get methane out of the atmosphere?\n\nvisualize concepts to load memes and info into people GPUs. rememeber we have diff parts of the brain that serve diff purposes\n\n

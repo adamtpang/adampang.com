@@ -2,4 +2,4 @@ shawshank is more like a biblical parable
 
 what are films that are lowkey biblical, like could be a parable: lotr, shawshank. obviously the context is off but the essence of the story the myth
 
-talk about films i like\n\njordan peele is sourced. comedy skits to horror thriller film making.\n\njust like the value is revealed at the MOMENT of transaction, diplomatic recognition between a cloud country and legacy country legitimizes the network state concept\n\n
+talk about films i like\n\njordan peele is sourced. comedy skits to horror thriller film making.\n\njust like the value is revealed at the MOMENT of transaction, diplomatic recognition between a cloud country and legacy country legitimizes the network state concept\n\njust like the value is revealed at the MOMENT of transaction, diplomatic recognition between a cloud country and legacy country legitimizes the network state concept\n\ni feel like i could get along with kamala and trump, id wanna have dinner with both lol. i feel like id make a good diplomat or something, i love steelmanning all sides. can get exhausting but i think its my natural aptitude\n\n

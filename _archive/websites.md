@@ -17,3 +17,4 @@ for 50 bucks, ill help you:
 
 make the home button white, the podcast button blue, blog button blue
 
+on personal site: do directives: shop read etc. and link adampang.com/shop to anchormarianas itll be an outgoing link\n\n

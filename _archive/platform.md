@@ -1,1 +1,1 @@
-show on hackernews and indiehackers/show? and reddit. i should start with platforms i know and use, i can always delete messages etc and i can mute block negativity unhealthy criticism\n\n
+show on hackernews and indiehackers/show? and reddit. i should start with platforms i know and use, i can always delete messages etc and i can mute block negativity unhealthy criticism\n\nWhat I actually only plan to sell or display are digital tools and digital platform purchases (Indiehacking), using Lemon Squeezy for transactions.\n\n
