@@ -36,10 +36,16 @@ allow_theme_switching: true  # Set to false to disable user theme switching
 # Posts configuration
 permalink: /:title/
 
+# Collections
+collections:
+  jekyll_posts:
+    output: true
+    permalink: /:title/
+
 # Defaults
 defaults:
   - scope:
-      path: "_posts"
-      type: "posts"
+      path: "_jekyll_posts"
+      type: "jekyll_posts"
     values:
       layout: "post"

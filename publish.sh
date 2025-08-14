@@ -3,6 +3,10 @@
 # Auto git add, commit, push script
 echo "🚀 Publishing blog posts..."
 
+# First, sync posts to Jekyll format
+echo "📋 Syncing posts to Jekyll format..."
+./sync-posts.sh
+
 # Add all changes
 git add .
 
@@ -25,4 +29,4 @@ Co-Authored-By: Claude <noreply@anthropic.com>"
 # Push to GitHub
 git push
 
-echo "✅ Published! Your posts are live at https://meek-blancmange-c6bdba.netlify.app/"
+echo "✅ Published! Your posts are live at https://adampang.com/"

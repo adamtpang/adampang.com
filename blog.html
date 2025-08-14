@@ -4,7 +4,7 @@ title: Essays
 ---
 
 <div class="post-grid">
-  {% for post in site.posts %}
+  {% for post in site.jekyll_posts %}
     <article class="post-card">
       <div class="post-cover">
         <a href="{{ post.url | relative_url }}">
@@ -24,7 +24,7 @@ title: Essays
   {% endfor %}
 </div>
 
-{% if site.posts.size == 0 %}
+{% if site.jekyll_posts.size == 0 %}
 <div style="text-align: center; color: #666; font-style: italic; margin: 3rem 0;">
   <p>No posts yet. Create your first post in the <code>_posts</code> directory!</p>
   <p>File format: <code>title.md</code></p>
