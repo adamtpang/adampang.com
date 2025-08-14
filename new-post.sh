@@ -15,15 +15,16 @@ DATE=$(date +%Y-%m-%d)
 TITLE="$1"
 FILENAME=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | sed 's/[^a-z0-9-]//g')
 
-# Create the post file
-POST_FILE="_posts/${DATE}-${FILENAME}.md"
+# Create the post file (simple filename, no date prefix)
+POST_FILE="_posts/${FILENAME}.md"
 
 cat > "$POST_FILE" << EOF
 ---
 title: "$TITLE"
+date: $DATE
 ---
 
-Write your post content here...
+Write your essay here...
 EOF
 
 echo "Created new post: $POST_FILE"
