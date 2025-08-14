@@ -1,0 +1,27 @@
+---
+layout: default
+title: Debug Posts
+---
+
+<h1>Debug Information</h1>
+
+<h2>Site Posts Count: {{ site.posts.size }}</h2>
+
+<h2>All Posts:</h2>
+<ul>
+{% for post in site.posts %}
+  <li>
+    <strong>{{ post.title }}</strong> - {{ post.date | date: "%Y-%m-%d" }}
+    <br>URL: {{ post.url }}
+    <br>Layout: {{ post.layout }}
+    <br>---
+  </li>
+{% endfor %}
+</ul>
+
+{% if site.posts.size == 0 %}
+<p><strong>No posts found!</strong></p>
+{% endif %}
+
+<h2>Raw site.posts:</h2>
+<pre>{{ site.posts | jsonify }}</pre>
