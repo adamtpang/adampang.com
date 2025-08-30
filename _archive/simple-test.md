@@ -1,14 +1,7 @@
 ---
-title: "Simple Filename Test"
+title: Simple Test Post
+date: 2025-08-14
+layout: post
 ---
 
-This post has a simple filename: `simple-test.md`
-
-No dates in the filename needed! Just create files like:
-
-- `ideas.md`
-- `thoughts-on-design.md`
-- `book-notes.md`
-- `random-musings.md`
-
-Clean and simple.
+This is a simple test post to see if Jekyll processes it correctly.

@@ -11,4 +11,4 @@ Here's some content with a link: https://github.com/adamtpang
 
 And here's a proper markdown link: [My GitHub](https://github.com/adamtpang)
 
-Links should be automatically formatted and clickable! 
+Links should be automatically formatted and clickable!

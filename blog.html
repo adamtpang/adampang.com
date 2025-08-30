@@ -3,15 +3,46 @@ layout: blog
 title: Essays
 ---
 
+<div style="text-align: left; margin-bottom: 2rem; padding: 1rem; background: var(--glass); border: 1px solid var(--border); border-radius: 12px;">
+  <h2 style="margin: 0; font-size: 1.5rem; color: var(--primary);">{{ site.jekyll_posts.size }} essays</h2>
+  <p style="margin: 0.5rem 0 0 0; color: var(--text); opacity: 0.7; font-size: 0.9rem;">
+    {% assign remaining = 100 | minus: site.jekyll_posts.size %}
+    {{ remaining }} to go until 100 essays
+  </p>
+</div>
+
 <div class="post-grid">
   {% for post in site.jekyll_posts %}
     <article class="post-card">
       <div class="post-cover">
         <a href="{{ post.url | relative_url }}">
-          {% if post.cover_image %}
+          {% if post.image %}
+            <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy">
+          {% elsif post.cover_image %}
             <img src="{{ post.cover_image | relative_url }}" alt="{{ post.title }}" loading="lazy">
           {% else %}
-            <div class="blank-cover"></div>
+            {% comment %} Try to extract first image from markdown content {% endcomment %}
+            {% assign has_image = false %}
+            {% assign image_url = '' %}
+            
+            {% if post.content contains '![' %}
+              {% assign img_split = post.content | split: '![' %}
+              {% if img_split.size > 1 %}
+                {% assign url_split = img_split[1] | split: '(' %}
+                {% if url_split.size > 1 %}
+                  {% assign image_url = url_split[1] | split: ')' | first %}
+                  {% if image_url contains 'http' %}
+                    {% assign has_image = true %}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+            
+            {% if has_image %}
+              <img src="{{ image_url }}" alt="{{ post.title }}" loading="lazy">
+            {% else %}
+              <div class="blank-cover"></div>
+            {% endif %}
           {% endif %}
         </a>
       </div>
@@ -25,7 +56,7 @@ title: Essays
 </div>
 
 {% if site.jekyll_posts.size == 0 %}
-<div style="text-align: center; color: #666; font-style: italic; margin: 3rem 0;">
+<div style="text-align: left; color: #666; font-style: italic; margin: 3rem 0;">
   <p>No posts yet. Create your first post in the <code>_posts</code> directory!</p>
   <p>File format: <code>title.md</code></p>
 </div>
