@@ -1,1 +1,0 @@
-design the formula trust the formula in proportion to results\n\n

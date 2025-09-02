@@ -1,3 +1,0 @@
-8vs johnathan bi, joe lonsdale, peter thiel, david perell, peterson, tyler cowen
-
-be careful what you are influenced by. be careful what you are not influenced by\n\nmaybe media and friendship will make wealth and sex creation easier maybe its the influential first step\n\nevery community is an osmosis pool. every person is a drop and you become more like the people around you, and you influence them too its a 2 way thing. etc **\n\nthere are different types of intelligences. depending on the goal, some people have diff stats, so.. good at diff things. depends on whats valuble for humanity at the time, for value..\n\n

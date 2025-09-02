@@ -1,2 +1,0 @@
-dont quote, be considerate
-

@@ -1,1 +1,0 @@
-technooptimism is about climbing ladders AND sending ladders back down. its about opportunity-maxxing. theyre called opportunities and not guarantees for a reason. its about universal meritocracy and trade. winning and helping others win along their top problem vectors.. along whatever dimension, lets talk about it, learn about it, etc.\n\n

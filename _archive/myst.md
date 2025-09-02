@@ -1,1 +1,0 @@
-meaning engineering luma talk. john vervaeke. mystical experiences are more real than reality, in another felt sense apparently..\n\n

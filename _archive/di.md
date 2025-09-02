@@ -1,1 +1,0 @@
-cardboard boxes make great standing desks or laptop stands\n\n

@@ -1,0 +1,25 @@
+---
+title: "astronomy"
+date: 2025-08-14
+image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
+---
+
+life is life is life.
+
+you can be a distant star but still discoverable.
+
+you can be a distant star but still discoverable.
+
+the other extreme is you are the sun and moon so obvious it takes up all salience.
+
+the other extreme is you are the sun and moon so obvious it takes up all salience.
+
+but you can also just be a star: visible yet not at the center of attention, in the limelight\n\ncheck browser extension highlights to see good points about skymap\n\ndiscovering living aliens is more comforting to me than scary lol.
+
+but you can also just be a star: visible yet not at the center of attention, in the limelight\n\n
+
+i wonder if theyd have dna like we do or if there would be another viable form factor, or dna at all for that matter.\n\nanalogize fame to celestial bodies and radars.
+
+like how a planet orbits and has a rhythm around the sun, but does not lose its commitment to it\n\nmake sure each blog post is tagged into a topic, and show a visual rep of links and tags and how they connect to other links, like a pagerank link or something\n\nanalogize fame to celestial bodies and radars.
+
+we have multiple planets, the unverse is our home..\n\nit may be a good idea wrong time: dyson sphere for ex\n\n"aliens would come for knowledge, not resources" knowledge -> resources..\n\nthere was a time when noone alive existed, but the stuff were made of, was here.\n\nthe map of the cloud and the map of mars are some of the great frontiers, of knowledge, of space and time itself!\n\nthere are ebbs and flows to commitments.

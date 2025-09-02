@@ -1,1 +1,0 @@
-i want timeless content only. showcase things for a purpose\n\nwork can only have meaning if it has purpose. purpose as working on something meaningful that will last beyond the time spent working on it. working on something that you want to exist even if you dont exist.\n\n

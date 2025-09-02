@@ -1,0 +1,35 @@
+---
+title: "visibility"
+date: 2025-08-14
+image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
+---
+
+vimeo???
+
+wear a hat.
+
+visibility, fame?
+
+10 hidden, 1 visible.
+
+be visibily competent.
+
+speed volume curation.
+
+get your ideas across.
+
+or up the follower threshold to 1000?
+
+and looms?\n\nget to 100 follows on X?
+
+so make it accessible to a 10 year old.
+
+well what problem does social media help solve?
+
+be visible\n\ntns is so technical, and people back home are confused.
+
+delete, simplify w ai help, use quotes you cant simplify, and leave things as is if its perfect.\n\nuse scapples and export to pdfs in my blog posts, also stock photos and graphs that illustrate a point, and ai pics and movies to generate a vision too.
+
+if i can target the people that i want to be more like on those top vectors, they may want to follow me back too\n\nor sidewalks unlock buses and healthier people: dededo sports and people trying to exercise\n\nmake books more accessible: like AR books and ai summary of main points with real exerpts, and audiobook along with the visual of the book\n\n
+
+write a blog post or smth\n\nmake books more accessible: like AR books and ai summary of main points with real exerpts, and audiobook along with the visual of the book\n\nleveraging the internet and having an online presence takes you from a small invisible internet agent to a visible bigger one, a real internet being\n\nmake important books accessible easy to read like bible.

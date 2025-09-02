@@ -1,1 +1,0 @@
-the more you learn, things start to blur into oneness, there is no seperation of art science business athletics etc. its all the same fuckin thing\n\n

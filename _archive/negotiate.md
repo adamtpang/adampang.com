@@ -1,1 +1,0 @@
-same thing with jobs or investments or sexual markets and "negotiation". like that silicon valley balls on the table sketch. chasing vs being chased. flaws appear or dissappear\n\n

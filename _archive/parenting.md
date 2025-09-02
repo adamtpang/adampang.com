@@ -1,3 +1,0 @@
-have at least 3 kids and youve done your part
-
-attention is its own product\n\nuse link for stripe checkout and add crypto and link and paypal\n\nPresentation (personal site, linkedin online and socials, certificates)\n\nthe good thing about attention is that its dispersed / there is an attention economy that is adversarial per se\n\ninstead of paying in money, people pay for info products with their attention, which gives fame+reputation to the visibly competent. there is always a cost.\n\nuse link for stripe checkout and add crypto and link and paypal\n\nabove all* i will be a good father / good coparent, secondly a good sexual partner\n\n

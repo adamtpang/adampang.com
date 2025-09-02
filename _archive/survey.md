@@ -1,1 +1,0 @@
-i want to know who here at ns has a similar problem, how can i unintrusively figure out certain profiles of people. nspals but more in depth, like surveys? idk i dont want to spray and pray blast to people that dont have the problem.\n\n

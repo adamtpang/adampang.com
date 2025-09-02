@@ -1,1 +1,0 @@
-we can get donations also\n\n

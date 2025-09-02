@@ -1,5 +1,0 @@
-stand the test of time. perservere
-
-what they do not say. what they do when people aren't looking, when theyre in power
-
-what they do not say. what they do when people aren't looking, when theyre in power\n\nlinks in an essay give an otherwise 2d thing 3d, it has depth when you can go INTO the words. references pointing to each other\n\nstand the test of time. perservere\n\nwe are the flowers of the earth\n\nwe are songs listening to each other.\n\nlove is what infinity unfolding feels like\n\ni yearn for the wild also, the lived in, the old\n\non ig, post things not everyone can. creations, preselection\n\nwe are here at ns to connect. and become a better integrated superorganism\n\nwhat is that donald trump persuasion thing. closing the sale. ASSUMING the sale\n\nshowing pokemon, people that follow me, does increase preselection. so do it. fav posts. posts the market loves most. fav followings. fav followers.\n\npower: strong, famous, influential, pulling the strings, etc, wealthy, the REALLY powerful people are the covert manipulators etc\n\n

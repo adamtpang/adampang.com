@@ -1,1 +1,0 @@
-be on the idea frontier, be on the action frontier\n\nwhen you catch up to idea frontier, its action frontier, smth like that\n\nwrite about heaven being eternal life like people living infinitely through lineages\n\nerrors mean youre at the frontier of your understanding. the superorganism\n\n

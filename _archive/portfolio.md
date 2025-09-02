@@ -1,1 +1,0 @@
-simplify and beautify AM site, show proof of work via my own apps and freelance websites.\n\npost failed projects, pending projects, successful projects, on personal site? upgrade adampang on Apr 25, 2025 at 8:30 AM - 9:00 AM\n\n

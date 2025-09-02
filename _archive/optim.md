@@ -1,1 +1,0 @@
-remember to view the world in a definitely optimistic way. its a dynamically concrete future, remember?\n\ni need optionality of permissionless code and media leverage. optionality of friendships. optionality of girlfriendships\n\n

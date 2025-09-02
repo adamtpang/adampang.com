@@ -1,0 +1,129 @@
+---
+title: "communication"
+date: 2025-08-14
+image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
+---
+
+how?
+
+how to?
+
+discord?
+
+voice calls?
+
+group chat???
+
+its proof of work.
+
+too much for some.
+
+create curate elevate.
+
+based on topics we want?
+
+be signal not noise\n\nuse plain english.
+
+share em and my routine, as a snapshot in time.
+
+see which descript clips are bangers and authentic.
+
+i dont need to get mad, but be clear with communication.
+
+maybe thats what airchat is trying to do\n\nits like sales.
+
+the source and the person who made it accessible/popularized.
+
+idk do minimal.\n\nremember that building * connections is huge.
+
+say the quiet part out loud\n\nupload solo clips and mig and ferdi.
+
+is airchat working on this already?\n\nwords can be so fuckin lossy.
+
+zahavian signals, showing what you can do
+
+its dialogos
+
+group chat???
+
+point to the entitiy that made the thing\n\ni got better at communication.
+
+so PLEASE use the internet to connect with your friends that ARE out there.
+
+so PLEASE use the internet to connect with your friends that ARE out there.
+
+how about private groupchats chain chats with voice first or plaintext first (whatsapp).
+
+how about private groupchats chain chats with voice first or plaintext first (whatsapp).
+
+sure use quicker more loaded abstract words for\n\nshare your gifts, connect with people.
+
+show 1 good example intro to each, then show connections BETWEEN, vids / interviews with both.
+
+also make more friends for more optionality on Feb 7, 2025 at 12:30 noon - 1:00 PM\n\nparse mantras.
+
+like potion reagents coming together\n\nif twitter and airchat were public micro plaintext and voice.
+
+you need to build huge to EARN and signal to connections (long term fullfillment piece)\n\n@ hnadler for ns.
+
+maybe thats what airchat is trying to do\n\ni need to also tell miguel the things that i dont like that he does.
+
+tweet and broadcast 1 way and some people will pick up the phone, make it 2 way, and we can riff off each other.
+
+tweet and broadcast 1 way and some people will pick up the phone, make it 2 way, and we can riff off each other.
+
+its right out there for you to grasp, but you must reach out\n\non caldump link 8020best, as a pre-recommendation.
+
+i remember the kpop app from jolly to talk to strangers\n\nif twitter and airchat were public micro plaintext and voice.
+
+and post to IG X on Feb 5, 2025 at 3:30 PM - 4:00 PM\n\nwhat comes easy to me is talking a lot and asking a lot of questions.
+
+you need to build huge to EARN and signal to connections (long term fullfillment piece)\n\nhow can we talk online in dialogos?
+
+articulation, compressing meaning and truth in fewer words, empathizing with my perception of their vocabulary so i can translate.
+
+articulation, compressing meaning and truth in fewer words, empathizing with my perception of their vocabulary so i can translate.
+
+i need to talk online and meet people online to satisfy this need for expression\n\nscapple out a map of the connections between my exemplars.
+
+its right out there for you to grasp, but you must reach out\n\ninternet friends are great, we self select because we cant find tribe near us.
+
+there are 3 parts to a sivers movement: the first attractor the first detector of value, then the crowd(3s a crowd)\n\nwords can be so fuckin lossy.
+
+also make it link to adampang, same for 8020 best, just point straight to me, while im just 1 founder, if i had a team, then point to anchormarianas.
+
+a place to schedule in synchronous talks, a place to asynchronously chat too with audio/video, topic based, or just into the void from a single account.
+
+an internet dialect of abbreviations and other stuff: “internet-speak”\n\nmake a newsletter for sivers like blogs, kinda makes email like a longer form twiter.
+
+i also say less (err less) because ive said too much before, its too noisy not enough signal before\n\ni want something like airchat, like interintellect, like x spaces.
+
+thats the point of the meta living doc, that it updates, and i should also tell people the last time that it was updated, maybe google docs already does that\n\nits like sales.
+
+what else or what to be deleted?\n\non personal site, invite people to dm me, give em my ways to dm: phone sms whatsapp email twitter ig etc\n\ntheres an internet language its funny.
+
+gmail is a feed too lol.\n\nairchat cool yes but theres something special about LIVE conversation, the flow, the immediacy of conversation\n\nremember that building * connections is huge.
+
+the root riffs gotta be high quality, but reply game riffs can be more casual than the root riff\n\nyou MUST know that youre people ARE in the world but you are just geogrpahically distant.
+
+the root riffs gotta be high quality, but reply game riffs can be more casual than the root riff\n\nyou MUST know that youre people ARE in the world but you are just geogrpahically distant.
+
+i also say less (err less) because ive said too much before, its too noisy not enough signal before\n\nbuy physical copies of navalmanack balaji anthology and their deeper versions: BoI and SI.
+
+you can see if someone wants a convo with you cause they can watch your shit.\n\nput group chats one big one for townhall, one in each problem, solution, bounty, a place to chat where its relevant.
+
+the internet shows a mosaic of values, a fractal of existence, and the ones who stay true to themselves or their taste often cant find what theyre looking for around them\n\ni got better at communication.
+
+nah thats not economic or competitive\n\nat the bottom of my blog posts if they liked this maybe youll like these: put 2 options or so?\n\nsocial media is for status signalling and information dissimination.
+
+so we can easily have each others whatsapps etc for easy comms across socials on Apr 24, 2025 at 11:00 AM - 11:30 AM\n\non the other side of disagreement, if handled well, is unified understanding and agreement, in the long run.
+
+you can optimize for accessibility: simplyfying the words so more people can understand, you can optimize for speed of writing: just writing how you think, and letting people put together the pieces or find definitions for words they dont know\n\nshould you make words more accessible (lower grade level)?\n\nif you dont have anything to add, dont dm.
+
+you can optimize for accessibility: simplyfying the words so more people can understand, you can optimize for speed of writing: just writing how you think, and letting people put together the pieces or find definitions for words they dont know\n\n
+
+00 382 days left\n\nfind the ideas and people you click with\n\nall it takes is 1 person to start a 2-way interaction.\n\nnewsletter and responding to emails is talking to users\n\nbring people of different whats and lets talk about the how\n\nrespond to homies chat?
+
+were hardwired to be social\n\nconflicts are misunderstandings cause by lack of clear communication\n\nvoice and plaintext need broadcast, hidden, a group chat style formats.\n\ndialogos and being a good interlocutor is an error correcting mechanism\n\nsince words can be loaded with diff meanings, misunderstanding runs rampant\n\nconflict is often due to misunderstanding, solved with nuanced clear communication\n\nthe internet allows for people to really seperate and nuance in terms of mindspace\n\nmaybe have a curated, more private bat signals???
+
+on Apr 25, 2025 at 6:30 AM - 7:00 AM\n\ntext, then call, then video call, then meet up, then podcast.\n\nvoice and plaintext need broadcast, hidden, a group chat style formats.\n\nsince words can be loaded with diff meanings, misunderstanding runs rampant\n\nconflict is often due to misunderstanding, solved with nuanced clear communication\n\nmake a personal discord, and put on my website, so people can join, and we can have async and sync comms\n\non personal site, invite people to dm me, give em my ways to dm: phone sms whatsapp email twitter ig etc\n\na pod is great for preselection.

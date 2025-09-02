@@ -1,1 +1,0 @@
-each completed puzzle is a piece of a greater puzzle\n\n

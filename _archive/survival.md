@@ -1,1 +1,0 @@
-survival is paramount\n\noptimize for survival first.\n\n

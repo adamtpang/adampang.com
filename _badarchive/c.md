@@ -1,0 +1,51 @@
+---
+title: "c"
+date: 2025-08-14
+image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
+---
+
+that good shit.
+
+the wheat from chaff.
+
+curation makes it easier to sift.
+
+look at airtable of thiel fellows.
+
+same with music film books writing.
+
+same with music film books writing.
+
+is this high quality high authenticity?
+
+no more history books, only curated online resources.
+
+create, curate, elevate\n\ncuration makes it easier to sift.
+
+thread in with "at every mag crossroad post" and thread in the "create curate elevate".
+
+etc\n\nvaulting/archiving doesnt mean deleting forever, its just curating\n\nis this timeless?
+
+what else is a good curation of people\n\ntalk about the best of the twitter experiment, twitter curate.
+
+create curate elevate\n\nits like create a variation set, then sort, then cut off, then elevate what remains, that good good.
+
+create curate create curate\n\ncurators find gems and elevate them from underground into more mainstream, theres a spectrum\n\nlook at NS directory.
+
+imagine a chef that curates menu a writer that curates their essays a musician that curates their songs etc.\n\nlike i gotta consolidate these blog posts.
+
+curating for what i like and for what the market likes\n\ni dont like socials that force feed digital content i like curation\n\nneed more quantity or quality rn?
+
+long form play, curating slices of the work, deleting the noise, or keeping for authentic continuity\n\n
+
+the internet is for generation curation elevation.\n\nevery chapter of a long form youtube video is a clip.
+
+long form play, curating slices of the work, deleting the noise, or keeping for authentic continuity\n\nif i can listen to music and splice stacks and creative coding, and find the magic bits, just like david senra does for books of founders, i can be a master curator, and then post the gems i find\n\nwhen i get to 1000 posts, gonna curate for the timeless only.
+
+more generation curation or elevation\n\ncurators find gems and elevate them from underground into more mainstream, theres a spectrum\n\ni wish i could stitch together tweets i think are similar and post as a stitched group, a curation\n\nmaybe i may not create original work at a high level rn but i CAN curate and share cheatsheet lists\n\nnaval rogan is for the "history books" lol.
+
+curation is thoughtful and useful\n\ni dont necessarily trust my ability to create yet idk, but i do trust my taste, so i can curate..\n\ni wish i could stitch together tweets i think are similar and post as a stitched group, a curation\n\nmaybe i may not create original work at a high level rn but i CAN curate and share cheatsheet lists\n\nall links post, post the direct words songs or videos on x and @ source to the person.
+
+imagine a chef that curates menu a writer that curates their essays a musician that curates their songs etc.\n\ncurate when theres clearly too much generation\n\ncuration is where choice is easier\n\nby curating 80%, you WILL lose 20%, but curation is considerate + other things.\n\nhumans curate infinity\n\ncurate when theres clearly too much generation\n\nget to 100, curate, get to 100 new, curate deeply\n\nthe flood is a story about curation.
+
+some should just be a paragraph on a main blog post, not a seperate blog post.speed, volume, curation\n\nbuild out the scifi ideas, and well have a new scifi, just like pop changes throughout time, although at that time, its popular, and therefore pop\n\ncuration is good though because i can trim off the noise, clean it up, and make it easier for readers to sift through (theres so much on the internet)\n\nevery chapter of a long form youtube video is a clip.

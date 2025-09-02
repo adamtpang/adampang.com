@@ -1,1 +1,0 @@
-were creating the docker image of socities..\n\nverratti is my soccer exemplar. what if i could perfect the verratti model, like how kante perfected the makalele model/archetype\n\n
