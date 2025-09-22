@@ -1,0 +1,51 @@
+title: Adam Pang
+description: I build software that helps people make better decisions about real estate, while exploring music and ideas through creative projects.
+url: "https://adampang.com"
+email: adam@adampang.com
+
+# Links collection
+# Single links file processing
+plugins:
+  - jekyll-feed
+
+# Site settings
+timezone: America/Los_Angeles
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Theme system
+current_theme: "memoryland"  # Change this to switch themes
+allow_theme_switching: true  # Set to false to disable user theme switching
+
+# Posts configuration
+permalink: /:title/
+
+# Collections
+collections:
+  jekyll_posts:
+    output: true
+    permalink: /:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_jekyll_posts"
+      type: "jekyll_posts"
+    values:
+      layout: "post"

@@ -4,10 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hey</title>
-    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} — making 100 apps, songs, and essays{% endif %}</title>
+    <link rel="icon" href="{{ '/public/favicon.svg' | relative_url }}">
     <meta name="description" content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
+    <meta name="author" content="Adam Pang">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }} — making 100 apps, songs, and essays{% endif %}">
+    <meta property="og:description" content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.image | default: '/public/images/transparentpfp.png' | absolute_url }}">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }} — making 100 apps, songs, and essays{% endif %}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
+    <meta name="twitter:image" content="{{ page.image | default: '/public/images/transparentpfp.png' | absolute_url }}">
     
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">

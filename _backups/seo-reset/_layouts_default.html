@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hey</title>
+    <link rel="icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | truncate: 160 }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --white: #ffffff;
+            --light-blue: #e3f2fd;
+            --blue: #2196f3;
+            --dark-blue: #1976d2;
+            --navy: #0d47a1;
+            --gray: #f5f5f5;
+            --dark-gray: #333333;
+
+            --primary: var(--blue);
+            --secondary: var(--dark-blue);
+            --accent: var(--navy);
+            --bg: var(--white);
+            --text: var(--dark-gray);
+            --glass: rgba(33, 150, 243, 0.05);
+            --border: rgba(33, 150, 243, 0.2);
+            --shadow: 0 8px 32px rgba(33, 150, 243, 0.15);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Syne', sans-serif;
+            text-transform: lowercase;
+            background: white;
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            position: relative;
+            overflow-x: hidden;
+            padding-top: 2rem;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 90%;
+            text-align: left;
+            animation: fadeIn 1s ease;
+            padding: 2rem 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Back link styling */
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        /* Page title styling */
+        .page-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-align: left;
+            color: var(--primary);
+        }
+
+        /* Content boxes */
+        .content-box {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(15px);
+            box-shadow: var(--shadow);
+            text-align: left;
+        }
+
+        .content-item {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .content-item:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .container {
+                max-width: 400px;
+                padding: 1rem 0;
+            }
+            
+            .content-box {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    {{ content }}
+    
+    <!-- Netlify Identity Widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+</body>
+
+</html>

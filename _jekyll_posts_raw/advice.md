@@ -1,0 +1,7305 @@
+---
+title: "🗣️advice to myself."
+date: 2025-09-02
+image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
+---
+
+...
+
+be.
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+why?
+
+try.
+
+why?
+
+idk.
+
+why?
+
+why?
+
+why?
+
+npc.
+
+why?
+
+why?
+
+how?
+
+how?
+
+why?
+
+why?
+
+idk.
+
+idk.
+
+why?
+
+idk.
+
+etc.
+
+lol.
+
+idk.
+
+how?
+
+so...
+
+so...
+
+game.
+
+debt.
+
+ever.
+
+grow!
+
+grow!
+
+8020.
+
+when?
+
+good.
+
+1500?
+
+boom!
+
+game.
+
+haha.
+
+haha.
+
+fish.
+
+prep.
+
+stop.
+
+stop.
+
+porn?
+
+thiel.
+
+thiel.
+
+dress.
+
+charm.
+
+@visa.
+
+dress.
+
+charm.
+
+chyoa.
+
+why IG?
+
+action.
+
+action.
+
+a dojo.
+
+action.
+
+so what?
+
+hold on.
+
+so what?
+
+so what?
+
+so what?
+
+so what?
+
+mission.
+
+success.
+
+hold on.
+
+somehow.
+
+-balaji.
+
+be true.
+
+be wise.
+
+be free.
+
+twitter?
+
+mission.
+
+success.
+
+30 mins?
+
+content?
+
+im down.
+
+spotify?
+
+youtube?
+
+maslows?
+
+twitter?
+
+so what?
+
+move on.
+
+learning?
+
+physical?
+
+physical?
+
+its okay.
+
+learning?
+
+its okay.
+
+all guys?
+
+infinite?
+
+solution.
+
+like who?
+
+tis open?
+
+for both.
+
+be aware.
+
+be brave.
+
+infinite?
+
+all guys?
+
+freemium.
+
+solve em.
+
+have fun.
+
+not good.
+
+not good.
+
+lets see.
+
+adampalm.
+
+football.
+
+too cold?
+
+dont die.
+
+too cold?
+
+dont rush.
+
+alright...
+
+what then?
+
+dont rush.
+
+what then?
+
+be honest.
+
+dont rush.
+
+alright...
+
+what then?
+
+humble up!
+
+humble up!
+
+never ask.
+
+stop that.
+
+JUST TALK.
+
+can i not?
+
+info diet.
+
+diversify?
+
+walk away.
+
+get happy?
+
+get happy?
+
+make love.
+
+so lesson?
+
+companies?
+
+bad sleep?
+
+info diet.
+
+check avg.
+
+let it go.
+
+its worth.
+
+philsoophy?
+
+its so sad.
+
+its so sad.
+
+its so sad.
+
+experiment.
+
+not a cult!
+
+love giver.
+
+get to 80%.
+
+so be good.
+
+more money?
+
+a sandwich.
+
+be healthy.
+
+be wealthy.
+
+Baby steps.
+
+truth more.
+
+get jacked?
+
+get jacked?
+
+surf, jazz.
+
+minimalism?
+
+but fame???
+
+create art.
+
+about life.
+
+solve debt.
+
+stage name?
+
+i feel bad.
+
+Free lunch?
+
+map it out.
+
+keep going.
+
+pithy shit.
+
+stage name?
+
+who are you?
+
+who are you?
+
+explanation.
+
+stay humble.
+
+sexlessness.
+
+more result.
+
+start small.
+
+why is that?
+
+high upside.
+
+smart girls?
+
+just a pod..
+
+do 100 apps.
+
+steak salad.
+
+is that bad?
+
+If you want.
+
+keep trying.
+
+im torn ugh.
+
+video games?
+
+fearset shit.
+
+fearset shit.
+
+any problems?
+
+human agency.
+
+how to solve?
+
+THEN ship it.
+
+just takes 1.
+
+any problems?
+
+more friends?
+
+keep looking.
+
+correct them.
+
+what is good.
+
+know thyself.
+
+play it cool.
+
+do 100 thing.
+
+dont compete.
+
+andrew kirby.
+
+do 100 thing.
+
+make the pod.
+
+genuine shit.
+
+own leverage.
+
+step by step.
+
+every sunday.
+
+is this true?
+
+dont compete.
+
+what do i do?
+
+is this true?
+
+great framing.
+
+great framing.
+
+understanding.
+
+understanding.
+
+education etc.
+
+omnicompetent.
+
+what problems?
+
+make it great.
+
+you need both.
+
+in a good way?
+
+education etc.
+
+buy from them.
+
+understanding.
+
+its a low bar.
+
+be respectful.
+
+use adam palm?
+
+audit socials.
+
+also x and ig.
+
+luke and shit.
+
+or is it sage?
+
+how do i know?
+
+pokemon stats.
+
+how do i know?
+
+smart not hard.
+
+smart not hard.
+
+what do i want?
+
+yeah of course.
+
+smart not hard.
+
+test our water?
+
+break patterns?
+
+weird..\n\nwow.
+
+solve problems.
+
+smart not hard.
+
+8020 this shit.
+
+follow the fun.
+
+its exhausting.
+
+solve problems.
+
+solve mahalang.
+
+idk what to do.
+
+cash -> wealth.
+
+what is wisdom?
+
+write about em.
+
+follow the fun?
+
+use tastefully.
+
+what is wisdom?
+
+never giving up.
+
+never giving up.
+
+do YOU like YOU?
+
+never giving up.
+
+see who you are.
+
+see who you are.
+
+instead of fomo.
+
+hit 8020 levers.
+
+-12/day, +0/day.
+
+yes to the good.
+
+NO EXPECTATIONS.
+
+work on these 2.
+
+never giving up.
+
+sivers is right.
+
+recycle failure.
+
+hell yeah or no.
+
+try to steelman.
+
+provable signal.
+
+work on product.
+
+get a wise card.
+
+need cash first.
+
+under what name?
+
+science and all.
+
+i got 1s number.
+
+speak your mind.
+
+bring up graphs.
+
+this is not ppp.
+
+instant meaning.
+
+whats my answer?
+
+under what name?
+
+i got 1s number.
+
+bring up graphs.
+
+put the gun down?
+
+put the gun down?
+
+i really like it.
+
+maslows extended.
+
+put the gun down?
+
+you are a person.
+
+i really like it.
+
+are they growing?
+
+were serving God.
+
+i dont like that.
+
+generate options.
+
+get more bananas.
+
+introverts unite!
+
+sleep for energy.
+
+live a good life.
+
+live a good life.
+
+i really like it.
+
+little by little.
+
+approach therapy.
+
+results validate.
+
+adam p something.
+
+how to find love.
+
+how to quit porn.
+
+does this matter?
+
+im flailing here.
+
+does this matter?
+
+what if i get in?
+
+how am i funding?
+
+adam p something.
+
+does this matter?
+
+be authentic then?
+
+is this evergreen?
+
+what i want to do.
+
+trim the chapters.
+
+yeah its pathetic.
+
+be authentic then?
+
+what i want to do.
+
+trim the chapters.
+
+i need to improve.
+
+be authentic then?
+
+what do you think?
+
+is this evergreen?
+
+i need to improve.
+
+boom, better life.
+
+get guys together.
+
+emotional arousal.
+
+practice and shit.
+
+ideas and actions.
+
+just mute for now.
+
+try this solution.
+
+passive vs active.
+
+i love alone time!
+
+boom, better life.
+
+get guys together.
+
+know thyself haha.
+
+level yourself up.
+
+like elon or jobs?
+
+dial up dial down.
+
+use vocal effects?
+
+be worthy of note.
+
+less is more shit?
+
++ naval flow post.
+
+stop at 6 figures?
+
+i wanna be useful.
+
+theproblemsolvers.
+
+about what though?
+
+pareto venn stats.
+
+learn those first.
+
+boils down to time.
+
+make your own luck.
+
+life orchestration.
+
+chill the fuck out.
+
+to NOT be innocent?
+
+chill the fuck out.
+
+upfront incentives.
+
+would I watch this?
+
+chill the fuck out.
+
+like an A+ problem.
+
+try 100 reps of it.
+
+you dont know best.
+
+immediate feedback.
+
+be your own friend.
+
+get good.\n\nnaval.
+
+well it is a convo.
+
+what stage am i at?
+
+only what you like.
+
+what are you doing?
+
+ive made money url.
+
+try 100 reps of it.
+
+forgive and let go.
+
+thats small enough?
+
+do what scares you.
+
+like an A+ problem.
+
+people can feel it.
+
+And what do i show?
+
+more cheap options.
+
+mag gems of guests.
+
+solve male friends.
+
+solve girl friends.
+
+me!\n\nthat sucked.
+
+words cant express.
+
+math appears again.
+
+riff with the nice.
+
+take her on a date?
+
+its often nebulous.
+
+- what's fun today?
+
+hes go great stats.
+
+socially hanging on.
+
+socially hanging on.
+
+intentional mimesis.
+
+socially hanging on.
+
+socially hanging on.
+
+solve problems more.
+
+and teeth whitening.
+
+just solve problems.
+
+new day, new course.
+
+socially hanging on.
+
+theyre out of flow..
+
+help yourself first.
+
+great series\n\n​11.
+
+swimming downstream.
+
+solve problems more.
+
+get great influence?
+
+get great influence?
+
+so i need to change?
+
+that is maslow shit.
+
+just solve problems?
+
+but if you do, stop.
+
+sleep checklist etc.
+
+what will help them.
+
+why is it a mistake?
+
+what is the problem?
+
+same for newsletter.
+
+conjecture and test?
+
+asking the question.
+
+Know what is enough.
+
+y-int, x-int, slope.
+
+the less the better.
+
+same for newsletter.
+
+conjecture and test?
+
+i want more security.
+
+but does it resonate?
+
+i want more security.
+
+but does it resonate?
+
+list more heuristics.
+
+i trust subconscious.
+
+and what do you want?
+
+i want more security.
+
+i want more security.
+
+accelerated learning.
+
+diogo jota just died.
+
+can you get ONE sale?
+
+im stubborn in a way?
+
+the weight of living.
+
+i want more security.
+
+be an awesome friend.
+
+- good enough action.
+
+break up the problem.
+
+is it a worthy trade?
+
+what are my problems?
+
+so enjoy the journey?
+
+what do i need to do.
+
+do i want easy reads?
+
+this is fear setting.
+
+is this a pussy move?
+
+but thats not enough?
+
+be visibly competent.
+
+im mind isolated irl.
+
+we will have options.
+
+but thats not enough?
+
+be visibly competent.
+
+im mind isolated irl.
+
+focus on pareto spike.
+
+doing what scares you.
+
+doing what scares you.
+
+doing what scares you.
+
+diligent and striving.
+
+next step.\n\nproblem.
+
+be extremely balanced.
+
+acceptance is a skill.
+
+acceptance is a skill.
+
+problems are solvable.
+
+diligent and striving.
+
+find tools to upgrade?
+
+im still learning lol.
+
+we cant do this alone.
+
+how to get 1 true fan?
+
+nail it then scale it.
+
+keep asking questions.
+
+what do i do now then?
+
+youre enlightened lol.
+
+what is the next step?
+
+discussion and action.
+
+check ferriss on this.
+
+take notes in private.
+
+clean life budgetting.
+
+need weighted blanket?
+
+so NSs for url to irl.
+
+orchestrate your life.
+
+find tools to upgrade?
+
+i like bezos' clarity.
+
+take notes in private.
+
+need weighted blanket?
+
+so NSs for url to irl.
+
+be true to your nature.
+
+is that so fucking bad?
+
+so what do i/you/we do?
+
+THEN find girls i like.
+
+what am i greatful for?
+
+is that so fucking bad?
+
+so what do i/you/we do?
+
+THEN find girls i like.
+
+what am i greatful for?
+
+i feel like a kid: why?
+
+do it badly on purpose.
+
+is that so fucking bad?
+
+is that so fucking bad?
+
+THEN find girls i like.
+
+do it badly on purpose.
+
+take risks, experiment.
+
+what do i need more of?
+
+dont waste time people.
+
+seek good explanations.
+
+these cannot be bought.
+
+low supply high demand.
+
+positive peer pressure?
+
+but it hurts extremely.
+
+also archive 8020.best?
+
+do more work, practice.
+
+skill point allocation?
+
+when it's good enough..
+
+we preach AND practice.
+
+hard choices easy life.
+
+THEN find girls i like.
+
+reports+ is suffixient.
+
+whats a mistake anyway?
+
+is it how you frame it?
+
+well whats the problem?
+
+begin with the problem.
+
+i wanna be considerate.
+
+but what can i provide?
+
+but what can i provide?
+
+its like sales oof lol.
+
+where is the next node?
+
+be gritty and diligent.
+
+kami wants office lego?
+
+reports+ is suffixient.
+
+gotta reconcile w mama.
+
+i wanna be considerate.
+
+its like sales oof lol.
+
+memento mori, amor fati.
+
+to pay bills, to travel.
+
+whats the better option?
+
+or do i copy everything?
+
+to pay bills, to travel.
+
+whats the better option?
+
+or do i copy everything?
+
+eternity is now.\n\nnap?
+
+fame visible competence.
+
+all i can do is my best.
+
+assymetric risk benefit.
+
+assymetric risk benefit.
+
+how can that strat work?
+
+dont come on too strong.
+
+create more curate more.
+
+i want a 3rd one tiktok?
+
+whats the 9010 solution.
+
+job at a product i like?
+
+make an aphorisms ebook?
+
+dont overweigh on 1 rep.
+
+to live your best life..
+
+but i want editability..
+
+get magnesium glycinate.
+
+more wealth in that out.
+
+look up common mistakes.
+
+id do that for cash idk.
+
+what else besides these?
+
+deep down we know right?
+
+etc etc\n\nput feedback?
+
+Idk what is right to do.
+
+twitter for friends too.
+
+we will never be slaves!
+
+how can that strat work?
+
+i can email him anytime.
+
+what else besides these?
+
+twitter for friends too.
+
+fate has brought me here.
+
+should i hide what i say?
+
+up and up the tech stack!
+
+what are my insecurities?
+
+what is a mistake anyway?
+
+should i hide what i say?
+
+up and up the tech stack!
+
+whats the optimal spread?
+
+should i hide what i say?
+
+i want people to like me.
+
+diligently, with clarity.
+
+also do the X tips thing.
+
+its a race to the bottom.
+
+lets be clear about that.
+
+please critique my ideas.
+
+books from twitter feeds.
+
+make an onboarding thing?
+
+so its like digging gold.
+
+gotta upgrade your taste.
+
+take care of your health.
+
+life is a precious thing.
+
+rename it and new domain?
+
+like writing to a friend?
+
+what can you uniquely do?
+
+so what touch olena more?
+
+but rebuild and relaunch.
+
+so its like digging gold.
+
+gotta upgrade your taste.
+
+naval is so fuckin right.
+
+the question > the answer.
+
+should i say what i think?
+
+should i say what i think?
+
+when the math maths out...
+
+should i say what i think?
+
+i feel rejected, i reject.
+
+frame the question better.
+
+only solutions and action.
+
+consistent sunday karaoke.
+
+position better than that.
+
+cancel subscriptions etcs?
+
+be challenging discerning.
+
+what do you not want more?
+
+i feel rejected, i reject.
+
+this is product and sales.
+
+minimum effective product.
+
+just elevate what remains.
+
+just follow the checklist.
+
+depression fear set thing.
+
+whats the name of the pod?
+
+maybe its a pathless path.
+
+what do you uniquely know?
+
+cancel subscriptions etcs?
+
+whats the name of the pod?
+
+there are timeless things.
+
+do what you think is right.
+
+generate, curate, excavate.
+
+relax, for the same result.
+
+perservere
+
+its a sad life.
+
+do they give you bad vibes?
+
+also i can ween off coffee.
+
+well i also have a startup.
+
+people that truly resonate.
+
++ the opp cost is too high.
+
+getting wealthy and famous?
+
+solve live so you like you.
+
+put on spotify and youtube.
+
+create value capture value.
+
+as long as taller than you.
+
+lol imma make a dating app?
+
+give people hower for free?
+
+put on spotify and youtube.
+
+.\n\nblog with scapple too.
+
+as long as taller than you.
+
+lol imma make a dating app?
+
+i like a clear clarity plan.
+
+is it my desire or anothers?
+
+are these problems solvable?
+
+being wrong is a good thing.
+
+is it my desire or anothers?
+
+are these problems solvable?
+
+as long as youre deliberate.
+
+i mean thats a legit reason.
+
+are these problems solvable?
+
+top 2\n\ndo what scares you.
+
+i mean thats a legit reason.
+
+be the best that you can be.
+
+visible competence\n\nnaval.
+
+to love all is to love none.
+
+there is so much to unlearn.
+
+ill stick it out for a year.
+
+be the best that you can be.
+
+but i cant help some people.
+
+maybe its a false dichotomy.
+
+i think all 3 are great lol.
+
+How do you live a good life?
+
+meaning making as a subject.
+
+does it need to be this way?
+
+i think all 3 are great lol.
+
+create surface area for luck.
+
+be strategic in what i share.
+
+this isnt a hardship contest.
+
+work hard only if you got to.
+
+X respected person said that.
+
+be strategic in what i share.
+
+work hard only if you got to.
+
+to prevent envy or judgement?
+
+your subconscious might know.
+
+does it have to be a balance?
+
+be strategic in what i share.
+
+your subconscious might know.
+
+just solve problems\n\nnaval.
+
+dont preach, lead by example.
+
+theyre worth more than money.
+
+"blast them with papers" lol.
+
+"make your own luck"\n\nstop.
+
+hybrid of online and offline.
+
+ignore until you cant ignore.
+
+supportive, but not breaking.
+
+what if i was older than her?
+
+a stadium full of other yous.
+
+youngens who want to make it.
+
+which girls want a smart guy?
+
+its an all kill move to play.
+
+could be a source of income..
+
+tips to improve your account?
+
+cheatsheet.com\n\nwrite more?
+
+how to get really good sleep.
+
+wealth bromance romance flow.
+
+is this a 1-way or 2-way door?
+
+choose long term > short term.
+
+what do you do with your life?
+
+what do you do with your life?
+
+instead of an outer scorecard?
+
+this sounds hella protestant..
+
+i care about people that care.
+
+instead of an outer scorecard?
+
+hat background shirt lighting.
+
+short form till 100 followers.
+
+starving artist, founder, etc.
+
+find where you can contribute.
+
+or competition is for losers..
+
+theyre hidden in books frreal.
+
+thats kinda sanitizing though.
+
+1 who are you trying to serve?
+
+i mean how about starting out?
+
+dont hold 1 thing too tightly.
+
+do i work with people on guam?
+
+100 apps 100 essays 100 songs.
+
+theyre hidden in books frreal.
+
+1 who are you trying to serve?
+
+only read as much as you must.
+
+what if I slow down on purpose?
+
+the truth will set us all free.
+
+podcast as therapy alternative?
+
+the truth will set us all free.
+
+the truth will set us all free.
+
+inventio\n\none girl at a time?
+
+dont do ig reels on trite shit.
+
+solve debt, solve lovelessness.
+
+its their loss in the long run.
+
+dont do ig reels on trite shit.
+
+BIG problems is the new lesson.
+
+how do i do that without phone?
+
+frankl's paradoxical intention.
+
+so...\n\nsamenes home sun meat.
+
+health bryan johnson siim land.
+
+creative guesses to the market.
+
+it generates trusted attention.
+
+now its my top problem i think.
+
+but want code leverage though..
+
+highest signal i can broadcast?
+
+idk, auntie rese and something.
+
+trust your taste and judgement.
+
+give 8020 advice to both sides.
+
+talk to that guy about ns on x.
+
+how do i do that without phone?
+
+i get both sides, im in a bind.
+
+creative guesses to the market.
+
+trust your taste and judgement.
+
+give 8020 advice to both sides.
+
+every problem is an opportunity.
+
+but what does that mean for YOU?
+
+youll know
+
+good general advice.
+
+but what does that mean for YOU?
+
+youll know
+
+good general advice.
+
+i need to make it to the states.
+
+i need to make it to the states.
+
+be able to do it, but walk away.
+
+are they impressive in some way?
+
+be so good they cant ignore you.
+
+you dont have to cling to ideas.
+
+haha\n\nno thank you is a skill.
+
+haha\n\nno thank you is a skill.
+
+be so good they cant ignore you.
+
+like that taleb communism quote.
+
+like that taleb communism quote.
+
+be so good they cant ignore you.
+
+be able to do it, but walk away.
+
+problems solutions people sales.
+
+check how visa does it, sivers..
+
+reply to aishia re ns book club.
+
+esp post the things that repeat.
+
+thread in create curate elevate.
+
+esp post the things that repeat.
+
+porn i cant see how any is good.
+
+Be excellent and invited to play.
+
+never forget the Deutschian lens.
+
+what is the minima 8020 solution?
+
+IM FUCKING SEXUAL AND THATS OKAY.
+
+i like girls omg, and thats okay.
+
+or a lot
+
+advice cancels to zero.
+
+does this create anxiety sharing?
+
+this isnt a hardship contest lol.
+
+if i feel shitty, what do i want?
+
+IM FUCKING SEXUAL AND THATS OKAY.
+
+i like girls omg, and thats okay.
+
+or a lot
+
+advice cancels to zero.
+
+if i feel shitty, what do i want?
+
+how open should i be on internet.
+
+IM FUCKING SEXUAL AND THATS OKAY.
+
+i like girls omg, and thats okay.
+
+IM FUCKING SEXUAL AND THATS OKAY.
+
+i like girls omg, and thats okay.
+
+if it makes sense then follow it.
+
+does this create anxiety sharing?
+
+win and help win if thheyre cool.
+
+i LOVE it\n\nignore what you can.
+
+win and help win\n\nbe authentic.
+
+nah\n\nignore, let them initiate.
+
+media peverage and code leverage.
+
+i went into debt because of this.
+
+win and help win if thheyre cool.
+
+you can share what youve learned.
+
+so im just gonna write, not edit.
+
+try being the opposite for a bit.
+
+whats a good underlying strategy.
+
+maybe i do need to go to therapy.
+
+write about the ethics of opt in.
+
+what are your current priorities?
+
+wealth?\n\ntalk to mama about ns.
+
+be internet first: code and media.
+
+will my deathbed self regret this?
+
+practical solutions, not critique.
+
+less impatience, more presentness?
+
+whats the simple elegant solution?
+
+less impatience, more presentness?
+
+whats the simple elegant solution?
+
+does this drain me or energize me?
+
+youll know\n\ngood general advice.
+
+remove what youve heard elsewhere.
+
+solve problems for you and others.
+
+help other people, get good sleep.
+
+first of all you shouldnt compete.
+
+you need to play your cards right.
+
+maybe just a problem solving club.
+
+the people here at ns are amazing.
+
+i like the startup of you framing.
+
+i paid for a dentist, airalo, etc.
+
+i paid for a dentist, airalo, etc.
+
+Play your own game, your own life.
+
+remove what youve heard elsewhere.
+
+i like the startup of you framing.
+
+amor fati (the love of one's fate).
+
+have i achieved what you are after?
+
+look at worst downside best upside.
+
+have i achieved what you are after?
+
+look at worst downside best upside.
+
+then people like you will like you.
+
+just return to it when you need to.
+
+or a lot\n\nadvice cancels to zero.
+
+look at worst downside best upside.
+
+then people like you will like you.
+
+just return to it when you need to.
+
+help solve their problem, thats it.
+
+just do it?\n\nfix online shopping.
+
+etc.\n\nthe path to peace is truth.
+
+do they energize mixed or drain me.
+
+it outright just solved loneliness.
+
+show and tell, to the right people.
+
+then people like you will like you.
+
+"practice" is a hella useful frame.
+
+to live the best life you can live.
+
+build wealth, build fame, a life???
+
+i converged on these great desires.
+
+sabatier, elon, naval, balaji, etc.
+
+i want to understand the problems..
+
+i like topic-siloed consideration..
+
+to solve your book writing problem.
+
+i converged on these great desires.
+
+Rough and tumble play with everyone.
+
+the beauty of tests and experiments.
+
+ill start within the overton window.
+
+mwahaha
+
+when does honesty go wrong?
+
+where do the girls that you like go?
+
+should i embarass myself on purpose?
+
+should i embarass myself on purpose?
+
+why do i care about being masculine?
+
+ill start within the overton window.
+
+where do the girls that you like go?
+
+why do i care about being masculine?
+
+hire friends?\n\npartial on purpose.
+
+to care for all is to care for none.
+
+so learn the truth and work with it.
+
+protect your time its all you have..
+
+the history of cults\n\nnavalmanack.
+
+should this be internal or external?
+
+hire friends?\n\npartial on purpose.
+
+to care for all is to care for none.
+
+so learn the truth and work with it.
+
+try to create the WORST art you can.
+
+its olay if we start at a low level.
+
+you can connect other people's dots.
+
+if depth isnt working go to breadth.
+
+follow the thiel 7 question filters.
+
+i want to impress donovan or balaji.
+
+i think thats a good aperture for X.
+
+i should be able to delete the data.
+
+whatever i create i can also curate.
+
+i want to understand before acting..
+
+under 1 name or make a diff account?
+
+repost what you wish youd have said.
+
+teach people and include your thing.
+
+noone is forcing you to do anything.
+
+i dont like being seen doing poorly.
+
+maybe girls can filter by money too.
+
+if she does then slide in and flirt.
+
+check discover to see monthly spend.
+
+follow the thiel 7 question filters.
+
+repost what you wish youd have said.
+
+maybe girls can filter by money too.
+
+deutschian agency
+
+do what scares me.
+
+what you are
+seeking, is seeking you.
+
+its fucking pathetic, and sad yeah...
+
+lol
+
+what does your inner critic say?
+
+its fucking pathetic, and sad yeah...
+
+only ask for money when accelerating.
+
+its fucking pathetic, and sad yeah...
+
+its fucking pathetic, and sad yeah...
+
+only ask for money when accelerating.
+
+what i want to do.\n\nget invisalign?
+
+everything in its due time, sequence!
+
+solve problems\n\neat good mind food.
+
+there really isnt much to fear right?
+
+we can be so much better than we are.
+
+make the thing for you, the audience.
+
+express yourself as truly as you can.
+
+what are the problems youve mastered?
+
+remove and curate things i dont like.
+
+i can be funny\n\ndo another podcast?
+
+talk to people i respect about this..
+
+choose your desires and games wisely.
+
+if you could escape to another world?
+
+do great things and people will come.
+
+what if i need to move to dads house?
+
+what are the problems youve mastered?
+
+choose your desires and games wisely.
+
+by dwelling you miss the opportunity.
+
+I can be the parent that my kids need.
+
+diligence and savings lead to freedom.
+
+by dwelling, you miss the opportunity.
+
+i'll figure it out, i'll make it work.
+
+for guys, is your money a part of you?
+
+the long game metters for compounding.
+
+well it begs the question what is God?
+
+what if being authentic is not enough?
+
+for guys, is your money a part of you?
+
+the long game metters for compounding.
+
+well it begs the question what is God?
+
+what if being authentic is not enough?
+
+imagine a tribe podium dunbars number.
+
+well it begs the question what is God?
+
+what if being authentic is not enough?
+
+imagine a tribe podium dunbars number.
+
+like w miguel and him not apologizing.
+
+both search and recognize who you are.
+
+hard choices easy life.\n\nconfidence.
+
+insert pic\n\nhow to live a good life?
+
+imagine a tribe podium dunbars number.
+
+and report the outputs of experiments.
+
+tell a story, sell the transformation.
+
+least friction to solve their problem.
+
+have a pinned keep for ns diary ideas.
+
+I'm panicking I gotta make money ASAP.
+
+i want to solve debt and lovelessness.
+
+and how i wanna make life like a game.
+
+im following my nose diligently first.
+
+im following my nose diligently first.
+
+the world and life is the real school.
+
+i have to choose between parents?!?!?!
+
+dopamine is the 0th principle economy.
+
+positive outcomes from unknown sources.
+
+if doibt no doubt\n\nstep up your game!
+
+will courage rtc\n\nopen your aperture.
+
+provide value\n\nstop hitting on girls.
+
+solve problems and help solve problems.
+
+has to be 10x better or a new solution.
+
+employee and company should be aligned.
+
+can renegades do equal/better research?
+
+deep dives on interesting things to me?
+
+apex is literally healthy wealthy wise.
+
+to actually help others, help yourself.
+
+one is deliberate, one drags you along.
+
+has to be 10x better or a new solution.
+
+something beyond you you want to exist.
+
+like a slideshow, show pics tastefully.
+
+look at women's actions not their words.
+
+money, no concrete plan after singapore.
+
+money, no concrete plan after singapore.
+
+you can train other stuff, not attitude.
+
+this is humbling..\n\nmanny and kamarin.
+
+its ok..\n\nyou can solve your problems!
+
+make the "good enough" decision.\n\ncal.
+
+more love?\n\nwhat do i need to work on?
+
+how do we know were not in a cult event.
+
+flowmaxx\n\nreconsider ns after 1 year..
+
+how do i make the hard easy and do that?
+
+you can train other stuff, not attitude.
+
+we must earn each other\n\nto do list 0.
+
+you can talk to girls but be discerning.
+
+money, no concrete plan after singapore.
+
+a trillion dollar idea is within a book.
+
+look at what you do and ask why why why.
+
+i dont like muddying the waters but idk.
+
+cal meetings with each of the customers.
+
+would you do this even if it would fail?
+
+a trillion dollar idea is within a book.
+
+remember that only 1/5th of this matters.
+
+okay asking pretty girls out doesnt work.
+
+violence is blind
+
+add some, remove some.
+
+i dont like people who play status games.
+
+i dont like people who play status games.
+
+top 2
+
+
+
+for every
+
+
+
+do what scares you.
+
+more debt, no girlfriend, little friends.
+
+be useful
+
+why is feelings non-masculine?
+
+more debt, no girlfriend, little friends.
+
+after material needs, go for experiences.
+
+jomo.\n\nim aiming for polymathy i guess.
+
+learn from mistakes\n\nstep up your game!
+
+trying to improve\n\nstop self-obsessing.
+
+being more friendly, ambitious, or nerdy?
+
+winning can be hard but its table stakes.
+
+go to ubud at 26 and solve lovelessness..
+
+more debt, no girlfriend, little friends.
+
+have you looked into getting IG verified?
+
+:)\n\nearn with your mind, not your time.
+
+build momentum to scale the warped wall..
+
+begin w problem then understand then act.
+
+so debt: hang around the wealth creators.
+
+lets discuss ideas, and lets act on them.
+
+Please son?\n\nnail it before scaling it.
+
+both these purchases are problem aligned.
+
+what would this look like if it were easy?
+
+everything is hard, what hard do you pick?
+
+you can prioritize being low stress first.
+
+the goal is input and output DISCONNECTED.
+
+talk about time urgency, birthday anxiety?
+
+if not enough signal, publish 2, delete 1.
+
+if not enough signal, publish 2, delete 1.
+
+do less, better.\n\npost more clips on ig.
+
+do less, better.\n\npost more clips on ig.
+
+directing salience\n\njust solve problems.
+
+BOTH.\n\n- whatever you're doing, ask why.
+
+what would this look like if it were easy?
+
+say no to the bad AND say yes to the good.
+
+prince charming is both powerful and good.
+
+market myself in target rich environments.
+
+every guide should feel like a cheatsheet.
+
+this is like tim ferriss, richard d james.
+
+at the better content studio or something?
+
+educate the market, give free value first.
+
+go back to visa and say define successful.
+
+need no debt and a girlfriend and friends?
+
+id help others and finish my say-do ratio.
+
+win and help win\n\n3 what does this mean?
+
+lol\n\nalso kids should learn game theory.
+
+also i dont need pics for all of my blogs.
+
+need no debt and a girlfriend and friends?
+
+can i learn from a college educated person.
+
+can i learn from a college educated person.
+
+nah
+
+just dont do what you dont want to do.
+
+perservere\n\njust learn, follow curiosity.
+
+perservere\n\njust learn, follow curiosity.
+
+can i learn from a college educated person.
+
+makes me feel horrible letting people down.
+
+good sleep >>\n\ncan you build levers well?
+
+create curate elevate\n\nproblem agitation.
+
+ykwim?\n\nbe so good, they cant ignore you.
+
+bending but not breaking.\n\nunfollow xian?
+
+if you dare..\n\nto get better at anything.
+
+the serenity prayer is all encompaasing no?
+
+so what?\n\nremove ALL unecessary expenses.
+
+how do i make myself into the perfect date?
+
+learn from the advice from the forbes list.
+
+values based.\n\nsolve the online shopping.
+
+What is the essence of wealth creation etc?
+
+but why would people care about my opinion?
+
+even elon sucks at his family life i guess.
+
+stop feeling guilty for not helping others.
+
+i dont like being seen to be in a disaster.
+
+after 1 dollar, check if i can get into ns?
+
+you make kids as much as you can afford to.
+
+i need to manage relationship expectations.
+
+do not look around to others only up to God.
+
+i mean trust yourself, and your ignorance...
+
+just see if x will work, have a backup plan.
+
+make steps toward the life you want to live.
+
+do not look around to others only up to God.
+
+i mean trust yourself, and your ignorance...
+
+just see if x will work, have a backup plan.
+
+do not look around to others only up to God.
+
+just see if x will work, have a backup plan.
+
+**\n\nmama pointed out that im very extreme.
+
+simply be her best option\n\n@@@clear goals.
+
+do not do well what you shouldn't do at all.
+
+once you win the game you must stop playing.
+
+make a 2x2 of creatives and wealth-creators.
+
+health wealth wisdom is all encompassing no?
+
+your guess about how to live your best life.
+
+competition is for losers\n\njust chill out.
+
+to solve lovelessness, be visibly competent.
+
+i dont think thats how life should be lived.
+
+if you dont like it but the market likes it.
+
+I mean the projects can be in the spotlight.
+
+what if steve jobs overfocused on blueboxes.
+
+if youre looking for flaws, youll find them.
+
+and know that perfection is a fool’s errand.
+
+specify goals, pair systems, daily practice.
+
+and know that perfection is a fool’s errand.
+
+question delete optimize accelerate automate.
+
+like i want this, because this, because this.
+
+in principle there are many compatible women.
+
+do your best, and that's all you can ask for.
+
+top 20%\n\ni want to know what to do and why.
+
+you got this bro.\n\ncan you find ONE friend?
+
+do your best, and that's all you can ask for.
+
+in principle there are many compatible women.
+
+if you want reach, be like visakan veerasamy.
+
+its low stakes, productive, all around good..
+
+sales grants funding presales tips mama loan?
+
+take what you need, and get out and apply it.
+
+if you dont dread mondays, thats a good sign.
+
+more friends in than out.\n\ngrammarly for X.
+
+what do you do when you dont know what to do?
+
+also get that domain name\n\ndont waste time.
+
+loneliness: hang around the super connectors.
+
+share more projects on a thread of projects..
+
+if i know this can be big, then keep pushing.
+
+thread in the do not oversolve your problems.
+
+make a simple platform for them to upload to?
+
+or just stay out of it\n\neat good mind food.
+
+it will take time for substance to take place.
+
+pain still sucks no matter who experiences it.
+
+pain still sucks no matter who experiences it.
+
+pain still sucks no matter who experiences it.
+
+that isnt by you\n\ntime health wealth wisdom.
+
+chill out a bit.\n\nstop pedastalizing people.
+
+how do you solve the hiring / asshole problem?
+
+i want a beautiful inside and out young woman.
+
+and what poisons await me if i do what i fear?
+
+simplify simplify simplify ALL marketing copy.
+
+but what happens when i exhaust all the times?
+
+save time, make space for new better mistakes.
+
+adam palm adam spruce adam birch adam oak etc?
+
+i have an explanatory plan to get to my goals.
+
+allocate in proportion to conviction remember.
+
+healthy wealthy wise.\n\nhealthy wealthy wise.
+
+problems are solvable but what is the problem?
+
+save time, make space for new better mistakes.
+
+adam palm adam spruce adam birch adam oak etc?
+
+i have an explanatory plan to get to my goals.
+
+they dont trust me, theyre not attracted to me.
+
+competition is for losers
+
+buying my time back?
+
+they dont trust me, theyre not attracted to me.
+
+competition is for losers
+
+buying my time back?
+
+you dont HAVE to force discipline and all that.
+
+give awesome resources to learn certain things.
+
+they dont trust me, theyre not attracted to me.
+
+they dont trust me, theyre not attracted to me.
+
+you dont HAVE to force discipline and all that.
+
+do YOU like YOU?\n\ndo they give you bad vibes?
+
+lift weights, eat meat, read books, kiss women?
+
+im starting out so consume more than i produce?
+
+idk its my responsibility for my peace of mind.
+
+salience can really get whipped left and right.
+
+they dont trust me, theyre not attracted to me.
+
+can we measure were at on healthy wealthy wise?
+
+debt, need successful code product, ok so what?
+
+make writing also accessible like derek sivers.
+
+we can just figure it out, be omnipresent, TRY.
+
+err not\n\nwith texting, give benefit of doubt.
+
+salience can really get whipped left and right.
+
+learn the rules break the rules make the rules.
+
+right thing, right now
+
+I am too hard on myself.
+
+the answer is the seeking, the spirit of it all.
+
+leave the channels open
+
+whats stressing me out?
+
+keep looking out for new good problems to solve.
+
+keep looking out for new good problems to solve.
+
+:)\n\n- just solve top problems.\n\ncall people.
+
+schedule 1 session\n\nrelax for the same result.
+
+idk..\n\nbeing wrong ultimately is a good thing.
+
+remove dating apps after\n\njust solve problems.
+
+double down on the remaining 20% curated people.
+
+keep looking out for new good problems to solve.
+
+guessing for understanding and actions, in life.
+
+wealth: economic machine, naval how to get rich.
+
+do i want compressed fortune cookie tweet style?
+
+i want to give gifts and shit and opportunities.
+
+i wouldnt pay for water if i knew how to get it.
+
+i wouldnt pay for water if i knew how to get it.
+
+Get to the finish line for whatever you need to.
+
+minimum effective problem solving to solve debt.
+
+just like how you had prejudice against dubai...
+
+first a dont be on this app till this this this.
+
+nah\n\n2 heres the changge in your life i offer.
+
+first a dont be on this app till this this this.
+
+if indulgences dont work, you must save yourself.
+
+unsolicited random advice bits:
+
+explore exploit.
+
+i gotta be a good friend
+
+stand the test of time.
+
+what if someone is better than you on all fronts?
+
+you can have your face online, just dont push it.
+
+what if someone is better than you on all fronts?
+
+it has to click for me
+
+what is a mistake anyway?
+
+so it makes sense why we dont like ourselves too.
+
+what if someone is better than you on all fronts?
+
+so it makes sense why we dont like ourselves too.
+
+by dwelling, you miss the opportunity\n\nproblem.
+
+the cliches are true.\n\nwho are you to judge me?
+
+baby steps.\n\ndont let incompetence be a virtue.
+
+life is precious\n\nprove them wrong and forgive.
+
+from my ai apps and reels\n\nregret minimization.
+
+if i did, my problems wouldve been solved by now.
+
+by dwelling, you miss the opportunity\n\nproblem.
+
+the potential is attractive, if you exercise it..
+
+the potential is attractive, if you exercise it..
+
+so fucking tell me what to do lol, orion and dan.
+
+youre doing marketing because you failed product.
+
+what is the limit to what you can think of doing?
+
+they say business opportunities come like buses..
+
+how to persuade mama to keep me at ns for a year?
+
+youre doing marketing because you failed product.
+
+kling is health, wealthy is blake, wise is jesse.
+
+do something great and your network will improve.
+
+physical > digital games
+
+energy emotions buttons.
+
+who you will become must be rooted in who you are.
+
+maybe ill keep creeping further and further out...
+
+i feel permanently tainted by hiring a prostitute.
+
+its a challenge
+
+well how else am i going to live?
+
+just have fun
+
+why do people not talk about money?
+
+use leverage so your judgement is the real factor.
+
+you can also say yes to things you think are good.
+
+philsoophy?\n\ni feel dirty with sin and nepotism.
+
+maybe ill keep creeping further and further out...
+
+what i want to do.\n\nbeing wrong is a good thing.
+
+use leverage so your judgement is the real factor.
+
+you can also say yes to things you think are good.
+
+make progress given best understanding and action.
+
+power is walking away.\n\ngood learning resources.
+
+online before offline.\n\nis it bragging or proof?
+
+the cliches are true.\n\nlife is what you make it.
+
+if you can say no say no\n\n- just solve problems.
+
+go where the startup is RELEVANT where its signal.
+
+to focus on what matters in life and nothing else?
+
+i guess always keep less followers than following?
+
+sign up for product releases/updates, and my blog?
+
+i dont want to mess up peoples feeds if off topic.
+
+make money, time, kids, art, friends, experiences.
+
+also post what if elon was overfocused on blastar.
+
+i feel like elon is lowkey your dubai in a person.
+
+id finish ns and copy paste it all over the world.
+
+build something great and the network will emerge.
+
+maybe coin a name\n\nhow could this idea be wrong?
+
+i dont want to mess up peoples feeds if off topic.
+
+statistics does not work with a sample size of one.
+
+do I have any better ideas on how to spend my time?
+
+i want to be seen as someone who follows through???
+
+i gotta be a good friend\n\nstand the test of time.
+
+i gotta be a good friend\n\nstand the test of time.
+
+healthy wealthy wise.\n\nyou MUST do what you love.
+
+FANs\n\nif it doesn’t need to be done, don’t do it.
+
+post that with gigi reply.\n\npeople here are hard.
+
+if you dare..\n\nyoung men can still be attractive.
+
+do less, better, but still try new positive things.
+
+if you were a real people pleaser, please yourself!
+
+just solve problems\n\nif youre too stuck, move on.
+
+come to *insert offered solution event or product*.
+
+perservere
+
+for girls, are your looks a part of you?
+
+i guess well only know with a test
+
+what is courage?
+
+im disciplined diligent sorta lazy, and disciplined.
+
+just have fun
+
+do it at speed volume cheap relevant.
+
+like rick rubin, do it for me, listen to noone else?
+
+i guess well only know with a test
+
+what is courage?
+
+im disciplined diligent sorta lazy, and disciplined.
+
+like rick rubin, do it for me, listen to noone else?
+
+through volume and taste, you will become less shit.
+
+can i find examples of people doing what ive chosen?
+
+like rick rubin, do it for me, listen to noone else?
+
+**\n\nsetup a system not just a one time girlfriend.
+
+be around beautiful women?\n\npractice makes better.
+
+say yes to the greater\n\nbe your best, and express.
+
+is it my desire or anothers?\n\nif youre gonna live.
+
+lets act..\n\nalso talk about karmic debt repayment.
+
+meeting a friend, etc.\n\nhow do i live a good life?
+
+must be earned\n\ni help people who help themselves.
+
+“do less better”\n\nits not in my nature to give up.
+
+post sivers content, like your music and people too.
+
+**\n\nsetup a system not just a one time girlfriend.
+
+like rick rubin, do it for me, listen to noone else?
+
+matter is maslow bottom, what matters is maslow top.
+
+what we most fear, is often what we most need to do.
+
+focus on your fire, then just find a few dead trees.
+
+including yourself\n\nwhat do people pay people for?
+
+free up your responsibilites and time and attention.
+
+low bandwidth means say no, clean your calendar etc.
+
+being courageous
+
+i wanna be systematic with my life.
+
+build the lever to then pull
+
+stand the test of time.
+
+highest conception, youll be fine
+
+i like pragmatism.
+
+i would be different with power and so would you, no?
+
+being courageous
+
+i wanna be systematic with my life.
+
+experiment, fearset\n\nwhy is feelings non-masculine?
+
+THEN market and sell again in the sexual marketplace.
+
+just solve problems.\n\npost and ghost, dont promote.
+
+sexlessness and debt.\n\nwhat other problem to solve?
+
+let it be\n\nimport the derek sivers local or global.
+
+always begin w the problem\n\nbro play the long game.
+
++ win and help win\n\nhow do i leverage the internet?
+
+no filter filter later\n\nwhen does honesty go wrong?
+
+THEN market and sell again in the sexual marketplace.
+
+be a general problem solver, in many domains of life.
+
+omnicompetence is more fun.\n\nwealth is just step 1.
+
+follow the customer and the problem, not competitors.
+
+wait for her to respond and start up the convo again.
+
+uhh learn from other lives and you lived other lives.
+
+what area have you uniquely gone down a long road on?
+
+the school is to cement the education of the concept.
+
+create curate create curate.\n\nbanks need more apis.
+
+follow the customer and the problem, not competitors.
+
+maybe label it and tape label to wall so its obvious.
+
+uhh learn from other lives and you lived other lives.
+
+keep looking, don't settle
+
+you only fail if you quit.
+
+plan learn build show tell
+
+life is a series of games.
+
+founders, family, friends
+
+seek transformative truths.
+
+make you like you first
+what dont i like about myself?
+
+the unexamined life is not worth living so they say...
+
+make you like you first
+what dont i like about myself?
+
+the unexamined life is not worth living so they say...
+
+make you like you first what dont i like about myself?
+
+the biggest risk in this world is not taking any risk.
+
+if you dont have haters/critics youre being too timid?
+
+awareness understanding action.\n\nyou need to pursue.
+
+just match energy\n\ndamn i gotta talk to more people.
+
+something like this..\n\nbe open to the great mystery.
+
+be honest, thats the base layer\n\njust dont be needy.
+
+win.\n\nbe tasteful in your reply game and tweet game.
+
+that was rough for sure.\n\ncompetition is for losers.
+
+but leave the website.\n\ncriticism should be welcome.
+
+if you dont have haters/critics youre being too timid?
+
+high cost is a GOOD thing, means its a sellers market.
+
+more and more\n\nwhat is my best guess on whats right?
+
+i have standards, ignore, let her initiate initiation.
+
+you clearly are a prolific creator, so why not curate?
+
+but these people are so polarizing you cant ignore em.
+
+- learn why the salient problem happens, and solve it.
+
+id wanna have a calm mind fit body house full of love.
+
+high cost is a GOOD thing, means its a sellers market.
+
+etc etc\n\nmake diff twitter accounts for diff topics?
+
+i have standards, ignore, let her initiate initiation.
+
+its crazy how incessent testosterone is and horniness.
+
+i gotta be a good friend
+
+just learn, follow curiosity.
+
+scaling down the task so perfectionism is easy to beat.
+
+how to guard against mimesis, examine your motivations.
+
+highest conception, youll be fine\n\ni like pragmatism.
+
+highest conception, youll be fine\n\ni like pragmatism.
+
+being courageous\n\ni wanna be systematic with my life.
+
+win and help win.\n\nget famous via visible competence.
+
+don was a pleasent surprise\n\npoint to a body of work.
+
+haha\n\nif youre looking for flaws, you will find them.
+
+much in life is misunderstood.\n\neat your own cooking.
+
+inaction cost shit.\n\nbe so good they cant ignore you.
+
+forgive people, an eye for an eye makes everyone blind.
+
+i want to know in principle\n\nspeak to people like me.
+
+the audience comes last.\n\ni feel so fuckin miserable.
+
+genuinely serving someone with a life change THEY seek.
+
+blandness.\n\nokay asking pretty girls out doesnt work.
+
+how do i understand this problem from first principles?
+
+im not a 3d artist, or rather ive barely dabbled in it.
+
+as a speedrunner does, dwell where pareto results come.
+
+say "i see that, good choice"\n\n200 monthly food burn.
+
+genuinely serving someone with a life change THEY seek.
+
+should we be able to change our name at 18 or something?
+
+i like the bryan johnson way, like just follow the data.
+
+can i soread out the stress for a more sustainable life?
+
+i like the bryan johnson way, like just follow the data.
+
+what am i greatful for?\n\nwhat do i have endurance for?
+
+honey not vinegar\n\nremember there are infinite women..
+
+the way i see it could be wrong,\n\n- say no to the bad.
+
+minimal good release\n\nbe so good they cant ignore you.
+
+or just stay out of it\n\nwalk alongside, not following.
+
+dont oversolve\n\nbeing yourself polarizes and attracts.
+
+freelance\n\nif you pedastalize, being a friend is hard.
+
+to get the big things done, let small bad things happen.
+
+just learn the 8020 basics of each important life thing.
+
+remember what godin said: 1 who are you trying to serve?
+
+follow results for goal states?\n\nwrite about mistakes.
+
+also prep what im gonna do for good sex and kissing etc.
+
+be clear on what problems ive solved vs my best guesses.
+
+do what scares you, for non-regrettal, long term things.
+
+maybe first 2 switched idk\n\ninvest breadth then depth.
+
+just learn the 8020 basics of each important life thing.
+
+do what scares you, for non-regrettal, long term things.
+
+i cant go back in time, what can i do to right the wrong?
+
+i cant go back in time, what can i do to right the wrong?
+
+money muscles calmness
+
+take moonshots and regular shots.
+
+act step by step.\n\nwhat you are seeking is seeking you.
+
+time is life energy.\n\nmake choices you can be proud of.
+
+be calm be fit be loving and grateful.\n\nshow dont tell.
+
+just problem solve\n\nbe careful of commitments you make.
+
+whats the best guess?\n\nhow do you become a cracked dev?
+
+iteration then repitition\n\nmoney is important for sure.
+
+unless of course you just gotta take a job to make money.
+
+finish whats on my plate before adding more to the plate.
+
+take notes from forbes people for wealth creation advice.
+
+different doesnt mean good or bad it just means different.
+
+different doesnt mean good or bad it just means different.
+
+strong and good.\n\nevery day, i chip away at my problems.
+
+8020 dominos w leverage and shit\n\ntry things you havent.
+
+worse / bad questions\n\nbalance engineer with influencer.
+
+be helpful\n\nask miku fejeran to advise, other girls too.
+
+in life\n\ni dont wanna make ns my whole personality haha.
+
+be wise\n\npeople dont usually weild their taste properly.
+
+does this get me closer or farther from $27 dollars a day?
+
+also 1k from dad..\n\nthe best careers are natural to you.
+
+ask questions instead of making blanket static statements.
+
+i learned to delete delete delete, and log when debugging.
+
+don't spend money, pain, time, in ways not worth spending.
+
+i feel less empowered\n\ntalk w mama about being an adult.
+
+why im using a half-pseudonym\n\nshould i start a podcast?
+
+i mean non-neediness yeah.\n\nnoone is good at everything.
+
+does this get me closer or farther from $27 dollars a day?
+
+sometimes not learning the rules at the start is good too.
+
+memento mori: remember death
+
+when in disaster, bit by bit.
+
+get the fundamentals right
+
+anxiety and voluntary approach.
+
+not "things i tell myself" do what would make YOU like YOU.
+
+get the fundamentals right
+
+anxiety and voluntary approach.
+
+not "things i tell myself" do what would make YOU like YOU.
+
+i just wont give up
+
+
+i dont ask for money, ask for advice.
+
+insecurity, i want a girlfriend, but first I gotta like me.
+
+im providing value to the company too though...\n\nhold on.
+
+insecurity, i want a girlfriend, but first I gotta like me.
+
+fuck it, jump into the cold.\n\nSexlessness Representation.
+
+dont be talked out of a good idea.\n\nnever sell your time.
+
+i already posted this\n\nyou are wrong, but error correct..
+
+walk and talk\n\nquality wuantity speed of decision making.
+
+challenge-skills balance.\n\ntry not to make same mistakes.
+
+nourishing and challenging.\n\nas long as you work on your.
+
+ALSO do what scares you\n\nnote to self: just fuckin write.
+
+from great understanding\n\ndont sell what you wouldnt buy.
+
+make those babies!!!\n\nnever let cowardice be a bottlenck.
+
+we have infinite people so we must be infinitely selective.
+
+talk about the experiences of being here at ns, the people.
+
+i can always do it the next month, i dont understand first.
+
+with an email address on all reddit posts and on each site.
+
+i got super high standards for my self and who ill be with.
+
+be agentic
+
+80 20 speedrun
+
+teach yourself
+
+hell yeah or no.
+
+would I regret doing this at 100 years old / on my deathbed?
+
+being the best does indeed have rewards, but also drawbacks.
+
+eustress is good, not involuntrary distress
+
+just do 1 step.
+
+i love love how noah kagan doesnt take himself so seriously.
+
+maybe the fact that im asking the question is not masculine.
+
+have i achieved what you are after?\n\nbut does it resonate?
+
+maybe the fact that im asking the question is not masculine.
+
+pros and cons for sure to both\n\nabundance mindset w women.
+
+you can “predict” the future if you extrapolate your habits.
+
+blake anderson, zach yadegari.\n\nto get better at anything.
+
+make you like you first\n\nwhen posting, is it useful to me?
+
+design w failure in mind\n\nwe can succeed DESPITE failures.
+
+problem understand action\n\n@@ no resentment, no self-pity.
+
+being too nice is sus.\n\nsolve loneliness sexlessness debt.
+
+get back into a rhythm\n\ndont try to be everything at once.
+
+so its not fragile?\n\nlearn more about how to make friends.
+
+they make things cheap..\n\nbe so good they cant ignore you.
+
+get the hang of it.\n\nthe mental to physical clearly works.
+
+pros and cons for sure to both\n\nabundance mindset w women.
+
+give people a chance, improve each other\n\nreply to aishia.
+
+care about peoples approval, and you will be their prisoner.
+
+stress is untaken action\n\nmake 8020 best and caldump free?
+
+etc\n\nns feels like devil wears prada or like whiplash lol.
+
+learn mental models like maslows extended and heros journey.
+
+its basically like speaking at a podium in an ancient tribe.
+
+how to get rich (naval), aggregate cheatsheets on a website.
+
+learn mental models like maslows extended and heros journey.
+
+seek negative feedback, in the name of transformative truths.
+
+every problem is an opportunity, the bad is next to the good.
+
+but i know i am and i still am willing to be for what i want?
+
+get the fundamentals right\n\nanxiety and voluntary approach.
+
+provide value\n\nmap your mind as closely coupled to reality.
+
+trash sell reuse etc\n\ndo it at speed volume cheap relevant.
+
+breadth and depth\n\n- how do i want my life to be different?
+
+love so much more\n\nthe converted skeptic is the evangelist.
+
+just solve problems\n\nshare your gifts, connect with people.
+
+energy.\n\nif somebody built your idea, that is a good thing.
+
+how would you get ready?\n\nhow is your default living going?
+
+ambitious...\n\nlearning the internet dialect is a new skill.
+
+as a guest speaker gonna talk about taxes and his experience.
+
+it reminds me of arcane the armor collector.\n\nemail sivers.
+
+a blog post\n\nwealth creation, shared, is good for EVERYONE.
+
+they suck but theres harsh truths and story morals within em.
+
+increasing my life budget to allocate to worthwhile projects.
+
+i love being honest, but i wont share secrets unless i forget.
+
+eustress is good, not involuntrary distress\n\njust do 1 step.
+
+both understanding and action.\n\nthe bad is next to the good.
+
+so it will be to others\n\nwould i regret this on my deathbed?
+
+“first principles” lol?\n\nan empty calendar feels like a sin.
+
+post this\n\nWrite about failures and not being defined by it.
+
+win and help win.\n\nmaster small talk to get to the big talk.
+
+great guests, great topics.\n\nwhat is the moral of the story?
+
+make luck\n\nwhat if i try on purpose to do long form content.
+
+from a daily routine.\n\nidk i feel like a poser or something.
+
+i dont think ive ever had a good experience w a male masseuse.
+
+is there a poster and claimer system???\n\ndont do instasheet.
+
+they walked into your shop guide them around to hat they want.
+
+dont break up the topic until its too long and it makes sense.
+
+violence is blind
+
+learn from people you hate / biased against.
+
+money reduces # of sad days, but wont INCREASE # of happy days.
+
+minimal good release
+
+okay asking pretty girls out doesnt work.
+
+do something else in the same vein
+
+i feel so fuckin miserable.
+
+equity or freelance is ok.\n\n~ remember to laugh in the belly.
+
+would he choose this?\n\nwhen life feels to big, make it small.
+
+break it down.\n\ndont expect love, but you can always give it.
+
+gain fame: extraordinary life\n\nbe so good they cant ugnore u.
+
+bitternes and cynicism is not the way\n\nremove the bottleneck.
+
+damn this sounds spoiled af\n\nIf you can delete it, delete it.
+
+why do we hurt?\n\nhow do you upskill and become more virtuous?
+
+let levers do the heavy lifting.\n\ni dont NEED certain people.
+
+on Jan 27, 2025 at 11:30 AM - 12:00 noon\n\njust like products.
+
+the more i do it, the less each rep matters to me, in the mind.
+
+on Jan 28, 2025 at 8:30 PM - 9:00 PM\n\neasy choices hard life.
+
+just ask for advice and stufffs\n\nbe around people you admire.
+
+Low risk high reward, why do we look for low risk high reeward.
+
+you literally cant do more than your best lol, and youll know..
+
+The other runners dont affect you, you can still help them too.
+
+competition is for losers\n\nthe biggest mistake is continuing.
+
+or be spartan and just use that tiny laundry basket for whites.
+
+highest conception, youll be fine
+
+X respected person said that.
+
+talk about important topics even if its embarassing or scary to.
+
+when the math maths out...\n\ntalk about the shark+fish analogy.
+
+give, and they will give.\n\nwomen want their FIRST best option.
+
+i couldnt finish it today\n\nsalient problem solving is the way.
+
+all the wallets and shit\n\nmake sure your "why-chain" is solid.
+
+just consider this..\n\ntheres something out there just for you.
+
+i gotta be a good friend\n\ncancel all uncessary life port burn?
+
+standard of quality and a considerate cadence\n\ni must improve.
+
+but also have my top 3 problems progressing and slopes positive.
+
+ill buy when i can and apologize to kian that i wasted his time.
+
+break it down to first principles and do 8020 best next actions.
+
+services=quick limited cash, products=slower unbounded cashflow.
+
+use "from:username keyword" in search bar to find what you want.
+
+solve a problem for me, then share, ok i did, but no sales, why?
+
+also need charisma etc check orion, zero effort, just like dan..
+
+get blue blocker goggles and shit\n\nnaval is the ult clickbait.
+
+idk\n\nuse emojis in hower to show whats important whats urgent.
+
+also get that domain name\n\none of the constants is change lol.
+
+use "from:username keyword" in search bar to find what you want.
+
+i mean
+
+i like brutal truths, feasability and what does xyz mean?
+
+minimal good release\n\nokay asking pretty girls out doesnt work.
+
+minimal good release\n\nokay asking pretty girls out doesnt work.
+
+maybe its just an innate social interest\n\nwhy do we want money?
+
+do something else in the same vein\n\ni feel so fuckin miserable.
+
+debt loneliness sexlessness\n\nnot many men have a father figure.
+
+talk to each other and share notes.\n\n- have an inner scorecard.
+
+do less bad, THEN do more good\n\ngain resources: solve problems.
+
+you just need to figure out how.\n\n“i want to live a great life.
+
+past irreversible mistakes.\n\nmaybe if sam does the day classes.
+
+know when youre on the hedonic treadmill\n\nlive so you like you.
+
+working on maslow's lvl 1\n\nideas that repeat must be addressed.
+
+Youll always know if youre trying your best.\n\nwin and help win.
+
+debt loneliness sexlessness\n\nnot many men have a father figure.
+
+forgive all\n\ni need to get better at talking to people / users.
+
+so im disagreeable but nice?\n\n- “perfection is a fool’s errand.
+
+it shouldnt be a binary thing should be tiered or ramped instead.
+
+but if you are onto something worthwhile, it's worth spending on.
+
+like buy sis and cel a child haha, kamia mama dad miguel seb etc.
+
+these are pareto-influential pillars of the life i want at least.
+
+and make clips for ig and x too\n\nmaybe i dont do the bootcamp..
+
+if i dont follow anyone then its not personal, its a policy haha.
+
+hopefully it helps you but please tell me how it can be improved.
+
+be proud of what you say no to just as much as yeses, like poker.
+
+check orion taraban, sexton, alex grace checklist.\n\nbaby steps.
+
+these are pareto-influential pillars of the life i want at least.
+
+be proud of what you say no to just as much as yeses, like poker.
+
+practice the worst-case scenario
+
+use levers for multiplied force.
+
+what do you do when even in a platonic ideal, theres no consensus?
+
+what do you do when even in a platonic ideal, theres no consensus?
+
+its not a mutual exclusive thing
+
+what does your inner critic say?
+
+fearset shit.\n\nsolve a good problem, then try to get time again.
+
+dont you want the truth?\n\nthere are some things you should quit.
+
+just solve top problems\n\nns points can be converted to rent lol.
+
+super good output\n\nif someone wrongs me, stop riffing with them.
+
+if i want money then create wealth and charge for it if i need to?
+
+talk about this\n\nhey doc this is adam from yesterday at premier.
+
+so basically hold on, be diligent, work on yourself, build a life.
+
+check for anon feedback, the truest free market / nature feedback.
+
+for moneymaking, for living, for mental clarity, for finding love.
+
+minimum effective fame / visible competence to solve lovelessness.
+
+constrain malevolence, confront chaos voluntarily, establish order.
+
+learn the foundational knowledge to know which variables to change.
+
+im lowkey more sensitive than my sisters, what am i supposed to do?
+
+im lowkey more sensitive than my sisters, what am i supposed to do?
+
+i trust subconscious.\n\ntalk about time urgency, birthday anxiety?
+
+decision making surfing.\n\nclear mind, clear calendar, clear life.
+
+dont be a hardware purist.\n\nask elijah when he goes out to clubs.
+
+substance, not time\n\nbe a good faith interlocutor, steelman, etc.
+
+talk to her but DONT TRY.\n\noptimize for time, health, and wealth.
+
+actually do both\n\nhow fun / founder-product-fitted is this to me?
+
+decision making surfing.\n\nclear mind, clear calendar, clear life.
+
+if youre open to it.\n\nwhat would this look like if it were small?
+
+how do you right a wrong?\n\nwhenever id feel doubt, now i say yes.
+
+and it turns out that thats how you do whats best for the audience.
+
+what more can you do?\n\npost about the things we talk about w HWW.
+
+give me bottlenecks fenything\n\nwhat if you compete with yourself?
+
+of course do what you gotta do\n\nhow much should you share online?
+
+the idea maze of your life applies to you just as much as startups.
+
+hey i noticed in your latest pod with tim that you didnt like elon.
+
+effective before efficient\n\ngreat ideas, great wealth, what else?
+
+other quotes i like\n\nget doris a gift if i go to another session.
+
+the idea maze of your life applies to you just as much as startups.
+
+just masturbate to find release, but use imagination or literotica.
+
+i like smart cute kind
+
+make steps toward the life you want to live.
+
+do it the easy way, but go long on this path, be durable and endure.
+
+it feels shallow
+
+learning is all about relevance
+
+what do i desire?
+
+do it the easy way, but go long on this path, be durable and endure.
+
+when the student is ready, the master appears
+
+love is free to give.
+
+live and level up so I like me
+
+if win-wins sound too transactional?
+
+whenever i drop a commitment, i feel like telling everyone who knew.
+
+do it the easy way, but go long on this path, be durable and endure.
+
+the best people feel "clear", effortless\n\ngive everybody a chance.
+
+design w failure in mind\n\nas long as you try, you have my respect.
+
+problem, understand, action.\n\nuse the hurt as part of the healing.
+
+what would this look like if it were easy?\n\n1,1,sis dont tell cel.
+
+the best people feel "clear", effortless\n\ngive everybody a chance.
+
+this ensures good quality.\n\nthink upfront, take the guesswork out.
+
++ tim ferriss fear set video\n\nnever let cowardice be a bottleneck.
+
+you are as old and as mature as the last time you changed your mind.
+
+can i just chip away at this problem instead of solving it outright?
+
+diminishing returns but generate curate elevate in your chosen game.
+
+minimal in this case was a mistake because its too linky and spammy.
+
+diminishing returns but generate curate elevate in your chosen game.
+
+you just need more wins per loss ratio
+
+what do i have endurance for?
+
+if you cant get through the short term you cant get to the long term?
+
+if you cant get through the short term you cant get to the long term?
+
+just do it shittily, ask questions, be relevant, dont prep just talk.
+
+nah\n\nwho what when where why\n\nwhat do i do thats actually my own?
+
++ never depend on any one shot.\n\ndo not work so much for so little.
+
+diversity in counsel, unity in command.\n\nnot ready yet for a woman.
+
+flip that bitch on itself.\n\ndo not hold a son to his father's sins.
+
+baby steps, ferociously\n\ngirls want guys that are better than them.
+
+freedom -> love -> work -> money\n\nmake your 18 year old self proud.
+
+no need for convincing or coniving whatever\n\ncreate curate elevate.
+
+rephrase the last\n\nbeing decisive/proactive/“pushy” is considerate.
+
+the audience comes last.\n\nself worth comes from unconditional love.
+
+then dinner?\n\nwe carry the love from our loved ones wherever we go.
+
+keep redefining what you do till youre the best in that combinatoric.
+
+interview these people and just be a techy philosopher etc with them?
+
+tell a story about yourself with the problem and how it helps others.
+
+etc\n\nhumans have, on different dimensions, lived the life you want.
+
+productize yourself w/ accountability for output not input + leverage.
+
+safe stuff first
+
+can i even find guys i like / wanna be friends with?
+
+marc lou: never ship, never know
+
+if you dont wanna do it, dont do it.
+
+live and level up so I like me\n\nif win-wins sound too transactional?
+
+i want to know in principle\n\nchoose dont chase, just solve problems.
+
+*insert rock band feed pic*\n\njust treat girls just like you do guys.
+
+healthywealthywise.one\n\nthe converted skeptic becomes an evangelist.
+
++ most contrarian thing is to think for yourself.\n\nlets define risk.
+
+if someone else can do it, let them\n\norder all my shit via kuan etc.
+
+build and sell\n\nlets introduce the best from wherever we can get it.
+
+be free from the shackles of expectation\n\n- have an inner scorecard.
+
+only whats a valuable insight\n\nsales will be a new challenge for me.
+
+courage and humility\n\ngood explanations begin with bad explanations.
+
+nah say no on Apr 13, 2025 at 1:00 AM - 1:30 AM\n\ndont do instasheet.
+
+pictures where they needa be, but how can i get them in between words?
+
+long term good decisions based on sourced principles and explanations.
+
+when the student is ready the master appears\n\n1,1,sis dont tell cel.
+
+pictures where they needa be, but how can i get them in between words?
+
+long term good decisions based on sourced principles and explanations.
+
+i mean\n\njust do more with less\n\nmeritocracy is beautiful and cruel.
+
+projects and people\n\nif i wanted to decrease anxiety, solve problems.
+
+sure use quicker more loaded abstract words for\n\nwhy am i doing this?
+
+they taste but dont act on it or curate\n\n- what mistakes am i making?
+
+you get what i mean\n\nA calm mind a fit body and a house full of love.
+
+easy peasy lol\n\nif im super stuck on a project, move to the next one.
+
+but ill do it in my own way\n\nsave yourself before you save the world.
+
+up style and muscles and social circle etc\n\nwhat is a mistake anyway?
+
+remember there is persistence along both x and y, dont be too stubborn.
+
+if i can do these 3, in the clarity, money, love, that is a good start.
+
+if you're not fucking up 20% of the time, you're not taking enough risk.
+
+because they know nothing about me, because there are no strong signals.
+
+being self critical is sometimes good, but its a matter of why and when.
+
+is that just because im low status, and me saying that is a status move?
+
+because they know nothing about me, because there are no strong signals.
+
+is that just because im low status, and me saying that is a status move?
+
+i really dont wanna spread luxury beliefs
+
+
+being wrong is a good thing.
+
+because they know nothing about me, because there are no strong signals.
+
+because they know nothing about me, because there are no strong signals.
+
+safe stuff first\n\ncan i even find guys i like / wanna be friends with?
+
+but what does that mean for YOU?\n\nthese great thinkers are people too.
+
+is that just because im low status, and me saying that is a status move?
+
+come for the wealth creation, stay for the peace of mind.\n\nclean room.
+
+what would i do if nobody was around?\n\nwednesday 4-5 solution society?
+
+online is 1% of the world / life\n\nwith texting, give benefit of doubt.
+
+give a digital slang cheatsheet: OP\n\nhow much should you share online?
+
+endorese who YOU personally endorse\n\ndm aishia for ns book club thing.
+
+get braver, not the world being safer.\n\ndont do what you dont want to.
+
+let the lever do the heavy lifting.\n\nnana nautilus ns are the options.
+
+how do i need to transform?\n\nstart with the customer experience first.
+
+build wealth and teach and invest.\n\nmake small sivers-like blog posts.
+
+because they know nothing about me, because there are no strong signals.
+
+they dont have to, just write, just code, just market on reddit and seo.
+
+maybe dont post about sexual game until im in a position of success idk.
+
+so what?\n\ntalk is cheap, actions and reality stress test your thoughts.
+
+recycle failures into successes.\n\nknow in practice, not just in theory.
+
+zoe sent me on Apr 20, 2025 at 8:00 AM - 8:30 AM\n\nwhat if im her crush?
+
+ignore so much the only thing thats left is the good\n\ntrim as you grow.
+
+presence is a gift\n\nmake economic progress and attractiveness progress.
+
+dont spend all your stress in bad places\n\nbe an awesome wealth creator.
+
+long form till 1000\n\nfree time, what are they doing in their free time.
+
+win and help win.\n\nmake cheatsheet guides to certain things and topics.
+
+tell her when relevant projects are done\n\n⚡️🛠️stress is untaken action.
+
+tboi explains explanation\n\nif stuff is working, then you wont burn out.
+
+1 step back, 2 steps forward type..\n\nhow can i put on blinders in life?
+
+its a contract with yourself to be unhappy until you achieve it, if ever.
+
+im in debt, if im gonna work a job i better be learning something useful.
+
+if you eustress on PURPOSE, that's different than when life stresses you.
+
+get them to the frontier faster by teaching and building\n\nlets dial up?
+
+let go of past mental maps if it does not work, create new maps as needed.
+
+become sharp so you can be powerful AND good
+
+why are you listening to me?
+
+can see the good and bad before them
+
+seperate doubts from surefire posts.
+
+hes doing great financially AND hes maintained his inner child and energy.
+
+the on purpose part is crucial, you cant fail if youre failing on purpose.
+
+they must earn you as you them.\n\nwould my 100 year old self regret this?
+
+they must earn you as you them.\n\nwould my 100 year old self regret this?
+
+there is so much to learn\n\ntemp rule: no 3 digit followings on ig and x.
+
+on Apr 8, 2025 at 4:00 AM - 4:30 AM\n\n"wanting to be liked" is a mistake.
+
+grateful for them but theres a parent tax of nagging and events and stuff.
+
+they say a dad has to die though before a man can be a man ifk about that.
+
+delete lesser desires, make room for the hell yeahs of life to get heaven.
+
+BE a no-brainer for someone\n\nmake diff twitter accounts for diff topics?
+
+do this with that book recommendation site\n\nlet her initiate initiation.
+
+does this matter?\n\ngive sivers hower and then let them give me feedback.
+
+grateful for them but theres a parent tax of nagging and events and stuff.
+
+they say a dad has to die though before a man can be a man ifk about that.
+
+check your dopamine budget, avoid dopamine traps with better alternatives.
+
+its funny and its like a fuckin freight train lol\n\nbanks need more apis.
+
+but if im stagnating, i feel like shit and the bullshit hurts way way more.
+
+be useful is a good heuristic
+
+just being myself, always trying to improve.
+
+but if im stagnating, i feel like shit and the bullshit hurts way way more.
+
+be useful is a good heuristic
+
+just being myself, always trying to improve.
+
+when you've exhausted all no-money experiments for what youre trying to do.
+
+but if im stagnating, i feel like shit and the bullshit hurts way way more.
+
+you are only x insofar as you keep doing x\n\nFind people with the problem.
+
+what over how.\n\nyou can be physically intelligent too.\n\ngo to new wave?
+
+-rumi\n\ntherapy is about specifying life variables\n\nsexlessness problem?
+
+jazz\n\nthe most contrarian thing of all is to think for yourself\n\nyo yo.
+
+experiment in good faith.u\n\nwhat do you do if you dont think youre ready?
+
+self-improvement.\n\nthe way to solve insecurity is to actually get secure.
+
+like orion taraban for friendmaking nowadays\n\nthere is so much to ignore.
+
+if you like something, the love is undeniable\n\nfind the other task chats.
+
+you can redeem yourself with all in your power.\n\nwere here to get better.
+
+dont worry, ideas abound\n\nwealth creation is like setting up for a party.
+
+ask for advice and i can put it under my own name\n\ncan you help everyone?
+
+what matters most is that youre doing your creative best, whatever that is.
+
+look into him more, i think elon is more up your alley than you might know.
+
+tell guys to get off the apps if theyre not lvled up to their satisfaction.
+
+on the internet\n\ni relate and laugh with tim ferriss more than any other.
+
+craigslist has services but its kinda sus, but there are services on there.
+
+they get their way in short term but they wont play the infinite game w me.
+
+and heres why: its the visual infinite porn that DRAINSSSSSS your dopamine.
+
+tell guys to get off the apps if theyre not lvled up to their satisfaction.
+
+i read the thumbnail, not the text kinda
+
+talk about the shark+fish analogy.
+
+to be friends with your heroes, you need to be heroic.\n\nokay take a break.
+
+know thyself.\n\n- never let incompetence be a virtue\n\nfocus is saying no.
+
+know thyself.\n\n- never let incompetence be a virtue\n\nfocus is saying no.
+
+point courage in the right direction\n\nshow success before asking for help.
+
+would my grandchildren be okay with this?\n\ni was being way too closed off.
+
+talk about the tribal 150 dunbar number example\n\nthe weight is coming off.
+
+oversocializing is just as bad as undersocializing.\n\nit sounds culty, etc.
+
+ask for advice\n\ncare about people approval and you will be their prisoner.
+
+if i do something on purpose, then its not a failure..\n\nokay take a break.
+
+guess..\n\nif you can tie propositions to actions, thats a great life skill.
+
+these are just guidelines, take in what you like, ignore what you dont like.
+
+Fran or A Mon if she’s busy.\n\ndont listen to a critique who hasnt created.
+
+Need something for my new conditioner.\n\nso whats been top of mind for you?
+
+reading for reading's sake (unless you enjoy it) isn't necessarily a virtue.
+
+these are just guidelines, take in what you like, ignore what you dont like.
+
+sport.\n\nthe biggest mistake you can make right now is beating yourself up.
+
+you wanna go there, but youre here, what do you do to get where you wanna go?
+
+heuristics break, unknowns are known to be inevitable, mistakes will be made.
+
+thats the risk spread in a way idk
+
+smart people think far range, long range.
+
+make the goals clear, immediate feedback (pat pat), challenge skills balance.
+
+you wanna go there, but youre here, what do you do to get where you wanna go?
+
+heuristics break, unknowns are known to be inevitable, mistakes will be made.
+
+make the goals clear, immediate feedback (pat pat), challenge skills balance.
+
+dont say what i wont do
+
+show my routine
+
+what do i do thats actually my own?
+
+heuristics break, unknowns are known to be inevitable, mistakes will be made.
+
+heuristics break, unknowns are known to be inevitable, mistakes will be made.
+
+make the goals clear, immediate feedback (pat pat), challenge skills balance.
+
+be useful is a good heuristic\n\njust being myself, always trying to improve.
+
+lets invite and build up what we can improve on\n\nnever be an invisible man.
+
+just solve problems.\n\n"obvious to you, amazing to others"\n\nmen be useful.
+
+topple the right dominos..\n\nthere are things to learn from the extremists..
+
+do what you think is right, and thats all.\n\nbe so good you cant be ignored.
+
+red light pen and paper captures thoughts\n\n"dont sell what you wouldnt buy.
+
+when the student is ready the master appears\n\nhow am i bullshitting myself?
+
+be careful what you are not inf…"\n\nwhen to have a light grip a strong grip.
+
+and thats it.\n\nif they invested in you early, they deserve those dividends.
+
+polarize people, get info quick\n\nlets get clear on what were doing and why.
+
+pick the best first dominos.\n\nincrease mags across my top 3 goals/problems.
+
+thats the beauty of it\n\nwhen working, hang out with people more successful.
+
+so for me its 4 years\n\nyou can master what others have already figured out.
+
+if im stressed, its because i have 2 conflicting desires, so articulate them.
+
+.\n\ni noticed how many of the people that i admire put themselves out there.
+
+adamtree meta lol\n\nto get good at anything do it 1 10 100 1000 10000 times.
+
+omg\n\nwork on the next project and go with the dopamine flow and flowy flow.
+
+adamtree meta lol\n\nto get good at anything do it 1 10 100 1000 10000 times.
+
+im a fucking human, i went to a prostitute, i wanted to have sex really badly.
+
+im a fucking human, i went to a prostitute, i wanted to have sex really badly.
+
+im a fucking human, i went to a prostitute, i wanted to have sex really badly.
+
+im a fucking human, i went to a prostitute, i wanted to have sex really badly.
+
+and what do you want?\n\nif i feel theres too much noise, publish 1, delete 2.
+
+i just wont give up\n\ndont give up, learn from mistakes, be open to changing.
+
+its pretty much that simple perhaps.\n\nshow intersst, but make HER adore you.
+
+you have to earn the right to criticise*\n\nwhat would i do if i knew id fail?
+
+listen them into existence.\n\nfind and build the 8020 power law of your life.
+
+Fix that first."\n\n"dont listen to unhappy people" theyre not doing it right.
+
+awareness understanding action results reflection\n\nfew things reaply matter.
+
+but ill do it in my own way\n\ninclude people in life with the right attitude?
+
+3 parse.\n\nyou wont make friends with purely talk, you need walk most of all.
+
+whats the best guess?\n\nyou can read in quantity and you can read in quality.
+
+how to apply?\n\nwhat and who for wealth and love is mainly a search function?
+
+be clear about it and just do it - what would this look like if it were small?
+
+it has to click for me
+
+which is the better problem to solve for fellow humans?
+
+women be nourishing.\n\nif i knew i woulda solved it by now\n\n“If not me, who?
+
+through volume, you will find your signature.\n\nwhere should you want to live?
+
+error correct make amends etc\n\nyou need to love something more than yourself.
+
+olena can do the sunset classes\n\npain is not a badge of honor, resilience is.
+
+think for yourself\n\ni must focus on good friendships on the internet maxxing.
+
+help yourself like you help others\n\nforgive yourself like you forgive others.
+
+be free from the shackles of expectation\n\nkeep searching for the right girl..
+
+and not touch on it more than i want it to be\n\ndo it casually to get started.
+
+dont try to make mistakes but its a mistake to not be willing to make mistakes.
+
+look at what you want(goals) what youre doing (strat) and what your values are.
+
+for sol etc.\n\n"commited to figuring it out" when to reform vs leave entirely?
+
+what do u spend ur precious youth on?\n\nidk if commitments and goals are good.
+
+if fans arent telling friends, DONT PROMOTE\n\nim stressed which affects sleep.
+
+and can i delete this?\n\nthe questions are what do you want, how to get there?
+
+thoughtful for girls objective utility for guys\n\ntemu seperate color laundry?
+
+well i see the merit in speed and volume too, just dont share embarassing stuff.
+
+to a sensitive person, theres so much thats fuckin salient, for better or worse.
+
+well i see the merit in speed and volume too, just dont share embarassing stuff.
+
+to a sensitive person, theres so much thats fuckin salient, for better or worse.
+
+clean up youtube titles
+
+which is the better problem to solve for fellow humans?
+
+talk about avoiding things that i should do vs my whole self is aligned with it.
+
+well i see the merit in speed and volume too, just dont share embarassing stuff.
+
+it feels shallow\n\nbeing the best does indeed have rewards, but also drawbacks.
+
+understand and act\n\nseek honest criticism for actual positive transformations.
+
+breadth is first step many times\n\nconfidence comes from consistent competence.
+
+let the perfectionist in LATER\n\nwealth creation, shared, is good for EVERYONE.
+
+if you can postpone it, postpone it\n\nescape competition through authenticity..
+
+well the positive part maybe\n\nfor the next podcasts, highlight the guest more.
+
+roskalnikov and sonya, derek sivers and\n\na bit of investment has great upside.
+
+this is how knowhow at scale works no?\n\nforgive failures if the person learns.
+
+you shouldnt take it to heart / moralize it..\n\ndont sell what you wouldnt buy.
+
+well i see the merit in speed and volume too, just dont share embarassing stuff.
+
+self-improve to the max!\n\nif you cant get your prices lower than a competitor.
+
+it wasnt even the full 30 30 minutes\n\nif the market doesnt like it but you do.
+
+sometimes i dont want to rekindle an old relationship because they cant help me.
+
+i think better to have power law games you play, proper unity, proper diversity.
+
+gifts..\n\nhealth wealth and wisdom positively permeate through your whole life.
+
+make a guide online\n\nCan you buy dark roast coffee beans before you come home?
+
+how much more time?\n\nonly purchase temu and in general if it solves a problem.
+
+I don't know what else to say, that seems pretty good.\n\nhow do i sleep longer?
+
+do less
+
+being self critical is sometimes good, but its a matter of why and when.
+
+i can always add back\n\nbefore you compete, do you even want the prize on offer?
+
++ if you cant empathize you cant persuade\n\nmarketing is: you have this problem?
+
+win off twitter to win on twitter\n\njust being myself, always trying to improve.
+
+high performer OR high performer attitude.\n\nhard rules about what NOT to share.
+
+what steps can i take to be more mature more independent emotionally financially.
+
+to elevate.\n\nnaval taught me not to think about myself to stave off depression.
+
+i go to therapy, i gotta talk about this, i gotta work on permissionless leverage.
+
+i can always add back
+
+go as fast as you can, in a way you can do for a long time.
+
+i go to therapy, i gotta talk about this, i gotta work on permissionless leverage.
+
+bottom 3Ps
+
+this is my fate, i love it
+
+been going to therapy, every 1 to 2 weeks.
+
+i go to therapy, i gotta talk about this, i gotta work on permissionless leverage.
+
+i go to therapy, i gotta talk about this, i gotta work on permissionless leverage.
+
+its a challenge\n\nmoney reduces # of sad days, but wont INCREASE # of happy days.
+
+substance not time, super high standards\n\njust dont do what you dont want to do.
+
+whats the missing ingredient?\n\ndont agree with everything about your heroes esp.
+
+reflection on why is always available\n\nsay no to what doesnt solve big problems.
+
+dont want expiration posts on ig x\n\nSelf esteem is your relationship w yourself.
+
+its about persistence along the x and y axis.\n\nobvious to you amazing to others.
+
+redo the sub-urls and blog titles accordingly\n\nhow open should i be on internet.
+
+youre there to solve their problem, not to add more\n\nbe remarkable and virtuous.
+
+grok soundboard\n\ncareer advice: solve problems, be so good they cant ignore you.
+
+if he asked me to write a blog or write a song or make an app, thats hella doable.
+
+or collison install lol\n\nKids if your done can I have my travel containers back?
+
+godin taught me about service framing\n\nthe world is the best book to learn from.
+
+be proactive w em\n\ndivide and conquer, the roman's best productivity advice lol.
+
+to me thats visa and naval\n\nlow cost is a GOOD thing, means its a buyers market.
+
+i more and more ignore peoples advice, even those who i used to heed their advice.
+
+ive been taking care of sleep diet exercise, hanging out, building a social circle.
+
+can see the good and bad before them
+
+for what would i be willing to die for today?
+
+ive been taking care of sleep diet exercise, hanging out, building a social circle.
+
+just do more with less
+
+if i like something and you dont, does it matter that much?
+
+mark manson and danielle strachman kinda insinuate that you dont want transational?
+
+so...\n\nlove and marriage are sorta independent, im learning\n\nyeah its pathetic.
+
+ive been taking care of sleep diet exercise, hanging out, building a social circle.
+
+so...\n\nlove and marriage are sorta independent, im learning\n\nyeah its pathetic.
+
+ive been taking care of sleep diet exercise, hanging out, building a social circle.
+
+mark manson and danielle strachman kinda insinuate that you dont want transational?
+
+**\n\nmeditation and psychadelics can help untangle the mind.\n\ncut more expenses.
+
+rizz up more awesome guys i genuinely admire\n\nhigh intelligence energy integrity.
+
+show why this tool is useful, what problem it solves\n\nthe whole game is practice.
+
+whether code media capital labor?\n\nunlearnining is just as important as learning.
+
+if indulgences dont work, you must save yourself.\n\nill make my way in this world.
+
+flow and momentum > strict all or nothing mentality\n\nfollow more people ig and x.
+
+pain is not the goal\n\ncreate projects that are natural extensions of who you are.
+
+the story of crime and punishment.\n\nmy fam often drains me, makes me feel shitty.
+
+next time, ill ask for a female masseuse, and also just dont go to ginger spa haha.
+
+will i ever post vulnerable stuff about prostitution and 4 horsewomen rejecting me?
+
+be honest about what games you have endurance for
+
+make choices you can be proud of.
+
+cheatsheets
+
+how to solve perfectionism: logotherapy frankl’s paradoxical intention.
+
+only if you have actual value to bring\n\nwhat are the results of the yes or the no.
+
+faithfulness to the mystery.\n\ndont live life fully consciously, its a mix of both.
+
+only if you have actual value to bring\n\nwhat are the results of the yes or the no.
+
+with right understanding and action\n\nknowing how to love a woman is a great skill.
+
+you can expect everything from everything.\n\nthere are some things you should quit.
+
+see maslows as an example.\n\nif you only post the timeless, your posts will endure.
+
+you can have ideas and do things and solve your problems\n\nplease listen to reason.
+
+what is my best guess?\n\nthe biggest bistake is not being willing to make mistakes.
+
+blake anderson and zach yadegari.\n\nwhat are super good ways to chill the fuck out.
+
+once you simp or put yourself lower, they dont want you, its a law of human nature*.
+
+every talk should be an essay first, then use ai to turn it into educational videos.
+
+like ill be a present dad for my son all the way even when hes an adult or whatever.
+
+a good person helps his fellow man get back on the horse and back on the right path.
+
+like ill be a present dad for my son all the way even when hes an adult or whatever.
+
+lol
+
+feedback / truth is a gift
+
+one good blog post or podcast is better than volume?
+
+has to be good to the smarts and the dumbs
+
+the question is where do we go from here?
+
+do not look around to others, only look up to God\n\nwhat does your inner critic say?
+
+if you don't have a good answer, skip it\n\nnever forget how much of life is offline.
+
+someone whos long term and likes good sleep\n\nby not saying no, you hurt the yesses.
+
+wealth, bromance, romance, in parallel\n\nwhen its a sellers market, become a seller.
+
+look up naval's guide to tweeting\n\nWhat are you struggling with the most right now?
+
+first stop bad habits then grow good habits\n\ni do feel like a dark talent, but idk.
+
+i know little, learn from people with actual results of wealth, wherever they get it.
+
+same for von neumman, deutsch, these ideas, these ways of being, are obvious to them.
+
+constant criticism and hammer-philosophizing?\n\nwrite about how to live a good life?
+
+great fold great bet, and the right betting size based on the agent arena fittedness.
+
+its not leverage though.\n\nhelp solve peoples problems, thats how you can most help.
+
+great fold great bet, and the right betting size based on the agent arena fittedness.
+
+like attracts like, be and choose to be someone that YOU like
+
+whats stressing me out?
+
+be honest about what games you have endurance for\n\nmake choices you can be proud of.
+
+build and sell\n\ndoes this person get me closer or farther from solving top problems?
+
+would my grandchildren be okay with this?\n\nsay no to what doesnt solve big problems.
+
+no doubt.\n\nhell yeah or no.\n\nhell yeah or no.\n\nhell yeah or no.\n\nwhat who how.
+
+can you use them well with high judgement?\n\nthe more iterations, the better ill get.
+
+remember that reward is on the other side of action and “risk”\n\ngood general advice.
+
+break down to first principles\n\nthe classic dilemma: what you want doesn't want you.
+
+influenced by socrates derek sivers and david deutsch on this..\n\none girl at a time?
+
+self improvement yo!\n\nhumans have, on different dimensions, lived the life you want.
+
+there will always be problems, but all of them are solvable.\n\nMake self study talks.
+
+what matters is the net, in the long term..\n\nwhat i learrned from 4 girl rejections.
+
+like 100 dollars more?\n\ndo hw for dads notes vertical industries then call him back.
+
+we know this with diet\n\ntalk to mama about maybe going to ns and helping with funds.
+
+dont do unnecessary stuffs but when something you know you gotta do, and can do, do it.
+
+dont do unnecessary stuffs but when something you know you gotta do, and can do, do it.
+
+if its clearly a good decision, fully aligned, its just courage you need, nothing more.
+
+be what the moment calls for\n\nsay no to the bad say yes to the good, its that simple.
+
+the dawg\n\npain is not the goal lol\n\nwe can die, so lets live\n\nproblem build sell.
+
+xyz\n\nincrease the good so you can afford to let go of the bad\n\njust solve problems.
+
+what do i need more of rn?\n\nif you don't try new things, you are optimizing the past.
+
+escape competition through authenticity\n\nA great product feels like you are cheating.
+
+you must change in the domains where you fail\n\nwhat did your heroes do that you dont?
+
+ignore so much only the good remains.\n\nmake sure every day i have some social living.
+
+just like quality > quantity\n\nobsession and diligence beats burnout and all nighters.
+
+if it can be postponed, postpone it.\n\nyou sell the transformation in the user's life.
+
+live so YOU like YOU.\n\nwork on 2 things at a time, so im not too myopic on one thing?
+
+upfront think, then just follow your system\n\nthe converted skeptic is the evangelist.
+
+maybe hard to teach is more accurate\n\ninner scorecard, regret minimization framework.
+
+or collison install lol\n\ncare about peoples approval, and you will be their prisoner.
+
+the answer should be a good compass for yourself.\n\nsay hi but dont be needy about it.
+
+i used to think just depth.\n\nstart where you are w the people you got includding you.
+
+get the hower cycle and testing goin\n\nyoure doing sales because you failed marketing.
+
+on Jan 27, 2025 at 5:30 PM - 6:00 PM\n\nthe problem is solution execution, and selling?
+
+it conveys 80% of WHY the user should continue looking at your site and buy your thing.
+
+people that are higher than you on the vectors that matter to you, the problem vectors.
+
+and maybe we also connect existing and new nodes based on shared agreements / criteria.
+
+it conveys 80% of WHY the user should continue looking at your site and buy your thing.
+
+but obviously keep trying.\n\nthe best deals in life, you walk away, and they come back.
+
+live so YOU like YOU.\n\nnoone is inherently better, just further along the vector path.
+
+dont buy what the founder doesnt buy\n\nshould i consider working elsewhere not at home?
+
+be a wealth creator, friend maker, love maker\n\nbefore criticizing, look in the mirror.
+
+reveal values i guess\n\non AM site also begin with the problem, then show the solution.
+
+deathbed approve?\n\ni took a debt hit, a loneliness hit, AND a sexlessness all one day.
+
+i feel like zuko\n\ndoes this person get me closer or farther from solving top problems?
+
+what do you want more?\n\ntake breaks especially for the things you love: music, ns etc.
+
+that alone is worth a ton.\n\nWords cant express the wisdom, the knowing that im after..
+
+there are infinite things to do so be infinitely selective\n\ndont be a starving artist.
+
+people can grant you experiences money cant buy..\n\nby sharing, youre helping yourself.
+
+i need more people to talk to, so im just gonna blog lol\n\nbeing wrong is a good thing.
+
+the greatest power is the ability to walk away\n\ndont make the perfectioinists mistake.
+
+follow your taste, specify what you want out of life, be very careful with your desires.
+
+id repair my social relationships, id do shrooms and get insight wisdom and be at peace.
+
+constant criticism and hammer-philosophizing?\n\nwhat i learrned from 4 girl rejections.
+
+even if something is hard, if it energizes me, go do that
+
+who are your mentors' mentors?
+
+is a great question to just map out what's going on with your life
+
+why do we want money?
+
+like how ill play badminton cause its a novel exercise, its social, and its good IG fuel.
+
+tboi start here.\n\ndont drink, focus on health wealth wisdom\n\nsurf in the air you are.
+
+infinity.\n\nbecome magnetized to wealth, choose dont chase\n\nfreelance and equity only.
+
+nah\n\nat top: what would this look like if it were easy?\n\nwhat other problem to solve?
+
+Dont bullshit yourself, things can get better..\n\nexplain things to the best of ability.
+
+being an archetype?\n\ndo you need to sometimes be an asshole to be a successful founder?
+
+do 100 pods.\n\nask pod guests for tips around the vectors/games/problems youve mastered.
+
+need variation and selection both, not just selection and robotic optimization stupidity.
+
+Be just\n\ni was trying to do everything at once and as fast as i could and i burned out.
+
+i guess that depends on your personal criteria..\n\nwrite about stress is untaken action.
+
+hell yeahs till heaven\n\nshare my cursor for essays, make this and post on essay thread.
+
+maybe hard to teach is more accurate\n\ndont have perfect answers to the wrong questions.
+
+where are you in maslows?\n\nonly tweet the timeless that hasnt been said or in that way.
+
+true friends improve each other\n\nscaling down the task so perfectionism is easy to beat.
+
+begin where you are at, and create curate elevate\n\ngreat ideas, great wealth, what else?
+
+alone, in our rooms haha\n\nremember that money problems are just one category of problem.
+
+what does it mean to be good?\n\nhelp solve peoples problems, thats how you can most help.
+
+win and help win\n\ni think its a mistake to view everything in life through a money lens.
+
+also i went to fd so thats a similar thing\n\nif you are not shipping, try something else.
+
+live so you like you first.\n\ncare about peoples approval and you will be their prisoner.
+
+or i can change the environment.\n\nif im being needy about debt, loneliness, sexlessness.
+
+be proactive w em\n\nyou cant begin to persuade or be persuaded without first empathizing.
+
+do 100\n\nwhatever you did not do in life, your children can pick up your baton and do it.
+
+writing is super high signal i think, and it clarifies thinking and speaks on your behalf.
+
+find the gaps in the world that you uniquely can create, leverage, and own
+
+its a sad life.
+
+if they just do what they want, including sometimes that task, it'll be at least 5/10 done.
+
+a lack of nuanced thought is a bad sign
+
+i feel permanently tainted by hiring a prostitute.
+
+the question is the answer
+
+seperate the person from the idea, like an artist and the song.
+
+if they just do what they want, including sometimes that task, it'll be at least 5/10 done.
+
+lol
+
+
+positive constraint
+
+i guess for tmi im only saying online what id say to a stranger?
+
+if they just do what they want, including sometimes that task, it'll be at least 5/10 done.
+
+even if something is hard, if it energizes me, go do that\n\nwho are your mentors' mentors?
+
+hell yeah or no\n\nDo not look around to others, look only up to God.\n\nchoose dont chase.
+
+forgive yourself and others, lest you carry a weight forever\n\nwhat are you so afraid for?
+
+what would this look like if it were easy?\n\nnavigating people can be a complicated thing.
+
+have 2 guests at a time people i think would have good chemistry.\n\nhow to solve mahalang?
+
+vervaeke points out just because we know something is better for us doesnt mean we do that.
+
+check dan bilzerian and orion taraban step by step to get a girlfriend, given my situation.
+
+on Feb 4, 2025 at 6:30 PM - 7:00 PM\n\nbuy nucleus when i got cash or just get the results.
+
+get sourced\n\nfor every product launch launch to the relevant people on reddit where else?
+
+solve the problem at hand, don’t go meta - be so good they cant ignore you\n\nlets dial up?
+
+healthy: kohlin, wealthy: pete oficiar / jonulloa, wise: books / share resources and stuff.
+
+dont dwell too much youll miss the opportunity.\n\ncheck tim ferriss facebook feedback too.
+
+but takes execution of course\n\npurchases are to increase quality of life and convenience.
+
+vervaeke points out just because we know something is better for us doesnt mean we do that.
+
+i learned what to be public about and what to be private about
+
+i like a clear clarity plan.
+
+TRY things, the best ideas you have, in every moment, in every day.\n\neat your own cooking.
+
+curiosity driven..\n\n“when you get the answer, hang up the phone”\n\nthe wealthy have time.
+
+if its recurring or influential, improve it.\n\nwhat would help me to sleep better at night?
+
+begin with the problem\n\nfor everyone i dmed for a cal call, make a curiosity doc for each.
+
+for all 3 of my top problems: debt, loneliness, sexless.\n\nhow to chill the fuck out event.
+
+i made judgements i dont think i should have\n\non twitter or blog dont say whats been said.
+
+remove drainers add energizers\n\nthe best deals in life, you walk away, and they come back.
+
+it adds more credibility on socials.\n\nif it does break physics, it is absolutely possible.
+
+deliberate discipline to counterbalance the openness\n\ngive health wealth wisdom resources.
+
+maybe i can have a mixed approach where i apply to jobs online AND i work on my side things.
+
+and not touch on it more than i want it to be\n\nthe good thing about blog is its dedicated.
+
+do the things so that I like I
+
+talk is cheap, actions and reality stress test your thoughts.
+
+be worthy of wealth, be worthy of friends, be worthy of sex/infinity.\n\nyou are what you do.
+
+just work on your best idea, everyday, and thats all.\n\ndont JUST talk to VIPs just to talk.
+
+peaceful person.\n\n"relationships get you where money cant buy"\n\nfollow whats interesting.
+
+dont coerce yourself..\n\ntrying to be more economically valuable and romantically valuable..
+
+just work on your best idea, everyday, and thats all.\n\ndont JUST talk to VIPs just to talk.
+
+hes an extreme example of hedonism\n\nmy recent focuses lol: free markets and sexual markets.
+
+does this solve a problem or is valuable?\n\nwhy does naval say some things cannot be taught?
+
+outer game and inner game yadda yadda.\n\nwhat can you do / genuinely enjoy that others dont?
+
+to people and to the art, the work””\n\nWrite about wanting to be wrong and learning from it.
+
+these things you cannot buy they must be earned\n\nfigure out a way to get in touch w eunice.
+
+maybe coin a name\n\ni should limit screen time but i have so many thoughts i wanna jot down.
+
+we should still error correct though, the place and each other and first of all you yourself.
+
+THIS IS WHY WE SHARE IDEAS AND PRODUCTS\n\nfollow some people back on ig and x and farcaster?
+
+i dont get his taste in women though lol\n\ni wanna build wealth ti be free from parents too.
+
+experiment, fearset
+
+validation from results from action from smallness
+
+how open should i be?
+
+be wise, courageous, ethical, disciplined.\n\nyou want people to know your name not your face?
+
+lets wrestle with this idea\n\nmoney is for freedom, for peace of mind from material problems.
+
+just imagine its another you, or a younger you.\n\n- bias for action bias for action - do 80%.
+
+capital, social capital, etc.\n\ndouble down on the irl ig and x people that i genuinely like.
+
+sexlessness: hang around the guys that pull.\n\nlearn from the mistakes of those ahead of you.
+
+to messi, knowing what to do in each moment on the pitch is intuitive natural obvious, to him.
+
+- this is my fate, i love it
+
+I will be diligent in my calling, and I shall stand before kings.
+
+substance not time, super high standards
+
+if i feel theres too much noise, publish 1, delete 2.
+
+yes 0 to 1 is a problem goal, but dont overweigh on 1 rep\n\nif it hurts, there is truth to it.
+
+understanding is a skill\n\ntrying to be more economically valuable and romantically valuable..
+
+make her feel good and shit etc\n\ncome out of the idea maze, then come out of the action maze.
+
+make sure you know why you do what you do\n\nany time you can trade time for money, you should.
+
+not "things i tell myself" do what would make YOU like YOU.\n\nbe so good they cant ignore you.
+
+i think you unlearn BY learning haha\n\ndo the things first where all the pieces fall in place.
+
+yes 0 to 1 is a problem goal, but dont overweigh on 1 rep\n\nif it hurts, there is truth to it.
+
+ask why i left / went crazy, then do the inverse\n\nwhen you find a good idea, make it a habit.
+
+Even tony soprano went to dr melfi..\n\ni feel like i have to impress them for them to like me.
+
+JP said dont do what you hate\n\ni think im being a percectionist with friends and girlfriends?
+
+action and service\n\nwho are the best young indiehackers find em on x and follow their advice.
+
+ive sinned, i dont think i believe in the dogma of christianity but im still so troubled by it.
+
+for knowledge they dont know, dont have the time and unique suitedness to learn for themselves.
+
+for knowledge they dont know, dont have the time and unique suitedness to learn for themselves.
+
+you cant be normal and expect abnormal outcomes
+
+get back up 1 more time; death is a 1-way door.
+
+damn im fucked lol
+
+if your idea is already built, thats a good thing, the world has that thing.
+
+money muscles calmness\n\ntake moonshots and regular shots.\n\nhow open should i be on internet.
+
+not too much of anything, not too many guys, not too many young people, not too many etc\n\nfit.
+
+true lovers transform each other.\n\ngot a girls number but she ghosted me after a few days lol.
+
+subtract drainers, life is pretty simple some times.\n\nmake sure i get mama and dad money asap.
+
+don't make the perfectionist's mistake.\n\nevery problem is an opportunity, positively frame it.
+
+before visibility you gotta be competent, so level up: wealth maybe, so permissionless leverage.
+
+what are my values my vector my strategy my goals\n\nYou dont have to be the best at everything.
+
+i would remove my debt, i would get 1 million in savings diversified, id get a girlfriend harem.
+
+before visibility you gotta be competent, so level up: wealth maybe, so permissionless leverage.
+
+damn im fucked lol
+
+
+if your idea is already built, thats a good thing, the world has that thing.
+
+contextual alpha\n\nif you never give up, you cant lose basically..\n\nin business, fair is fair.
+
+product most of all, a bit of sales.\n\nbe careful with "shoulds" stop wanting to want something.
+
+i guess im the 1st true fan on Apr 24, 2025 at 10:00 AM - 10:30 AM\n\nso play the slow love game.
+
+but takes execution of course\n\ndelete the posts that i havent reposted, once i get to 1k or so.
+
+what are ways were messing up our health, i can invite people to talk to the community and stuff.
+
+the unexamined life is not worth living
+
+how will you allocate your time, money, stress, dopamine?
+
+like idk if id actually use ai chyoa.\n\nif i want to be friends with heroes, i need to be heroic.
+
+noone is forced to pay, if you dont need it then dont join.\n\n"wanting to be liked" is a mistake.
+
+hes an online teacher, an effectiveness guru\n\nthe problems of today will shape me to solve them.
+
+money comes naturally as a result of service\n\nMore options = less desperation = more attractive.
+
+just cause the internet has incorrect information on it doesnt mean we shut down the internet lol.
+
+focus on permissionless leverage, then transition to more and more leverage (permissioned or not).
+
+a non-suicide vow i made to a friend, so if were gonna live this life, how should we best live it?
+
+just great lists, sometimes chaining together\n\nstudy the playbook, create the playbook, play it.
+
+like angelo or insert asshole jerk: francois, just combative people like carlo pelkey elijah duck.
+
+youll fuckin know
+
+to make it better make and remake
+
+after a while, people repeat the same things.
+
+thats the risk spread in a way idk
+
+positive constraints
+
+smart people think far range, long range.
+
+youll fuckin know
+
+to make it better make and remake
+
+after a while, people repeat the same things.
+
+if you can provide counter examples youre good, if not, you got hw
+
+podcast as therapy alternative?
+
+let it go.\n\n- problems are opportunities.\n\nlet women initiate initiation\n\nbe her best option.
+
+ask for help.\n\nstop pedastalizing people.\n\nif you want love give love\n\ndo i need a cofounder?
+
+on Apr 19, 2025 at 1:00 PM - 1:30 PM\n\ni cant have courage just for myself, but i CAN for others..
+
+i should start with myself first though.\n\nwealth and money is great, i hope everyone can feel it.
+
+the best careers are neither decreed nor degreed\n\ndont make the same mistakes with texting girls.
+
+so mig and vance listen to them when it comes to girls\n\ndont be JUST a specialist problem solver.
+
+up and up the tech stack!\n\ni should put more on wishlist for people not fam, fam friends youknow.
+
+i havent even found amazing amazing s tier guy friends, maybe A or B, but not the no-brainer types.
+
+show which dials to adjust and which expectations to manage to find someone whos 90% what you want.
+
+Don't ignore your dreams; don't work too much; say what you think; cultivate friendships; be happy.
+
+show which dials to adjust and which expectations to manage to find someone whos 90% what you want.
+
+create your own "luck" (positive outcome from unknown source)
+
+if there is doubt, there is no doubt.
+
+prep for the marathon, sprint when you can
+
+before you compete, do you even want the prize on offer?
+
+lol\n\ni hold the space for others, but i dont expect them to do that for me?\n\nsolve top problems.
+
+going back to the dragon that burned you to chop its head off\n\nget a new roomate after this month?
+
+call to action with a selling point\n\nif you follow and expect a follow back, youre doing it wrong.
+
+where do smart girls go?\n\nif youre following for a refollow, youre doing it for the wrong reasons.
+
+you are a person to!\n\nif your idea is already built, thats a good thing, the world has that thing.
+
+build a startup to help that mission, i need money rn, i dont wanna trade time for money w bounties.
+
+just use green and red lights\n\nadd a curated productivity quote each day: generate curate elevate.
+
+build a startup to help that mission, i need money rn, i dont wanna trade time for money w bounties.
+
+build and test
+
+follow the highest conception, the answer is the seeking; the question IS the answer.
+
+like sia idk
+
+talk about it AND be about it
+
+should we be able to change our name at 18 or something?
+
+if you can provide counter examples youre good, if not, you got hw\n\npodcast as therapy alternative?
+
+restore balance!\n\n- stop pedestalizing people.\n\nwalk speaks louder than talk\n\nforgive the past.
+
+do what scares me?\n\nlive as a natural extension of who you are\n\nremember to floss and moisturize.
+
+double down on successes\n\nadd tip option on all stribe buttons, grammy would pay more if she could.
+
+itll have diff features lol.\n\ni wanna be fitted, im not fitted to home, im not fitted to ns either.
+
+on Jan 27, 2025 at 4:00 PM - 4:30 PM\n\nwhen you genuinely like something and its weird, double down.
+
+the lessons dont only apply to music and food\n\ncan i even find guys i like / wanna be friends with?
+
+its about the outcome of the set not the outcome of one.\n\nyou must know that wealth is just 1 step.
+
+2 what change are they seeking to make in their lives, and how can you help?\n\nask what do you want.
+
+compressed truths and directives, and things that ive been thinking about for a while and cant break.
+
+isk\n\nremovalists, cleaners, gardeners, lawn mowers, what else?\n\nwhen posting, is it useful to me?
+
+what would i regret NOT doing in life like fearsetting:\n\nchange the fridge freezer light tone asap.
+
+compressed truths and directives, and things that ive been thinking about for a while and cant break.
+
+general adaptation to the meta-game, ecology of practices-species for life adaptation, non-extinction.
+
+the question is the answer
+
+become sharp so you can be powerful AND good
+
+why are you listening to me?
+
+make a great advice post, thats general and uncommon\n\ntalk about procrastination\n\nwhat is salient?
+
+clear goals, immediate feedback, challenge-skills balance\n\ntell me if this is stupid / criticize me.
+
+all you know is what you like.\n\n:prostitutes wanna talk about god, priests wanna talk about sex lol.
+
+in a yes mode, variation then what id normally do\n\nbeing invisible, NOT taking risk, is a HUGE risk.
+
+what are your best qualities:\n\nsometimes you gotta write a clear concise guide and teach the market.
+
+just do what you think is right.\n\nWordsmith for better essay titles + Make doc links for each essay.
+
+make a great advice post, thats general and uncommon\n\nwhen curating, ask yourself "is this timeless?
+
+mosaic of problem vectors\n\ni just realized you can mute accounts you dont have to unfollow them lol.
+
+journal on it for clarity today.\n\nkids shouldnt be suddenly thrown in the deep end after graduation.
+
+im treating this like college, prioritizing learning and sanity haha\n\nwhat do people pay people for?
+
+came for the wealth stayed for the enlightenment\n\nyou want to be great yes, but at the great things.
+
+so many single guys struggling, like me
+
+i love being honest, but i wont share secrets unless i forget.
+
+you must let go of people to go forward.\n\ncare about peoples approval and you will be their prisoner.
+
+code/apps, blog posts, tweets, minimal podcasts, what else?\n\ndont overweigh on one project or person?
+
+you must let go of people to go forward.\n\ncare about peoples approval and you will be their prisoner.
+
+we talk about health wealth wisdom, and we actually do it.\n\n- am i doing this too much or too little?
+
+on Apr 23, 2025 at 10:00 AM - 10:30 AM\n\nhow do you help people without giving away your secret sauce?
+
+radiant, kind, smart, funny.\n\n"i said yes, but i wanted to say no" peer pressure and people pleasing.
+
+what would this look like if it were small?\n\na book or location should not be your whole personality.
+
+what are my values my vector my strategy my goals\n\nwrite about bad days = low bandwidth low dopamine.
+
+i need more people to talk to, so im just gonna blog lol
+
+list salient problems:
+i want to move but
+why?
+
+only low supply high demand shit\n\nhang around people that are better than you on your problem vectors.
+
+idk i need freelance or equity check w auntie vanz for freelance\n\nmake sure you have a good why chain.
+
+if youre not looking back in embarassment, youre not growing.\n\nif normal isnt working, dont be normal.
+
+question delete optimize accelerate automate\n\nthere is so much to ignore, unlearn, forget, its insane.
+
+only low supply high demand shit\n\nhang around people that are better than you on your problem vectors.
+
+be worthy of wealth, be worthy of friends, be worthy of sex/infinity.\n\nmake things for yourself first.
+
+solve me before solving things beyond me i think\n\nlow cost is a GOOD thing, means its a buyers market.
+
+thats like a cool girlfriend, its THAT specific to you and both people need to resonate with each other.
+
+getting paid as his employee?\n\nfind the most common ways people die and have an 8020 strat against it.
+
+to increase motivation for anything, make it social.\n\ndelete people on X and IG that are not A players?
+
+we can be free people, articulate with mouth and hand..\n\nthe best way to be accepted is to be yourself.
+
+dont go past 6 mags of internet “ followers”\n\ndont try to do 2 things well if you cant do 1 thing well.
+
+you must take their side first.\n\nif kids learn earlier less depth of pain all at once after highechool.
+
+so write the how to make money, how to get good sleep\n\njust write how i talk, extracting from my notes.
+
+and if you want height, also know that raising a kid well will make them taller than the parentd usually.
+
+you must take their side first.\n\nif kids learn earlier less depth of pain all at once after highechool.
+
+better to spread it out and not have adulthood be suddenly traumatising lol\n\nwork life harmony is real.
+
+and if you want height, also know that raising a kid well will make them taller than the parentd usually.
+
+why not?\n\ni am worthy of wealth creation, i am worthy of friendship, i am worthy of sex.\n\nignore most.
+
+what skills, relationships would i take away?\n\nfearset dads business, help him w business plan logo etc?
+
+are you going to spend precious time on the timeless or the temporary?\n\nfigure out the coffee situation.
+
+on the internet\n\neven if the project doesnt succeed on market, you know for a fact that you will use it.
+
+orion taraban shit\n\nmaybe i should: foam roller and golf ball, roll out today then another work session?
+
+who are wealth creators, health-creators, wise people\n\ndelete people on X and IG that are not A players?
+
+the less parts, the less that can go wrong\n\ntalk to mama about maybe going to ns and helping with funds.
+
+when its clear theres a division or the posts deserve a second\n\nlearn from the best and get up to speed.
+
+code media energy gas manufacturing
+
+make sure each title makes ME want to click
+
+aim so that YOU LIKE YOU.
+
+if you didnt like me then, then say no, unless i genuinely like them
+
+when i gots money, travel and shit???
+
+see things in practice to the best of your understanding\n\ninclude people in life with the right attitude?
+
+It happens for a reason!"\n\nnaval, come for the wealth, stay for the wisdom\n\nmessage derek sivers again?
+
+now i just need to do it at a consistent rate.\n\nthink act and do, obviously, to the best of your ability.
+
+what  do u spend ur precious youth on?\n\non guam, i dont feel like i can rise in this world, in this life.
+
+its a gift but kinda suffocating if youre in a purely creative period\n\nyoung men can still be attractive.
+
+and provide good experiences\n\n~ its easier to beat yourself up than to put in the good work to be better.
+
+with this 1 life?\n\na podcast is influential for wealth problem friendship problem and girlfriend problem.
+
+not no but, yes and\n\nif you cant pay back the past, pay it forward: sam reed, sis cel kamia mama, balaji.
+
+dont care about paying for these.\n\nput towels in outside bathroom and soap holder so i can always shower.
+
+write about cliche but true things\n\nmaybe practice on blog, then release the timeless bangers on twitter?
+
+bottom 3Ps\n\nthis is my fate, i love it\n\nmy life philosophy\n\nbeen going to therapy, every 1 to 2 weeks.
+
+cut up to 90% of ideas\n\nwhere am i focused too much on or little on\n\na clear horizon is what i live for.
+
+product market or sales?\n\nwhat if the path of LEAST resistance could work?\n\nwhy even post on x andor ig?
+
+save monies on Apr 20, 2025 at 8:30 AM - 9:00 AM\n\nyou want your teammates to be as strong as they can be..
+
+win a little consistently, you lose in a big loss.\n\noften the problem is half solved by framing it better.
+
+but if you have no good reason, then absolutely never give up on it.\n\nSo now i have material to work with.
+
+thoughtful for girls objective utility for guys\n\nyou can monetize AFTER releasing free value to the world.
+
+put an ns node wherever it makes sense, its like ingredients of a template with cash flow as the blood floe.
+
+spread the stress over time
+
+if an ADHD tries to focus on 1 thing that they dont want to, they get 3/10 done.
+
+riff with the nice\n\nuse a playbook if it works and people have already figured it out\n\nchoose dont chase.
+
+source of meaning mantra: i want to help people\n\ni wanna finish whats on my plate first before adding more.
+
+i really need to give more love in this one life.\n\n~ where in my life do things seem really really complex?
+
+better to cement 1 chapter than shallowly read "the whole book"\n\nbeen going to therapy, every 1 to 2 weeks.
+
+“Doing the best I can everyday”\n\njust be honest about what you like and dont, what you want to do and dont.
+
+the double edged sword starts to rear its second edge.\n\nif you have good reaon to quit, absolutely do that.
+
+he feels like an older version of me\n\nsometimes you gotta write a clear concise guide and teach the market.
+
+well i think the vague point is more important than an explanation
+
+you can prioritize being low stress first.
+
+let levers do the heavy lifting.\n\nmaybe i can only authentically persuade and articulate if i myself use it.
+
+ugh..\n\ni feel so much stress why?: family shame\n\ni am like an idiot my mind is so empty””\n\nbeing a fool.
+
+be as sure as you can be, in proportion to how much itll cost\n\nim pretty healthy, bring in wealthy and wise.
+
+a sort of plan for what to talk about\n\nfind ways to upgrade your daily routine, is every step seamless easy?
+
+use your subconscious more, use your conscious less.\n\nget to double digits posting, and more apps of course.
+
+obviously solve your problems but what else after working hours, when the sun goes down?\n\nchoose dont chase.
+
+just like andrea did with my dry textts on Feb 8, 2025 at 10:30 AM - 11:00 AM\n\nto solve debt, get ns points.
+
+just great lists, sometimes chaining together\n\nwatch trip of compassion and michael pollen docuseries again.
+
+wisdom: meaning crisis, tao te ching, etc.\n\ncheck aishia on ns book club for tns book, tell her zoe sent me.
+
+i can just ramble by myself and a mic, for an hour, with my laptop near me, then descript can edit it i guess.
+
+and tell a story, we nailed the exercise, we nailed the diet, lets nail the last of the big 3 health trifecta.
+
+check orion taraban, sexton, alex grace checklist.\n\n
+
+what does what i talk about say more about me than you?
+
+it feels shallow
+
+learning is all about relevance
+
+being the best does indeed have rewards, but also drawbacks.
+
+spread the stress over time\n\nif an ADHD tries to focus on 1 thing that they dont want to, they get 3/10 done.
+
+code media energy gas manufacturing\n\nmake sure each title makes ME want to click\n\naim so that YOU LIKE YOU.
+
+stay here for 4 years.\n\nhang out w people i admire, whove solved debt and lovelessness\n\nbe strong, be good.
+
+listen within\n\nwould i still do this even if i couldn't talk about it: status question\n\nso much to unlearn.
+
+elon naval vervaeke etc\n\ntalking about naval's frameworks, we wanna get wealthy, but what to do?\n\nquestion.
+
+lets be honest and help ourselves and each other**\n\nwhat if i purposefully lowered my bar, lowers the stakes?
+
+the audience comes last” clip\n\nmake sure there are people ON the wealth path the health path the wisdom path.
+
+comparrow showing proof of work, and that ill have more ideas like this, and products released to their emails.
+
+who do you hear when confronted with crossroads in life?\n\nderek sivers is the available mentor lol love that.
+
+well i think the vague point is more important than an explanation\n\nyou can prioritize being low stress first.
+
+so mig and vance listen to them when it comes to girls\n\nif im being needy about debt, loneliness, sexlessness.
+
+try to go with life WITHOUT the solution, then it wasnt a good solution\n\ntherapy for insight on work and love?
+
+strong and loving\n\nif its not in the calendar, its not real -tim ferriss\n\nthe greatest power is optionality.
+
+figure out.\n\nunfollow some drainers, people that dont follow back etc?\n\ntake a break from school of mentors.
+
+can you get ONE view?\n\nhang around the women that are interested in me: social circle game?\n\nadd energizers.
+
+signal and noise is contextual\n\nso get famous for the right things, then people will wanna be friends with me.
+
+the bad is next to the good and get a good haircut after my bday\n\ntake my experiences and put on social media?
+
+can you point me in the directions, the ways you see most positively?\n\npost well and practice good reply game.
+
+if you can ignore the solution, it wasnt a big problem
+
+if you dont believe in it, dont do it
+
+small experiments.
+
+if you dont believe in it, dont do it
+
+if you can ignore the solution, it wasnt a big problem
+
+small experiments.
+
+if you cant get through the short term you cant get to the long term?\n\nlook at women's actions not their words.
+
+when you've exhausted all no-money experiments for what youre trying to do.\n\ndoes this drain me or energize me?
+
+there is no speed limit to both\n\nwhat you do and how you do it, if through leverage, is so much more important.
+
+how is your product how is your sales?\n\nif you dont have good answers at your why chains, what you doing?\n\n3.
+
+there is no speed limit to action, and therefore no speed limit to stress-reduction.\n\naim so that YOU LIKE YOU.
+
+mistakes mean you are working at the edge of your knowledge, at your own personal frontier, which is flow-growth.
+
+a 22 year old virgin thats 5'5.5 in height, in debt, living with mother, living out an oedipal complex, resentful.
+
+a 22 year old virgin thats 5'5.5 in height, in debt, living with mother, living out an oedipal complex, resentful.
+
+mwahaha\n\nif you create the outline of the puzzle, the missing piece becomes clear\n\nwhen does honesty go wrong?
+
+a 22 year old virgin thats 5'5.5 in height, in debt, living with mother, living out an oedipal complex, resentful.
+
+live so you like you first.\n\ndoing the best for yourself is one of the first steps to doing the best for others.
+
+say yes to what does solve big problems.\n\nbreak down your top problems into smaller components, then just do it.
+
+be high authenticity high quality\n\nthe "anti-vision" the inverse of your top problems..\n\ntrim pubes buy fuses?
+
+say yes to what does solve big problems.\n\nbreak down your top problems into smaller components, then just do it.
+
+Forgiving others is easy for me, forgiving myself is hard.\n\ngo for a taller mixed kid, so get with a white girl?
+
+create and curate and create and curate\n\n~ “You can’t really expect to receive love, but you can always give it.
+
+deep down i think everyone is redeemable.\n\nmake sure you did your best, but never let cowardice be a bottleneck.
+
+if breadth isnt working go to depth.\n\nbased on what youre doing now, what are your snapshot plans for your life?
+
++ sivers if it aint a hit switch\n\nwhat do we do in the event of a potential next outbreak of a virus like covid?
+
+Probably to radiate outward, but begin with yourself first, and be selective with who “deserves help”?\n\noh yeah.
+
+sell a company if the project isnt top of mind and isnt creating as much value as you want, like golden handcuffs.
+
+:)\n\ni like debby's bluntness.\n\nim open to the experience\n\nim open to the experience\n\nThere is always a way!
+
+face up to life\n\nanswer the calls for help, both for yourself and others\n\nby dwelling you miss the opportunity.
+
+help people where and when you can..\n\nif theyre not at peace / happy / with-meaning, dont listen to them\n\nso...
+
+boil it down to essence.\n\nbezos advice for stress: its doing nothing on something you can control, its cowardice.
+
+offer to solve their problem\n\nyour heroes are those who take up most mindspace in your mental sandp or something.
+
+i cant just have a notepad in the dark\n\nask pod guests for tips around the vectors/games/problems youve mastered.
+
+if youre stuck with porn addiction, try to jack off first to short circuit it, then you dont want to watch as much.
+
+simply, if happiness = reality - expectations, and my expectations are immense, then i gotta raise my reality fosho.
+
+greatness is making it to goal states from top problems.\n\nstart where you are w the people you got includding you.
+
++ guides cheatsheet\n\ntaught me to err on the side of keeping things private vs public\n\nmore of good less of bad.
+
+maybe adulthood and maturity is about parenting yourself\n\ndont take the results of experiments/actions personally.
+
+how do you frame situations better / more wisely?\n\nfor dating, i think dont force it, just level up, build a life.
+
+solve debt, loneliness, and sexlessness\n\ncriticism is only useful if you are open to it, and dont already know it.
+
+so for hower: "For those overwhelmed by todolists"\n\nwrite and aggregate important how to guides: how to quit porn.
+
+dont worry as long as youre FANing and trying and being strong and good, thats what matters\n\ni feel so conflicted.
+
+every mistake means a lack of knowledge, which means this is an opportunity to understand life and the world better.
+
+be honest about what games you have endurance for
+
+substance not time, principles
+
+
+make choices you can be proud of.
+
+win off twitter to win on twitter\n\napply authenticity and MAP it onto problem solving for both yourself and others.
+
+understand and act on your aware problems.\n\nremove /solve bottlenecks on your problem vectors, to your goal states.
+
+purposefully different from the maladaptive strat, trust people to check your six.\n\ndont sell what you wouldnt buy.
+
+stop doing it.\n\nmake sure your why chain is solid.\n\n~ How could I be kinder to myself?\n\nstand the test of time.
+
+"idear"\n\nsolve the recurring pain points and create recurring energizing points\n\nbe so good they cant ignore you.
+
+recycle failures into successes.\n\nbasically lower every reason why an attractive girl would NOT want to be with me.
+
+i fell into temptation like watching porn, i havent watched in like 3 years or something and im fucking proud of that.
+
+i fell into temptation like watching porn, i havent watched in like 3 years or something and im fucking proud of that.
+
+i fell into temptation like watching porn, i havent watched in like 3 years or something and im fucking proud of that.
+
+i fell into temptation like watching porn, i havent watched in like 3 years or something and im fucking proud of that.
+
+can see the good and bad before them\n\nfor what would i be willing to die for today?\n\nnoah kagan gots great energy.
+
+nobody can force this.\n\nfollow the 1 person at the top of your problem vector\n\n+ be kinder than what is necessary.
+
+lots of divorces happen over money, so make money so it rules that out.\n\ni know i and the world can improve so much.
+
+spend your time well and you spend your life well\n\nbe a great interlocutor, thats one of the best things you can be.
+
+you can take anyone successful on any dimension, and fine the dimensions that they suck in, or where theyre suffering.
+
+redo the sub-urls and blog titles accordingly\n\nits so cliche but everything in life really is a learning experience.
+
+dont pedastalize heroes TOO much, theres just farther along the path\n\nwhat if mama is holding me back from my goals?
+
+i learned what to be public about and what to be private about
+
+scaling down the task so perfectionism is easy to beat.
+
+you can always give love but dont expect it..\n\neveryone can be the right person at the right time at the right place.
+
+instead of looking for gaining positive, you could look for subtracting negatives (i call: subtracting the subtractor).
+
+has to be good to the smarts and the dumbs\n\nthe question is where do we go from here?\n\ndoes it have to be a balance?
+
+listen to people who are trying to help they are telling you your blind spots\n\ni feel like i cant relate to my family.
+
+what i learned\n\nlist everything i can do to solve the debt problem: funding, grants, presales, tips, sales, what else?
+
+but rule zero is dont be around draining combative people\n\nread tim ferriss note to a younger self blog post whatever.
+
+2 what change are they seeking to make?\n\nonly learn tools in proportion to how much you need them for the job at hand.
+
+product * sales and own the solution to a great problem
+
+I did not fail, I succeeded in proving that that way won't work.
+
+make sure to not destroy the means of error correction: experiments, dialogue, first principles, emotional disaster prep.
+
+why not?\n\n- invest in life, in proportion to your values\n\nnetwork school would be amazing for friendship\n\nbad days.
+
+birds fly fish swim deals fall\n\nthe timeless: would your grandparent and grandchild both agree on it?\n\nbe less wrong.
+
+what are the practical problems of the age, how to think about xyz.\n\nim grateful for life saving me from what i wanted.
+
+is it just criticism or is it valuable and genuinely trying to help?\n\ni can pick my poison: what is my current poisons?
+
+but dont knock it till you try it.\n\nthe big problems are cheap housing singapore and how to make money after singapore.
+
+advice can be dangerous of course, *insert advice in proportion to admiration*\n\npost well and practice good reply game.
+
+doing only what you want is being authentic and will guide you to whats play to you, work for others, or just a fun thing.
+
+be honest about what games you have endurance for\n\ni dont have to be well known but can be known well\n\nits a sad life.
+
+like naval: how to get rich without getting lucky, were gonna learn a few principles today.\n\nif bs repeats, call it out.
+
+the greatest power is the ability to walk away\n\nbe the best at what you do, and before you find the minima, be flexible.
+
+in my locus of control to improve on when it comes to being attractive to women\n\nif noone hates you noone will love you?
+
+win and help win\n\nif you wanna connect with people, help solve their problems.\n\npeople are asking the wrong questions.
+
+all problems are figureoutable”\n\nwhat are you interested in that would bore most other people?\n\nleverage: less effort.
+
+foresight and good taste/judgment\n\nchecklists are little formulas for desired outcomes, getting yo goals\n\nshare ideas.
+
+be free from the shackles of expectation\n\nanyone who makes more than they spend and is not in debt is wealth successful.
+
+no desperation, no neediness.\n\n21 years old and living at home - had to come back home and it’s been hard to find a job.
+
+in my locus of control to improve on when it comes to being attractive to women\n\nif noone hates you noone will love you?
+
+this is how 8020 works.” - is there such thing as **\n\nmaybe that mom of sofia claire will want me to tutor her son math?
+
+compressed truth and directive\n\nif i dont like the wrinkled shirt and being short, then change it and show that instead.
+
+redireving from our deepest theories..\n\nmaybe have 2 guests on pod so theres more to talk about and between all 3 of us.
+
+but adam P something\n\nget youtube premium from mamas family account on my youtube account\n\ndig deeper get to know her.
+
+its the tool you need at the right time, and youre a unique person different from others
+
+well how else am i going to live?
+
+thats the risk spread in a way idk\n\nalex grace 9 good in bed body confidence\n\nsmart people think far range, long range.
+
+at least youll know in practice what would happen, and not just in theory.\n\nim pretty healthy, bring in wealthy and wise.
+
+haha\n\nmoney is a means, not the end\n\nlittle strokes fell great oaks\n\nharmonize quantity and quality\n\ndiscuss ideas.
+
+keep the pareto frontier at bay.\n\nget a dog like molly to connect with other life forms\n\nchange must begin from within.
+
+think it through\n\nI pick my convos because i think a lot but listeners can be hard to find\n\nbe worthy of a worthy mate.
+
+but without a snapshot understanding of the world, how are you to make moves at all?\n\nalso kids should learn game theory.
+
+understand dont memorize\n\non reddit, ask for feedback on a project that helps solve a relevant problem to that community.
+
+for guys, is your money a part of you?\n\nenergy emotions buttons\n\nscaling down the task so perfectionism is easy to beat.
+
+for those low bandwidth moments\n\nif you cant explain in simple terms, you dont truly understand\n\nleverage and resources.
+
+before adulthood corrupts you.\n\nremember that money problems are only one class of life problems.\n\nreach out to friends.
+
+why not correct them?\n\nyou know its authentic if youd do it even if you couldnt tell anyone.\n\nstop pedastalizing people.
+
+what if you took your existing authentic self, to the max?\n\na rising tide lifts all boats, be the tide as much as you can.
+
+adampang timely (rick rubin style deletion when not relevant anymore..\n\nmake money, time, kids, art, friends, experiences.
+
+topple the 1 domino that actually matters\n\ni should not expect anything from social medias if i dont put anything INTO it.
+
+be both\n\nleverage is 8020 action, domino thinking, making cards with the cards we have, and repeating\n\ndoes this matter?
+
+“absence makes the heart grow fonder”\n\ndoing the best for yourself is one of the first steps to doing the best for others.
+
+how do you say your values in other words?\n\ni have to only leave users on my startups walk away with ONE relevant message.
+
+not considering the inaction cost: being in debt, being stressed, being depressed, being without a girlfriend, without love.
+
+same sorta for video games, but if youre doing it with friends then it can be great, just dont play video games tooooo much.
+
+to be able to render intelligible
+
+the fastest way to get out of your head is to go into your body
+
+did i want to be tainted?
+
+choose dont chase.\n\nmen's value is not found on the surface\n\n- Dress like the person you want to be.\n\nexpress yourself.
+
+be humble.\n\n"stay in the game long enought o get lucky"?\n\nwe each bring different  things to the table\n\nwealth creator.
+
+solve problems for them and theyll hire you\n\nhow do you deal with past bad situations if youre the one that did the damage?
+
+this is quality and quanitity\n\npost sivers https://www.youtube.com/watch?v=mBlJVazr4A0 persistence along breadth and depth.
+
+no relationship is going to be 1 to 1 perfect, but small errors can be corrected, but when do you leave due to deal breakers?
+
+like attracts like, be and choose to be someone that YOU like
+
+its gotta click in my mind
+
+meritocracy is beautiful and cruel.
+
+eustress is good, not involuntrary distress
+
+leverage is like with greater power comes greater responsibility
+
+just do 1 step.
+
+in 1 year in 10 years in 100 years will you care about this?\n\nbe willing to contend with truth, no matter how harsh or nice.
+
+better to know truth always, even if it costs you, because its an ROI in long term truth
+
+do it at speed volume cheap relevant.
+
+purposefully different from the maladaptive strat, trust people to check your six.\n\n2 heres the changge in your life i offer.
+
+just solve problems and show that im solving problems.\n\nim just so tired of letting the resistance / procrastination beat me.
+
+the fastest way to get out of your head is to go into your body
+
+even the most likeable people are hated, so its not a be-issue.
+
+remove drainers add energizers\n\nfall in love with your problems and fate, not the solution ideas, they very well may be wrong.
+
+i know i can depend but maybe its cause im the only guy, i feel alone..\n\nthere are infinite people so be infinitely selective.
+
+will this still hit 1 year 10 years 100 years 1000 years from now?"\n\nyou can understand and act your way out of your problems.
+
+not really anything i can think of..\n\ntext charlie hey i think i made beginner mistakes charging so much before with you guys.
+
+all signs point to the fact that i need to do great things, then make great male friends, then female friends, then girlfriends.
+
+flow and momentum > strict all or nothing mentality\n\nadd “be yourself” to the blog post about cliche but actually good advice.
+
+makes more sense that way idk, and the value is so important i dont mind that much\n\nsometimes the title of a book is the gist.
+
+flight and housing is expensive
+i need more cash
+
+hypothesize solutions
+
+
+
+saying no can be so hard but its a skill to build, no?
+
+i like smart cute kind\n\nmake steps toward the life you want to live.\n\nhow to guard against mimesis, examine your motivations.
+
+you may not know your true nature.\n\ndont complain about low followers if i have low post count\n\naren't you grateful for life?
+
+follow the golden thread and it alone, the throughline\n\nhow to get better at anything, growth mindset and visa's do 100 things.
+
+you don't want to be the person who's figured out 1 thing amazingly but everything else in your life has suffered in "sacrifice".
+
+work with REALITY, not falsities\n\ni am worthy of wealth creation, i am worthy of friendship, i am worthy of sex.\n\nignore most.
+
+JUST DO IT.\n\nget clear with dad about equity, freelance, his expectations for me as an employee\n\nwhat is your inner scorecard?
+
+be good.\n\ndo less, but better.\n\ndont repeat yourself.\n\nbe a polymath, combine.\n\nlong term > short term.\n\nclear thinking.
+
+talk because youre compelled to\n\nlife boils down to problem solving and decision making.\n\nif youre on the fence about therapy.
+
+what do i want?\n\nof course youre gonna make mistakes, youre not omniscient haha\n\nhow do you know what are good ideas to build?
+
+honestly good heuristic\n\nthe fastest way to get out of your head is to go into your body\n\nhey zack congrats on the engagement.
+
+if doubt no doubt\n\nif youre not clearing your calendar daily, its too much on your plate\n\nyou dont know what people will like.
+
+JUST DO IT.\n\nget clear with dad about equity, freelance, his expectations for me as an employee\n\nwhat is your inner scorecard?
+
+And then the people that i do follow dont follow me back, and that makes me feel bad\n\nim looking for working strategies in life.
+
+if i asked him to write a song it wouldnt be the same\n\npost sivers’ if its not a hit switch, with the astounding products thing.
+
+the most delta.\n\nim also interested in wealth creation, bromance, romance\n\nwho could i look to that would challenge me on this.
+
+These things cannot be bought - they must be earned.\n\nhow will i hang out with others who have the same dreams as i do, each day?
+
+not hard work but diligent smart work\n\nevery restaurant should have an online menu, a clear list of what it is price and picture.
+
+I don't know what else to say, that seems pretty good.\n\nevery event or product starts with: are you *insert person with problem*?
+
+if you can provide counter examples youre good, if not, you got hw
+
+i guess for tmi im only saying online what id say to a stranger?
+
+you just need more wins per loss ratio
+
+what am i allowed to spend on:
+books
+food
+rent
+tools
+business investments
+exercise
+
+hold on.
+
+living proof\n\nask better questions to get better answers\n\nlose fat in face with dont die for jaw too\n\nunderstand step by step.
+
+figure this out\n\npursue the gradient of maximal learning, while being financially wise\n\nthe right audience, not  a big audience.
+
+try to go with life WITHOUT the solution, then it wasnt a good solution\n\nevery blog title should be able to standalone as a tweet.
+
+do it badly on purpose, then think "WHY is that bad?" then do the opposite\n\nsolve loneliness and stress for better sleep better T.
+
+competing with the different day yous in your life..\n\ndont copy too much from 1 person where its clear where your admiration lies.
+
+make this app?\n\nif you cannot empathize enough to see where someone came to their conclusion, you can never sway their conclusion.
+
+no one person will satisfy all my needs as a human lol\n\ntentative cheatsheet to twitter to wealth creation to friendship creation.
+
+better to know truth always, even if it costs you, because its an ROI in long term truth\n\nwould I watch this?\n\ntrim the chapters.
+
+everyone is redeemable.\n\n+ create your own "luck" (positive outcome from unknown source)\n\n+ if there is doubt, there is no doubt.
+
+every obstacle is an opportunity for virtue\n\ngo and transact in the sexual marketplace, see where im at first\n\ncompetence is fun.
+
+opportunity cost\n\nbe around people that are better than you that make you wanna be better\n\nfind someone beautiful inside and out.
+
+if others wanna listen in, thats their perogative.\n\nif i was the highest quality truest self, would this person accept and love me?
+
+if you can't make yourself feel better, try to make someone you love feel better\n\ni wanna build wealth ti be free from parents too.
+
+set up a presence, choose dont chase, and see who resonates with your authentic quality self\n\ndo not give girls unearned attention.
+
+the beauty of blogs is the person comes to you, with a twitter follow, they have to see everything you post even if its not relevant.
+
+you can always go back to the longer version, but like rick rubin says, just try it, THEN decide if you dont wanna go down that path.
+
+tf said 7 mag creators all get the downsides, they report that, they get\n\nevery blog title should be able to standalone as a tweet.
+
+the beauty of blogs is the person comes to you, with a twitter follow, they have to see everything you post even if its not relevant.
+
+working hard costs more energy and stress and time, its all about allocation to the invisible calculus
+
+what im afraid to write about?
+
+the most contrarian thing of all is to think for yourself, not oppose the crowd
+
+leverage value first, then capture some of the value.
+
+fix i say this to myself spacing
+
+leverage is like with greater power comes greater responsibility
+
+
+this isnt a hardship contest lol.
+
+the most contrarian thing of all is to think for yourself, not oppose the crowd
+
+leverage value first, then capture some of the value.
+
++ meditation is a bandwidth practice\n\nyou must say no, the opp cost is way too high.\n\nbe a minimalist, so you can be a maximalist.
+
+awareness judgement action\n\nscorecard will tell tips that all the best socials accounts do\n\nit is impossible to not make mistakes.
+
+safe stuff first\n\nif you make a project for yourself first, even if the market doesn't want it, you have a guaranteed market of one.
+
+on Feb 9, 2025 at 9:30 AM - 10:00 AM\n\npost the screenshot to my mom, erasing other things, to show high signal in the ns diary post?
+
+just no catastrophic failures\n\nthe less influence, the more authenticity, the less competition.\n\nminimum steps till problem solved.
+
+you are also a boat.\n\ni think ill let the traumatized be founders, maybe id rather be an early employee..\n\nWrite about forgiveness.
+
+the 6 questions can be answered well\n\ngrowing up too fast can be a mistake perhaps, like taking out the cake too early from the oven.
+
+better to spread it out and not have adulthood be suddenly traumatising lol\n\n1,1,be a good product, then minimum effective marketing.
+
+care about what you think first and foremost\n\nwhen being critcized, a good filtering function is: would i give this kind of feedback?
+
+if you don't have creative luxury (doing only what you want), do what both you and the market wants\n\nadolescents should work earlier.
+
+holy shit actually all of them have either written a book, they tweet, or they write blogs, or they put out youtube videos or podcasts.
+
+hard to vary explanations and risky narrow predictions (projects), its okay to put projects on the shelf, maybe its not the right time.
+
+guys need to be more stoic locused, girls need to know that every condition adds combinatoric rarity and maybe mr perfect doesnt exist.
+
+tell a story why i made it and the change it made in my life\n\ntalk with dad again about vertical industries, flesh out the idea maze.
+
+guys need to be more stoic locused, girls need to know that every condition adds combinatoric rarity and maybe mr perfect doesnt exist.
+
+ive failed so much, been rejected so much, looked down on so much, but fuck that im going to rise and grow
+
+as long as you work on your.
+
+im short (5'5.5) im living with my mom, im sometimes needy, i havent succeeded with money, i have little real good friends (arguably 1).
+
+im short (5'5.5) im living with my mom, im sometimes needy, i havent succeeded with money, i have little real good friends (arguably 1).
+
+dont give her more power than she earns\n\nin the age of infinite leverage, judgement and time are the factors\n\nunfollow 1 girl on IG.
+
+care about people's approval, and you will be their prisoner.\n\n"Stress isn’t a badge of honor; it’s a signal you’re fighting yourself.
+
+dont pedastalize heroes TOO much, theres just farther along the path\n\nwhatever mistake you make, be aware of it, then do the opposite.
+
+it has to click in your brain\n\neventually apply to be a part of the ns core team, i wanna stay here for like 4 years im down for that.
+
+IF you are actually an infinite game player.\n\nimport the rick rubin “you dont know what others will like, you only know what you like.
+
+the positive is women and friends, no???\n\nthe creative act, 4 hour chef, your music in people, are books that are misleading in title.
+
+like im not learning mandarin, i mean universal live fast translation gotta build that instead\n\nif they can teach it, youre competing.
+
+will to live and love\n\nif you pedastalize your heros too much it makes it harder to be friends w em and\n\ndon't love indiscriminately.
+
+falling short of a goal because of lack of knowledge or skill, both of which can be bettered\n\nif they say no, just dont riff with them.
+
+if you arent yourself, then YOU arent accepting YOU on Jan 27, 2025 at 4:30 PM - 5:00 PM\n\nmoney comes naturally as a result of service.
+
+what are the pros and cons of sharing things, especially things that make you vulnerable?\n\nmake bold guesses and weed out the failures.
+
+like if elon wanted to hire you to help save the world, levels would say yes, like hotz did\n\nalso add a monthly 20 dollar cursor thing.
+
+to live,
+
+fulfill social commitments: JR and aydin gokce, then meta commitments from keeps
+
+unfinished projects are like unfinished books.
+
+follow energy compass like sivers says\n\nget famous on IG and X through visible competence, so post about\n\n+ progress to a valued goal.
+
+build in public, learn in public\n\nthere are no barriers to entry, there is actually always a way, its not artificial optimism, its true.
+
+its the consumption of wealth that killed john lennon\n\ni had to learn more about the world to come up with higher quality startup ideas.
+
+again (unless you enjoy it) there are tons of voracious readers who dont amount to much.\n\nlearn from the mistakes of those ahead of you.
+
+be really honest w yourself and others\n\nto come together for self improvement, right up my alley.\n\nvalue your time, it is ALL you have.
+
+i just need to keep doing it\n\nput "who is this for" on every startup about/faq product part of site\n\nwhat would i do if i knew id fail?
+
+maybe broadcast em to someone who can idk\n\nlittle truth-laden rules/directives: like dont postpone on calendar, put into lifo keep again.
+
+be so good she cant ignore you\n\nmedia leverage helps debt loneliness and sexlessness problems\n\nif you were a product, would YOU buy YOU?
+
+maybe test it?\n\ni learned the theory of knowledge and  wealth creation through naval\n\nbegin with problems, understand em, and act on em.
+
+to increase motivation for anything, make it social.\n\nits about getting in getting out for the right relevant things at the right amounts.
+
+like a half blood prince notebook for others a cheatsheet\n\nit is impossible to not make mistakes and not experience pain, but you choose..
+
+im thinkin blake anderson and team, but that temper… on Apr 20, 2025 at 8:00 AM - 8:30 AM\n\nyoure doing sales because you failed marketing.
+
+I'm working on repeat clients already, for context.\n\nbe a general problem solver, not just a specialized one, although that isn't nothing.
+
+to be able to render intelligible
+
+the fastest way to get out of your head is to go into your body
+
+violence is blind
+
+add some, remove some.
+
+so what do i/you/we do?\n\nbeing self critical is sometimes good, but its a matter of why and when.\n\nthe long game metters for compounding.
+
+so what do i/you/we do?\n\nbeing self critical is sometimes good, but its a matter of why and when.\n\nthe long game metters for compounding.
+
+dont do unnecessary stuffs but when something you know you gotta do, and can do, do it.\n\nyou can have multiple motivations to do something.
+
+i deviate sometimes by nature, sometimes by choice\n\ncritique my heroes even in the people who i like, i can easily find things i dont like.
+
+i need to progress with indiehacking.\n\nobvious to you, repulsive to others: a mark of a great idea to work on\n\nnail it before scaling it.
+
+i cant just have a notepad in the dark\n\nsomeone else has already figured out how to solve the problem you solved, just go learn from them..
+
+obviously success is better than failure, but if you fail, dont waste it, learn from it, let it inform your worldview, i disagree with thiel.
+
+begin with the problem\n\ndont stress out about shit just be diligent in bettering your life\n\npick a better stage name, like pieter levels.
+
+i dont need to overcorrect for dad, i used to think being sexual was a sin or something, that rings true and makes sense on why i am how i am.
+
+unless its entertaining to you of course
+
+learnn from each rep
+
+have at least 3 kids for the replacement rate
+
+steelman both sides
+
+what else?
+
+i dont need to overcorrect for dad, i used to think being sexual was a sin or something, that rings true and makes sense on why i am how i am.
+
+to live,\n\nfulfill social commitments: JR and aydin gokce, then meta commitments from keeps\n\nunfinished projects are like unfinished books.
+
+be so ignorant, only the good remains.\n\nif its a societal risk but youre sure its good, you know its a good move\n\nwhat do i rarely regret?
+
+in diff spaces, im in diff stages\n\ni need a plan of action where i think "this could actually work, holy shit!"\n\n1 rep sexlessness -> sex.
+
+you are not enough people on Jan 27, 2025 at 3:30 PM - 4:00 PM\n\nreally gotta lower my burn rate and stop buying stupid shit like the guitar?
+
+tell a story about how im default nice but have been burned so i shut down and overcorrected now im more nuanced with my kindness and riffing.
+
+dont worry, ideas abound\n\nif you cannot empathize enough to see where someone came to their conclusion, you can never sway their conclusion.
+
+research sivers and godin marketing advice again and check elon and navals advice\n\nthere are million billion trillion dollar ideas in books.
+
+its the tool you need at the right time, and youre a unique person different from others
+
+i would be different with power and so would you, no?
+
+falling short of a goal because of lack of knowledge or skill, both of which can be bettered
+
+solve a good problem, then try to get time again.
+
+what do you do with your life?\n\nwhat does what i talk about say more about me than you?\n\ni feel permanently tainted by hiring a prostitute.
+
+not "things i tell myself" do what would make YOU like YOU.\n\nto a sensitive person, theres so much thats fuckin salient, for better or worse.
+
+be so ignorant only the good remains.\n\nGuamanians are asking for money == education on how money works (blog)\n\nkindle is wind down routine.
+
+comes with experience and wisdom\n\nnot giving up is about experimenting until a hit, then repeating that hit\n\n@@ what is the 90/10 solution?
+
+in order to say no you have to say yes.\n\nstef and kamil know: https://grok.com/chat/b6b87b57-ef9e-430b-aeb5-9a0beb6beb14\n\napproach therapy.
+
+live so YOU like YOU, you are the only one that can know deep down the taste of a person.\n\nact in a way so you dont need to hide how you act.
+
+yes, but also each day, pick the right things, the power law spike.\n\nmaybe the headline (super big) on every startup site REALLY does matter.
+
+share what you know, it may really help someone else\n\nask claude: im in a point where i wanna correct existing errors before making new ones.
+
+they seem pretty all-encompassing\n\nwhen you have a kid you can make life better for them better than how you had it, based on how you lacked.
+
+correct errors (appears multiple times)\n\nclean notes clean articulation (untangling problems)  clean life\n\n~ how can i ask better questions?
+
+be so good they cant ignore you\n\nmy ideas will be noted, curated, compiled, acted on, and made manifest\n\nreminder to be true to your nature.
+
+what if youre only being 50% true?\n\ndo not give girls undeserved attention, they havent done anything yet.\n\nim stressed which affects sleep.
+
+what do you think is strong and good?\n\ngo have a great high quality high authenticity life, then invite girls into my frame.\n\nyou could die.
+
+1 compressed line each\n\nnail it before you scale it, untangle then pull, thjnk then speak, walk then talk, etc\n\ni like a clear clarity plan.
+
+although err on keeping things private, because releasing is a 1 way door.\n\nso i learned that alongside speed and volume, minimalist curation.
+
+figure out how to make it work as a minimalist, then go full send all in maximalist.\n\nbe the guy that if you were a girl, youd die to be with.
+
+provable problem solving..\n\nwhat i learned about myself: i cant really get myself to do something much if i dont agree with it / dont like it.
+
+at least wrestle with the important questions\n\non anchormarianas, put a tip part optional where they can put more cash for what theyre buying.
+
+only talk if i have to theres no other way to get an answer etc\n\ndo i talk about problems of mine like wealth bromance romance or keep hidden?
+
+yeah be frugal scrappy profitable independent.\n\nto get "unfamous" do the opposite of what got you there: delete pics, videos, tweets, ig, etc.
+
+i can always add back
+
+doing only what you want is being authentic and will guide you to whats play to you, work for others, or just a fun thing.
+
+its the tool you need at the right time, and youre a unique person different from others\n\ni would be different with power and so would you, no?
+
+position and create yourself through virtue into someone high quality and authentic\n\nthe biggest bistake is not being willing to make mistakes.
+
+what wants you, you don't want.\n\njust do what you think is right, and leave the rest to fate (lky and ben franklin..)\n\nmastering sleep event.
+
+copy from many dont overindex on any 1 person or work\n\nyou can have good ideas, but if you dont have the power to enact em, what good are they?
+
+be honest, thats the base layer\n\nmake blueprint more apetizing without breaking the protocol or damaging it much at all to\n\ndoes this matter?
+
+why though?\n\nif i need more runway: https://mail.google.com/mail/u/1/#inbox/FMfcgzQXJkTPzBVmdwJChzkZfCLHgZMM\n\ninvest in health wealth wisdom.
+
+also buy nucleus and message kian\n\nthe question is whats the 1 thing i can do to improve my smv, in terms of order of operations and 8020 shit?
+
+copy from many dont overindex on any 1 person or work\n\nyou can have good ideas, but if you dont have the power to enact em, what good are they?
+
+idk\n\ninterviewing the best is really useful, it sucks that its an opportunity cost for them but maybe it also untangles for them, its dialogos.
+
+just archive and gitignore, dont delete
+
+if there is doubt there is no doubt, get rid get rid
+
+curate and remove doubtful posts to reduce anxiety.
+
+only ask of people what youd do OR if they actually like to do it
+
+be tru to yourself
+
+all advice cancels to zero, this is the invisible calculus.
+
+would you buy this if you were them?\n\nhard work is not a sufficient variable for financial success\n\ngenius is seeing the target noone can see.
+
+what skills, relationships would i\n\n2 are you a writer who doesnt know where to start or is unorganizeed?\n\n- polite persistance and endurance.
+
+BUY from them, its a buyers market in that value chain\n\nideas alone can be value adds, which builds trust, which is great for product sales too.
+
+BUT you actually have to combine the circles for the venn diagram\n\ncertain books are actually like gold mines because knowledge leads to wealth.
+
+like george washington taught the kids to move on by him leaving the white house.\n\ndelete tweets that im not convinced are useful to the public.
+
+ideas or products etc or a friend lol on personal site\n\nideas alone can be value adds, which builds trust, which is great for product sales too.
+
+at what cost will you stay the same?\n\ntop problem awareness understanding or action, is never a waste of time\n\nto solve insecurity, get secure.
+
+strength and goodness..\n\nif you dont charge for a solution, you cant keep giving the tribe more solutions\n\ni want to help people, including me.
+
+i can breath a little easier now.\n\ni love understanding the misunderstood, because i was and am often misunderstood.\n\nbe loving, but not needy.
+
+hard choices, easy life." it can be hard to be here, but it's definitely doable.\n\ntrying not to overtrain, meeting new awesome people again haha.
+
+this is how you repeat what you find that works, repeat the good as much as you can\n\n“I have two kinds of problems: the urgent and the important.
+
+embed the best mini blogs..\n\nask michael that new sf important guy for constructive criticism about ns, given all his startup experience and all.
+
+be open to being wrong, being wrong is a good thing insofar as you find the unifying theory that resolves your previous theory conflict (problems).
+
+be open to being wrong, being wrong is a good thing insofar as you find the unifying theory that resolves your previous theory conflict (problems).
+
+ALL OF THESE PROBLEMS ARE SOLVABLE!!\n\nnever be talked out of great ideas to solving great problems.\n\ndont give women binary responses yes or no.
+
+what is fun to you, you will be competent at.\n\nquote repost the tao te ching: care about peoples approval quote\n\ndo not trade money for freedom.
+
+you can speedrun parts of other peoples lives, become a mosaic of your liking, a frankenstein's angel\n\neverybody can work hard, everybody can xyz.
+
+low dopamine means prioritize sleep insert bryan johnson chrcklost, exercise, close eyes for a bit, find peace and quiet in your life, again say no.
+
+everyone is capable of heaven and hell\n\nturn a friend into a lover, or find hot girls with good personality\n\nbe IN a crowd, don't FOLLOW a crowd.
+
+i live in good-faith, yet i'm fallible.\n\nspecialize in being yourself, and trade with other authentic people.\n\ni need an mo regarding boundaries.
+
+courage vision speech\n\nmake a tldr for instructions for career: problem -> solution -> team -> skills -> go\n\n6 figure income, 6 figure following.
+
+wealth?\n\npublic drafts, no more embarassing stuff, polish 1 thing, keep a ratio of polished and unpolished, thats a good idea\n\ntrim the chapters.
+
+how to undepress yourself on Apr 25, 2025 at 7:30 AM - 8:00 AM\n\n+ if you have indestructible ideas of how to spend money, it's GOOD that you spend.
+
+dont give her more power than she earns\n\nfind whos the best at solving it and either pay em or learn from em\n\ndo book reviews, based on concepts.
+
+just archive and gitignore, dont delete\n\nif there is doubt there is no doubt, get rid get rid\n\ncurate and remove doubtful posts to reduce anxiety.
+
+= wealth, friends,\n\nmake yourself into the person that you would pick\n\ni want people to laugh at my funeral, if i do die\n\ndont be a book purist.
+
+what are your fav iq boosting methods, personally?\n\n- care about other's approval, you will be their prisoner\n\ntry not to repeat the same mistake.
+
+diligence AND quality\n\nill do what i think is authentic and quality, no matter what you think.\n\n"the purpose of" wealth creation is life creation.
+
+blog about tips for the 3rd millenium\n\nthe way to solve insecurity is to actually get secure on whatever you lack\n\nHow can i test my best guesses?
+
+who you dint and do eant to be is wrapped up\n\nsometimes its physical before digital (state/mental health/cleaning/chores/errands)\n\nits a sad life.
+
+better to correct the error in explanation/understanding, depends on if its actionable too.\n\nwatch those school of hard knocks live call recordings.
+
+like if elon wanted to hire you to help save the world, levels would say yes, like hotz did\n\ntry product marketing sales, in the sexual marketplace.
+
+like elon is great at business, but stresses out a ton, hes overweight, even with the greatest people, its so fuckin easy to poke holes in their life.
+
+things ive spent lots of time thinking and doing\n\nmake it easy for me to link blog to blog, and maybe put links and notes at the bottom of the blog?
+
+i just wont give up\n\nexperience/skill * proving > credential put more life equations\n\ntime energy emotions\n\ni dont ask for money, ask for advice.
+
+period\n\ni dont need to let my most embarassing moment define me\n\nbe careful what are hard nos and hard yess in your life\n\ndont talk just to talk.
+
+to build relationships at scale - david senra\n\norion dan advice for problem 3 on Feb 8, 2025 at 8:00 AM - 8:30 AM\n\ntrue friends improve each other.
+
+books should solve your problems\n\nnot for me orr you but what is good for the kid, or the relationship\n\na great life is built upon great decisions.
+
+buy the electrolytes thing\n\n“this already happens” takes the fear of the unknown out of the situation..\n\nwhat would this look like if it were easy?
+
+maybe thats dumb but\n\nyou can get better at explanations and experiments, this is the mark of a good person?\n\ntime is what your life is made up of.
+
+sleep and a break make things clear\n\nmaybe i can talk about porn and rejection and prostitutionn as a very small split of my creative work portfolio.
+
+sleep and a break make things clear\n\nmaybe i can talk about porn and rejection and prostitutionn as a very small split of my creative work portfolio.
+
+when people are crazier, more famous, they basically create room for you to be just less crazy, famous, wihtout being the first target for scapegoating.
+
+i guess well only know with a test\n\nwell how else am i going to live?\n\neveryone whose put their heart on show has been crucified\n\nwhat is courage?
+
+meaning > happiness\n\nit is through the testing that you will find your own unique path\n\nthink about the long game\n\ncould this bite me in the butt?
+
+cap downsides and gain upsides..\n\ntry to live a good life first and foremost, all other goals are subgoals of this goal\n\ntry things that could work.
+
+choose the aperture of change.\n\nbut here's what's becoming clearer: mistakes aren't failures, they're misunderstandings.\n\nguard your social battery.
+
+but its like thomas in the bible, gotta see it and feel it to believe it..\n\npedastals prevent friendships, just try to help others and their problems.
+
+i can always talk to em again
+
+i prefer diligent, smart, wise work > hard work
+
+share my routine
+
+im not wealthy yet but i wanna help people like me lol.
+
+dont buy what the founder doesnt buy"\n\n1|arm yourself with the tools for the solutions for the problems ahead\n\nit should be so good i cant ignore it.
+
+so this time i also realized that i know very little, so im gonna prioritize learning and sanity\n\nkeep my posts short while i dont have many followers.
+
+put a pin in this...\n\neven the best books have 1 star reviews, its a fools errand to try to make everyone like you, its impossible because of variance.
+
+youre always going to make a mistake, everyone makes mistakes, everybody has those days\n\nas i learned more and more truth, or became less wrong rather.
+
+the unexamined life is not worth living so they say...\n\nas long as you reach the a-s tier, no need to worry about rank if you fall into the good bucket.
+
+if fans arent telling friends, DONT PROMOTE\n\nhave balance of writing dont overindex on any 1 space or facet of life\n\nnow if i like a girl i wont simp.
+
+it will hurt socially in the short term but be amazing in the long term.\n\nfollow your genuine curiosity, dont coerce, follow what is interesting to you.
+
+im going off to school soon, but good luck wirh your pitch\n\nonce you get to 6 figures of social media following, stop, the sweet spot of fame has ended.
+
+patience with results, impatience with action.\n\nidk if you should invest SO much in any one game where to the point where its your SOLE identity pillar.
+
+but other than that it also brings the up and comers up to speed more, so you can make more elons etc\n\noften you can get the gist from the book's title.
+
+strong and good
+
+how much SHOULD you share online
+
+i wanted to see if they would still love me even with my worst act
+
+seperate doubts from surefire posts.
+
+things to work on
+
+therapy
+
+wanting people to like me
+
+talking or learning without action is cowardice
+
+clear conscience priceless
+
+if not this, then what?
+
+like sia idk\n\nive failed so much, been rejected so much, looked down on so much, but fuck that im going to rise and grow\n\nX respected person said that.
+
+self-improvement.\n\nthere are infinite people and projects, so be infinitely selective and executive.\n\nbe willing to walk away from ANYTHING ANY PERSON.
+
+you can be the wealth creator, you can be the attractive boyfriend type..\n\nprep for ns again, how will i approach things differently for a better result?
+
+The urgent are not important, and the important are never urgent.”\n\ni know dad has a terrible reputation, but i need the cash, and i do want to help him.
+
+how to make money at scale and auto, to stay away from guam home for an extended period?\n\nknowing what to prompt has always been the great skill of life.
+
+post about the lky “if i had to make a living being an artist, id starve” so “know thyself” balaji gave me the campus design thing but its not working out.
+
+but to say that im not supposed to be sexual, thats fucked up, were fucking human, and the only reason were here talking is because our parents were sexual.
+
+but to say that im not supposed to be sexual, thats fucked up, were fucking human, and the only reason were here talking is because our parents were sexual.
+
+unless its entertaining to you of course
+
+learnn from each rep
+
+
+steelman both sides
+
+leverage is anything where 1 decision actuates without you
+
+what else?
+
+but to say that im not supposed to be sexual, thats fucked up, were fucking human, and the only reason were here talking is because our parents were sexual.
+
+but to say that im not supposed to be sexual, thats fucked up, were fucking human, and the only reason were here talking is because our parents were sexual.
+
+kam just said to enjoy my time at school\n\ndont take things too seriously, its likely not that serious\n\npeoples priorities may not align, and thats okay.
+
+working hard costs more energy and stress and time, its all about allocation to the invisible calculus\n\ntalk about dating\n\nwhat im afraid to write about?
+
+dont confuse hustle with strategy\n\n- learn (blitz, books, certs), do (projects), reach out (personals, companies)\n\ndo it badly on purpose to get started.
+
+its a way to gain virtue\n\nignore girls, let them initiate initiation, theyll make it fuckin clear as day\n\nyou dont even know what people will truly like.
+
+cowardice stresses: https://grok.com/chat/24f94ad2-cb36-4328-b81c-e344664fc131\n\nfigure out how to blog, write small blogs, but do this on twitter instead..
+
+output should be time disconnected, just judgement
+
+balance learning and doing
+
+am i divergent because i just am or did i choose to, i wanted to be different?
+
+firm AND flexible.\n\npeople copy other people, if noone critically thinks, the mob goes off the cliff\n\neveryday, find 1 person and help them with problems.
+
+sustainable stress too\n\nif youre not willing to be embarrassed, youll never deviate, and therefore never grow\n\nwith writing, its just like a startup idea.
+
+unless of course you want more foresight.\n\nother people have already pretty much solved 99% of the problems you have, so learn from them and solve problems.
+
+Pain threshold?\n\ntry to see where people are coming from, step back and help them where they got lost, and youll get helped too when youve got things wrong.
+
+better to know truth always, even if it costs you, because its an ROI in long term truth
+
+just do it shittily, ask questions, be relevant, dont prep just talk.
+
+it's the variety that catalyzes momentum/motivation\n\nthe more authentic you are to you, the less competition\n\nkeep searching, when you find it, youll know.
+
+lol\n\ndont sell what you wouldnt buy\n\nWhat actually matters in life?\n\nmake reversible decisions fast\n\nfast and steady wins the race.\n\nhell yeah or no.
+
+how would i be different then?\n\nu can be a giver yo others OR point the giving to God, in whatever form that takes\n\ndon't expect everything from one thing.
+
+if its clearly a good decision, fully aligned, its just courage you need, nothing more.\n\nthats a good question: what is true among all the people you admire?
+
+be super frugal and that will increase more days of cash on Feb 6, 2025 at 2:30 PM - 3:00 PM\n\ngo hard on instagram and put location on ig and x and warpcast?
+
+is it an objective thing?\n\nblog about frameworks i find useful: generate curate elevate, luck 4 kinds, elon algo, dave ramsey baby steps, maslows, what else.
+
+- be present in this moment, if youre going to die, then live at least - what if i cultivate boredom on purpose, for more creativity?\n\nhow do i sleep longer?
+
+pod about philosophy but follow salience, anderson todd side character see if the pod guests are aligned on topic\n\nmale advice: try to control your lust lol.
+
+like attracts like, be and choose to be someone that YOU like\n\nits gotta click in my mind\n\nyou just need more wins per loss ratio\n\nwhats stressing me out?
+
+smarts * wisdom\n\nif i can ignore the solution, its not a problem\n\nwhere to live, not where do you live\n\nsometimes, thinking doesnt lead you to the answer.
+
+sexlessness and debt.\n\njust ignore its counterproductive to do otherwise?\n\nthe “feel better” is over there, after that action\n\nbalaji is a fuckin prophet.
+
+sivers also says this.\n\nthere are infinite people and projects, so be infinitely selective and executive.\n\nbe willing to walk away from ANYTHING ANY PERSON.
+
+what are you an exemplar about?\n\nmake a list of good common things to unlearn, transitioning into this new age, and what i think doesnt work from the old age.
+
+how can i format the text to improve comprehension, like asymmetrica\n\nask michael gibson what he thinks about alternatives to traditionally traditional paths?
+
+manage your attention currency, dopamine currency.\n\nwhen you have a kid you can make life better for them better than how you had it, based on how you lacked.
+
+also talk to sis when its the right time about it\n\nthe name should describe what it is, andor how it changes the user's life\n\nfind your heroes common books.
+
+what are you an exemplar about?\n\nmake a list of good common things to unlearn, transitioning into this new age, and what i think doesnt work from the old age.
+
+validation from results from action from smallness
+
+offer free work for proof of value to great people
+
+you don't need to take life so seriously, laugh a little.
+
+safe stuff first
+
+
+openness: just follow curiosity
+conscientiousness: elon algo
+
+its gotta click in my mind
+
+can i even find guys i like / wanna be friends with?
+
+im a white belt.\n\nits not just about time spent together, its about the NET quality: quantity * quality\n\ngive honest criticism, give 2 strengths, 1 weakness.
+
+a lack of nuanced thought is a bad sign
+
+scapple why am i doing xyz in life, and examine my life, be real about the reasons
+
+why is attention seeking seen as bad?
+
+understand and act.\n\nlet her initiate initiation, then match her energy, dont give her binary choices, then let it escalate naturally.\n\nknowledge + practices.
+
+at least position yourself that way\n\nive been meeting with friends daily, yet i still feel lonely, unsatisfied.\n\nauthenticity leads to positive combinatorics.
+
+debt loneliness sexlessness\n\nshitty firsts gets you into the game, better than perfectionistic nothingness\n\nyou want to be great yes, but at the great things.
+
+be what the moment calls for\n\n“be so good that you are unignorable.” “ignore so much that only good remains.”\n\nit matters if the people YOU admire admire you.
+
+recurring events gets more points lol\n\nmake a pplan for this: if mama will stop paying after 1 year, and dads vertical..\n\nyou dont know what others will like.
+
+falsehoods less.\n\ngrowth isn't guaranteed just by creating, but creating AND following the magic does guarantee growth, i think.\n\nthe bad is next to the good.
+
+good projects begin with bad projects, the bad is next to the good.\n\nyour lifetime isnt actually your expected lifespan, its your monetary expected runway right?
+
+understand and act based on what solves the problem at hand.\n\nthiel variant: why cant you solve your top 3 problems (friendship wealth sex) in the next 3 months?
+
+or if it solves a problem, but other than that, dont buy anything, i have no income right now\n\nif you dont dread the months of the same thing, thats a good sign.
+
+just guess why and have comments to please correct me if you know better\n\nif you take yourself too seriously, youll avoid mistakes, and therefore avoid progress.
+
+output should be time disconnected, just judgement\n\nit has to click for me\n\nwhich is the better problem to solve for fellow humans?\n\nwhat is a mistake anyway?
+
+go from sexless to abundant sex.\n\nof all the people ive met at ns, who are the 20% id bet on and put money behind?\n\ndo the important thing that only you can do.
+
+pod about philosophy but follow salience, anderson todd side character see if the pod guests are aligned on topic\n\nif you had a magic wand, what would you change?
+
+action and service\n\ncan i borrow money from mama after 1st internet dollar to pay my ccs, solve the incoming interest rate, then pay her back with increased rent?
+
+talk about going to therapy, talking needs to be a compliment to action, not a substitute, from thiel's recent talk with joe rogan
+
+how much should you share online?
+
+working on wealth, i have the first 2\n\nmute/block negativity, but be open to healthy criticism, great interlocutors\n\nto increase motivation, do it with a friend.
+
+literally all of my top teachers / online mentors\n\nyou wont get wealthy as an artist by renting out your time performing, selling your time is good for quick cash.
+
+follow results for goal states?\n\nblog about frameworks i find useful: generate curate elevate, luck 4 kinds, elon algo, dave ramsey baby steps, maslows, what else.
+
+when do people get off of work and stuff?\n\ni wish there was a budget ns, like 250/month just like how i monthly burn\n\nthe world is worse without you being better.
+
+it takes courage to risk wrongness.\n\nthese problems to solve are opportunities for framing, creativity, and flow\n\ntalk w mama about the high level stuff with idi.
+
+let go.\n\ncopying can get you to the frontier, but once youre there, switch to trial and error mode.\n\nconsider the opportunity cost and inaction cost of decisions.
+
+do it badly on purpose.\n\n"it's especially dangerous when a smart person gives you the requirements, because you won't question it enough."\n\nknowledge + practices.
+
+And do i do it under my own name or through pacifica?\n\nhigh skill workshops they want at ns to upskill people, but what high level skill do i know that others dont?
+
+and smth w God\n\nimperfect ideas, imperfect building, imperfect selling\n\nfrom good questions emerge good explanations / answers\n\nim glad i chose my own decisions.
+
+- choose your aperture of change.\n\nBe the type of person who changes their mind and loves being proven wrong.\n\nmake sure people get their money’s worth at hww.one?
+
+discussion, its sorta like james of arc’s too on Apr 22, 2025 at 9:30 AM - 10:00 AM\n\n1,1,hmm make hower work on mobile too so i can actually swipe and use on mobile.
+
+find the gaps in the world that you uniquely can create, leverage, and own
+
+i dont have to be well known but can be known well
+
+for girls, are your looks a part of you?
+
+master the short game to get to the long game.\n\ni can build solutions for the problem trail ive already solved too, look back at my life\n\nstop pedastalizing people.
+
+a keep or a blog post?\n\ni tried therapy and still not convinced, its good sometimes but not like a permanent thing idk.\n\nive learned that opinions can def be wrong.
+
+do things that dont scale?\n\ni know when im same or diff from people and give advice accordingly according to my best knowledge of a system\n\nWhat’s holding you back?
+
+look in the mirror, how can you improve YOUR life?\n\ni think on some level "what do i want?" is a poor question, a better reframing is what problem do i want to solve.
+
+i can also target outreach to people in the whoop community with bad sleep and give em the tldr + credible results (show my leaderboard + weekly score + hours of sleep.
+
+fearset and shit\n\nwvery guide or checklist should feel like half blood prince notebook, secret truths that just work\n\ni learned the hard way to question and delete.
+
+practice has a low-stakes implicit framing.\n\nhave a bias for survival: if you cap your downside, then its all upside\n\nmake a thread about what each person taught me.
+
+The urgent are not important, and the important are never urgent.”\n\nthiel variant: why cant you solve your top 3 problems (friendship wealth sex) in the next 3 months?
+
+its more important and better than stanford harvard mit i swear and app academy, and so so so much cheaper, more than 10x\n\nmake bold guesses and weed out the failures.
+
+talk about the tribal 150 dunbar number example
+
+with the gap year and being financially independent, i really learned the value of a dollar, from an emotional level lol.
+
+i need more people to talk to, so im just gonna blog lol\n\nsaying no can be so hard but its a skill to build, no?\n\nthrough volume and taste, you will become less shit.
+
+great love, great health, great serenity\n\nits not that i dont want to help others, its that i need to help myself first.\n\nwhat you do matters more than how you do it.
+
+or else youre just stupid lol.\n\nthe quality of your relationships is proportional to your relationship to your self\n\nwho are you trying to target with your creations?
+
+clear goals, immediate feedback, challenge skills balance\n\nit doesnt matter how accurate you are if you fire no arrows + understanding and action\n\nive made money irl.
+
+- “Think it’s a matter of time, I’ve found my career calling” - following 4-step plan\n\nif you dont know what to do / how to do, you still need to learn the system more.
+
+on Apr 24, 2025 at 9:45 AM - 10:15 AM\n\nforgiveness and humility are not signs of weakness in this context, but virtues that help you to get out of your own way.\n\nfit.
+
+upfront think, then just follow your system\n\nmarket hower to r/7habits of effective people lol, where stevencovey popularized it\n\ncancel all uncessary life port burn?
+
+its powers and limits..\n\nthe greatest thing money can buy is peace of mind\n\n"the public praises what is practiced in private"\n\nclarity and action is the sharp sword.
+
+It’s free to give.”\n\nas long as in general, you give more than you receive, you dont have to feel guilty in life\n\nyou can solve your top problems, you can help people.
+
+Do 1 at a time\n\nTheres no sense in dwelling, lets brainstorm, solve it and make up for it in the here and now\n\nyou cant really expect love, but you can always give it.
+
+not to fetishize failure, but you should risk failure in the hopes of problem-solving.\n\ni had to learn more about the world to come up with higher quality startup ideas.
+
+all the ways it could go wrong\n\nPersuasive Content: Use storytelling and persuasive language to connect emotionally with your audience.\n\nfor socials, stop at 5-6 mags.
+
+well i think the vague point is more important than an explanation
+
+hard work is not a sufficient variable for financial success
+
+prime your mind like leaving a bucket out.
+
+i can always share again
+
+remove bad indiehack ideas i wouldnt use
+
+traits i admire in others: not take themselves so seriously, love noah kagan and tim ferriss about that.
+
+generate curate excavate,\n\nlist what ive learned from each exemplar, some are so embedded\n\nwith any creation like code or media, make it super easy to do, for yourself.
+
+i can always add back\n\nfearset shit: define prevent repair base hit inaction cost\n\nshould you make words more accessible (lower grade level)?\n\nbe true to your nature.
+
+make this for farcaster: partial follows and unfollows, and tagged posting, vs general..\n\nthings that are obvious to you, may really be amazing to others, and vice versa.
+
+learn from others and create a custom mosaic of your values, your strategies, your goal states\n\ndont build solutions that pair with barely problems, dont waste your time.
+
+how to cut and trim pubes lol?\n\nif its high signal, youre not wasting peoples time..\n\nsleeping well is being “on the beat” of the universe\n\ngood enough is good enough.
+
+thread this\n\nIf you want to be given everything, give everything up."\n\nuse the dr pen thing for acne scars learn about it first\n\npost sivers: if its not a hit, switch.
+
+like a jacqueline like a hanna\n\nive been overthinking and underacting, im going to experiment with the opposite lol\n\nonly the strong can afford to share vulnerabilities?
+
+how can it not work?\n\nyou have to actually like what you do because endurance is a top trait for whatever project you do.\n\nA fit body, a calm mind, a house full of love.
+
+and make sure the ac is super cold idk why i got bad sleep last night on Apr 19, 2025 at 11:30 AM - 12:00 noon\n\nhow do i make myself into the best wealth creator i can be?
+
+look up naval's guide to tweeting\n\nmaybe dont invest in things i dont have control over, unless ive run out of ideas or something\n\nhow would life port look like with ns?
+
+stop deifying any faculty\n\nremove the root cause bottlenecks to your top problems\n\nlook at "dentist notes" keep and do sommething about i\n\ndouble down on whats working.
+
+thats it.\n\nif you want fame be low supply high demand and visible about that on Apr 23, 2025 at 10:30 AM - 11:00 AM\n\nlose a little consistently, you gain in a big payout.
+
+id say seek to understand, the way becomes clear, then its just a matter of time and judgement etc\n\nmaybe the headline (super big) on every startup site REALLY does matter.
+
+you can speedrun parts of other peoples lives, become a mosaic of your liking, a frankenstein's angel\n\nhealth wealth and wisdom positively permeate through your whole life.
+
+strong and good
+
+i wanted to see if they would still love me even with my worst act
+
+how much SHOULD you share online
+
+before you compete, do you even want the prize on offer?
+
+a bit of prevention prevents great downside\n\noh so failures along the way dont matter if you eventually get to the goal-state?\n\nyour best guess is always available to you.
+
+just solve problems..\n\n"you dont want to impress your peers, only your heroes" better to be judged by reality vs peers\n\nwhat are the core problems the core team is having.
+
+like im not learning mandarin, i mean universal live fast translation gotta build that instead\n\ncertain books are actually like gold mines because knowledge leads to wealth.
+
+2 what change are they seeking to make in their lives, and how can you help?\n\ndont work for a company unless its actually aligned with what you want to do, like levels said.
+
+i can always share again\n\nremove bad indiehack ideas i wouldnt use\n\ntraits i admire in others: not take themselves so seriously, love noah kagan and tim ferriss about that.
+
+he doesnt take himself so seriously i admire that.\n\ndoing only what you want is being authentic and will guide you to whats play to you, work for others, or just a fun thing.
+
+topple the 1 domino that actually matters\n\nget better, more attractive through virtue, then i can earn amelia, and girls of that caliber\n\nits their loss if they reject you.
+
+fail..\n\nwhat specific knowlesge is valuable that i could share w ns peers?\n\n“in the age of infinite leverage, judgement is the ultimate skill”\n\nwhat mistakes am i making?
+
+(more subjective, ill answer)\n\nthere are basically infinite women remember this, just be more magnetic then.\n\nimagine you had a death pill lol, would you want to die today?
+
+idk if im in the right headspace for that rn.\n\nDraft 1 – Spotlight vs Background: Low-Risk, High-Reward Living I dont want to be in the spotlight, but i cant see another way.
+
+advice cancels to zero, but wealth can be positive sum of course, we do more with less, lest were still cavemen
+
+only read the book if the compressions dont get the gist across.
+
+if it has to do with people, keep it to 100 or so, thats a good aperture\n\nmake blog about explanations “why xyz” “why youre addicted to porn, why youre in debt, why whatever..
+
+i mean you are what you do but..\n\nthese problems aren't insurmountable, they're just the next level of difficulty.\n\nwith every top problem, obsess about customers, HELP them.
+
+being courageous\n\nmaybe dont invest in things i dont have control over, unless ive run out of ideas or something\n\nonly tweet the timeless that hasnt been said or in that way.
+
+be honest, say less.\n\n​Don’t ignore your dreams; don’t work too much; say what you think; cultivate friendships; be happy.\n\nfind and fix the root causes of your top problems.
+
+so this time i also realized that i know very little, so im gonna prioritize learning and sanity\n\ni was trying to do everything at once and as fast as i could and i burned out.
+
+advice cancels to zero, but wealth can be positive sum of course, we do more with less, lest were still cavemen\n\nonly read the book if the compressions dont get the gist across.
+
+on Apr 19, 2025 at 11:30 AM - 12:00 noon\n\ni met a ton of ivy league people and i know im equally smart, now i just need to practice the energy part, and my ethics are great so..
+
+its more important and better than stanford harvard mit i swear and app academy, and so so so much cheaper, more than 10x\n\nif the job isnt actually what you wanna do, stay away.
+
+use your mental taste just like you use your tongue\n\ndont do sequels unless theres a new innovation to the first time, like godfather 2\n\nthink upfront, take the guesswork out.
+
+how can it not work?\n\nmanage expectations w fam friends, i used to expect too much from people, now im finding new people\n\nmake cheatsheet guides to certain things and topics.
+
+based on my life plans and all?\n\nrepeat for temu and books what i buy for myself that i think would improve peoples quality of life plus thoughtful gifts targeted to the person.
+
+maybe working hard is lazy in a way, because if theres lack of clarity, youre compensating with "hard work" which is socially acceptable
+
+prime your mind like leaving a bucket out.
+
+remove bottlenecks to your solutions to your problems\n\nnever expect love, but you can always give it, and give love through your art and service.\n\nfame is a double edged sword.
+
+things ive spent lots of time thinking and doing\n\ni originally wanted pics, and mindmaps too, and i can add those, but ill just start with text for now\n\nminimum effective fame.
+
+find other stuff gpt soundboard that help solve my problems.\n\nbe careful with "do what scares you" i once pointed courage in the wrong direction, and unintentionally hurt people.
+
+learn from others and create a custom mosaic of your values, your strategies, your goal states\n\nat bottom of blog posts put the links to related resources and related blog posts.
+
+find your buyer and seller market in life, just like its good to be both a teacher and a student\n\nmaybe have 2 guests on pod so theres more to talk about and between all 3 of us.
+
+but i fucking ask girls for their number (4 times), i got rejected 4 times, i work on myself, my health, my tech career, im not asking for pity, im just saying 100% ive been trying.
+
+but i fucking ask girls for their number (4 times), i got rejected 4 times, i work on myself, my health, my tech career, im not asking for pity, im just saying 100% ive been trying.
+
+but i fucking ask girls for their number (4 times), i got rejected 4 times, i work on myself, my health, my tech career, im not asking for pity, im just saying 100% ive been trying.
+
+but i fucking ask girls for their number (4 times), i got rejected 4 times, i work on myself, my health, my tech career, im not asking for pity, im just saying 100% ive been trying.
+
+i am overlooked from traditional schooling, innovative ideas is yet to be seen haha\n\ni feel bad that i dont follow back some people i feel myself going back to a depressive state.
+
+a great source riffer\n\nmaybe tim is depressed because he thinks too much about lifestyle design (focus on self)\n\ndo bounties and freelancing to make quick cash and lower stress?
+
+social validation\n\nstrong and good\n\nhow much SHOULD you share online\n\ni wanted to see if they would still love me even with my worst act\n\nseperate doubts from surefire posts.
+
+by not saying yes, the nos were in vain.\n\nfocus on factors constraining success at your goals, the rest leave good enough\n\nsay no to the bad say yes to the good, its that simple.
+
+they seem pretty all-encompassing\n\nREMINDER: these are suggestions not coervice commands :) break problems down into more manageable fun frames / quests for this adventure of life.
+
+being awareness problem understanding action results flow reflection\n\nhighschool + covid we really gotta unlearn that life just sucks, it really can be amazing\n\nadampang timeless.
+
+it can be overwhelming on Jun 11, 2025 at 6:30 AM - 7:00 AM\n\nwhen selling, aim for real usefulness, they dont care about the artist/you super, just if they like it / want to use it.
+
+simplify
+
+if people are jumping off the cliff, but theres good reason to think that theres actually something better off the cliff, ill look off the cliff, and when i see it, ill jump.
+
+be sure to get a prenup :)\n\nbalaji: if you have a private channel dont use a public channel\n\nwhatever takes up a lot of time and energy, pay people to do it\n\ndetest the lukewarm.
+
+begin with the problem\n\nsexual goal: flirting with girlfriend and sex and cuddles and shit\n\nthe people that are in your life before the fame are who to trust?\n\nuse plain english.
+
+on Apr 25, 2025 at 8:30 AM - 9:00 AM\n\nim convinced, reading great books and talking to great people is actually how you upgrade your thinking\n\ntherapy for insight on work and love?
+
+be book and street smart\n\nHighlight Benefits: Clearly articulate what problem your product solves and the benefits it offers to users.\n\non twitter or blog dont say whats been said.
+
+spread the stress over time
+
+implications excite
+
+coding your life algo for the right outcomes you want
+
+if an ADHD tries to focus on 1 thing that they dont want to, they get 3/10 done.
+
+highest conception, youll be fine\n\nmaybe i wont want to listen to this note NOW, but i will later\n\n"Care about people's approval, and you will be their prisoner"\n\nvolume cheapens.
+
+think it through from first principles when you can\n\nthe depth of reach and engagement is proportional to the depth of the body of work you put out:\n\nstay here at ns and solve debt.
+
+free is for testimonials and word of mouth that i wont get cause im just a rando to most people online\n\ncurate your parasocial relationships, just as you do your social relationships.
+
+always begin w the problem\n\nhey nanas asking for lunch together this month, we gotta figure out a place and time\n\nthere are things in life to never do, to always do, and to balance.
+
+simplify\n\nif people are jumping off the cliff, but theres good reason to think that theres actually something better off the cliff, ill look off the cliff, and when i see it, ill jump.
+
+every evil is from a lack of knowledge, understanding.\n\n- remember what gabor mate said: imagine if you were bezos or dicaprio or - life is a gift, i am a gift - just do what you want.
+
+im a future scapegoat
+
+violence is blind
+
+if youre a nerd getting cought up in society and not prepared, dont kill yourself like aaron swartz
+
+learn from people you hate / biased against.
+
+agency advice\n\nuse up my 3 spare microdosing thing\n\ngo cheap for testimonials and stuff\n\nwealth is a byproduct of knowledge.\n\ni do care what certain people thing\n\n00 satisfice..
+
+quality and quantity matter no?\n\nif you solve a problem for someone and they dont know how to replicate the solution or its inconvenient to, charge em..\n\ni want to be wrong, in a way.
+
+GO!!!\n\n"if youre copying these guys, youre not learning from them" learn the principles, get closer to source, then good shit happens because youre in line with transformational truths.
+
+how to create and curate members as well?\n\nwhen an authority figure in your life, or an inner tyrant says something, and you take it as gospel, don't question it because of it's source.
+
+no matter how imperfect it is\n\nomg ask your future self questions: "did you xyz (based on your biggest hopes dreams fears most relevant problems" i felt like crying\n\ninvite uncle stan?
+
+that seems the way\n\nmark manson who literally male date coached for 5 years spotted a problem of emotional insecurities, men with no father figure, brother.\n\nfavorite resources: naval.
+
+there are many reasons for this but one is: pain has a 2x multiplier than pleasure's 1x multiplier, so by reducing pain/problems, you are already more leveraged.\n\ndont appeal to authority.
+
+no desperation, no neediness.\n\ni just want to be the best that i can be, solve the biggest problems that i can, with clarity of understanding and action\n\nwe teach each other what we know.
+
+no should be default\n\njust keep being aware and solving problems\n\nin career, be so good they cant ignore you\n\nendurance / durability are top rate traits\n\nexemplars prove its possible.
+
+basically..\n\nis life better or worse off now that this exist\n\ntrim pubes on Apr 19, 2025 at 1:30 PM - 2:00 PM\n\ntake fam and friends off of public social media\n\neasy choices hard life.
+
+extremely yourself.\n\nknowing how a bicycle works doesnt mean you know how to ride it\n\nprove people wrong, and forgive them for their wrong judgement.\n\nevery no gets you closer to a yes.
+
+we can always improve through virtue-practice.\n\nmake sure its play AND its productive, its gotta click in my mind for relevance realization\n\nonly work hard if its got legit meaning to it.
+
+thread this\n\nif the problem is that i dont have a good startup idea, live in the future, and be principled, then my mind will be primed?\n\nreverse engineer from your life vision basically.
+
+lol\n\ni guess for tmi im only saying online what id say to a stranger?\n\nif you dont believe in it, dont do it\n\nif you can ignore the solution, it wasnt a big problem\n\nsmall experiments.
+
+so get principled\n\nwhen i see a good thing i see an opportunity (for gratitude)\n\nrare high demand knowledge is how you differentiate yourself\n\npeople are self-interested, and thats okay.
+
+what would this look like if it were fun?\n\ni would try to make it on my own, upskill myself, learn and have skills > credentials\n\nif your "work" is not "play" to you, you know it's not it.
+
+maybe working hard is lazy in a way, because if theres lack of clarity, youre compensating with "hard work" which is socially acceptable
+
+how to guard against mimesis, examine your motivations.
+
+what would i regret NOT doing in life like fearsetting:\n\nclippers scissors fuses trim pubes lol on Apr 13, 2025 at 9:30 AM - 10:00 AM\n\neven if it all went to zero, would you have no regrets?
+
+yeah i like to release free things to the tribe that help..\n\n"if you cant see yourself working with someone for life, dont work with them for a day, but fill up the 100 first, before deleting.
+
+do the things so that I like I\n\ni like systematic, rigorous thinking about salient life\n\nvalidation from results from action from smallness\n\nhow open should i be?\n\ni feel like a kid: why?
+
+whats the optimal spread?\n\n"unhappiness" is not knowing how to solve your problems\n\nthe right question is often more important than answers\n\nam i doing something useful to/for other people?
+
+fix this\n\nstartup ideas are found in the "this should be better, i wish xyz"\n\nthe people that are in your life before the fame are who to trust?\n\nprgram your life the way you want it to be.
+
+like my life starting 5 exemplars show where i wanna go, what i desire and admire\n\nadulting" is encountering real problems and being thrown in the deep end and you just gotta figure it out lol.
+
+input output\n\nremember to think internet first, stop thinking local even thought its right in frint of you\n\nbeing just strong is attractive short term, being just good is attractive long term.
+
+where are you both ahead of others in, or the only, and that path is actually valuable / solving problems\n\ni really wanna make a lot of money and help my family and friends solve their problems.
+
+advice cancels to zero, but wealth can be positive sum of course, we do more with less, lest were still cavemen
+
+be tru to yourself
+
+only read the book if the compressions dont get the gist across.
+
+on Apr 21, 2025 at 4:30 AM - 5:00 AM\n\nWhen i unfollow a friend or family member for “digital minimalism”, i hope they dont think i dont like them, thats not true, i just have this rule of max 99.
+
+is it my desire or anothers?\n\na lack of nuanced thought is a bad sign\n\nscapple why am i doing xyz in life, and examine my life, be real about the reasons\n\nwhy is attention seeking seen as bad?
+
+rare resources and shit.\n\n- would my deathbed self regret having done this?\n\nreturn to the dragon that burned you, in due time\n\ni dont have to like my family they just insult me\n\nloneliness.
+
+ty\n\nif you're not failing 20%, you're not risking enough.\n\nthe biggest risk you can take is not taking any risk.\n\nlearning is all about relevance, hence flow @vervaeke\n\nbreadth before depth.
+
+i can always share again
+
+remove bad indiehack ideas i wouldnt use
+
+think about the long game
+
+traits i admire in others: not take themselves so seriously, love noah kagan and tim ferriss about that.
+
+it's the variety that catalyzes momentum/motivation
+
+endurance / durability are top rate traits
+
+the more authentic you are to you, the less competition
+
+keep searching, when you find it, youll know.
+
+it's the variety that catalyzes momentum/motivation
+
+endurance / durability are top rate traits
+
+the more authentic you are to you, the less competition
+
+keep searching, when you find it, youll know.
+
+not just because...\n\nyou can die with things still on your todo list\n\n“are you patient enough to see the right path?”\n\njust solve problems, create solutions and sell?\n\neasy choices hard life.
+
+what am i risking and for what\n\nPersuasive Content: Use storytelling and persuasive language to connect emotionally with your audience.\n\ncall people on IG X whatsapp, that i should talk to again.
+
+so just keep learning and exploring, dont settle right?\n\nwhat is my best guess on how to live the day the week the month the year the decade the century the millenia the life\n\ndivide and conquer.
+
+help me to understand truth better and then i can act in a different way for different results on my problem vectors on Feb 7, 2025 at 11:00 AM - 11:30 AM\n\ndo not destroy means of error CORRECTION.
+
+travel, friends, gf, location
+
+
+
+
+
+
+
+
+good people deserve good outcomes of course
+
+
+simply, if happiness = reality - expectations, and my expectations are immense, then i gotta raise my reality fosho.
+
+correct it.\n\ni need to earn to speak, to be.\n\n"follow the fun" if its not fun\n\nwe are imperfect and improvable\n\ncan you do a diary entry wrong?\n\n"there are risks on both sides"\n\ni left ns.
+
+even if its a no, it can turn into a yes later\n\nsolve your wealth problem with your understanding of wealth creation * diligent 8020 action: hower, AM\n\npublic categorized notes to self and others.
+
+i mean trust yourself, and your ignorance...\n\nsome people come and stay for the simple version of ns andor the complex reasons why to come and stay sometimex both\n\nhow do you become a cracked dev?
+
+ignore so good they cant be bad.\n\nblog about if you struggle witb insomnia get light early, tetrio, logotherapy from frankl to get unlodged then go again\n\nif you want engagement, be like mr beast.
+
+temu\n\nthe greats all talk about deleting saying no: naval elon sivers jobs\n\ni learned the theory of knowledge and  wealth creation through naval\n\nshould i consider working elsewhere not at home?
+
+be a good person and competent and all good will come\n\nits impossible to not make mistakes of course, but try to minimize downside, maximize upside lol\n\nunlearning is just as important as learning.
+
+the light touch is the right touch\n\npeople usually cast a wide net to find the few good ones, but actually if you go where the good ones go, you can cast a small net and still get the desired effect.
+
+and lots not on my radar\n\nthere is more to life than family, although it is HUGEEEEEEEEEE\n\nreversible decisions: go back to school, buy back what you sold\n\nmake my own almanack like ben franklin.
+
+get the hower cycle and testing goin\n\nthe way for shy people who are insightful to talk is making a pseudonym or talking in a curated group chat where the reach is limited\n\npast mistakes are funny.
+
+lol
+
+facing a mirror reaching in and hugging yourself
+
+power is neutral
+
+fortune cookies: use heuristics till they break
+
+feedback / truth is a gift
+
+one good blog post or podcast is better than volume?
+
+only when i need a nervous system loan lol\n\nwhy doesnt tim ferriss unfamous himself, he has a cautionary tale to others on the path\n\nbe a great interlocutor, thats one of the best things you can be.
+
+like blackbeard, double power, double pain
+
+never ship, never know
+
+the more i admire someone, the more ill put up with shitty tweets lol
+
+talk about important topics even if its embarassing or scary to.
+
+unless its entertaining to you of course\n\nbe tru to yourself\n\nhave at least 3 kids for the replacement rate\n\nlearnn from each rep\n\nsteelman both sides\n\ni dont like people who play status games.
+
+im treating this like college, prioritizing learning and sanity haha\n\nhow do i solve my top problems, make an idea ma3 that is plausible to the light at the end of the tunnel, pragmatic idealogue shit.
+
+i gotta understand the best next steps, and action\n\nif you dont want to be needy with 1 thing, have options, try multiple people, projects, etc.\n\ndont focus on the last "at bat" focus on the next one.
+
+maybe test it?\n\n2 are you a writer who doesnt know where to start or is unorganizeed?\n\nput "who is this for" on every startup about/faq product part of site\n\norder mama food check text Order with A.
+
+the parht to peace is truth, both in sutu\n\nthere are no get rich quick schemes, but you dont have to subsribe to a get rich hard scheme, like burnout style\n\nif you pedastalize, being a friend is hard.
+
+hard choices easy life.\n\nyou cant expect love but you can always give it\n\nproblems are solvable given the right knowledge\n\nthe best female aphrodysiac is through her mind\n\nlife is what you make it.
+
+fear set\n\n- just solve problems: awareness understanding action results reflection.\n\nthe name should describe what it is, andor how it changes the user's life\n\n"be careful what you are influenced by.
+
+when playing, hang out with people who are happier\n\n"Takeaway: Money is just the receipt for helping people at scale—optimize for leverage, not applause."\n\ni feel like im reverse parenting myself haha.
+
+take it or leave it, be considerate\n\nmake sure i say novel useful things that i havent heard elsewhere oline on Feb 9, 2025 at 10:00 AM - 10:30 AM\n\nwomen want to be the adorer, MOSTLY focus on product.
+
+generate curate excavate,
+
+immediate relevance is great for flow
+
+list what ive learned from each exemplar, some are so embedded
+
+with any creation like code or media, make it super easy to do, for yourself.
+
+make a guide online\n\nbe so good they cant ignore you, ignore so much only the good remains\n\nfor work: make something people want for love: be someone people want\n\nflaking ghosting is the default state.
+
+where to apply?\n\nstop doing counterproductive mistakes, its good you gave em a shot but stop\n\nim also banking on the fact that future me will have new upgraded thoughts,\n\nwhy am i depressed solve that.
+
+remember that reward is on the other side of action and “risk”\n\nget the balls out of your court till its just you and your own personal projects\n\nfearset dads business, help him w business plan logo etc?
+
+like if it aint broke…\n\nfor every pod guest, just flow, but when in doubt, go to the menu of aligned topics to riff about\n\nat every mag of wealth and fame, reasses, do i really wanna go for the next one?
+
+dave ramsey lvl 4 lol\n\na little bit kinder than is necessary to not just others, but to yourself, and thanks for tuning in.\n\nas long as you live well, there are no bullets, people will try to dig up dirt.
+
+make a great advice post, thats general and uncommon
+
+talk about procrastination
+
+build things thatd be valuable to you, and as you expand, the list of things thatd be valuable to you EXPANDS
+
+what is salient?
+
+death focuses\n\nslow is smooth, smooth is fast\n\ni eat veggies THROUGH the meat\n\nmistakes are misunderstandings\n\nthe grass always seems greener\n\ntaking yourself too seriously.\n\ni seek deep catharsis.
+
+understand and act.\n\nits so pervasive for guys, so even though its embarassing to write about, if i can help someone, its all worth it\n\nhow do you not compete when people are broadly similar in capability?
+
+diversity in counsel, unity in command.\n\nif society doesnt IOU you with money, theyll help in other ways out of debtts of gratitude, at least the infinite players will\n\nwhat is my definite plan for career?
+
+dont settle.\n\ndo not tweet what youre not convinced is valuable for the public, this is considerate\n\nwealth is just one part of life, albeit the current focus of the young broke chapter.\n\ni love learning.
+
+how do you increase the level of your character?\n\nnavigating relationships can be extremely confusing at the start of your understanding journey\n\nthe public praises people for what they practice in private.
+
+often you can look to the past, when normal worked better too\n\nthe ideas that keep coming back to you, those should be under the most scrutiny +/ you should do them\n\nsave yourself before you save the world.
+
+figure out what i should do w claude..\n\nexplain it to me, if you truly understand it, you can teach it as a logical chain of unbroken understanding, from the basics, from the fundamentals, from the ground up.
+
+validation from results from action from clarity from articulation from
+
+music sport sleep and progress are my therapy
+
+sufficiently nuanced advice is indistinguishable from chaos
+
+what am i not supposed to say?
+
+what am i risking and for what
+
+mental frameworks must be stresstested against reality
+
+volume and voluntary approach destigmatize
+
+commitments weigh heavy on me
+
+i can be super needy cringe awkward embarrising.
+
+dont confuse the means and the end\n\n“the most humane thing of all is to spare someone shame”\n\nto self-improve, first you must notice self-imperfection\n\nits always hard to describe ns to family and friends.
+
+ELEVATE like how i did w elijah\n\n“Going it alone” - don’t really have a mentor / career support right now, especially but do not have that person nearby\n\nif theyre reputation does not precede them, unfollow.
+
+every project i make, i myself use.\n\nif youre not willing to risk embarassment and mistake, then youll never know if you could do that thing you wanna do, be that person you wanna be, no?\n\nok now just chill.
+
+or funny things or fun things or good ass questions\n\nfind who my heroes heroes are, or what are the critical books or ideas that have 8020 positively changed their mental scaffolding of explanations or values.
+
+but positive sum trades\n\nfortune cookies: use heuristics till they break\n\nfacing a mirror reaching in and hugging yourself\n\nfeedback / truth is a gift\n\none good blog post or podcast is better than volume?
+
+be free from the shackles of expectation\n\nit does not break physics, the only things you need are problem awareness, understanding, and action\n\ndifferent people have different parts of the map in their heads.
+
+ignore so much only good remains\n\nif things arent working, you must be open to change lest youre a stubborn fool\n\nwhatever you do that people have complimented you on, put that on the internet\n\ntim ferriss.
+
+(fam friends etc)\n\non presales page put: if you have this problem, this is a good product for you\n\nif you wouldn’t have started the company yourself, don’t work for the company.\n\non /tips, do a patreon too.
+
+then surround yourself with people who also want that pie, then grow the pie together
+
+only ask of people what youd do OR if they actually like to do it
+
+all advice cancels to zero, this is the invisible calculus.
+
+well i hangout with X person because i like them (you GET something from them...?)
+
+
+thats a great pithy heuristic: if you want girls that you like to like you, live and level up so that YOU like YOU ~ noah kagan.
+
+ideas and actions\n\nalso keep moving sometimes i stay still\n\nspeak truth (courage speech and vision)\n\nsacrifice the last 20% for an extra 80%\n\nsolve problems and help solve problems.\n\nproductize yourself.
+
+act fast and deep\n\nlet fear pass through you, but dont hold it\n\nknowing your limits clarifies locus actions\n\nlet fear pass through you, but dont hold it\n\nknowing your limits clarifies locus actions\n\n🧪 2.
+
+lets assess each person, then bring in what we lack.\n\nthe warm approach does wonders for women, it builds trust WAY faster cause its social proof vetted\n\nall i need is 2 10 dollar sales per day, to break even.
+
+well i hangout with X person because i like them (you GET something from them...?)\n\nthats a great pithy heuristic: if you want girls that you like to like you, live and level up so that YOU like YOU ~ noah kagan.
+
+clear goals, immediate feedback, challenge skills balance
+
+stand the test of time, the serious people will still be here after years, if they have the endurace inheritly aligned with their nature
+
+i like pragmatism.
+
+damn im fucked lol\n\nim disciplined diligent sorta lazy, and disciplined.\n\nfix i say this to myself spacing\n\nleverage is like with greater power comes greater responsibility\n\nthis isnt a hardship contest lol.
+
+if its clearly a good decision, fully aligned, its just courage you need, nothing more.\n\nbuild what you cant buy, buy what you cant build\n\nmarc lou: never ship, never know\n\nif you dont wanna do it, dont do it.
+
+socratic method\n\n"reading is forced meditation"\n\nexperriences over the material\n\nthere is pain in both options.\n\nlet the work speak for itself?\n\nask manessa if she worked hard\n\nhow to chill tf out event?
+
+otherwise, i prefer diligence and 8020 steps\n\n"be so good they cant ignore you" also means "ignore so much only what is so good is left."\n\nhelp those who help themselves + solve problems and help solve problems.
+
+i mean i practice on keeps already\n\neven though hower on the surface looks kinda stupid, ive used it for 2-3 years and i have to stand by it\n\nfind ways to upgrade your daily routine, is every step seamless easy?
+
+i like learning from others cause they have fragments of the map, at least some have relevant parts of the map in their heads on Jun 11, 2025 at 7:30 AM - 8:00 AM\n\nif you dont know what to build, learn learn learn.
+
+i also want to figure out which day would be best to do my heroic dose mushroom trip, i want to do it right, help me with a checklist on Jun 12, 2025 at 5:00 AM - 5:30 AM\n\nsometimes the title of a book is the gist.
+
+from current position measurement, problem awareness, flow game via explanations and experiments, and viable path out of idea maze to escape the maze escape the game till death do i part\n\nproject selection clarity.
+
+to elevate.\n\n- Don't ignore your dreams; don't work too much; say what you think; cultivate friendships; be grateful.\n\nall i care about is that youre trying your best, that youre making the best decisions you can.
+
+Whats the smallest version i can practice?\n\nget explanations so good you are composed, the results make you sleep easy\n\ngive tips to each side: user empathize with doer, doer empathize with user\n\n8020 baby steps.
+
+i need to progress with indiehacking.\n\nhand message people i find online with the overwhelmed todolist problem\n\ni wish thiel wrote more, like was on twitter or did more interviews idk\n\nbe worthy of a worthy mate.
+
+get to 100 then curate.\n\neveryone is guessing, some are more suppressed than others, by themselves internally or from external society.\n\nwhat you do and how you do it, if through leverage, is so much more important.
+
+remove EVERYTHING i can except essence\n\nTry not to overestimate what you can do in a given week or month because you'll just end up beating the shit out of yourself and that does not tend to help you in the long term.
+
+meaning > happiness
+
+it is through the testing that you will find your own unique path
+
+if youre a nerd getting cought up in society and not prepared, dont kill yourself like aaron swartz
+
+could this bite me in the butt?
+
+or people can be wrong about things but we dont kill them lol.\n\nthink of all the ways ns and life can go wrong, and then just dont do that / solve that: i spend ns and dont make miney at all, dont get a girlfriend etc.
+
+IF youre actually an infinite game player for the long haul\n\nnavigating relationships can be extremely confusing at the start of your understanding journey\n\nthe public praises people for what they practice in private.
+
+let most things go\n\nfocus on my high openness then because thats where im an extreme person\n\nwhat would you do for free that other people would have to be paid for?\n\nyou can get better at anything by "do 100 thing".
+
+these things cannot be bought, they must be earned.\n\nwvery guide or checklist should feel like half blood prince notebook, secret truths that just work\n\nif i genuinely like her then just talk to her and be discerning.
+
+strat, a will, advice, a conversation, always sleep, procedural knowledge\n\ndont worry too much about being accessible in speech, i mean dont intentionally obfuscate though\n\nif you are not shipping, try something else.
+
+truth can be ugly
+
+you dont need to write down self-reminding tasks: brush teeth, do laundry, wash dishes
+
+as long as i progress on the important life dimensions i prioritize, i can take a lot more bullshit life throws me.
+
+truth can be ugly
+
+you dont need to write down self-reminding tasks: brush teeth, do laundry, wash dishes
+
+as long as i progress on the important life dimensions i prioritize, i can take a lot more bullshit life throws me.
+
+its not a cult haha.\n\nunlearning is just as important\n\n“commitment to figuring it out”\n\nall i ask for is 1 change today\n\nwe earn with virtue, open to all\n\nis this someone i can grow with?\n\nidentify the problem.
+
+turn every avoidance, every problem, into a positive, an approach\n\nunwilling or unable, these are supposedly the 2 variables when you want to do something\n\nif you didnt do anything bad, theres nothing to be ashamed of.
+
+you wanna go there, but youre here, what do you do to get where you wanna go?\n\nshould we be able to change our name at 18 or something?\n\ntalk about it AND be about it\n\nyou can have your face online, just dont push it.
+
+understand and act\n\nspecific knowledge is an EMOTIONAL thing, curiosity is..\n\nthe third time you think about it, do something about it\n\nembrace the imperfect nature of prolific experimentation\n\npain is not the goal.
+
+or at least has tried to\n\ngo with the flow is bad advice at first then its actually good advice\n\nchecklists are little formulas for desired outcomes, getting yo goals\n\ndo a health wealth wisdom meaning-flow checklist.
+
+shitty firsts gets you into the game, better than perfectionistic nothingness
+
+good frameworks i learnd
+
+share my routine
+
+common mantras to self
+
+you can get to good answers by saying no to bad, and whatever youre left with.
+
+lets assess each person, then bring in what we lack.\n\nthe warm approach does wonders for women, it builds trust WAY faster cause its social proof vetted\n\nfind people higher on my problem vectors and apprentice under them.
+
+how?\n\ntry not to be blindsided\n\nthe obstacle is the way.\n\nmistakes will be made :)\n\nhow do you get unstunted\n\nhow do you get unstunted\n\ni feel like myself again\n\ntolerant of disobedience\n\ndont despair, repair!
+
+knowledge really is power.\n\nyou kill perfectionism with do 100 thing AND stress is untaken action\n\ndont create net more and worse quality problems than you ALREADY have\n\ndo a health wealth wisdom meaning-flow checklist.
+
+truth can be ugly\n\nyou dont need to write down self-reminding tasks: brush teeth, do laundry, wash dishes\n\nas long as i progress on the important life dimensions i prioritize, i can take a lot more bullshit life throws me.
+
+for no college, etc.\n\nidk what im doing this is honest which i think is good\n\ntake all the risk you can, but never the risk of ruin.\n\ni'm beginning to positively question authority again..\n\ninsight vs action in therapy.
+
+self-deprecation sometimes idk
+
+as long as you disagree with parts of your heroes, you know youre safe from mimetic downsides
+
+if you want to see who rules over you, see who you cant criticize, like parents
+
+why am i doing this?
+
+impatience with action."\n\nthe willingness to be embarassed to be a beginner\n\njust solve problems: problem -> understand -> act\n\ni wish more people would steelman multiple sides.\n\nget the bad creations out of your system.
+
+what are my insecurities?\n\ni can always talk to em again\n\ni prefer diligent, smart, wise work > hard work\n\nshare my routine\n\nim not wealthy yet but i wanna help people like me lol.\n\ndo it at speed volume cheap relevant.
+
+is a great question to just map out what's going on with your life\n\nbuild things thatd be valuable to you, and as you expand, the list of things thatd be valuable to you EXPANDS\n\ni gotta stop saying yes to things i cant keep.
+
+listen to your cognitive dissonanc…"\n\nas long as youre working on your highest salient conception, youre golden\n\naim for net positives, if shortcut ok, but if long term bad, do long term\n\nwhat do i think and what do i want?
+
+if you cant get through the short term you cant get to the long term?\n\ni want to delete parts of this blog, but i know that getting volume out at the start is important\n\nim upgrading my life do 100 upgrades to quality of life.
+
+i mean
+
+
+the fastest way to do something is to not do it at all
+
+hardship contest
+
+sometimes you can be rash though and give yourself unecessary ptsd lol
+
+being short is a positive constraint
+
+i stopped 3x speed and skipping songs.
+
+easy for me to say..\n\nyou cant prevent all pain from emerging, but you can let it guide you and learn from it etc\n\nyou cant prevent all pain from emerging, but you can let it guide you and learn from it etc\n\ni dont know shit.
+
+find the people with the problem\n\ninvest in my broke son eventually when i have 5 kids or whatever itll be..\n\nif attention is a currency, give people a good reason to spend it on you..\n\n- sometimes just existing takes courage.
+
+help yourself like you help others\n\nsoemtimes we forget how bad things can get or be, some gratitude is in order\n\nhow can i do something productive today, meaningful, so i wont get depressed?\n\nmainly focus on self improvement.
+
+if theyre not HELL YEAH, move onto another product\n\nwhy is your only reference other people whove done xyz, you gotta think 1st principles and derive Godly solutions to Devilish problems\n\ncheck tim ferriss facebook feedback too.
+
+the ramp from toe in the pool to deep end should be more gradual and less shocking, the ramp from guarded life to real life should be more gradual and less shocking\n\nit does not break physics to solve my top problem of loneliness.
+
+leave the channels open\n\nthe fastest way to do something is to not do it at all\n\nsometimes you can be rash though and give yourself unecessary ptsd lol\n\nbeing short is a positive constraint\n\nno full solutions, only tradeoffs.
+
+should i embarass myself on purpose?\n\nim a future scapegoat\n\nviolence is blind\n\nif youre a nerd getting cought up in society and not prepared, dont kill yourself like aaron swartz\n\nlearn from people you hate / biased against.
+
+only solve A+ problems in your life, then share the solutions to similar others.\n\nspecific knowledge is: are you genuinely curious to know how to solve the top problem, are you in love with the problem?\n\nbe as best as you can be.
+
+coercion no violence lol\n\n"this journalling practice has had me thinking about what you should vs shouldnt share online" its an open question for me but one worth chewing on..\n\none good blog post or podcast is better than volume?
+
+i cant go back in time, what can i do to right the wrong?\n\nthe question is the answer\n\nseperate the person from the idea, like an artist and the song.\n\nbecome sharp so you can be powerful AND good\n\nwhy are you listening to me?
+
+thats my foolishness?\n\nwhatever pattern you think isnt working, try to break it no?\n\nfocus on what you want to see more of: wealth, friends, fame\n\ndo less of the 8020 drainers, do more of the 8020 energizers\n\n00 248 days left.
+
+or funny things or fun things or good ass questions\n\ni know youre focused on going from 0 to 1, but after already crawling your IRL network, and posting on relevant internet communities, what are your thoughts on growing from there?
+
+maybe talk to sis and its a good segway to future prostitution talks\n\ni got courage twisted with "do what scares you" i shouldnt of followed that mantra without nuance: for things that are long term good for you and you wont regret.
+
+minimal good release
+
+if youre cool, ill invite you into my life, and im working on bettering my life too
+
+- list stressors, the big problems, for me to like me, to make my life better
+
+talk about it AND be about it
+
+yeah its pathetic.
+
+like blackbeard, double power, double pain
+
+show routine:
+
+never ship, never know
+
+color code the store: project, pain killer, vitamin
+
+the more i admire someone, the more ill put up with shitty tweets lol
+
+this isnt a hardship contest.
+
++\n\nmaybe i should try going to therapy once more?\n\nif the thought repeats, do something about it.\n\nthe greatest power is the ability to walk away\n\nrespond to joey's dad, i forgot to message him\n\nlearn from inevtiable mistakes.
+
+do what is best, in each moment.\n\nremember that after curation, you must double down and elevate what remains\n\nwith any creations, ask yourself which needs more: create curate or elevate\n\ngive yourself permission to make mistakes.
+
+open up aperture, i can always close it later\n\nbe clear about your priorities, for me its wealth creation (free markets) and url2irl (costs) then romantic relationships (sexual marketplace)\n\ngood work on all my ideas in spreadsheet.
+
+be partial on purpose, less all or nothing, rn.\n\nif you don’t want to ice bath or meditate, that’s a good sign they’d really help.\n\nask the norwegian guy for that trio testosterone stack thing he was talking about\n\nmastering sleep.
+
+self actualize motherfucker!\n\nif you want a girl that is beautiful inside and out, then be handsome, inside and out.\n\nif you want a girl that is beautiful inside and out, then be handsome, inside and out.\n\ndesign w failure in mind.
+
+leave a trail of solutions, be a giant that others stand on in the future, seep into the background of history in a positive light\n\ncold approach with women is like cold approaching a guy friend, you know how rare cool guy friends are?
+
+yes failure is a tragedy, but it is contact w reality, its truth of some kind, you can salvage it to inform your worldview.\n\nneed capacity for kids, show it, and find a girlfriend, then have like 3+ kids, AND dont die and vitalia shit.
+
+its a challenge
+
+positive constraints
+
+it is through the testing that you will find your own unique path
+
+think about the long game
+
+if there is doubt there is no doubt, get rid get rid
+
+curate and remove doubtful posts to reduce anxiety.
+
+ill treat her like girls i dont like\n\ngratification: getting more of what you want and less of what you dont\n\ndo things right away when they ask on Feb 9, 2025 at 9:00 AM - 9:30 AM\n\ndont overdo IG or X, osciallate, balance, harmony.
+
+im curating so theres less pressure.\n\nget a water filter or something for fresh water from tap, not the plastic bottles with microplastics and T reduction.\n\nmake sure there are people ON the wealth path the health path the wisdom path.
+
+just solve problems\n\nshould we be able to change our name at 18 or something?\n\nvisible competence:fame*, be confident from explanations\n\ncan i soread out the stress for a more sustainable life?\n\nfocus on the output, not the method.
+
+a great source riffer\n\nwork on your highest conception, and drop all lesser games, let small bad things happen\n\ncompress ideas and actions into mantras for those low bandwidth moments + bad days post\n\ntrue friends improve each other.
+
+generate curate elevate, a creative way\n\nif you dont have startup ideas / leverage ideas (code media) learn on internet (twitter youtube perplexity gpt)\n\nwhen you see yourself or someone doing something good/wise/smart, encourage them.
+
+it's better to validate an idea based on whether or not it works, is good, etc.\n\nfind who my heroes heroes are, or what are the critical books or ideas that have 8020 positively changed their mental scaffolding of explanations or values.
+
+i dont need to overcorrect for dad, i used to think being sexual was a sin or something, that rings true and makes sense on why i am how i am.\n\ni learned what to be public about and what to be private about\n\ni like a clear clarity plan.
+
+i dont need to overcorrect for dad, i used to think being sexual was a sin or something, that rings true and makes sense on why i am how i am.\n\ni learned what to be public about and what to be private about\n\ni like a clear clarity plan.
+
+do right by people that do right by you idk\n\none of the best ways to help people is to give them opportunities\n\n"the fastest way to get out of your head is to go into your body"\n\ntry to help everyone that follows me via a dm or reply.
+
+awareness is one of the first steps\n\nfocus on what you want to see more of: wealth-creation and love-creation\n\nif you dont make yourself vulnerable to the healers, they cant heal you.\n\nviolence and coercion toward yourself is bad too.
+
+youll fuckin know\n\nto make it better make and remake\n\nleverage leverage leverage\n\nafter a while, people repeat the same things.\n\nif i feel shitty, what do i want?\n\nwhats the simple elegant solution?\n\nwork hard only if you got to.
+
+halve whats not working.\n\ntis a new day, and with that, new things are possible.\n\ndont expect love per se, but its always free to give..\n\nif you were the other gender youd do the same, be fair\n\nhelp yourself help family help friends.
+
+am i really that bad andor is she really that sensitive?\n\nfor every pod guest, just flow, but when in doubt, go to the menu of aligned topics to riff about\n\nat every mag of wealth and fame, reasses, do i really wanna go for the next one?
+
+no matter how much you read, unless you experience the real thing youll only know it in your head and not in your bones\n\nthe todolist is infinite, so if youre tying your self-worth to accomplishing todo items, youll forever be unsatisfied.
+
+what am i risking and for what\n\nmental frameworks must be stresstested against reality\n\nvolume and voluntary approach destigmatize\n\ncommitments weigh heavy on me\n\nhow to solve perfectionism: logotherapy frankl’s paradoxical intention.
+
+breadth if lost, depth if found\n\npain tolerance is a necessesary not sufficient virtue\n\n~ do i have a fear of mine that needs to be fear set?\n\nno compromise only something CLEARLY better than both\n\nput about on every startup now page?
+
+@visakanv\n\nall you control is your output and you trust your taste\n\nnot reading for information, reading for transformation\n\nthe fastest way to do something is to not do it at all.\n\nyou’ve only met 1/1,000,000 of the people out there.
+
+fearset and shit\n\nbe around people that have already solved your problem, learn to be more like them in that regard\n\nstudy people and learn from people who have ALREADY made it to the goal state of your top problem\n\njust solve problems.
+
+coercion no violence lol\n\nmake synergistic friendships with people who make up for where you suck, i mean bolster your critical weaknesses, but really repeat on your strengths\n\nso mama does NOT want me to be a part of vertical industries.
+
+do what is best, in each moment.\n\ninvite people that are different and along the path / higher along the path\n\nget a tap water filter or whatever for fresh filtered no microplastics water\n\ntalk w mama about the high level stuff with idi.
+
+pieter levels?\n\n“ideally you want to earn with just your mind.”\n\nhey i mean this in the best way but im not gay.\n\nim doing THEM a favor by introducing it to them\n\nwhat is clear as day to me may be opaque to you\n\n"But it's not random!
+
+choose dont chase.\n\nGrowth isn't a cure-all, but stagnation is a kill-all\n\n"there are so many rules that are counterproductive."\n\nwe watch out money budget but not our dopamine budget\n\ni want my paradigms broken and transformed please.
+
+on Apr 14, 2025 at 7:30 AM - 8:00 AM\n\nIs it worse to say yowull do something and not do it, or not say or do anything at all?\n\nhow to get rich naval study guide luma discussion on Apr 22, 2025 at 9:30 AM - 10:00 AM\n\nremember to have fun.
+
+books should solve your problems\n\nnot for me orr you but what is good for the kid, or the relationship\n\nif its rent food tools learning health, i dont sweat paying too much\n\nbuy gifts for sissys bday mamas bday christmas and kamias bday.
+
+give me bottlenecks fenything\n\nThis roadmap should help you navigate to your first dollar with the project while keeping in mind scalability and user engagement.\n\ndont copy too much from 1 person where its clear where your admiration lies.
+
+but it can help solve lovelessness\n\nYou can turn “how do you live a good life” -> “how do you live a good decade -> year -> month -> week -> day -> hour -> 10 minutes..\n\ni have a problem with the perfectionistic, socially perfect, polished.
+
+you dont want what you can have*\n\ntell john i dont wanna do the school thing, i just dont want to work on it since the importance has wained in my eyes, its eating up time with the bootcamp\n\ni often think about what other people will think.
+
+there are some things you should never quit.\n\nput up fame and preselection and visible competence, showing it on instagram and X?\n\nwrite about my career plan, ask people to email me what they think, through comment\n\nminimum effective dose.
+
+i love 3 parsing\n\nthe only long term way to help people i can think of is to help them help themselves\n\nlearn from the prev generation on what doesnt change: tobi lutke, matt mullenweg, etc\n\nwhy does naval say some things cannot be taught?
+
+maybe working hard is lazy in a way, because if theres lack of clarity, youre compensating with "hard work" which is socially acceptable\n\nhard work is not a sufficient variable for financial success\n\nprime your mind like leaving a bucket out.
+
+show success before asking for help\n\nhand message people i find online with the overwhelmed todolist problem\n\nretirement is when you dont sacrifice today for some imaginary tomorrow\n\nwhat if youre not being yourself as much as you could be.
+
+but again, make decisions so I LIKE I, do not look around to others, only up to God\n\nwell in life its all trades, you wanna make positive sum trades and avoid ruin at all costs:dont die, thinking things true, fearsetting etc\n\nno new ig and x?
+
+short
+hair
+skin
+in debt but getting better
+need to do more code and media
+saying no to say yes
+
+
+just dont fuckin give up, learn
+
+fearset shit: define prevent repair base hit inaction cost
+
+i like brutal truths, feasability and what does xyz mean?
+
+fearset for risk\n\nopt in opt out works if the agents CAN\n\nproductize yourself is a 2 word banger\n\nhappiness is found in problem solving:\n\nthe internal and external must want it\n\ndiligence and savings lead to freedom.\n\n~ what do i want?
+
+check if mama still uses\n\nsecrets and trusted info confidants because of the overton window and mob mentality and mimesis\n\ni tried therapy and still not convinced, its good sometimes but not like a permanent thing idk.\n\nsometimes you need a.
+
+short
+hair
+skin
+in debt but getting better
+need to do more code and media
+saying no to say yes
+
+just dont fuckin give up, learn
+
+fearset shit: define prevent repair base hit inaction cost
+
+if i like something and you dont, does it matter that much?
+
+trite but true\n\nattracting women is an AND gate, def solvable!\n\nfeels weird delegating to people older than me\n\nAlso im figuring out unconditional love vs not\n\ntake the best aspects from each hero of mine..\n\nfind the sauna tell the truth.
+
+so for hower: "For those overwhelmed by todolists"\n\nidk if its about surrounding yourself with people "smarter" than you, i mean what if you were talking to kid einstein, hes GONNA be "smarter" than you, but youre more knowledgable than he is rn.
+
+text him / say it in person because it repeats.\n\ntests reveal, its better to know in reality instead of just in imagination, as long as the risk is not catastrophic\n\nif i was the highest quality truest self, would this person accept and love me?
+
+“Know thyself”\n\nyou cant get smart people to work just for money\n\ndont optimize for growth at the cost of survival\n\nquestion the inner tyrant, the inner authority..\n\nhigh clarity, high energy, high flow >>> burnout\n\n"patience with results.
+
+falling short of a goal because of lack of knowledge or skill, both of which can be bettered\n\nwhat do you want, what are the bottlenecks\n\nbalance learning and doing\n\nam i divergent because i just am or did i choose to, i wanted to be different?
+
+If you’re not working on your best idea you’re doing it wrong.\n\nsalient pain = problem = understand = act = results = better life\n\njust like read authors not books read to understand not to finish\n\nmy fam isnt nice to me so im not nice to them.
+
+when troubled, seek to understand and keep seeking.\n\nmaybe the downsides of fame in the name of something bigger and more meaningful\n\nwhat if i do something by myself, without someone else with me, thats okay too.\n\nreach out to IG and X people.
+
+how much more time?\n\njust be authentic, be your full mosaic of self, this is more and more authentic etc\n\nlive so you like you, express yourself and find people like you, they will like you\n\nleverage value first, then capture some of the value.
+
+conjecture and criticise.\n\nmaybe set up multiple so im choosing not chasing and itll be more chill and less needy i guess but something def needs to change\n\ntell olena i wish i could go to her workouts but they dont count as official burn links..
+
+clear goals, immediate feedback, challenge skills balance
+
+- list stressors, the big problems, for me to like me, to make my life better
+
+if youre cool, ill invite you into my life, and im working on bettering my life too
+
+as long as you work on your.
+
+prove yourself first to yourself\n\n@@@if you're not willing to be embarrassed, you'll stagnate\n\nthe greatest power is the ability to walk away and not care\n\nclean your room irl and your laptop digital cleanliness too\n\ninvest breadth then depth.
+
+might as well do it well.\n\nconsider living at nanas ask both her and nana\n\nlearnt the actions from the best practitioners\n\nwhats the 1 thing that actually matters today?\n\nif both do this: focus on sleep, go to therapy\n\nthe joy of missing out.
+
+maybe first 2 switched idk\n\nsociety still hasnt REALLY learned how to use the internet\n\nas long as your content is quality, the quantity will come\n\nwhat you do matters infinitely more than how you do things\n\nseperate doubts from surefire posts.
+
+be positive sum.\n\nthe more you can learn from others’ lives, the “more life you live”\n\nlearn to be with less, and take that with you when you have more..?\n\nit feels amazing to give your energy to the right people and things\n\napply to fellowship?
+
+Like messi missing penalties\n\nmake sure the internet is fixed for prastut before he comes back then tell him\n\nif you cant see yourself working with for life, dont work with them for a day.\n\neven if you do succeed, will it have been worth the cost?
+
+its weird that you have to interface with the old world too..\n\nthe way for shy people who are insightful to talk is making a pseudonym or talking in a curated group chat where the reach is limited\n\ndont waste time with IRRELEVANT marketing channels.
+
+im not the best coder, but maybe i can be low supply high high demand (good positioning) through combinatorics.\n\nits so cliche but maybe you wanna learn from others mistakes and experiments, but if theres noone to guide you, make your own experiments.
+
+win and help win\n\n"care about people's approval, and you will be their prisoner."\n\nthere is more to life than family, although it is HUGEEEEEEEEEE\n\nfind people vertically befriend people who sees mini-them in me\n\nneed money then a place of my own.
+
+have babies?\n\neven the best humans to have ever walked this earth made mistakes.\n\nif i died tonight, would i want to live the day I'm about to live?\n\nwomen wanna FEEL something about you, not think something about you\n\nyou are not your worst deed.
+
+taking notes, talking to self, being in silence\n\nbeing self critical is sometimes good, but its a matter of why and when.\n\nmake sure each title is relevant to me, that would be relevant to others\n\nthrough volume and taste, you will become less shit.
+
+the best negotiation quality is having options, not needing it\n\nanswer tim ferriss' 17 questions from tribe of mentors, then blog post that\n\nbeing awareness problems understanding action results reflection resilience\n\nwhat if i go work at a startup?
+
+"what you are seeking is seeking you"\n\nknowledge is power, so imma learn to level up, but always use it for the good.\n\nby curating 80%, you WILL lose 20%, but curation is considerate + other things.\n\nthe problems of today will shape me to solve them.
+
+working hard costs more energy and stress and time, its all about allocation to the invisible calculus
+
+i can always talk to em again
+
+i prefer diligent, smart, wise work > hard work
+
+share my routine
+
+im not wealthy yet but i wanna help people like me lol.
+
+clear goals, immediate feedback, challenge skills balance\n\n- list stressors, the big problems, for me to like me, to make my life better\n\nif youre cool, ill invite you into my life, and im working on bettering my life too\n\nas long as you work on your.
+
+i mean trust yourself, and your ignorance...\n\njust do it shittily, ask questions, be relevant, dont prep just talk.\n\nthe most contrarian thing of all is to think for yourself, not oppose the crowd\n\nleverage value first, then capture some of the value.
+
+make productivity memes, like a random quote per day shuffle lol\n\nhave some good compressed truths and directives from understanding and 8020 action for wealth creation and sexual opportunity:\n\n“I have two kinds of problems: the urgent and the important.
+
+we can always improve through virtue-practice.\n\nsay no to the lesser people and projects, say yes AND multiply the best people and projects\n\none of the biggest mistakes you can make is beating yourself up, its very counterproductive.\n\nproblem awareness.
+
+offer to solve their problem\n\ni like when i get super into something, life breaks my frame, then i see it was foolish or thats not where i should focus/allocate attention\n\nyour heroes are those who take up most mindspace in your mental sandp or something.
+
+break frame and be successful?\n\nbegin with a good problem, THEN do cool things along that vector\n\nif you are out of ideas, learn and follow your genuine curiosity\n\nbe a full person, incompressible, specialization is for insects.\n\nhow replaceable are you?
+
++ pic of chain\n\n~ how can i apply the elon 5 step design process and tim ferriss processes to my life?\n\nyou wanna get there calmly, and still solve the problem with the right answer/solution\n\ni try to limit being anti xyz, but pro xyz and show reasons why.
+
+find your buyer and seller market in life, just like its good to be both a teacher and a student\n\ni want a girl worth fighting for: smart, cute, shorter than me, similar culture, logistically near, going to a high woman ratio place, thats cheap, aligned hobby?
+
+articulate values, make a plan, go.\n\ntalk about important topics even if its embarassing or scary to.\n\ni can make people feel comfortable and they share things with me\n\nOne of the biggest mistakes you can make is beating yourself up.\n\ngenuine forgiveness.
+
+self-deprecation sometimes idk
+
+as long as you disagree with parts of your heroes, you know youre safe from mimetic downsides
+
+if you want to see who rules over you, see who you cant criticize, like parents
+
+how will you allocate your time, money, stress, dopamine?
+
+detect leverage\n\nwhat life cheatsheet would i give my younger self?\n\nvalues first, setting an example, minimal coercion\n\nwrite about making sure you have a good why-chain.\n\nkeep repeating chapter 1 until its cemented in you\n\nget better water filter thing.
+
+simply be her best option\n\nprojects die of suicide not homocide, i trust jasmine / john\n\ndo not grow at the expense of survival, paranoia is rational\n\njust do what you think is right and leave the rest to fate""\n\ni hate being saved, i also wanna save myself.
+
+make sure i have a cool project im working on\n\nsharing knowledge via the internet, then you use that conjectured and criticized knowledge to make better life decisions and solve your relevant top problems, and boom good life..\n\nmorning pages with paper or mouth.
+
+according to deutsch its ethically neutral, but totally traditionally socially taboo, and reputational damage in one way but actually its a win when it comes to people believing my honesty so in that way it was good\n\nmaybe youre making a mistake by standing still.
+
+values based.\n\nreread the best books, like how i cemented 021 over and over internalized the sage omg thats what i do with my heroes (who i admire = people along my taste vectors lol)\n\nonly learn tools in proportion to how much you need them for the job at hand.
+
+like blackbeard, double power, double pain\n\nnever ship, never know\n\ntalk about important topics even if its embarassing or scary to.\n\nonly ask of people what youd do OR if they actually like to do it\n\nall advice cancels to zero, this is the invisible calculus.
+
+there are some things you should never quit.\n\ndo less, better\n\ndo less, better.\n\nwin and help win\n\n- be courageous.\n\n- be courageous.\n\n“win and help win”\n\n- bias for action.\n\nbe strong and good\n\nbe her best choice\n\njust solve problems\n\nbe strong.
+
+baby steps\n\nmoney buys peace of mind.\n\nyou can do this, actually\n\n“build what you cant buy”\n\nwe all know its a facade.\n\ndeserve peoples attention\n\nget mamas youtube premium\n\nquestions prompt the mind\n\nclarity and catharsis >>>\n\nyou can figure it out!
+
+also the pragmatic..\n\ndont summarize the book, read the book, with elevenreader if need be\n\na corrected error is just as good as success, just with extra steps.\n\na corrected error is just as good as success, just with extra steps.\n\ni want to live a great life.
+
+have optionality so you choose, not chase.\n\nif its shit like food rent, health, tools for business, i dont have much trouble buying.\n\nmaybe tim is depressed because he thinks too much about lifestyle design (focus on self)\n\ni'll figure it out, i'll make it work.
+
+tell a story why i made it and the change it made in my life\n\nyou dont have to be NOT you and fake, but add a version of you that can do xyz, add it to your toolbox\n\nmake it easy for me to link blog to blog, and maybe put links and notes at the bottom of the blog?
+
+im curating so theres less pressure.\n\nsimply, if happiness = reality - expectations, and my expectations are immense, then i gotta raise my reality fosho.\n\nthe question is whats the 1 thing i can do to improve my smv, in terms of order of operations and 8020 shit?
+
+stress is untaken action.\n\nwork on the ideas that repeat and you cant break\n\nwhat would you do if you knew you wouldn't fail?\n\nyou will never get wealthy renting out your time\n\nhighschool and games are microcosms of life post\n\n+ i must act and not just think.
+
+breadth is first step many times\n\ni love simplifying life and compressing truths and directives\n\nsolve time with kids, buying other peoples time, dont die etc\n\nwhat are my hard rules about bromances and socializing online?\n\ndifferent advice to different people.
+
+the on purpose part is crucial, you cant fail if youre failing on purpose.\n\nlist more heuristics.\n\ntalk about going to therapy, talking needs to be a compliment to action, not a substitute, from thiel's recent talk with joe rogan\n\nhow much should you share online?
+
+just offer to work for free, i want to learn\n\nwhat would i want done, if i could just press a button?\n\nthe wise heuristic boils down to long-term > short-term\n\n~ what important truth do few people agree with you on?\n\nto get better at anything, just do 100 of it.
+
+alex grace boxes, before sex\n\n- what would make 10 year old adam and 100 year old adam proud?\n\nreversible decisions: go back to school, buy back what you sold\n\nseperate the person from the idea, like an artist and the song.\n\nremove the post emails routine stuff?
+
+at ns i do feel i can..\n\nwhats your best guess on how to live a good life century decade year month week day hour?\n\nwhats your best guess on how to live a good life century decade year month week day hour?\n\ni got fat haha cause i know ill just get fit again at ns.
+
+better myself, and reach out to people within my existing network first.\n\nbottom line i wont know for sure what idea will bring money until it hits the market(the set of people who would pay money for the product)\n\nput down the story when the protagonist passes you.
+
+i deviate sometimes by nature, sometimes by choice
+
+you can trust peoples opinions on inidividual review things: film, food, music, youtube, but not when its off mere opinion
+
+if you give girls weird feelings or NOT give them attractive feelings, they wont be with you...
+
+naivety CAN be good.\n\n"win" in life (get what you want), then work on projects to solve your past problems, so that if your life repeated in the same order, it would take less time, be 10x easier, etc\n\nif you can tie propositions to actions, thats a great life skill.
+
+only solve A+ problems in your life, then share the solutions to similar others.\n\nspecific knowledge is: are you genuinely curious to know how to solve the top problem, are you in love with the problem?\n\nthe HOW of greatness is transferable to most WHATs of greatness.
+
+or something else\n\nfocus on the spirit, not the manifestation\n\nso wherever i win, help people to also win\n\ndying on an unworthy hill is not a virtue.\n\nwhat would this look like if it were easy?\n\nget a job after the ns flag and ns campus?\n\n~ saying no is magic.
+
+thread in the guide should feel like a cheatsheet, a new tool should feel like cheating, because its just that flippin good.\n\nrepeat for temu and books what i buy for myself that i think would improve peoples quality of life plus thoughtful gifts targeted to the person.
+
+where to brew for free basically or bulk super cheap\n\nthe phrase "this already exists" takes the fear of the unknown out of the situation..\n\nthe phrase "this already exists" takes the fear of the unknown out of the situation..\n\nif someone is really good at something.
+
+be humble or be humbled\n\none of the biggest mistakes you can make is beating yourself up, its very counterproductive.\n\nif you dont want to be needy with 1 thing, have options, try multiple people, projects, etc.\n\ndont focus on the last "at bat" focus on the next one.
+
+also i went to fd so thats a similar thing\n\nuse the tool / knowledge / code or media, to solve the problem for yourself first, then share it\n\nwith right awareness understanding and action, problems will be solved and good things will come\n\nhave i outgrown this person?
+
+understanding is a skill\n\nideas from authority figures ideas that are moralized are often culprits\n\ncreativity, non-coercion, both at the individual and the societal level.\n\nyou should see your new girlfriend as much as youd see a new best friend?\n\ncuration is huge.
+
+best guess idk..\n\nlive from your best guesses, and accept that they can be wrong\n\nif you dont love your work, youre never going to be great at it\n\nperson filtering question: are they really relevant to my life?\n\ni will make it into the pareto spike of attractive men.
+
+so help people w moneymaking\n\ni can only help you with what i got, it may not work for you but this is what id try\n\ni can only help you with what i got, it may not work for you but this is what id try\n\nhow are people so sure of themselves, they are higher level than i.
+
+according to deutsch its ethically neutral, but totally traditionally socially taboo, and reputational damage in one way but actually its a win when it comes to people believing my honesty so in that way it was good\n\nif someones a dick dont ignore them avoid em if you can.
+
+help solve the asshole problem, people creep problem\n\nSo the real question isn't "what should I sell?" but "where do I keep hearing calls for help that I'm uniquely positioned to answer?"\n\njust tell a bit of people, if theyre not doing word of mouth, then dont promote it.
+
+whats out there is out there, let the half life of fame and permanency of the internet do its thing\n\nwho are people you listen to no matter the subject matter, because theyre so fuckin good anything they say you can learn from because there are lessons in between the lines?
+
+understanding + action.\n\nyou have to be willing to be a bad beginner.\n\nwell first determine what the good ideas are\n\ndo not look around to others, look up to God\n\nin life, know what to detach and detach from\n\nfeet on the ground before head in the clouds\n\ntemp notes.
+
+i dont like you sam..\n\njust solve problems, no need for therapy\n\njudge a man by his questions and actions\n\nit should be a labor of love, for love..\n\naccept that you are right here right now\n\nif they cant hurt you they cant heal you\n\ni keep following and unfollowing..
+
+rejection forced me to seek self-improvement, or finding better choices\n\nmaybe we just let this theory conflict brew for a bit and we can revisit, lets play the long game, is it worth the stress?\n\nif you get the few important things right, you can take a lot of little blows.
+
+keep going the more you are sure of it\n\nhave some good compressed truths and directives from understanding and 8020 action for wealth creation and sexual opportunity:\n\ndont let your kids repeat your mistakes, give them a leapfrog advantage, and theyll have their own problems.
+
+make the bar low, and jump.\n\nwith every tweet and blog line, like sivers and naval say, make each line able to stand on its own\n\nI feel like I’m qualified to attend, I just need to show what I can do I guess, I don’t know, yet.\n\na calm mind, a fit body, a house full of love.
+
+do less better\n\ntreat the root cause not the symptom\n\ngreat things start from small things\n\nif there is doubt, there is no doubt\n\nfocus on what you want to see more of\n\ndo your best, and the best will come.\n\ncalm mind fit body house full of love\n\nyou are what you eat.
+
+step by step\n\nwhat if i just embrace my messy adhd creative style?\n\n"if you can buy a solution, you dont have a problem"\n\ntaking on too much responsibility is not responsible\n\nif youre not having fun / flow, youre doing it wrong\n\nhigh energy and high clarity is paramoutn.
+
+every evil is from a lack of knowledge, understanding.\n\nteach and build in your older life so that a younger you could be brought up to speed in life without as many hurdles as you went through, give your cheatsheet so they get life profit, and can build out more of the frontier.
+
+then go do that.\n\ndo what is genuinely play to me, work to others, relisten to navalmanack\n\nwith investing i reckon its like “focus on what you want to see more of”\n\nmake an alcohol effect drink but no bad side effects, a social lubricant\n\nyou may not know whats best for you.
+
+although of course do not force them, only suggest\n\nnot win in a competitive zero sum way, win at life like achieving your goals, getting to where you wanna go, "win" is a loaded term\n\nas long as good judgement/understanding is going through good leverage/action, youll be golden.
+
+or i felt that way\n\nmaybe the solution to the ns diary quandy is to learn faster, and write manually to teach the audience useful knowledge, just as id teach a friend, conversationally articulated and accessible\n\non X, we collectively make the map of life clearer, we share notes.
+
+you can think long range about dots and scenarios ahead of you along the vector of your goals and metagoal, and when you encounter it, you arent blindsided and youre ready\n\nmake a twitter cheatsheet guide, have good reply game, post according to these rules and filtering questions.
+
+you can think long range about dots and scenarios ahead of you along the vector of your goals and metagoal, and when you encounter it, you arent blindsided and youre ready\n\nmake a twitter cheatsheet guide, have good reply game, post according to these rules and filtering questions.
+
+you cant control the rain but when it comes, your bucket will
+
+if it doesnt resonate then so be it
+
+sometimes spreading yourself out with ADHD-like novelty builds motivation and connecting across domains, if it is true between A and B, its a deeper truth than either
+
+what do i desire?
+
+just dont make the same mistakes\n\nimplicit tacit education for the younger fd boys that could use some wisdom\n\n~ if i died today, would i be satisfied with what i have planned for today?\n\nyou think your work is an 8/10 or more, the market will think its a 6-10/10\n\nraise funds.
+
+like naval: how to get rich without getting lucky, were gonna learn a few principles today.\n\neverytime, ask yourself, what activity do i want to do today, based on biggest problems, and who can i do it with?\n\nfailure is an OPPORTUNITY to learn, it doesnt teach you things directly.
+
+come for the wealth, stay for the wisdom.\n\nif someone built your idea, that is a good thing\n\nare you friendliness ambition nerdiness maxxing?\n\nafter ns, follow prople online that ckme to mind\n\nyou cant expect love, but you can always give it\n\nI know that im not that hardcore.
+
+maybe cause i never had a dad or something haha\n\nwrite honestly about being at ns, its a place where everyones so successful, im coming as this 22 year old nobody from guam, everyone has more experience and\n\ndont build solutions that pair with barely problems, dont waste your time.
+
+i think keep hidden unless theres good reason otherwise to share\n\nwhat are your superpowers, i think i can steelman, im a good interlocutor, people feel comfortable around me and quickly share things with me.\n\ni should limit screen time but i have so many thoughts i wanna jot down.
+
+be open to it\n\nskills, relationships, leverage, that transcend a project..\n\nstop saying commitments you dont actually wanna commit to..\n\ndont compete, do what is natural to you, solve top problems\n\nhow do you know what position to play in the infinite game?\n\nface up to reality..
+
+i dont follow my mom on socials but i still love her haha\n\nit doesnt matter that much what you say, what you do communicates more, and what the output is also communicates (your best thing)\n\nlittle truth-laden rules/directives: like dont postpone on calendar, put into lifo keep again.
+
+smarts * wisdom
+
+why is your only reference other people whove done xyz, you gotta think 1st principles and derive Godly solutions to Devilish problems
+
+if i can ignore the solution, its not a problem
+
+where to live, not where do you live
+
+sometimes, thinking doesnt lead you to the answer.
+
+use it to explain and experiment\n\n10 check the pricing page and would I myself pay for this tool or whatever, play around with the price and use feeling to be like: thats too high, thats the max value capture, thats the highest i myself would pay for this\n\nwhat problems are you having?
+
+you cant control the rain but when it comes, your bucket will\n\nif it doesnt resonate then so be it\n\nsometimes spreading yourself out with ADHD-like novelty builds motivation and connecting across domains, if it is true between A and B, its a deeper truth than either\n\nwhat do i desire?
+
+create dots, connect dots\n\n“talking to my therapist.” and then mig lifting post “talking to my therapist.” on Feb 6, 2025 at 4:30 PM - 5:00 PM\n\nimagine if you werent yourself enough, then someone who woulda liked you, passed up on you because you were fakin..\n\nyou are your own audience.
+
+when emotions run high, and blood boils, morals can be thrown out easily\n\nto be able to render intelligible\n\nthe fastest way to get out of your head is to go into your body\n\nunwavering unconditional love is the way out of the mimetic process\n\nviolence is blind\n\nadd some, remove some.
+
+understand before you act.\n\nthe way to end insecurity is to actually get secure.\n\nif you create more than consume, you will be wealthy\n\nmaybe the only important process is: idea -> action.\n\npart of transcendence is helping others to actualize\n\nwell i did a step today, which was good.
+
+therapy has little action\n\n"i help *insert tribe* *insert positive transformation*\n\nin life, if its not tested, then you wont know for sure\n\nwhich is the better problem to solve for fellow humans?\n\nthe more authentic you are to you, the less competition\n\ndoes it have to be a balance?
+
+dont give people bullets, leave the best of the competency\n\nunlearn "money is the root of all evil" i just want money to pay for life, because i love life lol and i want it to continue.\n\neven if you fuck up once, eventually the best thing you can do is get back on the horse and keep going.
+
+Mistakes Are Only Bad When Uncorrected\n\n"dont fear being wrong, fear STAYING wrong"\n\nyou have to act without fully understanding\n\nanonymity is most honest and most cowardly?\n\n- what is the root cause of my top problems?\n\nif you make 21 IG clips, you are then top 1%\n\ndont get bitter.
+
+restore balance haha\n\nif we help others, it gives more clues on how to help yourself better too\n\nif we help others, it gives more clues on how to help yourself better too\n\neach imperfection is a clue to improvement and learning and understanding\n\nim only conveying the truth as i see it.
+
+i want to make money but..\n\nwhen a problem is solved, that class of problems is permanently solved, this is the value of sharing ideas, just like in capitalism if you solve your problem, SELL IT so others have it too and we can stand on each others shoulders, and not repeat the same mistakes.
+
+live so YOU like YOU, you are the only one that can know deep down the taste of a person.\n\nremember the 8020 of people, and 8020 of people liking you and choosing you, and you them.\n\nevery no gets you closer to a yes, as you understand and act differently, closer to truth.\n\nself-actualize.
+
+say "i see that, good choice"\n\nfulfilling social contracts is like digging into a knot in your back and finally getting the muscle loosened up\n\nvisa advice on dating and girlfriend: https://x.com/search?q=from%3Avisakanv%20girlfriend&src=typed_query&f=top\n\nrepost the blind spot thing on x.
+
+you have to keep trying\n\ni learned what to be public about and what to be private about\n\nthe light touch is the right touch when it comes to pursuasion\n\n+ wise heuristic: choose whats best for long term > short term\n\n~ why cant you achieve your 10 year plan in the next 6 months?\n\nselfs.
+
+in debt but getting better need to do more code and media saying no to say yes\n\njust dont fuckin give up, learn\n\nfearset shit: define prevent repair base hit inaction cost\n\ni like brutal truths, feasability and what does xyz mean?\n\nif i like something and you dont, does it matter that much?
+
+im gonna live\n\nhelping those who help themselves\n\nbe so good they can't ignore you.\n\nevery no is a step closer to a yes\n\nremove ig following that drains me\n\nwhatever you do, do it with others\n\nvisible comptence and preselection\n\n"take the risk or lose the chance"\n\nif its not working.
+
+better to know truth always, even if it costs you, because its an ROI in long term truth\n\nand move on to my next idea dont dwell or fixeate, make an ideasbugs little component for feedback and ill get to it.\n\nif you dont understand what the investment actually is from the ground up, dont invest.
+
+ai should have more context on your life\n\ni love compressing truths and compressing directives from those truths, for those low-bandwidth times in life when compressed advice from your past self is all you can mentally anchor onto.\n\nmake a plan for each step of the first date, and correct errors.
+
+also parse those pinned keeps on Apr 24, 2025 at 1:00 PM - 1:30 PM\n\nid suggest critically thinking about whether these ideas are true, being open to learning about new schools of thought, seeing if these explanations account for what you've encountered in your own life\n\nwhat mistakes am i making?
+
+problem, solution, sharing\n\ni dont care if youre right so much, i care if you are trying for something higher.\n\nhow can i gradually increase the relationships bids for people i like on X and IG?\n\n+ if you don't start seeing your heroes as peers, youll never be your kind of hero\n\nnever compete.
+
+we know this with diet\n\ni want to make money, be visibly competent to the people AT ns, do something meaningful (actually matters without me, makes sense, and i can affect positive change on this project)\n\ndid the mushrooms make me still know of consequences and risk, but now i feel the risk less?
+
+a cry..\n\n"the highlight reel isnt real"\n\n"variety is the spice of life"\n\nmake yourself easy to work with\n\nif youre bored, that is not it.\n\nstop at the sweet spots of fame\n\n"there is pain in both options"\n\npost serenity prayer in quotes?\n\nbe so good they cant ignore you\n\npoor together.
+
+drink wine?\n\n• "self-obsession is the root of all unhappiness"\n\n"to predict the future, project your habits out."\n\nsay yes to the awesome AND say no to the terrible\n\nsee… ns is something where its a privelege to pay\n\nthe ns students need a system to tax route easily\n\ndo an event about agency?
+
+phrase this better..\n\ni know i can do it, but i havent done it yet, and thats the frustrating part\n\nyou want everything you do to be quality, but you forget about the power law\n\ni want to find what is both useful to others, and genuinely fun flowy for me\n\nforgive yourself like you forgive others.
+
+talk about the tribal 150 dunbar number example\n\nwrite about dating\n\nshitty firsts gets you into the game, better than perfectionistic nothingness\n\nshare my routine\n\ngood frameworks i learnd\n\ncommon mantras to self\n\nyou can get to good answers by saying no to bad, and whatever youre left with.
+
+ask yourself this haha\n\npeople and projects should be no brainers almost\n\ntell a story about the problem, the why, the how\n\nyou must be in the arena to reap the spoils, no?\n\nal businesses are is making peoples lives better\n\nby not creating, youre leaving good on the table\n\n- just solve problems.
+
+like attracts like, be and choose to be someone that YOU like\n\nlearn from wealthy people, learn from famous people, they are in the goal state for solving debt and lovelessness, just solve top problems\n\nTalk about therapy, naval and self-rumination, good explanations and homework / experiments / action.
+
+service/utility comes from top problem solving and sharing the hard-to-replicate solution\n\nget Dark Chocolate: Enjoy dark chocolate in moderation for its stress-reducing flavonoids from the grocery store next time when in town\n\n“project you voice” also means dialed up media leverage would be good for me.
+
+just solve problems\n\nget jacked and up style and haircut, ask grok for reccs given my hair challenge\n\nnot caring about what people think may be both impossible and counterproductive\n\ni gotta figure out other way to get massage its racking up 50 bucks a month now\n\nin order to say yes you have to say no.
+
+i also cant change my voice so maybe vocal effects on pod to distance myself?\n\nbe selective where you experience pain, mostly ignore pain, but when its really important, embrace it\n\nRemember to NOT compete, just do things, happen upon things, based on what is right (personal ethics)\n\njust solve problems.
+
+just solve their problems.\n\nstir the pot, keep a keen eye, level yourself up by solving your problems in order of severity on Jan 27, 2025 at 2:00 PM - 2:30 PM\n\nstir the pot, keep a keen eye, level yourself up by solving your problems in order of severity on Jan 27, 2025 at 7:30 AM - 8:00 AM\n\ntake a nap?
+
+ask for help.\n\nstop pedastalizing people.\n\nif you want love give love\n\nstart packing for ns again\n\nknow why you do what you do\n\n- stress is untaken action.\n\npeople w the right attitude\n\n- stress is untaken action.\n\n- stop pedestalizing people.\n\nwalk speaks louder than talk\n\nforgive the past.
+
+when life is so clear, i know what to do, its so clear the next step\n\ndont think about careers and majors, think about projects and skills for contribution\n\nif you're prolific, endure, and listen, you will gain insight, which leads to success\n\nim not convinced with hard work, i like diligent work instead.
+
+thats the real question\n\nyou can copy a lot of humanity and be successful that way, but be careful that its actually a good idea, the source is just another person, but you could also get ideas from other things\n\ndont work for a company unless its actually aligned with what you want to do, like levels said.
+
+you wanna go there, but youre here, what do you do to get where you wanna go?\n\nshould we be able to change our name at 18 or something?\n\ntalk about it AND be about it\n\nive failed so much, been rejected so much, looked down on so much, but fuck that im going to rise and grow\n\nX respected person said that.
+
+become a love creator\n\nconnect over what i want if it aligns w em\n\nif you dont feel conviction, keep learning\n\nWhat would this look like if it were easy?\n\nthe greatest resource is being resourceful\n\ndo i need more breadth or depth right now?\n\nbe still, and you will know your next move\n\nive changed.
+
+what would this look like if it were easy?\n\ngrow on X to get monetization to solve debt problem AND be a philosopher.\n\ndo you have a vision to what to do with this value, to create more value?\n\n"be so good they cant ignore you" + "ignore so much theres only the best"\n\n"listen to your curiosity (forward).
+
+like thats over, but whats the 8020 of what wed do differently next time?\n\nMinimize Distractions: Derek’s advice to simplify means only taking on freelance gigs or day jobs if they are directly aligned with your long-term goals.\n\nevery blog post is like a public compressed public-compliant keep note or list.
+
+niche/people.\n\nevery problem is an opportunity.\n\nevery problem calls for a virtue\n\nto get better at anything do 100\n\nreturn krazy glue to auntie rese\n\nLet the small bad things happen.\n\nshould be specific knowledge etc\n\n“highly compensated guinea pigs”\n\nhow do you find your skillstack?\n\n529 days.
+
+it takes 1 way to start a 2 way\n\neat for nutrition and to get full, not to finish the plate\n\nhow will i say no today, to save time, to point it wisely?\n\nthe best people books, you cant skip, everything is signal\n\n"you must let many small bad things happen to do the best"\n\nwisdom then health then wealth.
+
+effective before efficient\n\n9 then push selling to communities who are like me and could find this useful\n\n- be aware of imagination deficit, it is brought down by the weight of living\n\n- list stressors, the big problems, for me to like me, to make my life better\n\ni ABSOLUTELY can solve this debt problem.
+
+real and deal friends.\n\nmy mom would always say "at what cost?" of course we want things in life, just be sure that the cost of the trade is worth while, if its worth while, of course, but be sure of the cost and benefit, the risk, benefit.\n\nfrom 18-30, this is the fucking trial by fire of a young man's life.
+
+not zero, but less than 4 max.\n\nYOU watch you, so do the right thing for your own self esteem, you always know, you cant hide from yourself\n\nmay not admire cody and don's creative endeavors, but i know we can improve each other by lifting together.\n\nlets be self aware, what are we too much of, too little of?
+
+what else\n\nhealth, family, and work, the holy trifecta\n\nif its recurring or influential, improve it\n\nhave hard rules for what NOT to post online\n\nevery obstacle is an opportunity for virtue\n\nsave up, offer to work for free, add value.\n\n@@ it boils down to how you spend your time\n\nwhy should they buy?
+
+who do you hear when confronted with crossroads in life?\n\ni dont have a grand tech idea, or there are ideas that exist that need execution, more than we need to generate new ideas/projects to work on\n\nyou cant see your blindspots by definition but you can update strategy based on outcomes and your taste/values.
+
+there are few timeless things\n\n19:56 Slayback advises working for free or taking low-paying jobs if it allows you to learn valuable skills from mentors.\n\ntranslate compressed truths into compressed directives, for when you are low bandwidth and can only afford the compressed\n\ndont make the perfectionists mistake.
+
+ignore so much only good remains\n\nif things arent working, you must be open to change lest youre a stubborn fool\n\nwhatever you do that people have complimented you on, put that on the internet\n\nmaster my self relationship, then males, then female friends, then girlfriends\n\ni dont control what others think or do.
+
+curation is where choice is easier
+
+
+i like when i get super into something, life breaks my frame, then i see it was foolish or thats not where i should focus/allocate attention
+
+give me the cheatsheet
+
+durabily good
+
+therapists are secular confession
+
+i dont have to be well known but can be known well\n\nits a sad life.
+
+but firstly that YOU admire you\n\nonly be forward with women if theyre clearly receptive and you actually like em\n\nevery problem is absolutely solvable with right understanding and right action.\n\nmainly work on myself, level up, improve, and just express myself authentically\n\nremember that material purchases fade.
+
+i can look at girls but that doesnt mean i have to approach and shit.\n\nyou shouldnt have to will yourself to work, it should be diligent and natural to you, no?\n\nSo here's how it looks like for me and my plan, as an example (with thought process “=”):\n\nkeep on tinder hinge ig oinkedin social circle fame ig whatever.
+
+you can use to open doors, you can also just build the rooms\n\nShape your life and how you live, based on your problem-situation, what you genuinely want\n\ntell ling that boonsri wants rk to be chinese tutored on Apr 22, 2025 at 9:00 AM - 9:30 AM\n\nif youre at your best, youre doing other people the best favor you can.
+
+maxx out on it.\n\n- a calm mind, a fit body, and a house full of love.\n\nmoney can be boiled down to solving peoples problems\n\nerr on the side of less screen time less mirror time\n\ni learned the importance of upfront incentive design\n\nsolve debt by solving problems and sharing solutions\n\nuntangle before you pull.
+
+i just like a clean feed, but i might still like the person haha.\n\nthings ive been focusing on for living my best: good sleep, 4 cups coffee, hell yeah or no, focusing on permissionless leverage: code media.\n\n2 specify and make easy for them to make the change you wish to see in them and they wish to see in themselves.
+
+cap downsides and gain upsides..\n\nDon’t obey tradition, culture, your past self, or your inner critic without question.\n\nif your post quantity is less than your follower count, focus on higher tweet quality\n\nthere are always problems and therefore always opportunities for solutions and sharing\n\nshould i work at idi?
+
+He’s formulated a 4-step plan for his career:\n\nyeah i got project ideas now, but i wanna know which ones are good for me to work on and why..\n\nin my time away, i learned a lot of mistakes, forgiveness, misunderstandings, and experiments.\n\napply authenticity and MAP it onto problem solving for both yourself and others.
+
+im changing into a better man\n\nare you adding to the signal or the noise?\n\nminimizing bad days, maximizing good days.\n\n+ don't waste your time, drop lesser games\n\ngood ideas + good actions = good realities\n\nif you want to be in flow, solve problems.\n\nStay invisible to the exact women you want\n\nbullshit abounds.
+
+just do more with less
+
+the fastest way to do something is to not do it at all
+
+being short is a positive constraint
+
+fortune cookies: use heuristics till they break
+
+facing a mirror reaching in and hugging yourself
+
+sometimes you can be rash though and give yourself unecessary ptsd lol
+
+i stopped 3x speed and skipping songs.
+
+from within and without.\n\n"learn everything, then forget everything.\n\nwhat would this look like if it were easy?\n\nwhat would this look like if it were easy?\n\nwhat would this look like if it were easy?\n\nwhat would this look like if it were easy?\n\ni wanna share but i also wanna be curteous\n\ndo it badly on purpose.
+
+Whats the simple answer?\n\nif you arent willing to be embarassed, you wont deviate, and therefore wont grow.\n\nu should be willingg not wanting to be hated by your heroes, this is authenticity\n\nwhen things are in order and on track, stress goes away and life feels good again\n\nonly be with a girl if shes into me, like dan.
+
+i will pay for things in principle: rent food etc: health, wealth, wisdom, bromance, romance\n\ni love compressing truths and compressing directives from those truths, for those low-bandwidth times in life when compressed advice from your past self is all you can mentally anchor onto.\n\nknowledge wealth life has induced demand.
+
+show your inputs and outputs\n\nonly ask of people what youd do OR if they actually like to do it\n\nhow will i plan and work with vision, courage, and speech, today?\n\nmake social accounts for each consumer app, but not business app?\n\nand not only people, the who, but what do you want for your life?\n\nwealth is product * sales.
+
+also talk to sis when its the right time about it\n\npaint a picture of what success looks like for me (getting what i want):\n\nyou need thinking and action, but one does not substitute for the othher\n\nevery problem is solvable given the right understanding and right action\n\nif you died right now, what would you regret not doing?
+
+Just start writing paragraphs, then make the google doc and publish to twitter, personal site (make it easy to)\n\nmake synergistic friendships with people who make up for where you suck, i mean bolster your critical weaknesses, but really repeat on your strengths\n\n- remember that you can turn the arrow of focus outward, agapically.
+
+clarity\n\nby endurance we conquer\n\nthe obstacle is the way\n\nstress is untaken action\n\n"never ship, never know"\n\nsinply be her best option\n\nconstantly seek criticism\n\nwhat are my top problems?\n\nsimply be her best option\n\nstop pedestalizing people\n\nstop pedastalizing people\n\n- just solve top problems.\n\ncall people.
+
+when people are crazier, more famous, they basically create room for you to be just less crazy, famous, wihtout being the first target for scapegoating.\n\nwhen the student is ready, the master appears\n\nlove is free to give.\n\nif you didnt like me then, then say no, unless i genuinely like them\n\nwhen i gots money, travel and shit???
+
+If not now, when?”\n\nmen be useful, women be nourishing.\n\nsurvive and play the infinite game.\n\ni spend too much time w myself haha\n\ni spend too much time w myself haha\n\ntalk about failures and experiments\n\n“noones forcing you to do anything”\n\nfirst and foremost try to live well\n\ni admire people for their character\n\ntest.
+
+and list first steps\n\ncheck my insurance points and benefits\n\nI can be the parent that my kids need.\n\nmanage expectations with relationships\n\ncontinuous learners in free markete yo\n\nyou just need more wins per loss ratio\n\n"Becoming a good ancestor" great frame\n\ncheck if we need water filters and get\n\nsubstance over process.
+
+thats it.\n\nif you care, others will care\n\ni gotta diversify friendships\n\nlittle strokes fell great oaks\n\nharmonize quantity and quality\n\n"reading is forced meditation"\n\nexperriences over the material\n\nmake yourself easy to work with\n\nwe earn with virtue, open to all\n\nis this someone i can grow with?\n\nidentify the problem.
+
+keep it in the background but dont obsess\n\nlearn from the people ahead of you on your problem vectors: wealth = elon, friendship = sivers, romance =\n\nbe the person you wish you had, if we keep doing that generation after generation, thats positive sum no?\n\nmaybe if i can get a job at core team, i can get an allowance from mama instead?
+
+in principle its almost never a waste of money to buy or pirate or invest or get irl hardcovers\n\nif youre looking for help, lemme see how youre doing abc, and then ill highlight what sticks out to me and ill tell you xyz hypotheses you should test out\n\nwhen being critcized, a good filtering function is: would i give this kind of feedback?
+
+when theres too much, curate.\n\nthere are always problems, so there are always opportunities.\n\ndebt / wealth, lovelessness / love, are both "material needs"\n\ni gotta practice in person selling, can i get 1 can i get 10?\n\nget up maslows, then help your fam and friends get up maslows\n\nfollowing and unfollowing are reversable decisions..
+
+i like discipline and diligence over the long haul, project management and cooperating with your past present and future selves, over time, with different frames and frame breaks, when discipline makes sense, youll know deep down
+
+if you can ignore the solution, it wasnt a real problem
+
+challenge skills balance:
+
+
+dont do what you dont want to.
+
+on Jan 27, 2025 at 10:30 AM - 11:00 AM\n\ndo reels about the biggest things ive learned from elon, naval, rick rubin, tao te ching, lky, what other legendary book, tboi.\n\ntell the bootcamp chats that youre free to leave this chat if its clogging up your whatsapp feed / you feel its best to leave..\n\nhow will you improve if you dont practice?
+
+i like discipline and diligence over the long haul, project management and cooperating with your past present and future selves, over time, with different frames and frame breaks, when discipline makes sense, youll know deep down\n\nif you can ignore the solution, it wasnt a real problem\n\nchallenge skills balance:\n\ndont do what you dont want to.
+
+every painful failure instructs about life.\n\nmake sure the content you put out is more timeless than temporary\n\ndo an ig reel about the mental variation but physical unalignment\n\nyou can learn from actually everyone: what TO do, what NOT to do.\n\ncreating a great life through creating great days, over and over.\n\ndo what you dont want to do.
+
+forgiveness is useful and can be extremely powerful\n\nmaybe i dont need to learn how to be a man per se, but learn how to be a good person first\n\nmaybe i dont need to learn how to be a man per se, but learn how to be a good person first\n\nthis is like the rick rubin regret diary thing: https://www.youtube.com/shorts/xEtHPt50jVc\n\nself-actualize.
+
+if you feel you wronged someone in the past, but cant clearly karmically repay, then pay it forward, keep a keen eye for where you can help, and help.\n\nskill supply, we can sign up angie to do laundry for us, i keep missing it at 9am, but you can also leave notes like your room # and they will come pick it up for you if its in a trashbag or hamper.
+
+create.\n\nEasy choices, hard life, hard choices, easy life.\n\ngood definitions, clarity, specificity is crucial\n\nchallenge-skills balance: less tasks, less stress\n\nstop making mistakes then work on pushing fo wins\n\nbalance your openness and your conscientiousness.\n\nif i have youtube vids make em 10 minutes or less\n\nshow visible competence.
+
+you're doing great :)\n\n"the fastest way to do something is to not do it at all"\n\nyou can copy as long as its not in the same space/domain\n\nget all balls out of your court before playing new games\n\nim also interested in wealth creation, bromance, romance\n\nshow metrics like: get a tree cut for as low as 40 bucks\n\nmake a christmas list for me.
+
+connect the dots\n\nbe a multipreneur to practice meta orchestration\n\nsay no: dont say it dont buy it dont agree to it\n\nno fiscal debt, no sleep debt, no dopamine debt.\n\nbuild what you cant buy, buy what you cant build\n\ni was closing out the world, now im embracing it\n\ncharge phone on Feb 7, 2025 at 2:00 PM - 2:30 PM\n\nwhat do i need more of?
+
+learn from mistakes\n\n"take all the risk you can, but never the risk of ruin"\n\n"failure is the price of tuition to learn a new lesson"\n\nall problems are solvable :) allow for positive change.\n\nnever sacrifice your awarenss your judgement your agency\n\ndont pedastalize it prevents connection for both genders\n\nget rid of stuff in room and truck.
+
+Bezos Razor - If unsure what action to pick, let your 90-year-old self on death bed choose it.\n\nmanage expectations w fam friends, i used to expect too much from people, now im finding new people\n\na calm mind a fit body and a house full of love, these things cannot be bought, they must be earned\n\nthe questions are what do you want, how to get there?
+
+find the gaps in the world that you uniquely can create, leverage, and own\n\nyou can trust peoples opinions on inidividual review things: film, food, music, youtube, but not when its off mere opinion\n\nif you give girls weird feelings or NOT give them attractive feelings, they wont be with you...\n\nscaling down the task so perfectionism is easy to beat.
+
+if the means gives better data outcomes, then sure, do that, but if not, ill stick to this
+
+noone can insult me better than me lol, i know my lowest points
+
+validation from results from action from smallness
+
+if youre not willing to risk embarassment and mistake, then youll never know if you could do that thing you wanna do, be that person you wanna be, no?
+
+if the means gives better data outcomes, then sure, do that, but if not, ill stick to this
+
+noone can insult me better than me lol, i know my lowest points
+
+validation from results from action from smallness
+
+if youre not willing to risk embarassment and mistake, then youll never know if you could do that thing you wanna do, be that person you wanna be, no?
+
+escape competition through authenticity\n\nim still working on understanding and acting on my problem vectors\n\nnavigating social situations and relationships is so tricky i find\n\nif you know youre a good person, be not afraid in whatever you do.\n\nyoure laden by your teachers: heroes and books and life experience\n\nyour worst deed does not define you.
+
+thats it.\n\nif you care, others will care\n\ni gotta diversify friendships\n\nlet girls initiate initiation\n\ndrown out the bad, with good.\n\nhow worthy of note are you???\n\nis life better w or w out it?\n\ngotta get magnesium glycinate\n\nwe earn w virtue, open to all\n\nIm looking for father figures\n\nwrite about the meaning thing\n\nresults validate.
+
+add before deleting, delete before adding, they can both work.\n\ntalk about how you can learn more online because its more vast, and not everyone on the internet is at ns, its a narrow slice of a certain collection of different spaces from the internet, but..\n\nns is expensive relative to how low i can pay, but for everything youre getting it is great value.
+
+learn and understand..\n\nthe less authentic, the more vulnerable you make yourself\n\nyou wanna be in the s&p500 but for the sexual marketplace\n\nwhen shit hits the fan, turn it off and clean up the shit\n\nask eden why he left on Jun 14, 2025 at 7:30 AM - 8:00 AM\n\nthe behind the scenes should be just as good as the stage\n\nwe can succeed DESPITE failures.
+
+i feel like i need to be fake with people to\n\nwhen i have more posts, or more folllowers, follow more people from the singapore post.\n\nso never hit on girls, just magnetize energize and actually just attract, like fishing.\n\nmake new, non-fatal mistakes, it's impossible to not make mistakes, so might as well be\n\nwill this have high value to someone else.
+
+go back to X a bit.\n\neveryone is changeable and redeemable, level up, get stronger in life.\n\nare you just going to consume or are you going to start participating?\n\nget the 80% of the 80% right, and the rest is just a bit of dukkha lol\n\njust be less wrong, less foolish, less stupid, and then youll win lol.\n\nfigure out way to whiten teeth and straighten.
+
+focus on what you want to see more of, let the irrelevant wash away\n\nonce i have savings and i found a nobrainer girl, prenup marry her and have kids asap\n\nif you cant seem to make a big change, try a small change, its a domino to big change\n\ntry to live a good life first and foremost, all other goals are subgoals of this goal\n\ntry things that could work.
+
+so it will be to others\n\nbulk sell clothes or just give it away its taking my time\n\nlife is problems and solutions, goals obstacles and tools\n\nmarket to soccer chats, the kids who need some extra work\n\nskillsupply like massages, beauticians, massages, yardcare\n\nthe best people books, you cant skip, everything is signal\n\nwisdom then health then wealth.
+
+why?\n\nsimplicity is the road to mastery\n\nevery no is a step closer to a yes\n\nremove ig following that drains me\n\nwhatever you do, do it with others\n\nevery no gets you closer to a yes?\n\nnever stop looking for a cofounder\n\n"take the risk or lose the chance"\n\ntheory of wealth creation by naval\n\nFriendship is the meaning of life.\n\nif its not working.
+
+can even uodate those too lol\n\npeople dont like social media because they dont curate their feeds, they dont customize the app to their liking, they dont act on their taste\n\nDont TRY to make errors but now i just see them as points of improvement for my explanations of life, not as final soul crushing finalities..\n\nif i have that digit of mrr, then its ok to buy.
+
+express yourself, people that are like you, will like you\n\n2 i cant just give fish to people, they need to learn to fish to be independent\n\ni think ideas are important but execution says theres sstill so much more to do\n\ndon't get lost in the noise, this is why you must ignore things and say no more\n\nwhatever youre going to do, ask yourself, do i need to do this?
+
+wealthy together\n\neverybody cannot be everything.\n\ndad said funding should be soon\n\ni feel like its problem or play\n\ndont be good at the wrong games\n\nopportunity begets opportunity.\n\n"let the work speak for itself"\n\nnever take the faustian bargain\n\nleverage and visible competence\n\nreality sobers you right up lol\n\nstrive to think and act clearly\n\nerror.
+
+you could be dead you know..\n\ni can also sample my fav songs, do i needs get em cleared?\n\nyour post count should be higher than your follower count?\n\nask for honest critiques on how this or me could be better\n\nrather have the attention of 10 cute girls than 1000 guys?\n\nevery problems is an opportunity in itself, and for virtue\n\nthere is someone on the other end.
+
+premature..\n\n- Don't avoid something frightening if it stands in your way -- and don't do unnecessarily dangerous things.\n\nHighlight Benefits: Clearly articulate what problem your product solves and the benefits it offers to users.\n\nwrite about kids to adults should be more of a ramp and not dubked into the deep end right out of graduation\n\n- "easy choices, hard life.
+
+can you point me in the directions, the ways you see most positively?\n\ncreate an ideasbugs thing on every bottom right corner of every product txitter is an opt-in global group chat i help those who help themselves timeless, standalone, dont be afraid, dont stay in a lane i want a glowing young woman\n\njust because you have A girlfriend doesnt mean its a good relationship.
+
+be amazingly attractive and an awesome lover.\n\nthe way to solve neediness is through not needing which can come through choice or having/options\n\nif im feeling shitty: check sleep, caffiene, write down problems and whats my strat for solution?\n\nemulate the elon the zuck the bezos when they were at your stage, not mostly the current versions\n\nwith mama its all negative.
+
+laundry service from your room straight to angie and back..\n\njust have 1 “start here” google doc on personal site, after removing leaf buttons, then i can remotely add more info through that table of contents, constantly updatable\n\nremember to experiment in breadth, then when you find a hit or you are sure that 1 way will be really good, switch to experimentation of depth.
+
+but if no example, you gotta do the first principles calculus to be sure of the solution derivation\n\nan encouraging word is heard for miles\n\ndont quote, be considerate\n\nif its not relevant to you, drop it\n\nvalidation from results from action from clarity from articulation from\n\nsufficiently nuanced advice is indistinguishable from chaos\n\nwhat am i not supposed to say?
+
+**\n\nwhen bored: yes when depressed: explain when anxious: no\n\nive been acting like such a baby so immature OH MY LORD!\n\nall ideas are subject to criticism and are on the table.\n\nit's a very relevant and useful recent inquiry of mine..\n\n"this doesnt work till you can trust your own judgement"\n\n"don't optimize for growth at the expense of durability"\n\nwhat do YOU think.
+
+all advice cancels to zero
+
+you know youre being honest when its brutal
+
+
+an encouraging word is heard for miles
+
+dont quote, be considerate
+
+if its not relevant to you, drop it
+
+validation from results from action from clarity from articulation from
+
+sufficiently nuanced advice is indistinguishable from chaos
+
+music sport sleep and progress are my therapy
+
+when does honesty go wrong?
+
+self driving comes to mind.\n\n~ where can i add friction, where can i remove friction, for positive results?\n\nwhich of these problems / project ideas is most painful and occurs most often?\n\nonly release info on internet that youd be fine with the whole internet seeing\n\ncould i save money by working w dad moving into dads house and using starlink?\n\nyou want peer relationships.
+
+you cant control the rain but when it comes, your bucket will
+
+if it doesnt resonate then so be it
+
+sometimes spreading yourself out with ADHD-like novelty builds motivation and connecting across domains, if it is true between A and B, its a deeper truth than either
+
+scapple why am i doing xyz in life, and examine my life, be real about the reasons
+
+why is attention seeking seen as bad?
+
+find the gaps in the world that you uniquely can create, leverage, and own\n\nyou can trust peoples opinions on inidividual review things: film, food, music, youtube, but not when its off mere opinion\n\nif you give girls weird feelings or NOT give them attractive feelings, they wont be with you...\n\nsexual marketplace value marketplace value\n\nfor girls, are your looks a part of you?
+
+music heals\n\ni love low maintenance people\n\nwealth is in the fishing nets\n\nare you doing your best work?\n\nThe personal is the universal\n\nwe fill each others holes lol\n\nwhat if failures dont matter?\n\ncreativity comes from boredom\n\nare we aligned on priorities?\n\ntry to impress yourself first\n\nare we aligned on priorities?\n\ntry to impress yourself first\n\ni can leave.
+
+create curate elevate\n\nsaying no is as important as saying yes\n\nmy productivity workflow, dont trust me\n\nfear + courage + action drains anxiety.\n\nescape competition through authenticity\n\ngo for knowledge, not straightup wealth\n\nmind-game, body game, relationship game\n\nfigure out how to increase testosterone\n\npeople disagree on what to do about it.\n\nunderstand, then act.
+
+choose dont chase.\n\njust do what i think is right, in each moment\n\nuse the small car more, it has better mileage\n\nproblem -> understanding -> action -> results\n\nthe day you stop learning that day youre dead\n\nDo not look around to others, look up to God.\n\nevery conflict begs for greater understanding\n\nif it makes sense to go public, then so be it\n\n- be powerful and generous.
+
+i like that..\n\nA healthy, more accurate view / frame of failure and success..\n\nif normal sucks, dont be normal, if normal is good, be normal.\n\n"a seamless web of deserved trust, and we did deals forever.."\n\nbefore 1000 true fans, be sure youre the first actual true fan\n\nsaas can boil down to make me more money and save me more time\n\ngoing straight to the deepend is disorienting.
+
+how to make it easy?\n\ntboi is my book of knowledge to flesh out mental clarity, then imagine an s tier book on money making, an s tier book on finding love and making a family\n\ndepending on who you copy, being deliberate, humans have enough variety and excellence in so many fields, that you can 8020 copy in a way, to a great life\n\nposition yourself where there are more girls than guys.
+
+depends on what you want right?\n\nyou have different sides to you + true nature post + be whole.\n\nif you dont even like your own music, dont release it/share it\n\nthere is an incredible amount of misunderstanding in the world\n\nreason brings people together, character keeps people together\n\n1 right place right time reframe can catalyze life long change\n\ncompress truth and directives.
+
+try to combine things that are natural to you, in useful ways, to\n\nwhen selling, remove all anxiety in the buyer for spending their money and obviously be true\n\nget better, more attractive through virtue, then i can earn amelia, and girls of that caliber\n\nwhen im veering off the calm mind fit body house of love path, i know im off, this is wisdom.\n\ngo from nice to challenging mindset.
+
+you are too hard on yourself\n\ni would say to my younger self find your people online.\n\nim not wealthy yet but i wanna help people like me lol.\n\nthe best way to predict the future is to make it happen\n\ndo not pedastalize your heroes and also women of course\n\nlearning ds&a is bs unless its relevant to what you do.\n\nthe biggest mistake you can make is beating yourself up\n\nvolunteer.
+
+clear goals, immediate feedback, challenge skills balance\n\n- list stressors, the big problems, for me to like me, to make my life better\n\nstand the test of time, the serious people will still be here after years, if they have the endurace inheritly aligned with their nature\n\nif youre cool, ill invite you into my life, and im working on bettering my life too\n\nas long as you work on your.
+
+what you genuinely want*\n\ncompetence + embarassment = relatable and aspirable\n\nwhich of these, if done, will make the rest easier?\n\nfollow love, let it kill you, and let it resurrect.\n\nwhat are you low supply at, that is in high demand?\n\nconfidence, engaging her emotions, contextual alpha\n\nok do early burns so that i get away from breakfast\n\nok dont ask jacob to help, he dont want.
+
+whats the plan?\n\nwhat do i plan to do with my life, in the next 6 months?\n\nmake your online and offline lives really good and clean\n\nfame will be the pareto spike thing to solve sexlessness\n\nget all balls out of your court before playing new games\n\nuse spotstats sparingly so no incest and genuine results\n\ntalk about peoples lives and try to help them how i can.\n\ntalk to 100 people.
+
+but invest in wealth-creating mechanisms: businesses, things you understand.\n\nWrite about the audience you have, and what they expect and want, but what if you want to post different parts of life, in ways that are not relevant to them, thats why i want to bucket different themes so that people can sign up to whatever part of you is relevant to them!\n\nlearn from the best and get up to speed.
+
+never try, never know
+be considerate to the audience
+
+dont get too caught up in the minigames, focus on the main quest, the meta game is the set of main quests
+
+just learn, just solve problems
+
+you can trust peoples opinions on inidividual review things: film, food, music, youtube, but not when its off mere opinion
+
+i dont have to be well known but can be known well
+
+just learn, follow curiosity.
+
+competition is for losers\n\ngood people deserve good outcomes of course\n\nsimply, if happiness = reality - expectations, and my expectations are immense, then i gotta raise my reality fosho.\n\ncan i soread out the stress for a more sustainable life?\n\nall advice cancels to zero\n\nyou know youre being honest when its brutal\n\nif someone has done it, you know from 1st principles its possible.
+
+next step.\n\nevery problem is an opportunity.\n\nevery problem calls for a virtue\n\nto get better at anything do 100\n\nreturn krazy glue to auntie rese\n\n-we earn with virtue, open to all\n\nharmonizing quantity and quality.\n\ncreate to overwhelm, curate to **\n\nsolve problems, through leverage.\n\nA 4 = 1 = say no, have boundaries\n\nyou are the sum of your decisions\n\nthe mosaic of life.
+
+come for the wealth-creation, stay for the wisdom and happiness.\n\ni its trendy to like or trendy to not like, what do YOU actually think?\n\nonce you know what's wrong, you're halfway there to righting the wrong.\n\nliterally all you have to do is do your best and follow your conscience\n\nive learned to aim for the good outcomes, but detach yourself from them\n\ncalm mind fit body house of love.
+
+maybe broadcast em to someone who can idk\n\ndont do what you "have to do" thats work, do what you "want to do" thats play, and paradoxically thats how you do your best work""\n\ntalk about going to therapy, talking needs to be a compliment to action, not a substitute, from thiel's recent talk with joe rogan\n\ndo whats play to you work to others, given prethought criteria that solves your problems.
+
+maybe..\n\nremember the 8020 of people, and 8020 of people liking you and choosing you, and you them.\n\nevery no gets you closer to a yes, as you understand and act differently, closer to truth.\n\nwhen solving a problem, know that there are multiple creative means to the solution's end.\n\nas meta as ben franklin, as healthy as **, as wealthy as mansa musa, as wise as the buddha\n\nforgive the past.
+
+like visa.\n\ntasks, if left on the list, most tend to die on the vine so to speak\n\nif its rent food tools learning health, i dont sweat paying too much\n\nconflicts are misunderstandings cause by lack of clear communication\n\nwhat 1 thing, that if done, would make the rest easier, or obsolete?\n\n~ how can i put in the time with good friends or making new friends?\n\ndo book reviews, based on concepts.
+
+we all start with time, we invest that\n\ndont overthink and underfeel, its thinking of a different sort\n\nbe so amazing that you convert all people you meet into "fans"\n\nmake a 2x2: you can stick out and fit in, in good and bad ways\n\nfree up your time to make money, free up your time with money.\n\nif it makes you angry or makes you laugh, there is truth in it\n\nfigure out the top ways to benefit ns.
+
+haha\n\ndebug your life\n\nhell yeah or no\n\ndo less, better.\n\nwin and help win\n\n- be courageous.\n\n- be courageous.\n\nreach out to oo.\n\n"i am the prize"\n\nlearn from taleb\n\nlearn from taleb\n\nprestige is fake\n\nwin and help win\n\ni labor for love\n\ntry to be useful\n\nrecycle the hurt\n\n“women like sex”\n\nwe can all win..\n\n"sucks to suck."\n\n"no" is a skill.\n\nbe extremely you\n\ndoubt?
+
+funny analogy but you get the point.\n\nyou can learn all the tools, but you cant hold them all in working memory at once, sometimes you wont have the right mental tool at the right time\n\nadd magnesium glycinate and honey to amazon shopping cart / get shopee lazada to work / get the grab super easy thing from NS to singapore to work\n\nHow do i know when an essay is good enough to post, and where do i post?
+
+the audience comes last\n\nfame before substance i think is putting cart before horse\n\nlife is too short to work on something you dont believe in\n\nif you wouldnt coerce someone else, dont coerce yourself..\n\n"oh this is the happiness thing people keep talking about"\n\ni dont take things as personally, to heart, in a good way.\n\ni dont take things as personally, to heart, in a good way.\n\njust solve problems.
+
+bum.\n\nthere are no get rich quick schemes, but you dont have to subsribe to a get rich hard scheme, like burnout style\n\n"i can get what you provide from tinder and taskrabbit" what can she get from me that she cant get from those 2?\n\ncompressed truths translated into compressed directives are very useful for bad days: low bandwidth low dopamine\n\nwrite about long term solutions dont solve short term problems.
+
+cool it for a bit.\n\nbe a great individual player, then play ball\n\n- will i regret doing this at 100 years old?\n\nplant many seeds, not all of them will grow.\n\nput "feedback?" on all websites and projects\n\npeople will take you places where money cant\n\nhelp other dropouts who want to work in tech\n\ndont listen to authority, think for yourself\n\nshow proof of success before asking for help\n\ndont be needy.
+
+its more of a search function for the nobrainers of the world..\n\nthe quantity of internet metrics (followers, views, likes) matters way less than youd think imo idk\n\nDon't ignore your dreams; don't work too much; say what you think; cultivate friendships; be happy.\n\n"dont compare your inside to someone else's outside" you wouldnt ACTUALLY want to live elon's life.\n\nwho are some speakers we can have doing talks?
+
+falling short of a goal because of lack of knowledge or skill, both of which can be bettered
+
+do not destroy the means of error correction
+
+what do you want, what are the bottlenecks
+
+learning is about relevance
+
+balance learning and doing
+
+talk about fun facts or quirks, like every time i do something im proud of i pat myself twice
+
+critique my heroes
+even in the people who i like, i can easily find things i dont like.
+
+okay then act.\n\non the internet you dont have to play nice, irl you do haha.\n\n'life punishes the vague wish, and rewards the specific ask'\n\n“life punishes the vague wish, and rewards the specific ask”\n\nwrite about nitpicking a lot, but honestly their doing great\n\nyou want to help people, but you cant pour from an empty cup\n\nsuicide is a confusion of your self dying and yourself dying\n\nI CAN FIGURE THIS OUT!!
+
+if the means gives better data outcomes, then sure, do that, but if not, ill stick to this\n\nnoone can insult me better than me lol, i know my lowest points\n\nvalidation from results from action from smallness\n\nif youre not willing to risk embarassment and mistake, then youll never know if you could do that thing you wanna do, be that person you wanna be, no?\n\ni love being honest, but i wont share secrets unless i forget.
+
+sometimes its simply a lack of procedural knowledge
+
+find the real value in the hype, destroy the idea as much as you can, and if it stands, you can trust
+
+as long as the ball is not in your court, you have nothing to stress about, in regards to what you control
+
+you need thinking and action, but one does not substitute for the othher
+
+when you steelman, often you can see both sides, then nuance comes into play
+
+insider outsider.
+
+healthy wealthy wise.\n\nsometimes just existing is an act of courage\n\nwe go through seasons of ideation and action\n\nif you dont laugh in life i feel bad for you\n\npoliticing seems such a waste of life energy\n\nsimplicity taken to a useful working extreme\n\ngive give give problem-solutions to the world\n\nlive so you like you, this is the first step.\n\ndont expect love, but you can always give it.\n\nsay no the the lesser.
+
+things to work on\n\ntalk about fun facts or quirks, like every time i do something im proud of i pat myself twice\n\nwanting people to like me\n\ntalking or learning without action is cowardice\n\nclear conscience priceless\n\nif not this, then what?\n\nwhy is your only reference other people whove done xyz, you gotta think 1st principles and derive Godly solutions to Devilish problems\n\nthe goal is input and output DISCONNECTED.
+
+this is not just trite wisdom, its actually true lol.\n\nmy airchat: I would say to look at where you are, look at what you want slash where do you want to be, question why you want what you want, and once you're really sure about a direction you want to go, try and figure out a plan that's actually feasible, something that clicks in your mind like hey yeah that could work, and then break up the plan into little steps and keep going.
+
+self-deprecation sometimes idk\n\nas long as you disagree with parts of your heroes, you know youre safe from mimetic downsides\n\nif you want to see who rules over you, see who you cant criticize, like parents\n\nhow will you allocate your time, money, stress, dopamine?\n\nevil is often insidious, not upfront\n\nwhat do you do when even in a platonic ideal, theres no consensus?\n\ni like the bryan johnson way, like just follow the data.
+
+on Apr 24, 2025 at 10:00 AM - 10:30 AM\n\nold thoughts are the regulation of the mind\n\nthe real opportunity is living a good life.\n\nevery obstacle is an opportunity for virtue\n\n"if theyre not happy, dont listen to them."\n\nevery obstacle is an opportunity for virtue\n\n"you can die with things on your todo list"\n\nerror correction should be creative and fun\n\nunlearning is just as valuable as learning.\n\nunderstand fast and deep.
+
+know that some things you wont find the answer to with words\n\nmy airchat: I would say to look at where you are, look at what you want slash where do you want to be, question why you want what you want, and once you're really sure about a direction you want to go, try and figure out a plan that's actually feasible, something that clicks in your mind like hey yeah that could work, and then break up the plan into little steps and keep going.
+
+use your mental taste just like you use your tongue\n\nim doing this to build relationships at scale, after hearing david senra say that.\n\ntry and notice and ask people close to me what they think my specific knowledge is\n\nthe school thing is just something i think should exist, not that im obsessed w it\n\nsome people i like in my physical feed and not in my digital feed, and vice versa.\n\nsell what youd actually buy or DO in fact use.
+
+the lessons dont only apply to music and food\n\nwell in life its all trades, you wanna make positive sum trades and avoid ruin at all costs:dont die, thinking things true, fearsetting etc\n\ntell mama i wished i could help dad i wished i could help myself with equity and 2k a month to get me on my feet while i work on my company\n\n2 specify and make easy for them to make the change you wish to see in them and they wish to see in themselves.
+
+remember that every tweet can reach all of the internet continent’s people\n\njust like there is no 1 purchase that solves all problems, no free lunch, no for ideas, people, relationships, sex, music, creativity etc\n\ni stopped using ig in middlesxhool, 13 yo, so when i got back to it at 21, i had to make 8 years of mistakes to get to where i am now lol\n\nthe creative act, 4 hour chef, your music in people, are books that are misleading in title.
+
+blog about tips for the 3rd millenium\n\ngive tips to each side: user empathize with doer, doer empathize with user\n\nget explanations so good you are composed, the results make you sleep easy\n\nask relevant questions, post timeless bangers im convinced of, post funny.\n\nanswer tim ferriss' 17 questions from tribe of mentors, then blog post that\n\nthere is safety in numbers, dont push face, only if people really wanna idk\n\nregret minimization.
+
+stop doing it.\n\nmake sure your why chain is solid.\n\n~ How could I be kinder to myself?\n\nproductivity guide: gaiman boredom\n\nserenity prayer grounds centers me\n\npractical solutions, not critique.\n\nmake it easy for people to say yes\n\nwhats the simple elegant solution?\n\nwill my deathbed self regret this?\n\nbalancing what i notice is missing\n\nget the roatan iq increase therapy\n\npractice your big 5 opposite stats\n\ndont be invisible.
+
+:)\n\nsinply be her best option\n\nconstantly seek criticism\n\nwhat are my top problems?\n\nsimply be her best option\n\nstop pedestalizing people\n\nstop pedastalizing people\n\nhow can i contact eunece?\n\ndo taxes with uncle stan?\n\nalways be willing to walk\n\nstop pedastalizing people\n\nstop pedastalizing people\n\ncompetition is for losers\n\nget mamas youtube premium\n\nif it repeats, improve it\n\n"the obstacle is the way"\n\n465 days left.
+
+travel, friends, gf, location
+
+openness: just follow curiosity
+conscientiousness: elon algo
+
+good people deserve good outcomes of course
+
+all advice cancels to zero
+
+you know youre being honest when its brutal
+
+an encouraging word is heard for miles
+
+dont quote, be considerate
+
+i like long ranging thinkers, people that explore the idea maze, AND go through it
+
+if its not relevant to you, drop it
+
+can i soread out the stress for a more sustainable life?
+
+a "how it works"\n\ngenerate curate and elevate with the big 3 decisions:\n\nignore, err on keeping things private, err on silence\n\noptimize your social feeds for energizing vs draining\n\nif jesus did it with 12 apostles, we can do this lol.\n\nwhat if the solutions to your problems ALREADY exist?\n\nhave uncle stan come in as a guest speaker for wealth\n\nmake the thing for you first, the audience comes last\n\nultimately, do you wanna die or live?
+
+only whats a valuable insight\n\ni know when im same or diff from people and give advice accordingly according to my best knowledge of a system\n\nthe people whove taught me the most, their ideas live in my head, i know so many of their lessons, quotes, etc\n\nyou know you make good long term decisions/wise decisions, when your old self saves your current self's ass lol\n\nwhen you see yourself or someone doing something good/wise/smart, encourage them.
+
+give yourself permission\n\nslow fade away from draining relationships\n\nbalance consumption with production, daily\n\nyou watch your diet but not your info diet\n\nbe a great individual player AND play ball\n\nevery problem is an opportunity for virtue\n\nignore girls, let them initiate initiation\n\nlearn from andrew kirby and blake anderson\n\nif its important, it will come back to you\n\nwin the short game to get to the long game\n\nidea before action.
+
+laugh at the anxiety\n\ntell about vulnerabilities from a position of strength\n\ni fear fame but i can do something in a controlled way\n\nboils down to how you spend time, steered by salience.\n\nbetter to be chased for the money than having TO chase\n\nWHAT WOULD I ACTUALLY PAY FOR / KNOW PEOPLE WHO WOULD:\n\ni dont need to care about people approval, but do riff\n\n- never ever give up, but absolutely drop lesser games\n\nshow success before asking for help.
+
+quantity and quality\n\n"failure is irrelevant unless catastrophic"\n\nplay more at ns for flow and stress balance\n\n"cut away the rest, focus on the 8020 best"\n\nhow to find startup ideas: learn and notice\n\nsolve problems / make something people want\n\nthe path to peace is truth + accept reality\n\nwhatever your highest cost is, work on that\n\nalways be true, always be authentic/genuine\n\n"understand the why, and lead by imitation"\n\nwell what shit IS working?
+
+is it just criticism or is it valuable and genuinely trying to help?\n\nafter winning games, create guides so people who intersect with my life story will have the right knowledge and understanding so its not as hard as i had it\n\nthere are heroes i feel like ive learned what i have to learn from, like a highschool coach im so so so so so grateful for, i feel this way about tim ferriss\n\nat bottom of blog posts put the links to related resources and related blog posts.
+
+tied to the blind spot post\n\ndo evwrythkng in your power to improve\n\neveryone and their ideas CAN be wrong.\n\ndon't protect yourself from mistakes..\n\ni am obsessed with living a great life\n\n"repitition does not spoil the prayer"\n\nescape competition through authenticity\n\nthe timeless things are worth repeating\n\nyou dont have to let things bother you.\n\ni can and will solve my pareto problems\n\nhaving insight cascades for my problems\n\nlists and checklists.
+
+experiment\n\nto craft a good life, craft good days\n\nfocus on what you want to see more of\n\nare you health wealth wisdom maxxing?\n\nyou SHOULD be embarassed by your past\n\nthere is no such thing as perfection?\n\nguilty pleasures are just pleasures..\n\n"trial and error makes your iq 1000x"\n\nthe best workout is the one you enjoy\n\nclear calendar clear mind clear life?\n\nwhat if you just did it the easy way?\n\nso dogs need walks and you dont?being\n\ndo it badly on purpose.
+
+and the difference\n\nidk if ill ever be a founder, im not super traumatised haha\n\nit should be easy to like the people you choose in your life\n\nthe better you become the more people want you on their team\n\nexcellence through being prolific * high taste * bold sales.\n\nafter writing blog posts, write scripts, make presentations?\n\nwould I regret doing this at 100 years old / on my deathbed?\n\npreventing evils from things i know: my life's past problems\n\nput empathy into sales.
+
+be useful is a good heuristic\n\nyou dont need to get everything you need and want from 1 person, including yourself\n\nreach out to sierra and elijah about XG and what theyre interested in at the moment\n\n- my main 1st mission right now is to get me and my family and friends rich/wealthy\n\nits not “be different than who you are” its “introduce a new mental cast character”\n\nuntangle before you pull + understand before you act + problem understanding action\n\nyou do you, really well.
+
+calculated risks\n\n- balance understanding and action.\n\nwork on the ideas you cannot break.\n\nwork like hell to live like heaven.\n\nlets be polymaths, renaissance men.\n\nshow success before asking for help\n\ndetermination + diligence > burnout\n\nbetter judgement is always rewarded\n\ntools help you exert your judgement\n\n- balance understanding and action.\n\nyou wanna match problem to solution\n\nnever let cowardice be a bottleneck\n\nclean up clothes inside and outside\n\ntest.
+
+clarity\n\nno sleep debt, no tech debt, no fiscal debt\n\ni want to reconcile my relationship w sissy\n\nmake sure each title makes ME want to click\n\ndont trick yourself into a zero sum mindset\n\nevery problem is an opportunity for a skill\n\nonly hire who youd work for in another life\n\nremove bottlenecks to your problem-solution\n\n- great insights as a clinical psychologist\n\nif its a reversible decision, dont sweat it\n\nif its quality, they wont mind the quantity\n\ngo to uog again?
+
+become a friendship creator\n\nyou cant be normal and expect abnormal outcomes\n\neasy choices hard life, hard choices easy life.\n\ndo not depend on any one shot or overweight one\n\nlook at what you pay for, can you do it better?\n\ni prefer diligent, smart, wise work > hard work\n\nget things UNDERcontrol before UNDERtaking more\n\nsay less do less, be intentional about your yes\n\nmute negativity, unless a good healthy critique\n\nyou need just enough fish to learn how to fish.\n\nfind vertical mentors.
+
+be bold.\n\n# Add your new ideas here, separated by empty lines\n\ntip in proportion to the service (did you feel served?)\n\ngotta listen to useful not true again then email sivers\n\ni would say to my younger self find your people online.\n\ntherapists would make for a greatblackmial business lol\n\nif the idea repeats at top of mind or a question, share\n\nbe careful what are hard nos and hard yess in your life\n\nyou may know HOW to code but you dont know WHAT to code\n\nhey bub, it's going to be alright.
+
+can i be on a plan tomorrow?\n\ntranslate compressed truths into compressed directives, for when you are low bandwidth and can only afford the compressed\n\nhelp me really simplify the step by steps of this project to get to my first dollar with it, and what the exact specs are:\n\nif dad would pay me 2k a month, he can pay 200 bucks for a domain and email setup, then like 600 for a website or something\n\ndont let your kids repeat your mistakes, give them a leapfrog advantage, and theyll have their own problems.
+
+read, then write.\n\nsolve specific problems as you see them\n\nproblems/mission before choosing skills\n\nto get better at anything, do 100 thing\n\nknow when to copy and when to originate\n\nthe more optionality, the more honesty.\n\ninfinite leverage, infinite distraction\n\nescape competition through authenticity\n\nthe unwritten rules can be hard to read\n\nthe biggest risk is not taking any risk\n\naxioms and stories are what we remember\n\nid wanna talk with rudy more i like him\n\nhow do you practice agency?
+
+also,\n\ni can mean a lot to people too, even if theyre not the higher status people i seem to desire the attention of\n\nthe best things in life you cant ignore, no matter how many times you try to deny them, you come right back..\n\ni thought naval said leverage was most important, and that hard work was like a 3-4/10 in terms of importance\n\nstop thinking that just because you are young, that you are lesser than, less trustworthy, than older people.\n\napply to companies that i genuiinely like using their products?
+
+nah\n\ngo to church for girls lol\n\npractice practice practice\n\nempathy is how we connect.\n\n"heartwork, then headwork"\n\noptimism l2 look into this\n\ntrust comes with time, no?\n\ndiscipline is in saying no\n\n“Stupid is as stupid does”\n\n"pay the worthwhile price"\n\nseek to be pareto optimal.\n\ndeserve others' attention.\n\nwhat mistakes am i making?\n\ntake play seriously teehee\n\n"ideas die, so you don't."\n\nthere is always a solution\n\nsimplify simplify simplify\n\nmy priorities have changed\n\ndon't worry.
+
+be frugal like lky like ben franklin\n\ndo not optimize for growth at the expense of durability\n\nhow can we maximize work ethic and maximize rest ethic?\n\ntheyre not asking the impossible theyre asking the hard\n\ntrim pubes somehow on Apr 13, 2025 at 7:30 AM - 8:00 AM\n\n"an invisible man is a dead man." just solve problems..\n\nif youre not clearing your calendar daily, its too much\n\nwith less money there is a sharpness of decision making\n\nwhen hiring, ask: “would i wanna work for this person?”\n\ngood lookin men w drive.
+
+when its a buyers market, become a buyer\n\nDefinite optimism, if i know x, i know y, what would this look like if it were easy?\n\nthe only long term way to help people i can think of is to help them help themselves\n\nattract women with your lifestyle, she should not be the main, your mission is main.\n\n~ remember you can always be redeemed, you dont NEED to wallow, you CAN move forward\n\npost about games that teach concepts that generalize to real life in a practical way\n\nonly purchase temu and in general if it solves a problem.
+
+stumbling toward greatness\n\nim still learning about these ideas, but\n\nfollow the energy, the fun, the curiosity\n\ndoes this help me solve a problem or not?\n\nSTOP PEDASTALZING OTHER PEOPLE AND WOMEN.\n\n- sleep light diet exercise relationships\n\nsell everything physical i dont wanna use\n\nno sleep debt, no tech debt, no cash debt\n\nfrugality, productivity, problem solving.\n\nknows when to go hard and when to go soft\n\nImportant BUT NOT Urgent Tasks (Schedule)\n\nif you dont have presence youre invisible\n\nchoose dont chase.
+
+let him be\n\ntheyre asking us to do the hard, not the impossible\n\nyou sell transformations / wealth, in peoples lives\n\n1 8020 ig step on Apr 13, 2025 at 7:00 AM - 7:30 AM\n\nall problems are solvable given the right knowledge\n\nlet small bad things happen to focus on the big bad\n\ntoday is a new day, and new things are now possible\n\n“stress comes from ignoring things you shouldnt be”\n\nGet tax return: Provides extra cash to reduce debt.\n\nlife is so much more negotiable than i once thought\n\nsolve my top 3 problems with 1 move.
+
+there is a sweet spot for both?\n\ni was super skeptical and scared of putting myself online, but after lots of deliberation im making the conscious choice too, the inaction cost is too great\n\nafter winning games, create guides so people who intersect with my life story will have the right knowledge and understanding so its not as hard as i had it\n\nas long as you are diligent, the necessary transformations will happen in due course, as long as you are outpacing entropy in your understanding and action.\n\nask debby if she still needs help?
+
+walk ALONGSIDE, do not follow.\n\nbe strong for defense against people, and offense against problems.\n\nbegin with the problem, understand it, then act with no speed limit\n\nfind whos the best at solving it and either pay em or learn from em\n\ndo more with less and sell that, esp if you have specific knowledge\n\nhumility and courage and diligence/endurance are top rate qualities\n\na good guide should feel like a cheatsheet + half blood prince book\n\nNow here's what I've learned from each: (i'll try to keep it short)\n\ndig deeper get to know her.
+
+great love, great health, great serenity\n\ncould i save money by working w dad moving into dads house and using starlink?\n\nwhich of these problems / project ideas is most painful and occurs most often?\n\n1 are you an obsessive notetaker who wants to turn ideas into actions use hower\n\nonly be forward with women if theyre clearly receptive and you actually like em\n\n2 i cant just give fish to people, they need to learn to fish to be independent\n\nif you pedastalize your heros too much it makes it harder to be friends w em and\n\nlets define risk.
+
+were hardwired to be social\n\nstartup ideas are found in the "this should be better, i wish xyz"\n\ndont stress out about shit just be diligent in bettering your life\n\nnothing gets you speaking more clearly than seeing your transcript\n\ncompressed explanations truths are great: great lines, quotes, etc\n\nif you want more startup ideas, learn and follow genuine curiosity\n\nthere has go be a better way to take notes than typing with thumbs\n\npeople are unhappy because they dont have be do what they need lol\n\nprgram your life the way you want it to be.
+
+pay attention to what you must.\n\nthere are tradeoffs to being long term vs short term\n\nif youre not having fun / flow, youre doing it wrong\n\nconstraints are great when you can OPT OUT of them..\n\nfor software agency, ask whats a fair price for them.\n\nstubborn on your problems, flexible on your solutions\n\nif guys irl wanna work on health wealth wisdom girls.\n\n"networking" is like cold approach for finding a mate\n\nthe way to solve insecurity is to actually get secure\n\nfearset: define prevent repair base hit inaction cost\n\njust solve problems.
+
+you can only know what you like.\n\neveryday try to win, and if you cant that day, try to help others win\n\nas long as you just do your best everyday, what more can you ask for?\n\npeople are the best search engines, so podcasts are good for learning\n\nlearn from past masters, of whatever game youre trying to get good at\n\nunconditionally love yourself, no matter how many mistakes you make..\n\nhelping others solve their fitness online presence and style problemsq\n\nmoney spent on my top problems or quality leverage is money well spent\n\nnail it, then scale it.
+
+can i find examples of people doing what ive chosen?\n\nfor a minimal podcast: who do I genuinely want to talk to, why, how long do i and they got (timewise)\n\nsometimes its simply a lack of procedural knowledge\n\ni dont read books often, i like listening more, what sucks is that most physical books arent made digital, and even a smaller subset is text to speech\n\nas long as the ball is not in your court, you have nothing to stress about, in regards to what you control\n\nyou need thinking and action, but one does not substitute for the othher\n\ninsider outsider.
+
+GOOD ENOUGH..\n\nmistakes guide you to the right place\n\nhow are you going to spend your life?\n\n"absence makes the heart grow fonder"\n\n"absence makes the heart grow fonder"\n\nlaughing is cathartic digital hygeine\n\nrisk criticism by violating tradition\n\nim scared mama will kick me out again\n\naim for discoverability, not virality\n\nmore feeling and action, less thinking\n\nfocus on what you want to see more of.\n\n- every new day, you give it your all.\n\nthere are so many ways you can improve\n\ncheck uncle rob again about freelance.\n\ndo what scares you???
+
+let girls initiate initiation\n\nbetween stimulus and response there is a gap\n\nlets start by being known well vs well known\n\neach dollar you spend should have a purpose.\n\nremove topics that aren't evergreen material\n\nthere is no seperation between work and play\n\nthe creative menu approach, nothing is final\n\ncorrect your weaknesses, correct your flaws.\n\nbecome sharp so you can be powerful AND good\n\nboth internal and external games both matter\n\nremove the obstacles to your desired actions\n\nwrite about compressed truths and directives\n\njust solve problems.
+
+punish give them an opportunity for betterment, punish etc.\n\nwhat did i learn from prostitution: being a virgin is fine, now i know about theory of sexual marketplace, i learned to err private, i learned about sos therapy nervous system loans, i learned to reconcile pagan and christian paradigms, i learned to not spend money on temporary only timeless\n\nsubscriiptions are perceived as "fuck ill forget about this and its gonna cost me" the only subscriptions i pay for are like spotify, phone bill, whoop, but these make more sense in that its timebased, dynamic, usage based.
+
+never rent out time\n\nbe as high quality and authentic as you can be\n\n@@@what would this look like if it were small?\n\ndont build or buy if it doesnt solve a problem\n\nhave different friends along different vectors\n\nmake sure with any creations, you dont compete\n\nself obsession is the root of all unhappiness.\n\nunderstanding precedes action precedes results\n\ntoxicity is incompleteness, solve with nuance.\n\n+ do not look around to others, only up to God\n\nfirst dont do stupid shit, then do smart shit.\n\nfind a partner with very similar values, goals\n\nwhat do i desire?
+
+verbs not nouns\n\n2,2,Do not look around to others look up to God.\n\nimplement a monthly fast 1 day first of month???\n\npoint people to wear they can get their solution\n\nbe aware so as not to be trapped by lesser games\n\nwrite about bad days low bandwidth low dopamine.\n\nif youre gonna be an outsider, be an insider too\n\nbuy what you cant build, build what you cant buy\n\nrhyming is catchy and makes the meme more sticky\n\nE 2 = 3 = talk to people im scared of talking to\n\nfor life goals: energy emotions buttons, presto!\n\nif youre quality, people won't mind the quantity\n\nlearn the skills to contribute.
+
+share sivers vids\n\nBest Practices for Creating an Effective Presales Page\n\nsaying no can be so hard but its a skill to build, no?\n\ni know the path ahead of me now i just need to walk it\n\nhave a lefty's openness, a righty's conscientiousness.\n\nbase hit: learn new skills and practice pain tolerance\n\nget your maslow foundations right: knowledge -> wealth\n\nbe so good you solve problems / they can't ignore you.\n\ni learned wisdom about what to keep public and private\n\nsolve your deficiency problems like maslow bottom half\n\nthe way to solve insecurity is to actually get secure.\n\nstop demonizing any faculty.
+
+whats the optimal spread?\n\nif its friday and youre already dreading monday, thats a bad sign\n\n15:31 He highlights the value of taking work off the plates of busy mentors, learning through hands-on experience.\n\n19:56 Slayback advises working for free or taking low-paying jobs if it allows you to learn valuable skills from mentors.\n\ni like when i get super into something, life breaks my frame, then i see it was foolish or thats not where i should focus/allocate attention\n\ngive me the cheatsheet\n\ntherapists are secular confession\n\nfriends can setup dates thats so cool\n\nlife is a magical odyssey to be experienced.
+
+it's solvable\n\n"founders, family, health"\n\nknow why you do what you do\n\n- stress is untaken action.\n\npeople w the right attitude\n\nlet relationships slow cook\n\n- stress is untaken action.\n\nrefollow auntie rese and kk\n\ninterview calvos for wealth\n\ndo not look around, look up\n\nmaybe its not even a factor\n\nBeing gay with the boys >>>\n\n"simply be her best option"\n\ndont overthink and underact\n\ndont overthink and underact\n\n"fall in love with reality"\n\n"we are in a wisdom famine"\n\ni want to cry cathartically\n\ngood explanations account..\n\non a quest for self-mastery\n\ntalk about play and burnout\n\nfull 100%.
+
+calculated risks\n\ntalk to users, improve the product.\n\n- balance understanding and action.\n\nwork on the ideas you cannot break.\n\nwork like hell to live like heaven.\n\nlets be polymaths, renaissance men.\n\nshow success before asking for help\n\nyou want capital and social capital\n\ndetermination + diligence > burnout\n\nbeing able to program is not enough\n\nbetter judgement is always rewarded\n\ntools help you exert your judgement\n\n- balance understanding and action.\n\nyou wanna match problem to solution\n\nnever let cowardice be a bottleneck\n\nclean up clothes inside and outside\n\nto care for all is to care for none\n\ncontact aaron bejado?
+
+but with someone else?\n\n“money and fame reveal true character”\n\nit doesnt end, but thats a good thing.\n\nyou have the means to a meaningful end\n\nits fuckin fine, do 100 of something..\n\nhealth time and wealth is the trifecta\n\nits a new day, new things are possible\n\nthe infinite game just keeps on giving\n\n"what you are seeking is seeking you."\n\njust do your best everyday, thats it..\n\nshow more, face up, project your voice\n\nbusyness is a form of laziness perhaps\n\nwhat if youre just smart but not wise?\n\ncorrecting errors and solving problems\n\nmeditation is as hard as weightlifting\n\ni want to live extremely authentically\n\nhumble up!
+
+minimum steps to sales.\n\nact on it: experiment in breadth, then depth\n\nlife and entrepreneurship is problem solving\n\nmake steps toward the life you want to live.\n\nif shes not receptive, so be it, try another\n\nevery obstacle is an opportunity for virtue.\n\nis searching for free lunch a fool's errand?\n\ndont expect love, but you can always give it\n\nmoney comes naturally as a result of service\n\nafter wealth really go after health and fame\n\nfollow the spirit, not any one manifestation\n\n"be the change you wish to see in the world"\n\nmoney comes naturally as a result of service\n\nwhat are the benefits of the bootcamp again?\n\njust solve problems.
+
+watch shawshank\n\n"go do something great, and your network will emerge"\n\nproblems are solvable given understanding and action.\n\ngotta get past the short game to get to the long game\n\nyou are a product and buyer on the sexual marketplace\n\nas long as youre still alive, youre still in the game\n\nmy fun is your toil, your fun is my toil, let's trade\n\ni want to come back clearer, calmer, more principled.\n\n"to criticize an idea is not to criticize the person"\n\neven if this fails, would it have been genuinely fun?\n\nhard smart work is the "moat" compete at not competing\n\nto best  help others you must best help yourself dirst\n\nif you can postpone postpone.
+
+do less, more\n\nplay the wealth game not status game\n\nwe can be so much better than we are\n\nShow success before asking for help.\n\nproblem -> truth -> mantra -> action\n\ncreating good days, for a good life.\n\npain is a transformational catalyst.\n\nless effort, MORE results with women\n\ndont do anything someone else can do\n\n"seperation of family and state" lol\n\nthe unwritten rules are hard to read\n\ngive people free resources, freemium\n\n"earn with your mind, not your time.\n\ntrim pubes and pluck nipple hair lol\n\n“minimum effective problem solving.”\n\nlife is always throwing truth to you\n\nprune your following and followers..\n\ndo what you wanna do.
+
+the people that you want to find you can,\n\nseeing the end of the path is anxiety reducing, seeing the light\n\ni wont go up to girls anymore: its sus and theyre sussing me out\n\nfind someone who lives the thought you have and check them first\n\ni can make people feel comfortable and they share things with me\n\ni like the "check feeds once a day" so its a positive constraint\n\n"services to you, like childcare, haircut, yardcare, contracting"\n\nsometimes i just need to sell an idea, a guide, not an actual app\n\nif you want more startup ideas, learn and follow genuine curiosity\n\nfind something to grocery shop and something cheap to wash dishes.\n\nwhen i try to buy hower with AM email, it bugs out on me.
+
+but if im going to spend so much time at work, it better be a great learning, make friends, doing something meaningful, bigger than yourself\n\nmake sure that a younger you has the cheatsheet to get from a to b to c much faster, write down the morals of the story from every failure, and what to do more of less of\n\noffer whoop sleep advice to the core team, i have provably the best sleep in ns..: https://x.com/JacksonSteger/status/1906584365246927339 and show the whoop leaderboard..\n\ni can count on one hand the people that are treating network school like actual school haha, but if it “does what it says on the tin”, then i can level up professionally.\n\nthe brand (name and logo) doesnt matter right now, make the headline huge.
+
+competence is fun\n\n~ 4) “I wish I had stayed in touch with my friends.”\n\nwhat is your highest salient conception, go do that?\n\nonly share failures from a vantage point of success*\n\nshould be a daily bible like daily stoic, accessible\n\n+ offer free work for proof of value to great people\n\nwhat in my life is bullshit and how can i reduce it?\n\nquit everything except the things i choose to master\n\nif you care about your audience, whos following who?\n\n“it worked ENOUGH to matter, and thats what matters”\n\nin relationships, dont you want freedom and honesty?\n\n“show me the incentive and ill show you the outcome”\n\nfor all project ideas, will this matter in 10 years?\n\nyou dont need to make money the same way you lost it\n\nenergy magnetizes.
+
+productize yourself\n\ni love simplifying life and compressing truths and directives\n\nwhen criticizing in your mind always look in the mirror first\n\nidentify the immediate dominos, identify the lifelong dominos\n\n"care about people's approval and you will be their prisoner"\n\nThe internet is permissionless leverage, a way to share ideas\n\nthe best players are INTENTIONAL they know what TO do and why\n\nevery problem is an opportunity, the bad is next to the good.\n\nif i move out of mamas, then work for dads and get 2k a month\n\nwrite about my fav digital tools, my routine, my monthly burn\n\ntimeless girl principles on Jan 27, 2025 at 6:00 PM - 6:30 PM\n\nyou might want all 3 channels open: thinking, speaking, doing\n\nwhen theres too little, create.
+
+why?\n\nno more outcome goals, only input goals.\n\nthe best strategy is the sustainable one\n\nknow when its a feature vs a new project\n\nperfectionism shouldnt delete everything\n\ntalk to mama about what if i get into ns\n\n"navigating the infinite life idea maze"\n\ngot vision and courage, need more speech\n\nsolve loneliness = friendship philosophy\n\ndo not make a virtue out of incompetence\n\neveryone needs love, but you can give it\n\ni want to help those who help themselves\n\nthe converted skeptic is the evangelist.\n\nbe a competent novice, a forever student\n\ngo for experiences, not material things.\n\ni can do nothing, or i can do the thing.\n\nbe so good people make content about you\n\nbe a perpetual learner in a free market.\n\ni feel like death.
+
+be good.\n\ngo and date eunece?\n\nnot struggle, flow.\n\nLaughter is divine.\n\nforgive blind spots\n\neat more good carbs\n\nget floss threaders\n\njoe lonsdale advice\n\nwork hard rest hard\n\nmake it "just work"\n\njust solve problems\n\n"problems are fuel"\n\n"help me help you."\n\nbeware of "shoulds"\n\nebike or emotorbike\n\nwealth, love, peace\n\njust correct errors\n\n“comin into my own”\n\nyeah how to derisk?\n\ndo less, but better.\n\nmake a buymeacoffee?\n\nbring condoms to ns?\n\nwe earn with virtue.\n\njust solve problems.\n\nlove is free to give\n\nfind floss threaders\n\nderek sivers advice?\n\nthere is abundance..\n\ndo a wardrobe audit?\n\n"face up to reality"\n\nwe can all make it..\n\npreach to the choir.\n\nwork on fun problems\n\nwhy do you care?
+
+kaizen, baby steps\n\nNever learn helplessness, remain relentlessly resourceful\n\nlive according to your current best understanding of life\n\nyou don't need to take life so seriously, laugh a little.\n\n"life boils down to problem solving and decision making."\n\nlife is problems and solutions, goals obstacles and tools\n\nit's hard, not impossible, and you can make the hard easy\n\nhow will you allocate your time, money, stress, dopamine?\n\ndo you genuinely think this is a worthy problem to solve?\n\nuse one of those auto applying bots and get a remote job?\n\n~ 3) “I wish I'd had the courage to express my feelings.”\n\nif you let go of all lesser things, the way becomes clear\n\ntimeless, standalone, dont be afraid, dont stay in a lane\n\ngo for more stability for cash flow.
+
+bad boy, good guy\n\nSelf-obsession is the root of all unhappiness\n\nmusic sport sleep and progress are my therapy\n\nlearn the problem from the best theoriticians\n\nlearning is about relevance is about problems\n\nbetter explanations give me better confidence\n\nwrite abount mantras: generate curate elevate\n\nif i do my best, there is no room for regret.\n\n@@@what would this look like if it were easy?\n\nhave at least 3 kids for the replacement rate\n\nnever ever ever let cowardice be a bottleneck\n\ntheres so much misunderstanding in this world\n\ndont try to "do good" try to "correct errors"\n\nwrite about mantras the things i tell myself.\n\ncareer advice be so good they cant ignore you\n\nself obsession is the root of all unhappiness\n\nask joeys dad to make a piece for me.
+
+let it go.\n\nPSG:  problem solving group.\n\n"make something people want"\n\nlove is actually the answer.\n\nhow do we become less wrong?\n\nbe humble for self-interest.\n\nchoose your x before your y.\n\nbetter to be wise than smart\n\nhave a spine, and have balls\n\nyou can always try your best\n\nwhat you seek is seeking you\n\ndoes this drain or energize?\n\nclear thinking * diligence..\n\nlearn to sell learn to build\n\nit’s not evil, it’s neutral.\n\ndigital hygeine is paramount\n\nyou only know what you like.\n\nforgive myself for the debt.\n\nall of life is figureoutable\n\ndont force natural resonance\n\ndont force natural resonance\n\nfall in love w your problems\n\ndont take reality personally\n\n- problems are opportunities.\n\nlet women initiate initiation\n\nbe her best option.
+
+broad or niche?\n\nIf you want to become full, let yourself be empty.\n\nif i dont practice, how do i expect to get better?\n\nif i was a ceo, sleep would be a cultural priority\n\nwho you will become must be rooted in who you are.\n\noffer free work for proof of value to great people\n\na busy calendar, and a busy mind, will destroy you\n\nam i happening to life or is life happening to me?\n\n+ easy choices, hard life, hard choices, easy life\n\nbuild leverage, that's all that matters right now.\n\nreconcile "do what scares you" and regret and risk\n\ni dont want to be just a tech bro that rock climbs\n\nAm I happening to life or is life happening to me?\n\ni dont have to be well known but can be known well\n\ndo what makes you both employable and employerable\n\n@@ would my deathbed self approve?
+
+prescient = principled\n\nmastering sleep event scheduled also for tomorrow.\n\nbudget basic pro ns subscriptions just like a saas\n\nif it aint broke dont fix it = if its broke fix it\n\nyoure going to make mistakes, and thats terrifying\n\nACTION ACTION ACTION you can solve these problems!\n\nwhen you have an insight, you can afford to forget\n\nif you dont forgive, youll hold the weight forever\n\nive learned to accept and embrace the not knowing.\n\nexpand your horizon to include new possibilities..\n\nbut every idea should be allowed to be questioned!\n\nrelationships can be incredibly complex to navigate\n\nmaster the internal game, master the external game.\n\ni want to help myself, and help others that i like.\n\ni want to talk to people whove been there done that\n\ngo to dentist w insurance.
+
+fulfill\n\nwatch the quarters, reduce expenses even more\n\nsure ill help you in this time of need, but..\n\nif you mute, you should really be unfollowing\n\n“if its important, it will come back to you.”\n\n“with great power comes great responsibility”\n\nif you were the other gender youd do the same\n\n"we each bring different things to the table"\n\nif you were the other gender youd do the same\n\nproblem solve and share the solution w others\n\nthe best thing money can buy is peace of mind\n\nif im gonna work to earn, i want to learn too\n\n"life is an adventure disguised as an ordeal"\n\nthere's so much i realize that i didn't know.\n\nmake more and more new interesting mistakes..\n\nlearn the ability to charm a hostile audience\n\nboth within yourself and outside of yourself.\n\njust do your best.
+
+**\n\ni feel new again\n\nBE EXTREMELY YOU\n\nhang out w homies\n\nbe strong be good\n\ndo wardrobe audit\n\ngotta love nuance\n\nevery yes is a no\n\nmeditate 1 minute\n\ndull does not cut\n\nwhen you wanna **\n\n“idk just guess!”\n\n“idk just guess!”\n\n“win and help win”\n\nbe strong and good\n\nbe her best choice\n\nnever hit up girls\n\ndo what is natural\n\nlearn earn or quit\n\n“you are literally\n\ncheck if i need to\n\nbe strong, be good\n\njust be NOT stupid\n\nPROJECT YOUR VOICE\n\nget barefoot shoes\n\nlaughter is divine\n\nwords cant express\n\ngive 10x, take 1x.\n\nsolve the problem.\n\ni feel less rushed\n\nlive in good faith\n\ni feel less rushed\n\nlive in good faith\n\nstasis is suicidal\n\nso what do you do?\n\ni forgot the dream\n\njust solve problems\n\ninner scorecards OP\n\nbe strong.
+
+obviously if youre actually interested to learn more about him *insert cool things* on Feb 5, 2025 at 1:00 PM - 1:30 PM\n\ni just want you dad to consider all the ways this project can go wrong, and if you have a rock solid answer for every point by all means go ahead and lets minimize risk and get 1 unit and prove out the concept, because once you can show success and major growing output for 3 months or so lets 10x the project and reap economies of scale and shit: put the containers in a warehouse, buy our own container truck and shit, and if you show success, investors will have WAYYYY more open pockets\n\n- frame the problem well, break it down, baby steps - satisfice: just do what's "good enough", get it to "good enough" - how to stop the perfectionist cycle: focus on you, be clear about what you want.
+
+"know thyself."\n\na calm mind, a fit body, a house full of love.\n\n“im afraid to face god and say i was a coward”\n\nif you REALLY wanna help people, help yourself\n\nbe so good the hipsters cant help but like you\n\nnow its more chill, like sophomore junior year\n\nyou cant expect love but you can always give it\n\n- follow the fun, what is fun to me, genuinely?\n\neveryone is redeemable, everyone is changeable.\n\nthere is no greater risk than not taking a risk\n\nwhat is obvious to you may be amazing to others\n\nshow vulnerability, from a position of strength\n\nsolve your biggest problems as best as you can.\n\nfind someone who is really good at that problem\n\nthere is so much misunderstanding in this world\n\nbeing wrong is a great thing for a truth-seeker\n\nbe high but still flying under the global radar\n\nstress is telling you something needs to change\n\nloneliness problem?
+
+just solve fun problems?\n\nif youre not willing to be fool, you wont be king\n\nyou are always behind relative to your ideal self\n\nfocus more on creating value than capturing value\n\nits frustrating that i always forget my insights.\n\nmoving notes may only resonate once in a lifetime\n\nyou dont have to make it the same way you lost it\n\nmoving notes may only resonate once in a lifetime\n\nyou dont have to make it the same way you lost it\n\na fit body, a calm mind, and a house full of love.\n\n“i help demographic transform problem to solution”\n\nwomen want an emotional experience, and resources.\n\nhelping people self-actualize in the internet age.\n\none conversation one friend, can change your life.\n\nmake sure everyday i have something social planned\n\ni want to know with conviction what im doing wrong\n\nmeaning is found in motion: understanding * action\n\nbe so good at something so needed.
+
+clarity\n\nby endurance we conquer\n\ni gotta walk, then talk\n\ndefault to NOT thinking\n\nunfollow trisha from ig\n\nby endurance we conquer\n\nevery story has a moral\n\nyou only need 1 project\n\n"diligence > masochism"\n\nfocus on what matters..\n\nto survive is to thrive\n\nseek good explanations.\n\ntoxic positivity is sus\n\nwere in a wisdom famine\n\npages0.5 (atomic habit)\n\nforgiveness is powerful\n\nperfectionism is wrong?\n\nconsistency > intensity\n\n"learn life on the job"\n\nstress is untaken action\n\n"never ship, never know"\n\nbe consistently NOT dumb\n\nlearn from practitioners\n\ni dont chase, i attract.\n\ndo the kian sadeghi test\n\nif its not a hit, switch\n\n“let go, also “hold on””\n\nit should be a nobrainer\n\njobs commencement speech\n\nstress is untaken action\n\n"typing faster problems"\n\ncheck david senra advice\n\n"you can die with todos"\n\nWhat did i learn from **\n\nfeed the beast.
+
+the greatest power is the ability to walk away\n\n- Imagine who you could be, and then aim single-mindedly at that.\n\nsometimes i just need to sell an idea, a guide, not an actual app\n\nthe biggest mistake you can make right now is beating yourself up\n\npursue your genuine interest, find intersections to be more rare.\n\nyou dont have the luxury of not taking risks and being invisible.\n\nmake sure all thingd are in order and at nanas are good before ns\n\nwhat if i get with an older woman, like 32, at network school lol\n\nwhat is 1 influential step that helps to solve the next problems.\n\nfind young men you love, and then also find young women you love.\n\ndont reinvent the wheel, reinvent the parts that need reinvention\n\ndo not create permanent situations out of impermanent situations.\n\nyou cant get to the long game if you cant get past the short game\n\nyou are a gift to this life, you are to love God, family, mission\n\ndull knives dont cut.
+
+idk\n\nhealthy wealthy wise\n\nlife is a team sport\n\nmake better mistakes\n\ngo w your best guess\n\ndont repeat yourself.\n\nnaval, deutsch advice\n\ntry one therapy sesh?\n\nnaval on psychadelics\n\ncourage you cant fake\n\nso whats the way out?\n\n"life is not an exam"\n\n"youre not listening"\n\n80% is better than 0%\n\nproblems are solvable\n\nim iilled by kindness\n\ni dont know shit haha\n\n"case of the mondays"\n\n“how to not burno ut”\n\nproblems are solvable\n\nfollow your curiosity\n\npersuasion > shaming.\n\nwomen WANT better men.\n\nfollow scotkins again?\n\nwhat do we do this for\n\nUpgrade your problems.\n\ncuddle w and eat w lol\n\nupgrade your problems.\n\nwin even if you fail..\n\nbecome a cabin member?\n\nHow to get out of debt\n\nproblems are solvable.\n\nlive so you like you..\n\nspend your love wisely\n\nredemption is possible\n\nbe extremely balanced.\n\nlet the women choose..\n\nyouve been here before\n\nstress clouds the mind\n\nbe open to the opening\n\nkeep it simple stupid!\n\nbe a polymath, combine.\n\nlong term > short term.\n\nclear thinking.
+
+check the insurance list\n\nanything out of peer pressure or neediness i regret\n\n+ verbs not nouns, by dwelling you miss opportunity\n\ni often have great ideas when i take a nap/meditate\n\n~ if i died, what would i have regretted not doing?\n\nskills are means to ends, what is the end though???\n\n- keep to your values, unless you know a better way\n\nthe more powerful you are the less scary life feels\n\ni wish to see life clearly and walk the clear path.\n\nif the idea keeps coming back to you, its important\n\nspend originality in proportion to problem-severity\n\nlife is full of opportunities to exercise judgement\n\nsometimes its simply a lack of procedural knowledge\n\nthere are so many rules that are counterproductive.\n\n- do not look around to others, only look up to God\n\n~ What would my younger and older self want for me?\n\nevery 1 commandment is like a tip for life, a value\n\nflow has to be intelligable has to matter what else\n\nevery no, if you surf the understanding and action,\n\nyou get paid in proportion to the problem you solve\n\ndo what is natural to you.
+
+trite but true.\n\nlearn explanations and solve problems\n\nmeditation is a quality not an action\n\nwhat do i think my long term plan is?\n\ndont let your salience be fucked with\n\nreinvention for maintaining relevance\n\njust create, remove bad, double down.\n\nfocus on what you want to see more of\n\nwhat do your heroes do that you dont?\n\npracticing not being just in my head.\n\nsolve debt loneliness and sexlessness\n\nwrite about top keeps and routine etc\n\nits hard to read the unwritten rules.\n\ni want to work on what really matters\n\nconsider the inaction and opportunity\n\nknowledge -> wealth -> life -> repeat\n\nboils down to how you spend your time\n\ngreatness = being strong, being moral\n\ncreate a good life through good days.\n\ndouble down on the people that remain\n\nmusic and friends are soul nourishers\n\nignore so much only the good remains.\n\n"the scales will fall from your eyes"\n\n1 problem 1 solution 1 person 1 sale.\n\nfocus on what you want to see more of\n\nfocus on what you want to see more of\n\n"money comes as a result of service."\n\nask wayne to come to problem-solvers.\n\nlife is the best game youll ever play\n\nwhat do you share with people vs not?\n\nif its actionable, try it.
+
+get off this app\n\nwomen want sex, just with the right guys.\n\nyou dont even know what people truly like\n\nalso hang out with high status people too\n\nbe capable of being bad, but dont be bad.\n\nthe project should feel like an nobrainer\n\nfailure is irrelevant unless catastrophic\n\nfailure is irrelevant unless catastrophic\n\ntrim pubes lol and find natural depderant\n\npostivei transformations = ethical wealth\n\n00 problems are solvable opportunities!!!\n\nembrace postive change and positive order\n\na man is as attractive as he is non-needy\n\ngo to what energizes, not what drains you\n\nlet me be alone to untangle my life first\n\nyou still need to work but leverage first\n\nforgive them father, for they do not know\n\nthe question is where do we go from here?\n\n+ to get better at anything, do 100 thing\n\ni dont wanna spend sunday dreading monday\n\n- if I died tonight, what would I regret?\n\nwe can wield the internet so much better.\n\n~ 5) “I wish I had let myself be happier”\n\nthere are infinite women, remember this..\n\nprotect your time below your hourly rate.\n\ni dont wanna leave the present moment lol\n\nwe hurt and heal each other all the time.\n\ndon’t bullshit yourself, you can do this.\n\ntrust your gut when the head aint working\n\nit's embarrassing to be seen mid-process.\n\ncertain kinds of stress are good for you.\n\ni learned that things can always be worse\n\nhow do you be social but also noncoercive\n\nyou are allowed.
+
+do less, more\n\nwe can be so much better than we are\n\nShow success before asking for help.\n\ncreating good days, for a good life.\n\nfocus on what you want to see more of\n\ndo your best, and the best will come.\n\nlearn explanations and solve problems\n\nmeditation is a quality not an action\n\nwhat do i think my long term plan is?\n\ndont let your salience be fucked with\n\njust create, remove bad, double down.\n\nfocus on what you want to see more of\n\nwhat do your heroes do that you dont?\n\npracticing not being just in my head.\n\nsolve debt loneliness and sexlessness\n\nwrite about top keeps and routine etc\n\nits hard to read the unwritten rules.\n\ni want to work on what really matters\n\nconsider the inaction and opportunity\n\nknowledge -> wealth -> life -> repeat\n\nlean into life being a game of games:\n\ngreatness = being strong, being moral\n\ncreate a good life through good days.\n\nlaundry and wardrobe audit and thrift\n\nmusic and friends are soul nourishers\n\nignore so much only the good remains.\n\nmore feeling and action, less thinking\n\n- problems, then systems, not "goals."\n\nfocus on what you want to see more of.\n\n- every new day, you give it your all.\n\nthere are so many ways you can improve\n\ncheck uncle rob again about freelance.\n\ndo less, better\n\nfinish one pace\n\ntrim as i grow.\n\nget baking soda\n\nget more coffee\n\nbuy baking soda\n\nsurf the chaos.\n\n"no is a skill"\n\nhell yeah or no\n\nhell yeah or no\n\nhell yeah or no\n\nhumble up!
+
+perservere\n\nproductivity guide: gaiman boredom\n\nserenity prayer grounds centers me\n\npractical solutions, not critique.\n\nmake it easy for people to say yes\n\nwhats the simple elegant solution?\n\nwill my deathbed self regret this?\n\nbalancing what i notice is missing\n\nyour reputation should precede you\n\nmeditation is a bandwidth practice\n\nwin people over with sheer ability\n\nthe seed of change is found within\n\nevery new day is an infinite reset\n\nmassage people at ns for cash lol?\n\ndefine your fears, not your goals.\n\nis loneliness now a problem again?\n\nthere is so much life offline too.\n\n“obvious to you amazing to others”\n\nlots of shit before its “the shit”\n\nwork at the limits of your ability\n\nthere is no leaderboard for wisdom\n\nmastering sleep event for tomorrow\n\nthe right thing may be a nobrainer\n\ndont sell what you dont believe in\n\nmen be useful, women be nourishing\n\nBut i still want to build and help\n\nyou cant be everything to everyone\n\nthe interested become interesting.\n\nthe internet is a sword to wield..\n\nwe can create more knowledge yuh..\n\npeople want to help, let them help\n\nhow to generate options for women?\n\nput rozo into yourchore eventually\n\nif you were them you’d do the same\n\npractice building practice selling\n\n"i was lost in more ways than one"\n\nto gain self-mastery would be cool\n\ndont only use 1 side of your brain\n\ndont only use 1 side of your brain\n\n"be so good they can't ignore you"\n\ndont be invisible.
+
+take on fewer desires.\n\nover-scheduling = under-playing.\n\ncorrect errors, we are fallible.\n\ngood lives are made of good days\n\npositive peer pressure is ideal.\n\n"i dream of wealth, love, peace"\n\neverything is a work in progress\n\nnever let a mistake go to waste.\n\nopportunities != guarantees haha\n\ni was naive about my own naivety\n\nopportunities != guarantees haha\n\ni was naive about my own naivety\n\n"quality will find its audience"\n\nbecause every idea can be wrong.\n\nimperfections guide improvement.\n\ni am hellbent on a heavenly life\n\n-we earn with virtue, open to all\n\nharmonizing quantity and quality.\n\ncreate to overwhelm, curate to **\n\nsolve problems, through leverage.\n\nA 4 = 1 = say no, have boundaries\n\nsuccessful, productive -> wealthy\n\nyou are the sum of your decisions\n\nhelping those who help themselves\n\nwork on hower for wealth creation\n\nbe so good they can't ignore you.\n\ndo more X, crazy people live on X\n\ndo you need more or less of this?\n\nbuy floss threaders or pipe floss\n\nlook at balajis post about agency\n\nstay, recruit, contribute mostly.\n\nlong term reputation matters more\n\n"shit is hitting the fan" now lol\n\nyou can't lose if you don't quit.\n\nknowing what to prompt is wisdom.\n\nsome things can be show not tell.\n\n“be so good they cant ignore you”\n\nmake sacrifices for the long term\n\ntake risks, but never go to zero.\n\ni trust people that are critical.\n\nmistakes are portals of discovery\n\nthis is not the life i want.
+
+solve that problem\n\ncan you pay for ns stay WITH ns points?\n\n"enough LARPing can make it not a LARP"\n\nwork customer by customer, one by one..\n\nwin and help win: productive generosity\n\nbut what are you bringing to the table?\n\ncalm mind, fit body, house full of love\n\ndogs need walks and we think we dont?!?\n\nfind a problem and fall in love with it\n\nbeen hurt to many times to care anymore\n\nwe offer each other blindspot detection\n\nif you have nothing to say, dont say it\n\ni want to live out of a positive spirit\n\nim focusing on Character and Friendship\n\ni was sick in the head, im better now..\n\nim focusing on Character and Friendship\n\ni was sick in the head, im better now..\n\ni tend to blow things out of proportion\n\nlife is dynamic, its not all or nothing\n\ninstead of goals, try problem vectors..\n\nbut it's the best way in the long run..\n\n"if there is doubt, there is no doubt."\n\nbe free from the shackles of expectation\n\nremove unneeded expenses from life port.\n\na good heuristic is energizer vs drainer\n\nam i lacking in understanding or action?\n\nwork with dad after i move out of mamas?\n\nall you can do is prep and act and learn\n\nto get better at anything, do 100 of it.\n\ndouble down on the remaining IG X people\n\ncreativity and courage are what you need\n\nbe sure theres a guaranteed market of 1.\n\nbe free from the shackles of expectation\n\nbe so good you arent an opportunity cost\n\njust solve problems and show that you do\n\nclarity of thought leads to great action\n\nsolving the bad times creates good times\n\nwe have so much to learn from each other\n\nthrowing away ancient wisdom is foolish.\n\nwise goals, wise strategies, wise values\n\ni need to balance listening and speaking\n\nwhat scares me, what am i avoiding?

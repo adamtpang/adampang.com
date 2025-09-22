@@ -1,0 +1,359 @@
+---
+layout: default
+---
+
+<style>
+    .hero-image {
+        width: 400px;
+        height: 400px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin: 0 auto 2rem;
+        border: 3px solid var(--primary);
+        box-shadow: var(--shadow);
+        background: var(--glass);
+        backdrop-filter: blur(10px);
+    }
+
+    .music-player {
+        background: var(--glass);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        backdrop-filter: blur(15px);
+        box-shadow: var(--shadow);
+    }
+
+    .music-controls {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .play-button {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: var(--primary);
+        border: none;
+        color: var(--white);
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 16px rgba(33, 150, 243, 0.3);
+    }
+
+    .play-button:hover {
+        background: var(--accent);
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(13, 71, 161, 0.4);
+    }
+
+    .track-info {
+        flex: 1;
+        text-align: left;
+    }
+
+    .track-title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 0.25rem;
+        color: var(--primary);
+    }
+
+    .track-artist {
+        font-size: 1rem;
+        opacity: 0.8;
+        color: var(--secondary);
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 6px;
+        background: rgba(33, 150, 243, 0.2);
+        border-radius: 3px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .progress-fill {
+        height: 100%;
+        background: var(--primary);
+        width: 0%;
+        border-radius: 3px;
+        transition: width 0.1s ease;
+    }
+
+    .time-display {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        margin-top: 0.75rem;
+        color: var(--text);
+        font-weight: 500;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem;
+        text-decoration: none;
+        color: var(--text);
+        transition: all 0.3s ease;
+        font-size: 1.1rem;
+        background: var(--glass);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        backdrop-filter: blur(15px);
+    }
+
+    .link:hover {
+        color: var(--primary);
+        border-color: var(--primary);
+        background: rgba(33, 150, 243, 0.08);
+    }
+
+    .link.highlighted {
+        background: rgba(33, 150, 243, 0.15);
+        border-color: var(--primary);
+        box-shadow: 0 4px 16px rgba(33, 150, 243, 0.2);
+    }
+
+    .link.highlighted:hover {
+        background: rgba(33, 150, 243, 0.25);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(33, 150, 243, 0.3);
+    }
+
+    .link-emoji {
+        font-size: 1.2rem;
+        width: 1.5rem;
+        text-align: center;
+    }
+
+    .link-text {
+        font-weight: 500;
+        color: inherit;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+        .hero-image {
+            width: 250px;
+            height: 250px;
+        }
+
+        .music-player {
+            padding: 1.5rem;
+        }
+
+        .links {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .track-info,
+    .link-text {
+        font-family: 'Syne', sans-serif;
+    }
+</style>
+
+<div class="container">
+    <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image">
+
+    <div class="music-player">
+        <div class="music-controls">
+            <button class="play-button" id="playButton">▶</button>
+            <div class="track-info">
+                <div class="track-title">Punksong</div>
+                <div class="track-artist">CFCF</div>
+            </div>
+        </div>
+        <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="time-display">
+            <span id="currentTime">0:00</span>
+            <span id="duration">--:--</span>
+        </div>
+    </div>
+
+    <div class="links">
+        {% for link in site.data.links %}
+        <a href="{{ link.url }}" class="link{% if link.highlight %} highlighted{% endif %}" {% if link.target %}target="{{ link.target }}" {% endif %}>
+            <span class="link-emoji">{{ link.emoji }}</span>
+            <span class="link-text">{{ link.name }}</span>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+<audio id="audioPlayer" preload="none" loop>
+    <source src="{{ '/assets/song.mp3' | relative_url }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    const audio = document.getElementById('audioPlayer');
+    const playButton = document.getElementById('playButton');
+    const progressBar = document.getElementById('progressBar');
+    const progressFill = document.getElementById('progressFill');
+    const currentTimeEl = document.getElementById('currentTime');
+    const durationEl = document.getElementById('duration');
+
+    // Format time helper
+    function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, '0')}`;
+    }
+
+    // Update duration when metadata loads
+    audio.addEventListener('loadedmetadata', () => {
+        if (audio.duration && isFinite(audio.duration)) {
+            durationEl.textContent = formatTime(audio.duration);
+            console.log('Audio loaded successfully, duration:', audio.duration);
+        } else {
+            console.warn('Invalid audio duration:', audio.duration);
+            durationEl.textContent = '--:--';
+        }
+    });
+
+    // Audio error handling
+    audio.addEventListener('error', (e) => {
+        console.error('Audio error:', e);
+        console.error('Audio error code:', audio.error?.code);
+        console.error('Audio error message:', audio.error?.message);
+        console.error('Audio src:', audio.src);
+        console.error('Audio currentSrc:', audio.currentSrc);
+
+        // Reset UI on error
+        playButton.textContent = '▶';
+        progressFill.style.width = '0%';
+        currentTimeEl.textContent = '0:00';
+        durationEl.textContent = '--:--';
+
+        // Update track info to show error
+        document.querySelector('.track-title').textContent = 'Audio Error';
+        document.querySelector('.track-artist').textContent = 'File not found or corrupted';
+    });
+
+    // Audio can play through
+    audio.addEventListener('canplaythrough', () => {
+        console.log('Audio can play through');
+    });
+
+    // Handle audio loading issues
+    audio.addEventListener('loadstart', () => {
+        console.log('Audio loading started...');
+    });
+
+    // Handle when audio data starts loading
+    audio.addEventListener('loadeddata', () => {
+        console.log('Audio data loaded');
+    });
+
+    // Handle audio stalling
+    audio.addEventListener('stalled', () => {
+        console.warn('Audio loading stalled');
+    });
+
+    // Handle audio waiting for data
+    audio.addEventListener('waiting', () => {
+        console.log('Audio waiting for more data');
+    });
+
+    // Test if audio file is accessible
+    fetch("{{ '/assets/song.mp3' | relative_url }}", { method: 'HEAD' })
+        .then(response => {
+            if (response.ok) {
+                console.log('Audio file is accessible via HTTP');
+                console.log('Content-Type:', response.headers.get('content-type'));
+                console.log('Content-Length:', response.headers.get('content-length'));
+            } else {
+                console.error('Audio file HTTP check failed:', response.status, response.statusText);
+            }
+        })
+        .catch(error => {
+            console.error('Audio file fetch test failed:', error);
+        });
+
+    // Play/pause functionality
+    playButton.addEventListener('click', async () => {
+        try {
+            if (audio.paused) {
+                console.log('Attempting to play audio...');
+
+                // Load the audio first if not loaded
+                if (audio.readyState === 0) {
+                    audio.load();
+                    await new Promise(resolve => {
+                        audio.addEventListener('canplay', resolve, { once: true });
+                    });
+                }
+
+                audio.volume = 0.8; // Set volume to 80% (20% reduction)
+                await audio.play();
+                playButton.textContent = '⏸';
+                console.log('Audio playing successfully');
+            } else {
+                audio.pause();
+                playButton.textContent = '▶';
+                console.log('Audio paused');
+            }
+        } catch (error) {
+            console.error('Error playing audio:', error);
+
+            // Show user-friendly message
+            playButton.textContent = '❌';
+            setTimeout(() => {
+                playButton.textContent = '▶';
+            }, 2000);
+
+            // Update track info to show error
+            document.querySelector('.track-title').textContent = 'Audio Unavailable';
+            document.querySelector('.track-artist').textContent = 'Check console for details';
+        }
+    });
+
+    // Update progress bar and time
+    audio.addEventListener('timeupdate', () => {
+        if (audio.duration && isFinite(audio.duration) && audio.duration > 0) {
+            const progress = (audio.currentTime / audio.duration) * 100;
+            progressFill.style.width = `${Math.min(progress, 100)}%`;
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+        } else {
+            // If duration is unknown, just show current time
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+            progressFill.style.width = '0%';
+        }
+    });
+
+    // Click on progress bar to seek
+    progressBar.addEventListener('click', (e) => {
+        const rect = progressBar.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const clickPercent = clickX / rect.width;
+        audio.currentTime = clickPercent * audio.duration;
+    });
+
+    // Reset play button when song ends
+    audio.addEventListener('ended', () => {
+        playButton.textContent = '▶';
+        progressFill.style.width = '0%';
+        currentTimeEl.textContent = '0:00';
+    });
+</script>
