@@ -1,5 +1,5 @@
 ---
-title: "insecurity."
+title: "Insecurity."
 slug: "insecurity"
 ---
 

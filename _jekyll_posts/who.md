@@ -1,5 +1,5 @@
 ---
-title: "🤷‍♂️Who is Adam?"
+title: "🤷‍♂️Who Is Adam?"
 slug: "who"
 ---
 

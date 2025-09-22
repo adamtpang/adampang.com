@@ -1,5 +1,5 @@
 ---
-title: "science fiction."
+title: "Science Fiction."
 slug: "scifi"
 ---
 

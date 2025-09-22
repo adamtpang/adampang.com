@@ -1,5 +1,5 @@
 ---
-title: "🤔philosophy."
+title: "🤔Philosophy."
 slug: "philosophy"
 ---
 

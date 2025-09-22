@@ -1,5 +1,5 @@
 ---
-title: "⌨️productivity pr0n"
+title: "⌨️Productivity Pr0N"
 slug: "productivity"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "😍the beautiful"
+title: "😍The Beautiful"
 slug: "beauty"
 ---
 

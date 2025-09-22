@@ -1,5 +1,5 @@
 ---
-title: "🏋️‍♂️stoicism."
+title: "🏋️‍♂️Stoicism."
 slug: "stoicism"
 ---
 

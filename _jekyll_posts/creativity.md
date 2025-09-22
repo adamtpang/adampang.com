@@ -1,5 +1,5 @@
 ---
-title: "creativity"
+title: "Creativity"
 slug: "creativity"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Welcome to My Blog"
+title: "Welcome To My Blog"
 ---
 
 ## Why Blog?

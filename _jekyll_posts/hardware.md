@@ -1,5 +1,5 @@
 ---
-title: "hardware"
+title: "Hardware"
 slug: "hardware"
 ---
 

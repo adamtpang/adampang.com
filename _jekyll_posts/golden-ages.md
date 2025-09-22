@@ -1,5 +1,5 @@
 ---
-title: golden ages
+title: "Golden Ages"
 date: 2025-08-14
 ---
 <!--StartFragment-->

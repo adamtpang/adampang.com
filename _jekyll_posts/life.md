@@ -1,5 +1,5 @@
 ---
-title: "life"
+title: "Life"
 slug: "life"
 ---
 

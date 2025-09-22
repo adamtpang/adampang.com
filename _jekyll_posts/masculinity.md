@@ -1,5 +1,5 @@
 ---
-title: "💳personal finances"
+title: "💳Personal Finances"
 slug: "finances"
 ---
 

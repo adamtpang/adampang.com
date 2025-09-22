@@ -1,5 +1,5 @@
 ---
-title: "✏️Why I'm writing a blog."
+title: "✏️Why I'M Writing A Blog."
 slug: "why"
 ---
 

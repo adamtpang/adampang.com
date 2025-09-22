@@ -1,5 +1,5 @@
 ---
-title: "brazilian jiu jitsu"
+title: "Brazilian Jiu Jitsu"
 slug: "bjj"
 ---
 

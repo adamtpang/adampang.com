@@ -1,5 +1,5 @@
 ---
-title: "👨‍🏫heroes/teachers."
+title: "👨‍🏫Heroes/Teachers."
 slug: "heroes"
 ---
 

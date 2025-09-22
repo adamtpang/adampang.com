@@ -1,5 +1,5 @@
 ---
-title: "🗣️advice to myself."
+title: "🗣️Advice To Myself."
 slug: "advice"
 ---
 

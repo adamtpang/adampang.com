@@ -1,5 +1,5 @@
 ---
-title: "🤓new money lens"
+title: "🤓New Money Lens"
 slug: "money"
 ---
 

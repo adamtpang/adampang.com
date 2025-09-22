@@ -1,5 +1,5 @@
 ---
-title: "My favorite music"
+title: "My Favorite Music"
 date: 2025-08-11
 ---
 

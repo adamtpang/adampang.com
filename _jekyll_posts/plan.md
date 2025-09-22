@@ -1,5 +1,5 @@
 ---
-title: "🧭6 month plan"
+title: "🧭6 Month Plan"
 slug: "plan"
 ---
 

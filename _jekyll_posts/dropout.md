@@ -1,5 +1,5 @@
 ---
-title: "🎓dropout."
+title: "🎓Dropout."
 slug: "dropout"
 ---
 

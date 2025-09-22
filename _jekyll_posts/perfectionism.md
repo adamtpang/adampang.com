@@ -1,5 +1,5 @@
 ---
-title: "perfectionism."
+title: "Perfectionism."
 slug: "perfectionism"
 ---
 

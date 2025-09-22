@@ -1,5 +1,5 @@
 ---
-title: "💯accountability."
+title: "💯Accountability."
 slug: "accountability"
 ---
 

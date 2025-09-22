@@ -1,5 +1,5 @@
 ---
-title: "📍where do you live?"
+title: "📍Where Do You Live?"
 slug: "location"
 ---
 

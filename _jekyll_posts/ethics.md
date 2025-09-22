@@ -1,5 +1,5 @@
 ---
-title: "🌅the good"
+title: "🌅The Good"
 slug: "good"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "💉addiction"
+title: "💉Addiction"
 slug: "addiction"
 ---
 

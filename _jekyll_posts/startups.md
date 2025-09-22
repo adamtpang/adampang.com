@@ -1,5 +1,5 @@
 ---
-title: "💻startups."
+title: "💻Startups."
 slug: "startups"
 ---
 

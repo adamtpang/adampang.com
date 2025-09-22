@@ -1,5 +1,5 @@
 ---
-title: "mimetic theory."
+title: "Mimetic Theory."
 slug: "mimetic"
 ---
 

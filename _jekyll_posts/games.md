@@ -1,5 +1,5 @@
 ---
-title: "🎮games"
+title: "🎮Games"
 slug: "games"
 ---
 

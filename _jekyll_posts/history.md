@@ -1,5 +1,5 @@
 ---
-title: "history."
+title: "History."
 slug: "history"
 ---
 

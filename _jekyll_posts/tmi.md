@@ -1,5 +1,5 @@
 ---
-title: "T.M.I. online?"
+title: "T.M.I. Online?"
 date: 2025-08-04
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "childhood"
+title: "Childhood"
 slug: "childhood"
 ---
 

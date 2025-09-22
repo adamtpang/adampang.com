@@ -1,5 +1,5 @@
 ---
-title: "😓depression"
+title: "😓Depression"
 slug: "depression"
 ---
 

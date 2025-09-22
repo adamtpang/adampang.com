@@ -1,5 +1,5 @@
 ---
-title: "laws."
+title: "Laws."
 slug: "laws"
 ---
 

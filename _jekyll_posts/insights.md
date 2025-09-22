@@ -1,5 +1,5 @@
 ---
-title: "insights."
+title: "Insights."
 slug: "insights"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "✍️on writing"
+title: "✍️On Writing"
 slug: "writing"
 ---
 

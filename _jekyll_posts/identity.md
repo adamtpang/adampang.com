@@ -1,5 +1,5 @@
 ---
-title: "identity."
+title: "Identity."
 slug: "identity"
 ---
 

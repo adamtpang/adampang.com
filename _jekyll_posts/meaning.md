@@ -1,5 +1,5 @@
 ---
-title: "🔥meaning."
+title: "🔥Meaning"
 slug: "meaning"
 ---
 

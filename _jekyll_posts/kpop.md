@@ -1,5 +1,5 @@
 ---
-title: "💃saving kpop."
+title: "💃Saving Kpop."
 slug: "kpop"
 ---
 

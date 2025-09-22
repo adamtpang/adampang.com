@@ -1,5 +1,5 @@
 ---
-title: "❓What to write about..."
+title: "❓What To Write About..."
 slug: "what"
 ---
 

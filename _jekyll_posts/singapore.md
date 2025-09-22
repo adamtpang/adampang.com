@@ -1,5 +1,5 @@
 ---
-title: "🏝️singapore"
+title: "🏝️Singapore"
 slug: "singapore"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "✂️curation."
+title: "✂️Curation."
 slug: "curation"
 ---
 

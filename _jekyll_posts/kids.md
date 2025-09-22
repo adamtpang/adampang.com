@@ -1,5 +1,5 @@
 ---
-title: "kids."
+title: "Kids."
 slug: "kids"
 ---
 

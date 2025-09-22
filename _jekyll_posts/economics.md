@@ -1,5 +1,5 @@
 ---
-title: "🏦micro economics."
+title: "🏦Micro Economics."
 slug: "economics"
 ---
 
