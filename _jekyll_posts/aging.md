@@ -4,74 +4,44 @@ date: 2025-08-14
 image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
 ---
 
-idk.
+# Aging: Substance Over Time
 
-idk.
+*August 14, 2025*
 
-video games?
+I've been thinking about aging lately—not in the way most people do, with resignation and fear, but with curiosity and defiance. There's something fascinating about the arbitrary nature of chronological age versus the malleable reality of biological age.
 
-video games?
+## The Numbers Game
 
-how long does he have?
+Age is just a number, but which number are we really talking about? I can influence my epigenetic age, and honestly, I don't care much about my chronological age anymore. It's like separating time from substance—what matters isn't how many years you've accumulated, but how much life you've actually lived within those years.
 
-Living up to potential.
+Looking at Forbes lists organized by age tells an interesting story. Some people accomplish more in their twenties than others do in decades. Meanwhile, I sometimes feel like I'm late to the party, watching younger people achieve success while I'm still figuring things out. But maybe that's the wrong lens entirely.
 
-increasing healthspans.
+## The Healthspan Question
 
-same as gym, business, what else?
+This isn't really about life extension—it's about youth extension. Longevity means more life *and* a longer healthspan. Who doesn't want to be healthy? The goal isn't necessarily to live forever, but to make death optional while we're working on the project of being fully alive.
 
-same as gym, business, what else?
+Imagine being like Aragorn: 80+ years old but young in body, carrying the wisdom of age and experience. There's something vampiric about this idea—the accumulation of knowledge and perspective without the physical decay. Maybe that's why the archetype is so compelling.
 
-And why..\n\nFeeling like im late.
+## The Competence Curve
 
-hes a good curator because hes quite sourced.
+Here's a good argument for the "don't die" approach: humans take an incredibly long time to ramp up in competence. Just as my life gets better at compiling experiences into wisdom, why cut it short? It seems wasteful to spend decades learning how to live, only to have the body fail right when you're getting good at it.
 
-hes a good curator because hes quite sourced.
+Those close to death fear little—there's a freedom that comes with age, a gradual caring less about what others think. But there are also tradeoffs. Just because someone is old doesn't automatically make them wise. Age brings vulnerability alongside strength, both physical fragility and existential resilience.
 
-You can always die yes, but make death optional?
+## The Bigger Picture
 
-i can influence my epigenetic age, dont care so much about my chronological age.
+In 200 years, there'll be a whole new set of people roaming this earth. That's both sobering and liberating. It makes me think about what really matters—not the accumulation of years, but the substance packed within them.
 
-i can influence my epigenetic age, dont care so much about my chronological age.
+Maybe as we get older and see ourselves in other older people, they become more malleable in our eyes. We start asking, "Why don't you do this? Why don't you change?" Perhaps we project our own unrealized potential onto them, seeing possibilities where they see limitations.
 
-or farbood nivi?\n\nsport is a release valve for teststerone aggression and violence.
+## The Release Valve
 
-like youth extension, not life extension\n\nlongevity (more life and longer healthspan).
+Sports serve as a release valve for testosterone, aggression, and violence—channeling destructive energy into constructive competition. Maybe thinking about aging needs a similar outlet. Instead of letting the fear of time passing consume us, we can redirect that energy into optimizing the time we have.
 
-hes taking note of biomarkers, and once 1 critical organ fails he dead, so whats the projection?
+## Quality Over Quantity
 
-sometiems things can be catalysts for violence like stanford prison experiment?\n\nread ayn rands reading listt?
+The question isn't just how long we live, but how much of that time constitutes actual living. Better people, better philosophy, better use of the years we're given. The elderly can be both physically vulnerable and mentally formidable—it's a paradox worth embracing rather than fearing.
 
-sometiems things can be catalysts for violence like stanford prison experiment?\n\nread ayn rands reading listt?
+In the end, it comes down to this: substance, not time. The goal isn't to collect years like trophies, but to make each year count. Whether that's through better health, deeper relationships, meaningful work, or simply the wisdom to know what matters and what doesn't.
 
-living with clarity calm mind fit body house of love?\n\nsport is a release valve for teststerone aggression and violence.
-
-i can seperate time vs substance, chronological vs biological\n\n
-
-and thats just quantity but how much or that quantity was quality?
-
-old people are physicaly vulnerable and both existentally mentally strong and weak\n\nwhats bryan johnsons's slope to yint expected death?
-
-imagine being like aragorn: 80+ years old and young im body, but with the wisdom of age and experience, like a vampire, this is why theyre attractive to women i feel.
-
-i can seperate time vs substance, chronological vs biological\n\nwrite about death, we can all die of course, accepting the possibility of death, but still working on the project of life extension, who doesnt wanna be healthy?
-
-i also wanna get taller\n\n"help my elderly auntie setup her channels/internet" $50\n\nas i get older/more experience, my life compiler gets better\n\nthose close to death fear little, so it gets easier over time to not give a shit lol.
-
-better people too (philosophy)\n\ns is full of accomplished older women, and unaccomplished younger men haha..\n\njust because john is old doesnt mean hes wise per se, there seems to be tradeoffs idk\n\nShould you do the “dont die” thing and slow your aging and reverse it?
-
-Feeling like its over, because younger people are more successful than i am, and im older than them.\n\na good argument for dontdie is that humans take a long time to ramp up in competence, good to extend healthspan and get the high up people having more time\n\nage is a number how many years have you actually lived?
-
-maybe as you get older, and see yourself in older people, they become more seen to yourself as malleable, like "why dont you do this?"
-
-in 200 years therell be a whole new set of people roaming this earth
-
-looking at the forbes, PER AGE
-
-in 200 years therell be a whole new set of people roaming this earth
-
-looking at the forbes, PER AGE
-
-maybe as you get older, and see yourself in older people, they become more seen to yourself as malleable, like "why dont you do this?"
-
-in 200 years therell be a whole new set of people roaming this earth\n\ngive ages of each exemplar\n\nmaybe as you get older, and see yourself in older people, they become more seen to yourself as malleable, like "why dont you do this?"\n\nold people look like turtles lol\n\ni never thought id get older haha, i was really\n\nold people can use skill.supply to get in person tech help\n\nas i get older/more experience, my life compiler gets better\n\nsubstance, not time.
+The aging game isn't about winning or losing—it's about playing it well, for as long as we possibly can.    

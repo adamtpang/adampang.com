@@ -1,0 +1,77 @@
+---
+title: "Aging"
+date: 2025-08-14
+image: https://i.pinimg.com/736x/c0/92/c5/c092c57320c42e8d55af83f9d5306314.jpg
+---
+
+idk.
+
+idk.
+
+video games?
+
+video games?
+
+how long does he have?
+
+Living up to potential.
+
+increasing healthspans.
+
+same as gym, business, what else?
+
+same as gym, business, what else?
+
+And why..\n\nFeeling like im late.
+
+hes a good curator because hes quite sourced.
+
+hes a good curator because hes quite sourced.
+
+You can always die yes, but make death optional?
+
+i can influence my epigenetic age, dont care so much about my chronological age.
+
+i can influence my epigenetic age, dont care so much about my chronological age.
+
+or farbood nivi?\n\nsport is a release valve for teststerone aggression and violence.
+
+like youth extension, not life extension\n\nlongevity (more life and longer healthspan).
+
+hes taking note of biomarkers, and once 1 critical organ fails he dead, so whats the projection?
+
+sometiems things can be catalysts for violence like stanford prison experiment?\n\nread ayn rands reading listt?
+
+sometiems things can be catalysts for violence like stanford prison experiment?\n\nread ayn rands reading listt?
+
+living with clarity calm mind fit body house of love?\n\nsport is a release valve for teststerone aggression and violence.
+
+i can seperate time vs substance, chronological vs biological\n\n
+
+and thats just quantity but how much or that quantity was quality?
+
+old people are physicaly vulnerable and both existentally mentally strong and weak\n\nwhats bryan johnsons's slope to yint expected death?
+
+imagine being like aragorn: 80+ years old and young im body, but with the wisdom of age and experience, like a vampire, this is why theyre attractive to women i feel.
+
+i can seperate time vs substance, chronological vs biological\n\nwrite about death, we can all die of course, accepting the possibility of death, but still working on the project of life extension, who doesnt wanna be healthy?
+
+i also wanna get taller\n\n"help my elderly auntie setup her channels/internet" $50\n\nas i get older/more experience, my life compiler gets better\n\nthose close to death fear little, so it gets easier over time to not give a shit lol.
+
+better people too (philosophy)\n\ns is full of accomplished older women, and unaccomplished younger men haha..\n\njust because john is old doesnt mean hes wise per se, there seems to be tradeoffs idk\n\nShould you do the “dont die” thing and slow your aging and reverse it?
+
+Feeling like its over, because younger people are more successful than i am, and im older than them.\n\na good argument for dontdie is that humans take a long time to ramp up in competence, good to extend healthspan and get the high up people having more time\n\nage is a number how many years have you actually lived?
+
+maybe as you get older, and see yourself in older people, they become more seen to yourself as malleable, like "why dont you do this?"
+
+in 200 years therell be a whole new set of people roaming this earth
+
+looking at the forbes, PER AGE
+
+in 200 years therell be a whole new set of people roaming this earth
+
+looking at the forbes, PER AGE
+
+maybe as you get older, and see yourself in older people, they become more seen to yourself as malleable, like "why dont you do this?"
+
+in 200 years therell be a whole new set of people roaming this earth\n\ngive ages of each exemplar\n\nmaybe as you get older, and see yourself in older people, they become more seen to yourself as malleable, like "why dont you do this?"\n\nold people look like turtles lol\n\ni never thought id get older haha, i was really\n\nold people can use skill.supply to get in person tech help\n\nas i get older/more experience, my life compiler gets better\n\nsubstance, not time.
