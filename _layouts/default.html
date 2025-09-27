@@ -14,22 +14,48 @@
     
     <style>
         :root {
-            --white: #ffffff;
-            --light-blue: #e3f2fd;
-            --blue: #2196f3;
-            --dark-blue: #1976d2;
-            --navy: #0d47a1;
-            --gray: #f5f5f5;
-            --dark-gray: #333333;
+            /* Modern color palette: E63946-F1FAEE-A8DADC-457B9D-1D3557 */
+            --background: #F1FAEE; /* soft cream */
+            --foreground: #1D3557; /* dark navy */
+            --card: #F1FAEE;
+            --card-foreground: #1D3557;
+            --primary: #457B9D; /* medium blue */
+            --primary-foreground: #F1FAEE;
+            --secondary: #A8DADC; /* light blue/teal */
+            --secondary-foreground: #1D3557;
+            --muted: #E6F4F1;
+            --muted-foreground: #4A6572;
+            --accent: #A8DADC; /* light blue/teal */
+            --accent-foreground: #1D3557;
+            --destructive: #E63946; /* vibrant red */
+            --destructive-foreground: #F1FAEE;
+            --border: #C7E0DC;
+            --input: #C7E0DC;
+            --ring: #457B9D;
+            --glass: rgba(168, 218, 220, 0.08);
+            --shadow: 0 8px 32px rgba(69, 123, 157, 0.15);
+        }
 
-            --primary: var(--blue);
-            --secondary: var(--dark-blue);
-            --accent: var(--navy);
-            --bg: var(--white);
-            --text: var(--dark-gray);
-            --glass: rgba(33, 150, 243, 0.05);
-            --border: rgba(33, 150, 243, 0.2);
-            --shadow: 0 8px 32px rgba(33, 150, 243, 0.15);
+        .dark {
+            --background: #1D3557; /* dark navy */
+            --foreground: #F1FAEE; /* soft cream */
+            --card: #1D3557;
+            --card-foreground: #F1FAEE;
+            --primary: #A8DADC; /* light blue/teal */
+            --primary-foreground: #1D3557;
+            --secondary: #2B4C6B; /* darker version of medium blue */
+            --secondary-foreground: #F1FAEE;
+            --muted: #2B4C6B;
+            --muted-foreground: #B8D4D6;
+            --accent: #457B9D; /* medium blue */
+            --accent-foreground: #F1FAEE;
+            --destructive: #FF4757; /* brighter red for dark mode */
+            --destructive-foreground: #F1FAEE;
+            --border: #2B4C6B;
+            --input: #2B4C6B;
+            --ring: #A8DADC;
+            --glass: rgba(69, 123, 157, 0.08);
+            --shadow: 0 8px 32px rgba(168, 218, 220, 0.15);
         }
 
         * {
@@ -38,26 +64,48 @@
             box-sizing: border-box;
         }
 
+        html {
+            transition: background-color 150ms ease, color 150ms ease;
+        }
+
         body {
             font-family: 'Syne', sans-serif;
             text-transform: lowercase;
-            background: white;
-            color: var(--text);
+            background: var(--background);
+            color: var(--foreground);
             min-height: 100vh;
             display: flex;
             align-items: flex-start;
             justify-content: center;
             position: relative;
             overflow-x: hidden;
-            padding-top: 2rem;
+            padding-top: 5rem;
+            transition: background-color 150ms ease, color 150ms ease;
         }
 
         .container {
-            max-width: 600px;
+            max-width: 800px;
             width: 90%;
             text-align: left;
             animation: fadeIn 1s ease;
-            padding: 2rem 0;
+            padding: 2rem 1rem;
+            margin: 0 auto;
+        }
+
+        /* Better typography */
+        h1, h2, h3, h4, h5, h6 {
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        /* Improved spacing */
+        .container > * + * {
+            margin-top: 1.5rem;
         }
 
         @keyframes fadeIn {
@@ -79,6 +127,7 @@
             text-decoration: none;
             font-weight: 600;
             font-size: 1.1rem;
+            transition: color 150ms ease;
         }
 
         .back-link:hover {
@@ -96,25 +145,106 @@
 
         /* Content boxes */
         .content-box {
-            background: var(--glass);
+            background: var(--card);
             border: 1px solid var(--border);
             border-radius: 20px;
             padding: 2rem;
             backdrop-filter: blur(15px);
             box-shadow: var(--shadow);
             text-align: left;
+            transition: box-shadow 150ms ease;
+        }
+
+        .content-box:hover {
+            box-shadow: 0 12px 40px rgba(69, 123, 157, 0.2);
         }
 
         .content-item {
             font-size: 1.1rem;
             margin-bottom: 0.5rem;
-            color: var(--text);
+            color: var(--foreground);
             line-height: 1.6;
         }
 
         .content-item:last-child {
             margin-bottom: 0;
         }
+
+        /* Header */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            background: rgba(241, 250, 238, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid var(--border);
+            transition: background-color 150ms ease;
+        }
+
+        .dark .header {
+            background: rgba(29, 53, 87, 0.95);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--foreground);
+            text-decoration: none;
+            transition: color 150ms ease;
+        }
+
+        .logo:hover {
+            color: var(--accent);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: var(--muted-foreground);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 150ms ease;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        .nav-link.active {
+            color: var(--accent);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: var(--foreground);
+            transition: background-color 150ms ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--muted);
+        }
+
+        /* Removed duplicate body padding rule */
 
         /* Mobile */
         @media (max-width: 600px) {
@@ -126,12 +256,65 @@
             .content-box {
                 padding: 1.5rem;
             }
+
+            .header-content {
+                padding: 1rem;
+            }
+
+            .nav {
+                gap: 1rem;
+            }
+
+            .nav-link {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
 
 <body>
+    <header class="header">
+        <div class="header-content">
+            <a href="{{ site.baseurl }}/" class="logo">adam pang</a>
+            <nav class="nav">
+                <a href="{{ site.baseurl }}/blog.html" class="nav-link">essays</a>
+                <a href="{{ site.baseurl }}/now.html" class="nav-link">now</a>
+                <a href="mailto:{{ site.email }}" class="nav-link">contact</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
     {{ content }}
+    
+    <!-- Dark mode script -->
+    <script>
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        const themeIcon = document.querySelector('.theme-icon');
+        
+        // Apply theme on load
+        if (currentTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+            themeIcon.textContent = '☀️';
+        }
+        
+        function toggleTheme() {
+            const isDark = document.documentElement.classList.contains('dark');
+            
+            if (isDark) {
+                document.documentElement.classList.remove('dark');
+                localStorage.setItem('theme', 'light');
+                themeIcon.textContent = '🌙';
+            } else {
+                document.documentElement.classList.add('dark');
+                localStorage.setItem('theme', 'dark');
+                themeIcon.textContent = '☀️';
+            }
+        }
+    </script>
     
     <!-- Netlify Identity Widget -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
