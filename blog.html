@@ -3,11 +3,36 @@ layout: blog
 title: Essays
 ---
 
-{% assign sorted_posts = site.jekyll_posts | sort: 'title' %}
-{% for post in sorted_posts %}
-<a href="{{ post.url | relative_url }}">{{ post.slug }}</a><br>
-{% endfor %}
+<div class="blog-counters">
+    <span class="counter">creations: {{ site.jekyll_posts.size }}/100</span>
+    <span class="counter">curations: {{ site.curations.size }}/100</span>
+</div>
 
-{% if site.jekyll_posts.size == 0 %}
-<p>No posts yet.</p>
-{% endif %}
+<div class="blog-columns">
+    <div class="blog-column">
+        <h2>creations</h2>
+        {% assign sorted_posts = site.jekyll_posts | sort: 'title' %}
+        {% for post in sorted_posts %}
+            <div class="blog-item">
+                <a href="{{ post.url | relative_url }}">{{ post.slug }}</a>
+            </div>
+        {% endfor %}
+        {% if site.jekyll_posts.size == 0 %}
+            <p>no posts yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="blog-column">
+        <h2>curations</h2>
+        {% assign sorted_curations = site.curations | sort: 'title' %}
+        {% for curation in sorted_curations %}
+            <div class="blog-item">
+                <a href="{{ curation.url }}" target="_blank">{{ curation.title }}</a>
+                <span class="author">by {{ curation.author }}</span>
+            </div>
+        {% endfor %}
+        {% if site.curations.size == 0 %}
+            <p>no curations yet.</p>
+        {% endif %}
+    </div>
+</div>

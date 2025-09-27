@@ -41,6 +41,8 @@ collections:
   jekyll_posts:
     output: true
     permalink: /:title/
+  curations:
+    output: false
 
 # Defaults
 defaults:

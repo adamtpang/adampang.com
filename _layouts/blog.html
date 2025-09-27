@@ -225,40 +225,114 @@
             }
         }
         
+        /* Blog-specific styles */
+        .blog-counters {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 3rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .counter {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .blog-columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        .blog-column h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--text);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 0.5rem;
+        }
+
+        .blog-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .blog-item:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .blog-item a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-item a:hover {
+            color: var(--primary);
+        }
+
+        .blog-item .author {
+            color: var(--text);
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
         /* Mobile */
         @media (max-width: 600px) {
             .container {
                 max-width: 400px;
                 padding: 1rem 0;
             }
-            
+
             .nav a {
                 display: block;
                 margin: 0.5rem 0;
             }
-            
+
             .post-grid {
                 gap: 1.5rem;
             }
-            
+
             .post-card {
                 height: 220px;
             }
-            
+
             .post-cover {
                 height: 120px;
             }
-            
+
             .post-content {
                 padding: 1rem;
             }
-            
+
             .post-title {
                 font-size: 1.1rem;
             }
-            
+
             .blank-cover {
                 font-size: 1.5rem;
+            }
+
+            .blog-columns {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .blog-counters {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.5rem;
             }
         }
     </style>
