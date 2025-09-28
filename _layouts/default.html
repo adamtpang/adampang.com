@@ -14,48 +14,48 @@
     
     <style>
         :root {
-            /* Modern color palette: E63946-F1FAEE-A8DADC-457B9D-1D3557 */
-            --background: #F1FAEE; /* soft cream */
-            --foreground: #1D3557; /* dark navy */
-            --card: #F1FAEE;
-            --card-foreground: #1D3557;
-            --primary: #457B9D; /* medium blue */
-            --primary-foreground: #F1FAEE;
-            --secondary: #A8DADC; /* light blue/teal */
-            --secondary-foreground: #1D3557;
-            --muted: #E6F4F1;
-            --muted-foreground: #4A6572;
-            --accent: #A8DADC; /* light blue/teal */
-            --accent-foreground: #1D3557;
-            --destructive: #E63946; /* vibrant red */
-            --destructive-foreground: #F1FAEE;
-            --border: #C7E0DC;
-            --input: #C7E0DC;
-            --ring: #457B9D;
-            --glass: rgba(168, 218, 220, 0.08);
-            --shadow: 0 8px 32px rgba(69, 123, 157, 0.15);
+            /* Clean white, black, and blue palette */
+            --background: #ffffff; /* pure white */
+            --foreground: #000000; /* pure black */
+            --card: #ffffff;
+            --card-foreground: #000000;
+            --primary: #2563eb; /* clean blue */
+            --primary-foreground: #ffffff;
+            --secondary: #e2e8f0; /* light blue-gray */
+            --secondary-foreground: #000000;
+            --muted: #f8fafc;
+            --muted-foreground: #64748b;
+            --accent: #2563eb; /* clean blue */
+            --accent-foreground: #ffffff;
+            --destructive: #dc2626; /* red */
+            --destructive-foreground: #ffffff;
+            --border: #e2e8f0;
+            --input: #e2e8f0;
+            --ring: #2563eb;
+            --glass: rgba(37, 99, 235, 0.05);
+            --shadow: 0 8px 32px rgba(37, 99, 235, 0.1);
         }
 
         .dark {
-            --background: #1D3557; /* dark navy */
-            --foreground: #F1FAEE; /* soft cream */
-            --card: #1D3557;
-            --card-foreground: #F1FAEE;
-            --primary: #A8DADC; /* light blue/teal */
-            --primary-foreground: #1D3557;
-            --secondary: #2B4C6B; /* darker version of medium blue */
-            --secondary-foreground: #F1FAEE;
-            --muted: #2B4C6B;
-            --muted-foreground: #B8D4D6;
-            --accent: #457B9D; /* medium blue */
-            --accent-foreground: #F1FAEE;
-            --destructive: #FF4757; /* brighter red for dark mode */
-            --destructive-foreground: #F1FAEE;
-            --border: #2B4C6B;
-            --input: #2B4C6B;
-            --ring: #A8DADC;
-            --glass: rgba(69, 123, 157, 0.08);
-            --shadow: 0 8px 32px rgba(168, 218, 220, 0.15);
+            --background: #000000; /* pure black */
+            --foreground: #ffffff; /* pure white */
+            --card: #000000;
+            --card-foreground: #ffffff;
+            --primary: #3b82f6; /* lighter blue for dark mode */
+            --primary-foreground: #000000;
+            --secondary: #1e293b; /* dark blue-gray */
+            --secondary-foreground: #ffffff;
+            --muted: #0f172a;
+            --muted-foreground: #94a3b8;
+            --accent: #3b82f6; /* lighter blue for dark mode */
+            --accent-foreground: #000000;
+            --destructive: #ef4444; /* brighter red for dark mode */
+            --destructive-foreground: #ffffff;
+            --border: #1e293b;
+            --input: #1e293b;
+            --ring: #3b82f6;
+            --glass: rgba(59, 130, 246, 0.05);
+            --shadow: 0 8px 32px rgba(59, 130, 246, 0.15);
         }
 
         * {
@@ -79,7 +79,7 @@
             justify-content: center;
             position: relative;
             overflow-x: hidden;
-            padding-top: 5rem;
+            padding-top: 2rem;
             transition: background-color 150ms ease, color 150ms ease;
         }
 
@@ -170,81 +170,6 @@
             margin-bottom: 0;
         }
 
-        /* Header */
-        .header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 50;
-            background: rgba(241, 250, 238, 0.95);
-            backdrop-filter: blur(8px);
-            border-bottom: 1px solid var(--border);
-            transition: background-color 150ms ease;
-        }
-
-        .dark .header {
-            background: rgba(29, 53, 87, 0.95);
-        }
-
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--foreground);
-            text-decoration: none;
-            transition: color 150ms ease;
-        }
-
-        .logo:hover {
-            color: var(--accent);
-        }
-
-        .nav {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        .nav-link {
-            color: var(--muted-foreground);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 150ms ease;
-            position: relative;
-        }
-
-        .nav-link:hover {
-            color: var(--accent);
-        }
-
-        .nav-link.active {
-            color: var(--accent);
-        }
-
-        .theme-toggle {
-            background: none;
-            border: none;
-            padding: 0.5rem;
-            border-radius: 0.5rem;
-            cursor: pointer;
-            color: var(--foreground);
-            transition: background-color 150ms ease;
-        }
-
-        .theme-toggle:hover {
-            background: var(--muted);
-        }
-
-        /* Removed duplicate body padding rule */
 
         /* Mobile */
         @media (max-width: 600px) {
@@ -257,35 +182,11 @@
                 padding: 1.5rem;
             }
 
-            .header-content {
-                padding: 1rem;
-            }
-
-            .nav {
-                gap: 1rem;
-            }
-
-            .nav-link {
-                font-size: 0.9rem;
-            }
         }
     </style>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-content">
-            <a href="{{ site.baseurl }}/" class="logo">adam pang</a>
-            <nav class="nav">
-                <a href="{{ site.baseurl }}/blog.html" class="nav-link">essays</a>
-                <a href="{{ site.baseurl }}/now.html" class="nav-link">now</a>
-                <a href="mailto:{{ site.email }}" class="nav-link">contact</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-                    <span class="theme-icon">🌙</span>
-                </button>
-            </nav>
-        </div>
-    </header>
 
     {{ content }}
     

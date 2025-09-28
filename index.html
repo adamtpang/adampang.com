@@ -27,9 +27,9 @@ layout: default
     }
 
     .hero-image {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
+        width: 320px;
+        height: 320px;
+        border-radius: 20px;
         object-fit: cover;
         margin: 0 auto 2rem;
         border: 3px solid var(--accent);
@@ -189,21 +189,11 @@ layout: default
         flex-shrink: 0;
     }
 
-    .link-content {
-        flex: 1;
-    }
-
     .link-text {
         font-weight: 500;
         color: inherit;
-        margin-bottom: 0.25rem;
     }
 
-    .link-description {
-        font-size: 0.85rem;
-        color: var(--muted-foreground);
-        opacity: 0.8;
-    }
 
     /* Mobile */
     @media (max-width: 600px) {
@@ -212,8 +202,8 @@ layout: default
         }
 
         .hero-image {
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
         }
 
         .music-player {
@@ -238,8 +228,6 @@ layout: default
 <div class="container">
     <section class="hero-section">
         <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image">
-        <h1 class="hero-title">adam pang</h1>
-        <p class="hero-subtitle">building code, music & philosophy at network school</p>
     </section>
 
     <div class="music-player">
@@ -247,7 +235,7 @@ layout: default
             <button class="play-button" id="playButton">▶</button>
             <div class="track-info">
                 <div class="track-title">punksong</div>
-                <div class="track-artist">cfcf</div>
+                <div class="track-artist">adam pang</div>
             </div>
         </div>
         <div class="progress-bar" id="progressBar">
@@ -260,15 +248,11 @@ layout: default
     </div>
 
     <section class="links-section">
-        <h2 class="section-title">connect & explore</h2>
         <div class="links">
             {% for link in site.data.links %}
             <a href="{{ link.url }}" class="link{% if link.highlight %} highlighted{% endif %}" {% if link.target %}target="{{ link.target }}" {% endif %}>
                 <span class="link-emoji">{{ link.emoji }}</span>
-                <div class="link-content">
-                    <div class="link-text">{{ link.name }}</div>
-                    {% if link.description %}<div class="link-description">{{ link.description }}</div>{% endif %}
-                </div>
+                <span class="link-text">{{ link.name }}</span>
             </a>
             {% endfor %}
         </div>
