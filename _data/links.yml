@@ -1,6 +1,11 @@
 - name: "essays"
-  url: "/blog"
+  url: "https://substack.com/@adamtpang"
+  target: "_blank"
   emoji: "✍️"
+  highlight: true
+- name: "blog"
+  url: "/blog"
+  emoji: "📝"
   highlight: true
 - name: "songs"
   url: "https://soundcloud.com/adamtpang"
@@ -35,9 +40,9 @@
   url: "/heroes"
   emoji: "🌟"
 - name: "contact"
-  url: "mailto:adamtpang@gmail.com"
-  target: "_blank"
+  url: "/contact"
   emoji: "📧"
+  highlight: false
 - name: "support"
   url: "https://buy.stripe.com/bJe7sLa78cwZcMEc4NaMU08"
   target: "_blank"

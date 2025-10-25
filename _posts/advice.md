@@ -1,6 +1,5 @@
 ---
 title: "🗣️Advice To Myself."
-slug: "advice"
 ---
 
 # Life Advice: Compressed Truths for Better Living

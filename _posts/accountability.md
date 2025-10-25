@@ -1,6 +1,5 @@
 ---
 title: "💯Accountability."
-slug: "accountability"
 ---
 
 # The Power of Accountability: Building Trust Through Action

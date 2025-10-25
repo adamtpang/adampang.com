@@ -108,4 +108,135 @@ layout: blog
         border-radius: 12px;
         box-shadow: var(--shadow);
     }
+
+    /* Embedded media styles */
+    .embedded-media {
+        margin: 2rem 0;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+    }
+
+    .embedded-media iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: none;
+        display: block;
+    }
+
+    .embedded-media img {
+        margin: 0;
+    }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Find all links in the article
+    const article = document.querySelector('article');
+    if (!article) return;
+
+    const links = article.querySelectorAll('a[href]');
+
+    links.forEach(link => {
+        const url = link.href;
+
+        // YouTube detection
+        if (url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([a-zA-Z0-9_-]+)/)) {
+            const videoId = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([a-zA-Z0-9_-]+)/)[1];
+            const embed = document.createElement('div');
+            embed.className = 'embedded-media';
+            embed.innerHTML = `<iframe src="https://www.youtube.com/embed/${videoId}" allowfullscreen loading="lazy"></iframe>`;
+
+            // Replace the link with the embed
+            const parent = link.parentNode;
+            if (parent.tagName === 'P' && parent.textContent.trim() === link.textContent.trim()) {
+                parent.replaceWith(embed);
+            } else {
+                link.replaceWith(embed);
+            }
+        }
+
+        // Pinterest image detection
+        else if (url.match(/(?:pinterest\.com|pinimg\.com)/i) && url.match(/\.(jpg|jpeg|png|gif|webp)/i)) {
+            const embed = document.createElement('div');
+            embed.className = 'embedded-media';
+            embed.innerHTML = `<img src="${url}" alt="Pinterest image" loading="lazy">`;
+
+            const parent = link.parentNode;
+            if (parent.tagName === 'P' && parent.textContent.trim() === link.textContent.trim()) {
+                parent.replaceWith(embed);
+            } else {
+                link.replaceWith(embed);
+            }
+        }
+
+        // Generic image detection (any direct link to an image)
+        else if (url.match(/\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i)) {
+            const embed = document.createElement('div');
+            embed.className = 'embedded-media';
+            embed.innerHTML = `<img src="${url}" alt="Embedded image" loading="lazy">`;
+
+            const parent = link.parentNode;
+            if (parent.tagName === 'P' && parent.textContent.trim() === link.textContent.trim()) {
+                parent.replaceWith(embed);
+            } else {
+                link.replaceWith(embed);
+            }
+        }
+
+        // Vimeo detection
+        else if (url.match(/vimeo\.com\/(\d+)/)) {
+            const videoId = url.match(/vimeo\.com\/(\d+)/)[1];
+            const embed = document.createElement('div');
+            embed.className = 'embedded-media';
+            embed.innerHTML = `<iframe src="https://player.vimeo.com/video/${videoId}" allowfullscreen loading="lazy"></iframe>`;
+
+            const parent = link.parentNode;
+            if (parent.tagName === 'P' && parent.textContent.trim() === link.textContent.trim()) {
+                parent.replaceWith(embed);
+            } else {
+                link.replaceWith(embed);
+            }
+        }
+
+        // Spotify detection
+        else if (url.match(/open\.spotify\.com\/(track|album|playlist|episode)\/([a-zA-Z0-9]+)/)) {
+            const match = url.match(/open\.spotify\.com\/(track|album|playlist|episode)\/([a-zA-Z0-9]+)/);
+            const type = match[1];
+            const id = match[2];
+            const embed = document.createElement('div');
+            embed.className = 'embedded-media';
+            embed.innerHTML = `<iframe src="https://open.spotify.com/embed/${type}/${id}" height="152" allowfullscreen loading="lazy" style="aspect-ratio: auto; height: 152px;"></iframe>`;
+
+            const parent = link.parentNode;
+            if (parent.tagName === 'P' && parent.textContent.trim() === link.textContent.trim()) {
+                parent.replaceWith(embed);
+            } else {
+                link.replaceWith(embed);
+            }
+        }
+
+        // SoundCloud detection
+        else if (url.match(/soundcloud\.com/)) {
+            const embed = document.createElement('div');
+            embed.className = 'embedded-media';
+            embed.innerHTML = `<iframe src="https://w.soundcloud.com/player/?url=${encodeURIComponent(url)}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" height="166" allowfullscreen loading="lazy" style="aspect-ratio: auto; height: 166px;"></iframe>`;
+
+            const parent = link.parentNode;
+            if (parent.tagName === 'P' && parent.textContent.trim() === link.textContent.trim()) {
+                parent.replaceWith(embed);
+            } else {
+                link.replaceWith(embed);
+            }
+        }
+
+        // Twitter/X detection
+        else if (url.match(/(?:twitter\.com|x\.com)\/.*\/status\/(\d+)/)) {
+            // For Twitter, we'll just make it open in a new tab
+            // Full embedding requires Twitter's widget.js which is heavy
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        }
+    });
+});
+</script>

@@ -1,6 +1,5 @@
 ---
 title: "💉Addiction"
-slug: "addiction"
 ---
 
 # Breaking Free: What I've Learned About Addiction and the Dopamine Economy
