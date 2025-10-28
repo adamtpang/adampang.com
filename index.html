@@ -4,7 +4,9 @@ layout: default
 
 <style>
     .hero-section {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
         margin-bottom: 4rem;
     }
 
@@ -27,18 +29,43 @@ layout: default
     }
 
     .hero-image {
-        width: 500px;
-        height: 500px;
+        width: 200px;
+        height: 200px;
         border-radius: 20px;
         object-fit: cover;
-        margin: 0 auto 2rem;
         border: 3px solid var(--accent);
         box-shadow: var(--shadow);
         transition: transform 150ms ease;
+        flex-shrink: 0;
     }
 
     .hero-image:hover {
         transform: scale(1.05);
+    }
+
+    .hero-bio {
+        flex: 1;
+        text-align: left;
+    }
+
+    .hero-name {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: var(--foreground);
+    }
+
+    .hero-tagline {
+        font-size: 1.1rem;
+        color: var(--muted-foreground);
+        line-height: 1.6;
+        margin-bottom: 0.75rem;
+    }
+
+    .hero-details {
+        font-size: 0.95rem;
+        color: var(--muted-foreground);
+        line-height: 1.5;
     }
 
     .music-player {
@@ -132,12 +159,25 @@ layout: default
         margin-top: 2rem;
     }
 
+    .link-group {
+        margin-bottom: 2.5rem;
+    }
+
     .section-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
         color: var(--foreground);
-        margin-bottom: 1.5rem;
-        text-align: center;
+        margin-bottom: 1rem;
+        text-align: left;
+        text-transform: lowercase;
+    }
+
+    .outlinks-title {
+        color: var(--primary);
+    }
+
+    .inlinks-title {
+        color: var(--muted-foreground);
     }
 
     .links {
@@ -161,6 +201,8 @@ layout: default
         border-radius: 12px;
         backdrop-filter: blur(15px);
         box-shadow: var(--shadow);
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .link:hover {
@@ -189,21 +231,72 @@ layout: default
         flex-shrink: 0;
     }
 
+    .link-content {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+
     .link-text {
         font-weight: 500;
         color: inherit;
     }
 
+    .link-url {
+        font-size: 0.85rem;
+        color: var(--muted-foreground);
+        margin-top: 0.25rem;
+        font-family: monospace;
+    }
+
+    .link.highlighted .link-url {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .link.outlink {
+        border-color: var(--primary);
+    }
+
+    .link.outlink:hover {
+        border-color: var(--accent);
+        box-shadow: 0 8px 24px rgba(37, 99, 235, 0.25);
+    }
+
+    .link.outlink.highlighted {
+        background: var(--primary);
+        border-color: var(--primary);
+    }
+
+    .link.inlink {
+        border-color: var(--border);
+        background: var(--muted);
+    }
+
+    .link.inlink:hover {
+        border-color: var(--muted-foreground);
+        box-shadow: 0 8px 24px rgba(100, 116, 139, 0.2);
+    }
+
 
     /* Mobile */
     @media (max-width: 600px) {
-        .hero-title {
-            font-size: 2.5rem;
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero-bio {
+            text-align: center;
+        }
+
+        .hero-name {
+            font-size: 1.75rem;
         }
 
         .hero-image {
-            width: 280px;
-            height: 280px;
+            width: 160px;
+            height: 160px;
         }
 
         .music-player {
@@ -228,6 +321,11 @@ layout: default
 <div class="container">
     <section class="hero-section">
         <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image">
+        <div class="hero-bio">
+            <h1 class="hero-name">adam tomas pang</h1>
+            <p class="hero-tagline">building ai tools, writing essays, making music</p>
+            <p class="hero-details">23. shipping <a href="https://eign.xyz" target="_blank" style="color: var(--primary);">eign.xyz</a>. living at <a href="https://ns.com/adam/apply" target="_blank" style="color: var(--primary);">ns.com</a></p>
+        </div>
     </section>
 
     <div class="music-player">
@@ -248,13 +346,43 @@ layout: default
     </div>
 
     <section class="links-section">
-        <div class="links">
-            {% for link in site.data.links %}
-            <a href="{{ link.url }}" class="link{% if link.highlight %} highlighted{% endif %}" {% if link.target %}target="{{ link.target }}" {% endif %}>
-                <span class="link-emoji">{{ link.emoji }}</span>
-                <span class="link-text">{{ link.name }}</span>
-            </a>
-            {% endfor %}
+        <!-- Internal Links -->
+        <div class="link-group">
+            <h2 class="section-title inlinks-title">on this site ←</h2>
+            <div class="links">
+                {% for link in site.data.links %}
+                {% unless link.target == "_blank" %}
+                <a href="{{ link.url }}" class="link inlink{% if link.highlight %} highlighted{% endif %}">
+                    <div class="link-content">
+                        <span class="link-emoji">{{ link.emoji }}</span>
+                        <div style="flex: 1;">
+                            <div class="link-text">{{ link.name }}</div>
+                        </div>
+                    </div>
+                </a>
+                {% endunless %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- External Links -->
+        <div class="link-group">
+            <h2 class="section-title outlinks-title">around the web →</h2>
+            <div class="links">
+                {% for link in site.data.links %}
+                {% if link.target == "_blank" %}
+                <a href="{{ link.url }}" class="link outlink{% if link.highlight %} highlighted{% endif %}" target="{{ link.target }}">
+                    <div class="link-content">
+                        <span class="link-emoji">{{ link.emoji }}</span>
+                        <div style="flex: 1;">
+                            <div class="link-text">{{ link.name }}</div>
+                            <div class="link-url">{{ link.url | remove: "https://" | remove: "http://" | split: "/" | first }}</div>
+                        </div>
+                    </div>
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </section>
 </div>
