@@ -314,7 +314,8 @@ layout: default
 
     .track-info,
     .link-text {
-        font-family: 'Syne', sans-serif;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
     }
 </style>
 
@@ -322,13 +323,13 @@ layout: default
     <section class="hero-section">
         <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image">
         <div class="hero-bio">
-            <h1 class="hero-name">adam tomas pang</h1>
-            <p class="hero-tagline">building ai tools, writing essays, making music</p>
-            <p class="hero-details">23. shipping <a href="https://eign.xyz" target="_blank" style="color: var(--primary);">eign.xyz</a>. living at <a href="https://ns.com/adam/apply" target="_blank" style="color: var(--primary);">ns.com</a></p>
+            <h1 class="hero-name">Adam Tomas Pangelinan</h1>
+            <p class="hero-tagline">23. from guam. interested in music, philosophy, startups, and longevity. builder, writer, musician. grew up on guam, lived in sf, now living at network school in malaysia. building ai tools, writing about life and ideas, making indie rock.</p>
+            <p class="hero-details">currently shipping <a href="https://eign.xyz" target="_blank" style="color: var(--primary);">eign.xyz</a>. living at <a href="https://ns.com/adam/apply" target="_blank" style="color: var(--primary);">ns.com</a>. always down to talk.</p>
         </div>
     </section>
 
-    <div class="music-player">
+    <!-- <div class="music-player">
         <div class="music-controls">
             <button class="play-button" id="playButton">▶</button>
             <div class="track-info">
@@ -343,6 +344,10 @@ layout: default
             <span id="currentTime">0:00</span>
             <span id="duration">--:--</span>
         </div>
+    </div> -->
+
+    <div style="margin-bottom: 3rem;">
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5jCw7VFNCtpRwhKKFTqkPh?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <section class="links-section">
@@ -387,7 +392,7 @@ layout: default
     </section>
 </div>
 
-<audio id="audioPlayer" preload="none" loop>
+<!-- <audio id="audioPlayer" preload="none" loop>
     <source src="{{ '/assets/song.mp3' | relative_url }}" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
@@ -542,4 +547,4 @@ layout: default
         progressFill.style.width = '0%';
         currentTimeEl.textContent = '0:00';
     });
-</script>
+</script> -->

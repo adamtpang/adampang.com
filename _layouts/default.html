@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     
     <style>
         :root {
@@ -69,8 +69,9 @@
         }
 
         body {
-            font-family: 'Syne', sans-serif;
-            text-transform: lowercase;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            letter-spacing: 0.01em;
             background: var(--background);
             color: var(--foreground);
             min-height: 100vh;
@@ -171,35 +172,72 @@
         }
 
 
+        /* Theme toggle button */
+        .theme-toggle {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--card);
+            border: 2px solid var(--border);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: all 150ms ease;
+            box-shadow: var(--shadow);
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 24px rgba(69, 123, 157, 0.2);
+        }
+
         /* Mobile */
         @media (max-width: 600px) {
             .container {
                 max-width: 400px;
                 padding: 1rem 0;
             }
-            
+
             .content-box {
                 padding: 1.5rem;
             }
 
+            .theme-toggle {
+                top: 1rem;
+                right: 1rem;
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
 
 <body>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+    </button>
 
     {{ content }}
     
     <!-- Dark mode script -->
     <script>
-        // Check for saved theme preference or default to light mode
-        const currentTheme = localStorage.getItem('theme') || 'light';
+        // Check for saved theme preference or default to dark mode
+        const currentTheme = localStorage.getItem('theme') || 'dark';
         const themeIcon = document.querySelector('.theme-icon');
-        
+
         // Apply theme on load
         if (currentTheme === 'dark') {
             document.documentElement.classList.add('dark');
             themeIcon.textContent = '☀️';
+        } else {
+            themeIcon.textContent = '🌙';
         }
         
         function toggleTheme() {
