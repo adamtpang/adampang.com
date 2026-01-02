@@ -25,6 +25,10 @@
   url: "/life"
   emoji: "📖"
   highlight: false
+- name: "work"
+  url: "/work"
+  emoji: "💼"
+  highlight: false
 - name: "code"
   url: "https://github.com/adamtpang"
   target: "_blank"

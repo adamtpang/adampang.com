@@ -29,9 +29,9 @@ layout: default
     }
 
     .hero-image {
-        width: 200px;
-        height: 200px;
-        border-radius: 20px;
+        width: 280px;
+        height: 280px;
+        border-radius: 24px;
         object-fit: cover;
         border: 3px solid var(--accent);
         box-shadow: var(--shadow);
@@ -213,15 +213,19 @@ layout: default
     }
 
     .link.highlighted {
-        background: var(--accent);
-        color: var(--accent-foreground);
-        border-color: var(--accent);
-        box-shadow: 0 8px 24px rgba(168, 218, 220, 0.3);
+        background: var(--primary);
+        color: var(--primary-foreground);
+        border-color: var(--primary);
+        box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
     }
 
     .link.highlighted:hover {
-        box-shadow: 0 12px 32px rgba(168, 218, 220, 0.4);
+        box-shadow: 0 12px 32px rgba(37, 99, 235, 0.4);
         transform: translateY(-3px);
+    }
+
+    .link.highlighted .link-text {
+        color: var(--primary-foreground);
     }
 
     .link-emoji {
@@ -278,6 +282,16 @@ layout: default
         box-shadow: 0 8px 24px rgba(100, 116, 139, 0.2);
     }
 
+    .link.inlink.highlighted {
+        background: var(--primary);
+        border-color: var(--primary);
+        color: var(--primary-foreground);
+    }
+
+    .link.inlink.highlighted .link-text {
+        color: var(--primary-foreground);
+    }
+
 
     /* Mobile */
     @media (max-width: 600px) {
@@ -295,8 +309,8 @@ layout: default
         }
 
         .hero-image {
-            width: 160px;
-            height: 160px;
+            width: 200px;
+            height: 200px;
         }
 
         .music-player {
@@ -321,11 +335,15 @@ layout: default
 
 <div class="container">
     <section class="hero-section">
-        <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image">
+        <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-image" width="280"
+            height="280" fetchpriority="high" decoding="async">
         <div class="hero-bio">
             <h1 class="hero-name">Adam Tomas Pangelinan</h1>
-            <p class="hero-tagline">23. from guam. interested in music, philosophy, startups, and longevity. builder, writer, musician. grew up on guam, lived in sf, now living at network school in malaysia. building ai tools, writing about life and ideas, making indie rock.</p>
-            <p class="hero-details">currently shipping <a href="https://eign.xyz" target="_blank" style="color: var(--primary);">eign.xyz</a>. living at <a href="https://ns.com/adam/apply" target="_blank" style="color: var(--primary);">ns.com</a>. always down to talk.</p>
+            <p class="hero-tagline">23. from guam. interested in music, philosophy, startups, and longevity. builder,
+                writer, musician. grew up on guam, lived in sf, now living at network school in malaysia. building ai
+                tools, writing about life and ideas, making indie rock.</p>
+            <p class="hero-details">living at <a href="https://ns.com/adam/apply" target="_blank"
+                    style="color: var(--primary);">ns.com</a>. always down to talk.</p>
         </div>
     </section>
 
@@ -346,8 +364,12 @@ layout: default
         </div>
     </div> -->
 
-    <div style="margin-bottom: 3rem;">
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5jCw7VFNCtpRwhKKFTqkPh?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!-- Spotify embed with fixed dimensions to prevent layout shift -->
+    <div style="margin-bottom: 3rem; min-height: 152px;">
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/4PrcqCVdflxac5ZARKxFL0?utm_source=generator&theme=0"
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 
     <section class="links-section">
@@ -376,12 +398,14 @@ layout: default
             <div class="links">
                 {% for link in site.data.links %}
                 {% if link.target == "_blank" %}
-                <a href="{{ link.url }}" class="link outlink{% if link.highlight %} highlighted{% endif %}" target="{{ link.target }}">
+                <a href="{{ link.url }}" class="link outlink{% if link.highlight %} highlighted{% endif %}"
+                    target="{{ link.target }}">
                     <div class="link-content">
                         <span class="link-emoji">{{ link.emoji }}</span>
                         <div style="flex: 1;">
                             <div class="link-text">{{ link.name }}</div>
-                            <div class="link-url">{{ link.url | remove: "https://" | remove: "http://" | split: "/" | first }}</div>
+                            <div class="link-url">{{ link.url | remove: "https://" | remove: "http://" | split: "/" |
+                                first }}</div>
                         </div>
                     </div>
                 </a>
