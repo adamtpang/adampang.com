@@ -1,64 +1,87 @@
+- name: "now"
+  url: "/now"
+  emoji: "⏰"
+  highlight: true
+
+- name: "life"
+  url: "/life"
+  emoji: "📖"
+  highlight: false
+
+- name: "work"
+  url: "/work"
+  emoji: "💼"
+  highlight: false
+
+- name: "learning"
+  url: "/learning"
+  emoji: "📚"
+  highlight: false
+
+- name: "heroes"
+  url: "/heroes"
+  emoji: "🌟"
+  highlight: false
+
+- name: "contact"
+  url: "/contact"
+  emoji: "📧"
+  highlight: false
+
+- name: "support"
+  url: "/support"
+  emoji: "☕"
+  highlight: false
+
+- name: "kit"
+  url: "/kit"
+  emoji: "🎙️"
+  highlight: false
+
 - name: "essays"
   url: "https://substack.com/@adamtpang"
   target: "_blank"
   emoji: "✍️"
   highlight: false
-# - name: "blog"
-#   url: "/blog"
-#   emoji: "📝"
-#   highlight: true
+
 - name: "songs"
   url: "https://soundcloud.com/adamtpang"
   target: "_blank"
   emoji: "🎵"
   highlight: false
+
 - name: "apps"
   url: "https://anchormarianas.com"
   target: "_blank"
   emoji: "🚀"
   highlight: false
-- name: "now"
-  url: "/now"
-  emoji: "⏰"
-  highlight: false
-- name: "life"
-  url: "/life"
-  emoji: "📖"
-  highlight: false
-- name: "work"
-  url: "/work"
-  emoji: "💼"
-  highlight: false
+
 - name: "code"
   url: "https://github.com/adamtpang"
   target: "_blank"
   emoji: "💻"
+  highlight: false
+
 - name: "pictures"
   url: "https://instagram.com/adamtpang"
   target: "_blank"
   emoji: "📷"
+  highlight: false
+
 - name: "videos"
   url: "https://youtube.com/@adamtpang"
   target: "_blank"
   emoji: "📹"
-- name: "learning"
-  url: "/learning"
-  emoji: "📚"
-- name: "heroes"
-  url: "/heroes"
-  emoji: "🌟"
-- name: "contact"
-  url: "/contact"
-  emoji: "📧"
   highlight: false
-- name: "support"
-  url: "/support"
-  emoji: "☕"
+
 - name: "thoughts"
   url: "https://x.com/adamtpang"
   target: "_blank"
   emoji: "💭"
+  highlight: false
+
 - name: "thots"
   url: "https://farcaster.xyz/adampang"
   target: "_blank"
   emoji: "🟣"
+  highlight: false

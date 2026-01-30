@@ -1,0 +1,32 @@
+---
+layout: blog
+title: essays
+---
+
+<div class="blog-counters">
+    <span class="counter">essays: {{ site.jekyll_posts.size }}</span>
+</div>
+
+<div class="blog-columns">
+    <div class="blog-column" style="width: 100%;">
+        <h2>inkuary & thoughts</h2>
+        <p class="text-muted" style="margin-bottom: 2rem;">Screenshot essays, manifestos, and long-form thoughts.</p>
+        
+        <div class="blog-item" style="border: 1px solid var(--primary); padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+            <a href="#" style="font-weight: bold; font-size: 1.1rem;">Start Here: The Manifesto</a>
+            <p style="margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--muted-foreground);">Why I'm building a personal moat and playing the infinite game.</p>
+        </div>
+
+        {% assign sorted_posts = site.jekyll_posts | sort: 'title' %}
+        {% for post in sorted_posts %}
+            <div class="blog-item">
+                <span style="color: var(--muted-foreground); font-size: 0.8rem; margin-right: 0.5rem;">{{ post.date | date: "%Y-%m-%d" }}</span>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </div>
+        {% endfor %}
+        
+        {% if site.jekyll_posts.size == 0 %}
+            <p>Coming soon.</p>
+        {% endif %}
+    </div>
+</div>

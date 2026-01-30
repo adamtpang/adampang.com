@@ -1,280 +1,84 @@
 ---
 layout: default
-title: work
+title: Artifacts
 ---
 
 <style>
-    .work-intro {
-        margin-bottom: 2.5rem;
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
     }
-
-    .work-headline {
-        font-size: 1.75rem;
-        font-weight: 700;
-        margin-bottom: 0.75rem;
-        color: var(--foreground);
-    }
-
-    .work-subhead {
-        color: var(--muted-foreground);
-        font-size: 1.1rem;
-        line-height: 1.6;
-        margin-bottom: 1.5rem;
-    }
-
-    .cta-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0.75rem 1.5rem;
-        background: var(--primary);
-        color: var(--primary-foreground);
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: 600;
-        transition: all 150ms ease;
-    }
-
-    .cta-btn:hover {
-        background: var(--accent);
-        transform: translateY(-2px);
-        box-shadow: 0 4px 16px rgba(37, 99, 235, 0.3);
-        color: var(--accent-foreground);
-    }
-
-    .work-section {
-        margin-bottom: 2.5rem;
-    }
-
-    .section-title {
-        font-size: 0.9rem;
-        font-weight: 700;
-        color: var(--primary);
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        margin-bottom: 1rem;
-    }
-
-    .project-card {
+    .artifact-card {
         background: var(--card);
         border: 1px solid var(--border);
         border-radius: 12px;
-        padding: 1.25rem;
-        margin-bottom: 1rem;
-        transition: all 150ms ease;
-    }
-
-    .project-card:hover {
-        border-color: var(--primary);
-        box-shadow: 0 4px 16px rgba(37, 99, 235, 0.1);
-    }
-
-    .project-header {
+        padding: 1.5rem;
+        transition: all 0.2s ease;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 0.5rem;
+        flex-direction: column;
+        height: 100%;
     }
-
-    .project-name {
+    .artifact-card:hover {
+        border-color: var(--primary);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow);
+    }
+    .artifact-title {
+        font-size: 1.25rem;
         font-weight: 700;
-        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
         color: var(--foreground);
     }
-
-    .project-link {
-        color: var(--primary);
-        font-size: 0.85rem;
-    }
-
-    .project-desc {
+    .artifact-desc {
         color: var(--muted-foreground);
         font-size: 0.95rem;
         line-height: 1.5;
+        flex-grow: 1;
+        margin-bottom: 1rem;
     }
-
-    .project-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        margin-top: 0.75rem;
-    }
-
-    .tag {
-        background: var(--muted);
-        color: var(--muted-foreground);
-        padding: 0.25rem 0.5rem;
-        border-radius: 4px;
-        font-size: 0.75rem;
-        font-weight: 500;
-    }
-
-    .services-list {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1rem;
-    }
-
-    .service-item {
-        background: var(--muted);
-        padding: 1rem;
-        border-radius: 8px;
-        text-align: center;
-    }
-
-    .service-icon {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .service-name {
+    .artifact-link {
+        color: var(--primary);
         font-weight: 600;
-        color: var(--foreground);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
     }
-
-    .testimonial {
-        background: var(--muted);
-        border-left: 3px solid var(--primary);
-        padding: 1rem 1.25rem;
-        margin-bottom: 1rem;
-        border-radius: 0 8px 8px 0;
-    }
-
-    .testimonial-text {
-        font-style: italic;
-        color: var(--foreground);
-        margin-bottom: 0.5rem;
-        line-height: 1.6;
-    }
-
-    .testimonial-author {
-        color: var(--muted-foreground);
-        font-size: 0.85rem;
-    }
-
-    .bottom-cta {
-        text-align: center;
-        padding: 2rem;
-        background: var(--muted);
-        border-radius: 12px;
-        margin-top: 2rem;
-    }
-
-    .bottom-cta p {
-        margin-bottom: 1rem;
-        color: var(--muted-foreground);
+    .artifact-link:hover {
+        text-decoration: underline;
     }
 </style>
 
 <div class="container">
     <a href="/" class="back-link">← back</a>
+    <h1 class="page-title">artifacts</h1>
+    <p class="text-muted">A portfolio of engines, tools, and games.</p>
 
-    <div class="content-box">
-        <div class="work-intro">
-            <h1 class="work-headline">I build things that work.</h1>
-            <p class="work-subhead">
-                AI tools, web apps, and automation systems. I help businesses save time and make money with software.
-            </p>
-            <a href="/contact" class="cta-btn">💬 Let's talk about your project</a>
+    <div class="project-grid">
+        <div class="artifact-card">
+            <h3 class="artifact-title">The Infinite Game</h3>
+            <p class="artifact-desc">A market cap for problems. Helping entrepreneurs solve what matters instead of building another SaaS clone.</p>
+            <a href="#" class="artifact-link">Coming Soon →</a>
         </div>
 
-        <div class="work-section">
-            <h2 class="section-title">What I Build</h2>
-            <div class="services-list">
-                <div class="service-item">
-                    <div class="service-icon">🤖</div>
-                    <div class="service-name">AI Tools</div>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">🌐</div>
-                    <div class="service-name">Web Apps</div>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">⚡</div>
-                    <div class="service-name">Automation</div>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">📊</div>
-                    <div class="service-name">Dashboards</div>
-                </div>
-            </div>
+        <div class="artifact-card">
+            <h3 class="artifact-title">Antiworker</h3>
+            <p class="artifact-desc">Automating open-source problem solving. A tool for the permissionless economy.</p>
+            <a href="#" class="artifact-link">View Project →</a>
         </div>
 
-        <div class="work-section">
-            <h2 class="section-title">Projects</h2>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <span class="project-name">Anchor Marianas</span>
-                    <a href="https://anchormarianas.com" target="_blank" class="project-link">anchormarianas.com →</a>
-                </div>
-                <p class="project-desc">
-                    Holding company for internet goods and services. Building AI-powered tools and web applications for
-                    clients across multiple industries.
-                </p>
-                <div class="project-tags">
-                    <span class="tag">Next.js</span>
-                    <span class="tag">AI</span>
-                    <span class="tag">Web Apps</span>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <span class="project-name">GPA Energy Automation</span>
-                    <span class="project-link">2024</span>
-                </div>
-                <p class="project-desc">
-                    Built automation tools that reduced Excel processing time from 2 hours → 2 minutes. Internal data
-                    reporting systems.
-                </p>
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">Automation</span>
-                    <span class="tag">Data Processing</span>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <span class="project-name">Client Web Projects</span>
-                    <span class="project-link">2024</span>
-                </div>
-                <p class="project-desc">
-                    Multiple client websites and web applications. Landing pages, dashboards, and custom tools built
-                    with modern tech stack.
-                </p>
-                <div class="project-tags">
-                    <span class="tag">React</span>
-                    <span class="tag">Tailwind</span>
-                    <span class="tag">Supabase</span>
-                </div>
-            </div>
+        <div class="artifact-card">
+            <h3 class="artifact-title">Sitefast</h3>
+            <p class="artifact-desc">Rapid deployment for digital gardens and personal moats.</p>
+            <a href="#" class="artifact-link">View Project →</a>
         </div>
-
-        <div class="work-section">
-            <h2 class="section-title">Results</h2>
-
-            <div class="testimonial">
-                <p class="testimonial-text">"Reduced our reporting time from hours to minutes. Adam delivered exactly
-                    what we needed."</p>
-                <p class="testimonial-author">— Client, GPA Energy</p>
-            </div>
-        </div>
-
-        <div class="work-section">
-            <h2 class="section-title">Stack</h2>
-            <p style="color: var(--muted-foreground); line-height: 1.8;">
-                <strong style="color: var(--foreground);">Languages:</strong> JavaScript, TypeScript, Python, SQL<br>
-                <strong style="color: var(--foreground);">Frontend:</strong> React, Next.js, Tailwind CSS<br>
-                <strong style="color: var(--foreground);">Backend:</strong> Node.js, Flask, PostgreSQL, Supabase<br>
-                <strong style="color: var(--foreground);">Tools:</strong> Git, Vercel, Figma, AI/LLMs
-            </p>
-        </div>
-
-        <div class="bottom-cta">
-            <p>Ready to build something?</p>
-            <a href="/contact" class="cta-btn">💬 Get in touch</a>
+        
+        <div class="artifact-card">
+            <h3 class="artifact-title">Anchor Marianas</h3>
+            <p class="artifact-desc">Holding company for internet goods & services.</p>
+            <a href="https://anchormarianas.com" target="_blank" class="artifact-link">anchormarianas.com →</a>
         </div>
     </div>
 </div>

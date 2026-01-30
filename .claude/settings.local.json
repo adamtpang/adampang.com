@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(gh run list:*)",
+      "Bash(python3:*)",
+      "Bash(bundle exec:*)",
+      "Bash(jekyll serve:*)",
+      "Bash(pkill:*)",
+      "Bash(kill:*)",
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(gh auth:*)",
+      "Bash(./preview.sh:*)",
+      "Bash(curl:*)",
+      "WebFetch(domain:coolors.co)",
+      "Bash(git add:*)",
+      "Bash(pgrep:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits"
+  }
+}
