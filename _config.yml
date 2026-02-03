@@ -5,6 +5,10 @@ email: adam@adampang.com
 
 exclude:
   - _private/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
 # Single links file processing
 plugins:
   - jekyll-feed
