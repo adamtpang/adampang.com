@@ -73,7 +73,7 @@ Then i did a summer trip with my nana on my dads side to washington and texas, w
 20 (2022)
 So toward the end of the semester at UOG (university of guam), i found out about coding. So i was self-teaching myself with “100 days of code udemy course”, then after months of that, and coding my productivity desktop tool “comparrow” my mom suggested i needed more structure, so i started looking into coding bootcamps, and started prepping and applying to “app academy” in sf. I prepped, got in, and was on my way to sf for 4 months at the end of 2022.
 
-21 (2023)
+21 (2025)
 sf bootcamp. So i was at sf, my dad dropped me off, and i was living in a coliving house called “908” for 4 months, and app academy was a 20 minute walk down to union square in SF. right when we arrived though in september of 2022, chatgpt came out, covid was hitting hard, and the tech markets fell like a rock. We still finished it, but only the people that were in the bay area really got jobs. Sad face.. So the rest of us spent up to a year trying to find tech employment. I remember living with my dad through this idk why, i think i got kicked out of the house or something. Nothing was really working, on-island applications, online applications. I remember family came to visit too.
 
 

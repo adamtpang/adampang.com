@@ -85,7 +85,7 @@ title: Media Kit
 
         <div class="question">Links</div>
         <div class="answer">
-            <a href="https://adamtomas.fun">adamtomas.fun</a> for all links.
+            <a href="https://adam.gives">adam.gives</a> for all links.
         </div>
 
         <div class="question">Photo</div>

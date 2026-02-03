@@ -1,9 +1,10 @@
 title: Adam Pang
 description: I build software that helps people make better decisions about real estate, while exploring music and ideas through creative projects.
-url: "https://adamtomas.fun"
+url: "https://adam.gives"
 email: adam@adampang.com
 
-# Links collection
+exclude:
+  - _private/
 # Single links file processing
 plugins:
   - jekyll-feed

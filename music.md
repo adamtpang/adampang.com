@@ -6,7 +6,7 @@ title: music
 <div class="container">
     <a href="/" class="back-link">← back</a>
     <h1 class="page-title">music</h1>
-    <p class="text-muted">Tiny songs, vibechecks, and indie rock.</p>
+    <p class="text-muted">Tiny songs, vibechecks, and indie rock (2025).</p>
 
     <div class="content-box" style="margin-top: 2rem;">
         <h2>Tiny Songs</h2>

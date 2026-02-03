@@ -1507,7 +1507,7 @@ the on purpose part is crucial, you cant fail if youre failing on purpose.\n\npr
 
 is it just stress, or eustress / excess, or needed?\n\nmama youtube premium for mobile on Apr 13, 2025 at 12:00 midnight - 12:30 midnight\n\nTechnology is trillion dollar bills lying on the sidewalk, waiting to be picked up.\n\ndopamine spending without stuff working leads to burnout.
 
-adamtomas.com: philosophy technology music futbol biohacking\n\n- just as "don't die" isn't really about health, "the network state" isn't really about politics.\n\nwith every technological breakthrough, ask what the implications are, how is this relevant to YOU?\n\ncode and media maxxing.
+adam.gives: philosophy technology music futbol biohacking\n\n- just as "don't die" isn't really about health, "the network state" isn't really about politics.\n\nwith every technological breakthrough, ask what the implications are, how is this relevant to YOU?\n\ncode and media maxxing.
 
 so were capable of both the error and the right path.\n\nbe direct and considerate in your criticisms and compliments, and remember for every 1x negative balance with 2x positive (loss aversion) our brains have 2x weighting for the negative\n\nvirtual real estate tours with vr and 360 cams.
 
