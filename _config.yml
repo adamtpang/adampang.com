@@ -9,9 +9,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
-# Single links file processing
-plugins:
-  - jekyll-feed
 
 # Site settings
 timezone: America/Los_Angeles
