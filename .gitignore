@@ -36,3 +36,5 @@ backup_*
 .env.production.local
 node_modules/
 .next/
+
+_private/
