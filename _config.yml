@@ -34,6 +34,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+theme: minima
 # Theme system
 current_theme: "memoryland"  # Change this to switch themes
 allow_theme_switching: true  # Set to false to disable user theme switching
