@@ -1,5 +1,5 @@
 // Dark/light mode toggle with localStorage persistence
-const currentTheme = localStorage.getItem('theme') || 'dark';
+const currentTheme = localStorage.getItem('theme') || 'light';
 const themeIcon = document.querySelector('.theme-icon');
 
 if (currentTheme === 'dark') {

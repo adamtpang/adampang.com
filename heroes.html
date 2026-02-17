@@ -3,73 +3,212 @@ layout: default
 title: heroes
 ---
 
-<div class="container">
-    <a href="/" class="back-link">← back</a>
-    <h1 class="page-title">heroes</h1>
+<style>
+    .heroes-intro {
+        color: var(--muted-foreground);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
 
-    <div class="content-box">
-        <div class="content-item">• socrates (~2,495 years ago)</div>
-        <div class="content-item">• lao tzu (~2,600 years ago)</div>
-        <div class="content-item">• jesus christ (~2,025 years ago)</div>
-        <div class="content-item">• leonardo da vinci (~572 years ago)</div>
-        <div class="content-item">• ben franklin (~319 years ago)</div>
-        <div class="content-item">• frank sinatra (~109 years ago)</div>
-        <div class="content-item">• ayn rand (~120 years ago)</div>
-        <div class="content-item">• emahoy tsege mariam gebru (~100 years ago)</div>
-        <div class="content-item">• sam walton (~107 years ago)</div>
-        <div class="content-item">• lee kuan yew (~102 years ago)</div>
-        <div class="content-item">• edwin land (~115 years ago)</div>
-        <div class="content-item">• paul mccartney (~83 years ago)</div>
-        <div class="content-item">• george harrison (~82 years ago)</div>
-        <div class="content-item">• rick rubin (~61 years ago)</div>
-        <div class="content-item">• ed thorpe (~92 years ago)</div>
-        <div class="content-item">• aphex twin (~53 years ago)</div>
-        <div class="content-item">• brad jacobs (~68 years ago)</div>
-        <div class="content-item">• peter thiel (~57 years ago)</div>
-        <div class="content-item">• elon musk (~53 years ago)</div>
-        <div class="content-item">• jeff bezos (~61 years ago)</div>
-        <div class="content-item">• michael dell (~59 years ago)</div>
-        <div class="content-item">• damon albarn (~57 years ago)</div>
-        <div class="content-item">• kanye west (~48 years ago)</div>
-        <div class="content-item">• paul graham (~60 years ago)</div>
-        <div class="content-item">• nassim taleb (~65 years ago)</div>
-        <div class="content-item">• david deutsch (~81 years ago)</div>
-        <div class="content-item">• john vervaeke (~65 years ago)</div>
-        <div class="content-item">• jordan peterson (~62 years ago)</div>
-        <div class="content-item">• andrew huberman (~49 years ago)</div>
-        <div class="content-item">• tim ferriss (~47 years ago)</div>
-        <div class="content-item">• bryan johnson (~47 years ago)</div>
-        <div class="content-item">• naval ravikant (~50 years ago)</div>
-        <div class="content-item">• derek sivers (~55 years ago)</div>
-        <div class="content-item">• anthony kiedis (~62 years ago)</div>
-        <div class="content-item">• frank guzman (~73 years ago)</div>
-        <div class="content-item">• jack dorsey (~48 years ago)</div>
-        <div class="content-item">• balaji srinivasan (~45 years ago)</div>
-        <div class="content-item">• david senra (~40s)</div>
-        <div class="content-item">• visakan veerasamy (~38 years ago)</div>
-        <div class="content-item">• pavel durov (~40 years ago)</div>
-        <div class="content-item">• brian armstrong (~42 years ago)</div>
-        <div class="content-item">• daniel ek (~42 years ago)</div>
-        <div class="content-item">• brandon sanderson (~49 years ago)</div>
-        <div class="content-item">• lionel messi (~38 years ago)</div>
-        <div class="content-item">• pieter levels (~39 years ago)</div>
-        <div class="content-item">• casey handmer (~40s)</div>
-        <div class="content-item">• aravind srinivas (~37 years ago)</div>
-        <div class="content-item">• ed sheeran (~34 years ago)</div>
-        <div class="content-item">• jared isaacman (~42 years ago)</div>
-        <div class="content-item">• todd graves (~53 years ago)</div>
-        <div class="content-item">• will ahmed (~36 years ago)</div>
-        <div class="content-item">• lulie tanett (~30s)</div>
-        <div class="content-item">• blake anderson (~30s)</div>
-        <div class="content-item">• zach yadegari (~20s-30s)</div>
-        <div class="content-item">• orion taraban (~40s)</div>
-        <div class="content-item">• james sexton (~50s)</div>
-        <div class="content-item">• rafe kelley (~40s)</div>
-        <div class="content-item">• logan chipkin (~30s)</div>
-        <div class="content-item">• mackie feary (~70s)</div>
-        <div class="content-item">• arjun khemani (~20s-30s)</div>
-        <div class="content-item">• paul van doran (~90s)</div>
-        <div class="content-item">• adam tomas (~23 years ago)</div>
-        <div class="content-item">• son goku (timeless)</div>
-    </div>
+    .heroes-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .heroes-section-title {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--muted-foreground);
+        margin-bottom: 1rem;
+        font-weight: 600;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .hero-item {
+        display: flex;
+        align-items: baseline;
+        gap: 0.75rem;
+        padding: 0.5rem 0;
+        font-size: 0.95rem;
+        color: var(--foreground);
+    }
+
+    .hero-era {
+        font-size: 0.75rem;
+        color: var(--muted-foreground);
+        font-family: monospace;
+        flex-shrink: 0;
+        min-width: 100px;
+        text-align: right;
+    }
+
+    .hero-name-text {
+        font-weight: 400;
+    }
+
+    .hero-note {
+        font-size: 0.8rem;
+        color: var(--muted-foreground);
+        font-style: italic;
+    }
+
+    /* Featured Chamorros section */
+    .chamorro-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        padding: 1.25rem;
+        box-shadow: var(--shadow);
+        margin-bottom: 0.75rem;
+    }
+
+    .chamorro-name {
+        font-weight: 700;
+        font-size: 1.05rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .chamorro-desc {
+        font-size: 0.85rem;
+        color: var(--muted-foreground);
+        line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+        .hero-era {
+            min-width: 70px;
+            font-size: 0.7rem;
+        }
+    }
+</style>
+
+<div class="container">
+    <a href="/" class="back-link">&larr; back</a>
+    <h1 class="page-title">heroes</h1>
+    <p class="heroes-intro">
+        people whose work changed how i see the world.
+        sorted by era because good ideas are timeless.
+    </p>
+
+    <!-- Chamorro Legends -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">🌺 chamorro legends</div>
+        <div class="chamorro-card">
+            <div class="chamorro-name">speed b. gumataotao</div>
+            <div class="chamorro-desc">his signature is on the US dollar bill. chamorro from guam who served as acting comptroller of the currency. proof that island kids can reach the highest levels.</div>
+        </div>
+        <div class="chamorro-card">
+            <div class="chamorro-name">leo babauta</div>
+            <div class="chamorro-desc">created zen habits, one of the most-read blogs on earth. chamorro from guam. showed the world that simplicity is power. a huge inspiration for this site.</div>
+        </div>
+        <div class="chamorro-card">
+            <div class="chamorro-name">pia mia</div>
+            <div class="chamorro-desc">singer-songwriter from guam who went from island girl to working with chris brown, tyga, and will.i.am. proof that talent finds a way off the island.</div>
+        </div>
+    </section>
+
+    <!-- Ancient Wisdom -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">ancient wisdom</div>
+        <div class="hero-item"><span class="hero-era">~600 BC</span><span class="hero-name-text">lao tzu</span></div>
+        <div class="hero-item"><span class="hero-era">~470 BC</span><span class="hero-name-text">socrates</span></div>
+        <div class="hero-item"><span class="hero-era">~4 BC</span><span class="hero-name-text">jesus christ</span></div>
+    </section>
+
+    <!-- Renaissance & Enlightenment -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">renaissance & enlightenment</div>
+        <div class="hero-item"><span class="hero-era">1452</span><span class="hero-name-text">leonardo da vinci</span></div>
+        <div class="hero-item"><span class="hero-era">1706</span><span class="hero-name-text">ben franklin</span></div>
+    </section>
+
+    <!-- Builders & Visionaries -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">builders & visionaries</div>
+        <div class="hero-item"><span class="hero-era">1905</span><span class="hero-name-text">ayn rand</span></div>
+        <div class="hero-item"><span class="hero-era">1909</span><span class="hero-name-text">edwin land</span></div>
+        <div class="hero-item"><span class="hero-era">1915</span><span class="hero-name-text">frank sinatra</span></div>
+        <div class="hero-item"><span class="hero-era">1918</span><span class="hero-name-text">sam walton</span></div>
+        <div class="hero-item"><span class="hero-era">1923</span><span class="hero-name-text">lee kuan yew</span></div>
+        <div class="hero-item"><span class="hero-era">~1924</span><span class="hero-name-text">emahoy tsege mariam gebru</span></div>
+        <div class="hero-item"><span class="hero-era">1932</span><span class="hero-name-text">ed thorpe</span></div>
+    </section>
+
+    <!-- Music -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">music</div>
+        <div class="hero-item"><span class="hero-era">1942</span><span class="hero-name-text">paul mccartney</span></div>
+        <div class="hero-item"><span class="hero-era">1943</span><span class="hero-name-text">george harrison</span></div>
+        <div class="hero-item"><span class="hero-era">~1950s</span><span class="hero-name-text">mackie feary</span></div>
+        <div class="hero-item"><span class="hero-era">1962</span><span class="hero-name-text">anthony kiedis</span></div>
+        <div class="hero-item"><span class="hero-era">1963</span><span class="hero-name-text">rick rubin</span></div>
+        <div class="hero-item"><span class="hero-era">1968</span><span class="hero-name-text">damon albarn</span></div>
+        <div class="hero-item"><span class="hero-era">1971</span><span class="hero-name-text">aphex twin</span></div>
+        <div class="hero-item"><span class="hero-era">1977</span><span class="hero-name-text">kanye west</span></div>
+        <div class="hero-item"><span class="hero-era">1991</span><span class="hero-name-text">ed sheeran</span></div>
+    </section>
+
+    <!-- Technology & Entrepreneurs -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">technology & entrepreneurs</div>
+        <div class="hero-item"><span class="hero-era">1953</span><span class="hero-name-text">frank guzman</span> <span class="hero-note">— my grandfather</span></div>
+        <div class="hero-item"><span class="hero-era">1957</span><span class="hero-name-text">brad jacobs</span></div>
+        <div class="hero-item"><span class="hero-era">1964</span><span class="hero-name-text">jeff bezos</span></div>
+        <div class="hero-item"><span class="hero-era">1964</span><span class="hero-name-text">paul graham</span></div>
+        <div class="hero-item"><span class="hero-era">1965</span><span class="hero-name-text">michael dell</span></div>
+        <div class="hero-item"><span class="hero-era">1967</span><span class="hero-name-text">peter thiel</span></div>
+        <div class="hero-item"><span class="hero-era">1971</span><span class="hero-name-text">elon musk</span></div>
+        <div class="hero-item"><span class="hero-era">1972</span><span class="hero-name-text">todd graves</span></div>
+        <div class="hero-item"><span class="hero-era">1974</span><span class="hero-name-text">naval ravikant</span></div>
+        <div class="hero-item"><span class="hero-era">1976</span><span class="hero-name-text">jack dorsey</span></div>
+        <div class="hero-item"><span class="hero-era">1980</span><span class="hero-name-text">balaji srinivasan</span></div>
+        <div class="hero-item"><span class="hero-era">1982</span><span class="hero-name-text">daniel ek</span></div>
+        <div class="hero-item"><span class="hero-era">1983</span><span class="hero-name-text">brian armstrong</span></div>
+        <div class="hero-item"><span class="hero-era">1983</span><span class="hero-name-text">jared isaacman</span></div>
+        <div class="hero-item"><span class="hero-era">1984</span><span class="hero-name-text">pavel durov</span></div>
+        <div class="hero-item"><span class="hero-era">1987</span><span class="hero-name-text">aravind srinivas</span></div>
+        <div class="hero-item"><span class="hero-era">1990</span><span class="hero-name-text">will ahmed</span></div>
+    </section>
+
+    <!-- Thinkers -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">thinkers</div>
+        <div class="hero-item"><span class="hero-era">1953</span><span class="hero-name-text">david deutsch</span></div>
+        <div class="hero-item"><span class="hero-era">1960</span><span class="hero-name-text">nassim taleb</span></div>
+        <div class="hero-item"><span class="hero-era">1961</span><span class="hero-name-text">john vervaeke</span></div>
+        <div class="hero-item"><span class="hero-era">1962</span><span class="hero-name-text">jordan peterson</span></div>
+        <div class="hero-item"><span class="hero-era">1969</span><span class="hero-name-text">derek sivers</span></div>
+        <div class="hero-item"><span class="hero-era">1975</span><span class="hero-name-text">brandon sanderson</span></div>
+        <div class="hero-item"><span class="hero-era">1976</span><span class="hero-name-text">tim ferriss</span></div>
+        <div class="hero-item"><span class="hero-era">1977</span><span class="hero-name-text">andrew huberman</span></div>
+        <div class="hero-item"><span class="hero-era">1977</span><span class="hero-name-text">bryan johnson</span></div>
+        <div class="hero-item"><span class="hero-era">~1980s</span><span class="hero-name-text">david senra</span></div>
+        <div class="hero-item"><span class="hero-era">~1980s</span><span class="hero-name-text">casey handmer</span></div>
+        <div class="hero-item"><span class="hero-era">~1986</span><span class="hero-name-text">pieter levels</span></div>
+        <div class="hero-item"><span class="hero-era">~1987</span><span class="hero-name-text">visakan veerasamy</span></div>
+    </section>
+
+    <!-- New Generation -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">new generation</div>
+        <div class="hero-item"><span class="hero-era">1987</span><span class="hero-name-text">lionel messi</span></div>
+        <div class="hero-item"><span class="hero-era">~1990s</span><span class="hero-name-text">lulie tanett</span></div>
+        <div class="hero-item"><span class="hero-era">~1990s</span><span class="hero-name-text">blake anderson</span></div>
+        <div class="hero-item"><span class="hero-era">~1990s</span><span class="hero-name-text">logan chipkin</span></div>
+        <div class="hero-item"><span class="hero-era">~1990s</span><span class="hero-name-text">arjun khemani</span></div>
+        <div class="hero-item"><span class="hero-era">~1990s</span><span class="hero-name-text">orion taraban</span></div>
+        <div class="hero-item"><span class="hero-era">~1960s</span><span class="hero-name-text">james sexton</span></div>
+        <div class="hero-item"><span class="hero-era">~1980s</span><span class="hero-name-text">rafe kelley</span></div>
+        <div class="hero-item"><span class="hero-era">~1930s</span><span class="hero-name-text">paul van doran</span></div>
+        <div class="hero-item"><span class="hero-era">~2000s</span><span class="hero-name-text">zach yadegari</span></div>
+    </section>
+
+    <!-- Personal -->
+    <section class="heroes-section">
+        <div class="heroes-section-title">personal</div>
+        <div class="hero-item"><span class="hero-era">2002</span><span class="hero-name-text">adam tomas</span> <span class="hero-note">— that's me. work in progress.</span></div>
+        <div class="hero-item"><span class="hero-era">timeless</span><span class="hero-name-text">son goku</span> <span class="hero-note">— because why not</span></div>
+    </section>
 </div>

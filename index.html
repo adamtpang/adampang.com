@@ -28,15 +28,15 @@ layout: default
     /* Hero */
     .hero-section {
         text-align: center;
-        margin-bottom: 2rem;
-        padding: 3rem 0 1rem;
+        margin-bottom: 1rem;
+        padding: 3rem 0 0.5rem;
     }
 
     .hero-name {
         font-size: 2.5rem;
         font-weight: 700;
         color: var(--foreground);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
         line-height: 1.2;
     }
 
@@ -46,29 +46,61 @@ layout: default
         margin-top: 0.5rem;
     }
 
-    /* Music Player */
-    .music-player {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius, 12px);
-        padding: 1.25rem;
-        margin-bottom: 2.5rem;
-        box-shadow: var(--shadow);
-        transition: all 150ms ease;
-        overflow: hidden;
+    /* Name Etymology */
+    .etymology {
+        text-align: center;
+        padding: 0 1rem;
+        margin-bottom: 1.5rem;
     }
 
-    .music-player:hover {
-        box-shadow: var(--shadow-md);
-    }
-
-    .music-player-label {
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
+    .etymology-full {
+        font-size: 0.85rem;
         color: var(--muted-foreground);
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
         margin-bottom: 0.75rem;
-        font-weight: 600;
+    }
+
+    .etymology-grid {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .etymology-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .etymology-word {
+        font-weight: 700;
+        font-size: 0.95rem;
+        color: var(--foreground);
+    }
+
+    .etymology-meaning {
+        font-size: 0.75rem;
+        color: var(--muted-foreground);
+        font-style: italic;
+    }
+
+    .etymology-divider {
+        display: flex;
+        align-items: center;
+        font-size: 1.25rem;
+        color: var(--muted-foreground);
+        opacity: 0.5;
+    }
+
+    .etymology-symbols {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1.1rem;
     }
 
     /* Start Here CTA */
@@ -77,7 +109,7 @@ layout: default
         color: var(--primary-foreground);
         border-radius: var(--radius, 12px);
         padding: 2rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 0.5rem;
         text-align: center;
         text-decoration: none;
         display: block;
@@ -107,6 +139,54 @@ layout: default
     .start-here-sub {
         font-size: 0.95rem;
         opacity: 0.85;
+    }
+
+    /* Music Player */
+    .music-player {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        padding: 1.25rem;
+        margin-bottom: 2.5rem;
+        box-shadow: var(--shadow);
+        transition: all 150ms ease;
+        overflow: hidden;
+    }
+
+    .music-player:hover {
+        box-shadow: var(--shadow-md);
+    }
+
+    .music-player-label {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted-foreground);
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+    }
+
+    /* Music player initially hidden, revealed on first interaction */
+    .music-player.waiting {
+        max-height: 0;
+        padding: 0;
+        margin: 0;
+        border: none;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                    padding 0.6s ease,
+                    margin 0.6s ease,
+                    opacity 0.4s ease,
+                    border 0.3s ease;
+    }
+
+    .music-player.revealed {
+        max-height: 500px;
+        padding: 1.25rem;
+        margin-bottom: 2.5rem;
+        border: 1px solid var(--border);
+        opacity: 1;
     }
 
     /* Journey Paths */
@@ -296,7 +376,19 @@ layout: default
             padding: 2rem 0 0.5rem;
         }
 
+        .etymology-grid {
+            gap: 1rem;
+        }
+
+        .etymology-divider {
+            display: none;
+        }
+
         .music-player {
+            padding: 0.75rem;
+        }
+
+        .music-player.revealed {
             padding: 0.75rem;
         }
 
@@ -333,25 +425,47 @@ layout: default
         <p class="hero-hint">press play. explore. enjoy.</p>
     </section>
 
-    <!-- 2. Music Player (Spotify Top Songs) -->
-    <div class="music-player" id="musicPlayer">
+    <!-- 2. Name Etymology -->
+    <div class="etymology">
+        <div class="etymology-full">adam tomas guzman pangelinan</div>
+        <div class="etymology-grid">
+            <div class="etymology-item">
+                <span class="etymology-word">adam</span>
+                <span class="etymology-meaning">earth & atom</span>
+            </div>
+            <span class="etymology-divider">·</span>
+            <div class="etymology-item">
+                <span class="etymology-word">pangelinan</span>
+                <span class="etymology-meaning">sacred, untouched</span>
+            </div>
+            <span class="etymology-divider">·</span>
+            <div class="etymology-item">
+                <span class="etymology-word">pang 庞</span>
+                <span class="etymology-meaning">grandeur, dragon</span>
+            </div>
+        </div>
+        <div class="etymology-symbols">🔥→🐉</div>
+    </div>
+
+    <!-- 3. Start Here CTA (above music — first click reveals player) -->
+    <a href="/life" class="start-here" id="startHere">
+        <div class="start-here-label">▶ start here</div>
+        <div class="start-here-title">the story so far</div>
+        <div class="start-here-sub">born on guam. philosophy kid. coder. musician. building things that matter.</div>
+    </a>
+
+    <!-- 4. Music Player (Spotify Top Songs) — hidden until first interaction -->
+    <div class="music-player waiting" id="musicPlayer">
         <div class="music-player-label">top songs 2025</div>
         <iframe id="spotifyEmbed"
             style="border-radius:8px"
-            src="https://open.spotify.com/embed/playlist/37i9dQZEVXd3JaoMJtEGfX?utm_source=generator&theme=0"
+            src=""
             width="100%" height="352" frameBorder="0" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"></iframe>
     </div>
 
-    <!-- 3. Start Here CTA -->
-    <a href="/life" class="start-here">
-        <div class="start-here-label">start here</div>
-        <div class="start-here-title">the story so far</div>
-        <div class="start-here-sub">born on guam. philosophy kid. coder. musician. building things that matter.</div>
-    </a>
-
-    <!-- 4. Curated Journey Paths -->
+    <!-- 5. Curated Journey Paths -->
     <section class="journey-section">
         <h2 class="journey-title">explore</h2>
         <div class="journey-grid">
@@ -378,13 +492,13 @@ layout: default
         </div>
     </section>
 
-    <!-- 5. More Pages (pills) -->
+    <!-- 6. More Pages (pills) -->
     <div class="more-pages">
         <a href="/now" class="more-link"><span class="more-link-emoji">⏰</span> now</a>
         <a href="/heroes" class="more-link"><span class="more-link-emoji">🌟</span> heroes</a>
     </div>
 
-    <!-- 6. External Links -->
+    <!-- 7. External Links -->
     <section class="external-section">
         <h2 class="external-title">around the web</h2>
         <div class="external-grid">
@@ -412,9 +526,37 @@ layout: default
 </div>
 
 <script>
+    // First interaction reveals the music player and loads Spotify
+    (function () {
+        var player = document.getElementById('musicPlayer');
+        var iframe = document.getElementById('spotifyEmbed');
+        var startBtn = document.getElementById('startHere');
+        var revealed = false;
+        var spotifySrc = 'https://open.spotify.com/embed/playlist/37i9dQZEVXd3JaoMJtEGfX?utm_source=generator&theme=0';
+
+        function revealPlayer() {
+            if (revealed) return;
+            revealed = true;
+            // Load the Spotify embed
+            iframe.src = spotifySrc;
+            // Animate open
+            player.classList.remove('waiting');
+            player.classList.add('revealed');
+        }
+
+        // Clicking Start Here reveals the player (and navigates to /life)
+        startBtn.addEventListener('click', function () {
+            revealPlayer();
+        });
+
+        // Any first click/tap on the page also reveals it
+        document.addEventListener('click', function firstClick() {
+            revealPlayer();
+            document.removeEventListener('click', firstClick);
+        }, { once: true });
+    })();
+
     // Ambient glow — cycles through curated color palette
-    // Since Spotify embeds don't expose audio data (cross-origin),
-    // we use a slow-cycling ambient gradient that shifts mood colors
     (function () {
         var glow = document.getElementById('ambientGlow');
         var colors = [

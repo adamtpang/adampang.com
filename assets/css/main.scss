@@ -79,21 +79,38 @@ body {
   justify-content: center;
   position: relative;
   overflow-x: hidden;
-  padding-top: 2rem;
+  padding-top: 1rem;
   transition: background-color 150ms ease, color 150ms ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // Prevent text size adjust on orientation change
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (min-width: 601px) {
+  body {
+    padding-top: 2rem;
+  }
 }
 
 // ===========================================
-// Layout
+// Layout (mobile-first)
 // ===========================================
 
 .container {
   max-width: 800px;
-  width: 90%;
+  width: 100%;
   text-align: left;
   animation: fadeIn 0.6s ease;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   margin: 0 auto;
+}
+
+@media (min-width: 601px) {
+  .container {
+    width: 90%;
+    padding: 2rem 1rem;
+  }
 }
 
 .container > * + * {
@@ -138,11 +155,8 @@ a:hover {
   to { opacity: 1; transform: translateY(0); }
 }
 
-// Stagger children using CSS custom property --i
-.container > * {
-  animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
-  animation-delay: calc(var(--i, 0) * 0.06s);
-}
+// Note: scroll-reveal animations are handled by reveal.js
+// which uses Intersection Observer for Framer Motion-style effects
 
 // ===========================================
 // Components: Back Link
@@ -150,12 +164,26 @@ a:hover {
 
 .back-link {
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: var(--primary);
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: color 150ms ease;
+  // Touch-friendly tap target
+  padding: 0.25rem 0;
+  min-height: 44px;
+  line-height: 44px;
+}
+
+@media (min-width: 601px) {
+  .back-link {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    min-height: auto;
+    line-height: inherit;
+    padding: 0;
+  }
 }
 
 .back-link:hover {
@@ -167,11 +195,18 @@ a:hover {
 // ===========================================
 
 .page-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   text-align: left;
   color: var(--primary);
+}
+
+@media (min-width: 601px) {
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 // ===========================================
@@ -182,10 +217,16 @@ a:hover {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 2rem;
+  padding: 1.25rem;
   box-shadow: var(--shadow);
   text-align: left;
   transition: box-shadow 150ms ease, transform 150ms ease;
+}
+
+@media (min-width: 601px) {
+  .content-box {
+    padding: 2rem;
+  }
 }
 
 .content-box:hover {
@@ -193,11 +234,24 @@ a:hover {
   transform: translateY(-2px);
 }
 
+// Disable hover transforms on touch devices
+@media (hover: none) {
+  .content-box:hover {
+    transform: none;
+  }
+}
+
 .content-item {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   color: var(--foreground);
   line-height: 1.6;
+}
+
+@media (min-width: 601px) {
+  .content-item {
+    font-size: 1.1rem;
+  }
 }
 
 .content-item:last-child {
@@ -208,10 +262,11 @@ a:hover {
 // Components: Theme Toggle
 // ===========================================
 
+// Mobile-first: touch-friendly 44px minimum
 .theme-toggle {
   position: fixed;
-  top: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1rem;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -221,10 +276,19 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   transition: all 150ms ease;
   box-shadow: var(--shadow);
   z-index: 1000;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: 601px) {
+  .theme-toggle {
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.3rem;
+  }
 }
 
 .theme-toggle:hover {
@@ -236,26 +300,11 @@ a:hover {
   transform: scale(0.9);
 }
 
-// ===========================================
-// Mobile
-// ===========================================
-
-@media (max-width: 600px) {
-  .container {
-    max-width: 400px;
-    padding: 1rem 0;
-  }
-
-  .content-box {
-    padding: 1.5rem;
-  }
-
-  .theme-toggle {
-    top: 1rem;
-    right: 1rem;
-    width: 38px;
-    height: 38px;
-    font-size: 1.1rem;
+// Disable hover effects on touch devices
+@media (hover: none) {
+  .theme-toggle:hover {
+    transform: none;
+    box-shadow: var(--shadow);
   }
 }
 

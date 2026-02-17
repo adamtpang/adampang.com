@@ -4,12 +4,20 @@ title: Work
 ---
 
 <style>
+    .work-intro {
+        color: var(--muted-foreground);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
     .project-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 1.5rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
+
     .project-card {
         background: var(--card);
         border: 1px solid var(--border);
@@ -19,31 +27,68 @@ title: Work
         display: flex;
         flex-direction: column;
         height: 100%;
+        box-shadow: var(--shadow);
     }
+
     .project-card:hover {
         border-color: var(--primary);
         transform: translateY(-2px);
         box-shadow: var(--shadow-md);
     }
+
+    .project-status {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 0.2rem 0.6rem;
+        border-radius: 999px;
+        display: inline-block;
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+        width: fit-content;
+    }
+
+    .status-building {
+        background: #fef3c7;
+        color: #92400e;
+    }
+
+    .dark .status-building {
+        background: #451a03;
+        color: #fbbf24;
+    }
+
+    .status-live {
+        background: #d1fae5;
+        color: #065f46;
+    }
+
+    .dark .status-live {
+        background: #064e3b;
+        color: #34d399;
+    }
+
     .project-title {
         font-size: 1.2rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
         color: var(--foreground);
     }
+
     .project-desc {
         color: var(--muted-foreground);
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         line-height: 1.5;
         flex-grow: 1;
         margin-bottom: 1rem;
     }
+
     .project-tags {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
-        margin-bottom: 1rem;
     }
+
     .project-tag {
         font-size: 0.75rem;
         padding: 0.2rem 0.6rem;
@@ -52,62 +97,74 @@ title: Work
         border-radius: 999px;
         border: 1px solid var(--border);
     }
-    .project-link {
-        color: var(--primary);
-        font-weight: 600;
-        text-decoration: none;
+
+    .work-cta {
+        margin-top: 2.5rem;
+        padding: 1.5rem;
+        background: var(--muted);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--muted-foreground);
+        line-height: 1.6;
     }
-    .project-link:hover {
-        text-decoration: underline;
+
+    .work-cta a {
+        font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+        .project-grid {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 
 <div class="container">
-    <a href="/" class="back-link">← back</a>
+    <a href="/" class="back-link">&larr; back</a>
     <h1 class="page-title">work</h1>
-    <p style="color: var(--muted-foreground); margin-bottom: 2rem;">things i'm building.</p>
+    <p class="work-intro">
+        things i'm building. shipping in public because free work
+        is the best bat signal.
+    </p>
 
     <div class="project-grid">
         <div class="project-card">
+            <span class="project-status status-live">live</span>
+            <h3 class="project-title">adampang.com</h3>
+            <p class="project-desc">this site. my internet train station. built with jekyll, shipped on vercel. designed to feel like a tiny video game.</p>
+            <div class="project-tags">
+                <span class="project-tag">Jekyll</span>
+                <span class="project-tag">Vanilla JS</span>
+                <span class="project-tag">Vercel</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <span class="project-status status-building">building</span>
             <h3 class="project-title">The Infinite Game</h3>
-            <p class="project-desc">A market cap for problems. Helping entrepreneurs solve what matters.</p>
+            <p class="project-desc">a market cap for problems. helping entrepreneurs see which problems are worth solving at scale.</p>
             <div class="project-tags">
                 <span class="project-tag">React</span>
                 <span class="project-tag">Node.js</span>
                 <span class="project-tag">AI</span>
             </div>
-            <span class="project-link" style="opacity: 0.5; cursor: default;">Coming Soon</span>
         </div>
 
         <div class="project-card">
+            <span class="project-status status-building">building</span>
             <h3 class="project-title">Antiworker</h3>
-            <p class="project-desc">Automating open-source problem solving. A tool for the permissionless economy.</p>
+            <p class="project-desc">automating open-source problem solving. a tool for the permissionless economy.</p>
             <div class="project-tags">
                 <span class="project-tag">Python</span>
                 <span class="project-tag">Automation</span>
             </div>
-            <span class="project-link" style="opacity: 0.5; cursor: default;">Coming Soon</span>
         </div>
+    </div>
 
-        <div class="project-card">
-            <h3 class="project-title">Sitefast</h3>
-            <p class="project-desc">Rapid deployment for digital gardens and personal sites.</p>
-            <div class="project-tags">
-                <span class="project-tag">Jekyll</span>
-                <span class="project-tag">Vercel</span>
-            </div>
-            <span class="project-link" style="opacity: 0.5; cursor: default;">Coming Soon</span>
-        </div>
-
-        <!-- Template for adding more projects:
-        <div class="project-card">
-            <h3 class="project-title">Project Name</h3>
-            <p class="project-desc">Short description of the project.</p>
-            <div class="project-tags">
-                <span class="project-tag">Tech</span>
-            </div>
-            <a href="#" class="project-link">View →</a>
-        </div>
-        -->
+    <div class="work-cta">
+        all code is open source on <a href="https://github.com/adamtpang" target="_blank">github</a>.
+        <br>hire me or collaborate → <a href="/contact">get in touch</a>
     </div>
 </div>
