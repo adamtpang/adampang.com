@@ -1,6 +1,5 @@
 title: Adam Pang
-description: I build software that helps people make better decisions about real estate, while exploring music and ideas through creative projects.
-url: "https://adam.gives"
+url: "https://adampang.com"
 email: adam@adampang.com
 
 exclude:
@@ -32,9 +31,6 @@ plugins:
   - jekyll-feed
 
 theme: minima
-# Theme system
-current_theme: "memoryland"  # Change this to switch themes
-allow_theme_switching: true  # Set to false to disable user theme switching
 
 # Posts configuration
 permalink: /:title/

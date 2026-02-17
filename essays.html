@@ -1,32 +1,102 @@
 ---
-layout: blog
-title: essays
+layout: default
+title: Essays
 ---
 
-<div class="blog-counters">
-    <span class="counter">essays: {{ site.jekyll_posts.size }}</span>
-</div>
+<style>
+    .essay-list {
+        margin-top: 2rem;
+    }
+    .essay-item {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border);
+        transition: all 0.15s ease;
+    }
+    .essay-item:first-child {
+        border-top: 1px solid var(--border);
+    }
+    .essay-item:hover {
+        padding-left: 0.5rem;
+    }
+    .essay-item a {
+        font-weight: 600;
+        font-size: 1.05rem;
+        color: var(--foreground);
+        text-decoration: none;
+    }
+    .essay-item a:hover {
+        color: var(--primary);
+    }
+    .essay-date {
+        font-size: 0.8rem;
+        color: var(--muted-foreground);
+        flex-shrink: 0;
+        font-family: monospace;
+    }
+    .essay-topics {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 2rem;
+    }
+    .topic-tag {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+        background: var(--muted);
+        color: var(--muted-foreground);
+        border-radius: 999px;
+        border: 1px solid var(--border);
+    }
+    .also-on {
+        margin-top: 2rem;
+        padding: 1rem;
+        background: var(--muted);
+        border-radius: var(--radius, 12px);
+        font-size: 0.9rem;
+        color: var(--muted-foreground);
+        text-align: center;
+    }
+    .also-on a {
+        font-weight: 600;
+    }
+</style>
 
-<div class="blog-columns">
-    <div class="blog-column" style="width: 100%;">
-        <h2>inkuary & thoughts</h2>
-        <p class="text-muted" style="margin-bottom: 2rem;">Screenshot essays, manifestos, and long-form thoughts.</p>
-        
-        <div class="blog-item" style="border: 1px solid var(--primary); padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
-            <a href="#" style="font-weight: bold; font-size: 1.1rem;">Start Here: The Manifesto</a>
-            <p style="margin: 0.5rem 0 0; font-size: 0.9rem; color: var(--muted-foreground);">Why I'm building a personal moat and playing the infinite game.</p>
-        </div>
+<div class="container">
+    <a href="/" class="back-link">← back</a>
+    <h1 class="page-title">essays</h1>
+    <p style="color: var(--muted-foreground); margin-bottom: 0;">
+        300-500 word pieces on life, technology, and philosophy.
+    </p>
 
+    <div class="essay-topics">
+        <span class="topic-tag">philosophy</span>
+        <span class="topic-tag">building</span>
+        <span class="topic-tag">creativity</span>
+        <span class="topic-tag">longevity</span>
+        <span class="topic-tag">technology</span>
+    </div>
+
+    <div class="essay-list">
         {% assign sorted_posts = site.jekyll_posts | sort: 'title' %}
         {% for post in sorted_posts %}
-            <div class="blog-item">
-                <span style="color: var(--muted-foreground); font-size: 0.8rem; margin-right: 0.5rem;">{{ post.date | date: "%Y-%m-%d" }}</span>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </div>
+        <div class="essay-item">
+            <span class="essay-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </div>
         {% endfor %}
-        
+
         {% if site.jekyll_posts.size == 0 %}
-            <p>Coming soon.</p>
+        <div class="essay-item">
+            <span class="essay-date">coming</span>
+            <span style="color: var(--muted-foreground);">essays shipping soon.</span>
+        </div>
         {% endif %}
+    </div>
+
+    <div class="also-on">
+        Also cross-posted to <a href="https://x.com/adamtpang" target="_blank">X Articles →</a>
     </div>
 </div>

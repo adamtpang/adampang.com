@@ -1,84 +1,113 @@
 ---
 layout: default
-title: Artifacts
+title: Work
 ---
 
 <style>
     .project-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 1.5rem;
         margin-top: 2rem;
     }
-    .artifact-card {
+    .project-card {
         background: var(--card);
         border: 1px solid var(--border);
-        border-radius: 12px;
+        border-radius: var(--radius, 12px);
         padding: 1.5rem;
         transition: all 0.2s ease;
         display: flex;
         flex-direction: column;
         height: 100%;
     }
-    .artifact-card:hover {
+    .project-card:hover {
         border-color: var(--primary);
         transform: translateY(-2px);
-        box-shadow: var(--shadow);
+        box-shadow: var(--shadow-md);
     }
-    .artifact-title {
-        font-size: 1.25rem;
+    .project-title {
+        font-size: 1.2rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
         color: var(--foreground);
     }
-    .artifact-desc {
+    .project-desc {
         color: var(--muted-foreground);
         font-size: 0.95rem;
         line-height: 1.5;
         flex-grow: 1;
         margin-bottom: 1rem;
     }
-    .artifact-link {
+    .project-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .project-tag {
+        font-size: 0.75rem;
+        padding: 0.2rem 0.6rem;
+        background: var(--muted);
+        color: var(--muted-foreground);
+        border-radius: 999px;
+        border: 1px solid var(--border);
+    }
+    .project-link {
         color: var(--primary);
         font-weight: 600;
         text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.25rem;
     }
-    .artifact-link:hover {
+    .project-link:hover {
         text-decoration: underline;
     }
 </style>
 
 <div class="container">
     <a href="/" class="back-link">← back</a>
-    <h1 class="page-title">artifacts</h1>
-    <p class="text-muted">A portfolio of engines, tools, and games.</p>
+    <h1 class="page-title">work</h1>
+    <p style="color: var(--muted-foreground); margin-bottom: 2rem;">things i'm building.</p>
 
     <div class="project-grid">
-        <div class="artifact-card">
-            <h3 class="artifact-title">The Infinite Game</h3>
-            <p class="artifact-desc">A market cap for problems. Helping entrepreneurs solve what matters instead of building another SaaS clone.</p>
-            <a href="#" class="artifact-link">Coming Soon →</a>
+        <div class="project-card">
+            <h3 class="project-title">The Infinite Game</h3>
+            <p class="project-desc">A market cap for problems. Helping entrepreneurs solve what matters.</p>
+            <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">AI</span>
+            </div>
+            <span class="project-link" style="opacity: 0.5; cursor: default;">Coming Soon</span>
         </div>
 
-        <div class="artifact-card">
-            <h3 class="artifact-title">Antiworker</h3>
-            <p class="artifact-desc">Automating open-source problem solving. A tool for the permissionless economy.</p>
-            <a href="#" class="artifact-link">View Project →</a>
+        <div class="project-card">
+            <h3 class="project-title">Antiworker</h3>
+            <p class="project-desc">Automating open-source problem solving. A tool for the permissionless economy.</p>
+            <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Automation</span>
+            </div>
+            <span class="project-link" style="opacity: 0.5; cursor: default;">Coming Soon</span>
         </div>
 
-        <div class="artifact-card">
-            <h3 class="artifact-title">Sitefast</h3>
-            <p class="artifact-desc">Rapid deployment for digital gardens and personal moats.</p>
-            <a href="#" class="artifact-link">View Project →</a>
+        <div class="project-card">
+            <h3 class="project-title">Sitefast</h3>
+            <p class="project-desc">Rapid deployment for digital gardens and personal sites.</p>
+            <div class="project-tags">
+                <span class="project-tag">Jekyll</span>
+                <span class="project-tag">Vercel</span>
+            </div>
+            <span class="project-link" style="opacity: 0.5; cursor: default;">Coming Soon</span>
         </div>
-        
-        <div class="artifact-card">
-            <h3 class="artifact-title">Anchor Marianas</h3>
-            <p class="artifact-desc">Holding company for internet goods & services.</p>
-            <a href="https://anchormarianas.com" target="_blank" class="artifact-link">anchormarianas.com →</a>
+
+        <!-- Template for adding more projects:
+        <div class="project-card">
+            <h3 class="project-title">Project Name</h3>
+            <p class="project-desc">Short description of the project.</p>
+            <div class="project-tags">
+                <span class="project-tag">Tech</span>
+            </div>
+            <a href="#" class="project-link">View →</a>
         </div>
+        -->
     </div>
 </div>

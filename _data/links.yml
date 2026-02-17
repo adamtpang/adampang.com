@@ -1,87 +1,35 @@
-- name: "now"
-  url: "/now"
-  emoji: "⏰"
-  highlight: true
-
-- name: "life"
-  url: "/life"
-  emoji: "📖"
-  highlight: false
-
-- name: "work"
-  url: "/work"
-  emoji: "💼"
-  highlight: false
-
-- name: "learning"
-  url: "/learning"
-  emoji: "📚"
-  highlight: false
-
-- name: "heroes"
-  url: "/heroes"
-  emoji: "🌟"
-  highlight: false
-
-- name: "contact"
-  url: "/contact"
-  emoji: "📧"
-  highlight: false
-
-- name: "support"
-  url: "/support"
-  emoji: "☕"
-  highlight: false
-
-- name: "kit"
-  url: "/kit"
-  emoji: "🎙️"
-  highlight: false
-
-- name: "essays"
-  url: "https://substack.com/@adamtpang"
-  target: "_blank"
-  emoji: "✍️"
-  highlight: false
-
-- name: "songs"
-  url: "https://soundcloud.com/adamtpang"
-  target: "_blank"
-  emoji: "🎵"
-  highlight: false
-
-- name: "apps"
-  url: "https://anchormarianas.com"
-  target: "_blank"
-  emoji: "🚀"
-  highlight: false
-
-- name: "code"
-  url: "https://github.com/adamtpang"
-  target: "_blank"
-  emoji: "💻"
-  highlight: false
-
-- name: "pictures"
-  url: "https://instagram.com/adamtpang"
-  target: "_blank"
-  emoji: "📷"
-  highlight: false
-
-- name: "videos"
-  url: "https://youtube.com/@adamtpang"
-  target: "_blank"
-  emoji: "📹"
-  highlight: false
-
+# External links (rendered on homepage "around the web" section)
 - name: "thoughts"
   url: "https://x.com/adamtpang"
   target: "_blank"
   emoji: "💭"
   highlight: false
+  activity: 2
 
 - name: "thots"
   url: "https://farcaster.xyz/adampang"
   target: "_blank"
   emoji: "🟣"
   highlight: false
+  activity: 3
+
+- name: "songs"
+  url: "https://soundcloud.com/adamtpang"
+  target: "_blank"
+  emoji: "🎵"
+  highlight: false
+  activity: 1
+
+- name: "videos"
+  url: "https://youtube.com/@adamtpang"
+  target: "_blank"
+  emoji: "📹"
+  highlight: false
+  activity: 2
+
+- name: "code"
+  url: "https://github.com/adamtpang"
+  target: "_blank"
+  emoji: "💻"
+  highlight: false
+  activity: 2

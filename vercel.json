@@ -5,9 +5,9 @@
     "LC_ALL": "en_US.UTF-8"
   },
   "redirects": [
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "adamtpang.com" }], "destination": "https://adam.gives/$1", "permanent": true },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "adampangelinan.com" }], "destination": "https://adam.gives/$1", "permanent": true },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "adampang.com" }], "destination": "https://adam.gives/$1", "permanent": true },
-    { "source": "/(.*)", "has": [{ "type": "host", "value": "adamtomas.fun" }], "destination": "https://adam.gives/$1", "permanent": true }
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "adam.gives" }], "destination": "https://adampang.com/$1", "permanent": true },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "adamtpang.com" }], "destination": "https://adampang.com/$1", "permanent": true },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "adampangelinan.com" }], "destination": "https://adampang.com/$1", "permanent": true },
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "adamtomas.fun" }], "destination": "https://adampang.com/$1", "permanent": true }
   ]
 }
