@@ -4,7 +4,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
-Gemfile.lock
+# Gemfile.lock is tracked — Vercel needs it for deployment
 
 # OS generated files
 .DS_Store

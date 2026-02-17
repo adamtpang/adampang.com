@@ -1,7 +1,5 @@
 {
   "version": 2,
-  "buildCommand": "jekyll build",
-  "outputDirectory": "_site",
   "env": {
     "LANG": "en_US.UTF-8",
     "LC_ALL": "en_US.UTF-8"
