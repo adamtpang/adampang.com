@@ -1,9 +1,13 @@
 {
   "version": 2,
+  "buildCommand": "jekyll build",
+  "outputDirectory": "_site",
   "env": {
     "LANG": "en_US.UTF-8",
     "LC_ALL": "en_US.UTF-8"
   },
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     { "source": "/(.*)", "has": [{ "type": "host", "value": "adam.gives" }], "destination": "https://adampang.com/$1", "permanent": true },
     { "source": "/(.*)", "has": [{ "type": "host", "value": "adamtpang.com" }], "destination": "https://adampang.com/$1", "permanent": true },
