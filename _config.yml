@@ -30,8 +30,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-theme: minima
-
 # Posts configuration
 permalink: /:title/
 
