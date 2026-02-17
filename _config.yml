@@ -1,6 +1,7 @@
 title: Adam Pang
 url: "https://adampang.com"
 email: adam@adampang.com
+repository: adamtpang/adampang.com
 
 exclude:
   - _private/
