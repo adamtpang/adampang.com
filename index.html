@@ -120,6 +120,12 @@ layout: default
     .start-here:hover {
         transform: translateY(-3px);
         box-shadow: var(--shadow-lg);
+        color: var(--primary-foreground);
+    }
+
+    .start-here:visited,
+    .start-here:active {
+        color: var(--primary-foreground);
     }
 
     .start-here-label {
@@ -128,17 +134,20 @@ layout: default
         letter-spacing: 0.1em;
         opacity: 0.8;
         margin-bottom: 0.5rem;
+        color: inherit;
     }
 
     .start-here-title {
         font-size: 1.5rem;
         font-weight: 700;
         margin-bottom: 0.25rem;
+        color: inherit;
     }
 
     .start-here-sub {
         font-size: 0.95rem;
         opacity: 0.85;
+        color: inherit;
     }
 
     /* Music Player */
@@ -164,29 +173,6 @@ layout: default
         color: var(--muted-foreground);
         margin-bottom: 0.75rem;
         font-weight: 600;
-    }
-
-    /* Music player initially hidden, revealed on first interaction */
-    .music-player.waiting {
-        max-height: 0;
-        padding: 0;
-        margin: 0;
-        border: none;
-        opacity: 0;
-        overflow: hidden;
-        transition: max-height 0.6s cubic-bezier(0.16, 1, 0.3, 1),
-                    padding 0.6s ease,
-                    margin 0.6s ease,
-                    opacity 0.4s ease,
-                    border 0.3s ease;
-    }
-
-    .music-player.revealed {
-        max-height: 500px;
-        padding: 1.25rem;
-        margin-bottom: 2.5rem;
-        border: 1px solid var(--border);
-        opacity: 1;
     }
 
     /* Journey Paths */
@@ -388,10 +374,6 @@ layout: default
             padding: 0.75rem;
         }
 
-        .music-player.revealed {
-            padding: 0.75rem;
-        }
-
         .start-here {
             padding: 1.5rem;
         }
@@ -454,12 +436,12 @@ layout: default
         <div class="start-here-sub">born on guam. philosophy kid. coder. musician. building things that matter.</div>
     </a>
 
-    <!-- 4. Music Player (Spotify Top Songs) — hidden until first interaction -->
-    <div class="music-player waiting" id="musicPlayer">
+    <!-- 4. Music Player (Spotify Top Songs) — always visible -->
+    <div class="music-player" id="musicPlayer">
         <div class="music-player-label">top songs 2025</div>
         <iframe id="spotifyEmbed"
             style="border-radius:8px"
-            src=""
+            src="https://open.spotify.com/embed/playlist/37i9dQZEVXd3JaoMJtEGfX?utm_source=generator&theme=0"
             width="100%" height="352" frameBorder="0" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"></iframe>
@@ -526,36 +508,6 @@ layout: default
 </div>
 
 <script>
-    // First interaction reveals the music player and loads Spotify
-    (function () {
-        var player = document.getElementById('musicPlayer');
-        var iframe = document.getElementById('spotifyEmbed');
-        var startBtn = document.getElementById('startHere');
-        var revealed = false;
-        var spotifySrc = 'https://open.spotify.com/embed/playlist/37i9dQZEVXd3JaoMJtEGfX?utm_source=generator&theme=0';
-
-        function revealPlayer() {
-            if (revealed) return;
-            revealed = true;
-            // Load the Spotify embed
-            iframe.src = spotifySrc;
-            // Animate open
-            player.classList.remove('waiting');
-            player.classList.add('revealed');
-        }
-
-        // Clicking Start Here reveals the player (and navigates to /life)
-        startBtn.addEventListener('click', function () {
-            revealPlayer();
-        });
-
-        // Any first click/tap on the page also reveals it
-        document.addEventListener('click', function firstClick() {
-            revealPlayer();
-            document.removeEventListener('click', firstClick);
-        }, { once: true });
-    })();
-
     // Ambient glow — cycles through curated color palette
     (function () {
         var glow = document.getElementById('ambientGlow');
