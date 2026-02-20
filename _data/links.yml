@@ -1,35 +1,25 @@
 # External links (rendered on homepage "around the web" section)
-- name: "thoughts"
+- name: "x"
   url: "https://x.com/adamtpang"
   target: "_blank"
   emoji: "💭"
-  highlight: false
-  activity: 2
 
-- name: "thots"
+- name: "farcaster"
   url: "https://farcaster.xyz/adampang"
   target: "_blank"
   emoji: "🟣"
-  highlight: false
-  activity: 3
 
-- name: "songs"
+- name: "soundcloud"
   url: "https://soundcloud.com/adamtpang"
   target: "_blank"
   emoji: "🎵"
-  highlight: false
-  activity: 1
 
-- name: "videos"
+- name: "youtube"
   url: "https://youtube.com/@adamtpang"
   target: "_blank"
   emoji: "📹"
-  highlight: false
-  activity: 2
 
-- name: "code"
+- name: "github"
   url: "https://github.com/adamtpang"
   target: "_blank"
   emoji: "💻"
-  highlight: false
-  activity: 2

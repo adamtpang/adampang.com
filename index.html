@@ -1,9 +1,10 @@
 ---
 layout: default
+description: "adam tomas pangelinan — optimistic problem solver. software engineer leveraging code and media. app academy alum, living at ns.com."
 ---
 
 <style>
-    /* Ambient Glow */
+    /* Ambient Glow — reacts to Spotify or cycles colors */
     .ambient-glow {
         position: fixed;
         top: 0;
@@ -13,7 +14,7 @@ layout: default
         pointer-events: none;
         z-index: -1;
         opacity: 0;
-        transition: opacity 3s ease;
+        transition: opacity 3s ease, background 2s ease;
         background: radial-gradient(ellipse at 50% 0%, var(--glow-color, transparent) 0%, transparent 70%);
     }
 
@@ -25,129 +26,218 @@ layout: default
         opacity: 0.25;
     }
 
-    /* Hero */
-    .hero-section {
-        text-align: center;
-        margin-bottom: 1rem;
-        padding: 3rem 0 0.5rem;
-    }
-
-    .hero-name {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: var(--foreground);
-        margin-bottom: 0.25rem;
-        line-height: 1.2;
-    }
-
-    .hero-hint {
-        font-size: 1rem;
-        color: var(--muted-foreground);
-        margin-top: 0.5rem;
-    }
-
-    /* Name Etymology */
-    .etymology {
-        text-align: center;
-        padding: 0 1rem;
+    /* Header — identity left, quick links + toggle right */
+    .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        padding: 1.5rem 0 0;
         margin-bottom: 1.5rem;
     }
 
-    .etymology-full {
-        font-size: 0.85rem;
-        color: var(--muted-foreground);
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        margin-bottom: 0.75rem;
-    }
-
-    .etymology-grid {
-        display: flex;
-        justify-content: center;
-        gap: 1.5rem;
-        flex-wrap: wrap;
-    }
-
-    .etymology-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 0.2rem;
-    }
-
-    .etymology-word {
-        font-weight: 700;
-        font-size: 0.95rem;
-        color: var(--foreground);
-    }
-
-    .etymology-meaning {
-        font-size: 0.75rem;
-        color: var(--muted-foreground);
-        font-style: italic;
-    }
-
-    .etymology-divider {
+    .identity {
         display: flex;
         align-items: center;
-        font-size: 1.25rem;
-        color: var(--muted-foreground);
-        opacity: 0.5;
+        gap: 1rem;
     }
 
-    .etymology-symbols {
-        display: flex;
-        justify-content: center;
-        gap: 0.5rem;
-        margin-top: 0.5rem;
-        font-size: 1.1rem;
+    .hero-photo {
+        width: 80px;
+        height: 80px;
+        border-radius: 18px;
+        object-fit: cover;
+        border: 2px solid var(--border);
+        flex-shrink: 0;
+        cursor: pointer;
+        transition: transform 150ms ease, box-shadow 150ms ease;
     }
 
-    /* Start Here CTA */
-    .start-here {
-        background: var(--primary);
-        color: var(--primary-foreground);
-        border-radius: var(--radius, 12px);
-        padding: 2rem;
-        margin-bottom: 0.5rem;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        transition: all 150ms ease;
+    .hero-photo:hover {
+        transform: scale(1.05);
         box-shadow: var(--shadow-md);
     }
 
-    .start-here:hover {
-        transform: translateY(-3px);
-        box-shadow: var(--shadow-lg);
-        color: var(--primary-foreground);
-    }
-
-    .start-here:visited,
-    .start-here:active {
-        color: var(--primary-foreground);
-    }
-
-    .start-here-label {
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        opacity: 0.8;
-        margin-bottom: 0.5rem;
-        color: inherit;
-    }
-
-    .start-here-title {
-        font-size: 1.5rem;
+    .hero-name {
+        font-size: 1.1rem;
         font-weight: 700;
-        margin-bottom: 0.25rem;
-        color: inherit;
+        color: var(--foreground);
+        line-height: 1.2;
     }
 
-    .start-here-sub {
-        font-size: 0.95rem;
-        opacity: 0.85;
-        color: inherit;
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+
+    .quick-link {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        padding: 0.4rem 0.65rem;
+        text-decoration: none;
+        color: var(--foreground);
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        font-size: 0.75rem;
+        font-weight: 500;
+        transition: all 150ms ease;
+    }
+
+    .quick-link:hover {
+        border-color: var(--primary);
+        transform: translateY(-1px);
+    }
+
+    .quick-link.disabled {
+        opacity: 0.35;
+        pointer-events: none;
+        cursor: default;
+        filter: grayscale(100%);
+        border-style: dashed;
+    }
+
+    .quick-emoji {
+        font-size: 0.8rem;
+    }
+
+    /* Theme toggle — inline with quick links */
+    .home-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        cursor: pointer;
+        font-size: 0.8rem;
+        transition: all 150ms ease;
+        -webkit-tap-highlight-color: transparent;
+        opacity: 0.5;
+        flex-shrink: 0;
+    }
+
+    .home-toggle:hover {
+        opacity: 1;
+        border-color: var(--primary);
+    }
+
+    /* PFP Modal */
+    .pfp-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2000;
+        background: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        animation: modalFadeIn 0.2s ease;
+    }
+
+    .pfp-modal.open {
+        display: flex;
+    }
+
+    .pfp-modal img {
+        max-width: min(90vw, 400px);
+        max-height: 80vh;
+        border-radius: 24px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        animation: modalZoomIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes modalFadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes modalZoomIn {
+        from { transform: scale(0.8); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+
+    /* TLDR bio */
+    .tldr {
+        font-size: 0.85rem;
+        color: var(--muted-foreground);
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Life Progress Bars */
+    .life-bars {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+    }
+
+    .life-bar {
+        margin-bottom: 0.75rem;
+    }
+
+    .life-bar:last-child {
+        margin-bottom: 0;
+    }
+
+    .life-bar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 0.3rem;
+    }
+
+    .life-bar-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--foreground);
+    }
+
+    .life-bar-value {
+        font-size: 0.7rem;
+        color: var(--muted-foreground);
+        font-family: monospace;
+    }
+
+    .life-bar-track {
+        width: 100%;
+        height: 6px;
+        background: var(--muted);
+        border-radius: 3px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .life-bar-fill {
+        height: 100%;
+        border-radius: 3px;
+        transition: width 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+        width: 0;
+    }
+
+    .life-bar-fill.life-progress {
+        background: var(--primary);
+    }
+
+    .life-bar-fill.life-rating {
+        background: linear-gradient(90deg, #ef4444 0%, #f59e0b 40%, #10b981 70%, #6366f1 100%);
+    }
+
+    .life-bar-note {
+        font-size: 0.65rem;
+        color: var(--muted-foreground);
+        margin-top: 0.2rem;
+        font-style: italic;
     }
 
     /* Music Player */
@@ -155,50 +245,40 @@ layout: default
         background: var(--card);
         border: 1px solid var(--border);
         border-radius: var(--radius, 12px);
-        padding: 1.25rem;
-        margin-bottom: 2.5rem;
+        padding: 0.75rem;
+        margin-bottom: 1.5rem;
         box-shadow: var(--shadow);
-        transition: all 150ms ease;
         overflow: hidden;
+        position: relative;
     }
 
-    .music-player:hover {
-        box-shadow: var(--shadow-md);
-    }
-
-    .music-player-label {
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
+    .music-vibe {
+        font-size: 0.65rem;
         color: var(--muted-foreground);
-        margin-bottom: 0.75rem;
-        font-weight: 600;
+        text-align: center;
+        margin-top: 0.5rem;
+        opacity: 0;
+        transition: opacity 0.6s ease;
+        font-style: italic;
     }
 
-    /* Journey Paths */
-    .journey-section {
-        margin-bottom: 2.5rem;
+    .music-vibe.visible {
+        opacity: 1;
     }
 
-    .journey-title {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: var(--muted-foreground);
-        margin-bottom: 1rem;
-        text-transform: lowercase;
-    }
-
-    .journey-grid {
+    /* Nav Grid */
+    .nav-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
     }
 
-    .journey-card {
+    .nav-card {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1.25rem;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.65rem 0.75rem;
         text-decoration: none;
         color: var(--foreground);
         background: var(--card);
@@ -208,190 +288,289 @@ layout: default
         transition: all 150ms ease;
     }
 
-    .journey-card:hover {
+    .nav-card:hover {
         border-color: var(--primary);
         transform: translateY(-2px);
         box-shadow: var(--shadow-md);
     }
 
-    .journey-card-emoji {
-        font-size: 1.75rem;
-        margin-bottom: 0.75rem;
-    }
-
-    .journey-card-name {
-        font-weight: 600;
-        font-size: 1.05rem;
-        margin-bottom: 0.25rem;
-        font-family: 'Lato', sans-serif;
-    }
-
-    .journey-card-desc {
-        font-size: 0.85rem;
-        color: var(--muted-foreground);
-        line-height: 1.4;
-    }
-
-    /* More Pages */
-    .more-pages {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        margin-bottom: 2.5rem;
-    }
-
-    .more-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0.5rem 1rem;
-        text-decoration: none;
-        color: var(--foreground);
+    .nav-card.disabled {
+        opacity: 0.4;
+        pointer-events: none;
+        cursor: default;
+        filter: grayscale(100%);
         background: var(--muted);
-        border: 1px solid var(--border);
-        border-radius: 999px;
-        font-size: 0.9rem;
-        font-weight: 500;
-        transition: all 150ms ease;
-        font-family: 'Lato', sans-serif;
+        border-style: dashed;
+        position: relative;
     }
 
-    .more-link:hover {
-        border-color: var(--primary);
-        color: var(--primary);
-        transform: translateY(-1px);
+    .nav-card.disabled::after {
+        content: "soon";
+        position: absolute;
+        top: 4px;
+        right: 6px;
+        font-size: 0.55rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted-foreground);
+        font-weight: 600;
+        opacity: 0.7;
+    }
+
+    .nav-card.disabled:hover {
+        border-color: var(--border);
+        transform: none;
         box-shadow: var(--shadow);
     }
 
-    .more-link-emoji {
+    .nav-emoji {
         font-size: 1rem;
+        flex-shrink: 0;
+    }
+
+    .nav-name {
+        font-weight: 600;
+        font-size: 0.8rem;
+        font-family: 'Lato', sans-serif;
     }
 
     /* External Links */
     .external-section {
-        margin-top: 1rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
         border-top: 1px solid var(--border);
-    }
-
-    .external-title {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: var(--muted-foreground);
-        margin-bottom: 1rem;
-        text-transform: lowercase;
+        padding-bottom: 1rem;
     }
 
     .external-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 0.75rem;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 0.4rem;
     }
 
     .ext-link {
         display: flex;
         align-items: center;
-        gap: 0.75rem;
-        padding: 0.85rem 1rem;
+        gap: 0.35rem;
+        padding: 0.45rem 0.65rem;
         text-decoration: none;
         color: var(--foreground);
         background: var(--card);
         border: 1px solid var(--border);
         border-radius: var(--radius, 12px);
-        box-shadow: var(--shadow);
         transition: all 150ms ease;
     }
 
     .ext-link:hover {
         border-color: var(--primary);
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-md);
+        transform: translateY(-1px);
     }
 
     .ext-emoji {
-        font-size: 1.25rem;
+        font-size: 0.8rem;
         flex-shrink: 0;
-    }
-
-    .ext-info {
-        flex: 1;
-        min-width: 0;
     }
 
     .ext-name {
         font-weight: 500;
-        font-size: 0.95rem;
+        font-size: 0.75rem;
         font-family: 'Lato', sans-serif;
     }
 
-    .ext-domain {
-        font-size: 0.8rem;
-        color: var(--muted-foreground);
-        font-family: monospace;
-        white-space: nowrap;
+    /* Planet Earth Footer */
+    .earth-footer {
+        position: relative;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        height: 200px;
         overflow: hidden;
-        text-overflow: ellipsis;
+        pointer-events: none;
     }
 
-    .activity-dots {
-        display: flex;
-        gap: 4px;
-        align-items: center;
-        flex-shrink: 0;
+    .earth-scene {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
     }
 
-    .activity-dots .dot {
-        width: 6px;
-        height: 6px;
+    /* Stars — dark mode only */
+    .stars {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 60px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .stars {
+        opacity: 1;
+    }
+
+    .star {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background: #fff;
         border-radius: 50%;
-        background: var(--border);
-        transition: background 150ms ease;
+        animation: twinkle 3s ease-in-out infinite alternate;
     }
 
-    .activity-dots .dot.active {
-        background: var(--primary);
+    @keyframes twinkle {
+        from { opacity: 0.3; }
+        to { opacity: 1; }
+    }
+
+    /* Moon — dark mode */
+    .moon {
+        position: absolute;
+        top: 15px;
+        right: 15%;
+        width: 28px;
+        height: 28px;
+        background: #f5f5dc;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(245, 245, 220, 0.4), 0 0 60px rgba(245, 245, 220, 0.1);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .moon {
+        opacity: 1;
+    }
+
+    /* Sun — light mode */
+    .sun {
+        position: absolute;
+        top: 10px;
+        right: 18%;
+        width: 32px;
+        height: 32px;
+        background: #fbbf24;
+        border-radius: 50%;
+        box-shadow: 0 0 30px rgba(251, 191, 36, 0.5), 0 0 80px rgba(251, 191, 36, 0.2);
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .sun {
+        opacity: 0;
+    }
+
+    /* Clouds — light mode */
+    .cloud {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 50px;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .cloud {
+        opacity: 0;
+    }
+
+    .cloud-1 {
+        top: 30px;
+        left: 10%;
+        width: 80px;
+        height: 20px;
+        animation: cloudDrift 30s linear infinite;
+    }
+
+    .cloud-2 {
+        top: 55px;
+        left: 50%;
+        width: 60px;
+        height: 16px;
+        animation: cloudDrift 25s linear infinite reverse;
+    }
+
+    .cloud-3 {
+        top: 20px;
+        left: 70%;
+        width: 50px;
+        height: 14px;
+        animation: cloudDrift 35s linear infinite;
+    }
+
+    @keyframes cloudDrift {
+        from { transform: translateX(-20px); }
+        to { transform: translateX(20px); }
+    }
+
+    /* Earth curve */
+    .earth {
+        position: absolute;
+        bottom: -140px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200%;
+        height: 200px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #1a6b3c 0%, #15803d 30%, #166534 100%);
+        box-shadow: 0 -4px 30px rgba(21, 128, 61, 0.3);
+        transition: background 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .dark .earth {
+        background: linear-gradient(180deg, #1e3a5f 0%, #1e293b 30%, #0f172a 100%);
+        box-shadow: 0 -4px 30px rgba(30, 58, 95, 0.4);
+    }
+
+    /* Atmosphere glow */
+    .atmosphere {
+        position: absolute;
+        bottom: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200%;
+        height: 12px;
+        background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.15) 50%, rgba(56, 189, 248, 0.05) 100%);
+        border-radius: 50%;
+        filter: blur(4px);
+    }
+
+    .dark .atmosphere {
+        background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.25) 50%, rgba(56, 189, 248, 0.08) 100%);
     }
 
     /* Mobile */
     @media (max-width: 600px) {
-        .hero-name {
-            font-size: 2rem;
-        }
-
-        .hero-section {
-            padding: 2rem 0 0.5rem;
-        }
-
-        .etymology-grid {
+        .site-header {
+            flex-direction: column;
+            align-items: flex-start;
             gap: 1rem;
+            padding: 1rem 0 0;
         }
 
-        .etymology-divider {
-            display: none;
+        .hero-photo {
+            width: 64px;
+            height: 64px;
+            border-radius: 14px;
         }
 
-        .music-player {
-            padding: 0.75rem;
+        .hero-name {
+            font-size: 1rem;
         }
 
-        .start-here {
-            padding: 1.5rem;
+        .header-right {
+            width: 100%;
+            justify-content: flex-start;
         }
 
-        .start-here-title {
-            font-size: 1.25rem;
-        }
-
-        .journey-grid {
-            grid-template-columns: 1fr;
+        .nav-grid {
+            grid-template-columns: repeat(2, 1fr);
         }
 
         .external-grid {
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(3, 1fr);
         }
 
-        .more-pages {
-            gap: 0.5rem;
+        .earth-footer {
+            height: 150px;
         }
     }
 </style>
@@ -399,106 +578,109 @@ layout: default
 <!-- Ambient background glow -->
 <div class="ambient-glow" id="ambientGlow"></div>
 
+<!-- PFP Modal -->
+<div class="pfp-modal" id="pfpModal">
+    <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Tomas Pangelinan">
+</div>
+
 <div class="container">
 
-    <!-- 1. Hero -->
-    <section class="hero-section">
-        <h1 class="hero-name">Adam Pang</h1>
-        <p class="hero-hint">press play. explore. enjoy.</p>
-    </section>
+    <!-- Header: identity left, quick links + theme toggle right -->
+    <header class="site-header">
+        <div class="identity">
+            <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-photo" id="heroPhoto">
+            <h1 class="hero-name">Adam Tomas Pangelinan</h1>
+        </div>
+        <nav class="header-right">
+            <span class="quick-link disabled"><span class="quick-emoji">📖</span> story</span>
+            <span class="quick-link disabled"><span class="quick-emoji">🌱</span> now</span>
+            <a href="/contact" class="quick-link"><span class="quick-emoji">💬</span> chat</a>
+            <button class="home-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
 
-    <!-- 2. Name Etymology -->
-    <div class="etymology">
-        <div class="etymology-full">adam tomas guzman pangelinan</div>
-        <div class="etymology-grid">
-            <div class="etymology-item">
-                <span class="etymology-word">adam</span>
-                <span class="etymology-meaning">earth & atom</span>
+    <!-- TLDR -->
+    <p class="tldr">
+        TLDR: optimistic problem solver. <a href="https://www.appacademy.io/" target="_blank">app academy</a> alum, software engineer.
+        currently at <a href="https://ns.com/adam/invite" target="_blank">ns.com</a> in malaysia.
+        i love the <a href="https://flowstate.com" target="_blank">flow state</a>, <a href="https://en.wikipedia.org/wiki/David_Deutsch" target="_blank">david deutsch</a>, and studying the greatest lives ever lived.
+        into music, philosophy, capitalism, and soccer.
+        growing my bodies of work: apps, essays, songs, and a pod.
+        playing the infinite game, applying <a href="https://en.wikipedia.org/wiki/The_Beginning_of_Infinity" target="_blank">the beginning of infinity</a> to life and work, solving the best problems magnitude by magnitude.
+    </p>
+
+    <!-- Life Progress -->
+    <div class="life-bars">
+        <div class="life-bar">
+            <div class="life-bar-header">
+                <span class="life-bar-label">life progress</span>
+                <span class="life-bar-value">23 of ~75 years (31%)</span>
             </div>
-            <span class="etymology-divider">·</span>
-            <div class="etymology-item">
-                <span class="etymology-word">pangelinan</span>
-                <span class="etymology-meaning">sacred, untouched</span>
-            </div>
-            <span class="etymology-divider">·</span>
-            <div class="etymology-item">
-                <span class="etymology-word">pang 庞</span>
-                <span class="etymology-meaning">grandeur, dragon</span>
+            <div class="life-bar-track">
+                <div class="life-bar-fill life-progress" id="lifeProgress"></div>
             </div>
         </div>
-        <div class="etymology-symbols">🔥→🐉</div>
+        <div class="life-bar">
+            <div class="life-bar-header">
+                <span class="life-bar-label">life rating</span>
+                <span class="life-bar-value">6-7/10 — working on it :)</span>
+            </div>
+            <div class="life-bar-track">
+                <div class="life-bar-fill life-rating" id="lifeRating"></div>
+            </div>
+
+        </div>
     </div>
 
-    <!-- 3. Start Here CTA (above music — first click reveals player) -->
-    <a href="/life" class="start-here" id="startHere">
-        <div class="start-here-label">▶ start here</div>
-        <div class="start-here-title">the story so far</div>
-        <div class="start-here-sub">born on guam. philosophy kid. coder. musician. building things that matter.</div>
-    </a>
-
-    <!-- 4. Music Player (Spotify Top Songs) — always visible -->
-    <div class="music-player" id="musicPlayer">
-        <div class="music-player-label">top songs 2025</div>
+    <!-- Music -->
+    <div class="music-player">
         <iframe id="spotifyEmbed"
             style="border-radius:8px"
             src="https://open.spotify.com/embed/playlist/37i9dQZEVXd3JaoMJtEGfX?utm_source=generator&theme=0"
-            width="100%" height="352" frameBorder="0" allowfullscreen=""
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"></iframe>
+        <div class="music-vibe" id="musicVibe">the background changes color based on whatever's playing</div>
     </div>
 
-    <!-- 5. Curated Journey Paths -->
-    <section class="journey-section">
-        <h2 class="journey-title">explore</h2>
-        <div class="journey-grid">
-            <a href="/work" class="journey-card">
-                <span class="journey-card-emoji">💼</span>
-                <div class="journey-card-name">work</div>
-                <div class="journey-card-desc">projects i'm building to solve real problems</div>
-            </a>
-            <a href="/essays" class="journey-card">
-                <span class="journey-card-emoji">✍️</span>
-                <div class="journey-card-name">ideas</div>
-                <div class="journey-card-desc">essays on philosophy, tech, and life</div>
-            </a>
-            <a href="/learning" class="journey-card">
-                <span class="journey-card-emoji">📚</span>
-                <div class="journey-card-name">inputs</div>
-                <div class="journey-card-desc">books, films, and things shaping my thinking</div>
-            </a>
-            <a href="/contact" class="journey-card">
-                <span class="journey-card-emoji">📧</span>
-                <div class="journey-card-name">connect</div>
-                <div class="journey-card-desc">dms are open. i reply to everyone.</div>
-            </a>
-        </div>
-    </section>
-
-    <!-- 6. More Pages (pills) -->
-    <div class="more-pages">
-        <a href="/now" class="more-link"><span class="more-link-emoji">⏰</span> now</a>
-        <a href="/heroes" class="more-link"><span class="more-link-emoji">🌟</span> heroes</a>
+    <!-- Nav Cards -->
+    <div class="nav-grid">
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#128188;</span>
+            <span class="nav-name">work</span>
+        </span>
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#9997;&#65039;</span>
+            <span class="nav-name">writing</span>
+        </span>
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#127775;</span>
+            <span class="nav-name">humans</span>
+        </span>
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#128214;</span>
+            <span class="nav-name">bookshelf</span>
+        </span>
+        <a href="/games" class="nav-card">
+            <span class="nav-emoji">&#127918;</span>
+            <span class="nav-name">games</span>
+        </a>
+        <a href="/design" class="nav-card">
+            <span class="nav-emoji">&#127912;</span>
+            <span class="nav-name">design</span>
+        </a>
     </div>
 
-    <!-- 7. External Links -->
+    <!-- Around the Web -->
     <section class="external-section">
-        <h2 class="external-title">around the web</h2>
         <div class="external-grid">
             {% for link in site.data.links %}
             {% if link.target == "_blank" %}
             <a href="{{ link.url }}" class="ext-link" target="_blank">
                 <span class="ext-emoji">{{ link.emoji }}</span>
-                <div class="ext-info">
-                    <div class="ext-name">{{ link.name }}</div>
-                    <div class="ext-domain">{{ link.url | remove: "https://" | remove: "http://" | split: "/" | first }}</div>
-                </div>
-                {% if link.activity %}
-                <div class="activity-dots">
-                    {% for i in (1..3) %}
-                    <span class="dot{% if i <= link.activity %} active{% endif %}"></span>
-                    {% endfor %}
-                </div>
-                {% endif %}
+                <span class="ext-name">{{ link.name }}</span>
             </a>
             {% endif %}
             {% endfor %}
@@ -507,32 +689,197 @@ layout: default
 
 </div>
 
+<!-- Planet Earth Footer — fixed to viewport bottom -->
+<div class="earth-footer">
+    <div class="earth-scene">
+        <div class="stars" id="stars"></div>
+        <div class="moon"></div>
+        <div class="sun"></div>
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+        <div class="atmosphere"></div>
+        <div class="earth"></div>
+    </div>
+</div>
+
 <script>
-    // Ambient glow — cycles through curated color palette
+    // PFP modal
+    (function () {
+        var photo = document.getElementById('heroPhoto');
+        var modal = document.getElementById('pfpModal');
+        if (photo && modal) {
+            photo.addEventListener('click', function () {
+                modal.classList.add('open');
+            });
+            modal.addEventListener('click', function () {
+                modal.classList.remove('open');
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') modal.classList.remove('open');
+            });
+        }
+    })();
+</script>
+
+<script>
+    // Generate stars
+    (function () {
+        var container = document.getElementById('stars');
+        if (!container) return;
+        for (var i = 0; i < 40; i++) {
+            var star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = (Math.random() * 3) + 's';
+            star.style.animationDuration = (2 + Math.random() * 3) + 's';
+            var size = Math.random() < 0.3 ? 3 : (Math.random() < 0.6 ? 2 : 1);
+            star.style.width = size + 'px';
+            star.style.height = size + 'px';
+            container.appendChild(star);
+        }
+    })();
+</script>
+
+<script>
+    // Animate life progress bars
+    (function () {
+        setTimeout(function () {
+            var lifeBar = document.getElementById('lifeProgress');
+            var ratingBar = document.getElementById('lifeRating');
+            if (lifeBar) lifeBar.style.width = '31%';
+            if (ratingBar) ratingBar.style.width = '65%';
+        }, 400);
+    })();
+</script>
+
+<script>
+    // Spotify iFrame API — detect track changes and extract colors for ambient glow
+    // Uses two strategies: (1) hash-based color from track URI (always works),
+    // (2) oEmbed album art color extraction (works when CORS allows)
     (function () {
         var glow = document.getElementById('ambientGlow');
-        var colors = [
-            '#6366f1', // indigo
-            '#8b5cf6', // violet
-            '#ec4899', // pink
-            '#f59e0b', // amber
-            '#10b981', // emerald
-            '#3b82f6', // blue
-            '#f43f5e', // rose
-            '#06b6d4', // cyan
+        var vibe = document.getElementById('musicVibe');
+        var fallbackColors = [
+            '#6366f1', '#8b5cf6', '#ec4899', '#f59e0b',
+            '#10b981', '#3b82f6', '#f43f5e', '#06b6d4',
         ];
-        var index = 0;
+        var colorIndex = 0;
+        var fallbackInterval;
+        var lastTrackUri = '';
 
-        function cycle() {
-            glow.style.setProperty('--glow-color', colors[index]);
+        function setGlow(color) {
+            glow.style.setProperty('--glow-color', color);
             glow.classList.add('active');
-            index = (index + 1) % colors.length;
         }
 
-        // Start cycling after a short delay
-        setTimeout(function () {
-            cycle();
-            setInterval(cycle, 8000);
-        }, 2000);
+        function startFallback() {
+            setGlow(fallbackColors[colorIndex]);
+            fallbackInterval = setInterval(function () {
+                colorIndex = (colorIndex + 1) % fallbackColors.length;
+                setGlow(fallbackColors[colorIndex]);
+            }, 8000);
+        }
+
+        // Hash a string to a vibrant HSL color
+        function hashColor(str) {
+            var hash = 0;
+            for (var i = 0; i < str.length; i++) {
+                hash = str.charCodeAt(i) + ((hash << 5) - hash);
+                hash = hash & hash;
+            }
+            var hue = Math.abs(hash % 360);
+            return 'hsl(' + hue + ', 70%, 55%)';
+        }
+
+        // Try to extract dominant color from album art
+        function extractColor(imageUrl, callback) {
+            var img = new Image();
+            img.crossOrigin = 'anonymous';
+            img.onload = function () {
+                var canvas = document.createElement('canvas');
+                var ctx = canvas.getContext('2d');
+                canvas.width = 64;
+                canvas.height = 64;
+                ctx.drawImage(img, 0, 0, 64, 64);
+                try {
+                    var data = ctx.getImageData(0, 0, 64, 64).data;
+                    var r = 0, g = 0, b = 0, count = 0;
+                    for (var i = 0; i < data.length; i += 64) {
+                        var pr = data[i], pg = data[i + 1], pb = data[i + 2];
+                        var brightness = (pr + pg + pb) / 3;
+                        if (brightness > 30 && brightness < 220) {
+                            r += pr; g += pg; b += pb; count++;
+                        }
+                    }
+                    if (count > 0) {
+                        r = Math.round(r / count);
+                        g = Math.round(g / count);
+                        b = Math.round(b / count);
+                        var max = Math.max(r, g, b);
+                        var min = Math.min(r, g, b);
+                        if (max > min) {
+                            var factor = 1.3;
+                            var mid = (max + min) / 2;
+                            r = Math.min(255, Math.round(mid + (r - mid) * factor));
+                            g = Math.min(255, Math.round(mid + (g - mid) * factor));
+                            b = Math.min(255, Math.round(mid + (b - mid) * factor));
+                        }
+                        callback('rgb(' + r + ',' + g + ',' + b + ')');
+                    } else {
+                        callback(null);
+                    }
+                } catch (e) {
+                    callback(null);
+                }
+            };
+            img.onerror = function () { callback(null); };
+            img.src = imageUrl;
+        }
+
+        function onTrackChange(trackUri) {
+            if (fallbackInterval) {
+                clearInterval(fallbackInterval);
+                fallbackInterval = null;
+            }
+
+            // Immediately set hash-based color (always works, instant)
+            setGlow(hashColor(trackUri));
+            if (vibe) vibe.classList.add('visible');
+
+            // Then try to get the real album art color (may fail due to CORS)
+            var parts = trackUri.split(':');
+            if (parts.length < 3) return;
+            var url = 'https://open.spotify.com/' + parts[1] + '/' + parts[2];
+
+            fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(url))
+                .then(function (res) { return res.json(); })
+                .then(function (data) {
+                    if (data.thumbnail_url) {
+                        extractColor(data.thumbnail_url, function (color) {
+                            if (color) setGlow(color);
+                        });
+                    }
+                })
+                .catch(function () {});
+        }
+
+        // Listen for Spotify iFrame API messages
+        window.addEventListener('message', function (event) {
+            if (event.origin !== 'https://open.spotify.com') return;
+            try {
+                var data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+                if (data.type === 'playback_update' && data.payload && data.payload.playingURI) {
+                    if (data.payload.playingURI !== lastTrackUri) {
+                        lastTrackUri = data.payload.playingURI;
+                        onTrackChange(data.payload.playingURI);
+                    }
+                }
+            } catch (e) {}
+        });
+
+        // Start fallback after delay
+        setTimeout(startFallback, 2000);
     })();
 </script>
