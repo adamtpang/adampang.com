@@ -22,9 +22,11 @@
 </head>
 
 <body>
+    {% if page.title %}
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
         <span class="theme-icon">🌙</span>
     </button>
+    {% endif %}
 
     {{ content }}
 
