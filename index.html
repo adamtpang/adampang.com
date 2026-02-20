@@ -49,6 +49,13 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         object-fit: cover;
         border: 2px solid var(--border);
         flex-shrink: 0;
+        cursor: pointer;
+        transition: transform 150ms ease, box-shadow 150ms ease;
+    }
+
+    .hero-photo:hover {
+        transform: scale(1.05);
+        box-shadow: var(--shadow-md);
     }
 
     .hero-name {
@@ -109,6 +116,44 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     .home-toggle:hover {
         opacity: 1;
         border-color: var(--primary);
+    }
+
+    /* PFP Modal */
+    .pfp-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2000;
+        background: rgba(0, 0, 0, 0.8);
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        animation: modalFadeIn 0.2s ease;
+    }
+
+    .pfp-modal.open {
+        display: flex;
+    }
+
+    .pfp-modal img {
+        max-width: min(90vw, 400px);
+        max-height: 80vh;
+        border-radius: 24px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        animation: modalZoomIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes modalFadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes modalZoomIn {
+        from { transform: scale(0.8); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
     }
 
     /* TLDR bio */
@@ -293,6 +338,167 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         font-family: 'Lato', sans-serif;
     }
 
+    /* Planet Earth Footer */
+    .earth-footer {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        margin-top: 2rem;
+        overflow: hidden;
+        pointer-events: none;
+    }
+
+    .earth-scene {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+    }
+
+    /* Stars — dark mode only */
+    .stars {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 60px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .stars {
+        opacity: 1;
+    }
+
+    .star {
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        background: #fff;
+        border-radius: 50%;
+        animation: twinkle 3s ease-in-out infinite alternate;
+    }
+
+    @keyframes twinkle {
+        from { opacity: 0.3; }
+        to { opacity: 1; }
+    }
+
+    /* Moon — dark mode */
+    .moon {
+        position: absolute;
+        top: 15px;
+        right: 15%;
+        width: 28px;
+        height: 28px;
+        background: #f5f5dc;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgba(245, 245, 220, 0.4), 0 0 60px rgba(245, 245, 220, 0.1);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .moon {
+        opacity: 1;
+    }
+
+    /* Sun — light mode */
+    .sun {
+        position: absolute;
+        top: 10px;
+        right: 18%;
+        width: 32px;
+        height: 32px;
+        background: #fbbf24;
+        border-radius: 50%;
+        box-shadow: 0 0 30px rgba(251, 191, 36, 0.5), 0 0 80px rgba(251, 191, 36, 0.2);
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .sun {
+        opacity: 0;
+    }
+
+    /* Clouds — light mode */
+    .cloud {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 50px;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+    }
+
+    .dark .cloud {
+        opacity: 0;
+    }
+
+    .cloud-1 {
+        top: 30px;
+        left: 10%;
+        width: 80px;
+        height: 20px;
+        animation: cloudDrift 30s linear infinite;
+    }
+
+    .cloud-2 {
+        top: 55px;
+        left: 50%;
+        width: 60px;
+        height: 16px;
+        animation: cloudDrift 25s linear infinite reverse;
+    }
+
+    .cloud-3 {
+        top: 20px;
+        left: 70%;
+        width: 50px;
+        height: 14px;
+        animation: cloudDrift 35s linear infinite;
+    }
+
+    @keyframes cloudDrift {
+        from { transform: translateX(-20px); }
+        to { transform: translateX(20px); }
+    }
+
+    /* Earth curve */
+    .earth {
+        position: absolute;
+        bottom: -140px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200%;
+        height: 200px;
+        border-radius: 50%;
+        background: linear-gradient(180deg, #1a6b3c 0%, #15803d 30%, #166534 100%);
+        box-shadow: 0 -4px 30px rgba(21, 128, 61, 0.3);
+        transition: background 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .dark .earth {
+        background: linear-gradient(180deg, #1e3a5f 0%, #1e293b 30%, #0f172a 100%);
+        box-shadow: 0 -4px 30px rgba(30, 58, 95, 0.4);
+    }
+
+    /* Atmosphere glow */
+    .atmosphere {
+        position: absolute;
+        bottom: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200%;
+        height: 12px;
+        background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.15) 50%, rgba(56, 189, 248, 0.05) 100%);
+        border-radius: 50%;
+        filter: blur(4px);
+    }
+
+    .dark .atmosphere {
+        background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.25) 50%, rgba(56, 189, 248, 0.08) 100%);
+    }
+
     /* Mobile */
     @media (max-width: 600px) {
         .site-header {
@@ -324,18 +530,27 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         .external-grid {
             grid-template-columns: repeat(3, 1fr);
         }
+
+        .earth-footer {
+            height: 150px;
+        }
     }
 </style>
 
 <!-- Ambient background glow -->
 <div class="ambient-glow" id="ambientGlow"></div>
 
+<!-- PFP Modal -->
+<div class="pfp-modal" id="pfpModal">
+    <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Tomas Pangelinan">
+</div>
+
 <div class="container">
 
     <!-- Header: identity left, quick links + theme toggle right -->
     <header class="site-header">
         <div class="identity">
-            <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-photo">
+            <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-photo" id="heroPhoto">
             <h1 class="hero-name">Adam Tomas Pangelinan</h1>
         </div>
         <nav class="header-right">
@@ -359,7 +574,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         optimistic problem solver. <a href="https://www.appacademy.io/" target="_blank">app academy</a> alum, software engineer.
         currently at <a href="https://ns.com" target="_blank">ns.com</a> in malaysia,
         leveraging up with code and media.
-        i love music, philosophy, and capitalism — treating it all like a game of catan.
+        i love music, philosophy, and capitalism.
     </p>
 
     <!-- Life Progress -->
@@ -404,15 +619,15 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         </a>
         <a href="/essays" class="nav-card">
             <span class="nav-emoji">&#9997;&#65039;</span>
-            <span class="nav-name">essays</span>
+            <span class="nav-name">writing</span>
         </a>
         <a href="/heroes" class="nav-card">
             <span class="nav-emoji">&#127775;</span>
-            <span class="nav-name">heroes</span>
+            <span class="nav-name">humans</span>
         </a>
         <a href="/learning" class="nav-card">
             <span class="nav-emoji">&#128214;</span>
-            <span class="nav-name">books</span>
+            <span class="nav-name">bookshelf</span>
         </a>
         <a href="/games" class="nav-card">
             <span class="nav-emoji">&#127918;</span>
@@ -440,6 +655,65 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
 </div>
 
+<!-- Planet Earth Footer -->
+<div class="earth-footer">
+    <div class="earth-scene">
+        <!-- Stars (visible in dark mode) -->
+        <div class="stars" id="stars"></div>
+        <!-- Moon (dark mode) -->
+        <div class="moon"></div>
+        <!-- Sun (light mode) -->
+        <div class="sun"></div>
+        <!-- Clouds (light mode) -->
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+        <!-- Atmosphere glow -->
+        <div class="atmosphere"></div>
+        <!-- Earth curve -->
+        <div class="earth"></div>
+    </div>
+</div>
+
+<script>
+    // PFP modal
+    (function () {
+        var photo = document.getElementById('heroPhoto');
+        var modal = document.getElementById('pfpModal');
+        if (photo && modal) {
+            photo.addEventListener('click', function () {
+                modal.classList.add('open');
+            });
+            modal.addEventListener('click', function () {
+                modal.classList.remove('open');
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') modal.classList.remove('open');
+            });
+        }
+    })();
+</script>
+
+<script>
+    // Generate stars
+    (function () {
+        var container = document.getElementById('stars');
+        if (!container) return;
+        for (var i = 0; i < 40; i++) {
+            var star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = (Math.random() * 3) + 's';
+            star.style.animationDuration = (2 + Math.random() * 3) + 's';
+            var size = Math.random() < 0.3 ? 3 : (Math.random() < 0.6 ? 2 : 1);
+            star.style.width = size + 'px';
+            star.style.height = size + 'px';
+            container.appendChild(star);
+        }
+    })();
+</script>
+
 <script>
     // Animate life progress bars
     (function () {
@@ -454,6 +728,8 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
 <script>
     // Spotify iFrame API — detect track changes and extract colors for ambient glow
+    // Uses two strategies: (1) hash-based color from track URI (always works),
+    // (2) oEmbed album art color extraction (works when CORS allows)
     (function () {
         var glow = document.getElementById('ambientGlow');
         var vibe = document.getElementById('musicVibe');
@@ -470,7 +746,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             glow.classList.add('active');
         }
 
-        // Fallback: cycle colors if Spotify API doesn't connect
         function startFallback() {
             setGlow(fallbackColors[colorIndex]);
             fallbackInterval = setInterval(function () {
@@ -479,7 +754,18 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             }, 8000);
         }
 
-        // Extract dominant color from an image URL using a canvas
+        // Hash a string to a vibrant HSL color
+        function hashColor(str) {
+            var hash = 0;
+            for (var i = 0; i < str.length; i++) {
+                hash = str.charCodeAt(i) + ((hash << 5) - hash);
+                hash = hash & hash;
+            }
+            var hue = Math.abs(hash % 360);
+            return 'hsl(' + hue + ', 70%, 55%)';
+        }
+
+        // Try to extract dominant color from album art
         function extractColor(imageUrl, callback) {
             var img = new Image();
             img.crossOrigin = 'anonymous';
@@ -503,7 +789,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
                         r = Math.round(r / count);
                         g = Math.round(g / count);
                         b = Math.round(b / count);
-                        // Boost saturation for better glow
                         var max = Math.max(r, g, b);
                         var min = Math.min(r, g, b);
                         if (max > min) {
@@ -525,27 +810,27 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             img.src = imageUrl;
         }
 
-        // Get album art from Spotify oEmbed and extract color
-        function getAlbumArt(trackUri) {
+        function onTrackChange(trackUri) {
+            if (fallbackInterval) {
+                clearInterval(fallbackInterval);
+                fallbackInterval = null;
+            }
+
+            // Immediately set hash-based color (always works, instant)
+            setGlow(hashColor(trackUri));
+            if (vibe) vibe.classList.add('visible');
+
+            // Then try to get the real album art color (may fail due to CORS)
             var parts = trackUri.split(':');
             if (parts.length < 3) return;
-            var type = parts[1];
-            var id = parts[2];
-            var url = 'https://open.spotify.com/' + type + '/' + id;
+            var url = 'https://open.spotify.com/' + parts[1] + '/' + parts[2];
 
             fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(url))
                 .then(function (res) { return res.json(); })
                 .then(function (data) {
                     if (data.thumbnail_url) {
                         extractColor(data.thumbnail_url, function (color) {
-                            if (color) {
-                                if (fallbackInterval) {
-                                    clearInterval(fallbackInterval);
-                                    fallbackInterval = null;
-                                }
-                                setGlow(color);
-                                if (vibe) vibe.classList.add('visible');
-                            }
+                            if (color) setGlow(color);
                         });
                     }
                 })
@@ -558,10 +843,9 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             try {
                 var data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
                 if (data.type === 'playback_update' && data.payload && data.payload.playingURI) {
-                    // Only update when track actually changes
                     if (data.payload.playingURI !== lastTrackUri) {
                         lastTrackUri = data.payload.playingURI;
-                        getAlbumArt(data.payload.playingURI);
+                        onTrackChange(data.payload.playingURI);
                     }
                 }
             } catch (e) {}
