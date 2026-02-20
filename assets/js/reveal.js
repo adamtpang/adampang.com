@@ -12,7 +12,8 @@
             '.chamorro-card, .heroes-section, .more-link, .music-player, ' +
             '.start-here, .etymology, .design-section, .type-specimen, ' +
             '.voice-card, .color-swatch, .asset-pill, .essay-item, ' +
-            '.hero-section, [data-reveal]'
+            '.hero-section, .personality-card, .game-card, .games-section, ' +
+            '.games-note, [data-reveal]'
         );
 
         if (!targets.length) return;

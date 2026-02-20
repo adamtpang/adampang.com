@@ -175,6 +175,83 @@ layout: default
         font-weight: 600;
     }
 
+    /* Personality Pillars */
+    .personality-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .personality-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--muted-foreground);
+        margin-bottom: 1rem;
+        text-transform: lowercase;
+    }
+
+    .personality-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .personality-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.75rem 1.25rem;
+        text-decoration: none;
+        color: var(--foreground);
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        box-shadow: var(--shadow);
+        transition: all 150ms ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .personality-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--primary);
+        opacity: 0;
+        transition: opacity 150ms ease;
+    }
+
+    .personality-card:hover {
+        border-color: var(--primary);
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .personality-card:hover::before {
+        opacity: 1;
+    }
+
+    .personality-card-emoji {
+        font-size: 2.5rem;
+        margin-bottom: 0.75rem;
+        line-height: 1;
+    }
+
+    .personality-card-name {
+        font-weight: 700;
+        font-size: 1.15rem;
+        margin-bottom: 0.35rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .personality-card-desc {
+        font-size: 0.8rem;
+        color: var(--muted-foreground);
+        line-height: 1.4;
+    }
+
     /* Journey Paths */
     .journey-section {
         margin-bottom: 2.5rem;
@@ -393,6 +470,23 @@ layout: default
         .more-pages {
             gap: 0.5rem;
         }
+
+        .personality-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .personality-card {
+            flex-direction: row;
+            text-align: left;
+            padding: 1.25rem;
+            gap: 1rem;
+        }
+
+        .personality-card-emoji {
+            font-size: 2rem;
+            margin-bottom: 0;
+            flex-shrink: 0;
+        }
     }
 </style>
 
@@ -447,7 +541,35 @@ layout: default
             loading="lazy"></iframe>
     </div>
 
-    <!-- 5. Curated Journey Paths -->
+    <!-- 5. Personality Pillars -->
+    <section class="personality-section">
+        <h2 class="personality-title">who i am</h2>
+        <div class="personality-grid">
+            <a href="/heroes" class="personality-card">
+                <span class="personality-card-emoji">🌟</span>
+                <div>
+                    <div class="personality-card-name">favorite humans</div>
+                    <div class="personality-card-desc">people whose work changed how i see the world</div>
+                </div>
+            </a>
+            <a href="/learning" class="personality-card">
+                <span class="personality-card-emoji">📖</span>
+                <div>
+                    <div class="personality-card-name">favorite books</div>
+                    <div class="personality-card-desc">the ideas that shaped my thinking</div>
+                </div>
+            </a>
+            <a href="/games" class="personality-card">
+                <span class="personality-card-emoji">🎮</span>
+                <div>
+                    <div class="personality-card-name">favorite games</div>
+                    <div class="personality-card-desc">the worlds i grew up exploring</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 6. Curated Journey Paths -->
     <section class="journey-section">
         <h2 class="journey-title">explore</h2>
         <div class="journey-grid">
@@ -474,13 +596,13 @@ layout: default
         </div>
     </section>
 
-    <!-- 6. More Pages (pills) -->
+    <!-- 7. More Pages (pills) -->
     <div class="more-pages">
         <a href="/now" class="more-link"><span class="more-link-emoji">⏰</span> now</a>
-        <a href="/heroes" class="more-link"><span class="more-link-emoji">🌟</span> heroes</a>
+        <a href="/design" class="more-link"><span class="more-link-emoji">🎨</span> design</a>
     </div>
 
-    <!-- 7. External Links -->
+    <!-- 8. External Links -->
     <section class="external-section">
         <h2 class="external-title">around the web</h2>
         <div class="external-grid">

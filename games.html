@@ -1,0 +1,320 @@
+---
+layout: default
+title: games
+---
+
+<style>
+    .games-intro {
+        color: var(--muted-foreground);
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
+    .games-themes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .theme-pill {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.8rem;
+        background: var(--muted);
+        color: var(--muted-foreground);
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        font-weight: 500;
+    }
+
+    .games-section {
+        margin-bottom: 2.5rem;
+    }
+
+    .games-section-title {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--muted-foreground);
+        margin-bottom: 1rem;
+        font-weight: 600;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .game-card {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 1rem 1.25rem;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        box-shadow: var(--shadow);
+        transition: all 150ms ease;
+    }
+
+    .game-card:hover {
+        border-color: var(--primary);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
+    }
+
+    .game-emoji {
+        font-size: 1.5rem;
+        flex-shrink: 0;
+        line-height: 1;
+        padding-top: 0.1rem;
+    }
+
+    .game-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .game-name {
+        font-weight: 600;
+        font-size: 0.95rem;
+        color: var(--foreground);
+        margin-bottom: 0.15rem;
+    }
+
+    .game-why {
+        font-size: 0.8rem;
+        color: var(--muted-foreground);
+        line-height: 1.4;
+    }
+
+    .games-note {
+        margin-top: 2rem;
+        padding: 1rem;
+        background: var(--muted);
+        border-radius: var(--radius, 12px);
+        font-size: 0.9rem;
+        color: var(--muted-foreground);
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+        .game-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<div class="container">
+    <a href="/" class="back-link">&larr; back</a>
+    <h1 class="page-title">games</h1>
+    <p class="games-intro">
+        the worlds i grew up in. every game here taught me something
+        about building, exploring, or just having fun.
+    </p>
+
+    <div class="games-themes">
+        <span class="theme-pill">adventure</span>
+        <span class="theme-pill">teambuilding</span>
+        <span class="theme-pill">customization</span>
+        <span class="theme-pill">leveling up</span>
+    </div>
+
+    <!-- Adventure -->
+    <section class="games-section">
+        <div class="games-section-title">&#x1F5FA;&#xFE0F; adventure</div>
+        <div class="game-grid">
+            <div class="game-card">
+                <span class="game-emoji">&#x1F9D9;</span>
+                <div class="game-info">
+                    <div class="game-name">wizard 101</div>
+                    <div class="game-why">first mmo. learned that the world is bigger than your island.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F3DD;&#xFE0F;</span>
+                <div class="game-info">
+                    <div class="game-name">poptropica</div>
+                    <div class="game-why">puzzle-solving across islands. every problem has a solution if you explore enough.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F344;</span>
+                <div class="game-info">
+                    <div class="game-name">super mario</div>
+                    <div class="game-why">pure joy. the original "just one more level."</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F48D;</span>
+                <div class="game-info">
+                    <div class="game-name">lord of the rings</div>
+                    <div class="game-why">the book, the movies, the ps2 game. middle-earth felt real.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F409;</span>
+                <div class="game-info">
+                    <div class="game-name">skylanders</div>
+                    <div class="game-why">physical toys that came alive in-game. pure childhood magic.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F300;</span>
+                <div class="game-info">
+                    <div class="game-name">slime rancher</div>
+                    <div class="game-why">building a ranch on an alien world. chill exploration at its best.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teambuilding -->
+    <section class="games-section">
+        <div class="games-section-title">&#x1F91D; teambuilding</div>
+        <div class="game-grid">
+            <div class="game-card">
+                <span class="game-emoji">&#x1F3AF;</span>
+                <div class="game-info">
+                    <div class="game-name">overwatch</div>
+                    <div class="game-why">team comp matters more than individual skill. coordination wins.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F52B;</span>
+                <div class="game-info">
+                    <div class="game-name">call of duty: black ops 2</div>
+                    <div class="game-why">late nights with friends. the golden era of online multiplayer.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1FA96;</span>
+                <div class="game-info">
+                    <div class="game-name">halo 4</div>
+                    <div class="game-why">split-screen co-op. master chief taught us about duty and sacrifice.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x26BD;</span>
+                <div class="game-info">
+                    <div class="game-name">fifa</div>
+                    <div class="game-why">couch rivalries. nothing teaches competition like fifa with your boys.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F43B;</span>
+                <div class="game-info">
+                    <div class="game-name">battle bears</div>
+                    <div class="game-why">mobile shooter before mobile shooters were cool.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customization -->
+    <section class="games-section">
+        <div class="games-section-title">&#x1F3A8; customization</div>
+        <div class="game-grid">
+            <div class="game-card">
+                <span class="game-emoji">&#x26CF;&#xFE0F;</span>
+                <div class="game-info">
+                    <div class="game-name">minecraft</div>
+                    <div class="game-why">infinite canvas. the game that taught a generation to build.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F333;</span>
+                <div class="game-info">
+                    <div class="game-name">terraria</div>
+                    <div class="game-why">minecraft's 2d cousin with way more bosses. dig, fight, build, repeat.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F6F9;</span>
+                <div class="game-info">
+                    <div class="game-name">skate 3</div>
+                    <div class="game-why">custom parks, custom tricks. creativity with physics.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F3B8;</span>
+                <div class="game-info">
+                    <div class="game-name">guitar hero / rock band</div>
+                    <div class="game-why">made me fall in love with music. led to real guitar.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x2699;&#xFE0F;</span>
+                <div class="game-info">
+                    <div class="game-name">fantastic contraption</div>
+                    <div class="game-why">physics sandbox. engineer your way out of every puzzle.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F5E1;&#xFE0F;</span>
+                <div class="game-info">
+                    <div class="game-name">arcane: the armor collector</div>
+                    <div class="game-why">gear grinding and loadout optimization. the loot loop.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leveling Up -->
+    <section class="games-section">
+        <div class="games-section-title">&#x1F4C8; leveling up</div>
+        <div class="game-grid">
+            <div class="game-card">
+                <span class="game-emoji">&#x26A1;</span>
+                <div class="game-info">
+                    <div class="game-name">pokemon</div>
+                    <div class="game-why">catching, training, evolving. the original progression system.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F0CF;</span>
+                <div class="game-info">
+                    <div class="game-name">hearthstone</div>
+                    <div class="game-why">deckbuilding is strategy. every card is a decision.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F388;</span>
+                <div class="game-info">
+                    <div class="game-name">bloons td</div>
+                    <div class="game-why">tower defense. optimize placements, manage resources, survive waves.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F9F1;</span>
+                <div class="game-info">
+                    <div class="game-name">tetris friends / tetr.io</div>
+                    <div class="game-why">speed and pattern recognition. the flow state game.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x2694;&#xFE0F;</span>
+                <div class="game-info">
+                    <div class="game-name">stick war / epic war</div>
+                    <div class="game-why">flash rts games. kongregate was the playground.</div>
+                </div>
+            </div>
+            <div class="game-card">
+                <span class="game-emoji">&#x1F3F0;</span>
+                <div class="game-info">
+                    <div class="game-name">frontier</div>
+                    <div class="game-why">build your settlement, expand your territory. strategy at scale.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="games-note">
+        kongregate, miniclip, armor games — if you know, you know. &#x1F579;&#xFE0F;
+    </div>
+</div>
