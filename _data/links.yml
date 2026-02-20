@@ -3,33 +3,23 @@
   url: "https://x.com/adamtpang"
   target: "_blank"
   emoji: "💭"
-  highlight: false
-  activity: 2
 
 - name: "thots"
   url: "https://farcaster.xyz/adampang"
   target: "_blank"
   emoji: "🟣"
-  highlight: false
-  activity: 3
 
 - name: "songs"
   url: "https://soundcloud.com/adamtpang"
   target: "_blank"
   emoji: "🎵"
-  highlight: false
-  activity: 1
 
 - name: "videos"
   url: "https://youtube.com/@adamtpang"
   target: "_blank"
   emoji: "📹"
-  highlight: false
-  activity: 2
 
 - name: "code"
   url: "https://github.com/adamtpang"
   target: "_blank"
   emoji: "💻"
-  highlight: false
-  activity: 2

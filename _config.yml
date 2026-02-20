@@ -9,6 +9,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules/
+  - nul
+  - _preview/
 
 # Site settings
 timezone: America/Los_Angeles

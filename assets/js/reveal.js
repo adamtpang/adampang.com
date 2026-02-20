@@ -10,10 +10,11 @@
         var targets = document.querySelectorAll(
             '.content-box, .journey-card, .ext-link, .project-card, ' +
             '.chamorro-card, .heroes-section, .more-link, .music-player, ' +
-            '.start-here, .etymology, .design-section, .type-specimen, ' +
+            '.start-here, .design-section, .type-specimen, ' +
             '.voice-card, .color-swatch, .asset-pill, .essay-item, ' +
             '.hero-section, .personality-card, .game-card, .games-section, ' +
-            '.games-note, [data-reveal]'
+            '.games-note, .personality-section, .journey-section, ' +
+            '.external-section, [data-reveal]'
         );
 
         if (!targets.length) return;
