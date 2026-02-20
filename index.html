@@ -261,7 +261,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     /* Nav Grid */
     .nav-grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0.5rem;
         margin-bottom: 1.5rem;
     }
@@ -284,6 +284,18 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         border-color: var(--primary);
         transform: translateY(-2px);
         box-shadow: var(--shadow-md);
+    }
+
+    .nav-card.disabled {
+        opacity: 0.35;
+        pointer-events: none;
+        cursor: default;
+    }
+
+    .nav-card.disabled:hover {
+        border-color: var(--border);
+        transform: none;
+        box-shadow: var(--shadow);
     }
 
     .nav-emoji {
@@ -603,8 +615,24 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         <div class="music-vibe" id="musicVibe">the background changes color based on whatever's playing</div>
     </div>
 
-    <!-- Nav Cards — only shipping pages -->
+    <!-- Nav Cards -->
     <div class="nav-grid">
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#128188;</span>
+            <span class="nav-name">work</span>
+        </span>
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#9997;&#65039;</span>
+            <span class="nav-name">writing</span>
+        </span>
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#127775;</span>
+            <span class="nav-name">humans</span>
+        </span>
+        <span class="nav-card disabled">
+            <span class="nav-emoji">&#128214;</span>
+            <span class="nav-name">bookshelf</span>
+        </span>
         <a href="/games" class="nav-card">
             <span class="nav-emoji">&#127918;</span>
             <span class="nav-name">games</span>
