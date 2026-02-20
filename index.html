@@ -338,6 +338,15 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     .external-section {
         padding-top: 1rem;
         border-top: 1px solid var(--border);
+        position: relative;
+        z-index: 1;
+        padding-bottom: 1rem;
+        background: var(--background);
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 0 0 var(--radius) var(--radius);
     }
 
     .external-grid {
@@ -378,9 +387,11 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     /* Planet Earth Footer */
     .earth-footer {
         position: relative;
-        width: 100%;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
         height: 200px;
-        margin-top: 2rem;
+        margin-top: -100px;
+        z-index: 0;
         overflow: hidden;
         pointer-events: none;
     }
@@ -570,6 +581,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
         .earth-footer {
             height: 150px;
+            margin-top: -80px;
         }
     }
 </style>
@@ -604,9 +616,9 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     <p class="tldr">
         optimistic problem solver. <a href="https://www.appacademy.io/" target="_blank">app academy</a> alum, software engineer.
         currently at <a href="https://ns.com/adam/invite" target="_blank">ns.com</a> in malaysia.
-        i love flow state, <a href="https://en.wikipedia.org/wiki/David_Deutsch" target="_blank">david deutsch</a>, and studying the greatest lives ever lived.
-        into music, philosophy, capitalism, soccer, and kpop.
-        growing my bodies of work — apps, essays, songs, and a pod.
+        i love the flow state, <a href="https://en.wikipedia.org/wiki/David_Deutsch" target="_blank">david deutsch</a>, and studying the greatest lives ever lived.
+        into music, philosophy, capitalism, and soccer.
+        growing my bodies of work: apps, essays, songs, and a pod.
         solving the best problems in my own life first, then expanding to humanity, magnitude by magnitude.
     </p>
 
@@ -686,21 +698,20 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         </div>
     </section>
 
-
-</div>
-
-<!-- Planet Earth Footer -->
-<div class="earth-footer">
-    <div class="earth-scene">
-        <div class="stars" id="stars"></div>
-        <div class="moon"></div>
-        <div class="sun"></div>
-        <div class="cloud cloud-1"></div>
-        <div class="cloud cloud-2"></div>
-        <div class="cloud cloud-3"></div>
-        <div class="atmosphere"></div>
-        <div class="earth"></div>
+    <!-- Planet Earth Footer (behind links) -->
+    <div class="earth-footer">
+        <div class="earth-scene">
+            <div class="stars" id="stars"></div>
+            <div class="moon"></div>
+            <div class="sun"></div>
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+            <div class="atmosphere"></div>
+            <div class="earth"></div>
+        </div>
     </div>
+
 </div>
 
 <script>
