@@ -338,10 +338,11 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         font-family: 'Lato', sans-serif;
     }
 
-    /* Planet Earth Footer */
+    /* Planet Earth Footer — breaks out of container to span full viewport width */
     .earth-footer {
         position: relative;
-        width: 100%;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
         height: 200px;
         margin-top: 2rem;
         overflow: hidden;
@@ -629,26 +630,20 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         </div>
     </section>
 
-</div>
-
-<!-- Planet Earth Footer -->
-<div class="earth-footer">
-    <div class="earth-scene">
-        <!-- Stars (visible in dark mode) -->
-        <div class="stars" id="stars"></div>
-        <!-- Moon (dark mode) -->
-        <div class="moon"></div>
-        <!-- Sun (light mode) -->
-        <div class="sun"></div>
-        <!-- Clouds (light mode) -->
-        <div class="cloud cloud-1"></div>
-        <div class="cloud cloud-2"></div>
-        <div class="cloud cloud-3"></div>
-        <!-- Atmosphere glow -->
-        <div class="atmosphere"></div>
-        <!-- Earth curve -->
-        <div class="earth"></div>
+    <!-- Planet Earth Footer -->
+    <div class="earth-footer">
+        <div class="earth-scene">
+            <div class="stars" id="stars"></div>
+            <div class="moon"></div>
+            <div class="sun"></div>
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+            <div class="atmosphere"></div>
+            <div class="earth"></div>
+        </div>
     </div>
+
 </div>
 
 <script>
