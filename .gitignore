@@ -38,3 +38,6 @@ node_modules/
 .next/
 
 _private/
+
+# Claude worktrees
+.claude/worktrees/
