@@ -28,85 +28,24 @@ layout: default
     /* Hero */
     .hero-section {
         text-align: center;
-        margin-bottom: 0.5rem;
-        padding: 2.5rem 0 0;
+        margin-bottom: 1.5rem;
+        padding: 2rem 0 0;
     }
 
     .hero-photo {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        border-radius: 24px;
         object-fit: cover;
         border: 3px solid var(--border);
         margin-bottom: 1rem;
     }
 
     .hero-name {
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: 700;
         color: var(--foreground);
-        margin-bottom: 0.25rem;
         line-height: 1.2;
-    }
-
-    .hero-tagline {
-        font-size: 0.95rem;
-        color: var(--muted-foreground);
-        margin-bottom: 0.5rem;
-    }
-
-    .hero-hint {
-        font-size: 0.85rem;
-        color: var(--muted-foreground);
-        opacity: 0.7;
-    }
-
-    /* Start Here CTA */
-    .start-here {
-        background: var(--primary);
-        color: var(--primary-foreground);
-        border-radius: var(--radius, 12px);
-        padding: 1.25rem 1.5rem;
-        margin-bottom: 0.5rem;
-        text-align: left;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        transition: all 150ms ease;
-        box-shadow: var(--shadow);
-    }
-
-    .start-here:hover {
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-md);
-        color: var(--primary-foreground);
-    }
-
-    .start-here:visited,
-    .start-here:active {
-        color: var(--primary-foreground);
-    }
-
-    .start-here-icon {
-        font-size: 1.5rem;
-        flex-shrink: 0;
-    }
-
-    .start-here-text {
-        flex: 1;
-    }
-
-    .start-here-title {
-        font-size: 1.05rem;
-        font-weight: 700;
-        color: inherit;
-    }
-
-    .start-here-sub {
-        font-size: 0.85rem;
-        opacity: 0.8;
-        color: inherit;
     }
 
     /* Music Player */
@@ -114,194 +53,89 @@ layout: default
         background: var(--card);
         border: 1px solid var(--border);
         border-radius: var(--radius, 12px);
-        padding: 1.25rem;
-        margin-bottom: 2rem;
+        padding: 0.75rem;
+        margin-bottom: 1.5rem;
         box-shadow: var(--shadow);
-        transition: all 150ms ease;
         overflow: hidden;
     }
 
-    .music-player:hover {
-        box-shadow: var(--shadow-md);
-    }
-
-    .music-player-label {
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        color: var(--muted-foreground);
-        margin-bottom: 0.75rem;
-        font-weight: 600;
-    }
-
-    /* Personality Pillars */
-    .personality-section {
-        margin-bottom: 2rem;
-    }
-
-    .section-label {
-        font-size: 0.8rem;
-        font-weight: 600;
-        color: var(--muted-foreground);
-        margin-bottom: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-    }
-
-    .personality-grid {
+    /* Nav Grid — all cards in one flat 3-column grid */
+    .nav-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 0.75rem;
-    }
-
-    .personality-card {
-        display: flex;
-        align-items: center;
         gap: 0.6rem;
-        padding: 0.85rem 1rem;
-        text-decoration: none;
-        color: var(--foreground);
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius, 12px);
-        box-shadow: var(--shadow);
-        transition: all 150ms ease;
+        margin-bottom: 1.5rem;
     }
 
-    .personality-card:hover {
-        border-color: var(--primary);
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-md);
-    }
-
-    .personality-card-emoji {
-        font-size: 1.25rem;
-        flex-shrink: 0;
-    }
-
-    .personality-card-name {
-        font-weight: 600;
-        font-size: 0.9rem;
-        font-family: 'Lato', sans-serif;
-    }
-
-    /* Journey Paths */
-    .journey-section {
-        margin-bottom: 2rem;
-    }
-
-    .journey-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.75rem;
-    }
-
-    .journey-card {
+    .nav-card {
         display: flex;
         align-items: center;
-        gap: 0.75rem;
-        padding: 0.85rem 1rem;
-        text-decoration: none;
-        color: var(--foreground);
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: var(--radius, 12px);
-        box-shadow: var(--shadow);
-        transition: all 150ms ease;
-    }
-
-    .journey-card:hover {
-        border-color: var(--primary);
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-md);
-    }
-
-    .journey-card-emoji {
-        font-size: 1.25rem;
-        flex-shrink: 0;
-    }
-
-    .journey-card-name {
-        font-weight: 600;
-        font-size: 0.9rem;
-        font-family: 'Lato', sans-serif;
-    }
-
-    /* More Pages */
-    .more-pages {
-        display: flex;
-        flex-wrap: wrap;
         gap: 0.5rem;
-        margin-bottom: 2rem;
-    }
-
-    .more-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.4rem;
-        padding: 0.4rem 0.85rem;
+        padding: 0.75rem 0.85rem;
         text-decoration: none;
-        color: var(--muted-foreground);
-        background: var(--muted);
+        color: var(--foreground);
+        background: var(--card);
         border: 1px solid var(--border);
-        border-radius: 999px;
-        font-size: 0.8rem;
-        font-weight: 500;
+        border-radius: var(--radius, 12px);
+        box-shadow: var(--shadow);
         transition: all 150ms ease;
-        font-family: 'Lato', sans-serif;
     }
 
-    .more-link:hover {
+    .nav-card:hover {
         border-color: var(--primary);
-        color: var(--primary);
-        transform: translateY(-1px);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-md);
     }
 
-    .more-link-emoji {
+    .nav-emoji {
+        font-size: 1.1rem;
+        flex-shrink: 0;
+    }
+
+    .nav-name {
+        font-weight: 600;
         font-size: 0.85rem;
+        font-family: 'Lato', sans-serif;
     }
 
     /* External Links */
     .external-section {
-        margin-top: 0.5rem;
-        padding-top: 1.5rem;
+        padding-top: 1.25rem;
         border-top: 1px solid var(--border);
     }
 
     .external-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         gap: 0.5rem;
     }
 
     .ext-link {
         display: flex;
         align-items: center;
-        gap: 0.5rem;
-        padding: 0.65rem 0.85rem;
+        gap: 0.4rem;
+        padding: 0.55rem 0.75rem;
         text-decoration: none;
         color: var(--foreground);
         background: var(--card);
         border: 1px solid var(--border);
         border-radius: var(--radius, 12px);
-        box-shadow: var(--shadow);
         transition: all 150ms ease;
     }
 
     .ext-link:hover {
         border-color: var(--primary);
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-md);
+        transform: translateY(-1px);
     }
 
     .ext-emoji {
-        font-size: 1rem;
+        font-size: 0.9rem;
         flex-shrink: 0;
     }
 
     .ext-name {
         font-weight: 500;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
         font-family: 'Lato', sans-serif;
     }
 
@@ -312,32 +146,21 @@ layout: default
         }
 
         .hero-name {
-            font-size: 1.75rem;
+            font-size: 1.5rem;
         }
 
         .hero-photo {
-            width: 80px;
-            height: 80px;
+            width: 110px;
+            height: 110px;
+            border-radius: 20px;
         }
 
-        .music-player {
-            padding: 0.75rem;
-        }
-
-        .start-here {
-            padding: 1rem 1.25rem;
-        }
-
-        .personality-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .journey-grid {
-            grid-template-columns: 1fr;
+        .nav-grid {
+            grid-template-columns: repeat(2, 1fr);
         }
 
         .external-grid {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
         }
     }
 </style>
@@ -347,85 +170,64 @@ layout: default
 
 <div class="container">
 
-    <!-- 1. Hero -->
+    <!-- Hero -->
     <section class="hero-section">
         <img src="{{ '/assets/profile.png' | relative_url }}" alt="Adam Pang" class="hero-photo">
-        <h1 class="hero-name">Adam Pang</h1>
-        <p class="hero-tagline">builder. philosopher. musician.</p>
-        <p class="hero-hint">from guam 🇬🇺</p>
+        <h1 class="hero-name">Adam Tomas Pangelinan</h1>
     </section>
 
-    <!-- 2. Start Here CTA -->
-    <a href="/life" class="start-here">
-        <span class="start-here-icon">▶</span>
-        <div class="start-here-text">
-            <div class="start-here-title">the story so far</div>
-            <div class="start-here-sub">born on guam. philosophy kid. coder. building things that matter.</div>
-        </div>
-    </a>
-
-    <!-- 3. Music Player -->
+    <!-- Music -->
     <div class="music-player">
-        <div class="music-player-label">listening to</div>
         <iframe id="spotifyEmbed"
             style="border-radius:8px"
             src="https://open.spotify.com/embed/playlist/37i9dQZEVXd3JaoMJtEGfX?utm_source=generator&theme=0"
-            width="100%" height="352" frameBorder="0" allowfullscreen=""
+            width="100%" height="152" frameBorder="0" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"></iframe>
     </div>
 
-    <!-- 4. Who I Am -->
-    <section class="personality-section">
-        <div class="section-label">who i am</div>
-        <div class="personality-grid">
-            <a href="/heroes" class="personality-card">
-                <span class="personality-card-emoji">🌟</span>
-                <span class="personality-card-name">humans</span>
-            </a>
-            <a href="/learning" class="personality-card">
-                <span class="personality-card-emoji">📖</span>
-                <span class="personality-card-name">books</span>
-            </a>
-            <a href="/games" class="personality-card">
-                <span class="personality-card-emoji">🎮</span>
-                <span class="personality-card-name">games</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- 5. Explore -->
-    <section class="journey-section">
-        <div class="section-label">explore</div>
-        <div class="journey-grid">
-            <a href="/work" class="journey-card">
-                <span class="journey-card-emoji">💼</span>
-                <span class="journey-card-name">work</span>
-            </a>
-            <a href="/essays" class="journey-card">
-                <span class="journey-card-emoji">✍️</span>
-                <span class="journey-card-name">ideas</span>
-            </a>
-            <a href="/life" class="journey-card">
-                <span class="journey-card-emoji">🗺️</span>
-                <span class="journey-card-name">life</span>
-            </a>
-            <a href="/contact" class="journey-card">
-                <span class="journey-card-emoji">📧</span>
-                <span class="journey-card-name">connect</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- 6. More Pages -->
-    <div class="more-pages">
-        <a href="/now" class="more-link"><span class="more-link-emoji">⏰</span> now</a>
-        <a href="/design" class="more-link"><span class="more-link-emoji">🎨</span> design</a>
+    <!-- Everything -->
+    <div class="nav-grid">
+        <a href="/life" class="nav-card">
+            <span class="nav-emoji">🗺️</span>
+            <span class="nav-name">life</span>
+        </a>
+        <a href="/work" class="nav-card">
+            <span class="nav-emoji">💼</span>
+            <span class="nav-name">work</span>
+        </a>
+        <a href="/essays" class="nav-card">
+            <span class="nav-emoji">✍️</span>
+            <span class="nav-name">ideas</span>
+        </a>
+        <a href="/heroes" class="nav-card">
+            <span class="nav-emoji">🌟</span>
+            <span class="nav-name">humans</span>
+        </a>
+        <a href="/learning" class="nav-card">
+            <span class="nav-emoji">📖</span>
+            <span class="nav-name">books</span>
+        </a>
+        <a href="/games" class="nav-card">
+            <span class="nav-emoji">🎮</span>
+            <span class="nav-name">games</span>
+        </a>
+        <a href="/contact" class="nav-card">
+            <span class="nav-emoji">📧</span>
+            <span class="nav-name">connect</span>
+        </a>
+        <a href="/now" class="nav-card">
+            <span class="nav-emoji">⏰</span>
+            <span class="nav-name">now</span>
+        </a>
+        <a href="/design" class="nav-card">
+            <span class="nav-emoji">🎨</span>
+            <span class="nav-name">design</span>
+        </a>
     </div>
 
-    <!-- 7. Around the Web -->
+    <!-- Around the Web -->
     <section class="external-section">
-        <div class="section-label">around the web</div>
         <div class="external-grid">
             {% for link in site.data.links %}
             {% if link.target == "_blank" %}

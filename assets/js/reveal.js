@@ -8,13 +8,12 @@
     // Or auto-detect common elements on the page
     function init() {
         var targets = document.querySelectorAll(
-            '.content-box, .journey-card, .ext-link, .project-card, ' +
+            '.content-box, .nav-card, .ext-link, .project-card, ' +
             '.chamorro-card, .heroes-section, .more-link, .music-player, ' +
-            '.start-here, .design-section, .type-specimen, ' +
+            '.design-section, .type-specimen, ' +
             '.voice-card, .color-swatch, .asset-pill, .essay-item, ' +
-            '.hero-section, .personality-card, .game-card, .games-section, ' +
-            '.games-note, .personality-section, .journey-section, ' +
-            '.external-section, [data-reveal]'
+            '.hero-section, .game-card, .games-section, ' +
+            '.games-note, [data-reveal]'
         );
 
         if (!targets.length) return;
