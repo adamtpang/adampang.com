@@ -13,7 +13,7 @@
             '.design-section, .type-specimen, ' +
             '.voice-card, .color-swatch, .asset-pill, .essay-item, ' +
             '.hero-section, .game-card, .games-section, ' +
-            '.games-note, [data-reveal]'
+            '.games-note, .identity, .quick-links, [data-reveal]'
         );
 
         if (!targets.length) return;

@@ -1,7 +1,14 @@
-title: Adam Pang
+title: adampang.com
+tagline: "23. human. spawned on guam."
+description: "adam tomas pangelinan — builder, philosopher, musician. personal site with projects, essays, books, games, and more."
 url: "https://adampang.com"
+author:
+  name: Adam Tomas Pangelinan
+  email: adamtpang@gmail.com
+  url: "https://adampang.com"
 email: adam@adampang.com
 repository: adamtpang/adampang.com
+logo: /assets/profile.png
 
 exclude:
   - _private/
@@ -32,6 +39,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Posts configuration
 permalink: /:title/
