@@ -376,14 +376,12 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         font-family: 'Lato', sans-serif;
     }
 
-    /* Planet Earth Footer — fixed to bottom of viewport */
+    /* Planet Earth Footer */
     .earth-footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 80px;
-        z-index: 0;
+        position: relative;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        height: 200px;
         overflow: hidden;
         pointer-events: none;
     }
@@ -393,7 +391,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         bottom: 0;
         left: 0;
         right: 0;
-        height: 80px;
+        height: 200px;
     }
 
     /* Stars — dark mode only */
@@ -402,7 +400,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         top: 0;
         left: 0;
         right: 0;
-        bottom: 35px;
+        bottom: 60px;
         opacity: 0;
         transition: opacity 0.5s ease;
     }
@@ -428,10 +426,10 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     /* Moon — dark mode */
     .moon {
         position: absolute;
-        top: 5px;
+        top: 15px;
         right: 15%;
-        width: 20px;
-        height: 20px;
+        width: 28px;
+        height: 28px;
         background: #f5f5dc;
         border-radius: 50%;
         box-shadow: 0 0 20px rgba(245, 245, 220, 0.4), 0 0 60px rgba(245, 245, 220, 0.1);
@@ -446,10 +444,10 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     /* Sun — light mode */
     .sun {
         position: absolute;
-        top: 2px;
+        top: 10px;
         right: 18%;
-        width: 24px;
-        height: 24px;
+        width: 32px;
+        height: 32px;
         background: #fbbf24;
         border-radius: 50%;
         box-shadow: 0 0 30px rgba(251, 191, 36, 0.5), 0 0 80px rgba(251, 191, 36, 0.2);
@@ -475,26 +473,26 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     }
 
     .cloud-1 {
-        top: 8px;
+        top: 30px;
         left: 10%;
-        width: 60px;
-        height: 14px;
+        width: 80px;
+        height: 20px;
         animation: cloudDrift 30s linear infinite;
     }
 
     .cloud-2 {
-        top: 20px;
+        top: 55px;
         left: 50%;
-        width: 45px;
-        height: 12px;
+        width: 60px;
+        height: 16px;
         animation: cloudDrift 25s linear infinite reverse;
     }
 
     .cloud-3 {
-        top: 5px;
+        top: 20px;
         left: 70%;
-        width: 40px;
-        height: 10px;
+        width: 50px;
+        height: 14px;
         animation: cloudDrift 35s linear infinite;
     }
 
@@ -506,7 +504,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     /* Earth curve */
     .earth {
         position: absolute;
-        bottom: -160px;
+        bottom: -140px;
         left: 50%;
         transform: translateX(-50%);
         width: 200%;
@@ -525,7 +523,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     /* Atmosphere glow */
     .atmosphere {
         position: absolute;
-        bottom: 32px;
+        bottom: 52px;
         left: 50%;
         transform: translateX(-50%);
         width: 200%;
@@ -572,7 +570,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         }
 
         .earth-footer {
-            height: 60px;
+            height: 150px;
         }
     }
 </style>
@@ -605,7 +603,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
     <!-- TLDR -->
     <p class="tldr">
-        optimistic problem solver. <a href="https://www.appacademy.io/" target="_blank">app academy</a> alum, software engineer.
+        TLDR: optimistic problem solver. <a href="https://www.appacademy.io/" target="_blank">app academy</a> alum, software engineer.
         currently at <a href="https://ns.com/adam/invite" target="_blank">ns.com</a> in malaysia.
         i love the flow state, <a href="https://en.wikipedia.org/wiki/David_Deutsch" target="_blank">david deutsch</a>, and studying the greatest lives ever lived.
         into music, philosophy, capitalism, and soccer.
@@ -632,7 +630,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             <div class="life-bar-track">
                 <div class="life-bar-fill life-rating" id="lifeRating"></div>
             </div>
-            <div class="life-bar-note">i can do better, and i'm rapidly improving life! :)</div>
+
         </div>
     </div>
 
