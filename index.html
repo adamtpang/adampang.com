@@ -91,6 +91,14 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         transform: translateY(-1px);
     }
 
+    .quick-link.disabled {
+        opacity: 0.35;
+        pointer-events: none;
+        cursor: default;
+        filter: grayscale(100%);
+        border-style: dashed;
+    }
+
     .quick-emoji {
         font-size: 0.8rem;
     }
@@ -583,6 +591,9 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             <h1 class="hero-name">Adam Tomas Pangelinan</h1>
         </div>
         <nav class="header-right">
+            <span class="quick-link disabled"><span class="quick-emoji">📖</span> story</span>
+            <span class="quick-link disabled"><span class="quick-emoji">🌱</span> now</span>
+            <span class="quick-link disabled"><span class="quick-emoji">💬</span> chat</span>
             <button class="home-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
                 <span class="theme-icon">🌙</span>
             </button>
@@ -659,18 +670,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             <span class="nav-emoji">&#127912;</span>
             <span class="nav-name">design</span>
         </a>
-        <span class="nav-card disabled">
-            <span class="nav-emoji">&#128214;</span>
-            <span class="nav-name">story</span>
-        </span>
-        <span class="nav-card disabled">
-            <span class="nav-emoji">&#127793;</span>
-            <span class="nav-name">now</span>
-        </span>
-        <span class="nav-card disabled">
-            <span class="nav-emoji">&#128172;</span>
-            <span class="nav-name">chat</span>
-        </span>
     </div>
 
     <!-- Around the Web -->
