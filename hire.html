@@ -1,0 +1,751 @@
+---
+layout: default
+title: Hire Me
+description: "I build AI-powered apps in days, not months. Full-stack engineer + AI power user. Landing pages, MVPs, internal tools, and automations."
+---
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    .hire-page {
+        font-family: 'Space Grotesk', -apple-system, sans-serif;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+    }
+
+    .hire-page * {
+        box-sizing: border-box;
+    }
+
+    .hire-mono {
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .hire-label {
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-family: 'JetBrains Mono', monospace;
+        margin-bottom: 16px;
+    }
+
+    /* Hero */
+    .hire-hero { margin-bottom: 48px; }
+
+    .hire-hero .hire-label {
+        color: #f59e0b;
+        letter-spacing: 3px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .hire-hero h1 {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0;
+        color: var(--foreground);
+    }
+
+    .hire-hero h1 span {
+        color: #f59e0b;
+    }
+
+    .hire-hero p {
+        font-size: 16px;
+        color: var(--muted-foreground);
+        margin-top: 16px;
+        line-height: 1.7;
+        max-width: 560px;
+    }
+
+    .hire-chips {
+        display: flex;
+        gap: 16px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .hire-chip {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px 14px;
+    }
+
+    .hire-chip-title {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--foreground);
+    }
+
+    .hire-chip-sub {
+        font-size: 11px;
+        color: var(--muted-foreground);
+    }
+
+    /* Edge section */
+    .hire-edge {
+        background: linear-gradient(135deg, #1a1a0a, var(--card));
+        border: 1px solid rgba(245, 158, 11, 0.2);
+        border-radius: 14px;
+        padding: 24px;
+        margin-bottom: 48px;
+    }
+
+    .hire-edge .hire-label { color: #f59e0b; margin-bottom: 12px; }
+
+    .hire-edge-text {
+        font-size: 15px;
+        color: var(--muted-foreground);
+        line-height: 1.8;
+    }
+
+    .hire-edge-text strong {
+        color: var(--foreground);
+    }
+
+    .hire-compare {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+        margin-top: 16px;
+    }
+
+    .hire-compare-card {
+        background: var(--background);
+        border-radius: 8px;
+        padding: 12px;
+        text-align: center;
+        border: 1px solid var(--border);
+    }
+
+    .hire-compare-card.highlight {
+        border-color: rgba(52, 211, 153, 0.27);
+    }
+
+    .hire-compare-who {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .hire-compare-time {
+        font-size: 18px;
+        font-weight: 800;
+        font-family: 'JetBrains Mono', monospace;
+        margin-top: 4px;
+    }
+
+    .hire-compare-price {
+        font-size: 12px;
+        color: var(--muted-foreground);
+        margin-top: 2px;
+    }
+
+    /* Offers */
+    .hire-offers {
+        margin-bottom: 48px;
+    }
+
+    .hire-offers .hire-label { color: #34d399; }
+
+    .hire-offers-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .hire-offer {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 24px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .hire-offer.hot {
+        box-shadow: 0 0 30px rgba(245, 158, 11, 0.08);
+    }
+
+    .hire-offer-tag {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #000;
+        font-size: 10px;
+        font-weight: 800;
+        padding: 4px 14px;
+        border-radius: 0 0 0 10px;
+        letter-spacing: 1px;
+    }
+
+    .hire-offer-title {
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--foreground);
+        margin-bottom: 4px;
+    }
+
+    .hire-offer-price {
+        font-size: 32px;
+        font-weight: 800;
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .hire-offer-flat {
+        font-size: 13px;
+        color: var(--muted-foreground);
+    }
+
+    .hire-offer-speed {
+        font-size: 12px;
+        color: var(--muted-foreground);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .hire-offer-item {
+        font-size: 14px;
+        color: var(--muted-foreground);
+        margin-bottom: 6px;
+        display: flex;
+        align-items: flex-start;
+        line-height: 1.5;
+    }
+
+    .hire-check {
+        color: #34d399;
+        margin-right: 8px;
+        flex-shrink: 0;
+    }
+
+    .hire-offer-cta {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        padding: 14px 0;
+        border: 2px solid;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        transition: opacity 150ms ease;
+    }
+
+    .hire-offer-cta:hover {
+        opacity: 0.85;
+    }
+
+    .hire-offers-note {
+        margin-top: 16px;
+        text-align: center;
+        font-size: 13px;
+        color: var(--muted-foreground);
+    }
+
+    .hire-offers-note a {
+        color: #f59e0b;
+        text-decoration: none;
+    }
+
+    /* Proof */
+    .hire-proof { margin-bottom: 48px; }
+    .hire-proof .hire-label { color: #60a5fa; }
+
+    .hire-project {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 8px;
+    }
+
+    .hire-project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hire-project-name {
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--foreground);
+    }
+
+    .hire-project-link {
+        font-size: 11px;
+        color: #60a5fa;
+        text-decoration: none;
+    }
+
+    .hire-project-desc {
+        font-size: 13px;
+        color: var(--muted-foreground);
+        margin-top: 4px;
+        line-height: 1.5;
+    }
+
+    .hire-project-tech {
+        display: flex;
+        gap: 6px;
+        margin-top: 8px;
+        flex-wrap: wrap;
+    }
+
+    .hire-tech-tag {
+        font-size: 10px;
+        padding: 2px 8px;
+        border-radius: 6px;
+        background: var(--muted);
+        color: var(--muted-foreground);
+        border: 1px solid var(--border);
+    }
+
+    /* Process */
+    .hire-process { margin-bottom: 48px; }
+    .hire-process .hire-label { color: #c084fc; }
+
+    .hire-steps {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 8px;
+    }
+
+    .hire-step {
+        background: var(--card);
+        border-radius: 10px;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .hire-step-num {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(192, 132, 252, 0.13);
+        border: 2px solid #c084fc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+        font-size: 14px;
+        font-weight: 800;
+        color: #c084fc;
+    }
+
+    .hire-step-title {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--foreground);
+        white-space: pre-line;
+        line-height: 1.4;
+    }
+
+    .hire-step-sub {
+        font-size: 11px;
+        color: var(--muted-foreground);
+        margin-top: 6px;
+    }
+
+    /* Also available */
+    .hire-also { margin-bottom: 48px; }
+    .hire-also .hire-label { color: #f472b6; }
+
+    .hire-also-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .hire-also-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 14px;
+    }
+
+    .hire-also-title {
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--foreground);
+        margin-bottom: 4px;
+    }
+
+    .hire-also-desc {
+        font-size: 12px;
+        color: var(--muted-foreground);
+        line-height: 1.5;
+    }
+
+    /* CTA */
+    .hire-cta {
+        background: linear-gradient(135deg, #1a0a00, var(--card));
+        border: 1px solid rgba(245, 158, 11, 0.27);
+        border-radius: 14px;
+        padding: 32px;
+        text-align: center;
+    }
+
+    .hire-cta h2 {
+        font-size: 24px;
+        font-weight: 800;
+        color: var(--foreground);
+        margin: 0;
+    }
+
+    .hire-cta p {
+        font-size: 14px;
+        color: var(--muted-foreground);
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+
+    .hire-cta-btn {
+        display: inline-block;
+        padding: 16px 48px;
+        background: #f59e0b;
+        color: #000;
+        border-radius: 10px;
+        font-weight: 800;
+        font-size: 16px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: opacity 150ms ease;
+    }
+
+    .hire-cta-btn:hover {
+        opacity: 0.85;
+    }
+
+    .hire-cta-contacts {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .hire-cta-contact-label {
+        font-size: 12px;
+        color: #f59e0b;
+        font-weight: 600;
+    }
+
+    .hire-cta-contact-sub {
+        font-size: 11px;
+        color: var(--muted-foreground);
+    }
+
+    /* Footer */
+    .hire-footer {
+        margin-top: 48px;
+        text-align: center;
+        font-size: 12px;
+        color: var(--muted-foreground);
+        padding: 16px 0;
+        border-top: 1px solid var(--border);
+    }
+
+    .hire-footer a {
+        color: var(--muted-foreground);
+        text-decoration: none;
+    }
+
+    .hire-footer a:hover {
+        color: var(--foreground);
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+        .hire-hero h1 {
+            font-size: 28px;
+        }
+
+        .hire-offers-grid,
+        .hire-also-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .hire-compare {
+            grid-template-columns: 1fr;
+        }
+
+        .hire-steps {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .hire-cta-contacts {
+            flex-direction: column;
+            gap: 12px;
+        }
+    }
+</style>
+
+<div class="hire-page">
+
+    <!-- HERO -->
+    <div class="hire-hero">
+        <div class="hire-label">ADAMPANG.COM/HIRE</div>
+        <h1>
+            I build AI-powered apps<br>
+            <span>in days, not months.</span>
+        </h1>
+        <p>
+            Full-stack engineer + AI power user. I ship landing pages, MVPs, internal tools, and automations faster than agencies quote discovery calls. You get a working product, not a proposal deck.
+        </p>
+        <div class="hire-chips">
+            <div class="hire-chip">
+                <div class="hire-chip-title">App Academy</div>
+                <div class="hire-chip-sub">grad</div>
+            </div>
+            <div class="hire-chip">
+                <div class="hire-chip-title">Next.js + React</div>
+                <div class="hire-chip-sub">stack</div>
+            </div>
+            <div class="hire-chip">
+                <div class="hire-chip-title">Claude AI</div>
+                <div class="hire-chip-sub">augmented</div>
+            </div>
+            <div class="hire-chip">
+                <div class="hire-chip-title">Based in</div>
+                <div class="hire-chip-sub">Malaysia</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- THE EDGE -->
+    <div class="hire-edge">
+        <div class="hire-label">WHY I'M FAST</div>
+        <div class="hire-edge-text">
+            I pair engineering fundamentals with AI-augmented development. While most devs write every line by hand, I use Claude as a co-pilot to ship production-quality code at 5-10x speed. <strong>You get agency-quality work at freelancer speed and price.</strong>
+        </div>
+        <div class="hire-compare">
+            <div class="hire-compare-card">
+                <div class="hire-compare-who" style="color: #ef4444;">Traditional Agency</div>
+                <div class="hire-compare-time" style="color: var(--muted-foreground);">6-12 weeks</div>
+                <div class="hire-compare-price">$15-50K</div>
+            </div>
+            <div class="hire-compare-card">
+                <div class="hire-compare-who" style="color: var(--muted-foreground);">Average Freelancer</div>
+                <div class="hire-compare-time" style="color: var(--muted-foreground);">3-6 weeks</div>
+                <div class="hire-compare-price">$3-8K</div>
+            </div>
+            <div class="hire-compare-card highlight">
+                <div class="hire-compare-who" style="color: #34d399;">Me + AI</div>
+                <div class="hire-compare-time" style="color: #34d399;">3-7 days</div>
+                <div class="hire-compare-price">$500-5K</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OFFERS -->
+    <div class="hire-offers">
+        <div class="hire-label">WHAT I BUILD</div>
+        <div class="hire-offers-grid">
+            <!-- Landing Page -->
+            <div class="hire-offer" style="border-color: #60a5fa33;">
+                <div class="hire-offer-title">Landing Page</div>
+                <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px;">
+                    <span class="hire-offer-price" style="color: #60a5fa;">$500</span>
+                    <span class="hire-offer-flat">flat rate</span>
+                </div>
+                <div class="hire-offer-speed"><span style="color: #60a5fa;">&#9889;</span> Delivered in 2-3 days</div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Responsive design</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>SEO optimized</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Contact form / waitlist</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Analytics setup</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>1 round of revisions</span></div>
+                <a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer" class="hire-offer-cta" style="border-color: #60a5fa; color: #60a5fa;">Let's Build &#8594;</a>
+            </div>
+
+            <!-- MVP -->
+            <div class="hire-offer hot" style="border-color: #f59e0b;">
+                <div class="hire-offer-tag" style="background: #f59e0b;">MOST POPULAR</div>
+                <div class="hire-offer-title">MVP / Web App</div>
+                <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px;">
+                    <span class="hire-offer-price" style="color: #f59e0b;">$2,000-5,000</span>
+                    <span class="hire-offer-flat">flat rate</span>
+                </div>
+                <div class="hire-offer-speed"><span style="color: #f59e0b;">&#9889;</span> Delivered in 5-7 days</div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Full-stack React/Next.js</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Database + auth</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>AI features (if needed)</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Deployed + ready to ship</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>2 rounds of revisions</span></div>
+                <a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer" class="hire-offer-cta" style="background: #f59e0b; border-color: #f59e0b; color: #000;">Let's Build &#8594;</a>
+            </div>
+
+            <!-- AI Integration -->
+            <div class="hire-offer" style="border-color: #c084fc33;">
+                <div class="hire-offer-title">AI Integration</div>
+                <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px;">
+                    <span class="hire-offer-price" style="color: #c084fc;">$1,000-3,000</span>
+                    <span class="hire-offer-flat">flat rate</span>
+                </div>
+                <div class="hire-offer-speed"><span style="color: #c084fc;">&#9889;</span> Delivered in 3-5 days</div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Add AI to your existing app</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Chatbot / copilot / automation</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Claude, GPT, or open-source</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>API integration</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Documentation included</span></div>
+                <a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer" class="hire-offer-cta" style="border-color: #c084fc; color: #c084fc;">Let's Build &#8594;</a>
+            </div>
+
+            <!-- Internal Tool -->
+            <div class="hire-offer" style="border-color: #34d39933;">
+                <div class="hire-offer-title">Internal Tool</div>
+                <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px;">
+                    <span class="hire-offer-price" style="color: #34d399;">$1,500-4,000</span>
+                    <span class="hire-offer-flat">flat rate</span>
+                </div>
+                <div class="hire-offer-speed"><span style="color: #34d399;">&#9889;</span> Delivered in 5-7 days</div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Dashboards & admin panels</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Workflow automation</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Data visualization</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Team access controls</span></div>
+                <div class="hire-offer-item"><span class="hire-check">&#10003;</span><span>Ongoing support available</span></div>
+                <a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer" class="hire-offer-cta" style="border-color: #34d399; color: #34d399;">Let's Build &#8594;</a>
+            </div>
+        </div>
+        <div class="hire-offers-note">
+            Don't see what you need? <a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer">Book a free 15-min call</a> and I'll scope it.
+        </div>
+    </div>
+
+    <!-- PROOF -->
+    <div class="hire-proof">
+        <div class="hire-label">THINGS I'VE BUILT</div>
+        <div class="hire-project">
+            <div class="hire-project-header">
+                <div class="hire-project-name">adampang.com</div>
+                <a href="https://adampang.com" target="_blank" rel="noopener noreferrer" class="hire-project-link">View &#8594;</a>
+            </div>
+            <div class="hire-project-desc">Personal site with interactive components, dark theme, responsive design.</div>
+            <div class="hire-project-tech">
+                <span class="hire-tech-tag">Jekyll</span>
+                <span class="hire-tech-tag">CSS</span>
+                <span class="hire-tech-tag">GitHub Pages</span>
+            </div>
+        </div>
+        <div class="hire-project">
+            <div class="hire-project-header">
+                <div class="hire-project-name">OpenClaw</div>
+            </div>
+            <div class="hire-project-desc">AI-powered tool for building Claude-based applications and automations.</div>
+            <div class="hire-project-tech">
+                <span class="hire-tech-tag">Claude API</span>
+                <span class="hire-tech-tag">Next.js</span>
+                <span class="hire-tech-tag">TypeScript</span>
+            </div>
+        </div>
+        <div class="hire-project">
+            <div class="hire-project-header">
+                <div class="hire-project-name">Network State Community Tools</div>
+            </div>
+            <div class="hire-project-desc">Interview reports, community analytics, and resident engagement tools for NS.</div>
+            <div class="hire-project-tech">
+                <span class="hire-tech-tag">React</span>
+                <span class="hire-tech-tag">Data Analysis</span>
+                <span class="hire-tech-tag">Google Apps Script</span>
+            </div>
+        </div>
+        <div class="hire-project">
+            <div class="hire-project-header">
+                <div class="hire-project-name">Burn Rate Calculator</div>
+            </div>
+            <div class="hire-project-desc">Interactive financial dashboard with debt tracking, runway analysis, and Dave Ramsey baby steps integration.</div>
+            <div class="hire-project-tech">
+                <span class="hire-tech-tag">React</span>
+                <span class="hire-tech-tag">Financial Modeling</span>
+                <span class="hire-tech-tag">Data Viz</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROCESS -->
+    <div class="hire-process">
+        <div class="hire-label">HOW IT WORKS</div>
+        <div class="hire-steps">
+            <div class="hire-step">
+                <div class="hire-step-num">1</div>
+                <div class="hire-step-title">You tell me
+what you need</div>
+                <div class="hire-step-sub">15-min call or DM</div>
+            </div>
+            <div class="hire-step">
+                <div class="hire-step-num">2</div>
+                <div class="hire-step-title">I scope it
+& quote same-day</div>
+                <div class="hire-step-sub">Fixed price, no surprises</div>
+            </div>
+            <div class="hire-step">
+                <div class="hire-step-num">3</div>
+                <div class="hire-step-title">I build it
+in days</div>
+                <div class="hire-step-sub">Daily progress updates</div>
+            </div>
+            <div class="hire-step">
+                <div class="hire-step-num">4</div>
+                <div class="hire-step-title">You get a
+working product</div>
+                <div class="hire-step-sub">Deployed & documented</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ALSO AVAILABLE -->
+    <div class="hire-also">
+        <div class="hire-label">ALSO AVAILABLE</div>
+        <div class="hire-also-grid">
+            <div class="hire-also-card">
+                <div class="hire-also-title">&#127908; Podcast Production</div>
+                <div class="hire-also-desc">I'll produce, edit, and ship your podcast episode. Audio + video. Professional quality.</div>
+            </div>
+            <div class="hire-also-card">
+                <div class="hire-also-title">&#129302; AI Workflow Audit</div>
+                <div class="hire-also-desc">I'll audit your business for AI automation opportunities and show you where you're wasting hours.</div>
+            </div>
+            <div class="hire-also-card">
+                <div class="hire-also-title">&#127912; Site Redesign</div>
+                <div class="hire-also-desc">Your site looks like 2019. I'll make it look like 2026. Fast.</div>
+            </div>
+            <div class="hire-also-card">
+                <div class="hire-also-title">&#9889; Retainer (10 hrs/mo)</div>
+                <div class="hire-also-desc">Ongoing dev support. Bug fixes, features, improvements. $1,500/mo.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="hire-cta">
+        <h2>Ready to build?</h2>
+        <p>
+            Book a free 15-minute call. I'll tell you exactly what I can build, how long it'll take, and what it costs. No pitch decks. No discovery phases. Just answers.
+        </p>
+        <a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer" class="hire-cta-btn">Book a Free Call &#8594;</a>
+        <div class="hire-cta-contacts">
+            <div>
+                <div class="hire-cta-contact-label">DM on X</div>
+                <div class="hire-cta-contact-sub">x.com/adampang</div>
+            </div>
+            <div>
+                <div class="hire-cta-contact-label">Email</div>
+                <div class="hire-cta-contact-sub">adam@adampang.com</div>
+            </div>
+            <div>
+                <div class="hire-cta-contact-label">WhatsApp</div>
+                <div class="hire-cta-contact-sub">Message me</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="hire-footer">
+        Powered by <a href="https://anchormarianas.com" target="_blank" rel="noopener noreferrer">Anchor Marianas LLC</a>
+    </div>
+
+</div>
