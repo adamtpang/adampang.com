@@ -43,9 +43,9 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
     }
 
     .hero-photo {
-        width: 80px;
-        height: 80px;
-        border-radius: 18px;
+        width: 100px;
+        height: 100px;
+        border-radius: 22px;
         object-fit: cover;
         border: 2px solid var(--border);
         flex-shrink: 0;
@@ -166,7 +166,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
     /* TLDR bio */
     .tldr {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         color: var(--muted-foreground);
         line-height: 1.6;
         margin-bottom: 1.5rem;
@@ -227,10 +227,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
     .life-bar-fill.life-progress {
         background: var(--primary);
-    }
-
-    .life-bar-fill.life-rating {
-        background: linear-gradient(90deg, #ef4444 0%, #f59e0b 40%, #10b981 70%, #6366f1 100%);
     }
 
     .life-bar-note {
@@ -376,167 +372,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         font-family: 'Lato', sans-serif;
     }
 
-    /* Planet Earth Footer */
-    .earth-footer {
-        position: relative;
-        width: 100vw;
-        margin-left: calc(-50vw + 50%);
-        height: 200px;
-        overflow: hidden;
-        pointer-events: none;
-    }
-
-    .earth-scene {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 200px;
-    }
-
-    /* Stars — dark mode only */
-    .stars {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 60px;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-
-    .dark .stars {
-        opacity: 1;
-    }
-
-    .star {
-        position: absolute;
-        width: 2px;
-        height: 2px;
-        background: #fff;
-        border-radius: 50%;
-        animation: twinkle 3s ease-in-out infinite alternate;
-    }
-
-    @keyframes twinkle {
-        from { opacity: 0.3; }
-        to { opacity: 1; }
-    }
-
-    /* Moon — dark mode */
-    .moon {
-        position: absolute;
-        top: 15px;
-        right: 15%;
-        width: 28px;
-        height: 28px;
-        background: #f5f5dc;
-        border-radius: 50%;
-        box-shadow: 0 0 20px rgba(245, 245, 220, 0.4), 0 0 60px rgba(245, 245, 220, 0.1);
-        opacity: 0;
-        transition: opacity 0.5s ease;
-    }
-
-    .dark .moon {
-        opacity: 1;
-    }
-
-    /* Sun — light mode */
-    .sun {
-        position: absolute;
-        top: 10px;
-        right: 18%;
-        width: 32px;
-        height: 32px;
-        background: #fbbf24;
-        border-radius: 50%;
-        box-shadow: 0 0 30px rgba(251, 191, 36, 0.5), 0 0 80px rgba(251, 191, 36, 0.2);
-        opacity: 1;
-        transition: opacity 0.5s ease;
-    }
-
-    .dark .sun {
-        opacity: 0;
-    }
-
-    /* Clouds — light mode */
-    .cloud {
-        position: absolute;
-        background: rgba(255, 255, 255, 0.8);
-        border-radius: 50px;
-        opacity: 1;
-        transition: opacity 0.5s ease;
-    }
-
-    .dark .cloud {
-        opacity: 0;
-    }
-
-    .cloud-1 {
-        top: 30px;
-        left: 10%;
-        width: 80px;
-        height: 20px;
-        animation: cloudDrift 30s linear infinite;
-    }
-
-    .cloud-2 {
-        top: 55px;
-        left: 50%;
-        width: 60px;
-        height: 16px;
-        animation: cloudDrift 25s linear infinite reverse;
-    }
-
-    .cloud-3 {
-        top: 20px;
-        left: 70%;
-        width: 50px;
-        height: 14px;
-        animation: cloudDrift 35s linear infinite;
-    }
-
-    @keyframes cloudDrift {
-        from { transform: translateX(-20px); }
-        to { transform: translateX(20px); }
-    }
-
-    /* Earth curve */
-    .earth {
-        position: absolute;
-        bottom: -140px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 200%;
-        height: 200px;
-        border-radius: 50%;
-        background: linear-gradient(180deg, #1a6b3c 0%, #15803d 30%, #166534 100%);
-        box-shadow: 0 -4px 30px rgba(21, 128, 61, 0.3);
-        transition: background 0.5s ease, box-shadow 0.5s ease;
-    }
-
-    .dark .earth {
-        background: linear-gradient(180deg, #1e3a5f 0%, #1e293b 30%, #0f172a 100%);
-        box-shadow: 0 -4px 30px rgba(30, 58, 95, 0.4);
-    }
-
-    /* Atmosphere glow */
-    .atmosphere {
-        position: absolute;
-        bottom: 52px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 200%;
-        height: 12px;
-        background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.15) 50%, rgba(56, 189, 248, 0.05) 100%);
-        border-radius: 50%;
-        filter: blur(4px);
-    }
-
-    .dark .atmosphere {
-        background: linear-gradient(180deg, transparent 0%, rgba(56, 189, 248, 0.25) 50%, rgba(56, 189, 248, 0.08) 100%);
-    }
-
     /* Mobile */
     @media (max-width: 600px) {
         .site-header {
@@ -569,9 +404,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             grid-template-columns: repeat(3, 1fr);
         }
 
-        .earth-footer {
-            height: 150px;
-        }
     }
 </style>
 
@@ -622,16 +454,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
                 <div class="life-bar-fill life-progress" id="lifeProgress"></div>
             </div>
         </div>
-        <div class="life-bar">
-            <div class="life-bar-header">
-                <span class="life-bar-label">life rating</span>
-                <span class="life-bar-value">6-7/10 — working on it :)</span>
-            </div>
-            <div class="life-bar-track">
-                <div class="life-bar-fill life-rating" id="lifeRating"></div>
-            </div>
-
-        </div>
     </div>
 
     <!-- Music -->
@@ -642,15 +464,14 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             width="100%" height="152" frameBorder="0" allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"></iframe>
-        <div class="music-vibe" id="musicVibe">the background changes color based on whatever's playing</div>
     </div>
 
     <!-- Nav Cards -->
     <div class="nav-grid">
-        <a href="/work" class="nav-card">
+        <span class="nav-card disabled">
             <span class="nav-emoji">&#128188;</span>
             <span class="nav-name">work</span>
-        </a>
+        </span>
         <span class="nav-card disabled">
             <span class="nav-emoji">&#9997;&#65039;</span>
             <span class="nav-name">writing</span>
@@ -689,19 +510,6 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
 </div>
 
-<!-- Planet Earth Footer — fixed to viewport bottom -->
-<div class="earth-footer">
-    <div class="earth-scene">
-        <div class="stars" id="stars"></div>
-        <div class="moon"></div>
-        <div class="sun"></div>
-        <div class="cloud cloud-1"></div>
-        <div class="cloud cloud-2"></div>
-        <div class="cloud cloud-3"></div>
-        <div class="atmosphere"></div>
-        <div class="earth"></div>
-    </div>
-</div>
 
 <script>
     // PFP modal
@@ -723,33 +531,11 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 </script>
 
 <script>
-    // Generate stars
-    (function () {
-        var container = document.getElementById('stars');
-        if (!container) return;
-        for (var i = 0; i < 40; i++) {
-            var star = document.createElement('div');
-            star.className = 'star';
-            star.style.left = Math.random() * 100 + '%';
-            star.style.top = Math.random() * 100 + '%';
-            star.style.animationDelay = (Math.random() * 3) + 's';
-            star.style.animationDuration = (2 + Math.random() * 3) + 's';
-            var size = Math.random() < 0.3 ? 3 : (Math.random() < 0.6 ? 2 : 1);
-            star.style.width = size + 'px';
-            star.style.height = size + 'px';
-            container.appendChild(star);
-        }
-    })();
-</script>
-
-<script>
-    // Animate life progress bars
+    // Animate life progress bar
     (function () {
         setTimeout(function () {
             var lifeBar = document.getElementById('lifeProgress');
-            var ratingBar = document.getElementById('lifeRating');
             if (lifeBar) lifeBar.style.width = '31%';
-            if (ratingBar) ratingBar.style.width = '65%';
         }, 400);
     })();
 </script>
