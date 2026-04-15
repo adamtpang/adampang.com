@@ -1,0 +1,96 @@
+---
+layout: default
+title: 404 — lost in the infinite
+description: "this page doesn't exist (yet). head home, or wander elsewhere."
+permalink: /404.html
+sitemap: false
+---
+
+<style>
+    .notfound {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem 1rem;
+        min-height: 60vh;
+    }
+
+    .notfound-mark {
+        font-size: 4rem;
+        line-height: 1;
+        margin-bottom: 1.25rem;
+        opacity: 0.9;
+    }
+
+    .notfound-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--foreground);
+        margin-bottom: 0.75rem;
+        letter-spacing: -0.02em;
+    }
+
+    .notfound-sub {
+        font-size: 1rem;
+        color: var(--muted-foreground);
+        max-width: 32rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+
+    .notfound-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        justify-content: center;
+    }
+
+    .notfound-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.55rem 0.95rem;
+        text-decoration: none;
+        color: var(--foreground);
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius, 12px);
+        font-size: 0.85rem;
+        font-weight: 500;
+        transition: all 150ms ease;
+    }
+
+    .notfound-btn:hover {
+        border-color: var(--primary);
+        transform: translateY(-1px);
+    }
+
+    .notfound-btn.primary {
+        background: var(--primary);
+        color: #fff;
+        border-color: var(--primary);
+    }
+
+    .notfound-btn.primary:hover {
+        filter: brightness(1.05);
+    }
+</style>
+
+<div class="container">
+    <div class="notfound">
+        <div class="notfound-mark">♾️</div>
+        <h1 class="notfound-title">lost in the infinite.</h1>
+        <p class="notfound-sub">
+            this page doesn't exist — or it moved, or it's still being built.
+            either way, the interesting stuff is a click away.
+        </p>
+        <div class="notfound-actions">
+            <a href="/" class="notfound-btn primary">← home</a>
+            <a href="/work" class="notfound-btn">work</a>
+            <a href="/essays" class="notfound-btn">essays</a>
+            <a href="/contact" class="notfound-btn">contact</a>
+        </div>
+    </div>
+</div>

@@ -424,8 +424,8 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
             <h1 class="hero-name">Adam Tomas Pangelinan</h1>
         </div>
         <nav class="header-right">
-            <span class="quick-link disabled"><span class="quick-emoji">📖</span> story</span>
-            <span class="quick-link disabled"><span class="quick-emoji">🌱</span> now</span>
+            <a href="/life" class="quick-link"><span class="quick-emoji">📖</span> story</a>
+            <a href="/now" class="quick-link"><span class="quick-emoji">🌱</span> now</a>
             <a href="/contact" class="quick-link"><span class="quick-emoji">💬</span> chat</a>
             <button class="home-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
                 <span class="theme-icon">🌙</span>
@@ -448,7 +448,7 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
         <div class="life-bar">
             <div class="life-bar-header">
                 <span class="life-bar-label">life progress</span>
-                <span class="life-bar-value">23 of ~75 years (31%)</span>
+                <span class="life-bar-value" id="lifeValue">— of ~75 years</span>
             </div>
             <div class="life-bar-track">
                 <div class="life-bar-fill life-progress" id="lifeProgress"></div>
@@ -468,22 +468,22 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 
     <!-- Nav Cards -->
     <div class="nav-grid">
-        <span class="nav-card disabled">
+        <a href="/work" class="nav-card">
             <span class="nav-emoji">&#128188;</span>
             <span class="nav-name">work</span>
-        </span>
-        <span class="nav-card disabled">
+        </a>
+        <a href="/essays" class="nav-card">
             <span class="nav-emoji">&#9997;&#65039;</span>
             <span class="nav-name">writing</span>
-        </span>
-        <span class="nav-card disabled">
+        </a>
+        <a href="/heroes" class="nav-card">
             <span class="nav-emoji">&#127775;</span>
             <span class="nav-name">humans</span>
-        </span>
-        <span class="nav-card disabled">
+        </a>
+        <a href="/learning" class="nav-card">
             <span class="nav-emoji">&#128214;</span>
             <span class="nav-name">bookshelf</span>
-        </span>
+        </a>
         <a href="/games" class="nav-card">
             <span class="nav-emoji">&#127918;</span>
             <span class="nav-name">games</span>
@@ -531,11 +531,26 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 </script>
 
 <script>
-    // Animate life progress bar
+    // Animate life progress bar — dynamically computed from birthdate
+    // TODO: Adam — verify birthdate below. Default assumed: Feb 1, 2003.
     (function () {
+        // TODO: Adam — verify birthdate. Assumed Feb 1, 2002 (turns 24 in Feb 2026).
+        var BIRTHDATE = new Date('2002-02-01T00:00:00');
+        var LIFE_EXPECTANCY = 75;
+
+        var now = new Date();
+        var msPerYear = 365.2425 * 24 * 60 * 60 * 1000;
+        var ageFloat = (now - BIRTHDATE) / msPerYear;
+        var ageYears = Math.floor(ageFloat);
+        var pct = Math.min(100, Math.max(0, (ageFloat / LIFE_EXPECTANCY) * 100));
+        var pctRounded = Math.round(pct);
+
+        var valEl = document.getElementById('lifeValue');
+        if (valEl) valEl.textContent = ageYears + ' of ~' + LIFE_EXPECTANCY + ' years (' + pctRounded + '%)';
+
         setTimeout(function () {
             var lifeBar = document.getElementById('lifeProgress');
-            if (lifeBar) lifeBar.style.width = '31%';
+            if (lifeBar) lifeBar.style.width = pct.toFixed(1) + '%';
         }, 400);
     })();
 </script>

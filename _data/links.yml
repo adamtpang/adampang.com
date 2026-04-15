@@ -4,6 +4,21 @@
   target: "_blank"
   emoji: "💭"
 
+- name: "substack"
+  url: "https://adampang.substack.com"
+  target: "_blank"
+  emoji: "📬"
+
+- name: "github"
+  url: "https://github.com/adamtpang"
+  target: "_blank"
+  emoji: "💻"
+
+- name: "youtube"
+  url: "https://youtube.com/@adamtpang"
+  target: "_blank"
+  emoji: "📹"
+
 - name: "farcaster"
   url: "https://farcaster.xyz/adampang"
   target: "_blank"
@@ -13,13 +28,3 @@
   url: "https://soundcloud.com/adamtpang"
   target: "_blank"
   emoji: "🎵"
-
-- name: "youtube"
-  url: "https://youtube.com/@adamtpang"
-  target: "_blank"
-  emoji: "📹"
-
-- name: "github"
-  url: "https://github.com/adamtpang"
-  target: "_blank"
-  emoji: "💻"

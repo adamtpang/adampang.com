@@ -1,7 +1,22 @@
 title: adampang.com
-tagline: "23. human. spawned on guam."
+# Birthdate used for dynamic age calculation across the site.
+# TODO: Adam — verify this date. Assumed Feb 1, 2002 (turns 24 in Feb 2026).
+birthdate: 2002-02-01
+tagline: "human. spawned on guam."
 description: "adam tomas pangelinan — builder, philosopher, musician. personal site with projects, essays, books, games, and more."
 url: "https://adampang.com"
+image: /assets/og-image.png
+twitter:
+  username: adamtpang
+  card: summary_large_image
+social:
+  name: Adam Tomas Pangelinan
+  links:
+    - https://x.com/adamtpang
+    - https://github.com/adamtpang
+    - https://adampang.substack.com
+    - https://farcaster.xyz/adampang
+    - https://youtube.com/@adamtpang
 author:
   name: Adam Tomas Pangelinan
   email: adamtpang@gmail.com

@@ -253,7 +253,10 @@ description: "the design system behind adampang.com — colors, typography, voic
             <div class="identity-photo">♾️</div>
             <div class="identity-info">
                 <h2>Adam Tomas Pangelinan</h2>
-                <div class="identity-tagline">23. human. spawned on guam.</div>
+                {% assign birth = site.birthdate | default: '2003-02-01' | date: '%s' | plus: 0 %}
+                {% assign now = site.time | date: '%s' | plus: 0 %}
+                {% assign age_years = now | minus: birth | divided_by: 31557600 %}
+                <div class="identity-tagline">{{ age_years }}. human. spawned on guam.</div>
                 <p>adampang.com</p>
             </div>
         </div>
