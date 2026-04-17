@@ -142,6 +142,55 @@ description: "I build AI-powered apps in days, not months. Full-stack engineer +
         margin-top: 2px;
     }
 
+    /* Shipped Projects */
+    .hire-shipped {
+        margin-bottom: 48px;
+    }
+
+    .hire-shipped .hire-label { color: #38bdf8; }
+
+    .hire-shipped-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .hire-shipped-card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 18px;
+        text-decoration: none;
+        display: block;
+        transition: border-color 150ms ease, transform 150ms ease;
+    }
+
+    .hire-shipped-card:hover {
+        border-color: #38bdf8;
+        transform: translateY(-2px);
+    }
+
+    .hire-shipped-name {
+        font-size: 15px;
+        font-weight: 700;
+        color: #38bdf8;
+        margin-bottom: 4px;
+    }
+
+    .hire-shipped-desc {
+        font-size: 13px;
+        color: var(--muted-foreground);
+        line-height: 1.5;
+    }
+
+    .hire-shipped-note {
+        margin-top: 14px;
+        text-align: center;
+        font-size: 13px;
+        color: var(--muted-foreground);
+        font-style: italic;
+    }
+
     /* Offers */
     .hire-offers {
         margin-bottom: 48px;
@@ -412,6 +461,7 @@ description: "I build AI-powered apps in days, not months. Full-stack engineer +
             font-size: 28px;
         }
 
+        .hire-shipped-grid,
         .hire-offers-grid,
         .hire-also-grid {
             grid-template-columns: 1fr;
@@ -487,6 +537,38 @@ description: "I build AI-powered apps in days, not months. Full-stack engineer +
                 <div class="hire-compare-price">$250-2.5K</div>
             </div>
         </div>
+    </div>
+
+    <!-- SHIPPED PROJECTS -->
+    <div class="hire-shipped">
+        <div class="hire-label">SHIPPED PROJECTS</div>
+        <div class="hire-shipped-grid">
+            <a href="https://sellsniper.com" target="_blank" rel="noopener noreferrer" class="hire-shipped-card">
+                <div class="hire-shipped-name">sellsniper.com</div>
+                <div class="hire-shipped-desc">AI sales agent that finds the exact humans who'd love your creation</div>
+            </a>
+            <a href="https://thedojo.fun" target="_blank" rel="noopener noreferrer" class="hire-shipped-card">
+                <div class="hire-shipped-name">thedojo.fun</div>
+                <div class="hire-shipped-desc">Chat with legendary founders backed by real biographies</div>
+            </a>
+            <a href="https://optimism.fun" target="_blank" rel="noopener noreferrer" class="hire-shipped-card">
+                <div class="hire-shipped-name">optimism.fun</div>
+                <div class="hire-shipped-desc">Maps humanity's biggest unsolved problems and matches people to solve them</div>
+            </a>
+            <a href="https://vibecheck.style" target="_blank" rel="noopener noreferrer" class="hire-shipped-card">
+                <div class="hire-shipped-name">vibecheck.style</div>
+                <div class="hire-shipped-desc">Turns your Spotify top tracks into a shareable vibe card</div>
+            </a>
+            <a href="https://technodemocracy.app" target="_blank" rel="noopener noreferrer" class="hire-shipped-card">
+                <div class="hire-shipped-name">technodemocracy.app</div>
+                <div class="hire-shipped-desc">On-chain governance — one person, one vote, fully transparent</div>
+            </a>
+            <a href="https://deathmoney.fyi" target="_blank" rel="noopener noreferrer" class="hire-shipped-card">
+                <div class="hire-shipped-name">deathmoney.fyi</div>
+                <div class="hire-shipped-desc">Calculate your Financial Freedom Number — how much to live on your terms</div>
+            </a>
+        </div>
+        <div class="hire-shipped-note">All built solo with AI-assisted development</div>
     </div>
 
     <!-- OFFERS -->
