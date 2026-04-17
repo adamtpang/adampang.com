@@ -85,17 +85,9 @@ published: true
         {% assign sorted_posts = site.jekyll_posts | sort: 'title' %}
         {% for post in sorted_posts %}
         <div class="essay-item">
-            <span class="essay-date">{{ post.date | date: "%Y-%m-%d" }}</span>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </div>
         {% endfor %}
-
-        {% if site.jekyll_posts.size == 0 %}
-        <div class="essay-item">
-            <span class="essay-date">coming</span>
-            <span style="color: var(--muted-foreground);">essays shipping soon.</span>
-        </div>
-        {% endif %}
     </div>
 
     <div class="also-on">
