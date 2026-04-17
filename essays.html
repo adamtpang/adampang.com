@@ -82,9 +82,19 @@ published: true
     </div>
 
     <div class="essay-list">
+        {% comment %}
+        Posts currently have no explicit `date:` front matter, so sorting by date
+        would produce identical timestamps (site build time) and fall back to
+        file order. Sort alphabetically by title as a stable, meaningful order
+        until dates are added to the posts. When `date:` fields exist, swap to:
+        {% assign sorted_posts = site.jekyll_posts | sort: 'date' | reverse %}
+        {% endcomment %}
         {% assign sorted_posts = site.jekyll_posts | sort: 'title' %}
         {% for post in sorted_posts %}
         <div class="essay-item">
+            {% if post.date and post.date != site.time %}
+            <span class="essay-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            {% endif %}
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </div>
         {% endfor %}

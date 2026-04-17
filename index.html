@@ -531,11 +531,9 @@ description: "adam tomas pangelinan — optimistic problem solver. software engi
 </script>
 
 <script>
-    // Animate life progress bar — dynamically computed from birthdate
-    // TODO: Adam — verify birthdate below. Default assumed: Feb 1, 2003.
+    // Animate life progress bar — dynamically computed from birthdate (from _config.yml)
     (function () {
-        // TODO: Adam — verify birthdate. Assumed Feb 1, 2002 (turns 24 in Feb 2026).
-        var BIRTHDATE = new Date('2002-02-01T00:00:00');
+        var BIRTHDATE = new Date('{{ site.birthdate | default: "2002-02-01" }}T00:00:00');
         var LIFE_EXPECTANCY = 75;
 
         var now = new Date();
