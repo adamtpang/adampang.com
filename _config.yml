@@ -60,9 +60,11 @@ plugins:
 permalink: /:title/
 
 # Collections
+# jekyll_posts.output is false: writing has moved to a dedicated site.
+# Flip back to true to re-emit individual essay pages on adampang.com.
 collections:
   jekyll_posts:
-    output: true
+    output: false
     permalink: /:title/
   curations:
     output: false
