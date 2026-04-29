@@ -9,7 +9,7 @@ const fraunces = Fraunces({
   subsets: ['latin'],
   variable: '--font-fraunces',
   display: 'swap',
-  // No `weight` — Fraunces is a variable font, so we get all weights + axes
+  // No `weight`: Fraunces is a variable font, so we get all weights + axes
   axes: ['SOFT', 'opsz'],
 });
 
@@ -29,19 +29,19 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://adampang.com'),
   title: {
-    default: 'Adam Tomas Pangelinan',
-    template: '%s — Adam Tomas Pangelinan',
+    default: 'Adam Pang',
+    template: '%s · Adam Pang',
   },
   description:
-    'Adam Tomas Guzman Pangelinan — 23, born on Guam. Builder, philosopher, musician. Living at Network School Malaysia, building optimism into software.',
+    'Adam Pang. 23, born on Guam. Optimist, curious, creative, musician, writer, founder. Living at Network School Malaysia, building optimism into software.',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://adampang.com',
     siteName: 'adampang.com',
-    title: 'Adam Tomas Pangelinan',
+    title: 'Adam Pang',
     description:
-      'Builder, philosopher, musician. Living at Network School Malaysia, building optimism into software.',
+      'Optimist, curious, creative, musician, writer, founder. Living at Network School Malaysia, building optimism into software.',
   },
   twitter: {
     card: 'summary_large_image',
@@ -66,7 +66,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
-        {/* Theme bootstrap — runs before paint to avoid FOUC */}
+        {/* Theme bootstrap. Runs before paint to avoid FOUC. */}
         <script
           dangerouslySetInnerHTML={{
             __html: `

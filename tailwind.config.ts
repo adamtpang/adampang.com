@@ -33,7 +33,7 @@ const config: Config = {
           800: '#852511',
           900: '#57180B',
         },
-        // Neutrals — paper feel in light, deep slate in dark
+        // Neutrals. Paper feel in light, deep slate in dark.
         ink: {
           DEFAULT: '#0E0E0C',
           soft: '#1F1F1C',

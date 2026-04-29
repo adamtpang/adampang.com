@@ -17,7 +17,9 @@
       "WebFetch(domain:coolors.co)",
       "Bash(git add:*)",
       "Bash(pgrep:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "mcp__ddf6cfe5-a448-46bd-ae07-8cf2996daf87__list_deployments",
+      "mcp__ddf6cfe5-a448-46bd-ae07-8cf2996daf87__list_projects"
     ],
     "deny": [],
     "ask": [],

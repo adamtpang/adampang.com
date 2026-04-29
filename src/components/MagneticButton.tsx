@@ -4,7 +4,7 @@ import { useRef, useState, type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 
 /**
- * Magnetic button — Paco-style. Cursor pulls the button toward it within
+ * Magnetic button. Paco-style. Cursor pulls the button toward it within
  * a small radius, releasing on leave. Subtle, never gimmicky.
  */
 export default function MagneticButton({

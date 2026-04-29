@@ -31,7 +31,7 @@
     color: rgb(var(--color-fg));
     font-family: var(--font-inter), system-ui, sans-serif;
     font-feature-settings: 'cv11', 'ss01', 'ss03';
-    cursor: none; /* hidden — replaced by custom cursor on capable devices */
+    cursor: none; /* hidden. Replaced by custom cursor on capable devices. */
   }
 
   /* Touch + low-pointer devices: restore native cursor */
@@ -74,7 +74,7 @@
     background: rgb(var(--color-line));
   }
 
-  /* Cucinelli grain — 1% noise overlay for paper feel */
+  /* Cucinelli grain. 1% noise overlay for paper feel. */
   .grain::before {
     content: '';
     position: fixed;

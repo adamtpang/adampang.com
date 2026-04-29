@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 
 /**
- * Custom cursor — Cucinelli-grade detail.
+ * Custom cursor. Cucinelli-grade detail.
  *
  * Two-layer system:
  *   - Inner dot: 6px sunrise, follows pointer with high spring stiffness (snappy)
