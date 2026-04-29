@@ -1,12 +1,32 @@
-# Jekyll build files
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-vendor/
-# Gemfile.lock is tracked — Vercel needs it for deployment
+# dependencies
+node_modules/
+.pnp
+.pnp.js
 
-# OS generated files
+# next.js
+.next/
+out/
+build/
+dist/
+
+# vercel
+.vercel/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# environment
+.env
+.env*.local
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
 .DS_Store
 .DS_Store?
 ._*
@@ -15,29 +35,22 @@ vendor/
 ehthumbs.db
 Thumbs.db
 
-# Editor files
+# editors
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Logs
-*.log
-
-# Backup files
-backup_*
-
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-node_modules/
-.next/
+# legacy Jekyll build output (still here for reference in _legacy/)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
 
 _private/
+backup_*
 
 # Claude worktrees
 .claude/worktrees/

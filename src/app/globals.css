@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: 250 248 244; /* paper */
+    --color-fg: 14 14 12; /* ink */
+    --color-muted: 107 107 102;
+    --color-accent: 255 92 57; /* sunrise */
+    --color-line: 232 228 218;
+  }
+
+  .dark {
+    --color-bg: 14 14 12; /* ink */
+    --color-fg: 250 248 244;
+    --color-muted: 168 168 162;
+    --color-accent: 255 109 80; /* sunrise, slightly lifted for dark contrast */
+    --color-line: 31 31 28;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: rgb(var(--color-bg));
+    color: rgb(var(--color-fg));
+    font-family: var(--font-inter), system-ui, sans-serif;
+    font-feature-settings: 'cv11', 'ss01', 'ss03';
+    cursor: none; /* hidden — replaced by custom cursor on capable devices */
+  }
+
+  /* Touch + low-pointer devices: restore native cursor */
+  @media (hover: none), (pointer: coarse) {
+    body {
+      cursor: auto;
+    }
+  }
+
+  ::selection {
+    background: rgb(var(--color-accent) / 0.92);
+    color: rgb(var(--color-bg));
+  }
+
+  /* Tasteful focus ring */
+  :focus-visible {
+    outline: 2px solid rgb(var(--color-accent));
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-fraunces), Georgia, serif;
+    font-feature-settings: 'ss01', 'ss02';
+    letter-spacing: -0.025em;
+  }
+
+  /* tabular numerals for view counts, dates, ages */
+  .nums {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+
+  /* hairline divider */
+  .hairline {
+    height: 1px;
+    background: rgb(var(--color-line));
+  }
+
+  /* Cucinelli grain — 1% noise overlay for paper feel */
+  .grain::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.025;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
