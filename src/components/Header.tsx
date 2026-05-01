@@ -22,6 +22,12 @@ export default function Header() {
 
         <nav className="flex items-center gap-1 md:gap-2 text-sm">
           <a
+            href="/ns"
+            className="px-3 py-2 rounded-full text-ink/70 dark:text-paper/70 hover:text-sunrise transition-colors"
+          >
+            ns
+          </a>
+          <a
             href="https://pangaea.blog"
             target="_blank"
             rel="noreferrer noopener"
@@ -31,7 +37,7 @@ export default function Header() {
           </a>
           <a
             href="mailto:adamtpang@gmail.com"
-            className="px-3 py-2 rounded-full text-ink/70 dark:text-paper/70 hover:text-sunrise transition-colors"
+            className="hidden sm:inline-block px-3 py-2 rounded-full text-ink/70 dark:text-paper/70 hover:text-sunrise transition-colors"
           >
             email
           </a>

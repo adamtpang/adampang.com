@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import MagneticButton from './MagneticButton';
 
@@ -17,6 +18,26 @@ const identities = [
 export default function Hero() {
   return (
     <section className="relative mx-auto w-full max-w-3xl px-6 pt-24 pb-32 md:pt-36 md:pb-44">
+      {/* Profile photo. Circular, sunrise ring, subtle hover lift. */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.85 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.05, duration: 0.7, ease }}
+        className="mb-8 inline-block"
+      >
+        <div className="group relative h-20 w-20 md:h-24 md:w-24">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-sunrise via-sunrise/60 to-sunrise/30 blur-md opacity-0 group-hover:opacity-70 transition-opacity duration-500" />
+          <Image
+            src="/profile.png"
+            alt="Adam Pang"
+            width={96}
+            height={96}
+            priority
+            className="relative h-full w-full rounded-full object-cover ring-2 ring-sunrise/40 transition-all duration-500 group-hover:ring-sunrise"
+          />
+        </div>
+      </motion.div>
+
       {/* Sunrise sigil + place + age */}
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}
