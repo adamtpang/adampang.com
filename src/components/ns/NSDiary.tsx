@@ -26,10 +26,10 @@ const entries: DiaryEntry[] = [
   {
     date: 'project x',
     source: 'x',
-    title: 'ns diary thread on x',
-    href: 'https://x.com/adamtpang',
+    title: 'ns diary thread',
+    href: 'https://x.com/adamtpang/status/1914254825816227954',
     excerpt:
-      'living chronicle of life at network school. add the actual thread URL here when ready.',
+      'living chronicle of life at network school. moments, meals, lessons, ideas. the long-form version is on pangaea.',
   },
 ];
 

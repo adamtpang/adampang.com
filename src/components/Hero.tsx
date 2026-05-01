@@ -6,34 +6,25 @@ import MagneticButton from './MagneticButton';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
-const identities = [
-  'optimist',
-  'curious',
-  'creative',
-  'musician',
-  'writer',
-  'founder',
-] as const;
-
 export default function Hero() {
   return (
     <section className="relative mx-auto w-full max-w-3xl px-6 pt-24 pb-32 md:pt-36 md:pb-44">
-      {/* Profile photo. Circular, sunrise ring, subtle hover lift. */}
+      {/* Profile photo. Rounded square, sunrise glow ring, subtle hover lift. */}
       <motion.div
         initial={{ opacity: 0, scale: 0.85 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.05, duration: 0.7, ease }}
-        className="mb-8 inline-block"
+        className="mb-10 inline-block"
       >
-        <div className="group relative h-20 w-20 md:h-24 md:w-24">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-sunrise via-sunrise/60 to-sunrise/30 blur-md opacity-0 group-hover:opacity-70 transition-opacity duration-500" />
+        <div className="group relative h-32 w-32 md:h-44 md:w-44">
+          <div className="absolute -inset-1 rounded-3xl bg-gradient-to-br from-sunrise via-sunrise/50 to-sunrise/20 blur-lg opacity-0 group-hover:opacity-80 transition-opacity duration-500" />
           <Image
             src="/profile.png"
             alt="Adam Pang"
-            width={96}
-            height={96}
+            width={224}
+            height={224}
             priority
-            className="relative h-full w-full rounded-full object-cover ring-2 ring-sunrise/40 transition-all duration-500 group-hover:ring-sunrise"
+            className="relative h-full w-full rounded-3xl object-cover ring-1 ring-ink/10 dark:ring-paper/15 transition-all duration-500 group-hover:ring-sunrise group-hover:-translate-y-0.5"
           />
         </div>
       </motion.div>
@@ -60,33 +51,32 @@ export default function Hero() {
         Adam <span className="text-sunrise">Pang</span>
       </motion.h1>
 
-      {/* Identity tagline. The proof comes in the Identities section below. */}
+      {/* One-line tagline. Specific, voice-true, no identity ladder. */}
       <motion.p
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.9, ease }}
         className="mt-8 max-w-xl text-lg leading-relaxed text-ink/75 dark:text-paper/75 md:text-xl"
       >
-        {identities.map((id, i) => (
-          <span key={id}>
-            <span className="text-ink dark:text-paper">{id}</span>
-            {i < identities.length - 1 ? <span className="text-ink/30 dark:text-paper/30">{' · '}</span> : '.'}
-          </span>
-        ))}
+        building, writing, making music. living at network school. shipping
+        small bets that compound.
       </motion.p>
 
-      {/* CTAs */}
+      {/* CTAs. Fun, human, sivers-style frictionless. */}
       <motion.div
         initial={{ opacity: 0, y: 12 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.9, ease }}
         className="mt-10 flex flex-wrap items-center gap-3"
       >
-        <MagneticButton href="https://pangaea.blog" external>
-          subscribe to pangaea
+        <MagneticButton href="mailto:adamtpang@gmail.com?subject=hello%20adam">
+          prompt me
         </MagneticButton>
-        <MagneticButton href="mailto:adamtpang@gmail.com" variant="ghost">
-          say hi
+        <MagneticButton href="https://pangaea.blog" external variant="ghost">
+          read pangaea
+        </MagneticButton>
+        <MagneticButton href="/ns" variant="ghost">
+          come to ns
         </MagneticButton>
       </motion.div>
 
@@ -97,7 +87,7 @@ export default function Hero() {
         transition={{ delay: 1.2, duration: 1.2 }}
         className="mt-24 flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40"
       >
-        <span>scroll for proof</span>
+        <span>scroll</span>
         <motion.span
           aria-hidden
           animate={{ y: [0, 4, 0] }}

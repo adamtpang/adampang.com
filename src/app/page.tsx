@@ -1,8 +1,9 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import Identities from '@/components/Identities';
-import Currently from '@/components/Currently';
 import Sounds from '@/components/Sounds';
+import Currently from '@/components/Currently';
+import Now from '@/components/Now';
+import Leverage from '@/components/Leverage';
 import Building from '@/components/Building';
 import Footer from '@/components/Footer';
 
@@ -11,11 +12,11 @@ export default function Home() {
     <main className="relative">
       <Header />
       <Hero />
-      <Identities />
-      <Currently />
       <Sounds />
+      <Currently />
+      <Now />
+      <Leverage />
       <Building />
-      {/* TODO. Writing (substack RSS + view counts), FAQ, NS pitch teaser. */}
       <Footer />
     </main>
   );

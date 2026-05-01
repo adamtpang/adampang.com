@@ -62,7 +62,7 @@ export default function Cursor() {
 
   return (
     <>
-      {/* Outer ring */}
+      {/* Outer ring. Thicker stroke, slight sunrise tint fill so it pops on paper. */}
       <motion.div
         aria-hidden
         className="pointer-events-none fixed left-0 top-0 z-[9999] hidden md:block"
@@ -74,19 +74,22 @@ export default function Cursor() {
         }}
       >
         <motion.div
-          className="rounded-full border border-sunrise"
+          className="rounded-full border-[1.5px] border-sunrise"
           animate={{
-            width: hovering ? 48 : 32,
-            height: hovering ? 48 : 32,
+            width: hovering ? 56 : 40,
+            height: hovering ? 56 : 40,
             backgroundColor: hovering
-              ? 'rgba(255, 92, 57, 0.10)'
-              : 'rgba(255, 92, 57, 0)',
+              ? 'rgba(255, 92, 57, 0.18)'
+              : 'rgba(255, 92, 57, 0.06)',
+          }}
+          style={{
+            boxShadow: '0 2px 12px rgba(255, 92, 57, 0.18)',
           }}
           transition={{ type: 'spring', stiffness: 280, damping: 24 }}
         />
       </motion.div>
 
-      {/* Inner dot */}
+      {/* Inner dot. Solid sunrise, drop shadow for visibility on light bg. */}
       <motion.div
         aria-hidden
         className="pointer-events-none fixed left-0 top-0 z-[9999] hidden md:block"
@@ -99,9 +102,12 @@ export default function Cursor() {
       >
         <motion.div
           className="rounded-full bg-sunrise"
+          style={{
+            boxShadow: '0 0 0 1px rgba(255, 92, 57, 0.25), 0 2px 6px rgba(255, 92, 57, 0.4)',
+          }}
           animate={{
-            width: hovering ? 4 : 6,
-            height: hovering ? 4 : 6,
+            width: hovering ? 5 : 8,
+            height: hovering ? 5 : 8,
           }}
           transition={{ type: 'spring', stiffness: 400, damping: 30 }}
         />

@@ -1,104 +1,111 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Section from './Section';
 import { sounds } from '@/data/sounds';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
-/**
- * Year cards get a unique gradient generated from the year number so the
- * gallery feels distinct without curated art per year. Pinterest visuals
- * can be added later by setting `image` on the SoundYear; that overrides
- * the gradient.
- */
-function gradientFor(year: number): string {
-  const hue = (year * 47) % 360;
-  return `linear-gradient(135deg, hsl(${hue} 70% 60% / 0.85), hsl(${(hue + 40) % 360} 65% 45% / 0.85))`;
-}
+const ROTATE_MS = 18_000; // auto-advance every 18s. Plenty of time to listen.
 
+/**
+ * Sounds. A rotating gallery of Spotify Wrapped embeds, one per year,
+ * with a year strip beneath. Auto-advances slowly; tap a year to jump
+ * and pause auto-advance for the rest of the visit.
+ */
 export default function Sounds() {
-  const current = sounds[0];
-  const rest = sounds.slice(1);
+  const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (paused) return;
+    timerRef.current = setInterval(() => {
+      setIndex((i) => (i + 1) % sounds.length);
+    }, ROTATE_MS);
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [paused]);
+
+  const select = (i: number) => {
+    setIndex(i);
+    setPaused(true);
+  };
+
+  const current = sounds[index];
 
   return (
-    <Section
-      id="sounds"
-      title="sounds"
-      kicker={`${sounds.length} years`}
-    >
+    <Section id="sounds" title="sounds" kicker={`${sounds.length} years`}>
       <p className="mb-8 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
         a musical journey, one playlist per year. the through-line of every
-        chapter so far. {current.year} is on rotation.
+        chapter so far. tap a year to jump in.
       </p>
 
-      {/* Current year embed */}
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-80px' }}
-        transition={{ duration: 0.7, ease }}
-        className="mb-10 overflow-hidden rounded-2xl border border-ink/5 dark:border-paper/10 shadow-sm"
-      >
-        <iframe
-          title={`Spotify Wrapped ${current.year}`}
-          src={`https://open.spotify.com/embed/playlist/${current.playlistId}?utm_source=generator&theme=0`}
-          width="100%"
-          height="352"
-          frameBorder={0}
-          loading="lazy"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          className="block"
-        />
-      </motion.div>
+      {/* The rotating embed. Crossfade on year change. */}
+      <div className="relative mb-6 overflow-hidden rounded-2xl border border-ink/5 dark:border-paper/10 shadow-sm">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={current.year}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5, ease }}
+          >
+            <iframe
+              title={`Spotify Wrapped ${current.year}`}
+              src={`https://open.spotify.com/embed/playlist/${current.playlistId}?utm_source=generator&theme=0`}
+              width="100%"
+              height="380"
+              frameBorder={0}
+              loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              className="block"
+            />
+          </motion.div>
+        </AnimatePresence>
 
-      {/* Year gallery. Past years as cards, click opens Spotify. */}
-      <div className="mb-10">
-        <div className="mb-4 flex items-baseline justify-between">
-          <h3 className="text-sm font-medium uppercase tracking-[0.18em] text-ink/60 dark:text-paper/60">
-            every year
-          </h3>
-          <span className="text-xs text-ink/40 dark:text-paper/40">
-            tap to play
-          </span>
-        </div>
+        {/* Auto-rotate progress bar. Shows at top of embed. */}
+        {!paused && (
+          <motion.div
+            key={`progress-${index}`}
+            initial={{ width: '0%' }}
+            animate={{ width: '100%' }}
+            transition={{ duration: ROTATE_MS / 1000, ease: 'linear' }}
+            className="absolute top-0 left-0 h-0.5 bg-sunrise/60"
+          />
+        )}
+      </div>
 
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4">
-          {rest.map((s, i) => (
-            <motion.a
+      {/* Year strip. Acts as both indicator and selector. */}
+      <div className="mb-10 flex flex-wrap items-center gap-2">
+        {sounds.map((s, i) => {
+          const active = i === index;
+          return (
+            <button
               key={s.year}
-              href={s.spotifyUrl}
-              target="_blank"
-              rel="noreferrer noopener"
-              initial={{ opacity: 0, y: 14 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-40px' }}
-              transition={{ duration: 0.5, ease, delay: 0.04 * i }}
-              whileHover={{ y: -4 }}
-              className="group relative aspect-[4/5] overflow-hidden rounded-xl border border-ink/10 dark:border-paper/10"
-              style={{ background: s.image ? undefined : gradientFor(s.year) }}
-              aria-label={`Open ${s.year} playlist on Spotify`}
+              onClick={() => select(i)}
+              aria-label={`Play ${s.year} wrapped`}
+              aria-pressed={active}
+              className={`group relative rounded-full px-3 py-1.5 text-xs nums uppercase tracking-[0.16em] transition-all ${
+                active
+                  ? 'bg-sunrise text-paper shadow-sm'
+                  : 'border border-ink/10 dark:border-paper/15 text-ink/60 dark:text-paper/60 hover:border-sunrise hover:text-sunrise'
+              }`}
             >
-              {s.image && (
-                /* eslint-disable-next-line @next/next/no-img-element */
-                <img
-                  src={s.image}
-                  alt={`${s.year} mood board`}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-              <div className="relative flex h-full flex-col justify-between p-3">
-                <span className="text-[0.65rem] uppercase tracking-[0.2em] text-white/85 nums">
-                  wrapped
-                </span>
-                <span className="font-display text-3xl leading-none text-white md:text-4xl">
-                  {s.year}
-                </span>
-              </div>
-            </motion.a>
-          ))}
-        </div>
+              {s.year}
+            </button>
+          );
+        })}
+        {paused && (
+          <button
+            onClick={() => setPaused(false)}
+            className="ml-2 text-[0.65rem] uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40 hover:text-sunrise transition-colors"
+          >
+            resume rotation ↻
+          </button>
+        )}
       </div>
 
       {/* Music outlinks */}
