@@ -36,7 +36,7 @@ export default function Hero() {
         className="font-display text-6xl leading-[0.95] tracking-tightest text-ink dark:text-paper md:text-8xl lg:text-9xl"
         style={{ fontVariationSettings: '"opsz" 144' }}
       >
-        Adam <em className="font-display not-italic text-sunrise">Pang</em>
+        Adam <span className="text-sunrise">Pang</span>
       </motion.h1>
 
       {/* Identity tagline. The proof comes in the Identities section below. */}
@@ -61,11 +61,11 @@ export default function Hero() {
         transition={{ delay: 0.6, duration: 0.9, ease }}
         className="mt-10 flex flex-wrap items-center gap-3"
       >
-        <MagneticButton href="https://adampang.substack.com" external>
-          Subscribe to Pangaea
+        <MagneticButton href="https://pangaea.blog" external>
+          subscribe to pangaea
         </MagneticButton>
-        <MagneticButton href="#contact" variant="ghost">
-          Say hi
+        <MagneticButton href="mailto:adamtpang@gmail.com" variant="ghost">
+          say hi
         </MagneticButton>
       </motion.div>
 

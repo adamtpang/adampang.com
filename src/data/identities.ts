@@ -104,7 +104,6 @@ export const identities: Identity[] = [
         href: 'https://soundcloud.com/adampang',
         external: true,
       },
-      { label: 'spotify wrapped 2025', href: '#sounds' },
     ],
   },
   {
@@ -114,8 +113,8 @@ export const identities: Identity[] = [
       '500 words max. essays on philosophy, building, technology, longevity, life.',
     proof: [
       {
-        label: 'pangaea on substack',
-        href: 'https://adampang.substack.com',
+        label: 'pangaea.blog',
+        href: 'https://pangaea.blog',
         external: true,
         note: 'newsletter',
       },
