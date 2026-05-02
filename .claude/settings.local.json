@@ -24,7 +24,13 @@
       "WebFetch(domain:leerob.io)",
       "WebFetch(domain:leerob.com)",
       "WebFetch(domain:johnrush.me)",
-      "WebFetch(domain:emilkowal.ski)"
+      "WebFetch(domain:emilkowal.ski)",
+      "WebFetch(domain:www.joshwcomeau.com)",
+      "WebFetch(domain:paulstamatiou.com)",
+      "WebFetch(domain:lukasmoro.com)",
+      "WebFetch(domain:www.tobiaslins.com)",
+      "WebFetch(domain:www.cassie.codes)",
+      "WebFetch(domain:maggieappleton.com)"
     ],
     "deny": [],
     "ask": [],
