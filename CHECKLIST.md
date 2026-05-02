@@ -8,13 +8,12 @@ they ship.
 
 ## Hero
 
-- [x] Photo. Rounded-square, sunrise hover ring
 - [x] Name in Fraunces with sunrise accent
 - [x] Tagline (one line, lowercase, voice-true)
 - [x] Three fun CTAs (prompt me, read pangaea, come to ns)
 - [x] Scroll hint with bouncing arrow
-- [ ] Photo replaced with a high-res 2000+ px portrait optimized via next/image
-- [ ] On dark mode the sunrise glow ring tone re-tunes for warmth
+- [ ] Photo. Adam will provide a higher-quality portrait later. Wired via next/image when added.
+- [ ] On dark mode the sunrise tone re-tunes for warmth
 
 ## Sounds
 
@@ -44,11 +43,9 @@ they ship.
 - [x] Each card: claim, three metrics, link list
 - [x] Live-data pulse indicator when fetched stats are present
 - [x] GitHub repo + star count fetched at build time, hourly revalidation
-- [x] Substack post count from pangaea.blog/feed RSS
-- [ ] SoundCloud track + play counts (needs api key OR scraping)
-- [ ] Stripe revenue (server-only env var, single rolled-up number)
+- [x] Substack post count from pangaea.blog/feed RSS (when pangaea live)
 - [ ] Vercel Analytics integration: views per essay shown next to title
-- [ ] Capital metric should reflect actual numbers (MRR, total revenue), not "self funded"
+- [ ] Note. Stripe revenue lives on anchormarianas.com, not here. SoundCloud is just an outlink. Both intentionally skipped.
 
 ## Building (apps catalog)
 
@@ -61,11 +58,12 @@ they ship.
 
 ## Footer (elsewhere)
 
-- [x] Five categories: meet, words, sound, work, social
+- [x] Seven categories: meet, words, sound, video, social, code, work
 - [x] Every internet presence in one list
 - [x] Voice-consistent labels
-- [ ] Copy email on click toast
-- [ ] Year ticker auto-updates
+- [x] Year ticker auto-updates
+- [ ] Adam confirms which platforms he is actually on (see confirmHandle flags in outlinks.ts)
+- [ ] Copy-email on click toast
 
 ## /ns page
 
@@ -79,12 +77,11 @@ they ship.
 
 ## Custom cursor
 
-- [x] Two layers: dot + ring
-- [x] Sunrise color, drop shadow, never invisible on white
-- [x] More inclusive media query (any-pointer: fine) for windows touch laptops
-- [x] Native cursor restored if custom cursor cannot render
-- [ ] Magnetic snap to interactive elements (currently just hover scale)
-- [ ] Trail history on fast movement (subtle)
+- [x] Sunrise SVG cursor via CSS url() so it is always visible
+- [x] Hover state: bigger sunrise dot + halo on links and buttons
+- [x] Native I-beam preserved on text inputs
+- [x] Zero JS dependency, no race conditions, falls back to native pointer
+- [ ] Optional. Add a JS spring layer as enhancement once base cursor is locked
 
 ## Cross-cutting
 
@@ -119,7 +116,6 @@ they ship.
 - [x] No em dashes anywhere in src/
 - [x] Lowercase voice on labels and buttons
 - [ ] One spelling/grammar pass on every section copy
-- [ ] FAQ section answering 4-6 actual questions
 
 ### Tech debt
 - [x] _legacy/ directory holds old Jekyll site

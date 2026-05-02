@@ -5,13 +5,23 @@ import { outlinks, type Outlink } from '@/data/outlinks';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
-const CATEGORY_ORDER: Outlink['category'][] = ['meet', 'words', 'sound', 'work', 'social'];
+const CATEGORY_ORDER: Outlink['category'][] = [
+  'meet',
+  'words',
+  'sound',
+  'video',
+  'social',
+  'code',
+  'work',
+];
 const CATEGORY_TITLE: Record<Outlink['category'], string> = {
   meet: 'meet',
   words: 'words',
   sound: 'sound',
-  work: 'work',
+  video: 'video',
   social: 'social',
+  code: 'code',
+  work: 'work',
 };
 
 export default function Footer() {
@@ -23,7 +33,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative mx-auto w-full max-w-3xl px-6 pb-16 pt-12">
+    <footer className="relative mx-auto w-full max-w-5xl px-6 pb-16 pt-12">
       <div className="hairline mb-12" />
 
       <motion.div
@@ -41,7 +51,7 @@ export default function Footer() {
           </span>
         </div>
 
-        <div className="grid grid-cols-2 gap-x-6 gap-y-8 md:grid-cols-5">
+        <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
           {grouped.map(({ cat, items }) => (
             <div key={cat}>
               <h3 className="mb-3 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40">

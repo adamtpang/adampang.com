@@ -26,24 +26,35 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Custom CSS cursor: a sunrise dot that hovers + a larger halo on
+     interactive elements. Pure CSS so it's always visible, never
+     dependent on JS, no race conditions. Falls back to native pointer
+     if the browser can't render the SVG. */
   body {
     background: rgb(var(--color-bg));
     color: rgb(var(--color-fg));
     font-family: var(--font-inter), system-ui, sans-serif;
     font-feature-settings: 'cv11', 'ss01', 'ss03';
-    /* Native cursor is the default. The Cursor component opts-in to
-       hiding it via [data-cursor="custom"] only when it actually renders.
-       Prevents invisible-cursor failure modes on touch laptops. */
-    cursor: auto;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3.5' fill='%23FF5C39'/></svg>") 12 12, auto;
   }
 
-  body[data-cursor='custom'] {
-    cursor: none;
+  /* Slightly bigger sunrise halo cursor on interactive elements. */
+  a,
+  button,
+  [role='button'],
+  label,
+  summary,
+  select {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%23FF5C39' fill-opacity='0.14'/><circle cx='16' cy='16' r='5' fill='%23FF5C39'/></svg>") 16 16, pointer;
   }
-  body[data-cursor='custom'] a,
-  body[data-cursor='custom'] button,
-  body[data-cursor='custom'] [role='button'] {
-    cursor: none;
+
+  /* Text inputs keep the native I-beam so people can still find typing fields. */
+  input[type='text'],
+  input[type='email'],
+  input[type='search'],
+  input[type='url'],
+  textarea {
+    cursor: text;
   }
 
   ::selection {
