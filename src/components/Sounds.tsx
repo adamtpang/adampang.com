@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import Script from 'next/script';
 import { motion, AnimatePresence } from 'framer-motion';
 import Section from './Section';
 import { sounds } from '@/data/sounds';
@@ -9,30 +10,26 @@ const ease = [0.16, 1, 0.3, 1] as const;
 
 const ROTATE_MS = 18_000; // auto-advance every 18s. Plenty of time to listen.
 
-/**
- * Year cards get a unique gradient generated from the year number so the
- * mood board placeholder feels distinct without curated art per year.
- * Override automatically once /public/sounds/<year>.jpg exists.
- */
-function gradientFor(year: number): string {
-  const hue = (year * 47) % 360;
-  return `linear-gradient(135deg, hsl(${hue} 70% 55% / 0.9), hsl(${(hue + 60) % 360} 65% 40% / 0.9))`;
+declare global {
+  interface Window {
+    PinUtils?: { build?: () => void };
+  }
 }
 
 /**
- * Sounds. A rotating gallery of Spotify Wrapped embeds paired with a
- * pinterest mood board per year. Auto-advances slowly; tap a year to
- * jump and pause auto-advance.
+ * Sounds. A rotating gallery of Spotify Wrapped embeds paired with
+ * pinterest mood boards (official widget). Auto-advances slowly; tap
+ * a year to jump and pause auto-advance.
  *
- * Mood boards: gradient placeholder by default. Adam can drop
- * /public/sounds/<year>.jpg files to replace placeholders with real
- * pinterest cover images. Click on the mood board opens the full
- * pinterest board; click on the audio embed plays in spotify.
+ * Pinterest. Loads pinit.js once globally, re-renders the active
+ * board widget on year change by re-keying the <a data-pin-do> node
+ * and calling window.PinUtils.build().
  */
 export default function Sounds() {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const pinAnchorRef = useRef<HTMLAnchorElement | null>(null);
 
   useEffect(() => {
     if (paused) return;
@@ -44,6 +41,17 @@ export default function Sounds() {
     };
   }, [paused]);
 
+  // Re-render the Pinterest widget whenever the active year changes.
+  // pinit.js exposes window.PinUtils.build() which rescans the DOM.
+  useEffect(() => {
+    const id = setTimeout(() => {
+      if (typeof window !== 'undefined' && window.PinUtils?.build) {
+        window.PinUtils.build();
+      }
+    }, 100);
+    return () => clearTimeout(id);
+  }, [index]);
+
   const select = (i: number) => {
     setIndex(i);
     setPaused(true);
@@ -52,14 +60,28 @@ export default function Sounds() {
   const current = sounds[index];
 
   return (
-    <Section id="sounds" title="sounds" kicker={`${sounds.length} years`}>
+    <Section
+      id="sounds"
+      title="sounds"
+      kicker={`${sounds.length} years`}
+      glow="rose"
+      glowCorner="bottom-left"
+    >
+      {/* Pinterest's official script. Loads once globally. */}
+      <Script
+        src="https://assets.pinterest.com/js/pinit.js"
+        strategy="afterInteractive"
+        async
+        defer
+      />
+
       <p className="mb-8 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
         a musical journey paired with a visual one. spotify wrapped on the
         right, pinterest mood board on the left. one year at a time. tap any
         year below to jump in.
       </p>
 
-      {/* The active year. Pinterest mood + Spotify embed side by side. */}
+      {/* Active year. Pinterest mood + Spotify embed side by side. */}
       <AnimatePresence mode="wait">
         <motion.div
           key={current.year}
@@ -69,43 +91,46 @@ export default function Sounds() {
           transition={{ duration: 0.5, ease }}
           className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-2"
         >
-          {/* Pinterest mood board (placeholder gradient until image lands) */}
-          <a
-            href={current.pinterestBoard ?? '#'}
-            target={current.pinterestBoard ? '_blank' : undefined}
-            rel={current.pinterestBoard ? 'noreferrer noopener' : undefined}
-            aria-label={`${current.year} mood board on pinterest`}
-            className="group relative aspect-square overflow-hidden rounded-2xl border border-ink/5 dark:border-paper/10 shadow-sm md:aspect-auto md:h-[380px]"
-            style={{ background: current.image ? undefined : gradientFor(current.year) }}
-          >
-            {current.image && (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img
-                src={current.image}
-                alt={`${current.year} mood board`}
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.4s] ease-out group-hover:scale-105"
-              />
-            )}
-            {/* Top fade for legibility of corner labels */}
-            <div className="absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-black/35 to-transparent" />
-            <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/55 to-transparent" />
-            <div className="absolute inset-0 flex flex-col justify-between p-5">
-              <div className="flex items-baseline justify-between">
-                <span className="text-[0.65rem] uppercase tracking-[0.22em] text-white/85 nums">
-                  mood board
-                </span>
-                <span className="text-[0.65rem] uppercase tracking-[0.22em] text-white/85">
-                  pinterest ↗
-                </span>
-              </div>
-              <span className="font-display text-6xl leading-none text-white tracking-tighter md:text-7xl">
-                {current.year}
+          {/* Pinterest mood board (official widget) */}
+          <div className="group relative overflow-hidden rounded-2xl border border-ink/10 dark:border-paper/15 bg-paper/60 dark:bg-ink/40 backdrop-blur-sm md:h-[380px]">
+            {/* Header overlay */}
+            <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-baseline justify-between p-4">
+              <span className="text-[0.65rem] uppercase tracking-[0.22em] text-ink/55 dark:text-paper/55">
+                mood board · {current.year}
               </span>
+              <a
+                href={current.pinterestBoard ?? '#'}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="pointer-events-auto text-[0.65rem] uppercase tracking-[0.22em] text-ink/55 dark:text-paper/55 transition-colors hover:text-sunrise"
+              >
+                pinterest ↗
+              </a>
             </div>
-          </a>
+
+            {/* The widget itself. Re-keyed per year so it re-mounts. */}
+            <div className="flex h-full items-center justify-center p-4 pt-12">
+              {current.pinterestBoard ? (
+                /* eslint-disable-next-line jsx-a11y/anchor-has-content */
+                <a
+                  ref={pinAnchorRef}
+                  key={current.year}
+                  data-pin-do="embedBoard"
+                  data-pin-board-width="380"
+                  data-pin-scale-height="220"
+                  data-pin-scale-width="80"
+                  href={current.pinterestBoard}
+                />
+              ) : (
+                <span className="text-sm italic text-ink/40 dark:text-paper/40">
+                  mood board coming
+                </span>
+              )}
+            </div>
+          </div>
 
           {/* Spotify embed. Always-visible audio. */}
-          <div className="relative overflow-hidden rounded-2xl border border-ink/5 dark:border-paper/10 shadow-sm">
+          <div className="relative overflow-hidden rounded-2xl border border-ink/10 dark:border-paper/15 shadow-sm">
             <iframe
               title={`Spotify Wrapped ${current.year}`}
               src={`https://open.spotify.com/embed/playlist/${current.playlistId}?utm_source=generator&theme=0`}
@@ -142,9 +167,17 @@ export default function Sounds() {
               aria-pressed={active}
               className={`group relative rounded-full px-3 py-1.5 text-xs nums uppercase tracking-[0.16em] transition-all ${
                 active
-                  ? 'bg-sunrise text-paper shadow-sm'
-                  : 'border border-ink/10 dark:border-paper/15 text-ink/60 dark:text-paper/60 hover:border-sunrise hover:text-sunrise'
+                  ? 'text-paper shadow-md shadow-sunrise/30'
+                  : 'border border-ink/15 dark:border-paper/15 text-ink/65 dark:text-paper/65 hover:border-sunrise hover:text-sunrise'
               }`}
+              style={
+                active
+                  ? {
+                      backgroundImage:
+                        'linear-gradient(135deg, #FF5C39 0%, #FF8970 50%, #F59E0B 100%)',
+                    }
+                  : undefined
+              }
             >
               {s.year}
             </button>

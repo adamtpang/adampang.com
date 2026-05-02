@@ -22,7 +22,13 @@ const STATUS_DOT: Record<AppStatus, string> = {
 
 export default function Building() {
   return (
-    <Section id="building" title="building" kicker={`${apps.length} apps`}>
+    <Section
+      id="building"
+      title="building"
+      kicker={`${apps.length} apps`}
+      glow="peach"
+      glowCorner="bottom-right"
+    >
       <p className="mb-8 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
         small bets, shipped publicly. each one solves a problem i wanted
         solved for myself.

@@ -33,7 +33,13 @@ export default function Currently() {
   }, []);
 
   return (
-    <Section id="currently" title="currently" kicker="real-time">
+    <Section
+      id="currently"
+      title="currently"
+      kicker="real-time"
+      glow="dawn"
+      glowCorner="top-right"
+    >
       {/* Life progress bar. Computed live from birthdate. */}
       <div className="mb-12">
         <div className="mb-2 flex items-baseline justify-between">

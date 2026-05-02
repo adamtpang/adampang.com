@@ -33,6 +33,15 @@ const config: Config = {
           800: '#852511',
           900: '#57180B',
         },
+        // Premium-playful warm-spectrum partners. Used for gradients
+        // and per-section ambient glows. All in the same warm family
+        // so the site stays cohesive and never tips into kiddish.
+        peach: '#FFB69E',
+        coral: '#FF8970',
+        amber: '#F59E0B',
+        gold: '#E8A93B',
+        dawn: '#FFD2B8',
+        rose: '#FFA999',
         // Neutrals. Paper feel in light, deep slate in dark.
         ink: {
           DEFAULT: '#0E0E0C',

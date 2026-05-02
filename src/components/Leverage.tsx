@@ -96,7 +96,13 @@ export default function Leverage({ liveStats }: { liveStats?: LiveStats }) {
   const hasLive = !!(liveStats?.github || liveStats?.substack);
 
   return (
-    <Section id="leverage" title="leverage" kicker="naval's four">
+    <Section
+      id="leverage"
+      title="leverage"
+      kicker="naval's four"
+      glow="coral"
+      glowCorner="top-left"
+    >
       <p className="mb-10 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
         every output compounds through one of four sources. these are mine,
         with the proof attached.{' '}

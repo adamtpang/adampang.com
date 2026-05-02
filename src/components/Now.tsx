@@ -16,7 +16,13 @@ const TAG_COLOR: Record<NonNullable<NowItem['tag']>, string> = {
 
 export default function Now() {
   return (
-    <Section id="now" title="now" kicker="this season">
+    <Section
+      id="now"
+      title="now"
+      kicker="this season"
+      glow="amber"
+      glowCorner="bottom-right"
+    >
       <p className="mb-8 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
         active focus. the things i&apos;m putting hours into right now.
         updated as it shifts.
