@@ -30,11 +30,19 @@ export default function Cursor() {
   const ringY = useSpring(y, { stiffness: 220, damping: 22, mass: 0.6 });
 
   useEffect(() => {
-    const fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    /* More inclusive than (pointer: fine) which fails on Windows touch
+       laptops with mice. (any-pointer: fine) matches if any input device
+       is fine, which is what we actually want. */
+    const hasFinePointer = window.matchMedia('(any-pointer: fine)').matches;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (!fine || reduced) return;
+    /* Width gate as a final safety net: most fine-pointer experiences
+       happen on viewports >= 768px. Below that, default native cursor. */
+    const wideEnough = window.innerWidth >= 768;
+
+    if (!hasFinePointer || reduced || !wideEnough) return;
 
     setEnabled(true);
+    document.body.dataset.cursor = 'custom';
 
     const onMove = (e: PointerEvent) => {
       x.set(e.clientX);
@@ -50,11 +58,23 @@ export default function Cursor() {
       setHovering(!!interactive);
     };
 
+    /* Hide custom cursor when window loses focus or pointer leaves the page. */
+    const onBlur = () => {
+      x.set(-100);
+      y.set(-100);
+    };
+
     window.addEventListener('pointermove', onMove, { passive: true });
     window.addEventListener('pointerover', onOver, { passive: true });
+    window.addEventListener('blur', onBlur);
+    document.addEventListener('mouseleave', onBlur);
+
     return () => {
       window.removeEventListener('pointermove', onMove);
       window.removeEventListener('pointerover', onOver);
+      window.removeEventListener('blur', onBlur);
+      document.removeEventListener('mouseleave', onBlur);
+      delete document.body.dataset.cursor;
     };
   }, [x, y]);
 

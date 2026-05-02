@@ -2,9 +2,55 @@
 
 import { motion } from 'framer-motion';
 import Section from './Section';
-import { leverage, type LeverageMetric } from '@/data/leverage';
+import { leverage, type LeverageMetric, type LeverageCard } from '@/data/leverage';
+import type { LiveStats } from '@/lib/metrics';
 
 const ease = [0.16, 1, 0.3, 1] as const;
+
+/**
+ * Merge live API numbers into the static leverage config. If a fetcher
+ * returns null (rate limit, network failure), we fall back silently to
+ * the static value.
+ */
+function withLiveStats(cards: LeverageCard[], live?: LiveStats): LeverageCard[] {
+  if (!live) return cards;
+
+  return cards.map((card) => {
+    if (card.slug === 'code' && live.github) {
+      return {
+        ...card,
+        metrics: [
+          { label: 'apps live', value: 9 },
+          {
+            label: 'github repos',
+            value: live.github.publicRepos,
+            source: 'https://github.com/adamtpang',
+          },
+          {
+            label: 'github stars',
+            value: live.github.totalStars,
+            source: 'https://github.com/adamtpang',
+          },
+        ],
+      };
+    }
+    if (card.slug === 'media' && live.substack) {
+      return {
+        ...card,
+        metrics: [
+          {
+            label: 'pangaea posts',
+            value: live.substack.postCount,
+            source: 'https://pangaea.blog',
+          },
+          { label: 'soundcloud', value: 'songs', source: 'https://soundcloud.com/adampang' },
+          { label: 'x', value: '@adamtpang', source: 'https://x.com/adamtpang' },
+        ],
+      };
+    }
+    return card;
+  });
+}
 
 function Metric({ m }: { m: LeverageMetric }) {
   const value = (() => {
@@ -45,17 +91,28 @@ function Metric({ m }: { m: LeverageMetric }) {
   return inner;
 }
 
-export default function Leverage() {
+export default function Leverage({ liveStats }: { liveStats?: LiveStats }) {
+  const cards = withLiveStats(leverage, liveStats);
+  const hasLive = !!(liveStats?.github || liveStats?.substack);
+
   return (
     <Section id="leverage" title="leverage" kicker="naval's four">
       <p className="mb-10 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
         every output compounds through one of four sources. these are mine,
-        with the proof attached. (numbers are manual today. live api wiring
-        is on deck.)
+        with the proof attached.{' '}
+        {hasLive && (
+          <span className="inline-flex items-center gap-1.5 text-xs text-sunrise">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sunrise opacity-75" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-sunrise" />
+            </span>
+            live numbers
+          </span>
+        )}
       </p>
 
       <ol className="grid grid-cols-1 gap-6 md:grid-cols-2">
-        {leverage.map((card, i) => (
+        {cards.map((card, i) => (
           <motion.li
             key={card.slug}
             initial={{ opacity: 0, y: 14 }}

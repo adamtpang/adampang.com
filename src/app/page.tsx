@@ -6,8 +6,11 @@ import Now from '@/components/Now';
 import Leverage from '@/components/Leverage';
 import Building from '@/components/Building';
 import Footer from '@/components/Footer';
+import { getLiveStats } from '@/lib/metrics';
 
-export default function Home() {
+export default async function Home() {
+  const liveStats = await getLiveStats();
+
   return (
     <main className="relative">
       <Header />
@@ -15,7 +18,7 @@ export default function Home() {
       <Sounds />
       <Currently />
       <Now />
-      <Leverage />
+      <Leverage liveStats={liveStats} />
       <Building />
       <Footer />
     </main>

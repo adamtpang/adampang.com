@@ -19,7 +19,12 @@
       "Bash(pgrep:*)",
       "Bash(cat:*)",
       "mcp__ddf6cfe5-a448-46bd-ae07-8cf2996daf87__list_deployments",
-      "mcp__ddf6cfe5-a448-46bd-ae07-8cf2996daf87__list_projects"
+      "mcp__ddf6cfe5-a448-46bd-ae07-8cf2996daf87__list_projects",
+      "WebFetch(domain:rauno.me)",
+      "WebFetch(domain:leerob.io)",
+      "WebFetch(domain:leerob.com)",
+      "WebFetch(domain:johnrush.me)",
+      "WebFetch(domain:emilkowal.ski)"
     ],
     "deny": [],
     "ask": [],
