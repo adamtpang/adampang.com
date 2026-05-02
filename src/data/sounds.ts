@@ -17,56 +17,82 @@ export type SoundYear = {
   year: number;
   playlistId: string;
   spotifyUrl: string;
-  /** Optional mood board image, /public-relative. */
+  /**
+   * Optional mood board image, /public-relative.
+   * When set, replaces the auto-generated gradient on the year card.
+   * Suggested workflow: pick a representative image from your pinterest
+   * board for that year, save as /public/sounds/<year>.jpg.
+   */
   image?: string;
+  /**
+   * Optional pinterest board URL for that year. When set, an indicator
+   * appears on the card and you can link out to the full board.
+   */
+  pinterestBoard?: string;
   /** Optional one-line vibe description. */
   vibe?: string;
 };
 
+/**
+ * Pinterest board URL convention:
+ *   https://pinterest.com/<your-username>/<year>-vibes
+ * Create a board per year and update the URL here to match.
+ * Until then, the placeholders point at a generic adamtpang/<year> path
+ * which adam can rename to whatever board he creates.
+ */
 export const sounds: SoundYear[] = [
   {
     year: 2025,
     playlistId: '37i9dQZEVXd3JaoMJtEGfX',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZEVXd3JaoMJtEGfX',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2025',
   },
   {
     year: 2024,
     playlistId: '37i9dQZF1FoP3p0S7SQHnv',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1FoP3p0S7SQHnv',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2024',
   },
   {
     year: 2023,
     playlistId: '37i9dQZF1Fan2BSqY5YLwb',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1Fan2BSqY5YLwb',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2023',
   },
   {
     year: 2022,
     playlistId: '37i9dQZF1F0sijgNaJdgit',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2022',
   },
   {
     year: 2021,
     playlistId: '37i9dQZF1EUMDoJuT8yJsl',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1EUMDoJuT8yJsl',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2021',
   },
   {
     year: 2020,
     playlistId: '37i9dQZF1ELXEoWFrHKG0P',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1ELXEoWFrHKG0P',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2020',
   },
   {
     year: 2019,
     playlistId: '37i9dQZF1EtrRp1uBtrqzT',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1EtrRp1uBtrqzT',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2019',
   },
   {
     year: 2018,
     playlistId: '37i9dQZF1EjdHXwWGjV9k1',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1EjdHXwWGjV9k1',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2018',
   },
   {
     year: 2017,
     playlistId: '37i9dQZF1E9X7qp06VxMIX',
     spotifyUrl: 'https://open.spotify.com/playlist/37i9dQZF1E9X7qp06VxMIX',
+    pinterestBoard: 'https://pinterest.com/adamtpang/2017',
   },
 ];

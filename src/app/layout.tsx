@@ -82,6 +82,52 @@ export default function RootLayout({
         />
       </head>
       <body className="grain antialiased">
+        {/* JSON-LD person schema. Helps Google knowledge graph + AI agents
+            understand who Adam is and what he does. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              name: 'Adam Pang',
+              alternateName: 'Adam Tomas Guzman Pangelinan',
+              url: 'https://adampang.com',
+              email: 'adamtpang@gmail.com',
+              birthPlace: { '@type': 'Place', name: 'Guam' },
+              jobTitle: 'Founder, Builder, Musician',
+              description:
+                'Building, writing, making music. Living at Network School in Malaysia. Shipping small bets that compound.',
+              sameAs: [
+                'https://x.com/adamtpang',
+                'https://github.com/adamtpang',
+                'https://farcaster.xyz/adampang',
+                'https://youtube.com/@adamtpang',
+                'https://instagram.com/adamtpang',
+                'https://linkedin.com/in/adamtpang',
+                'https://soundcloud.com/adamtpang',
+                'https://pangaea.blog',
+              ],
+              knowsAbout: [
+                'software',
+                'philosophy',
+                'music',
+                'building',
+                'network states',
+              ],
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Anchor Marianas',
+                url: 'https://anchormarianas.com',
+              },
+              affiliation: {
+                '@type': 'Organization',
+                name: 'Network School',
+                url: 'https://ns.com',
+              },
+            }),
+          }}
+        />
         {children}
         <Analytics />
         <SpeedInsights />
