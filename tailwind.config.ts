@@ -50,9 +50,9 @@ const config: Config = {
           faint: '#A8A8A2',
         },
         paper: {
-          DEFAULT: '#FAF8F4', // warm off-white, cucinelli-cream
-          soft: '#F2EFE8',
-          muted: '#E8E4DA',
+          DEFAULT: '#FFFFFF', // pure white canvas
+          soft: '#FAFAF7',
+          muted: '#F2F1ED',
         },
       },
       letterSpacing: {

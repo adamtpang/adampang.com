@@ -30,7 +30,11 @@
       "WebFetch(domain:lukasmoro.com)",
       "WebFetch(domain:www.tobiaslins.com)",
       "WebFetch(domain:www.cassie.codes)",
-      "WebFetch(domain:maggieappleton.com)"
+      "WebFetch(domain:maggieappleton.com)",
+      "WebFetch(domain:cfcf.ca)",
+      "WebFetch(domain:www.cfcf.ca)",
+      "WebFetch(domain:aristidebenoist.com)",
+      "WebFetch(domain:carltheis.com)"
     ],
     "deny": [],
     "ask": [],

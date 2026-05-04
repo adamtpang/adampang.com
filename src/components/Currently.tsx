@@ -109,7 +109,7 @@ export default function Currently() {
           >
             network school
           </a>{' '}
-          · langkawi, malaysia · longtermer #2 since day one.
+          · langkawi, malaysia · longtermer #2 since march 2025.
         </p>
       </div>
     </Section>

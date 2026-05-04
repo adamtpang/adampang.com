@@ -29,8 +29,8 @@ const CORNER_POS: Record<string, string> = {
 export default function SectionGlow({
   color = 'dawn',
   corner = 'top-right',
-  size = 720,
-  intensity = 0.18,
+  size = 900,
+  intensity = 0.32,
 }: {
   color?: keyof typeof COLOR_TO_RGB;
   corner?: keyof typeof CORNER_POS;

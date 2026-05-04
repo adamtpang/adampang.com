@@ -1,176 +1,216 @@
-# adampang.com . design system
+# Adam Pang . Design System
 
-The single source of truth for color, type, motion, and voice on
-adampang.com. Whenever a section is added or a component is built, it
-should pass the rules below before shipping.
+The brand book. Every visual choice on adampang.com flows from this.
+If something on the site doesn't match here, fix the site.
+If something here is wrong, fix this.
 
----
+## 1. Identity in one line
 
-## 1. Color palette
+> A 23-year-old optimist from Guam. Building, writing, making music
+> at Network School. **Sunrise on white.**
+
+Two words always paired: **sunrise** (the spark) and **white** (the canvas).
+
+## 2. Color
 
 ### Signature
+| Token | Hex | Usage |
+| --- | --- | --- |
+| `sunrise` | `#FF5C39` | Primary accent. Active states, CTAs, highlights. |
+
+Sunrise is used everywhere a viewer's eye should go. Never used for
+body text. Used in gradients, icons, dots, underlines.
+
+### Sunrise gradient (the bold moments)
 ```
-PACIFIC SUNRISE   #FF5C39    rgb(255, 92, 57)
+linear-gradient(135deg, #FF5C39 0%, #FF8970 50%, #F59E0B 100%)
 ```
-The one accent. Used for:
-- Hero name accent ("Pang")
-- Link hover state
-- Underline decoration
-- CTA primary fill (light mode)
-- Live-data heartbeat dots
-- Custom cursor (dot + ring)
-- Favicon
+Used on the name, primary CTAs, the active year pill in Sounds.
 
-Never used for body text. Never used as a background fill larger than a
-button. Always paired with paper or ink, never with another color.
+### Warm partners (ambient tints, never solid backgrounds)
+| Token | Hex | Where |
+| --- | --- | --- |
+| `coral` | `#FF8970` | Reserved |
+| `peach` | `#FFB69E` | Building glow |
+| `dawn` | `#FFD2B8` | Currently glow |
+| `amber` | `#F59E0B` | Now glow |
+| `gold` | `#E8A93B` | Optional |
+| `rose` | `#FFA999` | Sounds glow |
 
-### Light mode
-```
-PAPER         #FAF8F4    rgb(250, 248, 244)   page background
-PAPER soft    #F2EFE8                         secondary surface
-PAPER muted   #E8E4DA                         tertiary surface
+Each section gets one warm tone. Never green, blue, violet, or
+desaturated grey. Stay warm.
 
-INK           #0E0E0C    rgb(14, 14, 12)      primary text
-INK soft      #1F1F1C                         secondary text
-INK muted     #6B6B66                         tertiary text / labels
-INK faint     #A8A8A2                         decorative text / disabled
-```
+### Canvas
+| Token | Hex | Usage |
+| --- | --- | --- |
+| `paper` | `#FFFFFF` | Default light background. Pure white. |
+| `paper.soft` | `#FAFAF7` | Cards, subtle insets. |
+| `paper.muted` | `#F2F1ED` | Muted strips. |
+| `ink` | `#0E0E0C` | Primary text. Default dark background. |
+| `ink.soft` | `#1F1F1C` | Card surface in dark mode. |
+| `ink.muted` | `#6B6B66` | Secondary text. |
 
-### Dark mode (sunrise lifts to #FF6D50 for contrast)
-```
-INK           #0E0E0C                         page background
-INK soft      #1F1F1C                         secondary surface
+### Color rules
+1. White is the canvas. No grey-tinted backgrounds.
+2. Sunrise is the only saturated solid color.
+3. Warm partners only appear as ambient glows or gradient stops.
+4. No cool colors. Ever. (Status pills allowed: emerald = live.)
+5. Body copy uses `ink` at varying opacities (100, 80, 70, 65, 50, 40).
 
-PAPER         #FAF8F4                         primary text
-PAPER 75%                                     body text
-PAPER 40%                                     tertiary text / labels
-```
+## 3. Typography
 
-### Functional accents (status pills, tags only)
-```
-EMERALD 500   #10B981    "live"
-SUNRISE       #FF5C39    "shipping"
-AMBER 400     #FBBF24    "building"
-VIOLET 500    #8B5CF6    "claude" tag
-SKY 500       #0EA5E9    "thinking" tag
-```
+| Family | Use | Source |
+| --- | --- | --- |
+| **Fraunces** | Display, headlines, italic accents | Google Fonts (variable) |
+| **Inter** | Body, UI, buttons | Google Fonts |
+| **JetBrains Mono** | Numbers, dates, ages, view counts | Google Fonts |
 
-These are NEVER used outside of the small status-dot context.
+### Display sizing (Fraunces)
+| Use | Mobile | Desktop |
+| --- | --- | --- |
+| Hero name | `text-[3.25rem]` | `text-[9rem]` (lg) |
+| Section title | `text-3xl` | `text-4xl` |
+| Sub-headline | `text-2xl` | `text-3xl` |
+| Pull quote | `text-xl italic` | `text-2xl italic` |
 
-### What's banned
-- Any blue, green, or purple as a primary accent (only sunrise)
-- Hardcoded hex outside Tailwind tokens
-- Gradients larger than a 200px tile
-- Pure black `#000` (use `--ink #0E0E0C`)
-- Pure white `#FFF` (use `--paper #FAF8F4`)
+### Body sizing (Inter)
+| Use | Size |
+| --- | --- |
+| Lead paragraph | `text-base sm:text-lg md:text-xl` |
+| Body | `text-base` |
+| Card description | `text-sm` |
+| Caption | `text-xs` |
+| Eyebrow | `text-[0.65rem]` uppercase, `tracking-[0.2em]` |
 
----
+### Typography rules
+1. Numbers in mono. Always.
+2. Italic only on Fraunces for emphasis. Never on Inter.
+3. Lowercase voice everywhere except proper nouns.
+4. Tight tracking on display (`tracking-tightest`, `-0.045em`).
+5. Loose tracking on caps (`tracking-[0.18em]` to `[0.22em]`).
 
-## 2. Typography
+## 4. Voice
 
-### Stack
-```
-DISPLAY    Fraunces (variable, opsz + SOFT axes)
-BODY       Inter
-NUMBERS    JetBrains Mono (only for tabular nums, dates, ages, view counts)
-```
+> lowercase. specific. honest. warm. no em dashes ever.
 
-All loaded via `next/font` with `display: 'swap'`. Subset: latin only.
+### Examples
 
-### Type scale (used consistently across sections)
-```
-HERO H1    text-6xl md:text-8xl lg:text-9xl    Fraunces 700 + opsz=144
-SECTION H2 text-3xl md:text-4xl                Fraunces 600
-CARD H3    text-lg / text-2xl                  Fraunces 500
-BODY       text-base md:text-lg                Inter 400
-LABEL      text-xs uppercase tracking-[0.18em] Inter 500
-NUMS       nums utility class                  JetBrains Mono 400
-```
+**Yes**
+- *building, writing, making music. living at network school.*
+- *prompt me*
+- *one playlist per year. the through-line.*
+
+**No**
+- "Building software at Network School - shipping fast!"
+- "Subscribe to Pangaea — my newsletter"
+- "Click here to learn more"
 
 ### Voice rules
-- Lowercase. Always. Body, buttons, headings, labels.
-- Proper nouns are exempt: "Adam Pang", "Network School", "Spotify", names of books.
-- No em dashes. Use periods, commas, or colons. Voice is direct.
-- Sentences are short. Multi-clause sentences are split.
-- First-person used sparingly. Avoid the word "I" when context allows.
+1. Always lowercase, except proper nouns.
+2. Periods, not em dashes.
+3. Specific verbs over vague ones (*shipping* not *making*).
+4. No business-speak. No corporate-tense.
+5. Talk like Adam, not like a brand.
 
----
-
-## 3. Motion
+## 5. Motion
 
 ### Easing
-```
-ease = cubic-bezier(0.16, 1, 0.3, 1)
-```
-Used everywhere. No other easing curve in the codebase.
+Default ease curve: `cubic-bezier(0.16, 1, 0.3, 1)` aka *ease-out-quart*.
+Used for nearly every transition.
 
 ### Durations
+| Use | Duration |
+| --- | --- |
+| Micro (hover) | 200ms |
+| Small (state change) | 400ms |
+| Medium (reveal) | 700ms |
+| Large (page transition, splash dismiss) | 600 to 900ms |
+
+### Springs (Framer Motion)
+| Feel | Stiffness | Damping | Mass |
+| --- | --- | --- | --- |
+| Snappy (magnetic) | 220 | 18 | 0.4 |
+| Soft (cursor ring) | 280 | 24 | 0.6 |
+
+### Motion rules
+1. Restrained. Reveal once on scroll, not repeatedly.
+2. Stagger reveals in 40 to 80ms increments.
+3. Hover lifts: `-translate-y-0.5` to `-1`. Never more.
+4. Respect `prefers-reduced-motion`. Skip transforms, keep fades.
+
+## 6. Layout
+
+### Width
+- Long-form sections: `max-w-3xl` (768px)
+- Header + Footer: `max-w-5xl` (1024px)
+
+### Spacing
+- Section vertical: `py-16 sm:py-20 md:py-28`
+- Section horizontal: `px-5 sm:px-6`
+- Card padding: `p-5 md:p-6`
+- Element gaps: `gap-2 sm:gap-3` (buttons), `gap-4` (cards), `gap-8` (sections)
+
+### Radius
+- Buttons: `rounded-full`
+- Cards: `rounded-2xl`
+- Mini elements (pills, dots): `rounded-full`
+
+## 7. Surfaces and depth
+
+- **Glass surfaces**: `bg-paper/60 backdrop-blur-sm` for floating buttons
+- **Glow shadows on CTAs**: `shadow-lg shadow-sunrise/25 hover:shadow-xl hover:shadow-sunrise/40`
+- **Card shadows**: minimal. `shadow-sm` at most. Borders + ambient glows do the depth work.
+- **Section glows**: radial gradient blob, 900px, 32% intensity, 40px blur
+
+## 8. Cursor
+
+CSS-only. Sunrise SVG dot via `cursor: url(...)`.
+- Default body: 24px SVG, 3.5px sunrise dot
+- Interactive (a, button, etc.): 32px SVG with halo + 5px dot
+- Text inputs: native I-beam
+
+## 9. Iconography
+
+- Sigil: a single 6 to 8px sunrise dot, often paired with a mono caption.
+- Arrows: text characters (↗ ↓ → ←) at small sizes. No SVG icon library.
+
+## 10. Favicon
+
+Solid sunrise rounded square. 32x32, rx=9. White is implied by absence.
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="9" fill="#FF5C39"/>
+</svg>
 ```
-INSTANT       150ms    hover state, color swap
-QUICK         300ms    button press, micro
-NORMAL        600ms    section reveal, fade in
-SLOW          900ms    hero entrance, big swap
-LANGUID       1600ms   life progress bar fill, ambient
-```
 
-### Patterns
-- **Stagger reveal**: every list animates in with 40-60ms delay between items
-- **whileInView**: sections trigger on scroll, `viewport={{ once: true, margin: '-40px' }}`
-- **Magnetic CTAs**: cursor pulls button toward it within ~40px radius, multiplier 0.25
-- **Cursor**: two layers, dot springs at stiffness 800, ring at 220
-- **Crossfade**: AnimatePresence with mode="wait" between slides
+## 11. The vibe splash
 
-### Always respect
-- `prefers-reduced-motion: reduce` skips non-essential animation
-- Touch / coarse-pointer devices don't see custom cursor or magnetic pulls
+First-visit overlay. Full-bleed sunrise radial gradient. Fraunces
+"press play. enter the vibe." Click to dismiss + auto-trigger
+Spotify play. Skips on subsequent same-session visits.
 
----
+This is the cfcf.ca pattern adapted: music belongs to first-impression.
 
-## 4. Spacing & layout
+## 12. What this site is not
 
-```
-CONTAINER     max-w-3xl        (768px) for content sections
-HEADER MAX    max-w-5xl        (1024px) for nav and footer
-PADDING X     px-6             (24px) on all sections
-SECTION Y     py-20 md:py-28
-HAIRLINE      1px              ink/5 light, paper/5 dark
-RADIUS        rounded-2xl      cards
-RADIUS BIG    rounded-3xl      hero photo
-```
+- Corporate. Not a brand site.
+- A single-page marketing landing. It is a hub.
+- Uniform. Each section has its own warm tonal accent.
+- Restrained for the sake of restraint. Restrained for the sake of clarity.
+- Forever. This is v2. v3 will look different. Update this doc when it does.
 
-Generous vertical rhythm. Never cram. White space is part of the design.
+## 13. Source files
 
----
+- Tokens: `tailwind.config.ts`
+- Globals: `src/app/globals.css`
+- Section template: `src/components/Section.tsx`
+- Glow primitive: `src/components/SectionGlow.tsx`
+- Vibe splash: `src/components/VibeSplash.tsx`
 
-## 5. Components are data-driven
+## 14. Personal color identity
 
-Every list on the homepage reads from `src/data/`:
-```
-identities.ts    (currently unused, kept for revival)
-sounds.ts        9 years of Spotify Wrapped
-books.ts         currently reading
-apps.ts          shipped + in flight
-now.ts           active focus
-leverage.ts      naval's four with proof
-outlinks.ts      every internet presence
-```
+> White is the canvas. Sunrise is the spark. Together: adam pang.
 
-Adding new content = editing one of these files. Never hand-edit JSX
-for content updates.
-
----
-
-## 6. The non-negotiables
-
-If a component breaks any of these, it isn't 10/10 yet:
-
-1. Loads under 1s on a 4G connection
-2. Works without JavaScript (graceful degradation)
-3. Passes WCAG AA color contrast
-4. Has a focus-visible state for keyboard users
-5. Has a hover state that uses sunrise as the verb
-6. Animates in with the standard ease curve and duration
-7. Pulls content from a data file, not hardcoded JSX
-8. Looks great on a 320px iPhone SE
-9. Looks great on a 4K display
-10. Tells one specific thing about Adam, not a generic claim
+White: clarity, openness, honesty, plenty of room to write your own
+future. Sunrise: optimism, the start of things, warmth, guam mornings.

@@ -51,7 +51,7 @@ export default function NSHero() {
         className="mt-8 max-w-xl space-y-4 text-lg leading-relaxed text-ink/80 dark:text-paper/80"
       >
         <p>
-          i&apos;ve been at{' '}
+          i was at{' '}
           <a
             href="https://ns.com"
             target="_blank"
@@ -60,8 +60,8 @@ export default function NSHero() {
           >
             ns.com
           </a>{' '}
-          since day one in 2024. signed the one-year residency before anyone
-          else. longtermer #2.
+          for the first two days of its launch in 2024. came back for the
+          long haul in march 2025. longtermer #2.
         </p>
         <p>
           if you&apos;re thinking about coming, use my referral link below and

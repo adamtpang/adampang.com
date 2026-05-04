@@ -32,24 +32,24 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative mx-auto w-full max-w-3xl px-6 pt-28 pb-32 md:pt-44 md:pb-48">
+      <div className="relative mx-auto w-full max-w-3xl px-5 pt-24 pb-24 sm:px-6 md:pt-44 md:pb-48">
         {/* Sigil + place + age */}
         <motion.div
           initial={{ opacity: 0, scale: 0.6 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.1, duration: 0.6, ease }}
-          className="mb-8 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-ink/65 dark:text-paper/65"
+          className="mb-6 inline-flex items-center gap-2 text-[0.7rem] uppercase tracking-[0.18em] text-ink/65 dark:text-paper/65 md:mb-8 md:text-xs"
         >
           <span className="h-1.5 w-1.5 rounded-full bg-sunrise shadow-[0_0_12px_rgba(255,92,57,0.6)]" />
           <span className="nums">23 . guam . ns malaysia</span>
         </motion.div>
 
-        {/* Name. Larger optical sizing, sunrise gradient on Pang. */}
+        {/* Name. Mobile-tuned, sunrise gradient on Pang. */}
         <motion.h1
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.9, ease }}
-          className="font-display text-6xl leading-[0.92] tracking-tightest text-ink dark:text-paper md:text-8xl lg:text-[9rem]"
+          className="font-display text-[3.25rem] leading-[0.92] tracking-tightest text-ink dark:text-paper sm:text-6xl md:text-8xl lg:text-[9rem]"
           style={{ fontVariationSettings: '"opsz" 144' }}
         >
           Adam{' '}
@@ -64,23 +64,23 @@ export default function Hero() {
           </span>
         </motion.h1>
 
-        {/* Tagline. Specific, voice-true. */}
+        {/* Tagline. */}
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.9, ease }}
-          className="mt-8 max-w-xl text-lg leading-relaxed text-ink/80 dark:text-paper/80 md:text-xl"
+          className="mt-6 max-w-xl text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg md:mt-8 md:text-xl"
         >
           building, writing, making music. living at network school. shipping
           small bets that compound.
         </motion.p>
 
-        {/* CTAs. Primary uses a sunrise-gradient fill for premium playful. */}
+        {/* CTAs. Mobile-tuned spacing. */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.9, ease }}
-          className="mt-10 flex flex-wrap items-center gap-3"
+          className="mt-8 flex flex-wrap items-center gap-2 sm:gap-3 md:mt-10"
         >
           <MagneticButton href="mailto:adamtpang@gmail.com?subject=hello%20adam">
             prompt me
@@ -93,23 +93,6 @@ export default function Hero() {
           </MagneticButton>
         </motion.div>
 
-        {/* Scroll hint */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 1.2 }}
-          className="mt-24 flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-ink/45 dark:text-paper/45"
-        >
-          <span>scroll</span>
-          <motion.span
-            aria-hidden
-            animate={{ y: [0, 4, 0] }}
-            transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
-            className="inline-block"
-          >
-            ↓
-          </motion.span>
-        </motion.div>
       </div>
     </section>
   );

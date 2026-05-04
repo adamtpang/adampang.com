@@ -40,7 +40,7 @@ export default function Section({
         <SectionGlow color={glow} corner={glowCorner} />
       )}
 
-      <div className="relative mx-auto w-full max-w-3xl px-6 py-20 md:py-28">
+      <div className="relative mx-auto w-full max-w-3xl px-5 py-16 sm:px-6 sm:py-20 md:py-28">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}

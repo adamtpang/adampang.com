@@ -4,16 +4,16 @@
 
 @layer base {
   :root {
-    --color-bg: 250 248 244; /* paper */
+    --color-bg: 255 255 255; /* pure white */
     --color-fg: 14 14 12; /* ink */
     --color-muted: 107 107 102;
     --color-accent: 255 92 57; /* sunrise */
-    --color-line: 232 228 218;
+    --color-line: 235 232 226;
   }
 
   .dark {
     --color-bg: 14 14 12; /* ink */
-    --color-fg: 250 248 244;
+    --color-fg: 255 255 255;
     --color-muted: 168 168 162;
     --color-accent: 255 109 80; /* sunrise, slightly lifted for dark contrast */
     --color-line: 31 31 28;
