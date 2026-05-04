@@ -33,8 +33,8 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative mx-auto w-full max-w-5xl px-6 pb-16 pt-12">
-      <div className="hairline mb-12" />
+    <footer className="relative mx-auto w-full max-w-5xl px-5 pb-10 pt-10 sm:px-6 md:pb-14 md:pt-14">
+      <div className="mb-8 h-px bg-white/15" />
 
       <motion.div
         initial={{ opacity: 0, y: 10 }}
@@ -42,19 +42,19 @@ export default function Footer() {
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.6, ease }}
       >
-        <div className="mb-8 flex items-baseline justify-between gap-6">
-          <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper md:text-3xl">
+        <div className="mb-6 flex items-baseline justify-between gap-6">
+          <h2 className="font-display text-2xl tracking-tight text-white md:text-3xl">
             elsewhere
           </h2>
-          <span className="text-xs uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40">
+          <span className="text-[0.65rem] uppercase tracking-[0.2em] text-white/55">
             internet hub
           </span>
         </div>
 
-        <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
+        <div className="grid grid-cols-2 gap-x-5 gap-y-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">
           {grouped.map(({ cat, items }) => (
             <div key={cat}>
-              <h3 className="mb-3 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40">
+              <h3 className="mb-3 text-[0.7rem] font-medium uppercase tracking-[0.2em] text-white/55">
                 {CATEGORY_TITLE[cat]}
               </h3>
               <ul className="space-y-1.5">
@@ -64,7 +64,7 @@ export default function Footer() {
                       href={o.href}
                       target={o.href.startsWith('http') ? '_blank' : undefined}
                       rel={o.href.startsWith('http') ? 'noreferrer noopener' : undefined}
-                      className="text-sm text-ink/70 dark:text-paper/70 transition-colors hover:text-sunrise"
+                      className="text-sm text-white/85 transition-colors hover:text-white"
                     >
                       {o.label}
                     </a>
@@ -76,12 +76,12 @@ export default function Footer() {
         </div>
 
         {/* Sign-off */}
-        <div className="mt-16 flex flex-col items-baseline justify-between gap-3 border-t border-ink/5 dark:border-paper/5 pt-6 md:flex-row">
-          <span className="font-display text-sm italic text-ink/50 dark:text-paper/50">
-            adam pang · since {year}
+        <div className="mt-10 flex flex-col items-baseline justify-between gap-3 border-t border-white/15 pt-5 md:flex-row">
+          <span className="font-display text-sm italic text-white/65">
+            adam pang . since {year}
           </span>
-          <span className="text-xs uppercase tracking-[0.2em] text-ink/30 dark:text-paper/30 nums">
-            built in malaysia · sunrise
+          <span className="text-xs uppercase tracking-[0.2em] text-white/45 nums">
+            built in malaysia . sunrise
           </span>
         </div>
       </motion.div>

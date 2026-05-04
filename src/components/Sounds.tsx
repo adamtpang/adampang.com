@@ -41,14 +41,8 @@ export default function Sounds() {
       id="sounds"
       title="sounds"
       kicker={`${sounds.length} years`}
-      glow="rose"
-      glowCorner="bottom-left"
+      surface="bare"
     >
-      <p className="mb-8 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
-        a musical journey. one playlist per year. the through-line of every
-        chapter so far.
-      </p>
-
       {/* Active year. Full-width Spotify embed. */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -57,7 +51,7 @@ export default function Sounds() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.5, ease }}
-          className="relative mb-6 overflow-hidden rounded-2xl border border-ink/10 dark:border-paper/15 shadow-lg shadow-sunrise/10"
+          className="relative mb-4 overflow-hidden rounded-2xl border border-white/15 shadow-lg shadow-black/20"
         >
           <iframe
             id="spotify-player"
@@ -84,7 +78,7 @@ export default function Sounds() {
       </AnimatePresence>
 
       {/* Year strip. Acts as both indicator and selector. */}
-      <div className="mb-10 flex flex-wrap items-center gap-2">
+      <div className="mb-6 flex flex-wrap items-center gap-1.5">
         {sounds.map((s, i) => {
           const active = i === index;
           return (
@@ -95,17 +89,9 @@ export default function Sounds() {
               aria-pressed={active}
               className={`group relative rounded-full px-3 py-1.5 text-xs nums uppercase tracking-[0.16em] transition-all ${
                 active
-                  ? 'text-paper shadow-md shadow-sunrise/30'
-                  : 'border border-ink/15 dark:border-paper/15 text-ink/65 dark:text-paper/65 hover:border-sunrise hover:text-sunrise'
+                  ? 'bg-white text-ink shadow-lg'
+                  : 'border border-white/35 text-white/85 hover:border-white hover:bg-white/10'
               }`}
-              style={
-                active
-                  ? {
-                      backgroundImage:
-                        'linear-gradient(135deg, #FF5C39 0%, #FF8970 50%, #F59E0B 100%)',
-                    }
-                  : undefined
-              }
             >
               {s.year}
             </button>
@@ -114,7 +100,7 @@ export default function Sounds() {
         {paused && (
           <button
             onClick={() => setPaused(false)}
-            className="ml-2 text-[0.65rem] uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40 hover:text-sunrise transition-colors"
+            className="ml-2 text-[0.65rem] uppercase tracking-[0.2em] text-white/55 hover:text-white transition-colors"
           >
             resume rotation ↻
           </button>
@@ -122,11 +108,7 @@ export default function Sounds() {
       </div>
 
       {/* Music outlinks */}
-      <div>
-        <h3 className="mb-4 text-sm font-medium uppercase tracking-[0.18em] text-ink/60 dark:text-paper/60">
-          where the music lives
-        </h3>
-        <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink/70 dark:text-paper/70">
+      <ul className="flex flex-wrap gap-x-5 gap-y-1.5 text-sm text-white/85">
           {[
             { label: 'vibecheck.style', href: 'https://vibecheck.style', note: 'building the music app' },
             { label: 'wonderhall.live', href: 'https://wonderhall.live', note: 'concert series' },
@@ -137,22 +119,21 @@ export default function Sounds() {
                 href={l.href}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="group inline-flex items-baseline gap-1.5 transition-colors hover:text-sunrise"
+                className="group inline-flex items-baseline gap-1.5 transition-colors hover:text-white"
               >
-                <span className="underline decoration-ink/15 decoration-1 underline-offset-4 group-hover:decoration-sunrise dark:decoration-paper/15">
+                <span className="underline decoration-white/30 decoration-1 underline-offset-4 group-hover:decoration-white">
                   {l.label}
                 </span>
-                <span aria-hidden className="text-[0.7em] opacity-50 group-hover:opacity-100">
+                <span aria-hidden className="text-[0.7em] opacity-65 group-hover:opacity-100">
                   ↗
                 </span>
-                <span className="hidden text-xs text-ink/40 dark:text-paper/40 md:inline">
+                <span className="hidden text-xs text-white/55 md:inline">
                   {l.note}
                 </span>
               </a>
             </li>
           ))}
         </ul>
-      </div>
     </Section>
   );
 }

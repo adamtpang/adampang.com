@@ -2,17 +2,19 @@
 
 import { motion } from 'framer-motion';
 import type { ReactNode } from 'react';
-import SectionGlow from './SectionGlow';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
-type GlowTone = 'sunrise' | 'coral' | 'peach' | 'dawn' | 'amber' | 'gold' | 'rose';
-type GlowCorner = 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right' | 'top-center' | 'none';
+type Surface = 'card' | 'bare';
 
 /**
- * Standard section wrapper. Title left, optional kicker right, hairline,
- * stagger reveal on scroll. Optional ambient glow in a corner gives each
- * section a unique warm tone without going kiddish.
+ * Section wrapper.
+ *   surface="card"  white-frosted card floating on the sunrise sky.
+ *                   Used for content sections (currently, now, building)
+ *                   so text stays comfortable to read.
+ *   surface="bare"  no card, content lives directly on the gradient.
+ *                   Used for sections that ARE the vibe (sounds).
+ *                   Title and copy in white.
  */
 export default function Section({
   id,
@@ -20,45 +22,67 @@ export default function Section({
   kicker,
   children,
   className = '',
-  glow,
-  glowCorner = 'top-right',
+  surface = 'card',
 }: {
   id: string;
   title: string;
   kicker?: ReactNode;
   children: ReactNode;
   className?: string;
-  glow?: GlowTone;
-  glowCorner?: GlowCorner;
+  surface?: Surface;
 }) {
-  return (
-    <section
-      id={id}
-      className={`relative overflow-hidden ${className}`}
-    >
-      {glow && glowCorner !== 'none' && (
-        <SectionGlow color={glow} corner={glowCorner} />
-      )}
+  const onCard = surface === 'card';
 
-      <div className="relative mx-auto w-full max-w-3xl px-5 py-16 sm:px-6 sm:py-20 md:py-28">
+  if (onCard) {
+    return (
+      <section id={id} className={`relative px-3 py-2 sm:px-5 sm:py-3 ${className}`}>
+        <div className="relative mx-auto w-full max-w-3xl rounded-3xl bg-white/95 px-5 py-7 shadow-2xl shadow-black/10 backdrop-blur-sm sm:px-9 sm:py-9 md:px-12 md:py-12">
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-60px' }}
+            transition={{ duration: 0.5, ease }}
+            className="mb-5 flex items-baseline justify-between gap-6 md:mb-7"
+          >
+            <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
+              {title}
+            </h2>
+            {kicker && (
+              <span className="text-[0.65rem] uppercase tracking-[0.2em] text-ink/40 nums">
+                {kicker}
+              </span>
+            )}
+          </motion.div>
+
+          <div className="hairline mb-5" />
+
+          {children}
+        </div>
+      </section>
+    );
+  }
+
+  return (
+    <section id={id} className={`relative ${className}`}>
+      <div className="relative mx-auto w-full max-w-3xl px-5 py-8 sm:px-6 sm:py-10 md:py-14">
         <motion.div
-          initial={{ opacity: 0, y: 12 }}
+          initial={{ opacity: 0, y: 8 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.6, ease }}
-          className="mb-10 flex items-baseline justify-between gap-6"
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{ duration: 0.5, ease }}
+          className="mb-5 flex items-baseline justify-between gap-6 md:mb-7"
         >
-          <h2 className="font-display text-3xl tracking-tight text-ink dark:text-paper md:text-4xl">
+          <h2 className="font-display text-3xl tracking-tight text-white md:text-4xl">
             {title}
           </h2>
           {kicker && (
-            <span className="text-xs uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40 nums">
+            <span className="text-[0.65rem] uppercase tracking-[0.2em] text-white/55 nums">
               {kicker}
             </span>
           )}
         </motion.div>
 
-        <div className="hairline mb-8" />
+        <div className="mb-5 h-px bg-white/15" />
 
         {children}
       </div>

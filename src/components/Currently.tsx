@@ -33,15 +33,9 @@ export default function Currently() {
   }, []);
 
   return (
-    <Section
-      id="currently"
-      title="currently"
-      kicker="real-time"
-      glow="dawn"
-      glowCorner="top-right"
-    >
+    <Section id="currently" title="currently" kicker="real-time">
       {/* Life progress bar. Computed live from birthdate. */}
-      <div className="mb-12">
+      <div className="mb-6">
         <div className="mb-2 flex items-baseline justify-between">
           <span className="text-sm font-medium text-ink/70 dark:text-paper/70">
             life
@@ -64,7 +58,7 @@ export default function Currently() {
       </div>
 
       {/* Currently reading */}
-      <div className="mb-12">
+      <div className="mb-6">
         <div className="mb-4 flex items-baseline justify-between">
           <h3 className="text-sm font-medium uppercase tracking-[0.18em] text-ink/60 dark:text-paper/60">
             reading

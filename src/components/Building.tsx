@@ -22,19 +22,8 @@ const STATUS_DOT: Record<AppStatus, string> = {
 
 export default function Building() {
   return (
-    <Section
-      id="building"
-      title="building"
-      kicker={`${apps.length} apps`}
-      glow="peach"
-      glowCorner="bottom-right"
-    >
-      <p className="mb-8 max-w-xl text-base leading-relaxed text-ink/70 dark:text-paper/70 md:text-lg">
-        small bets, shipped publicly. each one solves a problem i wanted
-        solved for myself.
-      </p>
-
-      <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+    <Section id="building" title="building" kicker={`${apps.length} apps`}>
+      <ul className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
         {apps.map((app, i) => (
           <motion.li
             key={app.slug}
@@ -47,7 +36,7 @@ export default function Building() {
               href={app.url}
               target="_blank"
               rel="noreferrer noopener"
-              className="group block rounded-xl border border-ink/10 dark:border-paper/10 p-4 transition-all hover:border-sunrise hover:-translate-y-0.5"
+              className="group block rounded-xl border border-ink/10 p-3.5 transition-all hover:border-sunrise hover:-translate-y-0.5"
             >
               <div className="flex items-baseline justify-between gap-3">
                 <span className="font-display text-lg tracking-tight text-ink dark:text-paper transition-colors group-hover:text-sunrise">
