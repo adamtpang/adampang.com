@@ -7,7 +7,7 @@ const ease = [0.16, 1, 0.3, 1] as const;
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[60vh] flex-col rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8 lg:min-h-0 lg:p-10">
+    <section className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8 lg:p-10">
       {/* Sigil + place + age */}
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}

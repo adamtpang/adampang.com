@@ -9,7 +9,7 @@ import Footer from '@/components/Footer';
  */
 export default function Home() {
   return (
-    <main className="relative grid grid-cols-1 gap-2 p-2 sm:gap-3 sm:p-3 lg:h-[100vh] lg:max-h-[100vh] lg:grid-cols-2 lg:grid-rows-2 lg:overflow-hidden">
+    <main className="relative grid grid-cols-1 gap-2 p-2 sm:gap-3 sm:p-3 lg:grid-cols-2">
       <Hero />
       <Sounds />
       <Building />
