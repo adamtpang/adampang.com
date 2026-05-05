@@ -38,7 +38,8 @@
       "WebFetch(domain:alistair.sh)",
       "WebFetch(domain:cofounder.co)",
       "WebFetch(domain:zite.com)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.andrewp.co)"
     ],
     "deny": [],
     "ask": [],

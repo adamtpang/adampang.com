@@ -16,7 +16,7 @@ export default function Building() {
   return (
     <section
       id="building"
-      className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8 lg:p-10"
+      className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7"
     >
       <div className="mb-4 flex items-baseline justify-between gap-6">
         <div className="flex items-baseline gap-2.5">
