@@ -41,7 +41,7 @@ export default function Sounds() {
       id="sounds"
       title="sounds"
       kicker={`${sounds.length} years`}
-      surface="bare"
+      sigil="plum"
     >
       {/* Active year. Full-width Spotify embed. */}
       <AnimatePresence mode="wait">
@@ -51,7 +51,7 @@ export default function Sounds() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.5, ease }}
-          className="relative mb-4 overflow-hidden rounded-2xl border border-white/15 shadow-lg shadow-black/20"
+          className="relative mb-4 overflow-hidden rounded-xl border border-zinc-200"
         >
           <iframe
             id="spotify-player"
@@ -87,10 +87,10 @@ export default function Sounds() {
               onClick={() => select(i)}
               aria-label={`Play ${s.year} wrapped`}
               aria-pressed={active}
-              className={`group relative rounded-full px-3 py-1.5 text-xs nums uppercase tracking-[0.16em] transition-all ${
+              className={`group relative rounded-full px-2.5 py-1 text-[0.65rem] nums uppercase tracking-[0.16em] transition-all ${
                 active
-                  ? 'bg-white text-ink shadow-lg'
-                  : 'border border-white/35 text-white/85 hover:border-white hover:bg-white/10'
+                  ? 'bg-plum text-white shadow-sm'
+                  : 'border border-zinc-200 text-ink/60 hover:border-plum hover:text-plum'
               }`}
             >
               {s.year}
@@ -100,7 +100,7 @@ export default function Sounds() {
         {paused && (
           <button
             onClick={() => setPaused(false)}
-            className="ml-2 text-[0.65rem] uppercase tracking-[0.2em] text-white/55 hover:text-white transition-colors"
+            className="ml-2 text-[0.65rem] uppercase tracking-[0.2em] text-ink/40 hover:text-plum transition-colors"
           >
             resume rotation ↻
           </button>
@@ -108,32 +108,27 @@ export default function Sounds() {
       </div>
 
       {/* Music outlinks */}
-      <ul className="flex flex-wrap gap-x-5 gap-y-1.5 text-sm text-white/85">
-          {[
-            { label: 'vibecheck.style', href: 'https://vibecheck.style', note: 'building the music app' },
-            { label: 'wonderhall.live', href: 'https://wonderhall.live', note: 'concert series' },
-            { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang', note: 'my tracks' },
-          ].map((l) => (
-            <li key={l.href}>
-              <a
-                href={l.href}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="group inline-flex items-baseline gap-1.5 transition-colors hover:text-white"
-              >
-                <span className="underline decoration-white/30 decoration-1 underline-offset-4 group-hover:decoration-white">
-                  {l.label}
-                </span>
-                <span aria-hidden className="text-[0.7em] opacity-65 group-hover:opacity-100">
-                  ↗
-                </span>
-                <span className="hidden text-xs text-white/55 md:inline">
-                  {l.note}
-                </span>
-              </a>
-            </li>
-          ))}
-        </ul>
+      <ul className="flex flex-wrap gap-x-4 gap-y-1.5 text-sm text-ink/70">
+        {[
+          { label: 'vibecheck.style', href: 'https://vibecheck.style' },
+          { label: 'wonderhall.live', href: 'https://wonderhall.live' },
+          { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang' },
+        ].map((l) => (
+          <li key={l.href}>
+            <a
+              href={l.href}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="group inline-flex items-baseline gap-1 transition-colors hover:text-plum"
+            >
+              <span className="underline decoration-ink/15 decoration-1 underline-offset-4 group-hover:decoration-plum">
+                {l.label}
+              </span>
+              <span aria-hidden className="text-[0.7em] opacity-50 group-hover:opacity-100">↗</span>
+            </a>
+          </li>
+        ))}
+      </ul>
     </Section>
   );
 }

@@ -16,7 +16,7 @@ const TAG_COLOR: Record<NonNullable<NowItem['tag']>, string> = {
 
 export default function Now() {
   return (
-    <Section id="now" title="now" kicker="this season">
+    <Section id="now" title="now" kicker="this season" sigil="leaf">
       <ol className="divide-y divide-ink/5 dark:divide-paper/5">
         {workingOn.map((item, i) => {
           const Wrapper = item.href ? 'a' : 'div';

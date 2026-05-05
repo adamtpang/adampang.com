@@ -33,13 +33,19 @@ const config: Config = {
           800: '#852511',
           900: '#57180B',
         },
-        // Premium-playful warm-spectrum partners. Used for gradients
-        // and per-section ambient glows. All in the same warm family
-        // so the site stays cohesive and never tips into kiddish.
+        // Rainbow accent palette. Each color has a clear role on
+        // white. Used as section sigils, status pills, hover accents,
+        // and category badges. Sunrise (#FF5C39) is the primary;
+        // these are the partner accents.
+        sky: '#2563EB', // blue
+        leaf: '#10B981', // green
+        ember: '#EF4444', // red
+        sun: '#F59E0B', // yellow / amber
+        plum: '#8B5CF6', // purple
+        // Warm-only partners (kept for gradients + the splash).
         peach: '#FFB69E',
         coral: '#FF8970',
         amber: '#F59E0B',
-        gold: '#E8A93B',
         dawn: '#FFD2B8',
         rose: '#FFA999',
         // Neutrals. Paper feel in light, deep slate in dark.

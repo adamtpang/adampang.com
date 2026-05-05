@@ -34,7 +34,8 @@
       "WebFetch(domain:cfcf.ca)",
       "WebFetch(domain:www.cfcf.ca)",
       "WebFetch(domain:aristidebenoist.com)",
-      "WebFetch(domain:carltheis.com)"
+      "WebFetch(domain:carltheis.com)",
+      "WebFetch(domain:alistair.sh)"
     ],
     "deny": [],
     "ask": [],

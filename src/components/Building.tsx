@@ -22,7 +22,7 @@ const STATUS_DOT: Record<AppStatus, string> = {
 
 export default function Building() {
   return (
-    <Section id="building" title="building" kicker={`${apps.length} apps`}>
+    <Section id="building" title="building" kicker={`${apps.length} apps`} sigil="sunrise">
       <ul className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
         {apps.map((app, i) => (
           <motion.li
