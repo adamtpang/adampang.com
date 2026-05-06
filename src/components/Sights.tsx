@@ -25,7 +25,7 @@ export default function Sights() {
         </span>
       </div>
 
-      <div className="grid flex-1 grid-cols-2 gap-2">
+      <div className="grid grid-cols-4 gap-1.5 sm:gap-2">
         {sights.map((s, i) => (
           <motion.a
             key={s.slug}
@@ -37,7 +37,7 @@ export default function Sights() {
             viewport={{ once: true, margin: '-40px' }}
             transition={{ duration: 0.5, ease, delay: 0.04 * i }}
             whileHover={{ y: -2 }}
-            className="group relative aspect-square overflow-hidden rounded-xl border border-zinc-200"
+            className="group relative aspect-square overflow-hidden rounded-lg border border-zinc-200"
             style={{ background: s.image ? undefined : gradientForSlug(s.slug) }}
             aria-label={s.caption}
           >
@@ -50,7 +50,7 @@ export default function Sights() {
               />
             )}
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent" />
-            <span className="absolute bottom-2 left-2.5 text-[0.6rem] uppercase tracking-[0.18em] text-white/90">
+            <span className="absolute bottom-1 left-1.5 text-[0.55rem] uppercase tracking-[0.16em] text-white/90">
               {s.caption}
             </span>
           </motion.a>

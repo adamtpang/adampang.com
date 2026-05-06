@@ -5,7 +5,7 @@
  * and set image: '/sights/<slug>.jpg') or a gradient placeholder until then.
  *
  * Click a tile -> opens the source (Instagram post, Pinterest pin/board,
- * camera-roll photo).
+ * etc.).
  */
 
 export type Sight = {
@@ -16,32 +16,16 @@ export type Sight = {
 };
 
 export const sights: Sight[] = [
-  {
-    slug: 'langkawi',
-    caption: 'langkawi mornings',
-    href: 'https://instagram.com/adamtpang',
-  },
-  {
-    slug: 'guam',
-    caption: 'guam roots',
-    href: 'https://instagram.com/adamtpang',
-  },
-  {
-    slug: 'mood-2025',
-    caption: '2025 mood',
-    href: 'https://pinterest.com/adamtpang/2025',
-  },
-  {
-    slug: 'studio',
-    caption: 'studio days',
-    href: 'https://instagram.com/adamtpang',
-  },
+  { slug: 'mood-1', caption: 'mornings', href: 'https://instagram.com/adamtpang' },
+  { slug: 'mood-2', caption: 'studio', href: 'https://instagram.com/adamtpang' },
+  { slug: 'mood-3', caption: 'people', href: 'https://instagram.com/adamtpang' },
+  { slug: 'mood-4', caption: 'mood', href: 'https://pinterest.com/adamtpang' },
 ];
 
-/** Year-derived gradient for placeholder tiles. Same logic as Sounds. */
+/** Slug-derived gradient. Same warm-spectrum logic as Sounds. */
 export function gradientForSlug(slug: string): string {
   let hash = 0;
   for (let i = 0; i < slug.length; i++) hash = slug.charCodeAt(i) + ((hash << 5) - hash);
-  const hue = Math.abs(hash % 60) + 5; // keep in warm spectrum 5..65 (red-orange-amber)
+  const hue = Math.abs(hash % 60) + 5;
   return `linear-gradient(135deg, hsl(${hue} 75% 60%) 0%, hsl(${(hue + 30) % 60 + 10} 70% 50%) 100%)`;
 }

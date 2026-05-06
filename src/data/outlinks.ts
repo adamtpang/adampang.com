@@ -41,7 +41,7 @@ export const outlinks: Outlink[] = [
 
   /* WORK. The shipped apps. */
   { label: 'anchormarianas', href: 'https://anchormarianas.com', category: 'work', note: 'studio' },
-  { label: 'thedojo.fun', href: 'https://thedojo.fun', category: 'work' },
+  { label: 'summon.guide', href: 'https://summon.guide', category: 'work' },
   { label: 'sellsniper.com', href: 'https://sellsniper.com', category: 'work' },
   { label: 'optimism.fun', href: 'https://optimism.fun', category: 'work' },
   { label: 'deathmoney.fyi', href: 'https://deathmoney.fyi', category: 'work' },

@@ -18,13 +18,10 @@ export default function SiteHeader() {
       transition={{ duration: 0.5, ease }}
       className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2 px-3 pt-3 sm:px-5 sm:pt-5"
     >
-      <div className="flex items-baseline gap-3">
+      <div className="flex items-baseline gap-2">
         <span className="relative top-[-2px] inline-block h-1.5 w-1.5 rounded-full bg-sun" />
         <span className="font-display text-lg tracking-tight text-ink">
           Adam <span className="italic text-sunrise">Pang</span>
-        </span>
-        <span className="nums hidden text-[0.65rem] uppercase tracking-[0.22em] text-ink/45 sm:inline">
-          23 . langkawi
         </span>
       </div>
       <nav className="flex items-baseline gap-3 text-sm text-ink/70">

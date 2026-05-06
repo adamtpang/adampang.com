@@ -26,6 +26,6 @@ export const curiosityLinks: CuriosityLink[] = [
   { verb: 'writing', label: 'pangaea', href: 'https://pangaea.blog', external: true },
   { verb: 'watching', label: 'youtube', href: 'https://youtube.com/@adamtpang', external: true },
   { verb: 'thinking', label: 'x', href: 'https://x.com/adamtpang', external: true },
-  { verb: 'studying', label: 'thedojo', href: 'https://thedojo.fun', external: true },
+  { verb: 'studying', label: 'summon', href: 'https://summon.guide', external: true },
   { verb: 'shelving', label: 'book.movie', href: 'https://book.movie', external: true },
 ];

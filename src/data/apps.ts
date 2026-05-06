@@ -30,9 +30,9 @@ export const apps: App[] = [
     tag: 'tools',
   },
   {
-    slug: 'thedojo',
-    name: 'thedojo.fun',
-    url: 'https://thedojo.fun',
+    slug: 'summon',
+    name: 'summon.guide',
+    url: 'https://summon.guide',
     tagline: 'chat with legendary founders',
     status: 'live',
     tag: 'social',
