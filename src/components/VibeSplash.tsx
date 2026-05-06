@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Play } from 'lucide-react';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 const STORAGE_KEY = 'vibe-entered';
@@ -67,7 +68,7 @@ export default function VibeSplash() {
               onClick={play}
               className="group inline-flex items-center gap-2.5 rounded-full bg-sunrise px-6 py-3 text-base font-medium text-white shadow-md shadow-sunrise/30 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-sunrise/40"
             >
-              <span aria-hidden className="text-sm leading-none">▶</span>
+              <Play size={14} strokeWidth={2.5} fill="currentColor" />
               <span>play music</span>
             </button>
             <button

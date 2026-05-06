@@ -37,16 +37,16 @@ export default function Sounds() {
   return (
     <section
       id="sounds"
-      className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7"
+      className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft"
     >
       <div className="mb-4 flex items-baseline justify-between gap-6">
         <div className="flex items-baseline gap-2.5">
           <span className="relative top-0.5 inline-block h-2 w-2 rounded-full bg-plum" />
-          <h2 className="font-display text-2xl tracking-tight text-ink lg:text-3xl">
+          <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
             sounds
           </h2>
         </div>
-        <span className="text-[0.6rem] uppercase tracking-[0.22em] text-ink/40">
+        <span className="text-[0.6rem] uppercase tracking-[0.22em] text-ink/40 dark:text-paper/40">
           what i hear
         </span>
       </div>
@@ -93,7 +93,7 @@ export default function Sounds() {
             title={`Spotify Wrapped ${current.year}`}
             src={`https://open.spotify.com/embed/playlist/${current.playlistId}?utm_source=generator&theme=0`}
             width="100%"
-            height="152"
+            height="80"
             frameBorder={0}
             loading="lazy"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
@@ -124,7 +124,7 @@ export default function Sounds() {
               className={`group relative rounded-full px-2.5 py-1 text-[0.65rem] nums uppercase tracking-[0.16em] transition-all ${
                 active
                   ? 'bg-plum text-white shadow-sm'
-                  : 'border border-zinc-200 text-ink/60 hover:border-plum hover:text-plum'
+                  : 'border border-zinc-200 text-ink/60 hover:border-plum hover:text-plum dark:border-paper/15 dark:text-paper/60'
               }`}
             >
               {s.year}
@@ -134,7 +134,7 @@ export default function Sounds() {
       </div>
 
       {/* Outlinks pinned to bottom. */}
-      <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-4 text-xs text-ink/65">
+      <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-4 text-xs text-ink/65 dark:text-paper/65">
         {[
           { label: 'vibecheck.style', href: 'https://vibecheck.style' },
           { label: 'wonderhall.live', href: 'https://wonderhall.live' },

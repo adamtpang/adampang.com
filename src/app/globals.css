@@ -31,9 +31,7 @@
      dependent on JS, no race conditions. Falls back to native pointer
      if the browser can't render the SVG. */
   body {
-    /* Warm-mood canvas. Mostly white, with a barely-there sunrise
-       wash at the corners so the bento cards float on warmth.
-       Fixed attachment so the wash never moves with scroll. */
+    /* Light mode: white with warm sunrise wash at corners. */
     background-color: #FFFFFF;
     background-image:
       radial-gradient(ellipse 1200px 700px at 0% 0%, rgba(255, 169, 153, 0.18) 0%, transparent 60%),
@@ -43,6 +41,14 @@
     font-family: var(--font-inter), system-ui, sans-serif;
     font-feature-settings: 'cv11', 'ss01', 'ss03';
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3.5' fill='%23FF5C39'/></svg>") 12 12, auto;
+  }
+
+  .dark body {
+    /* Dark mode: ink with low-opacity sunrise + plum washes. */
+    background-color: #0E0E0C;
+    background-image:
+      radial-gradient(ellipse 1200px 700px at 0% 0%, rgba(255, 92, 57, 0.16) 0%, transparent 60%),
+      radial-gradient(ellipse 1100px 600px at 100% 100%, rgba(139, 92, 246, 0.15) 0%, transparent 55%);
   }
 
   /* Sunrise halo cursor on interactive elements. */
