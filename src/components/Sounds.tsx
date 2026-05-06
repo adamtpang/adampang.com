@@ -46,12 +46,39 @@ export default function Sounds() {
             sounds
           </h2>
         </div>
-        <span className="text-[0.65rem] uppercase tracking-[0.2em] text-ink/40 nums">
-          {sounds.length} years
+        <span className="text-[0.6rem] uppercase tracking-[0.22em] text-ink/40">
+          what i hear
         </span>
       </div>
 
-      {/* Active year. Compact embed. */}
+      {/* 2026: vibecheck. Wrapped on demand. CTA always visible. */}
+      <a
+        href="https://vibecheck.style"
+        target="_blank"
+        rel="noreferrer noopener"
+        className="group mb-3 flex items-center justify-between gap-3 rounded-xl p-3 text-white transition-all hover:-translate-y-0.5"
+        style={{
+          backgroundImage:
+            'linear-gradient(135deg, #FF5C39 0%, #8B5CF6 100%)',
+        }}
+      >
+        <div className="min-w-0">
+          <div className="flex items-baseline gap-2">
+            <span className="font-display text-base leading-none">2026 vibecheck</span>
+            <span className="nums text-[0.55rem] uppercase tracking-[0.22em] text-white/75">
+              wrapped on demand
+            </span>
+          </div>
+          <div className="mt-1 text-[0.7rem] text-white/85">
+            check your vibe weekly. live at vibecheck.style.
+          </div>
+        </div>
+        <span className="shrink-0 rounded-full bg-white/95 px-3 py-1 text-[0.65rem] font-medium text-ink transition-all group-hover:bg-white">
+          get checked ↗
+        </span>
+      </a>
+
+      {/* Past years carousel: Spotify embed for the selected year. */}
       <AnimatePresence mode="wait">
         <motion.div
           key={current.year}

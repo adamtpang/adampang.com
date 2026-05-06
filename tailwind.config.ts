@@ -33,16 +33,22 @@ const config: Config = {
           800: '#852511',
           900: '#57180B',
         },
-        // Rainbow accent palette. Each color has a clear role on
-        // white. Used as section sigils, status pills, hover accents,
-        // and category badges. Sunrise (#FF5C39) is the primary;
-        // these are the partner accents.
-        sky: '#2563EB', // blue
-        leaf: '#10B981', // green
-        ember: '#EF4444', // red
-        sun: '#F59E0B', // yellow / amber
-        plum: '#8B5CF6', // purple
-        // Warm-only partners (kept for gradients + the splash).
+        // RYB color system, locked.
+        // PRIMARY (the base) . ACCENT (the partners)
+        //   ember = red     #EF4444   creativities sigil, alerts
+        //   sky   = blue    #2563EB   curiosities sigil
+        //   sun   = yellow  #FACC15   header sigil, highlights
+        //   sunrise = orange #FF5C39  sights sigil, brand spark, primary CTA
+        //   leaf  = green   #10B981   live status, success
+        //   plum  = purple  #8B5CF6   sounds sigil
+        // Tokens use the metaphor names (sun, leaf, sky etc.) to avoid
+        // colliding with Tailwind's built-in `red-500` etc. scales.
+        ember: '#EF4444',
+        sky: '#2563EB',
+        sun: '#FACC15',
+        leaf: '#10B981',
+        plum: '#8B5CF6',
+        // Warm gradient partners (used in the splash).
         peach: '#FFB69E',
         coral: '#FF8970',
         amber: '#F59E0B',

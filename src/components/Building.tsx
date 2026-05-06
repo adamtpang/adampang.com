@@ -7,7 +7,7 @@ const ease = [0.16, 1, 0.3, 1] as const;
 
 const STATUS_DOT: Record<AppStatus, string> = {
   live: 'bg-leaf',
-  shipping: 'bg-sunrise',
+  shipping: 'bg-ember',
   building: 'bg-sun',
   archived: 'bg-zinc-300',
 };
@@ -20,13 +20,13 @@ export default function Building() {
     >
       <div className="mb-4 flex items-baseline justify-between gap-6">
         <div className="flex items-baseline gap-2.5">
-          <span className="relative top-0.5 inline-block h-2 w-2 rounded-full bg-sunrise" />
+          <span className="relative top-0.5 inline-block h-2 w-2 rounded-full bg-ember" />
           <h2 className="font-display text-2xl tracking-tight text-ink lg:text-3xl">
-            building
+            creativities
           </h2>
         </div>
-        <span className="text-[0.65rem] uppercase tracking-[0.2em] text-ink/40 nums">
-          {apps.length} apps
+        <span className="text-[0.6rem] uppercase tracking-[0.22em] text-ink/40">
+          what i make
         </span>
       </div>
 
@@ -43,10 +43,10 @@ export default function Building() {
               href={app.url}
               target="_blank"
               rel="noreferrer noopener"
-              className="group flex items-center justify-between gap-2 rounded-lg border border-zinc-100 bg-white px-3 py-2 transition-all hover:border-sunrise hover:-translate-y-0.5"
+              className="group flex items-center justify-between gap-2 rounded-lg border border-zinc-100 bg-white px-3 py-2 transition-all hover:border-ember hover:-translate-y-0.5"
             >
               <div className="min-w-0">
-                <div className="font-display text-sm tracking-tight text-ink transition-colors group-hover:text-sunrise">
+                <div className="font-display text-sm tracking-tight text-ink transition-colors group-hover:text-ember">
                   {app.name}
                 </div>
                 <div className="truncate text-[0.7rem] text-ink/55">
