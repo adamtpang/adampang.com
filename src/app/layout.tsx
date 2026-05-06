@@ -72,11 +72,15 @@ export default function RootLayout({
             __html: `
               (function() {
                 try {
+                  // Dark by default. Light only if the visitor explicitly
+                  // toggled to light mode (and we saved it to localStorage).
                   var t = localStorage.getItem('theme');
-                  if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  if (t !== 'light') {
                     document.documentElement.classList.add('dark');
                   }
-                } catch (e) {}
+                } catch (e) {
+                  document.documentElement.classList.add('dark');
+                }
               })();
             `,
           }}
