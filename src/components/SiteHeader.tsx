@@ -59,6 +59,12 @@ export default function SiteHeader() {
         >
           pangaea
         </a>
+        <a
+          href="/support"
+          className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
+        >
+          support
+        </a>
         <ThemeToggle />
       </nav>
     </motion.header>
