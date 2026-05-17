@@ -44,27 +44,24 @@ export default function SiteHeader() {
           ))}
         </span>
       </div>
-      <nav className="flex items-center gap-3 text-sm text-ink/70 dark:text-paper/70">
-        <a
-          href="mailto:adamtpang@gmail.com"
-          className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
-        >
-          email
-        </a>
-        <a
-          href="https://pangaea.blog"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
-        >
-          pangaea
-        </a>
-        <a
-          href="/support"
-          className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
-        >
-          support
-        </a>
+      <nav className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink/70 dark:text-paper/70">
+        {[
+          { label: 'email', href: 'mailto:adamtpang@gmail.com', ext: false },
+          { label: 'cal', href: 'https://cal.com/adamtpang', ext: true },
+          { label: 'linkedin', href: 'https://linkedin.com/in/adamtpang', ext: true },
+          { label: 'pangaea', href: 'https://pangaea.blog', ext: true },
+          { label: 'support', href: '/support', ext: false },
+        ].map((l) => (
+          <a
+            key={l.href}
+            href={l.href}
+            target={l.ext ? '_blank' : undefined}
+            rel={l.ext ? 'noreferrer noopener' : undefined}
+            className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
+          >
+            {l.label}
+          </a>
+        ))}
         <ThemeToggle />
       </nav>
     </motion.header>

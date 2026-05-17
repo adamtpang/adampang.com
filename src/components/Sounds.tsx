@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { sounds } from '@/data/sounds';
+import ElementSigil from './ElementSigil';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 const ROTATE_MS = 18_000;
@@ -39,8 +40,8 @@ export default function Sounds() {
       id="sounds"
       className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft"
     >
-      <div className="mb-4 flex items-baseline gap-2.5">
-        <span className="relative top-0.5 inline-block h-2 w-2 rounded-full bg-plum" />
+      <div className="mb-4 flex items-center gap-2.5">
+        <ElementSigil element="water" />
         <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
           sounds
         </h2>

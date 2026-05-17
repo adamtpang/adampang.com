@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { sights as fallback, gradientForSlug } from '@/data/sights';
 import type { SightImage } from '@/lib/blob';
+import ElementSigil from './ElementSigil';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 
@@ -25,8 +26,8 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
 
   return (
     <section className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
-      <div className="mb-4 flex items-baseline gap-2.5">
-        <span className="relative top-0.5 inline-block h-2 w-2 rounded-full bg-sunrise" />
+      <div className="mb-4 flex items-center gap-2.5">
+        <ElementSigil element="fire" />
         <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
           sights
         </h2>

@@ -48,6 +48,13 @@ const config: Config = {
         sun: '#FACC15',
         leaf: '#10B981',
         plum: '#8B5CF6',
+        // Avatar: The Last Airbender element system. Each bento is an
+        // element. fire = sights, water = sounds, air = curiosities,
+        // earth = creativities.
+        fire: '#EF4444',
+        water: '#2563EB',
+        air: '#F59E0B',
+        earth: '#10B981',
         // Warm gradient partners (used in the splash).
         peach: '#FFB69E',
         coral: '#FF8970',
