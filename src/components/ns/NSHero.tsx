@@ -76,8 +76,8 @@ export default function NSHero() {
         transition={{ delay: 0.6, duration: 0.9, ease }}
         className="mt-10 flex flex-wrap items-center gap-3"
       >
-        <MagneticButton href="https://ns.com/adam/invite" external>
-          ns.com/adam/invite
+        <MagneticButton href="https://ns.com/adam/apply" external>
+          ns.com/adam/apply
         </MagneticButton>
         <MagneticButton href="mailto:adamtpang@gmail.com" variant="ghost">
           dm for a tour

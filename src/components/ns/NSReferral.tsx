@@ -65,12 +65,12 @@ export default function NSReferral() {
             <span className="nums text-xs text-ink/40 dark:text-paper/40 mr-2">01</span>
             apply through{' '}
             <a
-              href="https://ns.com/adam/invite"
+              href="https://ns.com/adam/apply"
               target="_blank"
               rel="noreferrer noopener"
               className="font-display italic underline decoration-sunrise decoration-2 underline-offset-4 transition-colors hover:text-sunrise"
             >
-              ns.com/adam/invite
+              ns.com/adam/apply
             </a>
           </li>
           <li>
@@ -79,7 +79,7 @@ export default function NSReferral() {
           </li>
         </ol>
         <div className="flex flex-wrap items-center gap-3">
-          <MagneticButton href="https://ns.com/adam/invite" external>
+          <MagneticButton href="https://ns.com/adam/apply" external>
             apply with my link
           </MagneticButton>
           <MagneticButton href="mailto:adamtpang@gmail.com?subject=ns%20referral" variant="ghost">
