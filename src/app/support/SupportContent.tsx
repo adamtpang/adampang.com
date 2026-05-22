@@ -10,13 +10,11 @@ const ease = [0.16, 1, 0.3, 1] as const;
 
 /**
  * Payment rails.
- * STRIPE_LINK: replace with the real Stripe Payment Link
- *   (stripe.com -> Payment Links -> create -> paste the buy.stripe.com URL).
- * BMC + Pangaea use the consistent `adamtpang` handle; confirm if wrong.
+ * Stripe + BMC are the two one-click money paths. Pangaea paid is
+ * deferred until adam has audience for the 1000-true-fans flywheel.
  */
-const STRIPE_LINK = 'https://buy.stripe.com/adampang-placeholder';
+const STRIPE_LINK = 'https://buy.stripe.com/bJe7sLa78cwZcMEc4NaMU08';
 const BMC_LINK = 'https://buymeacoffee.com/adamtpang';
-const PANGAEA_PAID_LINK = 'https://pangaea.blog/subscribe';
 
 type Wallet = { label: string; value: string; href?: string };
 
@@ -72,12 +70,12 @@ export default function SupportContent() {
       </motion.header>
 
       {/* Money rails */}
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {[
           {
             href: STRIPE_LINK,
             title: 'tip',
-            sub: 'stripe . one-off',
+            sub: 'stripe . card or paypal',
             note: 'thank-you email + name on the patrons wall.',
             dot: 'bg-fire',
             hover: 'hover:border-fire dark:hover:border-fire',
@@ -89,14 +87,6 @@ export default function SupportContent() {
             note: 'public supporter wall, handled for me.',
             dot: 'bg-air',
             hover: 'hover:border-air dark:hover:border-air',
-          },
-          {
-            href: PANGAEA_PAID_LINK,
-            title: 'subscribe',
-            sub: 'pangaea paid . monthly',
-            note: 'paid posts, archive, community.',
-            dot: 'bg-water',
-            hover: 'hover:border-water dark:hover:border-water',
           },
         ].map((c, i) => (
           <motion.a
