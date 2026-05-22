@@ -13,7 +13,7 @@ export default function Curiosities() {
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="air" />
         <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
-          curiosities
+          curiosity
         </h2>
       </div>
 

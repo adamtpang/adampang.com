@@ -46,6 +46,7 @@ export default function SiteHeader() {
       </div>
       <nav className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink/70 dark:text-paper/70">
         {[
+          { label: 'about', href: '/about', ext: false },
           { label: 'email', href: 'mailto:adamtpang@gmail.com', ext: false },
           { label: 'cal', href: 'https://cal.com/adamtpang', ext: true },
           { label: 'linkedin', href: 'https://linkedin.com/in/adamtpang', ext: true },

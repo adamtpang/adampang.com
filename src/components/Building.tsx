@@ -22,7 +22,7 @@ export default function Building() {
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="earth" />
         <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
-          creativities
+          creativity
         </h2>
       </div>
 
