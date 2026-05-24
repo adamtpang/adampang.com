@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import SiteHeader from '@/components/SiteHeader';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'about',
@@ -37,30 +37,21 @@ export default function AboutPage() {
         <div className="prose-tight mt-6 max-w-none text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">
           <p>
             Born on Guam. Living at{' '}
-            <a
-              className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise"
-              href="https://ns.com/adam/apply"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Network School
-            </a>{' '}
+            <ExtLink href="https://ns.com/adam/apply">Network School</ExtLink>{' '}
             in Langkawi, Malaysia. Builder, writer, musician. I make small bets
             in public.
           </p>
           <p className="mt-4">
             Most of what I do is{' '}
-            <Link className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise" href="/">on the homepage</Link>
-            . The long version of who I am is on{' '}
-            <a
+            <Link
               className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise"
-              href="https://pangaea.blog"
-              target="_blank"
-              rel="noreferrer noopener"
+              href="/"
             >
-              pangaea.blog
-            </a>
-            . Below is the punch list.
+              on the homepage
+            </Link>
+            . The long version of who I am is on{' '}
+            <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>. Below
+            is the punch list.
           </p>
         </div>
 
@@ -161,14 +152,18 @@ function Plain({ children }: { children: React.ReactNode }) {
 }
 
 function ExtLink({ href, children }: { href: string; children: React.ReactNode }) {
+  const isHttp = href.startsWith('http');
   return (
     <a
       href={href}
-      target={href.startsWith('http') ? '_blank' : undefined}
-      rel={href.startsWith('http') ? 'noreferrer noopener' : undefined}
-      className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise"
+      target={isHttp ? '_blank' : undefined}
+      rel={isHttp ? 'noreferrer noopener' : undefined}
+      className="group inline-flex items-baseline gap-0.5 underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise"
     >
-      {children}
+      <span>{children}</span>
+      {isHttp && (
+        <ArrowUpRight size={11} aria-hidden className="opacity-50 transition-opacity group-hover:opacity-100" />
+      )}
     </a>
   );
 }

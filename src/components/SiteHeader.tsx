@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { ArrowUpRight } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
 const ease = [0.16, 1, 0.3, 1] as const;
@@ -47,6 +48,7 @@ export default function SiteHeader() {
       <nav className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink/70 dark:text-paper/70">
         {[
           { label: 'about', href: '/about', ext: false },
+          { label: 'now', href: '/now', ext: false },
           { label: 'email', href: 'mailto:adamtpang@gmail.com', ext: false },
           { label: 'cal', href: 'https://cal.com/adamtpang', ext: true },
           { label: 'linkedin', href: 'https://linkedin.com/in/adamtpang', ext: true },
@@ -58,9 +60,12 @@ export default function SiteHeader() {
             href={l.href}
             target={l.ext ? '_blank' : undefined}
             rel={l.ext ? 'noreferrer noopener' : undefined}
-            className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
+            className="group inline-flex items-baseline gap-0.5 underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise dark:decoration-paper/15"
           >
-            {l.label}
+            <span>{l.label}</span>
+            {l.ext && (
+              <ArrowUpRight size={10} aria-hidden className="opacity-40 transition-opacity group-hover:opacity-100" />
+            )}
           </a>
         ))}
         <ThemeToggle />
