@@ -47,9 +47,9 @@ export default function Sounds() {
         </h2>
       </div>
 
-      {/* 2026: vibecheck. Wrapped on demand. CTA always visible. */}
+      {/* 2026: strummer. Wrapped on demand. CTA always visible. */}
       <a
-        href="https://vibecheck.style"
+        href="https://strummer.fun"
         target="_blank"
         rel="noreferrer noopener"
         className="group mb-3 flex items-center justify-between gap-3 rounded-xl p-3 text-white transition-all hover:-translate-y-0.5"
@@ -60,13 +60,13 @@ export default function Sounds() {
       >
         <div className="min-w-0">
           <div className="flex items-baseline gap-2">
-            <span className="font-display text-base leading-none">2026 vibecheck</span>
+            <span className="font-display text-base leading-none">2026 strummer</span>
             <span className="nums text-[0.55rem] uppercase tracking-[0.22em] text-white/75">
               wrapped on demand
             </span>
           </div>
           <div className="mt-1 text-[0.7rem] text-white/85">
-            check your vibe weekly. live at vibecheck.style.
+            check your vibe weekly. live at strummer.fun.
           </div>
         </div>
         <span className="shrink-0 rounded-full bg-white/95 px-3 py-1 text-[0.65rem] font-medium text-ink transition-all group-hover:bg-white">
@@ -132,7 +132,7 @@ export default function Sounds() {
       {/* Outlinks pinned to bottom. */}
       <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-4 text-xs text-ink/65 dark:text-paper/65">
         {[
-          { label: 'vibecheck.style', href: 'https://vibecheck.style' },
+          { label: 'strummer.fun', href: 'https://strummer.fun' },
           { label: 'wonderhall.live', href: 'https://wonderhall.live' },
           { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang' },
         ].map((l) => (

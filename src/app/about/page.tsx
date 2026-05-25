@@ -76,7 +76,7 @@ export default function AboutPage() {
           />
           <Bullet
             year="2026"
-            text="Pangaea launches. Started vibecheck.style. Built this site."
+            text="Pangaea launches. Started strummer.fun. Built this site."
           />
         </Section>
 
@@ -87,7 +87,7 @@ export default function AboutPage() {
         <Section title="what i’m doing now">
           <Plain>
             Building{' '}
-            <ExtLink href="https://vibecheck.style">vibecheck.style</ExtLink>,
+            <ExtLink href="https://strummer.fun">strummer.fun</ExtLink>,
             writing{' '}
             <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>,
             shipping software from a hammock in Malaysia. Full current state

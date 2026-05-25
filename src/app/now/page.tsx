@@ -52,7 +52,7 @@ export default function NowPage() {
         <NowSection title="building">
           <ul className="space-y-1.5">
             <li>
-              <Ext href="https://vibecheck.style">vibecheck.style</Ext> . music
+              <Ext href="https://strummer.fun">strummer.fun</Ext> . music
               app, polishing for launch
             </li>
             <li>
@@ -80,7 +80,7 @@ export default function NowPage() {
           <p>
             Spotify Wrapped, 2017 to now. Full archive in{' '}
             <In href="/#sounds">sounds</In> on the homepage. The 2026 vibe is
-            live at <Ext href="https://vibecheck.style">vibecheck.style</Ext>.
+            live at <Ext href="https://strummer.fun">strummer.fun</Ext>.
           </p>
         </NowSection>
 

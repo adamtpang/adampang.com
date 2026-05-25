@@ -30,7 +30,7 @@ export const outlinks: Outlink[] = [
   { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang', category: 'sound' },
   { label: 'spotify', href: 'https://open.spotify.com/user/adamtpang', category: 'sound' },
   { label: 'wonderhall', href: 'https://wonderhall.live', category: 'sound', note: 'concert series' },
-  { label: 'vibecheck.style', href: 'https://vibecheck.style', category: 'sound', note: 'music app' },
+  { label: 'strummer.fun', href: 'https://strummer.fun', category: 'sound', note: 'music app' },
 
   /* WORDS. The writing universe. */
   { label: 'pangaea', href: 'https://pangaea.blog', category: 'words', note: 'newsletter' },

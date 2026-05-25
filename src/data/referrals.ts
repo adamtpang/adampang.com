@@ -23,9 +23,4 @@ export const referrals: Referral[] = [
     perk: 'cheap fast web hosting',
     href: 'https://www.hostinger.com?REFERRALCODE=NAYADAMTPNWO',
   },
-  {
-    name: 'whoop',
-    perk: 'fitness band, free month',
-    href: '', // paste join.whoop.com/<code>
-  },
 ];

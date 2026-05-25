@@ -62,9 +62,9 @@ export const apps: App[] = [
     tag: 'music',
   },
   {
-    slug: 'vibecheck',
-    name: 'vibecheck.style',
-    url: 'https://vibecheck.style',
+    slug: 'strummer',
+    name: 'strummer.fun',
+    url: 'https://strummer.fun',
     tagline: 'the music app',
     status: 'building',
     tag: 'music',
