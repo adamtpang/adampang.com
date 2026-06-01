@@ -14,15 +14,15 @@ const ease = [0.16, 1, 0.3, 1] as const;
  * sights data when the blob list is empty.
  */
 export default function Sights({ images = [] }: { images?: SightImage[] }) {
-  const usingBlobs = images.length >= 4;
-  const tiles = usingBlobs
-    ? images.slice(0, 4).map((img, i) => ({
-        slug: img.pathname,
-        caption: img.caption,
-        href: 'https://instagram.com/adamtpang',
-        image: img.url,
-      }))
-    : fallback;
+  // Real photos first; fill any remaining slots (up to 4) with gradient
+  // placeholders so the grid always looks intentional, even with 1-3 photos.
+  const real = images.slice(0, 4).map((img) => ({
+    slug: img.pathname,
+    caption: img.caption,
+    href: 'https://instagram.com/adamtpang',
+    image: img.url,
+  }));
+  const tiles = [...real, ...fallback].slice(0, 4);
 
   return (
     <section className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
