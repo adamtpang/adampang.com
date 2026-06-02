@@ -24,7 +24,7 @@ export default async function Image() {
           flexDirection: 'column',
           justifyContent: 'space-between',
           padding: '72px',
-          background: '#FAF8F4',
+          background: '#fafafa',
           fontFamily: 'serif',
           position: 'relative',
         }}
@@ -39,7 +39,7 @@ export default async function Image() {
             height: '600px',
             borderRadius: '50%',
             background:
-              'radial-gradient(circle, rgba(255, 92, 57, 0.55) 0%, rgba(255, 92, 57, 0) 70%)',
+              'radial-gradient(circle, rgba(37, 99, 235, 0.55) 0%, rgba(37, 99, 235, 0) 70%)',
           }}
         />
 
@@ -49,7 +49,7 @@ export default async function Image() {
             display: 'flex',
             alignItems: 'center',
             gap: '14px',
-            color: '#0E0E0C',
+            color: '#1a1a1a',
             fontSize: '22px',
             letterSpacing: '0.18em',
             textTransform: 'uppercase',
@@ -62,7 +62,7 @@ export default async function Image() {
               width: '12px',
               height: '12px',
               borderRadius: '50%',
-              background: '#FF5C39',
+              background: '#2563eb',
             }}
           />
           <span>adampang.com . internet hub</span>
@@ -81,19 +81,19 @@ export default async function Image() {
               fontSize: '180px',
               lineHeight: 0.95,
               letterSpacing: '-0.045em',
-              color: '#0E0E0C',
+              color: '#1a1a1a',
               display: 'flex',
               alignItems: 'baseline',
               gap: '24px',
             }}
           >
             <span>Adam</span>
-            <span style={{ color: '#FF5C39' }}>Pang</span>
+            <span style={{ color: '#2563eb' }}>Pang</span>
           </div>
           <div
             style={{
               fontSize: '32px',
-              color: '#0E0E0C',
+              color: '#1a1a1a',
               opacity: 0.75,
               maxWidth: '900px',
               lineHeight: 1.4,
@@ -109,7 +109,7 @@ export default async function Image() {
           style={{
             display: 'flex',
             gap: '32px',
-            color: '#0E0E0C',
+            color: '#1a1a1a',
             fontSize: '24px',
             opacity: 0.55,
             fontFamily: 'sans-serif',

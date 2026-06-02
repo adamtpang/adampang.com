@@ -1,21 +1,22 @@
 import type { Metadata } from 'next';
-import { Fraunces, Inter, JetBrains_Mono } from 'next/font/google';
+import { Space_Grotesk, Lato, JetBrains_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 
-const fraunces = Fraunces({
+// Design system fonts: Space Grotesk (display), Lato (body), JetBrains Mono (labels).
+const display = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-fraunces',
+  variable: '--font-display',
   display: 'swap',
-  // No `weight`: Fraunces is a variable font, so we get all weights + axes
-  axes: ['SOFT', 'opsz'],
+  weight: ['400', '500', '600', '700'],
 });
 
-const inter = Inter({
+const body = Lato({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-body',
   display: 'swap',
+  weight: ['300', '400', '700'],
 });
 
 const mono = JetBrains_Mono({
@@ -61,7 +62,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fraunces.variable} ${inter.variable} ${mono.variable}`}
+      className={`${display.variable} ${body.variable} ${mono.variable}`}
       suppressHydrationWarning
     >
       <head>
@@ -85,7 +86,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="grain antialiased">
+      <body className="antialiased">
         {/* JSON-LD person schema. Helps Google knowledge graph + AI agents
             understand who Adam is and what he does. */}
         <script

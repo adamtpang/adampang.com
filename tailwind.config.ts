@@ -1,11 +1,15 @@
 import type { Config } from 'tailwindcss';
 
 /**
- * adampang.com design tokens
- * Signature color: Pacific Sunrise #FF5C39
+ * adampang.com design tokens — "Clean Card-Based Minimal."
+ * Imported from the adampang design system (claude design export).
  *
- * Light mode: warm white, deep ink, sunrise accent
- * Dark mode: deep neutral, off-white, sunrise accent (slightly desaturated for dark contrast)
+ * Light: faint cool gradient, near-white cards, #1a1a1a ink, one blue accent.
+ * Dark:  near-black, #141414 cards, #fafafa text, lifted blue accent.
+ *
+ * Token names are kept stable so components don't churn; values now map to
+ * the design-system palette. `sunrise` is the legacy alias for the blue
+ * primary. Per-section accent hues come from the DS /work palette.
  */
 const config: Config = {
   darkMode: 'class',
@@ -13,73 +17,80 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        // wired up via next/font in layout.tsx; these are the CSS var names
-        display: ['var(--font-fraunces)', 'serif'],
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
-        mono: ['var(--font-mono)', 'ui-monospace', 'monospace'],
+        display: ['var(--font-display)', 'system-ui', 'sans-serif'], // Space Grotesk
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'], // Lato
+        mono: ['var(--font-mono)', 'ui-monospace', 'monospace'], // JetBrains Mono
       },
       colors: {
-        // Signature
+        // Primary blue (DS --primary). `sunrise` is the legacy alias used by
+        // CTAs, links, hover borders, focus rings across components.
         sunrise: {
-          DEFAULT: '#FF5C39',
-          50: '#FFF1ED',
-          100: '#FFE0D5',
-          200: '#FFC1AB',
-          300: '#FFA181',
-          400: '#FF8257',
-          500: '#FF5C39',
-          600: '#E04420',
-          700: '#B23318',
-          800: '#852511',
-          900: '#57180B',
+          DEFAULT: '#2563eb',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e40af',
+          900: '#1e3a8a',
         },
-        // RYB color system, locked.
-        // PRIMARY (the base) . ACCENT (the partners)
-        //   ember = red     #EF4444   creativities sigil, alerts
-        //   sky   = blue    #2563EB   curiosities sigil
-        //   sun   = yellow  #FACC15   header sigil, highlights
-        //   sunrise = orange #FF5C39  sights sigil, brand spark, primary CTA
-        //   leaf  = green   #10B981   live status, success
-        //   plum  = purple  #8B5CF6   sounds sigil
-        // Tokens use the metaphor names (sun, leaf, sky etc.) to avoid
-        // colliding with Tailwind's built-in `red-500` etc. scales.
-        ember: '#EF4444',
-        sky: '#2563EB',
-        sun: '#FACC15',
-        leaf: '#10B981',
-        plum: '#8B5CF6',
-        // Avatar: The Last Airbender element system. Each bento is an
-        // element. fire = sights, water = sounds, air = curiosities,
-        // earth = creativities.
-        fire: '#EF4444',
-        water: '#2563EB',
-        air: '#F59E0B',
-        earth: '#10B981',
-        // Warm gradient partners (used in the splash).
-        peach: '#FFB69E',
-        coral: '#FF8970',
-        amber: '#F59E0B',
-        dawn: '#FFD2B8',
-        rose: '#FFA999',
-        // Neutrals. Paper feel in light, deep slate in dark.
+        primary: '#2563eb',
+
+        // DS /work accent palette — each section owns exactly one hue.
+        amber: '#f59e0b',
+        sky: '#38bdf8',
+        green: '#34d399',
+        purple: '#c084fc',
+        pink: '#f472b6',
+        red: '#ef4444',
+
+        // Legacy accent aliases (kept so existing components resolve),
+        // mapped onto the DS accent palette.
+        sun: '#f59e0b', // amber  — header sigil, highlights
+        leaf: '#34d399', // green  — live status
+        plum: '#c084fc', // purple — sounds
+        ember: '#ef4444', // red
+
+        // Bento section accents (one DS hue each).
+        fire: '#f59e0b', // sights      — amber
+        water: '#38bdf8', // sounds      — sky
+        air: '#34d399', // curiosity   — green
+        earth: '#c084fc', // creativity  — purple
+
+        // Neutrals — DS foreground / card / muted.
         ink: {
-          DEFAULT: '#0E0E0C',
-          soft: '#1F1F1C',
-          muted: '#6B6B66',
-          faint: '#A8A8A2',
+          DEFAULT: '#1a1a1a', // primary text (light)
+          soft: '#141414', // card surface (dark)
+          muted: '#64748b', // secondary text, captions
+          faint: '#94a3b8',
         },
         paper: {
-          DEFAULT: '#FFFFFF', // pure white canvas
-          soft: '#FAFAF7',
-          muted: '#F2F1ED',
+          DEFAULT: '#fafafa', // page bg / primary text (dark)
+          soft: '#f1f5f9',
+          muted: '#e2e8f0', // borders
         },
+        line: '#e2e8f0', // DS --border (light)
+      },
+      borderRadius: {
+        DEFAULT: '12px',
+        lg: '16px',
+        sm: '8px',
+      },
+      boxShadow: {
+        card: '0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04)',
+        'card-md': '0 4px 6px rgba(0,0,0,.05), 0 2px 4px rgba(0,0,0,.03)',
+        'card-lg': '0 10px 25px rgba(0,0,0,.06), 0 4px 10px rgba(0,0,0,.04)',
       },
       letterSpacing: {
-        tightest: '-0.045em',
-        tighter: '-0.025em',
+        tightest: '-0.02em',
+        tighter: '-0.01em',
+        label: '0.12em',
       },
       animation: {
-        'fade-up': 'fadeUp 800ms cubic-bezier(0.16, 1, 0.3, 1) both',
+        'fade-up': 'fadeUp 600ms cubic-bezier(0.16, 1, 0.3, 1) both',
       },
       keyframes: {
         fadeUp: {

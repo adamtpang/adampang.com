@@ -8,20 +8,20 @@ import { Separator } from '@/components/ui/separator';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 
 const COLORS = [
-  { name: 'sunrise', hex: '#FF5C39', role: 'primary CTAs, active states, sigil 1' },
-  { name: 'sky', hex: '#2563EB', role: 'currently sigil, info, calm' },
-  { name: 'leaf', hex: '#10B981', role: 'now sigil, live status, growth' },
-  { name: 'ember', hex: '#EF4444', role: 'leverage sigil, alerts, heat' },
-  { name: 'sun', hex: '#F59E0B', role: 'footer sigil, highlights' },
-  { name: 'plum', hex: '#8B5CF6', role: 'sounds sigil, music, soul' },
+  { name: 'primary', hex: '#2563EB', role: 'links, CTAs, hover borders, focus' },
+  { name: 'amber', hex: '#F59E0B', role: 'sights — section accent' },
+  { name: 'sky', hex: '#38BDF8', role: 'sounds — section accent' },
+  { name: 'green', hex: '#34D399', role: 'curiosity — live status' },
+  { name: 'purple', hex: '#C084FC', role: 'creativity — section accent' },
+  { name: 'red', hex: '#EF4444', role: 'alerts, destructive' },
 ];
 
 const NEUTRALS = [
-  { name: 'paper', hex: '#FFFFFF', role: 'page background' },
-  { name: 'zinc-200', hex: '#E4E4E7', role: 'borders' },
-  { name: 'ink', hex: '#0E0E0C', role: 'primary text' },
-  { name: 'ink/65', hex: 'rgba(14,14,12,.65)', role: 'secondary text' },
-  { name: 'ink/40', hex: 'rgba(14,14,12,.40)', role: 'tertiary, captions' },
+  { name: 'background', hex: '#FAFAFA', role: 'page background (light)' },
+  { name: 'card', hex: '#FFFFFF', role: 'card surface (light)' },
+  { name: 'border', hex: '#E2E8F0', role: 'hairlines, card borders' },
+  { name: 'foreground', hex: '#1A1A1A', role: 'primary text' },
+  { name: 'muted', hex: '#64748B', role: 'secondary text, captions' },
 ];
 
 export default function DesignSystem() {

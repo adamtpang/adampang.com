@@ -55,7 +55,7 @@ export default function Sounds() {
         className="group mb-3 flex items-center justify-between gap-3 rounded-xl p-3 text-white transition-all hover:-translate-y-0.5"
         style={{
           backgroundImage:
-            'linear-gradient(135deg, #FF5C39 0%, #8B5CF6 100%)',
+            'linear-gradient(135deg, #2563eb 0%, #38bdf8 100%)',
         }}
       >
         <div className="min-w-0">
