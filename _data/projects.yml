@@ -1,0 +1,77 @@
+# The board — live projects, honest status, ranked by traction.
+# This is the seed of adampang's personal companiesmarketcap: `metric` holds the
+# honest current signal now (status/usage) and grows into a real market cap
+# (MRR + users) later. Status is ALWAYS real — no vanity numbers.
+# status: live | beta | building   (controls the pill color)
+
+- name: summon.guide
+  url: https://summon.guide
+  tagline: Train with legendary founders. Streaming chat, voice, cited sources.
+  status: live
+  metric: charging
+
+- name: optimism.fun
+  url: https://optimism.fun
+  tagline: The world's demand map. Humanity's biggest unsolved problems, ranked.
+  status: live
+  metric: live
+
+- name: sellsniper.com
+  url: https://sellsniper.com
+  tagline: The AI sales agent. Finds the exact humans on Earth who'd love your work.
+  status: live
+  metric: free tier
+
+- name: ness.city
+  url: https://ness.city
+  tagline: The civic layer for Network School. Surface problems, ship fixes, earn bounties.
+  status: live
+  metric: in use @ NS
+
+- name: company.university
+  url: https://company.university
+  tagline: Top companies as campuses. Learn from the best, get hired.
+  status: live
+  metric: partners in talks
+
+- name: conjecture.school
+  url: https://conjecture.school
+  tagline: A fellowship for the Beginning of Infinity. Deutschian epistemology.
+  status: live
+  metric: cohort live
+
+- name: deathmoney.fyi
+  url: https://deathmoney.fyi
+  tagline: Calculate your financial freedom number. Claude-powered statement analysis.
+  status: live
+  metric: live
+
+- name: countriesmarketcap.com
+  url: https://countriesmarketcap.com
+  tagline: The CoinMarketCap of nation-states. Ranked by net wealth, GDP, debt.
+  status: live
+  metric: live
+
+- name: pangaea.blog
+  url: https://pangaea.blog
+  tagline: A weekly catalog of one app, one essay, one song.
+  status: live
+  metric: weekly
+
+- name: vitals.run
+  url: https://vitals.run
+  tagline: Portable, founder-fillable company operating dashboard.
+  status: live
+  metric: 17 users
+
+- name: pokedex.life
+  url: https://pokedex.life
+  tagline: Catch every person you meet on X. Followers as Pokemon with 6 stats.
+  status: beta
+  metric: beta
+
+- name: iron.credit
+  url: https://iron.credit
+  tagline: Bitcoin-backed credit. Spend without selling your stack.
+  status: building
+  metric: building
