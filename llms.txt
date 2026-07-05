@@ -1,0 +1,17 @@
+# adampang.com (adampang.com)
+
+> The personal hub and internet home of Adam Tomas Pangelinan, builder from Guam, where all his work, essays, books, games, and heroes link back to one place.
+
+adampang.com is a Jekyll site that acts as the front door to Adam's whole portfolio. It gathers his projects and services (work), the humans he studies, his bookshelf, his games, his design taste, and his life story into one navigable home, with a theme system, a life-progress tracker, and music built in. It is for anyone, human or agent, trying to understand who Adam is and route to the right corner of his work. The core idea: make a person's body of work legible from a single, memorable 12-character address, and cross-link everything back to it.
+
+## Key links
+- [Home](https://adampang.com/): Identity, life-progress bar, music, and the map to everything else.
+- [Work](https://adampang.com/work): What Adam builds and offers. AI-powered apps in days, powered by Anchor Marianas LLC.
+- [Humans](https://adampang.com/heroes): The people and lives Adam studies and admires.
+- [Bookshelf](https://adampang.com/learning): Books and learning that shaped his thinking.
+- [Games](https://adampang.com/games): The games and quests he plays.
+- [Design](https://adampang.com/design): His design taste and references.
+
+## About
+- Part of adam.inc, the internet portfolio of Adam Pangelinan (Anchor Marianas LLC).
+- Builder: https://adampang.com
