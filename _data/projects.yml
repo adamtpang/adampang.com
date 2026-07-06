@@ -1,77 +1,144 @@
-# The board — live projects, honest status, ranked by traction.
-# This is the seed of adampang's personal companiesmarketcap: `metric` holds the
-# honest current signal now (status/usage) and grows into a real market cap
-# (MRR + users) later. Status is ALWAYS real — no vanity numbers.
+# adampang's personal companiesmarketcap. Ranked by MARKET CAP, computed from
+# the Be-Useful formula (Elon, Book of Elon p.33) plus the money term:
+#
+#   market cap  =  Transformation (t)  ×  Reach (r)  ×  Budget (b)
+#
+#   t  = 0-1, how much you change ONE person vs the best alternative (depth)
+#   r  = reachable ICP humans (breadth)
+#   b  = annual $ each ICP will actually pay (monetizability)
+#   cap = t * r * b   (annual capturable value; a CEILING, not current revenue)
+#
+# `metric` is the honest FLOOR (what's real right now). `capLabel` is the ceiling.
 # status: live | beta | building   (controls the pill color)
-
-- name: summon.guide
-  url: https://summon.guide
-  tagline: Train with legendary founders. Streaming chat, voice, cited sources.
-  status: live
-  metric: charging
-
-- name: optimism.fun
-  url: https://optimism.fun
-  tagline: The world's demand map. Humanity's biggest unsolved problems, ranked.
-  status: live
-  metric: live
 
 - name: sellsniper.com
   url: https://sellsniper.com
   tagline: The AI sales agent. Finds the exact humans on Earth who'd love your work.
   status: live
   metric: free tier
-
-- name: ness.city
-  url: https://ness.city
-  tagline: The civic layer for Network School. Surface problems, ship fixes, earn bounties.
-  status: live
-  metric: in use @ NS
-
-- name: company.university
-  url: https://company.university
-  tagline: Top companies as campuses. Learn from the best, get hired.
-  status: live
-  metric: partners in talks
-
-- name: conjecture.school
-  url: https://conjecture.school
-  tagline: A fellowship for the Beginning of Infinity. Deutschian epistemology.
-  status: live
-  metric: cohort live
-
-- name: deathmoney.fyi
-  url: https://deathmoney.fyi
-  tagline: Calculate your financial freedom number. Claude-powered statement analysis.
-  status: live
-  metric: live
-
-- name: countriesmarketcap.com
-  url: https://countriesmarketcap.com
-  tagline: The CoinMarketCap of nation-states. Ranked by net wealth, GDP, debt.
-  status: live
-  metric: live
-
-- name: pangaea.blog
-  url: https://pangaea.blog
-  tagline: A weekly catalog of one app, one essay, one song.
-  status: live
-  metric: weekly
-
-- name: vitals.run
-  url: https://vitals.run
-  tagline: Portable, founder-fillable company operating dashboard.
-  status: live
-  metric: 17 users
-
-- name: pokedex.life
-  url: https://pokedex.life
-  tagline: Catch every person you meet on X. Followers as Pokemon with 6 stats.
-  status: beta
-  metric: beta
+  t: 0.7
+  r: 5000000
+  b: 300
+  cap: 1050000000
+  capLabel: "$1.1B"
 
 - name: iron.credit
   url: https://iron.credit
   tagline: Bitcoin-backed credit. Spend without selling your stack.
   status: building
   metric: building
+  t: 0.6
+  r: 2000000
+  b: 500
+  cap: 600000000
+  capLabel: "$600M"
+
+- name: company.university
+  url: https://company.university
+  tagline: Top companies as campuses. Learn from the best, get hired.
+  status: live
+  metric: partners in talks
+  t: 0.6
+  r: 8000
+  b: 60000
+  cap: 288000000
+  capLabel: "$288M"
+
+- name: summon.guide
+  url: https://summon.guide
+  tagline: Train with legendary founders. Streaming chat, voice, cited sources.
+  status: live
+  metric: charging
+  t: 0.4
+  r: 20000000
+  b: 30
+  cap: 240000000
+  capLabel: "$240M"
+
+- name: deathmoney.fyi
+  url: https://deathmoney.fyi
+  tagline: Calculate your financial freedom number. Claude-powered statement analysis.
+  status: live
+  metric: live
+  t: 0.4
+  r: 10000000
+  b: 30
+  cap: 120000000
+  capLabel: "$120M"
+
+- name: pokedex.life
+  url: https://pokedex.life
+  tagline: Catch every person you meet on X. Followers as Pokemon with 6 stats.
+  status: beta
+  metric: beta
+  t: 0.3
+  r: 5000000
+  b: 10
+  cap: 15000000
+  capLabel: "$15M"
+
+- name: vitals.run
+  url: https://vitals.run
+  tagline: Portable, founder-fillable company operating dashboard.
+  status: live
+  metric: 17 users
+  t: 0.4
+  r: 500000
+  b: 50
+  cap: 10000000
+  capLabel: "$10M"
+
+- name: optimism.fun
+  url: https://optimism.fun
+  tagline: The world's demand map. Humanity's biggest unsolved problems, ranked.
+  status: live
+  metric: live
+  t: 0.4
+  r: 2000000
+  b: 5
+  cap: 4000000
+  capLabel: "$4M"
+
+- name: conjecture.school
+  url: https://conjecture.school
+  tagline: A fellowship for the Beginning of Infinity. Deutschian epistemology.
+  status: live
+  metric: cohort live
+  t: 0.6
+  r: 5000
+  b: 200
+  cap: 600000
+  capLabel: "$600K"
+
+- name: countriesmarketcap.com
+  url: https://countriesmarketcap.com
+  tagline: The CoinMarketCap of nation-states. Ranked by net wealth, GDP, debt.
+  status: live
+  metric: live
+  t: 0.2
+  r: 1000000
+  b: 2
+  cap: 400000
+  capLabel: "$400K"
+
+- name: pangaea.blog
+  url: https://pangaea.blog
+  tagline: A weekly catalog of one app, one essay, one song.
+  status: live
+  metric: weekly
+  t: 0.3
+  r: 100000
+  b: 10
+  cap: 300000
+  capLabel: "$300K"
+
+- name: ness.city
+  url: https://ness.city
+  tagline: The civic layer for Network School. Surface problems, ship fixes, earn bounties.
+  status: live
+  metric: in use @ NS
+  t: 0.5
+  r: 50000
+  b: 10
+  cap: 250000
+  capLabel: "$250K"

@@ -264,6 +264,23 @@ description: "I build AI-powered apps in days, not months. Full-stack engineer +
         white-space: nowrap;
     }
 
+    .hire-marketcap {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 15px;
+        font-weight: 700;
+        color: #34d399;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .hire-capline {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        margin-top: 6px;
+    }
+
     /* Flagship offer */
     .hire-flagship {
         background: var(--card);
@@ -679,9 +696,10 @@ description: "I build AI-powered apps in days, not months. Full-stack engineer +
 
     <!-- PORTFOLIO BOARD -->
     <div class="hire-shipped">
-        <div class="hire-label">PORTFOLIO &#183; LIVE &amp; RANKED</div>
+        <div class="hire-label">PORTFOLIO &#183; RANKED BY MARKET CAP</div>
         <div class="hire-board">
-            {% for p in site.data.projects %}
+            {% assign ranked = site.data.projects | sort: "cap" | reverse %}
+            {% for p in ranked %}
             <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer" class="hire-board-row">
                 <div class="hire-rank">{{ forloop.index }}</div>
                 <div class="hire-board-main">
@@ -689,13 +707,16 @@ description: "I build AI-powered apps in days, not months. Full-stack engineer +
                     <div class="hire-board-desc">{{ p.tagline }}</div>
                 </div>
                 <div class="hire-board-meta">
-                    <span class="hire-status hire-status-{{ p.status }}">{{ p.status }}</span>
-                    <span class="hire-cap">{{ p.metric }}</span>
+                    <span class="hire-marketcap">{{ p.capLabel }}</span>
+                    <span class="hire-capline">
+                        <span class="hire-status hire-status-{{ p.status }}">{{ p.status }}</span>
+                        <span class="hire-cap">{{ p.metric }}</span>
+                    </span>
                 </div>
             </a>
             {% endfor %}
         </div>
-        <div class="hire-shipped-note">Honest board. Status is real; market caps (MRR + users) fill in as they grow &#8594; the companiesmarketcap of my own companies.</div>
+        <div class="hire-shipped-note">Market cap = transformation &#215; reach &#215; budget (annual capturable value, the ceiling). The pill + note are the honest floor: what is real today. No vanity numbers.</div>
     </div>
 
     <!-- OFFERS -->
