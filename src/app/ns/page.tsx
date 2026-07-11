@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Footer from '@/components/Footer';
 import NSHero from '@/components/ns/NSHero';
+import NSGuide from '@/components/ns/NSGuide';
 import NSDiary from '@/components/ns/NSDiary';
 import NSReferral from '@/components/ns/NSReferral';
 
@@ -14,6 +15,7 @@ export default function NSPage() {
   return (
     <main className="relative">
       <NSHero />
+      <NSGuide />
       <NSDiary />
       <NSReferral />
       <Footer />

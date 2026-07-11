@@ -15,7 +15,7 @@ export const metadata: Metadata = {
  * nownownow.com style directories.
  */
 
-const LAST_UPDATED = 'May 2026';
+const LAST_UPDATED = 'July 2026';
 
 export default function NowPage() {
   return (
@@ -49,21 +49,32 @@ export default function NowPage() {
           </p>
         </NowSection>
 
-        <NowSection title="building">
+        <NowSection title="the sprint">
           <ul className="space-y-1.5">
             <li>
-              <Ext href="https://strummer.fun">strummer.fun</Ext> . music
-              app, polishing for launch
+              <In href="/ns">the ns field guide</In> . $49, shipping july 15.
+              bet #1 of the speedrun.
             </li>
             <li>
-              <Ext href="https://pangaea.blog">pangaea.blog</Ext> . scaffolding
-              the newsletter, first posts soon
+              scoreboard: verified mrr, public. goal line $10k/mo.
             </li>
             <li>
-              <Ext href="https://summon.guide">summon.guide</Ext> . chat with
-              legendary founders
+              the loop: ship, price, measure, kill or double down, post
+              receipts. no renames. no redesigns.
             </li>
-            <li>this site, iterating toward 10/10</li>
+          </ul>
+        </NowSection>
+
+        <NowSection title="also building">
+          <ul className="space-y-1.5">
+            <li>
+              <Ext href="https://strummer.fun">strummer.fun</Ext> . the music
+              suite, after the sprint ships
+            </li>
+            <li>
+              <Ext href="https://pangaea.blog">pangaea.blog</Ext> . essays,
+              first posts soon
+            </li>
           </ul>
         </NowSection>
 
