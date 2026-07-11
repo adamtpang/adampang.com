@@ -1,0 +1,395 @@
+---
+layout: default
+title: Operation 24
+description: "$0 to $3,000 by my 24th birthday. 21 days. 24/7 AI agents + 1 founder. Live public scoreboard — real Stripe numbers only."
+---
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    .op24-page {
+        font-family: 'Space Grotesk', -apple-system, sans-serif;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+    }
+
+    .op24-page * {
+        box-sizing: border-box;
+    }
+
+    .op24-label {
+        font-size: 11px;
+        letter-spacing: 2px;
+        font-family: 'JetBrains Mono', monospace;
+        margin-bottom: 16px;
+    }
+
+    /* Hero */
+    .op24-hero { margin-bottom: 48px; }
+
+    .op24-hero .op24-label {
+        color: #f59e0b;
+        letter-spacing: 3px;
+        font-size: 12px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .op24-live-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #ef4444;
+        animation: op24-pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes op24-pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+    }
+
+    .op24-hero h1 {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 1.2;
+        margin: 0;
+        color: var(--foreground);
+    }
+
+    .op24-hero h1 span {
+        color: #f59e0b;
+    }
+
+    .op24-hero p {
+        font-size: 16px;
+        color: var(--muted-foreground);
+        margin-top: 16px;
+        line-height: 1.7;
+        max-width: 560px;
+    }
+
+    /* Scoreboard */
+    .op24-scoreboard { margin-bottom: 48px; }
+    .op24-scoreboard .op24-label { color: #34d399; }
+
+    .op24-cash {
+        background: var(--card);
+        border: 1px solid #f59e0b;
+        border-radius: 14px;
+        padding: 24px;
+        margin-bottom: 12px;
+        box-shadow: 0 0 30px rgba(245, 158, 11, 0.08);
+    }
+
+    .op24-cash-row {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .op24-cash-num {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 44px;
+        font-weight: 700;
+        color: var(--foreground);
+        line-height: 1;
+    }
+
+    .op24-cash-goal {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 15px;
+        color: var(--muted-foreground);
+    }
+
+    .op24-cash-goal strong {
+        color: #f59e0b;
+        font-weight: 700;
+    }
+
+    .op24-bar {
+        margin-top: 16px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--secondary);
+        border: 1px solid var(--border);
+        overflow: hidden;
+    }
+
+    .op24-bar-fill {
+        height: 100%;
+        width: 0%;
+        min-width: 2px;
+        border-radius: 999px;
+        background: #34d399;
+    }
+
+    .op24-cash-sub {
+        margin-top: 10px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        color: var(--muted-foreground);
+        letter-spacing: 0.5px;
+    }
+
+    .op24-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+    }
+
+    .op24-stat {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 16px;
+        text-align: center;
+    }
+
+    .op24-stat-num {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 26px;
+        font-weight: 700;
+        color: var(--foreground);
+    }
+
+    .op24-stat-name {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--muted-foreground);
+        margin-top: 6px;
+    }
+
+    /* Rules */
+    .op24-rules { margin-bottom: 48px; }
+    .op24-rules .op24-label { color: #ef4444; }
+
+    .op24-rule {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 16px;
+        margin-bottom: 8px;
+    }
+
+    .op24-rule-num {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 13px;
+        font-weight: 700;
+        color: #ef4444;
+        flex-shrink: 0;
+    }
+
+    .op24-rule-text {
+        font-size: 14px;
+        color: var(--muted-foreground);
+        line-height: 1.6;
+    }
+
+    .op24-rule-text strong {
+        color: var(--foreground);
+    }
+
+    /* Storefronts */
+    .op24-stores { margin-bottom: 48px; }
+    .op24-stores .op24-label { color: #38bdf8; }
+
+    .op24-stores-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .op24-store {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 18px;
+        text-decoration: none;
+        display: block;
+        transition: border-color 150ms ease, transform 150ms ease;
+    }
+
+    .op24-store:hover {
+        border-color: #38bdf8;
+        transform: translateY(-2px);
+    }
+
+    .op24-store-name {
+        font-size: 15px;
+        font-weight: 700;
+        color: #38bdf8;
+        margin-bottom: 4px;
+    }
+
+    .op24-store-desc {
+        font-size: 13px;
+        color: var(--muted-foreground);
+        line-height: 1.5;
+    }
+
+    /* The machine */
+    .op24-machine {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 24px;
+        margin-bottom: 48px;
+    }
+
+    .op24-machine .op24-label { color: #c084fc; margin-bottom: 12px; }
+
+    .op24-machine-text {
+        font-size: 15px;
+        color: var(--muted-foreground);
+        line-height: 1.8;
+    }
+
+    .op24-machine-text strong {
+        color: var(--foreground);
+    }
+
+    /* Footer */
+    .op24-footer {
+        text-align: center;
+        font-size: 12px;
+        color: var(--muted-foreground);
+        padding: 16px 0;
+        border-top: 1px solid var(--border);
+    }
+
+    .op24-footer a {
+        color: var(--muted-foreground);
+        text-decoration: none;
+    }
+
+    .op24-footer a:hover {
+        color: var(--foreground);
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+        .op24-hero h1 {
+            font-size: 28px;
+        }
+
+        .op24-cash-num {
+            font-size: 36px;
+        }
+
+        .op24-stats {
+            grid-template-columns: 1fr;
+        }
+
+        .op24-stores-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<div class="op24-page">
+
+    <!-- HERO -->
+    <div class="op24-hero">
+        <div class="op24-label"><span class="op24-live-dot"></span>OPERATION 24 &#183; LIVE SCOREBOARD</div>
+        <h1>
+            $0 to $3,000 by my 24th birthday.<br>
+            <span>21 days. 24/7 AI agents + 1 founder.</span>
+        </h1>
+        <p>
+            This page is the campaign. Every dollar, every send, every day gets posted here in public. No pitch decks, no "we're crushing it" — just the number going up or not.
+        </p>
+    </div>
+
+    <!-- SCOREBOARD -->
+    <div class="op24-scoreboard">
+        <div class="op24-label">THE SCOREBOARD</div>
+        <div class="op24-cash">
+            <div class="op24-cash-row">
+                <div class="op24-cash-num">$0</div>
+                <div class="op24-cash-goal">of <strong>$3,000</strong></div>
+            </div>
+            <div class="op24-bar">
+                <div class="op24-bar-fill"></div>
+            </div>
+            <div class="op24-cash-sub">CASH COLLECTED &#183; STRIPE-VERIFIED &#183; AS OF 2026-07-10</div>
+        </div>
+        <div class="op24-stats">
+            <div class="op24-stat">
+                <div class="op24-stat-num">0</div>
+                <div class="op24-stat-name">Sends fired</div>
+            </div>
+            <div class="op24-stat">
+                <div class="op24-stat-num">21</div>
+                <div class="op24-stat-name">Days left</div>
+            </div>
+            <div class="op24-stat">
+                <div class="op24-stat-num">4/4</div>
+                <div class="op24-stat-name">Storefronts live</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- THE RULES -->
+    <div class="op24-rules">
+        <div class="op24-label">THE RULES</div>
+        <div class="op24-rule">
+            <div class="op24-rule-num">01</div>
+            <div class="op24-rule-text"><strong>Real Stripe numbers only.</strong> The cash counter moves when money actually lands. No pledges, no "verbal commits", no invoices pending.</div>
+        </div>
+        <div class="op24-rule">
+            <div class="op24-rule-num">02</div>
+            <div class="op24-rule-text"><strong>Win or lose, the tally posts July 31.</strong> If it's $3,000, you'll see it here. If it's $0, you'll see that too.</div>
+        </div>
+        <div class="op24-rule">
+            <div class="op24-rule-num">03</div>
+            <div class="op24-rule-text"><strong>Strangers only.</strong> No friends, no family, no pity purchases. Every dollar comes from someone who bought because the thing is worth it.</div>
+        </div>
+    </div>
+
+    <!-- STOREFRONTS -->
+    <div class="op24-stores">
+        <div class="op24-label">THE STOREFRONTS &#183; 4 LIVE</div>
+        <div class="op24-stores-grid">
+            <a href="https://anchormarianas.com" target="_blank" rel="noopener noreferrer" class="op24-store">
+                <div class="op24-store-name">anchormarianas.com</div>
+                <div class="op24-store-desc">AI-powered apps in days, not months. Landing pages, MVPs, internal tools.</div>
+            </a>
+            <a href="https://sellsniper.com" target="_blank" rel="noopener noreferrer" class="op24-store">
+                <div class="op24-store-name">sellsniper.com</div>
+                <div class="op24-store-desc">The AI sales agent. Finds the exact humans on Earth who'd love your work.</div>
+            </a>
+            <a href="https://deathmoney.fyi" target="_blank" rel="noopener noreferrer" class="op24-store">
+                <div class="op24-store-name">deathmoney.fyi</div>
+                <div class="op24-store-desc">Calculate your financial freedom number. Claude-powered statement analysis.</div>
+            </a>
+            <a href="https://companyuniversity.vercel.app" target="_blank" rel="noopener noreferrer" class="op24-store">
+                <div class="op24-store-name">company.university</div>
+                <div class="op24-store-desc">Top companies as campuses. Learn from the best, get hired.</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- THE MACHINE -->
+    <div class="op24-machine">
+        <div class="op24-label">THE MACHINE</div>
+        <div class="op24-machine-text">
+            AI agents (Claude) run the back office <strong>24/7</strong> — ops, market intel, and this scoreboard update daily on autopilot — while the <strong>1 founder</strong> does the only thing agents can't: sell to strangers.
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="op24-footer">
+        Powered by <a href="https://anchormarianas.com" target="_blank" rel="noopener noreferrer">Anchor Marianas LLC</a> &#183; <a href="/">adampang.com</a>
+    </div>
+
+</div>
