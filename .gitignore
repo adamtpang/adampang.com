@@ -56,3 +56,4 @@ backup_*
 .claude/worktrees/
 
 .vercel
+HANDOFF.md
