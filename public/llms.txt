@@ -15,7 +15,6 @@ The core idea: make a person's body of work legible from a single, memorable
 - [Home](https://adampang.com/): the four-spectrum bento. sights, sounds, curiosity, creativity.
 - [About](https://adampang.com/about): who he is, chronologically. milestones and receipts.
 - [Now](https://adampang.com/now): what he is doing right now. a now page in the sivers tradition.
-- [Operation 24](https://adampang.com/24): live public revenue scoreboard. real Stripe numbers only.
 - [Network School](https://adampang.com/ns): living at Balaji's internet frontier as longtermer #2.
 - [Support](https://adampang.com/support): tip jar, crypto, and the referral wall.
 

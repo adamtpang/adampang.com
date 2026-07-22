@@ -72,7 +72,7 @@ export default function AboutPage() {
           {[
             { n: '#2', l: 'longtermer at ns' },
             { n: '9', l: 'apps shipped' },
-            { n: '6', l: 'archived on purpose' },
+            { n: '2024', l: 'at ns since day one' },
             { n: '500+', l: 'founders on campus' },
           ].map((r) => (
             <div key={r.l}>

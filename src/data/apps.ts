@@ -1,19 +1,17 @@
 /**
- * Apps shipped or in flight. The Creativity section reads from this list.
+ * Apps and storefronts. The Creativity section reads from this list.
  *
- * status (per FOUNDER.md kill rule — honest, no vanity):
- *   live       launched AND showing organic pull (strangers using it)
- *   shipping   the current bet, actively being pushed to revenue
+ * status:
+ *   live       launched and in use
+ *   shipping   actively being pushed right now
  *   building   in active development
- *   archived   shipped, no organic growth after 8 weeks. honest, not
- *              shameful. earns its way back only with organic pull.
  *
- * FOCUS PASS 2026-07: everything not actively worked or organically
- * growing moved to archived. levels killed 66 of 70. the portfolio is
- * the record of at-bats, not a wall of live claims.
+ * Only things worth showing go here. Work that is no longer active is
+ * simply removed from the list rather than labelled, so the portfolio
+ * reads as a body of work, not a graveyard.
  */
 
-export type AppStatus = 'live' | 'shipping' | 'building' | 'archived';
+export type AppStatus = 'live' | 'shipping' | 'building';
 
 export type App = {
   slug: string;
@@ -27,28 +25,44 @@ export type App = {
 
 export const apps: App[] = [
   {
+    slug: 'anchormarianas',
+    name: 'anchormarianas.com',
+    url: 'https://anchormarianas.com',
+    tagline: 'ai studio. apps in days, not months',
+    status: 'shipping',
+    tag: 'studio',
+  },
+  {
+    slug: 'sellsniper',
+    name: 'sellsniper.com',
+    url: 'https://sellsniper.com',
+    tagline: 'the ai sales agent',
+    status: 'shipping',
+    tag: 'tools',
+  },
+  {
+    slug: 'deathmoney',
+    name: 'deathmoney.fyi',
+    url: 'https://deathmoney.fyi',
+    tagline: 'your financial freedom number',
+    status: 'shipping',
+    tag: 'tools',
+  },
+  {
+    slug: 'company-university',
+    name: 'company.university',
+    url: 'https://company.university',
+    tagline: 'top companies as campuses',
+    status: 'shipping',
+    tag: 'tools',
+  },
+  {
     slug: 'strummer',
     name: 'strummer.fun',
     url: 'https://strummer.fun',
     tagline: 'the music suite',
     status: 'building',
     tag: 'music',
-  },
-  {
-    slug: 'anchormarianas',
-    name: 'anchormarianas.com',
-    url: 'https://anchormarianas.com',
-    tagline: 'ai studio. operation 24 storefront',
-    status: 'shipping',
-    tag: 'studio',
-  },
-  {
-    slug: 'company-university',
-    name: 'company.university',
-    url: 'https://company.university',
-    tagline: 'top companies as campuses. operation 24 storefront',
-    status: 'shipping',
-    tag: 'tools',
   },
   {
     slug: 'wonderhall',
@@ -63,39 +77,23 @@ export const apps: App[] = [
     name: 'summon.guide',
     url: 'https://summon.guide',
     tagline: 'chat with legendary founders',
-    status: 'archived',
+    status: 'live',
     tag: 'social',
-  },
-  {
-    slug: 'sellsniper',
-    name: 'sellsniper.com',
-    url: 'https://sellsniper.com',
-    tagline: 'the ai sales agent. operation 24 storefront',
-    status: 'shipping',
-    tag: 'tools',
   },
   {
     slug: 'optimism',
     name: 'optimism.fun',
     url: 'https://optimism.fun',
     tagline: "humanity's demand map",
-    status: 'archived',
+    status: 'live',
     tag: 'civic',
-  },
-  {
-    slug: 'deathmoney',
-    name: 'deathmoney.fyi',
-    url: 'https://deathmoney.fyi',
-    tagline: 'financial freedom number. operation 24 storefront',
-    status: 'shipping',
-    tag: 'tools',
   },
   {
     slug: 'technodemocracy',
     name: 'technodemocracy.app',
     url: 'https://technodemocracy.app',
     tagline: 'experiments in civic tech',
-    status: 'archived',
+    status: 'live',
     tag: 'civic',
   },
 ];

@@ -207,12 +207,9 @@ export default function SupportContent() {
           first fifty get etched in.
         </h2>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 dark:text-paper/70 sm:text-base">
-          tip above $25 or subscribe for a year and your name is listed here
-          forever, in order of arrival. the inside-cover of an indie album.
-          once 50 are filled, the list closes.
-        </p>
-        <p className="mt-4 text-xs italic text-ink/45 dark:text-paper/45">
-          patron 001 . the page is blank, waiting.
+          tip above $25 and your name is listed here forever, in order of
+          arrival. the inside-cover of an indie album. once 50 are filled,
+          the list closes.
         </p>
       </motion.section>
 

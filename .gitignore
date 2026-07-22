@@ -56,4 +56,9 @@ backup_*
 .claude/worktrees/
 
 .vercel
+
+# Local-only founder ops. Never commit: contains real revenue figures,
+# strategy notes, and drafts. The GitHub repo is public.
 HANDOFF.md
+FOUNDER.md
+.anchor/

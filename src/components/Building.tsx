@@ -10,7 +10,6 @@ const STATUS_DOT: Record<AppStatus, string> = {
   live: 'bg-leaf',
   shipping: 'bg-ember',
   building: 'bg-sun',
-  archived: 'bg-zinc-300',
 };
 
 export default function Building() {

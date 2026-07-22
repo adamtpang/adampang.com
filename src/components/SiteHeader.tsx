@@ -49,7 +49,6 @@ export default function SiteHeader() {
         {[
           { label: 'about', href: '/about', ext: false },
           { label: 'now', href: '/now', ext: false },
-          { label: 'op24', href: '/24', ext: false },
           { label: 'email', href: 'mailto:adamtpang@gmail.com', ext: false },
           { label: 'cal', href: 'https://cal.com/adamtpang', ext: true },
           { label: 'linkedin', href: 'https://linkedin.com/in/adamtpang', ext: true },
