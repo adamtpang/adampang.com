@@ -34,7 +34,6 @@ export const outlinks: Outlink[] = [
 
   /* WORDS. The writing universe. */
   { label: 'pangaea', href: 'https://pangaea.blog', category: 'words', note: 'newsletter' },
-  { label: 'book.movie', href: 'https://book.movie', category: 'words', note: 'bookshelf' },
 
   /* CODE. Where the building happens. */
   { label: 'github', href: 'https://github.com/adamtpang', category: 'code' },

@@ -35,11 +35,14 @@ was never the bottleneck.
 
 ## current bets
 
-- BET #1 (revenue sprint): the network school field guide. $49
-  one-time, sold from /ns. unfair advantage: longtermer #2, 500+
-  founders on campus, nobody else can write it. ship by 2026-07-15.
-- ACTIVE BUILD: strummer.fun (music suite). passion bet, gets the
-  building hours after the sprint ships.
+- BET #1: UNDECIDED. the ns paid guide was considered and rejected
+  (2026-07). the offer slot is open. the constraint is still
+  distribution, so the next bet must be something adam will push
+  daily, not another artifact to polish.
+- ACTIVE BUILD: strummer.fun (music suite). the passion bet.
+- CLIENT WORK: anchormarianas.com. the only thing that has ever
+  taken real money from strangers ($87 feb 2026, $60 dec 2025).
+  productizing this is the shortest path to revenue.
 - EVERYTHING ELSE: archived until it earns its way back with
   organic pull. archived is honest, not shameful. levels killed 66.
 

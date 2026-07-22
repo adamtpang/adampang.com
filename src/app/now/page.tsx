@@ -49,27 +49,11 @@ export default function NowPage() {
           </p>
         </NowSection>
 
-        <NowSection title="the sprint">
-          <ul className="space-y-1.5">
-            <li>
-              <In href="/ns">the ns field guide</In> . $49, shipping july 15.
-              bet #1 of the speedrun.
-            </li>
-            <li>
-              scoreboard: verified mrr, public. goal line $10k/mo.
-            </li>
-            <li>
-              the loop: ship, price, measure, kill or double down, post
-              receipts. no renames. no redesigns.
-            </li>
-          </ul>
-        </NowSection>
-
-        <NowSection title="also building">
+        <NowSection title="building">
           <ul className="space-y-1.5">
             <li>
               <Ext href="https://strummer.fun">strummer.fun</Ext> . the music
-              suite, after the sprint ships
+              suite
             </li>
             <li>
               <Ext href="https://pangaea.blog">pangaea.blog</Ext> . essays,

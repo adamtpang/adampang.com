@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import SiteHeader from '@/components/SiteHeader';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 
@@ -27,12 +28,23 @@ export default function AboutPage() {
           <span>back home</span>
         </Link>
 
-        <h1
-          className="mt-6 font-display text-4xl leading-[0.95] tracking-tightest text-ink dark:text-paper sm:text-5xl"
-          style={{ fontVariationSettings: '"opsz" 96' }}
-        >
-          Hi, I’m Adam <span className="italic text-sunrise">Pang</span>.
-        </h1>
+        {/* Portrait + name. The greats lead with a face. */}
+        <div className="mt-6 flex items-center gap-5">
+          <Image
+            src="/profile.png"
+            alt="Adam Pang"
+            width={96}
+            height={96}
+            priority
+            className="h-20 w-20 shrink-0 rounded-2xl object-cover ring-1 ring-ink/10 sm:h-24 sm:w-24 dark:ring-paper/15"
+          />
+          <h1
+            className="font-display text-4xl leading-[0.95] tracking-tightest text-ink dark:text-paper sm:text-5xl"
+            style={{ fontVariationSettings: '"opsz" 96' }}
+          >
+            Hi, I’m Adam <span className="italic text-sunrise">Pang</span>.
+          </h1>
+        </div>
 
         <div className="prose-tight mt-6 max-w-none text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">
           <p>
@@ -53,6 +65,25 @@ export default function AboutPage() {
             <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>. Below
             is the punch list.
           </p>
+        </div>
+
+        {/* Receipts. Honest numbers, including the unflattering one. */}
+        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 sm:grid-cols-4 dark:border-paper/15 dark:bg-ink-soft">
+          {[
+            { n: '#2', l: 'longtermer at ns' },
+            { n: '9', l: 'apps shipped' },
+            { n: '6', l: 'archived on purpose' },
+            { n: '500+', l: 'founders on campus' },
+          ].map((r) => (
+            <div key={r.l}>
+              <div className="nums font-display text-2xl tracking-tight text-ink dark:text-paper">
+                {r.n}
+              </div>
+              <div className="mt-0.5 text-[0.7rem] uppercase tracking-[0.12em] text-ink/50 dark:text-paper/50">
+                {r.l}
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Milestones */}

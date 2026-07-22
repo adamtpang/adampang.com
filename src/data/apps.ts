@@ -27,14 +27,6 @@ export type App = {
 
 export const apps: App[] = [
   {
-    slug: 'ns-field-guide',
-    name: 'the ns field guide',
-    url: '/ns',
-    tagline: 'move to network school, from longtermer #2. $49',
-    status: 'shipping',
-    tag: 'tools',
-  },
-  {
     slug: 'strummer',
     name: 'strummer.fun',
     url: 'https://strummer.fun',
@@ -89,14 +81,6 @@ export const apps: App[] = [
     tagline: 'financial freedom number',
     status: 'archived',
     tag: 'tools',
-  },
-  {
-    slug: 'book-movie',
-    name: 'book.movie',
-    url: 'https://book.movie',
-    tagline: 'bookshelf, social',
-    status: 'archived',
-    tag: 'social',
   },
   {
     slug: 'technodemocracy',

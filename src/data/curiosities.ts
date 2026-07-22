@@ -26,5 +26,4 @@ export const curiosityLinks: CuriosityLink[] = [
   { label: 'youtube', href: 'https://youtube.com/@adamtpang', external: true },
   { label: 'x', href: 'https://x.com/adamtpang', external: true },
   { label: 'summon', href: 'https://summon.guide', external: true },
-  { label: 'book.movie', href: 'https://book.movie', external: true },
 ];
