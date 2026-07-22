@@ -120,7 +120,7 @@ export default function Sounds() {
               className={`group relative rounded-full px-2.5 py-1 text-[0.65rem] nums uppercase tracking-[0.16em] transition-all ${
                 active
                   ? 'bg-plum text-white shadow-sm'
-                  : 'border border-zinc-200 text-ink/60 hover:border-plum hover:text-plum dark:border-paper/15 dark:text-paper/60'
+                  : 'border border-zinc-200 text-muted hover:border-plum hover:text-plum dark:border-paper/15 dark:text-muted'
               }`}
             >
               {s.year}
@@ -130,7 +130,7 @@ export default function Sounds() {
       </div>
 
       {/* Outlinks pinned to bottom. */}
-      <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-4 text-xs text-ink/65 dark:text-paper/65">
+      <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-4 text-xs text-muted">
         {[
           { label: 'strummer.fun', href: 'https://strummer.fun' },
           { label: 'wonderhall.live', href: 'https://wonderhall.live' },

@@ -60,7 +60,7 @@ export default function NSDiary() {
             transition={{ duration: 0.6, ease, delay: 0.05 * i }}
             className="grid grid-cols-1 gap-2 py-6 md:grid-cols-[120px_1fr] md:gap-8"
           >
-            <span className="text-xs uppercase tracking-[0.18em] text-ink/40 dark:text-paper/40 nums">
+            <span className="text-xs uppercase tracking-[0.18em] text-faint nums">
               {e.date}
             </span>
             <div>
@@ -76,14 +76,14 @@ export default function NSDiary() {
                 </span>
               </a>
               {e.excerpt && (
-                <p className="mt-2 text-sm text-ink/60 dark:text-paper/60">{e.excerpt}</p>
+                <p className="mt-2 text-sm text-muted">{e.excerpt}</p>
               )}
             </div>
           </motion.li>
         ))}
       </ol>
 
-      <p className="mt-8 text-sm italic text-ink/40 dark:text-paper/40">
+      <p className="mt-8 text-sm italic text-faint">
         more coming. the full ns story takes years to tell.
       </p>
     </Section>

@@ -24,7 +24,7 @@ export default function NowPage() {
       <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-ink/55 dark:text-paper/55 transition-colors hover:text-sunrise"
+          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
         >
           <ArrowLeft size={11} />
           <span>back home</span>
@@ -37,7 +37,7 @@ export default function NowPage() {
           >
             Now<span className="text-sunrise">.</span>
           </h1>
-          <p className="mt-2 text-[0.65rem] uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45">
+          <p className="mt-2 text-[0.65rem] uppercase tracking-[0.22em] text-faint">
             updated {LAST_UPDATED}
           </p>
         </header>
@@ -95,7 +95,7 @@ export default function NowPage() {
           </p>
         </NowSection>
 
-        <footer className="mt-12 border-t border-zinc-200 dark:border-paper/10 pt-6 text-xs text-ink/45 dark:text-paper/45">
+        <footer className="mt-12 border-t border-zinc-200 dark:border-paper/10 pt-6 text-xs text-faint">
           <p>
             This is a <Ext href="https://nownownow.com/about">now page</Ext> in
             the tradition of Derek Sivers. Updated when focus shifts.
@@ -111,7 +111,7 @@ export default function NowPage() {
 function NowSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-9">
-      <h2 className="mb-3 text-[0.65rem] font-medium uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45">
+      <h2 className="mb-3 text-[0.65rem] font-medium uppercase tracking-[0.22em] text-faint">
         {title}
       </h2>
       <div className="text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">

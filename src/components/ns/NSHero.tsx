@@ -17,7 +17,7 @@ export default function NSHero() {
       >
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-ink/50 dark:text-paper/50 transition-colors hover:text-sunrise"
+          className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
         >
           <span>←</span>
           <span>back home</span>
@@ -28,7 +28,7 @@ export default function NSHero() {
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.1, duration: 0.6, ease }}
-        className="mb-6 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-ink/60 dark:text-paper/60"
+        className="mb-6 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted"
       >
         <span className="h-1.5 w-1.5 rounded-full bg-sunrise" />
         <span className="nums">network school · langkawi · malaysia</span>

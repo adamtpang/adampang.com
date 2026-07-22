@@ -27,9 +27,9 @@ export default function Curiosities() {
             transition={{ duration: 0.45, ease, delay: 0.04 * i }}
             className="flex items-baseline gap-2 text-sm text-ink/85 dark:text-paper/85"
           >
-            <span className="nums text-[0.6rem] text-ink/30 dark:text-paper/30">0{i + 1}</span>
+            <span className="nums text-[0.6rem] text-faint">0{i + 1}</span>
             <span className="font-display italic text-ink dark:text-paper">{book.title}</span>
-            <span className="text-xs text-ink/50 dark:text-paper/50">. {book.author}</span>
+            <span className="text-xs text-muted">. {book.author}</span>
           </motion.li>
         ))}
       </ul>

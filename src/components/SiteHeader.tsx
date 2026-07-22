@@ -24,20 +24,20 @@ export default function SiteHeader() {
         <span className="font-display text-lg tracking-tight text-ink dark:text-paper">
           Adam <span className="italic text-sunrise">Pang</span>
         </span>
-        <span className="hidden items-baseline gap-2.5 text-[0.6rem] uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40 sm:inline-flex">
+        <span className="hidden items-baseline gap-2.5 text-[0.6rem] uppercase tracking-[0.2em] text-faint sm:inline-flex">
           {[
             { tag: 'who', label: 'pokedex.life', href: 'https://pokedex.life', color: 'hover:text-sunrise hover:decoration-sunrise' },
             { tag: 'what', label: 'optimism.fun', href: 'https://optimism.fun', color: 'hover:text-sky hover:decoration-sky' },
             { tag: 'where', label: 'interneta.world', href: 'https://interneta.world', color: 'hover:text-plum hover:decoration-plum' },
           ].map((x, i) => (
             <span key={x.tag} className="inline-flex items-baseline gap-1">
-              {i > 0 && <span className="text-ink/25 dark:text-paper/25">.</span>}
+              {i > 0 && <span className="text-faint">.</span>}
               <span>{x.tag}</span>
               <a
                 href={x.href}
                 target="_blank"
                 rel="noreferrer noopener"
-                className={`text-ink/65 underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors dark:text-paper/65 dark:decoration-paper/20 ${x.color}`}
+                className={`text-muted underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors dark:text-muted dark:decoration-paper/20 ${x.color}`}
               >
                 {x.label}
               </a>

@@ -45,7 +45,7 @@ export default function SupportContent() {
     <div className="mx-auto w-full max-w-3xl px-5 py-10 sm:px-6 sm:py-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-ink/55 dark:text-paper/55 transition-colors hover:text-fire"
+        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-fire"
       >
         <ArrowLeft size={11} />
         <span>back home</span>
@@ -102,13 +102,13 @@ export default function SupportContent() {
           >
             <div className="mb-3 flex items-baseline justify-between">
               <span className={`relative top-0.5 h-2 w-2 rounded-full ${c.dot}`} />
-              <ArrowUpRight aria-hidden size={13} className="text-ink/30 dark:text-paper/30" />
+              <ArrowUpRight aria-hidden size={13} className="text-faint" />
             </div>
             <div className="font-display text-xl tracking-tight text-ink dark:text-paper">
               {c.title}
             </div>
-            <div className="mt-1 text-xs text-ink/60 dark:text-paper/60">{c.sub}</div>
-            <div className="mt-3 text-[0.7rem] text-ink/45 dark:text-paper/45">{c.note}</div>
+            <div className="mt-1 text-xs text-muted">{c.sub}</div>
+            <div className="mt-3 text-[0.7rem] text-faint">{c.note}</div>
           </motion.a>
         ))}
       </div>
@@ -127,7 +127,7 @@ export default function SupportContent() {
             <h2 className="font-display text-lg tracking-tight text-ink dark:text-paper">
               crypto
             </h2>
-            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40">
+            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-faint">
               anonymous . click to copy
             </span>
           </div>
@@ -138,14 +138,14 @@ export default function SupportContent() {
                   onClick={() => copy(w.label, w.value)}
                   className="group inline-flex items-center gap-2 rounded-full border border-zinc-200 px-3 py-1.5 text-xs transition-colors hover:border-earth dark:border-paper/15"
                 >
-                  <span className="font-mono uppercase tracking-[0.14em] text-ink/55 dark:text-paper/55">
+                  <span className="font-mono uppercase tracking-[0.14em] text-muted">
                     {w.label}
                   </span>
                   <span className="font-mono text-ink/80 dark:text-paper/80">{w.value}</span>
                   {copied === w.label ? (
                     <Check size={12} className="text-earth" />
                   ) : (
-                    <Copy size={12} className="text-ink/35 dark:text-paper/35 group-hover:text-earth" />
+                    <Copy size={12} className="text-faint group-hover:text-earth" />
                   )}
                 </button>
               </li>
@@ -168,7 +168,7 @@ export default function SupportContent() {
             <h2 className="font-display text-lg tracking-tight text-ink dark:text-paper">
               things i use
             </h2>
-            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-ink/40 dark:text-paper/40">
+            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-faint">
               my codes . you get a perk, i get credit
             </span>
           </div>
@@ -184,7 +184,7 @@ export default function SupportContent() {
                   <span className="font-display text-base tracking-tight text-ink transition-colors group-hover:text-air dark:text-paper">
                     {r.name}
                   </span>
-                  <span className="flex items-baseline gap-1.5 text-right text-xs text-ink/55 dark:text-paper/55">
+                  <span className="flex items-baseline gap-1.5 text-right text-xs text-muted">
                     {r.perk}
                     <ArrowUpRight aria-hidden size={11} className="opacity-50 transition-opacity group-hover:opacity-100" />
                   </span>

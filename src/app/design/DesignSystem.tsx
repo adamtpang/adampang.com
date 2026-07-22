@@ -29,7 +29,7 @@ export default function DesignSystem() {
     <main className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-6 sm:py-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-ink/55 hover:text-sunrise transition-colors"
+        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted hover:text-sunrise transition-colors"
       >
         <span>←</span>
         <span>back home</span>
@@ -37,7 +37,7 @@ export default function DesignSystem() {
 
       {/* Header */}
       <header className="mt-6 mb-10">
-        <div className="mb-2 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.22em] text-ink/55">
+        <div className="mb-2 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.22em] text-muted">
           <span className="h-1.5 w-1.5 rounded-full bg-sunrise" />
           <span>design system v1</span>
         </div>
@@ -47,7 +47,7 @@ export default function DesignSystem() {
         >
           adam pang . <span className="italic text-sunrise">design</span>
         </h1>
-        <p className="mt-3 max-w-xl text-ink/65">
+        <p className="mt-3 max-w-xl text-muted">
           living reference. every token, type, and component on the site lives
           here. white canvas, rainbow accents, sunrise as the spark.
         </p>
@@ -56,7 +56,7 @@ export default function DesignSystem() {
       {/* === COLOR === */}
       <section className="mb-12">
         <SectionTitle index="01" title="color" sigil="bg-sunrise" />
-        <h3 className="mb-3 mt-6 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-ink/40">
+        <h3 className="mb-3 mt-6 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-faint">
           accent palette
         </h3>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6">
@@ -72,16 +72,16 @@ export default function DesignSystem() {
               />
               <div className="bg-white p-3">
                 <div className="font-display text-base">{c.name}</div>
-                <div className="nums mt-0.5 text-[0.65rem] uppercase tracking-[0.16em] text-ink/45">
+                <div className="nums mt-0.5 text-[0.65rem] uppercase tracking-[0.16em] text-faint">
                   {c.hex}
                 </div>
-                <div className="mt-1.5 text-xs text-ink/55">{c.role}</div>
+                <div className="mt-1.5 text-xs text-muted">{c.role}</div>
               </div>
             </div>
           ))}
         </div>
 
-        <h3 className="mb-3 mt-8 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-ink/40">
+        <h3 className="mb-3 mt-8 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-faint">
           neutrals
         </h3>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
@@ -97,10 +97,10 @@ export default function DesignSystem() {
               />
               <div className="bg-white p-3">
                 <div className="font-display text-sm">{c.name}</div>
-                <div className="nums mt-0.5 text-[0.6rem] uppercase tracking-[0.14em] text-ink/45">
+                <div className="nums mt-0.5 text-[0.6rem] uppercase tracking-[0.14em] text-faint">
                   {c.hex}
                 </div>
-                <div className="mt-1 text-[0.7rem] text-ink/55">{c.role}</div>
+                <div className="mt-1 text-[0.7rem] text-muted">{c.role}</div>
               </div>
             </div>
           ))}
@@ -136,7 +136,7 @@ export default function DesignSystem() {
           <Separator />
           <div>
             <Eyebrow>caption . inter xs</Eyebrow>
-            <p className="text-xs text-ink/55">on audible . langkawi, malaysia</p>
+            <p className="text-xs text-muted">on audible . langkawi, malaysia</p>
           </div>
           <Separator />
           <div>
@@ -310,7 +310,7 @@ export default function DesignSystem() {
 
       {/* Footer */}
       <footer className="mt-16 border-t border-zinc-200 pt-6">
-        <p className="text-xs text-ink/45">
+        <p className="text-xs text-faint">
           live reference. every change to the site updates this page.
         </p>
       </footer>
@@ -331,7 +331,7 @@ function SectionTitle({
 }) {
   return (
     <div className="flex items-baseline gap-3">
-      <span className="nums text-[0.65rem] uppercase tracking-[0.2em] text-ink/35">
+      <span className="nums text-[0.65rem] uppercase tracking-[0.2em] text-faint">
         {index}
       </span>
       <span className={`relative top-0.5 inline-block h-2 w-2 rounded-full ${sigil}`} />
@@ -344,7 +344,7 @@ function SectionTitle({
 
 function Eyebrow({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mb-1.5 text-[0.6rem] font-medium uppercase tracking-[0.22em] text-ink/40">
+    <div className="mb-1.5 text-[0.6rem] font-medium uppercase tracking-[0.22em] text-faint">
       {children}
     </div>
   );
@@ -353,7 +353,7 @@ function Eyebrow({ children }: { children: React.ReactNode }) {
 function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline justify-between gap-4">
-      <span className="text-sm text-ink/65">{label}</span>
+      <span className="text-sm text-muted">{label}</span>
       <span className="nums text-xs text-ink/85">{value}</span>
     </div>
   );

@@ -43,14 +43,14 @@ export default function NSReferral() {
             transition={{ duration: 0.5, ease, delay: 0.06 * i }}
             className="flex items-baseline gap-3"
           >
-            <span className="nums text-xs text-ink/30 dark:text-paper/30 mt-1">
+            <span className="nums text-xs text-faint mt-1">
               0{i + 1}
             </span>
             <div>
               <div className="font-display text-lg tracking-tight text-ink dark:text-paper">
                 {o.label}
               </div>
-              <div className="text-sm text-ink/60 dark:text-paper/60">{o.detail}</div>
+              <div className="text-sm text-muted">{o.detail}</div>
             </div>
           </motion.li>
         ))}
@@ -62,7 +62,7 @@ export default function NSReferral() {
         </h3>
         <ol className="mb-6 space-y-2 text-base text-ink/85 dark:text-paper/85">
           <li>
-            <span className="nums text-xs text-ink/40 dark:text-paper/40 mr-2">01</span>
+            <span className="nums text-xs text-faint mr-2">01</span>
             apply through{' '}
             <a
               href="https://ns.com/adam/apply"
@@ -74,7 +74,7 @@ export default function NSReferral() {
             </a>
           </li>
           <li>
-            <span className="nums text-xs text-ink/40 dark:text-paper/40 mr-2">02</span>
+            <span className="nums text-xs text-faint mr-2">02</span>
             email me with why you want to come
           </li>
         </ol>

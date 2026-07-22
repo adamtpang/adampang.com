@@ -22,7 +22,7 @@ export default function AboutPage() {
       <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-ink/55 dark:text-paper/55 transition-colors hover:text-sunrise"
+          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
         >
           <ArrowLeft size={11} />
           <span>back home</span>
@@ -79,7 +79,7 @@ export default function AboutPage() {
               <div className="nums font-display text-2xl tracking-tight text-ink dark:text-paper">
                 {r.n}
               </div>
-              <div className="mt-0.5 text-[0.7rem] uppercase tracking-[0.12em] text-ink/50 dark:text-paper/50">
+              <div className="mt-0.5 text-[0.7rem] uppercase tracking-[0.12em] text-muted">
                 {r.l}
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function AboutPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-10">
-      <h2 className="mb-3 text-[0.65rem] font-medium uppercase tracking-[0.22em] text-ink/45 dark:text-paper/45">
+      <h2 className="mb-3 text-[0.65rem] font-medium uppercase tracking-[0.22em] text-faint">
         {title}
       </h2>
       <div className="text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">
@@ -172,7 +172,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 function Bullet({ year, text }: { year: string; text: string }) {
   return (
     <div className="mb-1.5 flex items-baseline gap-3">
-      <span className="nums shrink-0 text-xs text-ink/40 dark:text-paper/40">{year}</span>
+      <span className="nums shrink-0 text-xs text-faint">{year}</span>
       <span>{text}</span>
     </div>
   );

@@ -44,7 +44,7 @@ export default function Building() {
                 <div className="font-display text-sm tracking-tight text-ink transition-colors group-hover:text-ember dark:text-paper">
                   {app.name}
                 </div>
-                <div className="truncate text-[0.7rem] text-ink/55 dark:text-paper/55">
+                <div className="truncate text-[0.7rem] text-muted">
                   {app.tagline}
                 </div>
               </div>

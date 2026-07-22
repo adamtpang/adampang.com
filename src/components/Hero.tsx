@@ -13,7 +13,7 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 0.1, duration: 0.5, ease }}
-        className="mb-3 inline-flex items-center gap-2 text-[0.6rem] uppercase tracking-[0.22em] text-ink/55"
+        className="mb-3 inline-flex items-center gap-2 text-[0.6rem] uppercase tracking-[0.22em] text-muted"
       >
         <span className="h-1.5 w-1.5 rounded-full bg-sunrise" />
         <span className="nums">23 . guam . langkawi</span>
