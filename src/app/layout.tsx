@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Space_Grotesk, Lato, JetBrains_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { cssVarBlock } from '@/design/tokens';
 import './globals.css';
 
 // Design system fonts: Space Grotesk (display), Lato (body), JetBrains Mono (labels).
@@ -66,6 +67,16 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/*
+          Design tokens, generated from src/design/tokens.json. This is the
+          only declaration of the color custom properties in the app; the
+          downloadable /design/tokens.css is generated from the same call,
+          so the two cannot drift.
+        */}
+        <style
+          id="design-tokens"
+          dangerouslySetInnerHTML={{ __html: cssVarBlock() }}
+        />
         {/* Theme bootstrap. Runs before paint to avoid FOUC. */}
         <script
           dangerouslySetInnerHTML={{

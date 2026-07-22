@@ -1,96 +1,112 @@
 import type { Config } from 'tailwindcss';
+import tokens from './src/design/tokens.json';
 
 /**
- * adampang.com design tokens — "Clean Card-Based Minimal."
- * Imported from the adampang design system (claude design export).
+ * adampang.com theme, generated from src/design/tokens.json.
  *
- * Light: faint cool gradient, near-white cards, #1a1a1a ink, one blue accent.
- * Dark:  near-black, #141414 cards, #fafafa text, lifted blue accent.
+ * Two families of color utility live here:
  *
- * Token names are kept stable so components don't churn; values now map to
- * the design-system palette. `sunrise` is the legacy alias for the blue
- * primary. Per-section accent hues come from the DS /work palette.
+ *   Semantic, mode-aware (fg, muted, faint, card, line, accent, sights...).
+ *   These resolve through CSS custom properties, so `text-muted` is correct
+ *   in both themes and needs no dark: twin. Prefer these.
+ *
+ *   Legacy aliases (ink, paper, sunrise, fire, water, air, earth...). Static
+ *   hexes, kept so the existing `text-ink dark:text-paper` pattern across the
+ *   site keeps working. Their values still come from tokens.json, so there is
+ *   no second source of truth.
+ *
+ * Never write a raw hex in this file. Add it to tokens.json instead.
  */
+
+const c = tokens.color;
+
+/**
+ * Flatten color.<group>.<name> into mode-aware Tailwind entries.
+ *
+ * Deliberately inlined rather than imported from src/design/tokens.ts:
+ * Tailwind loads this config through jiti, which cannot follow a .ts file
+ * that imports JSON. Only the flattening is duplicated. The values still
+ * come from tokens.json alone, and scripts/verify-tokens.mjs asserts that
+ * this output matches the app-side generator exactly.
+ */
+const semanticColors: Record<string, string> = Object.fromEntries(
+  Object.values(c).flatMap((group) =>
+    Object.keys(group).map((name) => [
+      name,
+      `rgb(var(--color-${name}) / <alpha-value>)`,
+    ])
+  )
+);
+
 const config: Config = {
   darkMode: 'class',
   content: ['./src/**/*.{ts,tsx,mdx}'],
   theme: {
     extend: {
       fontFamily: {
-        display: ['var(--font-display)', 'system-ui', 'sans-serif'], // Space Grotesk
-        sans: ['var(--font-body)', 'system-ui', 'sans-serif'], // Lato
-        mono: ['var(--font-mono)', 'ui-monospace', 'monospace'], // JetBrains Mono
+        display: ['var(--font-display)', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-body)', 'system-ui', 'sans-serif'],
+        mono: ['var(--font-mono)', 'ui-monospace', 'monospace'],
       },
       colors: {
-        // Primary blue (DS --primary). `sunrise` is the legacy alias used by
-        // CTAs, links, hover borders, focus rings across components.
-        sunrise: {
-          DEFAULT: '#2563eb',
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
-        },
-        primary: '#2563eb',
+        // Semantic + mode-aware. One class, correct in both themes.
+        ...semanticColors,
 
-        // DS /work accent palette — each section owns exactly one hue.
-        amber: '#f59e0b',
-        sky: '#38bdf8',
-        green: '#34d399',
-        purple: '#c084fc',
-        pink: '#f472b6',
-        red: '#ef4444',
+        // Accent ramp. Components use sunrise-600 for hover fills.
+        sunrise: { DEFAULT: c.brand.accent.light, ...tokens.ramp.accent },
+        primary: c.brand.accent.light,
 
-        // Legacy accent aliases (kept so existing components resolve),
-        // mapped onto the DS accent palette.
-        sun: '#f59e0b', // amber  — header sigil, highlights
-        leaf: '#34d399', // green  — live status
-        plum: '#c084fc', // purple — sounds
-        ember: '#ef4444', // red
-
-        // Bento section accents (one DS hue each).
-        fire: '#f59e0b', // sights      — amber
-        water: '#38bdf8', // sounds      — sky
-        air: '#34d399', // curiosity   — green
-        earth: '#c084fc', // creativity  — purple
-
-        // Neutrals — DS foreground / card / muted.
+        // Legacy neutral aliases.
         ink: {
-          DEFAULT: '#1a1a1a', // primary text (light)
-          soft: '#141414', // card surface (dark)
-          muted: '#64748b', // secondary text, captions
-          faint: '#94a3b8',
+          DEFAULT: c.content.fg.light,
+          soft: c.surface.card.dark,
+          muted: c.content.muted.light,
+          faint: c.content.faint.light,
         },
         paper: {
-          DEFAULT: '#fafafa', // page bg / primary text (dark)
-          soft: '#f1f5f9',
-          muted: '#e2e8f0', // borders
+          DEFAULT: c.content.fg.dark,
+          soft: c.surface.sunken.light,
+          muted: c.surface.line.light,
         },
-        line: '#e2e8f0', // DS --border (light)
+
+        // Legacy section-accent aliases.
+        fire: c.section.sights.light,
+        water: c.section.sounds.light,
+        air: c.section.curiosity.light,
+        earth: c.section.creativity.light,
+        sun: c.section.sights.light,
+        leaf: c.section.curiosity.light,
+        plum: c.section.creativity.light,
+        ember: c.section.alert.light,
+
+        // Legacy raw-hue aliases.
+        amber: c.section.sights.light,
+        sky: c.section.sounds.light,
+        green: c.section.curiosity.light,
+        purple: c.section.creativity.light,
+        red: c.section.alert.light,
+        pink: '#f472b6',
       },
       borderRadius: {
-        DEFAULT: '12px',
-        lg: '16px',
-        sm: '8px',
+        sm: tokens.radius.sm.value,
+        DEFAULT: tokens.radius.md.value,
+        lg: tokens.radius.lg.value,
       },
       boxShadow: {
-        card: '0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04)',
-        'card-md': '0 4px 6px rgba(0,0,0,.05), 0 2px 4px rgba(0,0,0,.03)',
-        'card-lg': '0 10px 25px rgba(0,0,0,.06), 0 4px 10px rgba(0,0,0,.04)',
+        card: tokens.shadow.card.value,
+        'card-md': tokens.shadow['card-md'].value,
+        'card-lg': tokens.shadow['card-lg'].value,
       },
       letterSpacing: {
-        tightest: '-0.02em',
-        tighter: '-0.01em',
-        label: '0.12em',
+        tightest: tokens.type.tracking.tightest.value,
+        tighter: tokens.type.tracking.tighter.value,
+        label: tokens.type.tracking.label.value,
+      },
+      transitionTimingFunction: {
+        brand: tokens.motion.ease.value,
       },
       animation: {
-        'fade-up': 'fadeUp 600ms cubic-bezier(0.16, 1, 0.3, 1) both',
+        'fade-up': `fadeUp ${tokens.motion['duration-reveal'].value} ${tokens.motion.ease.value} both`,
       },
       keyframes: {
         fadeUp: {
