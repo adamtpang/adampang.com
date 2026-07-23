@@ -1,360 +1,581 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { ArrowLeft, Check, Copy } from 'lucide-react';
+import { tokens, colorTokens, colorGroups, type ColorToken } from '@/design/tokens';
 
-const COLORS = [
-  { name: 'primary', hex: '#2563EB', role: 'links, CTAs, hover borders, focus' },
-  { name: 'amber', hex: '#F59E0B', role: 'sights — section accent' },
-  { name: 'sky', hex: '#38BDF8', role: 'sounds — section accent' },
-  { name: 'green', hex: '#34D399', role: 'curiosity — live status' },
-  { name: 'purple', hex: '#C084FC', role: 'creativity — section accent' },
-  { name: 'red', hex: '#EF4444', role: 'alerts, destructive' },
-];
+/**
+ * /design. A living reference: every swatch, scale step, and component state
+ * below is rendered FROM src/design/tokens.json. There is not one hardcoded
+ * hex on this page, which is why it cannot drift the way the previous version
+ * did (it still labelled the fonts "fraunces" and "inter" long after the site
+ * had moved to Space Grotesk and Lato).
+ *
+ * The machine name is printed next to every sample, because the point of the
+ * page is that a human and an agent can both read it.
+ */
 
-const NEUTRALS = [
-  { name: 'background', hex: '#FAFAFA', role: 'page background (light)' },
-  { name: 'card', hex: '#FFFFFF', role: 'card surface (light)' },
-  { name: 'border', hex: '#E2E8F0', role: 'hairlines, card borders' },
-  { name: 'foreground', hex: '#1A1A1A', role: 'primary text' },
-  { name: 'muted', hex: '#64748B', role: 'secondary text, captions' },
-];
+const GROUP_BLURB: Record<string, string> = {
+  surface: 'backgrounds and edges. what things sit on.',
+  content: 'text. three weights of emphasis, all AA on every surface.',
+  brand: 'the one blue. links, CTAs, focus rings.',
+  section: 'one hue per bento section. fills and dots, never body text.',
+};
 
 export default function DesignSystem() {
   return (
-    <main className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-6 sm:py-14">
+    <div className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-6 sm:py-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted hover:text-sunrise transition-colors"
+        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-accent"
       >
-        <span>←</span>
+        <ArrowLeft size={11} />
         <span>back home</span>
       </Link>
 
-      {/* Header */}
-      <header className="mt-6 mb-10">
+      <header className="mt-6 mb-12">
         <div className="mb-2 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.22em] text-muted">
-          <span className="h-1.5 w-1.5 rounded-full bg-sunrise" />
-          <span>design system v1</span>
+          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+          <span>design system v{tokens.meta.version}</span>
         </div>
-        <h1
-          className="font-display text-5xl leading-[0.92] tracking-tightest text-ink sm:text-6xl"
-          style={{ fontVariationSettings: '"opsz" 144' }}
-        >
-          adam pang . <span className="italic text-sunrise">design</span>
+        <h1 className="font-display text-4xl leading-[0.95] tracking-tightest text-fg sm:text-5xl">
+          design<span className="text-accent">.</span>
         </h1>
-        <p className="mt-3 max-w-xl text-muted">
-          living reference. every token, type, and component on the site lives
-          here. white canvas, rainbow accents, sunrise as the spark.
+        <p className="mt-3 max-w-xl text-fg/75">{tokens.meta.description}</p>
+        <p className="mt-2 max-w-xl text-sm text-muted">
+          Every sample here is rendered from{' '}
+          <Mono>{tokens.meta.source}</Mono>. No hardcoded values, so it cannot
+          go stale.
         </p>
+        <TokenLinks />
       </header>
 
-      {/* === COLOR === */}
-      <section className="mb-12">
-        <SectionTitle index="01" title="color" sigil="bg-sunrise" />
-        <h3 className="mb-3 mt-6 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-faint">
-          accent palette
-        </h3>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6">
-          {COLORS.map((c) => (
-            <div
-              key={c.name}
-              className="overflow-hidden rounded-xl border border-zinc-200"
-            >
-              <div
-                className="h-20"
-                style={{ backgroundColor: c.hex }}
-                aria-hidden
-              />
-              <div className="bg-white p-3">
-                <div className="font-display text-base">{c.name}</div>
-                <div className="nums mt-0.5 text-[0.65rem] uppercase tracking-[0.16em] text-faint">
-                  {c.hex}
-                </div>
-                <div className="mt-1.5 text-xs text-muted">{c.role}</div>
+      <Section n="01" title="color">
+        {colorGroups.map((g) => (
+          <div key={g} className="mb-8">
+            <GroupLabel>{g}</GroupLabel>
+            <p className="mb-3 text-sm text-muted">{GROUP_BLURB[g]}</p>
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {colorTokens
+                .filter((t) => t.group === g)
+                .map((t) => (
+                  <Swatch key={t.name} token={t} />
+                ))}
+            </div>
+          </div>
+        ))}
+
+        <GroupLabel>accent ramp</GroupLabel>
+        <p className="mb-3 text-sm text-muted">
+          fixed tints of the primary. components use <Mono>sunrise-600</Mono>{' '}
+          for hover fills.
+        </p>
+        <div className="flex overflow-hidden rounded-lg border border-line">
+          {Object.entries(tokens.ramp.accent).map(([step, hex]) => (
+            <div key={step} className="flex-1" title={`sunrise-${step} ${hex}`}>
+              <div className="h-12" style={{ background: hex }} aria-hidden />
+              <div className="bg-card px-1 py-1.5 text-center font-mono text-[0.6rem] text-muted">
+                {step}
               </div>
             </div>
           ))}
         </div>
+      </Section>
 
-        <h3 className="mb-3 mt-8 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-faint">
-          neutrals
-        </h3>
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-5">
-          {NEUTRALS.map((c) => (
-            <div
-              key={c.name}
-              className="overflow-hidden rounded-xl border border-zinc-200"
-            >
-              <div
-                className="h-14 border-b border-zinc-200"
-                style={{ backgroundColor: c.hex }}
-                aria-hidden
-              />
-              <div className="bg-white p-3">
-                <div className="font-display text-sm">{c.name}</div>
-                <div className="nums mt-0.5 text-[0.6rem] uppercase tracking-[0.14em] text-faint">
-                  {c.hex}
-                </div>
-                <div className="mt-1 text-[0.7rem] text-muted">{c.role}</div>
-              </div>
+      <Section n="02" title="type">
+        <GroupLabel>families</GroupLabel>
+        <div className="mb-8 space-y-4 rounded-lg border border-line bg-card p-5 sm:p-6">
+          {Object.entries(tokens.type.family).map(([name, f]) => (
+            <div key={name}>
+              <MachineName>--font-{name}</MachineName>
+              <p
+                className="mt-1 text-2xl text-fg sm:text-3xl"
+                style={{ fontFamily: f.value }}
+              >
+                Adam Pang . 2026
+              </p>
+              <p className="mt-1 text-xs text-muted">{f.role}</p>
             </div>
           ))}
         </div>
-      </section>
 
-      {/* === TYPE === */}
-      <section className="mb-12">
-        <SectionTitle index="02" title="typography" sigil="bg-sky" />
-        <div className="mt-6 space-y-4 rounded-2xl border border-zinc-200 bg-white p-6 sm:p-8">
-          <div>
-            <Eyebrow>display . fraunces</Eyebrow>
-            <p
-              className="font-display text-5xl leading-[0.95] tracking-tightest text-ink sm:text-7xl"
-              style={{ fontVariationSettings: '"opsz" 144' }}
-            >
-              Adam <span className="italic">Pang</span>
-            </p>
-          </div>
-          <Separator />
-          <div>
-            <Eyebrow>section title . fraunces 3xl</Eyebrow>
-            <p className="font-display text-3xl tracking-tight text-ink">currently</p>
-          </div>
-          <Separator />
-          <div>
-            <Eyebrow>body . inter base</Eyebrow>
-            <p className="text-base text-ink/80">
-              building, writing, making music. living at network school.
-              shipping small bets that compound.
-            </p>
-          </div>
-          <Separator />
-          <div>
-            <Eyebrow>caption . inter xs</Eyebrow>
-            <p className="text-xs text-muted">on audible . langkawi, malaysia</p>
-          </div>
-          <Separator />
-          <div>
-            <Eyebrow>numerals . jetbrains mono</Eyebrow>
-            <p className="nums text-2xl text-ink">23 . 32% . 2025</p>
-          </div>
+        <GroupLabel>scale</GroupLabel>
+        <div className="rounded-lg border border-line bg-card p-5 sm:p-6">
+          {Object.entries(tokens.type.scale).map(([name, s], i, arr) => (
+            <div key={name}>
+              <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 py-2">
+                <div className="w-full sm:w-40 sm:shrink-0">
+                  <MachineName>--text-{name}</MachineName>
+                  <div className="font-mono text-[0.65rem] text-faint">
+                    {s.size} / {s.leading}
+                  </div>
+                </div>
+                <p
+                  className="min-w-0 flex-1 truncate text-fg"
+                  style={{ fontSize: s.size, lineHeight: s.leading }}
+                >
+                  {s.role}
+                </p>
+              </div>
+              {i < arr.length - 1 && <Separator />}
+            </div>
+          ))}
         </div>
-      </section>
 
-      {/* === COMPONENTS === */}
-      <section className="mb-12">
-        <SectionTitle index="03" title="components" sigil="bg-leaf" />
+        <GroupLabel className="mt-8">tracking</GroupLabel>
+        <ScalarRows
+          rows={Object.entries(tokens.type.tracking).map(([k, v]) => ({
+            name: `--tracking-${k}`,
+            value: v.value,
+            role: v.role,
+          }))}
+        />
+      </Section>
 
-        <div className="mt-6 space-y-6">
-          {/* Buttons */}
-          <Card>
-            <CardHeader>
-              <CardTitle>button</CardTitle>
-              <CardDescription>
-                primary uses sunrise. rainbow variants for category buttons.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Tabs defaultValue="default">
-                <TabsList>
-                  <TabsTrigger value="default">default</TabsTrigger>
-                  <TabsTrigger value="rainbow">rainbow</TabsTrigger>
-                  <TabsTrigger value="size">size</TabsTrigger>
-                </TabsList>
-                <TabsContent value="default">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Button>prompt me</Button>
-                    <Button variant="secondary">read pangaea</Button>
-                    <Button variant="ghost">come to ns</Button>
-                    <Button variant="outline">outline</Button>
-                    <Button variant="link">view post</Button>
-                  </div>
-                </TabsContent>
-                <TabsContent value="rainbow">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Button variant="sky">sky</Button>
-                    <Button variant="leaf">leaf</Button>
-                    <Button variant="plum">plum</Button>
-                    <Button variant="sun">sun</Button>
-                    <Button variant="ember">ember</Button>
-                  </div>
-                </TabsContent>
-                <TabsContent value="size">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <Button size="sm">small</Button>
-                    <Button>default</Button>
-                    <Button size="lg">large</Button>
-                  </div>
-                </TabsContent>
-              </Tabs>
-            </CardContent>
-          </Card>
+      <Section n="03" title="space">
+        <p className="mb-3 text-sm text-muted">
+          a 4px base step. mobile gutters and card padding use{' '}
+          <Mono>--space-5</Mono>, opening to <Mono>--space-6</Mono> at sm+.
+        </p>
+        <div className="space-y-2 overflow-x-auto rounded-lg border border-line bg-card p-5 sm:p-6">
+          {Object.entries(tokens.space).map(([k, v]) => (
+            <div key={k} className="flex items-center gap-4">
+              <div className="w-24 shrink-0">
+                <MachineName>--space-{k}</MachineName>
+              </div>
+              <div className="w-14 shrink-0 font-mono text-[0.65rem] text-faint">
+                {v.value}
+              </div>
+              <div
+                className="h-3 shrink-0 rounded-sm bg-accent"
+                style={{ width: v.value }}
+                aria-hidden
+              />
+              <span className="truncate text-xs text-muted">{v.role}</span>
+            </div>
+          ))}
+        </div>
+      </Section>
 
-          {/* Badges */}
-          <Card>
-            <CardHeader>
-              <CardTitle>badge</CardTitle>
-              <CardDescription>tiny pill for status, tag, count.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="flex flex-wrap items-center gap-2">
-                <Badge>default</Badge>
-                <Badge variant="sunrise">shipping</Badge>
+      <Section n="04" title="radius + shadow">
+        <GroupLabel>radius</GroupLabel>
+        <div className="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {Object.entries(tokens.radius).map(([k, v]) => (
+            <div key={k} className="text-center">
+              <div
+                className="mb-2 h-20 w-full border border-line bg-card"
+                style={{ borderRadius: v.value }}
+                aria-hidden
+              />
+              <MachineName>--radius-{k}</MachineName>
+              <div className="font-mono text-[0.65rem] text-faint">{v.value}</div>
+              <div className="mt-0.5 text-[0.7rem] text-muted">{v.role}</div>
+            </div>
+          ))}
+        </div>
+
+        <GroupLabel>shadow</GroupLabel>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          {Object.entries(tokens.shadow).map(([k, v]) => (
+            <div key={k} className="text-center">
+              <div
+                className="mb-3 h-20 w-full rounded-lg bg-card"
+                style={{ boxShadow: v.value }}
+                aria-hidden
+              />
+              <MachineName>--shadow-{k}</MachineName>
+              <div className="mt-0.5 text-[0.7rem] text-muted">{v.role}</div>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section n="05" title="components">
+        <p className="mb-4 text-sm text-muted">
+          hover and press the real controls, and tab through them to see{' '}
+          <Mono>:focus-visible</Mono>, a 2px accent outline at 3px offset set
+          globally. States marked <em>simulated</em> are frozen copies so the
+          styling is visible without a pointer.
+        </p>
+
+        <StateTable
+          title="button"
+          note="rounded-full, accent fill. the primary CTA."
+          states={[
+            { label: 'default', node: <Button>prompt me</Button> },
+            { label: 'hover', node: <Button className="-translate-y-0.5 bg-sunrise-600 shadow-lg">prompt me</Button>, synthetic: true },
+            { label: 'active', node: <Button className="translate-y-0 bg-sunrise-700">prompt me</Button>, synthetic: true },
+            { label: 'focus-visible', node: <Button className="outline outline-2 outline-offset-[3px] outline-accent">prompt me</Button>, synthetic: true },
+            { label: 'disabled', node: <Button disabled>prompt me</Button> },
+          ]}
+        />
+
+        <StateTable
+          title="button . secondary"
+          note="card surface, hairline border. the alternative action."
+          states={[
+            { label: 'default', node: <Button variant="secondary">read pangaea</Button> },
+            { label: 'hover', node: <Button variant="secondary" className="-translate-y-0.5 border-accent text-accent">read pangaea</Button>, synthetic: true },
+            { label: 'active', node: <Button variant="secondary" className="translate-y-0 border-accent bg-sunken text-accent">read pangaea</Button>, synthetic: true },
+            { label: 'focus-visible', node: <Button variant="secondary" className="outline outline-2 outline-offset-[3px] outline-accent">read pangaea</Button>, synthetic: true },
+            { label: 'disabled', node: <Button variant="secondary" disabled>read pangaea</Button> },
+          ]}
+        />
+
+        <StateTable
+          title="link"
+          note="1px underline, hairline decoration until hover."
+          states={[
+            { label: 'default', node: <DemoLink /> },
+            { label: 'hover', node: <DemoLink className="text-accent decoration-accent" />, synthetic: true },
+            { label: 'visited', node: <DemoLink className="text-accent-ink" />, synthetic: true },
+            { label: 'focus-visible', node: <DemoLink className="rounded-sm outline outline-2 outline-offset-[3px] outline-accent" />, synthetic: true },
+          ]}
+        />
+
+        <InputStates />
+
+        <StateTable
+          title="badge"
+          note="status pill. section hues as fills, never as text."
+          states={[
+            { label: 'default', node: <Badge>default</Badge> },
+            { label: 'live', node: <Badge variant="leaf">live</Badge> },
+            { label: 'shipping', node: <Badge variant="sunrise">shipping</Badge> },
+            { label: 'building', node: <Badge variant="sun">building</Badge> },
+          ]}
+        />
+
+        <div className="mt-6">
+          <GroupLabel>card</GroupLabel>
+          <p className="mb-3 text-sm text-muted">
+            <Mono>--color-card</Mono> on <Mono>--color-line</Mono> at{' '}
+            <Mono>--radius-lg</Mono>. the standard container.
+          </p>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <Card>
+              <CardHeader>
+                <CardTitle>resting</CardTitle>
+                <CardDescription>shadow-card, no transform</CardDescription>
+              </CardHeader>
+              <CardContent>
                 <Badge variant="leaf">live</Badge>
-                <Badge variant="sun">building</Badge>
-                <Badge variant="ember">heat</Badge>
-                <Badge variant="sky">info</Badge>
-                <Badge variant="plum">music</Badge>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Card */}
-          <Card>
-            <CardHeader>
-              <CardTitle>card</CardTitle>
-              <CardDescription>
-                white surface, zinc-200 border. the standard container.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Card>
-                <CardHeader>
-                  <CardTitle>sellsniper.com</CardTitle>
-                  <CardDescription>
-                    find the humans who would love your work
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Badge variant="leaf">live</Badge>
-                </CardContent>
-              </Card>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+            <Card className="-translate-y-0.5 border-accent shadow-card-lg">
+              <CardHeader>
+                <CardTitle>hover</CardTitle>
+                <CardDescription>lift 2px, accent border, shadow-card-lg</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Badge variant="leaf">live</Badge>
+              </CardContent>
+            </Card>
+          </div>
         </div>
-      </section>
+      </Section>
 
-      {/* === MOTION === */}
-      <section className="mb-12">
-        <SectionTitle index="04" title="motion" sigil="bg-plum" />
-        <Card className="mt-6">
-          <CardContent className="space-y-3 pt-6">
-            <Row label="ease curve" value="cubic-bezier(0.16, 1, 0.3, 1)" />
-            <Separator />
-            <Row label="micro hover" value="200 ms" />
-            <Separator />
-            <Row label="state change" value="400 ms" />
-            <Separator />
-            <Row label="reveal on scroll" value="700 ms, stagger 40-80 ms" />
-            <Separator />
-            <Row label="hover lift" value="-translate-y-0.5" />
-            <Separator />
-            <Row label="snappy spring" value="stiffness 220, damping 18, mass 0.4" />
-          </CardContent>
-        </Card>
-      </section>
+      <Section n="06" title="motion">
+        <p className="mb-3 text-sm text-muted">
+          one easing curve everywhere. all of it collapses to 0ms under{' '}
+          <Mono>prefers-reduced-motion: reduce</Mono>, enforced globally rather
+          than per component.
+        </p>
+        <ScalarRows
+          rows={Object.entries(tokens.motion).map(([k, v]) => ({
+            name: `--motion-${k}`,
+            value: v.value,
+            role: v.role,
+          }))}
+        />
+      </Section>
 
-      {/* === VOICE === */}
-      <section className="mb-12">
-        <SectionTitle index="05" title="voice" sigil="bg-ember" />
-        <Card className="mt-6">
-          <CardContent className="pt-6">
-            <p className="font-display italic text-2xl text-ink">
-              lowercase. specific. honest. warm. no em dashes ever.
-            </p>
-            <Separator className="my-4" />
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <div>
-                <Eyebrow>yes</Eyebrow>
-                <ul className="mt-2 space-y-1 text-sm text-ink/80">
-                  <li>building, writing, making music.</li>
-                  <li>prompt me</li>
-                  <li>one playlist per year.</li>
-                </ul>
-              </div>
-              <div>
-                <Eyebrow>no</Eyebrow>
-                <ul className="mt-2 space-y-1 text-sm text-ink/80">
-                  <li>Building software at NS!</li>
-                  <li>Subscribe to Pangaea — newsletter</li>
-                  <li>Click here to learn more</li>
-                </ul>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-      </section>
+      <ForAgents />
 
-      {/* === SPACING === */}
-      <section className="mb-12">
-        <SectionTitle index="06" title="spacing" sigil="bg-sun" />
-        <Card className="mt-6">
-          <CardContent className="space-y-3 pt-6">
-            <Row label="section vertical" value="py-6 sm:py-7 md:py-8" />
-            <Separator />
-            <Row label="section horizontal" value="px-5 sm:px-7 md:px-9" />
-            <Separator />
-            <Row label="card radius" value="rounded-2xl . 16 px" />
-            <Separator />
-            <Row label="button radius" value="rounded-full" />
-            <Separator />
-            <Row label="container max" value="max-w-3xl . 768 px" />
-          </CardContent>
-        </Card>
-      </section>
-
-      {/* Footer */}
-      <footer className="mt-16 border-t border-zinc-200 pt-6">
+      <footer className="mt-14 border-t border-line pt-6">
         <p className="text-xs text-faint">
-          live reference. every change to the site updates this page.
+          generated from {tokens.meta.source} . v{tokens.meta.version}
         </p>
       </footer>
-    </main>
+    </div>
   );
 }
 
-/* ---------- helpers ---------- */
+/* ---------- exports ---------- */
 
-function SectionTitle({
-  index,
-  title,
-  sigil,
-}: {
-  index: string;
-  title: string;
-  sigil: string;
-}) {
+function TokenLinks() {
+  const links = [
+    { href: '/design/tokens.json', label: 'tokens.json', type: 'application/json' },
+    { href: '/design/tokens.css', label: 'tokens.css', type: 'text/css' },
+    { href: '/api/profile.json', label: 'profile.json', type: 'application/json' },
+    { href: '/llms.txt', label: 'llms.txt', type: 'text/markdown' },
+  ];
   return (
-    <div className="flex items-baseline gap-3">
-      <span className="nums text-[0.65rem] uppercase tracking-[0.2em] text-faint">
-        {index}
-      </span>
-      <span className={`relative top-0.5 inline-block h-2 w-2 rounded-full ${sigil}`} />
-      <h2 className="font-display text-3xl tracking-tight text-ink md:text-4xl">
-        {title}
+    <div className="mt-5 flex flex-wrap gap-2">
+      {links.map((l) => (
+        <a
+          key={l.href}
+          href={l.href}
+          className="inline-flex items-baseline gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-xs transition-colors hover:border-accent"
+        >
+          <span className="font-mono text-fg">{l.label}</span>
+          <span className="font-mono text-[0.6rem] text-faint">{l.type}</span>
+        </a>
+      ))}
+    </div>
+  );
+}
+
+/* ---------- swatch ---------- */
+
+function Swatch({ token }: { token: ColorToken }) {
+  const [copied, setCopied] = useState(false);
+
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(`var(${token.cssVar})`);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1400);
+    } catch {}
+  };
+
+  return (
+    <div className="overflow-hidden rounded-lg border border-line bg-card">
+      {/* Both modes at once. The right half is the literal dark value. */}
+      <div className="flex h-16" aria-hidden>
+        <div className="flex-1" style={{ background: token.light }} />
+        <div className="flex-1" style={{ background: token.dark }} />
+      </div>
+      <div className="p-3">
+        <button
+          onClick={copy}
+          className="group flex w-full items-center justify-between gap-2 text-left"
+          aria-label={`Copy var(${token.cssVar})`}
+        >
+          <code className="font-mono text-xs text-fg">{token.cssVar}</code>
+          {copied ? (
+            <Check size={12} className="shrink-0 text-curiosity" />
+          ) : (
+            <Copy
+              size={12}
+              className="shrink-0 text-faint transition-colors group-hover:text-accent"
+            />
+          )}
+        </button>
+        <div className="mt-1 flex gap-3 font-mono text-[0.65rem] text-faint">
+          <span>{token.light}</span>
+          <span>{token.dark}</span>
+        </div>
+        <p className="mt-1.5 text-[0.7rem] leading-snug text-muted">{token.role}</p>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- component states ---------- */
+
+type State = { label: string; node: React.ReactNode; synthetic?: boolean };
+
+function StateTable({ title, note, states }: { title: string; note: string; states: State[] }) {
+  return (
+    <div className="mb-6">
+      <GroupLabel>{title}</GroupLabel>
+      <p className="mb-3 text-sm text-muted">{note}</p>
+      {/* Scrolls inside itself so the page body never scrolls sideways. */}
+      <div className="overflow-x-auto rounded-lg border border-line bg-card">
+        <div className="flex min-w-max divide-x divide-line">
+          {states.map((s) => (
+            <div key={s.label} className="flex min-w-[9rem] flex-col items-center gap-3 p-4">
+              <div className="flex min-h-[2.5rem] items-center">{s.node}</div>
+              <div className="text-center">
+                <div className="font-mono text-[0.65rem] text-fg">{s.label}</div>
+                {s.synthetic && <div className="mt-0.5 text-[0.6rem] text-faint">simulated</div>}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/** Real inputs, so the focus ring can actually be tabbed to. */
+function InputStates() {
+  const fields = [
+    { label: 'default', props: { placeholder: 'your email' } },
+    { label: 'filled', props: { defaultValue: 'adam@adampang.com' } },
+    { label: 'disabled', props: { placeholder: 'unavailable', disabled: true } },
+    { label: 'invalid', props: { defaultValue: 'not-an-email', 'aria-invalid': true } },
+  ];
+  return (
+    <div className="mb-6">
+      <GroupLabel>input</GroupLabel>
+      <p className="mb-3 text-sm text-muted">these are real inputs. click and tab through them.</p>
+      <div className="grid grid-cols-1 gap-3 rounded-lg border border-line bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
+        {fields.map((f) => (
+          <label key={f.label} className="block">
+            <span className="mb-1.5 block font-mono text-[0.65rem] text-muted">{f.label}</span>
+            <input
+              type="text"
+              {...f.props}
+              className="w-full rounded border border-line bg-card px-3 py-2 text-sm text-fg placeholder:text-faint focus-visible:border-accent disabled:cursor-not-allowed disabled:bg-sunken disabled:text-faint aria-[invalid=true]:border-alert-ink"
+            />
+          </label>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function DemoLink({ className = '' }: { className?: string }) {
+  return (
+    <a
+      href="#sample"
+      onClick={(e) => e.preventDefault()}
+      className={`text-fg underline decoration-line decoration-1 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent ${className}`}
+    >
+      pangaea.blog
+    </a>
+  );
+}
+
+/* ---------- for agents ---------- */
+
+function ForAgents() {
+  return (
+    <section className="mt-12 rounded-lg border border-accent/30 bg-card p-6 sm:p-7">
+      <div className="mb-2 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.22em] text-muted">
+        <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+        <span>for agents</span>
+      </div>
+      <h2 className="font-display text-2xl tracking-tight text-fg">
+        building something on-brand?
       </h2>
-    </div>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-fg/75">
+        Fetch the tokens rather than reading hexes off this page. Both files are
+        generated from the same source in the same build, are CORS-open, and
+        carry every value shown above.
+      </p>
+
+      <pre className="mt-4 overflow-x-auto rounded border border-line bg-sunken p-4 font-mono text-xs leading-relaxed text-fg">
+        <code>{`curl https://adampang.com/design/tokens.json
+curl https://adampang.com/design/tokens.css`}</code>
+      </pre>
+
+      <h3 className="mt-6 font-display text-base tracking-tight text-fg">
+        three rules that keep work on-brand
+      </h3>
+      <ol className="mt-2 space-y-2.5 text-sm text-fg/80">
+        <li className="flex gap-3">
+          <span className="shrink-0 font-mono text-xs text-accent">01</span>
+          <span>
+            <strong className="font-medium text-fg">
+              Reference the variable, never the hex.
+            </strong>{' '}
+            Write <Mono>var(--color-fg)</Mono>, not <Mono>#1a1a1a</Mono>. Every
+            token is mode-aware, so one reference is correct in both themes. A
+            literal hex is right in one mode and wrong in the other.
+          </span>
+        </li>
+        <li className="flex gap-3">
+          <span className="shrink-0 font-mono text-xs text-accent">02</span>
+          <span>
+            <strong className="font-medium text-fg">
+              One accent, one hue per section.
+            </strong>{' '}
+            <Mono>--color-accent</Mono> owns links, CTAs, and focus. Section hues
+            are decorative fills and dots. Never set body text in one: at ~2:1 on
+            white they fail AA, which is why <Mono>--color-alert-ink</Mono>{' '}
+            exists separately from <Mono>--color-alert</Mono>.
+          </span>
+        </li>
+        <li className="flex gap-3">
+          <span className="shrink-0 font-mono text-xs text-accent">03</span>
+          <span>
+            <strong className="font-medium text-fg">
+              Three text weights, no opacity.
+            </strong>{' '}
+            <Mono>--color-fg</Mono>, <Mono>--color-muted</Mono>,{' '}
+            <Mono>--color-faint</Mono>. Do not dim text with opacity to invent a
+            fourth. That is exactly what failed AA here:{' '}
+            <Mono>text-ink/55</Mono> measured 3.90:1 against a 4.5:1
+            requirement.
+          </span>
+        </li>
+      </ol>
+
+      <p className="mt-5 text-xs text-muted">
+        Identity data lives at{' '}
+        <a
+          href="/api/profile.json"
+          className="text-accent underline decoration-1 underline-offset-2"
+        >
+          /api/profile.json
+        </a>{' '}
+        and{' '}
+        <a href="/llms.txt" className="text-accent underline decoration-1 underline-offset-2">
+          /llms.txt
+        </a>
+        .
+      </p>
+    </section>
   );
 }
 
-function Eyebrow({ children }: { children: React.ReactNode }) {
+/* ---------- primitives ---------- */
+
+function Section({ n, title, children }: { n: string; title: string; children: React.ReactNode }) {
   return (
-    <div className="mb-1.5 text-[0.6rem] font-medium uppercase tracking-[0.22em] text-faint">
+    <section className="mb-12">
+      <div className="mb-5 flex items-baseline gap-3">
+        <span className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-faint">{n}</span>
+        <h2 className="font-display text-2xl tracking-tight text-fg md:text-3xl">{title}</h2>
+      </div>
       {children}
-    </div>
+    </section>
   );
 }
 
-function Row({ label, value }: { label: string; value: string }) {
+function GroupLabel({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   return (
-    <div className="flex items-baseline justify-between gap-4">
-      <span className="text-sm text-muted">{label}</span>
-      <span className="nums text-xs text-ink/85">{value}</span>
+    <h3
+      className={`mb-1.5 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-muted ${className}`}
+    >
+      {children}
+    </h3>
+  );
+}
+
+function MachineName({ children }: { children: React.ReactNode }) {
+  return <code className="font-mono text-[0.7rem] text-fg">{children}</code>;
+}
+
+function Mono({ children }: { children: React.ReactNode }) {
+  return (
+    <code className="rounded bg-sunken px-1 py-0.5 font-mono text-[0.85em] text-fg">
+      {children}
+    </code>
+  );
+}
+
+function ScalarRows({ rows }: { rows: { name: string; value: string; role: string }[] }) {
+  return (
+    <div className="rounded-lg border border-line bg-card p-5 sm:p-6">
+      {rows.map((r, i) => (
+        <div key={r.name}>
+          <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 py-2">
+            <MachineName>{r.name}</MachineName>
+            <span className="font-mono text-xs text-muted">{r.value}</span>
+            <span className="w-full text-[0.7rem] text-faint sm:w-auto">{r.role}</span>
+          </div>
+          {i < rows.length - 1 && <Separator />}
+        </div>
+      ))}
     </div>
   );
 }

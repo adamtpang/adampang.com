@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:contrast": "node scripts/contrast.mjs --fail",
+    "check:tokens": "node scripts/verify-tokens.mjs",
+    "check:jsonld": "node scripts/validate-jsonld.mjs",
+    "verify": "pnpm build && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -26,12 +30,13 @@
     "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.6",
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
-    "eslint": "^10.2.1",
-    "eslint-config-next": "^16.2.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.21",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3"
