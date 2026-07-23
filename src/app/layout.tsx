@@ -3,6 +3,8 @@ import { Space_Grotesk, Lato, JetBrains_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { cssVarBlock } from '@/design/tokens';
+import { buildJsonLd } from '@/lib/jsonld';
+import { profile } from '@/data/profile';
 import './globals.css';
 
 // Design system fonts: Space Grotesk (display), Lato (body), JetBrains Mono (labels).
@@ -27,31 +29,52 @@ const mono = JetBrains_Mono({
   weight: ['400', '500'],
 });
 
+/**
+ * Metadata reads from src/data/profile.ts so the description, keywords, and
+ * social cards cannot drift from the JSON-LD and /api/profile.json. Notably
+ * there is no hardcoded age here any more: it went stale every birthday.
+ */
 export const metadata: Metadata = {
-  metadataBase: new URL('https://adampang.com'),
+  metadataBase: new URL(profile.url),
   title: {
-    default: 'Adam Pang',
-    template: '%s · Adam Pang',
+    default: profile.name,
+    template: `%s · ${profile.name}`,
   },
-  description:
-    'Adam Pang. 23, born on Guam. Optimist, curious, creative, musician, writer, founder. Living at Network School Malaysia, building optimism into software.',
+  description: profile.summary,
+  applicationName: 'adampang.com',
+  authors: [{ name: profile.name, url: profile.url }],
+  creator: profile.name,
+  publisher: profile.name,
+  keywords: [...profile.knowsAbout, ...profile.roles, profile.name],
+  alternates: {
+    canonical: '/',
+    types: {
+      'application/json': '/api/profile.json',
+      'text/markdown': '/llms.txt',
+    },
+  },
   openGraph: {
-    type: 'website',
+    type: 'profile',
     locale: 'en_US',
-    url: 'https://adampang.com',
+    url: profile.url,
     siteName: 'adampang.com',
-    title: 'Adam Pang',
-    description:
-      'Optimist, curious, creative, musician, writer, founder. Living at Network School Malaysia, building optimism into software.',
+    title: profile.name,
+    description: profile.headline,
   },
   twitter: {
     card: 'summary_large_image',
+    site: '@adamtpang',
     creator: '@adamtpang',
+    title: profile.name,
+    description: profile.headline,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   icons: {
-    icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-    ],
+    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   },
 };
 
@@ -94,54 +117,29 @@ export default function RootLayout({
             `,
           }}
         />
-      </head>
-      <body className="antialiased">
-        {/* JSON-LD person schema. Helps Google knowledge graph + AI agents
-            understand who Adam is and what he does. */}
+        {/*
+          schema.org Person + WebSite, generated from src/data/profile.ts.
+          In <head> so crawlers that only parse the head still find it.
+          Canonical JSON twin: /api/profile.json
+        */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Person',
-              name: 'Adam Pang',
-              alternateName: 'Adam Tomas Guzman Pangelinan',
-              url: 'https://adampang.com',
-              email: 'adamtpang@gmail.com',
-              birthPlace: { '@type': 'Place', name: 'Guam' },
-              jobTitle: 'Founder, Builder, Musician',
-              description:
-                'Building, writing, making music. Living at Network School in Malaysia. Shipping small bets that compound.',
-              sameAs: [
-                'https://x.com/adamtpang',
-                'https://github.com/adamtpang',
-                'https://farcaster.xyz/adampang',
-                'https://youtube.com/@adamtpang',
-                'https://instagram.com/adamtpang',
-                'https://linkedin.com/in/adamtpang',
-                'https://soundcloud.com/adamtpang',
-                'https://pangaea.blog',
-              ],
-              knowsAbout: [
-                'software',
-                'philosophy',
-                'music',
-                'building',
-                'network states',
-              ],
-              worksFor: {
-                '@type': 'Organization',
-                name: 'Anchor Marianas',
-                url: 'https://anchormarianas.com',
-              },
-              affiliation: {
-                '@type': 'Organization',
-                name: 'Network School',
-                url: 'https://ns.com',
-              },
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildJsonLd()) }}
         />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="/api/profile.json"
+          title="Machine-readable profile"
+        />
+        <link
+          rel="alternate"
+          type="text/markdown"
+          href="/llms.txt"
+          title="LLM-facing brief"
+        />
+      </head>
+      <body className="antialiased">
         {children}
         <Analytics />
         <SpeedInsights />

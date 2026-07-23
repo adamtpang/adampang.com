@@ -37,7 +37,7 @@ export default function SiteHeader() {
                 href={x.href}
                 target="_blank"
                 rel="noreferrer noopener"
-                className={`text-muted underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors dark:text-muted dark:decoration-paper/20 ${x.color}`}
+                className={`text-muted underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors dark:decoration-paper/20 ${x.color}`}
               >
                 {x.label}
               </a>
@@ -45,7 +45,10 @@ export default function SiteHeader() {
           ))}
         </span>
       </div>
-      <nav className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink/70 dark:text-paper/70">
+      <nav
+        aria-label="Site"
+        className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink/70 dark:text-paper/70"
+      >
         {[
           { label: 'about', href: '/about', ext: false },
           { label: 'now', href: '/now', ext: false },

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import SiteHeader from '@/components/SiteHeader';
+import { buildProfilePageJsonLd } from '@/lib/jsonld';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -18,6 +19,11 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="relative">
+      {/* ProfilePage node, linked by @id to the Person in the root layout. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildProfilePageJsonLd()) }}
+      />
       <SiteHeader />
       <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
         <Link
