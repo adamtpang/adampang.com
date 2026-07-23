@@ -87,6 +87,15 @@ const config: Config = {
         red: c.section.alert.light,
         pink: '#f472b6',
       },
+      // Named steps from the token scale: text-caption, text-label, text-lead.
+      // Components should use these instead of arbitrary text-[0.65rem]
+      // values, which is how the site ended up with 8.8px body copy.
+      fontSize: Object.fromEntries(
+        Object.entries(tokens.type.scale).map(([name, s]) => [
+          name,
+          [s.size, { lineHeight: s.leading }] as [string, { lineHeight: string }],
+        ])
+      ),
       borderRadius: {
         sm: tokens.radius.sm.value,
         DEFAULT: tokens.radius.md.value,

@@ -85,7 +85,7 @@ export default function AboutPage() {
               <div className="nums font-display text-2xl tracking-tight text-ink dark:text-paper">
                 {r.n}
               </div>
-              <div className="mt-0.5 text-[0.7rem] uppercase tracking-[0.12em] text-muted">
+              <div className="mt-0.5 text-caption uppercase tracking-[0.12em] text-muted">
                 {r.l}
               </div>
             </div>
@@ -165,7 +165,7 @@ export default function AboutPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-10">
-      <h2 className="mb-3 text-[0.65rem] font-medium uppercase tracking-[0.22em] text-faint">
+      <h2 className="mb-3 text-caption font-medium uppercase tracking-[0.22em] text-faint">
         {title}
       </h2>
       <div className="text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">

@@ -39,7 +39,7 @@ export default function DesignSystem() {
       </Link>
 
       <header className="mt-6 mb-12">
-        <div className="mb-2 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.22em] text-muted">
+        <div className="mb-2 inline-flex items-center gap-2 text-caption uppercase tracking-[0.22em] text-muted">
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />
           <span>design system v{tokens.meta.version}</span>
         </div>
@@ -79,7 +79,7 @@ export default function DesignSystem() {
           {Object.entries(tokens.ramp.accent).map(([step, hex]) => (
             <div key={step} className="flex-1" title={`sunrise-${step} ${hex}`}>
               <div className="h-12" style={{ background: hex }} aria-hidden />
-              <div className="bg-card px-1 py-1.5 text-center font-mono text-[0.6rem] text-muted">
+              <div className="bg-card px-1 py-1.5 text-center font-mono text-caption text-muted">
                 {step}
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function DesignSystem() {
               <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 py-2">
                 <div className="w-full sm:w-40 sm:shrink-0">
                   <MachineName>--text-{name}</MachineName>
-                  <div className="font-mono text-[0.65rem] text-faint">
+                  <div className="font-mono text-caption text-faint">
                     {s.size} / {s.leading}
                   </div>
                 </div>
@@ -148,7 +148,7 @@ export default function DesignSystem() {
               <div className="w-24 shrink-0">
                 <MachineName>--space-{k}</MachineName>
               </div>
-              <div className="w-14 shrink-0 font-mono text-[0.65rem] text-faint">
+              <div className="w-14 shrink-0 font-mono text-caption text-faint">
                 {v.value}
               </div>
               <div
@@ -173,8 +173,8 @@ export default function DesignSystem() {
                 aria-hidden
               />
               <MachineName>--radius-{k}</MachineName>
-              <div className="font-mono text-[0.65rem] text-faint">{v.value}</div>
-              <div className="mt-0.5 text-[0.7rem] text-muted">{v.role}</div>
+              <div className="font-mono text-caption text-faint">{v.value}</div>
+              <div className="mt-0.5 text-caption text-muted">{v.role}</div>
             </div>
           ))}
         </div>
@@ -189,7 +189,7 @@ export default function DesignSystem() {
                 aria-hidden
               />
               <MachineName>--shadow-{k}</MachineName>
-              <div className="mt-0.5 text-[0.7rem] text-muted">{v.role}</div>
+              <div className="mt-0.5 text-caption text-muted">{v.role}</div>
             </div>
           ))}
         </div>
@@ -324,7 +324,7 @@ function TokenLinks() {
           className="inline-flex items-baseline gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-xs transition-colors hover:border-accent"
         >
           <span className="font-mono text-fg">{l.label}</span>
-          <span className="font-mono text-[0.6rem] text-faint">{l.type}</span>
+          <span className="font-mono text-caption text-faint">{l.type}</span>
         </a>
       ))}
     </div>
@@ -367,11 +367,11 @@ function Swatch({ token }: { token: ColorToken }) {
             />
           )}
         </button>
-        <div className="mt-1 flex gap-3 font-mono text-[0.65rem] text-faint">
+        <div className="mt-1 flex gap-3 font-mono text-caption text-faint">
           <span>{token.light}</span>
           <span>{token.dark}</span>
         </div>
-        <p className="mt-1.5 text-[0.7rem] leading-snug text-muted">{token.role}</p>
+        <p className="mt-1.5 text-caption leading-snug text-muted">{token.role}</p>
       </div>
     </div>
   );
@@ -393,8 +393,8 @@ function StateTable({ title, note, states }: { title: string; note: string; stat
             <div key={s.label} className="flex min-w-[9rem] flex-col items-center gap-3 p-4">
               <div className="flex min-h-[2.5rem] items-center">{s.node}</div>
               <div className="text-center">
-                <div className="font-mono text-[0.65rem] text-fg">{s.label}</div>
-                {s.synthetic && <div className="mt-0.5 text-[0.6rem] text-faint">simulated</div>}
+                <div className="font-mono text-caption text-fg">{s.label}</div>
+                {s.synthetic && <div className="mt-0.5 text-caption text-faint">simulated</div>}
               </div>
             </div>
           ))}
@@ -419,7 +419,7 @@ function InputStates() {
       <div className="grid grid-cols-1 gap-3 rounded-lg border border-line bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
         {fields.map((f) => (
           <label key={f.label} className="block">
-            <span className="mb-1.5 block font-mono text-[0.65rem] text-muted">{f.label}</span>
+            <span className="mb-1.5 block font-mono text-caption text-muted">{f.label}</span>
             <input
               type="text"
               {...f.props}
@@ -449,7 +449,7 @@ function DemoLink({ className = '' }: { className?: string }) {
 function ForAgents() {
   return (
     <section className="mt-12 rounded-lg border border-accent/30 bg-card p-6 sm:p-7">
-      <div className="mb-2 inline-flex items-center gap-2 text-[0.65rem] uppercase tracking-[0.22em] text-muted">
+      <div className="mb-2 inline-flex items-center gap-2 text-caption uppercase tracking-[0.22em] text-muted">
         <span className="h-1.5 w-1.5 rounded-full bg-accent" />
         <span>for agents</span>
       </div>
@@ -533,7 +533,7 @@ function Section({ n, title, children }: { n: string; title: string; children: R
   return (
     <section className="mb-12">
       <div className="mb-5 flex items-baseline gap-3">
-        <span className="font-mono text-[0.65rem] uppercase tracking-[0.2em] text-faint">{n}</span>
+        <span className="font-mono text-caption uppercase tracking-[0.2em] text-faint">{n}</span>
         <h2 className="font-display text-2xl tracking-tight text-fg md:text-3xl">{title}</h2>
       </div>
       {children}
@@ -544,7 +544,7 @@ function Section({ n, title, children }: { n: string; title: string; children: R
 function GroupLabel({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   return (
     <h3
-      className={`mb-1.5 text-[0.65rem] font-medium uppercase tracking-[0.2em] text-muted ${className}`}
+      className={`mb-1.5 text-caption font-medium uppercase tracking-[0.2em] text-muted ${className}`}
     >
       {children}
     </h3>
@@ -552,7 +552,7 @@ function GroupLabel({ children, className = '' }: { children: React.ReactNode; c
 }
 
 function MachineName({ children }: { children: React.ReactNode }) {
-  return <code className="font-mono text-[0.7rem] text-fg">{children}</code>;
+  return <code className="font-mono text-caption text-fg">{children}</code>;
 }
 
 function Mono({ children }: { children: React.ReactNode }) {
@@ -571,7 +571,7 @@ function ScalarRows({ rows }: { rows: { name: string; value: string; role: strin
           <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 py-2">
             <MachineName>{r.name}</MachineName>
             <span className="font-mono text-xs text-muted">{r.value}</span>
-            <span className="w-full text-[0.7rem] text-faint sm:w-auto">{r.role}</span>
+            <span className="w-full text-caption text-faint sm:w-auto">{r.role}</span>
           </div>
           {i < rows.length - 1 && <Separator />}
         </div>

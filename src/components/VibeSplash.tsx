@@ -73,7 +73,7 @@ export default function VibeSplash() {
             </button>
             <button
               onClick={close}
-              className="text-[0.65rem] uppercase tracking-[0.2em] text-faint transition-colors hover:text-ink"
+              className="text-caption uppercase tracking-[0.2em] text-faint transition-colors hover:text-ink"
             >
               skip
             </button>

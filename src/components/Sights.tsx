@@ -55,51 +55,67 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
         style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
       >
         {photos.map((p, i) => (
+          // No entrance animation. These tiles are above the fold and the
+          // first one is the LCP element; an `initial={{opacity: 0}}` +
+          // whileInView pair keeps it invisible until JS hydrates and the
+          // IntersectionObserver fires, which put 2995ms of "render delay"
+          // into a 3.8s LCP. Hover still animates.
           <motion.a
             key={p.pathname}
             href={IG}
             target="_blank"
             rel="noreferrer noopener"
-            initial={{ opacity: 0, y: 6 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-40px' }}
-            transition={{ duration: 0.5, ease, delay: 0.04 * i }}
             whileHover={{ y: -2 }}
+            transition={{ duration: 0.5, ease }}
             className="group relative aspect-square overflow-hidden rounded-lg border border-zinc-200 dark:border-paper/15"
-            aria-label={p.caption}
+            // Must contain the visible caption, or voice control ("click
+            // <caption>") cannot address this link.
+            aria-label={`${p.caption} . view on Instagram`}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={p.url}
-              alt={p.caption}
+              // Decorative: the caption is rendered as visible text below,
+              // so a matching alt would announce it a second time.
+              alt=""
+              // Explicit square dimensions. Without them this was the single
+              // largest layout shift on the page (0.083 of a 0.103 CLS):
+              // the browser had no intrinsic ratio to reserve space with.
+              width={512}
+              height={512}
+              // The first tile is the LCP element, so it loads eagerly at
+              // high priority instead of waiting its turn.
+              loading={i === 0 ? 'eager' : 'lazy'}
+              fetchPriority={i === 0 ? 'high' : 'auto'}
+              decoding="async"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent" />
-            <span className="absolute bottom-1 left-1.5 text-[0.55rem] uppercase tracking-[0.16em] text-white/90">
+            <span className="absolute bottom-1 left-1.5 text-caption uppercase tracking-[0.16em] text-white/90">
               {p.caption}
             </span>
           </motion.a>
         ))}
 
-        {/* Instagram tile — always present, the door to the full feed. */}
+        {/* Instagram tile. Always present, the door to the full feed.
+            Also above the fold, so also no opacity-0 entrance. */}
         <motion.a
           href={IG}
           target="_blank"
           rel="noreferrer noopener"
-          initial={{ opacity: 0, y: 6 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-40px' }}
-          transition={{ duration: 0.5, ease, delay: 0.04 * photos.length }}
           whileHover={{ y: -2 }}
+          transition={{ duration: 0.5, ease }}
           className="group relative flex aspect-square flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 text-white transition-all dark:border-paper/15"
           style={{
             backgroundImage:
               'linear-gradient(135deg, #2563eb 0%, #38bdf8 100%)',
           }}
-          aria-label="More photos on Instagram"
+          // Starts with the visible text ("more on ig") so the accessible
+          // name matches what a voice-control user would say.
+          aria-label="more on ig . Instagram"
         >
           <span className="opacity-95"><IgGlyph size={18} /></span>
-          <span className="px-1 text-center text-[0.55rem] uppercase tracking-[0.16em] leading-tight">
+          <span className="px-1 text-center text-caption uppercase tracking-[0.16em] leading-tight">
             more on ig
           </span>
         </motion.a>

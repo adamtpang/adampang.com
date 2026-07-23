@@ -53,7 +53,7 @@ export default function Section({
             </h2>
           </div>
           {kicker && (
-            <span className="text-[0.65rem] uppercase tracking-[0.2em] text-faint nums">
+            <span className="text-caption uppercase tracking-[0.2em] text-faint nums">
               {kicker}
             </span>
           )}

@@ -14,7 +14,7 @@ import { cn } from '@/lib/utils';
  * pairs are in the contrast suite, so this cannot regress silently.
  */
 const badgeVariants = cva(
-  'inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-[0.65rem] uppercase tracking-[0.16em] font-medium transition-colors',
+  'inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-caption uppercase tracking-[0.16em] font-medium transition-colors',
   {
     variants: {
       variant: {

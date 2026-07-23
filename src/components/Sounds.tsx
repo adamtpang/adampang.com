@@ -61,15 +61,15 @@ export default function Sounds() {
         <div className="min-w-0">
           <div className="flex items-baseline gap-2">
             <span className="font-display text-base leading-none">2026 strummer</span>
-            <span className="nums text-[0.55rem] uppercase tracking-[0.22em] text-white/75">
+            <span className="nums text-caption uppercase tracking-[0.22em] text-white/75">
               wrapped on demand
             </span>
           </div>
-          <div className="mt-1 text-[0.7rem] text-white/85">
+          <div className="mt-1 text-caption text-white/85">
             check your vibe weekly. live at strummer.fun.
           </div>
         </div>
-        <span className="shrink-0 rounded-full bg-white/95 px-3 py-1 text-[0.65rem] font-medium text-ink transition-all group-hover:bg-white">
+        <span className="shrink-0 rounded-full bg-white/95 px-3 py-1 text-caption font-medium text-ink transition-all group-hover:bg-white">
           get checked ↗
         </span>
       </a>
@@ -117,10 +117,11 @@ export default function Sounds() {
               onClick={() => select(i)}
               aria-label={`Play ${s.year} wrapped`}
               aria-pressed={active}
-              className={`group relative rounded-full px-2.5 py-1 text-[0.65rem] nums uppercase tracking-[0.16em] transition-all ${
+              className={`group relative rounded-full px-2.5 py-1 text-caption nums uppercase tracking-[0.16em] transition-all ${
                 active
-                  ? 'bg-plum text-white shadow-sm'
-                  : 'border border-zinc-200 text-muted hover:border-plum hover:text-plum dark:border-paper/15 dark:text-muted'
+                  ? // ink on the fill, not white: white on creativity is 2.64:1
+                    'bg-creativity text-ink shadow-sm'
+                  : 'border border-line text-muted hover:border-creativity hover:text-creativity-ink'
               }`}
             >
               {s.year}

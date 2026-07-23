@@ -12,7 +12,7 @@ export default function Footer() {
       <span className="font-display text-xs italic text-muted">
         adam pang . since {year}
       </span>
-      <span className="nums text-[0.6rem] uppercase tracking-[0.22em] text-faint">
+      <span className="nums text-caption uppercase tracking-[0.22em] text-faint">
         built in malaysia . sunrise
       </span>
     </footer>

@@ -108,7 +108,7 @@ export default function SupportContent() {
               {c.title}
             </div>
             <div className="mt-1 text-xs text-muted">{c.sub}</div>
-            <div className="mt-3 text-[0.7rem] text-faint">{c.note}</div>
+            <div className="mt-3 text-caption text-faint">{c.note}</div>
           </motion.a>
         ))}
       </div>
@@ -127,7 +127,7 @@ export default function SupportContent() {
             <h2 className="font-display text-lg tracking-tight text-ink dark:text-paper">
               crypto
             </h2>
-            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-faint">
+            <span className="text-caption uppercase tracking-[0.2em] text-faint">
               anonymous . click to copy
             </span>
           </div>
@@ -168,7 +168,7 @@ export default function SupportContent() {
             <h2 className="font-display text-lg tracking-tight text-ink dark:text-paper">
               things i use
             </h2>
-            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-faint">
+            <span className="text-caption uppercase tracking-[0.2em] text-faint">
               my codes . you get a perk, i get credit
             </span>
           </div>
