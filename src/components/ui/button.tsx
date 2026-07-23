@@ -21,16 +21,19 @@ const buttonVariants = cva(
         default:
           'bg-sunrise text-white shadow-md shadow-sunrise/30 hover:bg-sunrise-600 hover:shadow-lg hover:shadow-sunrise/40 hover:-translate-y-0.5',
         secondary:
-          'border border-zinc-200 bg-white text-ink hover:border-sunrise hover:text-sunrise hover:-translate-y-0.5',
-        ghost: 'text-ink hover:bg-zinc-100 hover:text-sunrise',
+          'border border-line bg-card text-fg hover:border-accent hover:text-accent hover:-translate-y-0.5',
+        ghost: 'text-fg hover:bg-sunken hover:text-accent',
         outline:
-          'border border-sunrise text-sunrise hover:bg-sunrise hover:text-white',
-        link: 'text-sunrise underline-offset-4 hover:underline',
-        sky: 'bg-sky text-white shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        leaf: 'bg-leaf text-white shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        plum: 'bg-plum text-white shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        sun: 'bg-sun text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        ember: 'bg-ember text-white shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+          'border border-accent text-accent-ink hover:bg-accent hover:text-on-accent dark:text-accent',
+        link: 'text-accent-ink underline-offset-4 hover:underline dark:text-accent',
+        // Section-hue fills. The label is dark ink, never white: the hues are
+        // light, so white on them measures 1.92:1 (leaf) to 3.76:1 (ember),
+        // all failing AA. Dark ink on the same fills is 4.62:1 to 9.05:1.
+        sky: 'bg-sounds text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        leaf: 'bg-curiosity text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        plum: 'bg-creativity text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        sun: 'bg-sights text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        ember: 'bg-alert text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
       },
       size: {
         default: 'h-9 px-5 py-2',

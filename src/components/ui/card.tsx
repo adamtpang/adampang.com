@@ -2,17 +2,19 @@ import * as React from 'react';
 import { cn } from '@/lib/utils';
 
 /**
- * shadcn Card. Boxed white surface with subtle border.
+ * shadcn Card. Raised surface with a hairline border.
  * The standard container for any chunk of related content.
+ *
+ * Uses the mode-aware tokens, not bg-white. It previously hardcoded
+ * `bg-white`, which left the card white in dark mode while the text went
+ * light: card descriptions measured 2.56:1 and a badge inside one hit
+ * 1.42:1. bg-card/border-line/text-fg swap with the theme.
  */
 const Card = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => (
     <div
       ref={ref}
-      className={cn(
-        'rounded-2xl border border-zinc-200 bg-white text-ink',
-        className
-      )}
+      className={cn('rounded-2xl border border-line bg-card text-fg', className)}
       {...props}
     />
   )

@@ -73,7 +73,14 @@ const resolve = (path, mode) => {
 let failures = 0;
 
 const rows = tokens.contrast.map((p) => {
-  const bg = resolve(p.bg, p.mode);
+  // A tinted fill (badge, chip) paints hue-at-alpha over the surface, and the
+  // label then sits on THAT, not on the surface. Resolve the tint first.
+  // Missing this is how the "live" badge shipped at 1.92:1.
+  const surface = resolve(p.bg, p.mode);
+  const bg = p.tint
+    ? composite(resolve(p.tint.of, p.mode), p.tint.alpha, surface)
+    : surface;
+
   const raw = resolve(p.fg, p.mode);
   // Resolve alpha pairs to the flat color the browser actually paints.
   const fg = p.alpha ? composite(raw, p.alpha, bg) : raw;

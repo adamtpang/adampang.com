@@ -10,8 +10,15 @@ const ease = [0.16, 1, 0.3, 1] as const;
  * Tiny strip at the top of the page. Name + who/what/where caption
  * on the left, the few essential links + theme toggle on the right.
  * The four bentos below are the substance.
+ *
+ * `asH1` promotes the name to the page's <h1>. The homepage sets it,
+ * because it has no other title element and was shipping with zero
+ * headings at all. Every other route has its own <h1>, so they leave it
+ * off and the name stays a <span>: one h1 per page, always.
  */
-export default function SiteHeader() {
+export default function SiteHeader({ asH1 = false }: { asH1?: boolean }) {
+  const NameTag = asH1 ? 'h1' : 'span';
+
   return (
     <motion.header
       initial={{ opacity: 0, y: -4 }}
@@ -21,9 +28,9 @@ export default function SiteHeader() {
     >
       <div className="flex items-center gap-3">
         <span className="relative inline-block h-2 w-2 rounded-full bg-sun" />
-        <span className="font-display text-lg tracking-tight text-ink dark:text-paper">
+        <NameTag className="font-display text-lg tracking-tight text-ink dark:text-paper">
           Adam <span className="italic text-sunrise">Pang</span>
-        </span>
+        </NameTag>
         <span className="hidden items-baseline gap-2.5 text-[0.6rem] uppercase tracking-[0.2em] text-faint sm:inline-flex">
           {[
             { tag: 'who', label: 'pokedex.life', href: 'https://pokedex.life', color: 'hover:text-sunrise hover:decoration-sunrise' },
