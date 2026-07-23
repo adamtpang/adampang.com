@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Play } from 'lucide-react';
 import { sounds } from '@/data/sounds';
 import ElementSigil from './ElementSigil';
 
@@ -9,13 +10,15 @@ const ease = [0.16, 1, 0.3, 1] as const;
 const ROTATE_MS = 18_000;
 
 /**
- * Sounds. Bento cell. Compact Spotify embed (152px) auto-rotates
+ * Sounds. Bento cell. Click-to-load Spotify facade auto-rotates
  * through 9 years of Wrapped. Year strip below as both indicator
  * and selector.
  */
 export default function Sounds() {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  /** False until the visitor asks for the player. Gates all Spotify network. */
+  const [loaded, setLoaded] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
@@ -31,6 +34,10 @@ export default function Sounds() {
   const select = (i: number) => {
     setIndex(i);
     setPaused(true);
+    // These buttons are labelled "Play <year> wrapped", so honour that and
+    // load the real player. Still user-initiated, which is all the facade
+    // is protecting: nothing reaches Spotify on page load.
+    setLoaded(true);
   };
 
   const current = sounds[index];
@@ -74,7 +81,15 @@ export default function Sounds() {
         </span>
       </a>
 
-      {/* Past years carousel: Spotify embed for the selected year. */}
+      {/* Past years carousel.
+
+          Facade until clicked. The live Spotify iframe made 5 network
+          requests and set two third-party cookies (sp_t, sp_landing) on
+          every page load, which was the entire best-practices deficit
+          (79/100) and a chunk of the LCP render delay. Nothing is
+          requested from Spotify until someone actually asks to play.
+          Once loaded it stays loaded, and the carousel keeps rotating
+          the real player from then on. */}
       <AnimatePresence mode="wait">
         <motion.div
           key={current.year}
@@ -82,26 +97,51 @@ export default function Sounds() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.4, ease }}
-          className="relative mb-3 overflow-hidden rounded-xl border border-zinc-200"
+          className="relative mb-3 overflow-hidden rounded-xl border border-line"
         >
-          <iframe
-            id="spotify-player"
-            title={`Spotify Wrapped ${current.year}`}
-            src={`https://open.spotify.com/embed/playlist/${current.playlistId}?utm_source=generator&theme=0`}
-            width="100%"
-            height="80"
-            frameBorder={0}
-            loading="lazy"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            className="block"
-          />
+          {loaded ? (
+            <iframe
+              id="spotify-player"
+              title={`Spotify Wrapped ${current.year}`}
+              src={`https://open.spotify.com/embed/playlist/${current.playlistId}?utm_source=generator&theme=0`}
+              width="100%"
+              height="80"
+              frameBorder={0}
+              loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              className="block"
+            />
+          ) : (
+            <button
+              onClick={() => {
+                setLoaded(true);
+                setPaused(true);
+              }}
+              // Same 80px height as the iframe, so swapping one for the
+              // other shifts nothing.
+              className="group flex h-20 w-full items-center gap-3 bg-sunken px-3 text-left transition-colors hover:bg-creativity/10"
+              aria-label={`Load Spotify player for ${current.year} wrapped`}
+            >
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-creativity text-ink transition-transform group-hover:scale-105">
+                <Play size={15} className="ml-0.5" fill="currentColor" />
+              </span>
+              <span className="min-w-0">
+                <span className="block font-display text-base leading-tight text-ink dark:text-paper">
+                  {current.year} wrapped
+                </span>
+                <span className="block text-caption uppercase tracking-[0.16em] text-muted">
+                  play on spotify
+                </span>
+              </span>
+            </button>
+          )}
           {!paused && (
             <motion.div
               key={`p-${index}`}
               initial={{ width: '0%' }}
               animate={{ width: '100%' }}
               transition={{ duration: ROTATE_MS / 1000, ease: 'linear' }}
-              className="absolute top-0 left-0 h-0.5 bg-plum"
+              className="absolute top-0 left-0 h-0.5 bg-creativity"
             />
           )}
         </motion.div>
