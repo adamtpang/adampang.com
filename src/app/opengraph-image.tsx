@@ -1,13 +1,16 @@
 import { ImageResponse } from 'next/og';
 
 /**
- * OpenGraph image. Auto-generated for every share. Renders at edge.
+ * OpenGraph image. Auto-generated for every share.
  *
  * Update the visual here and every link preview updates with the next
  * deploy. No PNG to maintain.
+ *
+ * Deliberately NOT `runtime = 'edge'`. The image takes no dynamic input,
+ * so edge only bought on-demand rendering and cost static generation
+ * ("Using edge runtime on a page currently disables static generation").
+ * Prerendered, it is a plain PNG on the CDN.
  */
-
-export const runtime = 'edge';
 
 export const alt = 'Adam Pang. Living at Network School. Building, writing, making music.';
 export const size = { width: 1200, height: 630 };

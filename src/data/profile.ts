@@ -19,6 +19,7 @@
 import { apps } from './apps';
 import { outlinks } from './outlinks';
 import { reading } from './curiosities';
+import { milestonesAsProse } from './milestones';
 
 export const SITE_URL = 'https://adampang.com';
 
@@ -129,15 +130,9 @@ export const profile = {
 
   sameAs,
 
-  /** From /about. Chronological, repo-sourced. */
-  milestones: [
-    { year: 2002, event: 'Born on Guam.' },
-    { year: 2020, event: 'Finished high school. Started writing music seriously.' },
-    { year: 2022, event: 'Graduated App Academy. First job as a software engineer.' },
-    { year: 2024, event: 'At Network School for the first two days of its launch.' },
-    { year: 2025, event: 'Moved to Network School full-time. Longtermer #2. Started shipping in public.' },
-    { year: 2026, event: 'Pangaea launches. Started strummer.fun. Built this site.' },
-  ],
+  /** Chronological. Generated from src/data/milestones.ts, which /about
+   *  also renders, so the timeline is stated in exactly one place. */
+  milestones: milestonesAsProse,
 
   /** Canonical routes on this site, for agents mapping the surface. */
   pages: [

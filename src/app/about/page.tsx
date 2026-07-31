@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import SiteHeader from '@/components/SiteHeader';
+import Milestone from '@/components/Milestone';
+import ScrollProgress from '@/components/ScrollProgress';
+import { milestones } from '@/data/milestones';
 import { buildProfilePageJsonLd } from '@/lib/jsonld';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 
@@ -24,6 +27,7 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(buildProfilePageJsonLd()) }}
       />
+      <ScrollProgress />
       <SiteHeader />
       <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
         <Link
@@ -92,29 +96,14 @@ export default function AboutPage() {
           ))}
         </div>
 
-        {/* Milestones */}
+        {/* Milestones. Data lives in src/data/milestones.ts, shared with
+            /api/profile.json and /llms.txt so the timeline is stated once. */}
         <Section title="important things in my life so far">
-          <Bullet year="2002" text="Born on Guam." />
-          <Bullet
-            year="2020"
-            text="Finished high school. Started writing music seriously."
-          />
-          <Bullet
-            year="2022"
-            text="Graduated App Academy. First job as a software engineer."
-          />
-          <Bullet
-            year="2024"
-            text="At Network School for the first two days of its launch."
-          />
-          <Bullet
-            year="2025"
-            text="Moved to Network School full-time. Longtermer #2. Started shipping in public."
-          />
-          <Bullet
-            year="2026"
-            text="Pangaea launches. Started strummer.fun. Built this site."
-          />
+          <ol className="mt-1">
+            {milestones.map((m) => (
+              <Milestone key={`${m.year}-${m.title}`} {...m} />
+            ))}
+          </ol>
         </Section>
 
         <Section title="where i’ve lived">
@@ -172,15 +161,6 @@ function Section({ title, children }: { title: string; children: React.ReactNode
         {children}
       </div>
     </section>
-  );
-}
-
-function Bullet({ year, text }: { year: string; text: string }) {
-  return (
-    <div className="mb-1.5 flex items-baseline gap-3">
-      <span className="nums shrink-0 text-xs text-faint">{year}</span>
-      <span>{text}</span>
-    </div>
   );
 }
 

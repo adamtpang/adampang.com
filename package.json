@@ -10,7 +10,8 @@
     "check:contrast": "node scripts/contrast.mjs --fail",
     "check:tokens": "node scripts/verify-tokens.mjs",
     "check:jsonld": "node scripts/validate-jsonld.mjs",
-    "verify": "pnpm build && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld"
+    "check:progress": "node scripts/test-progress.mjs",
+    "verify": "pnpm build && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld && pnpm check:progress"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
