@@ -20,6 +20,7 @@ import { apps } from './apps';
 import { outlinks } from './outlinks';
 import { reading } from './curiosities';
 import { milestonesAsProse } from './milestones';
+import { coin } from './coin';
 
 export const SITE_URL = 'https://adampang.com';
 
@@ -114,6 +115,25 @@ export const profile = {
     name: 'Pangaea',
     url: 'https://pangaea.blog',
     description: 'Essays. The long version of who he is.',
+  },
+
+  /**
+   * How he models his own work. Two faces of one object, not two careers.
+   * Rendered as the coin on /about; published here so an agent reading the
+   * site gets the self-model rather than inferring one from the project list.
+   */
+  model: {
+    shape: 'coin',
+    summary:
+      'Art and science are two faces of one object, with people as the edge that joins them.',
+    faces: coin.faces.map((f) => ({
+      side: f.title,
+      disciplines: [...f.disciplines],
+      work: f.practices.map((p) => ({ name: p.label, url: p.href })),
+    })),
+    edge: coin.edge.label,
+    thesis: `${coin.thesis.claim} ${coin.thesis.body}`,
+    influencedBy: coin.thesis.source,
   },
 
   knowsAbout: [

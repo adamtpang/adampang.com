@@ -91,6 +91,79 @@
 
 @layer components {
   /*
+   * The coin. One object, two faces, rotating on its vertical axis.
+   *
+   * The keyframes dwell rather than spin: each face holds still for about
+   * five seconds, then turns over in under two. A constant spin looks like
+   * a loading spinner and you can never read either side.
+   *
+   * It pauses on hover and on keyboard focus so a reader can stop it
+   * without clicking, and stops entirely under reduced motion, where the
+   * button becomes a plain instant flip.
+   */
+  .coin-scene {
+    perspective: 1400px;
+  }
+
+  .coin {
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+
+  .coin--auto {
+    animation: coin-turn 15s ease-in-out infinite;
+  }
+
+  /* Manual control. Set once the reader takes over from the animation. */
+  .coin--front {
+    transform: rotateY(0deg);
+    transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .coin--back {
+    transform: rotateY(180deg);
+    transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .coin-scene:hover .coin--auto,
+  .coin-scene:focus-within .coin--auto {
+    animation-play-state: paused;
+  }
+
+  .coin-face {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .coin-face--back {
+    transform: rotateY(180deg);
+  }
+
+  @keyframes coin-turn {
+    0%,
+    38% {
+      transform: rotateY(0deg);
+    }
+    50%,
+    88% {
+      transform: rotateY(180deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .coin--auto {
+      animation: none;
+    }
+    .coin--front,
+    .coin--back {
+      transition: none;
+    }
+  }
+
+  /*
    * Journey timeline: two representations of the same beats, swapped by
    * media query rather than by JS, so there is no hydration mismatch and
    * no flash of the wrong one.
