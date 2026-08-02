@@ -7,25 +7,39 @@ import { buildJsonLd } from '@/lib/jsonld';
 import { profile } from '@/data/profile';
 import './globals.css';
 
-// Design system fonts: Space Grotesk (display), Lato (body), JetBrains Mono (labels).
+/*
+ * Design system fonts: Space Grotesk (display), Lato (body), JetBrains Mono.
+ *
+ * display: 'optional', not 'swap'. Measures on this site are set in `ch`,
+ * and a ch is the width of the font's own "0" glyph, so a late font swap
+ * re-wraps every paragraph and changes its height. On /about that pushed a
+ * 600vh section down and scored 0.118 CLS, over the 0.1 Core Web Vitals
+ * threshold, from four font swaps.
+ *
+ * 'optional' gives the font a short window to arrive and otherwise sticks
+ * with the fallback for that page load, so no swap ever happens and CLS
+ * from fonts is structurally zero. next/font self-hosts and preloads these
+ * from the same origin, so in practice they win the race; the cost is that
+ * a first visit on a slow connection may render in the fallback face.
+ */
 const display = Space_Grotesk({
   subsets: ['latin'],
   variable: '--font-display',
-  display: 'swap',
+  display: 'optional',
   weight: ['400', '500', '600', '700'],
 });
 
 const body = Lato({
   subsets: ['latin'],
   variable: '--font-body',
-  display: 'swap',
+  display: 'optional',
   weight: ['300', '400', '700'],
 });
 
 const mono = JetBrains_Mono({
   subsets: ['latin'],
   variable: '--font-mono',
-  display: 'swap',
+  display: 'optional',
   weight: ['400', '500'],
 });
 

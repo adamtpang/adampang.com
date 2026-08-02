@@ -89,6 +89,47 @@
   }
 }
 
+@layer components {
+  /*
+   * Journey timeline: two representations of the same beats, swapped by
+   * media query rather than by JS, so there is no hydration mismatch and
+   * no flash of the wrong one.
+   *
+   * Default:  the spatial strip is visible, the list is screen-reader only.
+   * Reduced:  the strip is removed entirely, the list becomes the page.
+   *
+   * The list is sr-only rather than display:none so assistive tech always
+   * gets a clean linear timeline, regardless of motion preference.
+   */
+  .journey-fallback {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .journey {
+      display: none;
+    }
+    .journey-fallback {
+      position: static;
+      width: auto;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+      white-space: normal;
+    }
+  }
+}
+
 @layer utilities {
   /* Display face — Space Grotesk, confident headings. */
   .font-display {

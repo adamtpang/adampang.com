@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import SiteHeader from '@/components/SiteHeader';
-import Milestone from '@/components/Milestone';
+import JourneyTimeline from '@/components/JourneyTimeline';
 import ScrollProgress from '@/components/ScrollProgress';
-import { milestones } from '@/data/milestones';
 import { buildProfilePageJsonLd } from '@/lib/jsonld';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 
@@ -29,7 +28,10 @@ export default function AboutPage() {
       />
       <ScrollProgress />
       <SiteHeader />
-      <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
+      {/* Measure is set in ch, not px. Sivers holds his whole site to 60ch
+          and it is the single biggest reason his prose reads easily: the
+          line length tracks the font, so it stays right at any size. */}
+      <article className="mx-auto w-full max-w-[62ch] px-5 py-10 sm:px-6 sm:py-14">
         <Link
           href="/"
           className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
@@ -96,15 +98,22 @@ export default function AboutPage() {
           ))}
         </div>
 
-        {/* Milestones. Data lives in src/data/milestones.ts, shared with
-            /api/profile.json and /llms.txt so the timeline is stated once. */}
-        <Section title="important things in my life so far">
-          <ol className="mt-1">
-            {milestones.map((m) => (
-              <Milestone key={`${m.year}-${m.title}`} {...m} />
-            ))}
-          </ol>
-        </Section>
+      </article>
+
+      {/* Milestones, full bleed so the journey has room to travel. Data
+          lives in src/data/milestones.ts, shared with /api/profile.json
+          and /llms.txt so the timeline is stated exactly once. */}
+      <section aria-labelledby="timeline-heading" className="mt-4">
+        <h2
+          id="timeline-heading"
+          className="mx-auto max-w-[62ch] px-5 text-caption font-medium uppercase tracking-[0.22em] text-faint sm:px-6"
+        >
+          important things in my life so far
+        </h2>
+        <JourneyTimeline />
+      </section>
+
+      <article className="mx-auto w-full max-w-[62ch] px-5 pb-14 sm:px-6">
 
         <Section title="where i’ve lived">
           <Plain>Guam → United States → Langkawi, Malaysia.</Plain>
