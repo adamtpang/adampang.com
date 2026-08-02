@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'design system',
   description:
     "Live reference for Adam Pang's design system, rendered from a single token source. Colors, type scale, spacing, radii, shadows, and every interactive component state. Machine-readable exports at /design/tokens.json and /design/tokens.css.",
+  alternates: { canonical: '/design' },
 };
 
 export default function DesignPage() {

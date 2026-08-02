@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'support',
   description:
     'Support the work. Tip via Stripe, donate via Zcash, or become a Pangaea paid subscriber. Founding patrons get listed here permanently.',
+  alternates: { canonical: '/support' },
 };
 
 export default function SupportPage() {

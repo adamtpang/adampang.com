@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'now',
   description:
     'What Adam Pang is doing right now. A now page in the spirit of sive.rs/now. Updated whenever the focus shifts.',
+  alternates: { canonical: '/now' },
 };
 
 /**

@@ -1,9 +1,17 @@
+import type { Metadata } from 'next';
 import SiteHeader from '@/components/SiteHeader';
 import Sights from '@/components/Sights';
 import Sounds from '@/components/Sounds';
 import Curiosities from '@/components/Curiosities';
 import Building from '@/components/Building';
 import { listSightImages } from '@/lib/blob';
+
+// Every route declares its own canonical. Setting one in the root layout
+// made all five subpages claim the homepage as theirs, which asks search
+// engines to drop them.
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 // Refresh blob listing every hour without redeploys.
 export const revalidate = 3600;

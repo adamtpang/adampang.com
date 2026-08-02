@@ -61,7 +61,11 @@ export const metadata: Metadata = {
   publisher: profile.name,
   keywords: [...profile.knowsAbout, ...profile.roles, profile.name],
   alternates: {
-    canonical: '/',
+    // NO canonical here. Next inherits root metadata into every route, so
+    // a canonical set at this level made /about, /now, /ns, /support and
+    // /design all declare the homepage as their canonical URL, which asks
+    // search engines to drop them and attribute them to "/". Each page
+    // declares its own; the homepage's lives in app/page.tsx.
     types: {
       'application/json': '/api/profile.json',
       'text/markdown': '/llms.txt',

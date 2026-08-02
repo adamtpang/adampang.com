@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: 'about',
   description:
     'Hi, I’m Adam Pang. Born on Guam. Building, writing, making music. The chronological version of who I am and what I’ve done so far.',
+  alternates: { canonical: '/about' },
 };
 
 /**
