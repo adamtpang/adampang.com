@@ -142,3 +142,267 @@
   b: 10
   cap: 250000
   capLabel: "$250K"
+
+- name: beware.dog
+  url: https://beware-dog.vercel.app
+  tagline: 24/7 AI security for small businesses. It watches, it warns, it never sleeps.
+  status: live
+  metric: live
+  t: 0.5
+  r: 100000
+  b: 1000
+  cap: 50000000
+  capLabel: "$50M"
+
+- name: 8020.best
+  url: https://8020.best
+  tagline: AI task organizer. Sorts work into priority tiers and subtask trees.
+  status: live
+  metric: live
+  t: 0.4
+  r: 1000000
+  b: 30
+  cap: 12000000
+  capLabel: "$12M"
+
+- name: youchop.app
+  url: https://youchop.app
+  tagline: Real chapters for every YouTube video, generated automatically.
+  status: live
+  metric: live
+  t: 0.4
+  r: 3000000
+  b: 10
+  cap: 12000000
+  capLabel: "$12M"
+
+- name: ztripe
+  url: https://ztripe.vercel.app
+  tagline: The Wise of Zcash. Transparent, low fee international transfers.
+  status: live
+  metric: live
+  t: 0.4
+  r: 200000
+  b: 100
+  cap: 8000000
+  capLabel: "$8M"
+
+- name: darktalent.tech
+  url: https://darktalent.tech
+  tagline: Scout undervalued talent and rate the legends. Signal over pedigree.
+  status: live
+  metric: live
+  t: 0.4
+  r: 200000
+  b: 100
+  cap: 8000000
+  capLabel: "$8M"
+
+- name: themain.quest
+  url: https://themainquest-adamtpangs-projects.vercel.app
+  tagline: Your one life, gamified. Days are XP, close the boss.
+  status: live
+  metric: live
+  t: 0.4
+  r: 2000000
+  b: 10
+  cap: 8000000
+  capLabel: "$8M"
+
+- name: redmart.xyz
+  url: https://redmart.xyz
+  tagline: An AI broker that matches supply and demand. Tell it what you need.
+  status: building
+  metric: building
+  t: 0.3
+  r: 500000
+  b: 50
+  cap: 7500000
+  capLabel: "$7.5M"
+
+- name: archimedes.life
+  url: https://archimedeslife.vercel.app
+  tagline: The leverage diagnosis. Find and cure the four levers you're under.
+  status: live
+  metric: live
+  t: 0.5
+  r: 500000
+  b: 30
+  cap: 7500000
+  capLabel: "$7.5M"
+
+- name: portal.voyage
+  url: https://portalvoyage.vercel.app
+  tagline: A data-driven map for deciding where to live.
+  status: live
+  metric: live
+  t: 0.4
+  r: 1000000
+  b: 20
+  cap: 8000000
+  capLabel: "$8M"
+
+- name: eyeland.cards
+  url: https://eyeland.cards
+  tagline: Open-world card-combat MMORPG. Wizard101 meets Hearthstone meets Pokemon.
+  status: live
+  metric: live
+  t: 0.5
+  r: 500000
+  b: 20
+  cap: 5000000
+  capLabel: "$5M"
+
+- name: technodemocracy.app
+  url: https://technodemocracy.app
+  tagline: On-chain governance. Wallet-auth votes inside houses you actually live in.
+  status: live
+  metric: live
+  t: 0.4
+  r: 100000
+  b: 100
+  cap: 4000000
+  capLabel: "$4M"
+
+- name: moneymeta.fun
+  url: https://moneymeta.fun
+  tagline: Every way to make money, ranked S to D by median income and growth.
+  status: live
+  metric: live
+  t: 0.3
+  r: 2000000
+  b: 5
+  cap: 3000000
+  capLabel: "$3M"
+
+- name: worldcupelo.com
+  url: https://worldcupelo.com
+  tagline: Live Elo ratings for men's national football teams.
+  status: live
+  metric: live
+  t: 0.2
+  r: 5000000
+  b: 2
+  cap: 2000000
+  capLabel: "$2M"
+
+- name: vercel.school
+  url: https://vercel.school
+  tagline: Learn Vercel by shipping. A classroom where every lesson ends deployed.
+  status: live
+  metric: live
+  t: 0.4
+  r: 100000
+  b: 50
+  cap: 2000000
+  capLabel: "$2M"
+
+- name: yourchore.com
+  url: https://yourchore.com
+  tagline: Angie's Laundry. Order pickup, pay card or crypto, track in real time.
+  status: live
+  metric: live
+  t: 0.5
+  r: 20000
+  b: 200
+  cap: 2000000
+  capLabel: "$2M"
+
+- name: interneta.world
+  url: https://interneta-six.vercel.app
+  tagline: Network State hub. Events, jobs, societies, tooling.
+  status: live
+  metric: live
+  t: 0.4
+  r: 100000
+  b: 20
+  cap: 800000
+  capLabel: "$800K"
+
+- name: storageclean.app
+  url: https://storageclean.app
+  tagline: Open-source disk cleanup. Find and reclaim wasted storage.
+  status: live
+  metric: live
+  t: 0.2
+  r: 2000000
+  b: 3
+  cap: 1200000
+  capLabel: "$1.2M"
+
+- name: vibecheck.style
+  url: https://vibecheck.style
+  tagline: Make your ultimate Spotify playlist from your top tracks across time.
+  status: live
+  metric: live
+  t: 0.3
+  r: 1000000
+  b: 5
+  cap: 1500000
+  capLabel: "$1.5M"
+
+- name: 300words.app
+  url: https://300words.app
+  tagline: A minimalist daily-writing habit. 300 words a day, keep the streak.
+  status: live
+  metric: live
+  t: 0.3
+  r: 1000000
+  b: 5
+  cap: 1500000
+  capLabel: "$1.5M"
+
+- name: adam.gives
+  url: https://adam.gives
+  tagline: One menu, Adam as a service. Three offers, every price upfront.
+  status: live
+  metric: live
+  t: 0.5
+  r: 5000
+  b: 500
+  cap: 1250000
+  capLabel: "$1.3M"
+
+- name: zcash.school
+  url: https://zcash.school
+  tagline: Free, opinionated course on Zcash. Privacy, ZK proofs, shielded money.
+  status: live
+  metric: live
+  t: 0.4
+  r: 50000
+  b: 50
+  cap: 1000000
+  capLabel: "$1M"
+
+- name: arcarena.xyz
+  url: https://arcarena.xyz
+  tagline: A modular hackathon. Where problems meet talent meet capital.
+  status: live
+  metric: live
+  t: 0.4
+  r: 50000
+  b: 50
+  cap: 1000000
+  capLabel: "$1M"
+
+- name: thesolarpunks.art
+  url: https://thesolarpunks.art
+  tagline: Three interconnected solarpunk stories spanning a manifesto.
+  status: live
+  metric: live
+  t: 0.3
+  r: 100000
+  b: 5
+  cap: 150000
+  capLabel: "$150K"
+
+- name: mythicmountain
+  url: https://adamtpang.github.io/mythicmountain
+  tagline: Adventure portfolio and game world.
+  status: live
+  metric: live
+  t: 0.3
+  r: 50000
+  b: 5
+  cap: 75000
+  capLabel: "$75K"
