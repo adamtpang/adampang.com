@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { ArrowLeft, Check, Copy } from 'lucide-react';
 import { tokens, colorTokens, colorGroups, type ColorToken } from '@/design/tokens';
+import { influences } from '@/data/influences';
 
 /**
  * /design. A living reference: every swatch, scale step, and component state
@@ -293,6 +294,49 @@ export default function DesignSystem() {
             role: v.role,
           }))}
         />
+      </Section>
+
+      <Section n="07" title="influences">
+        <p className="mb-6 text-sm text-muted">
+          sites studied while building this one, and exactly what was taken
+          from each. a site earns a place here only if a real line of code
+          traces back to it. a site that only shaped the tone, with no
+          artifact to point to, does not qualify.
+        </p>
+        <div className="space-y-3">
+          {influences.map((inf) => (
+            <div
+              key={inf.href}
+              className="rounded-lg border border-line bg-card p-5"
+            >
+              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                <a
+                  href={inf.href}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="font-display text-lg tracking-tight text-fg underline decoration-line decoration-1 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
+                >
+                  {inf.site}
+                </a>
+                {inf.by && (
+                  <span className="text-caption text-faint">{inf.by}</span>
+                )}
+              </div>
+              <p className="mt-2 text-sm leading-relaxed text-fg/75">
+                {inf.lesson}
+              </p>
+              <p className="mt-3 text-caption uppercase tracking-[0.14em] text-faint">
+                landed in{' '}
+                {inf.landedIn.map((path, i) => (
+                  <span key={path}>
+                    {i > 0 && ' . '}
+                    <Mono>{path}</Mono>
+                  </span>
+                ))}
+              </p>
+            </div>
+          ))}
+        </div>
       </Section>
 
       <ForAgents />
