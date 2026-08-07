@@ -406,3 +406,113 @@
   b: 5
   cap: 75000
   capLabel: "$75K"
+
+- name: crucible.camp
+  url: https://cruciblecamp.vercel.app
+  tagline: 36 hours, the best builders in Bitcoin. A hackathon at Network School.
+  status: live
+  metric: live
+  t: 0.4
+  r: 50000
+  b: 50
+  cap: 1000000
+  capLabel: "$1M"
+
+- name: anchormarianas.com
+  url: https://anchormarianas.com
+  tagline: Software studio building internet businesses from Guam.
+  status: live
+  metric: studio site
+  t: 0.3
+  r: 10000
+  b: 200
+  cap: 600000
+  capLabel: "$600K"
+
+- name: beeper.chat
+  url: https://beeper.chat
+  tagline: Open-source Claude Code skill that clears your Beeper inbox to zero.
+  status: live
+  metric: OSS skill
+  t: 0.3
+  r: 300000
+  b: 5
+  cap: 450000
+  capLabel: "$450K"
+
+- name: waterfall.sh
+  url: https://waterfall.sh
+  tagline: Routes small tasks to a cheaper model so token budgets last the week.
+  status: live
+  metric: OSS tool
+  t: 0.3
+  r: 500000
+  b: 5
+  cap: 750000
+  capLabel: "$750K"
+
+- name: repo-protocol
+  url: https://github.com/adamtpang/repo-protocol
+  tagline: repos.yaml, a manifest for the edges between repositories.
+  status: live
+  metric: OSS, code only
+  t: 0.3
+  r: 200000
+  b: 5
+  cap: 300000
+  capLabel: "$300K"
+
+- name: nslink
+  url: https://nslink.vercel.app
+  tagline: Automated router provisioning. AI scans labels, bot configures WiFi.
+  status: live
+  metric: NS infra
+  t: 0.4
+  r: 5000
+  b: 20
+  cap: 40000
+  capLabel: "$40K"
+
+- name: nstutorialgenerator
+  url: https://nstutorialgenerator.vercel.app
+  tagline: Transform documentation sites into structured tutorials with AI.
+  status: live
+  metric: NS tool
+  t: 0.3
+  r: 5000
+  b: 20
+  cap: 30000
+  capLabel: "$30K"
+
+- name: wonderhall.live
+  url: https://wonderhall.live
+  tagline: Live music night at Network School, Forest City.
+  status: live
+  metric: recurring event
+  t: 0.3
+  r: 5000
+  b: 20
+  cap: 30000
+  capLabel: "$30K"
+
+- name: nsissueestimator
+  url: https://nsissueestimator.vercel.app
+  tagline: GitHub Issue Cost Estimator. AI-powered budgeting for repo issues.
+  status: live
+  metric: NS tool
+  t: 0.3
+  r: 5000
+  b: 10
+  cap: 15000
+  capLabel: "$15K"
+
+- name: darienvillage.vercel.app
+  url: https://darienvillage.vercel.app
+  tagline: Network School Forest City venue and event site.
+  status: live
+  metric: NS venue
+  t: 0.2
+  r: 5000
+  b: 10
+  cap: 10000
+  capLabel: "$10K"
