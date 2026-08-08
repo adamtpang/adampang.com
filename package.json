@@ -1,0 +1,46 @@
+{
+  "name": "adampang-com",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check:contrast": "node scripts/contrast.mjs --fail",
+    "check:tokens": "node scripts/verify-tokens.mjs",
+    "check:jsonld": "node scripts/validate-jsonld.mjs",
+    "check:progress": "node scripts/test-progress.mjs",
+    "check:journey": "node scripts/test-journey.mjs",
+    "verify": "pnpm build && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld && pnpm check:progress && pnpm check:journey"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@vercel/analytics": "^1.4.1",
+    "@vercel/blob": "^2.3.3",
+    "@vercel/speed-insights": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
+    "lucide-react": "^1.14.0",
+    "next": "^15.1.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.6",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.21",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  }
+}

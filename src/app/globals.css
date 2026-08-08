@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Color custom properties are NOT declared here. They are generated from
+ * src/design/tokens.json and injected into <head> by app/layout.tsx, so a
+ * hex lives in exactly one place. This file only consumes them.
+ * Machine-readable copies: /design/tokens.json and /design/tokens.css
+ */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 150ms ease, color 150ms ease;
+    background: #fafafa;
+  }
+  html.dark {
+    background: #0a0a0a;
+  }
+
+  body {
+    /* Faint cool vertical gradient, fixed. The DS signature background. */
+    background: linear-gradient(
+      180deg,
+      rgb(var(--color-bg)) 0%,
+      rgb(var(--color-bg-mid)) 50%,
+      rgb(var(--color-bg-end)) 100%
+    );
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: rgb(var(--color-fg));
+    font-family: var(--font-body), system-ui, sans-serif;
+    font-weight: 300; /* Lato Light is the default body weight */
+    letter-spacing: 0.01em;
+    /* Custom blue dot cursor. */
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3.5' fill='%232563eb'/></svg>") 12 12, auto;
+  }
+
+  /* Bigger blue halo cursor on interactive elements. */
+  a,
+  button,
+  [role='button'],
+  label,
+  summary,
+  select {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%232563eb' fill-opacity='0.16'/><circle cx='16' cy='16' r='5' fill='%232563eb'/></svg>") 16 16, pointer;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='search'],
+  input[type='url'],
+  textarea {
+    cursor: text;
+  }
+
+  ::selection {
+    background: rgb(var(--color-accent) / 0.9);
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgb(var(--color-accent));
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /*
+   * Reduced motion. Kills CSS transitions/animations and the smooth-scroll,
+   * and neutralises the hover-lift token so Framer Motion's layout springs
+   * settle instantly rather than travelling.
+   */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /*
+   * The coin. One object, two faces, rotating on its vertical axis.
+   *
+   * The keyframes dwell rather than spin: each face holds still for about
+   * five seconds, then turns over in under two. A constant spin looks like
+   * a loading spinner and you can never read either side.
+   *
+   * It pauses on hover and on keyboard focus so a reader can stop it
+   * without clicking, and stops entirely under reduced motion, where the
+   * button becomes a plain instant flip.
+   */
+  .coin-scene {
+    perspective: 1400px;
+  }
+
+  .coin {
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+
+  .coin--auto {
+    animation: coin-turn 15s ease-in-out infinite;
+  }
+
+  /* Manual control. Set once the reader takes over from the animation. */
+  .coin--front {
+    transform: rotateY(0deg);
+    transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .coin--back {
+    transform: rotateY(180deg);
+    transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .coin-scene:hover .coin--auto,
+  .coin-scene:focus-within .coin--auto {
+    animation-play-state: paused;
+  }
+
+  .coin-face {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .coin-face--back {
+    transform: rotateY(180deg);
+  }
+
+  @keyframes coin-turn {
+    0%,
+    38% {
+      transform: rotateY(0deg);
+    }
+    50%,
+    88% {
+      transform: rotateY(180deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .coin--auto {
+      animation: none;
+    }
+    .coin--front,
+    .coin--back {
+      transition: none;
+    }
+  }
+
+  /*
+   * Journey timeline: two representations of the same beats, swapped by
+   * media query rather than by JS, so there is no hydration mismatch and
+   * no flash of the wrong one.
+   *
+   * Default:  the spatial strip is visible, the list is screen-reader only.
+   * Reduced:  the strip is removed entirely, the list becomes the page.
+   *
+   * The list is sr-only rather than display:none so assistive tech always
+   * gets a clean linear timeline, regardless of motion preference.
+   */
+  .journey-fallback {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .journey {
+      display: none;
+    }
+    .journey-fallback {
+      position: static;
+      width: auto;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      overflow: visible;
+      clip: auto;
+      white-space: normal;
+    }
+  }
+}
+
+@layer utilities {
+  /* Display face — Space Grotesk, confident headings. */
+  .font-display {
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  /* Mono — JetBrains, tabular numerals + kicker labels. */
+  .nums {
+    font-family: var(--font-mono), ui-monospace, monospace;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+
+  /* Hairline divider. */
+  .hairline {
+    height: 1px;
+    background: rgb(var(--color-line));
+  }
+}
