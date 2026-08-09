@@ -9,6 +9,21 @@
  * Only things worth showing go here. Work that is no longer active is
  * simply removed from the list rather than labelled, so the portfolio
  * reads as a body of work, not a graveyard.
+ *
+ * Deliberately capped at 8. This list grew to 26 across several sessions
+ * and Building.tsx renders it uncapped, which broke the site's own
+ * founding rule: stay compressed enough to fit on a laptop screen without
+ * scrolling ("greatness is hard to vary"). Fourteen of the 26 were tagged
+ * 'tools', several doing the same "rank/prioritize your life" thing
+ * (8020.best, archimedes.life, moneymeta.fun, themain.quest) — volume
+ * without differentiation reads as noise, not range. Each entry below is
+ * a flagship: one clear idea per facet, nothing redundant with another
+ * entry or with another section of this site (pangaea.blog, for example,
+ * is already the writing nav link, so it doesn't need a tile here too).
+ *
+ * The other 18 domains are still real and still live; they're just not
+ * claimed on this page. To bring one back, describe it well enough that
+ * it earns a distinct spot rather than padding the count.
  */
 
 export type AppStatus = 'live' | 'shipping' | 'building';
@@ -49,14 +64,6 @@ export const apps: App[] = [
     tag: 'tools',
   },
   {
-    slug: 'company-university',
-    name: 'company.university',
-    url: 'https://company.university',
-    tagline: 'top companies as campuses',
-    status: 'shipping',
-    tag: 'tools',
-  },
-  {
     slug: 'strummer',
     name: 'strummer.fun',
     url: 'https://strummer.fun',
@@ -89,144 +96,11 @@ export const apps: App[] = [
     tag: 'civic',
   },
   {
-    slug: 'technodemocracy',
-    name: 'technodemocracy.app',
-    url: 'https://technodemocracy.app',
-    tagline: 'experiments in civic tech',
-    status: 'live',
-    tag: 'civic',
-  },
-  {
-    slug: 'darktalent',
-    name: 'darktalent.tech',
-    url: 'https://darktalent.tech',
-    tagline: 'scout undervalued talent, rate the legends',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
     slug: 'beware',
     name: 'beware.dog',
     url: 'https://beware-dog.vercel.app',
     tagline: '24/7 ai security for small businesses',
     status: 'live',
     tag: 'tools',
-  },
-  {
-    slug: '8020',
-    name: '8020.best',
-    url: 'https://8020.best',
-    tagline: 'sorts tasks into priority tiers',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'archimedes',
-    name: 'archimedes.life',
-    url: 'https://archimedeslife.vercel.app',
-    tagline: 'the leverage diagnosis',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'themainquest',
-    name: 'themain.quest',
-    url: 'https://themainquest-adamtpangs-projects.vercel.app',
-    tagline: 'your one life, gamified',
-    status: 'live',
-  },
-  {
-    slug: 'moneymeta',
-    name: 'moneymeta.fun',
-    url: 'https://moneymeta.fun',
-    tagline: 'every way to make money, ranked s to d',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'eyeland',
-    name: 'eyeland.cards',
-    url: 'https://eyeland.cards',
-    tagline: 'wizard101 meets hearthstone meets pokemon',
-    status: 'live',
-  },
-  {
-    slug: 'youchop',
-    name: 'youchop.app',
-    url: 'https://youchop.app',
-    tagline: 'real youtube chapters, generated automatically',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'ztripe',
-    name: 'ztripe',
-    url: 'https://ztripe.vercel.app',
-    tagline: 'the wise of zcash',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'gives',
-    name: 'adam.gives',
-    url: 'https://adam.gives',
-    tagline: 'adam as a service, three offers upfront',
-    status: 'live',
-    tag: 'studio',
-  },
-  {
-    slug: 'vercel-school',
-    name: 'vercel.school',
-    url: 'https://vercel.school',
-    tagline: 'learn vercel by shipping',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'conjecture',
-    name: 'conjecture.school',
-    url: 'https://conjecture.school',
-    tagline: 'a fellowship for the beginning of infinity',
-    status: 'live',
-    tag: 'social',
-  },
-  {
-    slug: 'ness',
-    name: 'ness.city',
-    url: 'https://ness.city',
-    tagline: 'the civic layer for network school',
-    status: 'live',
-    tag: 'civic',
-  },
-  {
-    slug: 'redmart',
-    name: 'redmart.xyz',
-    url: 'https://redmart.xyz',
-    tagline: 'an ai broker matching supply and demand',
-    status: 'building',
-    tag: 'tools',
-  },
-  {
-    slug: 'beeper',
-    name: 'beeper.chat',
-    url: 'https://beeper.chat',
-    tagline: 'clears your beeper inbox to zero',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: '300words',
-    name: '300words.app',
-    url: 'https://300words.app',
-    tagline: '300 words a day, keep the streak',
-    status: 'live',
-    tag: 'tools',
-  },
-  {
-    slug: 'pangaea',
-    name: 'pangaea.blog',
-    url: 'https://pangaea.blog',
-    tagline: 'one app, one essay, one song, every week',
-    status: 'live',
   },
 ];
