@@ -1,0 +1,11 @@
+# repos.yaml v0 — see github.com/adamtpang/repo-connect
+repo: adampang.com
+is: Adam's personal hub and proof layer, a visual quest-and-progress tracker on his own output (apps, essays, songs) plus theme system and link management.
+url: https://adampang.com
+cluster: legibility-engines
+
+stack: [next, react, tailwind, framer-motion, vercel]
+
+kin:
+  - repo: pokedex.life
+    why: both are legibility-of-self tools in the measurement layer of Adam's life's-work thesis. This repo makes Adam's own output legible to the world (a visual quest/progress tracker on himself, the proof layer); pokedex.life makes what Adam lets into his own attention legible against his stated values (people as scored cards). Outward-facing and inward-facing halves of the same self-legibility work.
