@@ -9,3 +9,5 @@ stack: [next, react, tailwind, framer-motion, vercel]
 kin:
   - repo: pokedex.life
     why: both are legibility-of-self tools in the measurement layer of Adam's life's-work thesis. This repo makes Adam's own output legible to the world (a visual quest/progress tracker on himself, the proof layer); pokedex.life makes what Adam lets into his own attention legible against his stated values (people as scored cards). Outward-facing and inward-facing halves of the same self-legibility work.
+  - repo: skill.supply
+    why: skill.supply is the transfer market that packages and places Adam as a candidate on proof over pedigree; adampang.com is the personal proof layer that outreach ultimately points back at, the visual tracker of the same shipped output (apps, essays, songs) that skill.supply's packaging cites as evidence.
