@@ -10,6 +10,22 @@ import { profile, SITE_URL } from '@/data/profile';
 export function buildJsonLd() {
   const personId = `${SITE_URL}/#person`;
   const siteId = `${SITE_URL}/#website`;
+  const orgId = `${SITE_URL}/#organization`;
+
+  // adampang.com as an Organization/brand node, distinct from the Person.
+  // sameAs is the identical, already-verified list from profile.sameAs
+  // (sourced from outlinks.ts): this is the one online identity, so the
+  // Organization and Person legitimately share the same social links.
+  // Nothing here is invented.
+  const organization = {
+    '@type': 'Organization',
+    '@id': orgId,
+    name: 'adampang.com',
+    url: SITE_URL,
+    description: profile.headline,
+    founder: { '@id': personId },
+    sameAs: [...profile.sameAs],
+  };
 
   const person = {
     '@type': 'Person',
@@ -64,12 +80,12 @@ export function buildJsonLd() {
     inLanguage: 'en',
     author: { '@id': personId },
     creator: { '@id': personId },
-    publisher: { '@id': personId },
+    publisher: { '@id': orgId },
     copyrightHolder: { '@id': personId },
     dateModified: profile.lastUpdated,
   };
 
-  return { '@context': 'https://schema.org', '@graph': [person, website] };
+  return { '@context': 'https://schema.org', '@graph': [person, organization, website] };
 }
 
 /** A ProfilePage node for /about, linked to the same Person. */

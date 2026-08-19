@@ -9,8 +9,27 @@ import { listSightImages } from '@/lib/blob';
 // Every route declares its own canonical. Setting one in the root layout
 // made all five subpages claim the homepage as theirs, which asks search
 // engines to drop them.
+//
+// title uses `absolute` to bypass the root layout's `%s · Adam Pang`
+// template: the homepage IS the Adam Pang page, so appending the brand
+// again would just repeat it. description is a short, factual summary
+// distinct from `profile.summary` (used for the JSON-LD Person/WebSite
+// nodes and /api/profile.json), which runs ~340 characters, well past
+// what search/AI crawlers want in a meta description.
+const HOME_TITLE = 'Adam Pang - Builder, Writer, Musician';
+const HOME_DESCRIPTION =
+  'Adam Pang is a builder, writer, and musician living at Network School in Langkawi, Malaysia. He ships software solo, writes essays, and makes music.';
+
 export const metadata: Metadata = {
+  title: { absolute: HOME_TITLE },
+  description: HOME_DESCRIPTION,
   alternates: { canonical: '/' },
+  // Root layout sets openGraph.title to profile.name ("Adam Pang"), which
+  // no longer matches this page's own <title> now that it carries the
+  // fuller "Builder, Writer, Musician" copy. Override both here so bots
+  // that check <title> against og:title for consistency see a match.
+  openGraph: { title: HOME_TITLE, description: HOME_DESCRIPTION },
+  twitter: { title: HOME_TITLE, description: HOME_DESCRIPTION },
 };
 
 // Refresh blob listing every hour without redeploys.
