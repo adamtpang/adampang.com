@@ -28,7 +28,7 @@ export const SITE_URL = 'https://adampang.com';
  * Bump when the facts change, not when the site rebuilds. Agents use this
  * to decide whether a cached copy is stale.
  */
-export const LAST_UPDATED = '2026-07-22';
+export const LAST_UPDATED = '2026-08-25';
 
 /** Places Adam exists online. Drives schema.org sameAs. */
 const SAMEAS_CATEGORIES = ['social', 'video', 'sound', 'words', 'code'] as const;
@@ -156,7 +156,7 @@ export const profile = {
 
   /** Canonical routes on this site, for agents mapping the surface. */
   pages: [
-    { path: '/', title: 'home', description: 'The four-spectrum bento: sights, sounds, curiosity, creativity.' },
+    { path: '/', title: 'home', description: 'The four-element bento: sights, sounds, curiosity, creations.' },
     { path: '/about', title: 'about', description: 'Who he is, chronologically. Milestones and receipts.' },
     { path: '/now', title: 'now', description: 'What he is doing right now, in the sivers.org/now tradition.' },
     { path: '/ns', title: 'network school', description: 'Living at the internet frontier as longtermer #2.' },

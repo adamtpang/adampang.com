@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 /**
  * shadcn Badge, restyled. Tiny pill for status, tags, counts.
  * Each accent has its own variant so callsites can map meaning to color
- * (live = curiosity green, shipping = accent blue).
+ * (live = earth green, shipping = accent blue).
  *
  * Text uses the -ink token, never the raw hue. The raw hue is only ever the
  * 10%/15% tinted fill. Setting the label in the hue itself is what shipped
@@ -21,10 +21,10 @@ const badgeVariants = cva(
         default: 'border-line bg-card text-muted',
         sunrise: 'border-accent/30 bg-accent/10 text-accent-ink dark:bg-accent/15 dark:text-accent',
         sky: 'border-sounds/30 bg-sounds/10 text-sounds-ink dark:bg-sounds/15',
-        leaf: 'border-curiosity/30 bg-curiosity/10 text-curiosity-ink dark:bg-curiosity/15',
+        leaf: 'border-creativity/30 bg-creativity/10 text-creativity-ink dark:bg-creativity/15',
         ember: 'border-alert/30 bg-alert/10 text-alert-ink dark:bg-alert/15',
-        sun: 'border-sights/40 bg-sights/10 text-sights-ink dark:bg-sights/15',
-        plum: 'border-creativity/30 bg-creativity/10 text-creativity-ink dark:bg-creativity/15',
+        sun: 'border-curiosity/40 bg-curiosity/10 text-curiosity-ink dark:bg-curiosity/15',
+        plum: 'border-spirit/30 bg-spirit/10 text-spirit-ink dark:bg-spirit/15',
       },
     },
     defaultVariants: {

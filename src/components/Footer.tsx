@@ -13,7 +13,7 @@ export default function Footer() {
         adam pang . since {year}
       </span>
       <span className="nums text-caption uppercase tracking-[0.22em] text-faint">
-        built in malaysia . sunrise
+        built in malaysia . four elements
       </span>
     </footer>
   );

@@ -12,7 +12,7 @@ import { ImageResponse } from 'next/og';
  * Prerendered, it is a plain PNG on the CDN.
  */
 
-export const alt = 'Adam Pang. Living at Network School. Building, writing, making music.';
+export const alt = 'Adam Pang. Sights, sounds, curiosity, and creations.';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -32,7 +32,7 @@ export default async function Image() {
           position: 'relative',
         }}
       >
-        {/* Sunrise glow accent. */}
+        {/* Blue interaction accent. */}
         <div
           style={{
             position: 'absolute',
@@ -103,11 +103,11 @@ export default async function Image() {
               fontFamily: 'sans-serif',
             }}
           >
-            building, writing, making music. living at network school.
+            sights, sounds, curiosity, and creations.
           </div>
         </div>
 
-        {/* Bottom: 6 identities */}
+        {/* Bottom: four elemental sections */}
         <div
           style={{
             display: 'flex',
@@ -118,17 +118,13 @@ export default async function Image() {
             fontFamily: 'sans-serif',
           }}
         >
-          <span>optimist</span>
+          <span style={{ color: '#ef4444' }}>sights</span>
           <span style={{ opacity: 0.4 }}>·</span>
-          <span>curious</span>
+          <span style={{ color: '#38bdf8' }}>sounds</span>
           <span style={{ opacity: 0.4 }}>·</span>
-          <span>creative</span>
+          <span style={{ color: '#f59e0b' }}>curiosity</span>
           <span style={{ opacity: 0.4 }}>·</span>
-          <span>musician</span>
-          <span style={{ opacity: 0.4 }}>·</span>
-          <span>writer</span>
-          <span style={{ opacity: 0.4 }}>·</span>
-          <span>founder</span>
+          <span style={{ color: '#34d399' }}>creations</span>
         </div>
       </div>
     ),

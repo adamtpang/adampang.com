@@ -137,7 +137,7 @@ function Ext({ href, children }: { href: string; children: React.ReactNode }) {
   );
 }
 
-/** Internal link — no arrow. */
+/** Internal link. No arrow. */
 function In({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <Link

@@ -52,7 +52,8 @@ const config: Config = {
         // Semantic + mode-aware. One class, correct in both themes.
         ...semanticColors,
 
-        // Accent ramp. Components use sunrise-600 for hover fills.
+        // Accent ramp. `sunrise` remains as a compatibility alias while the
+        // product UI migrates to semantic `accent` utilities.
         sunrise: { DEFAULT: c.brand.accent.light, ...tokens.ramp.accent },
         primary: c.brand.accent.light,
 
@@ -74,9 +75,9 @@ const config: Config = {
         water: c.section.sounds.light,
         air: c.section.curiosity.light,
         earth: c.section.creativity.light,
-        sun: c.section.sights.light,
-        leaf: c.section.curiosity.light,
-        plum: c.section.creativity.light,
+        sun: c.section.curiosity.light,
+        leaf: c.section.creativity.light,
+        plum: c.section.spirit.light,
         ember: c.section.alert.light,
 
         // Legacy raw-hue aliases.

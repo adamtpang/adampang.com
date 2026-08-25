@@ -204,14 +204,14 @@
 }
 
 @layer utilities {
-  /* Display face — Space Grotesk, confident headings. */
+  /* Display face: Space Grotesk, confident headings. */
   .font-display {
     font-family: var(--font-display), system-ui, sans-serif;
     font-weight: 700;
     letter-spacing: -0.02em;
   }
 
-  /* Mono — JetBrains, tabular numerals + kicker labels. */
+  /* Mono: JetBrains, tabular numerals + kicker labels. */
   .nums {
     font-family: var(--font-mono), ui-monospace, monospace;
     font-variant-numeric: tabular-nums;

@@ -4,13 +4,13 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/lib/utils';
 
 /**
- * shadcn Button, restyled to the adampang sunrise system.
+ * shadcn Button, restyled to the adampang elemental system.
  * Variants:
- *   default. Solid sunrise pill. Primary CTA.
+ *   default. Solid blue accent pill. Primary CTA.
  *   secondary. White pill with zinc border. Secondary CTA.
- *   ghost. Transparent, sunrise on hover.
- *   outline. Sunrise border, sunrise text.
- *   link. Underlined, sunrise hover.
+ *   ghost. Transparent, accent on hover.
+ *   outline. Accent border, accent text.
+ *   link. Underlined, accent hover.
  *   sky / leaf / plum / sun / ember. Rainbow accent buttons.
  */
 const buttonVariants = cva(
@@ -30,9 +30,9 @@ const buttonVariants = cva(
         // light, so white on them measures 1.92:1 (leaf) to 3.76:1 (ember),
         // all failing AA. Dark ink on the same fills is 4.62:1 to 9.05:1.
         sky: 'bg-sounds text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        leaf: 'bg-curiosity text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        plum: 'bg-creativity text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
-        sun: 'bg-sights text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        leaf: 'bg-creativity text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        plum: 'bg-spirit text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
+        sun: 'bg-curiosity text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
         ember: 'bg-alert text-ink shadow-sm hover:opacity-90 hover:-translate-y-0.5',
       },
       size: {

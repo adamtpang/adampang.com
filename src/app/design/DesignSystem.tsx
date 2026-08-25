@@ -73,12 +73,13 @@ export default function DesignSystem() {
 
         <GroupLabel>accent ramp</GroupLabel>
         <p className="mb-3 text-sm text-muted">
-          fixed tints of the primary. components use <Mono>sunrise-600</Mono>{' '}
-          for hover fills.
+          fixed tints of the blue interaction color. legacy components may
+          still reference the <Mono>sunrise</Mono> alias while they migrate to
+          semantic <Mono>accent</Mono> utilities.
         </p>
         <div className="flex overflow-hidden rounded-lg border border-line">
           {Object.entries(tokens.ramp.accent).map(([step, hex]) => (
-            <div key={step} className="flex-1" title={`sunrise-${step} ${hex}`}>
+            <div key={step} className="flex-1" title={`accent-${step} ${hex}`}>
               <div className="h-12" style={{ background: hex }} aria-hidden />
               <div className="bg-card px-1 py-1.5 text-center font-mono text-caption text-muted">
                 {step}

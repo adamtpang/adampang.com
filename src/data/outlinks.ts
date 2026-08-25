@@ -38,11 +38,7 @@ export const outlinks: Outlink[] = [
   /* CODE. Where the building happens. */
   { label: 'github', href: 'https://github.com/adamtpang', category: 'code' },
 
-  /* WORK. The shipped apps. */
+  /* WORK. The portfolio and studio. */
+  { label: 'thedojo.fun', href: 'https://thedojo.fun', category: 'work', note: 'full portfolio' },
   { label: 'anchormarianas', href: 'https://anchormarianas.com', category: 'work', note: 'studio' },
-  { label: 'summon.guide', href: 'https://summon.guide', category: 'work' },
-  { label: 'sellsniper.com', href: 'https://sellsniper.com', category: 'work' },
-  { label: 'optimism.fun', href: 'https://optimism.fun', category: 'work' },
-  { label: 'deathmoney.fyi', href: 'https://deathmoney.fyi', category: 'work' },
-  { label: 'technodemocracy.app', href: 'https://technodemocracy.app', category: 'work' },
 ];

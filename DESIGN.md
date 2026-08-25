@@ -1,216 +1,158 @@
-# Adam Pang . Design System
+# Adam Pang design system
 
-The brand book. Every visual choice on adampang.com flows from this.
-If something on the site doesn't match here, fix the site.
-If something here is wrong, fix this.
+The human-readable brand book for adampang.com.
 
-## 1. Identity in one line
+The machine source of truth is `src/design/tokens.json`. The `/design` page,
+Tailwind theme, downloadable JSON, and downloadable CSS all read from it.
 
-> A 23-year-old optimist from Guam. Building, writing, making music
-> at Network School. **Sunrise on white.**
+## Identity
 
-Two words always paired: **sunrise** (the spark) and **white** (the canvas).
+> Elemental optimism on black and white.
 
-## 2. Color
+The system is professional playful: quiet structure, vivid signals, real
+content, and restrained motion. It should feel made by a person with broad
+curiosity, not assembled from a generic startup template.
 
-### Signature
-| Token | Hex | Usage |
-| --- | --- | --- |
-| `sunrise` | `#FF5C39` | Primary accent. Active states, CTAs, highlights. |
+## Color
 
-Sunrise is used everywhere a viewer's eye should go. Never used for
-body text. Used in gradients, icons, dots, underlines.
+### Structure
 
-### Sunrise gradient (the bold moments)
-```
-linear-gradient(135deg, #FF5C39 0%, #FF8970 50%, #F59E0B 100%)
-```
-Used on the name, primary CTAs, the active year pill in Sounds.
+| Role | Light | Dark | Use |
+| --- | --- | --- | --- |
+| Canvas | `#fafafa` | `#0a0a0a` | Page background |
+| Card | `#ffffff` | `#141414` | Bento surfaces |
+| Ink | `#1a1a1a` | `#fafafa` | Primary text |
+| Line | `#e2e8f0` | `#27272a` | Borders and dividers |
 
-### Warm partners (ambient tints, never solid backgrounds)
-| Token | Hex | Where |
-| --- | --- | --- |
-| `coral` | `#FF8970` | Reserved |
-| `peach` | `#FFB69E` | Building glow |
-| `dawn` | `#FFD2B8` | Currently glow |
-| `amber` | `#F59E0B` | Now glow |
-| `gold` | `#E8A93B` | Optional |
-| `rose` | `#FFA999` | Sounds glow |
+Light mode is the default. Dark mode is a complete alternate, not an inverted
+afterthought.
 
-Each section gets one warm tone. Never green, blue, violet, or
-desaturated grey. Stay warm.
+### Interaction
 
-### Canvas
-| Token | Hex | Usage |
-| --- | --- | --- |
-| `paper` | `#FFFFFF` | Default light background. Pure white. |
-| `paper.soft` | `#FAFAF7` | Cards, subtle insets. |
-| `paper.muted` | `#F2F1ED` | Muted strips. |
-| `ink` | `#0E0E0C` | Primary text. Default dark background. |
-| `ink.soft` | `#1F1F1C` | Card surface in dark mode. |
-| `ink.muted` | `#6B6B66` | Secondary text. |
+| Token | Light | Dark | Use |
+| --- | --- | --- | --- |
+| `accent` | `#2563eb` | `#60a5fa` | Links, CTAs, focus rings, selected state |
+
+Blue is the one global interaction color. It tells a visitor what can be
+acted on. It is not a wash over the entire interface.
+
+### Four elements
+
+| Element | Section | Light | Meaning |
+| --- | --- | --- | --- |
+| Fire | Sights | `#ef4444` | Vision, energy, the spark |
+| Water | Sounds | `#38bdf8` | Flow, waves, music |
+| Air | Curiosity | `#f59e0b` | Ideas, freedom, attention |
+| Earth | Creations | `#34d399` | Substance, building, proof |
+
+Purple spirit, `#c084fc`, is reserved for rare expressive moments. It never
+becomes a fifth section or a body-text color.
 
 ### Color rules
-1. White is the canvas. No grey-tinted backgrounds.
-2. Sunrise is the only saturated solid color.
-3. Warm partners only appear as ambient glows or gradient stops.
-4. No cool colors. Ever. (Status pills allowed: emerald = live.)
-5. Body copy uses `ink` at varying opacities (100, 80, 70, 65, 50, 40).
 
-## 3. Typography
+1. Black and white carry the composition.
+2. Blue owns interaction across the whole site.
+3. Each bento owns exactly one elemental hue.
+4. Section hues appear in sigils, fills, progress, and small accents.
+5. Body text uses `fg`, `muted`, or `faint`, never a decorative hue.
+6. Use the `-ink` companion token when colored text is necessary.
+7. Reference tokens, never raw hex values in components.
 
-| Family | Use | Source |
-| --- | --- | --- |
-| **Fraunces** | Display, headlines, italic accents | Google Fonts (variable) |
-| **Inter** | Body, UI, buttons | Google Fonts |
-| **JetBrains Mono** | Numbers, dates, ages, view counts | Google Fonts |
+## Typography
 
-### Display sizing (Fraunces)
-| Use | Mobile | Desktop |
-| --- | --- | --- |
-| Hero name | `text-[3.25rem]` | `text-[9rem]` (lg) |
-| Section title | `text-3xl` | `text-4xl` |
-| Sub-headline | `text-2xl` | `text-3xl` |
-| Pull quote | `text-xl italic` | `text-2xl italic` |
-
-### Body sizing (Inter)
-| Use | Size |
+| Family | Use |
 | --- | --- |
-| Lead paragraph | `text-base sm:text-lg md:text-xl` |
-| Body | `text-base` |
-| Card description | `text-sm` |
-| Caption | `text-xs` |
-| Eyebrow | `text-[0.65rem]` uppercase, `tracking-[0.2em]` |
+| Space Grotesk | Display, navigation, card titles |
+| Lato | Body copy and interface text |
+| JetBrains Mono | Numbers, dates, labels, metadata |
 
-### Typography rules
-1. Numbers in mono. Always.
-2. Italic only on Fraunces for emphasis. Never on Inter.
-3. Lowercase voice everywhere except proper nouns.
-4. Tight tracking on display (`tracking-tightest`, `-0.045em`).
-5. Loose tracking on caps (`tracking-[0.18em]` to `[0.22em]`).
+### Type rules
 
-## 4. Voice
+1. Display text stays compact. Only one statement per page may use display scale.
+2. Card headings remain proportional to their containers.
+3. Numbers and dates use mono.
+4. Letter spacing is never negative beyond the named display tokens.
+5. Labels may use uppercase with the named tracking tokens.
+6. Lowercase is preferred for interface voice. Proper nouns stay correct.
 
-> lowercase. specific. honest. warm. no em dashes ever.
+## Layout
 
-### Examples
+The homepage is a compressed bento that should fit a typical laptop viewport.
+Mobile may scroll naturally.
 
-**Yes**
-- *building, writing, making music. living at network school.*
-- *prompt me*
-- *one playlist per year. the through-line.*
+| Token | Value | Use |
+| --- | --- | --- |
+| Card radius | `16px` | Bento cards |
+| Small radius | `8px` | Badges and media tiles |
+| Card padding | `20px`, then `24px` | Mobile, then larger screens |
+| Base gap | `12px` to `16px` | Bento and component rhythm |
 
-**No**
-- "Building software at Network School - shipping fast!"
-- "Subscribe to Pangaea — my newsletter"
-- "Click here to learn more"
+Cards are for bounded tools and repeated items. Do not place decorative cards
+inside cards. Media tiles inside Sights are the exception because they are the
+content itself.
 
-### Voice rules
-1. Always lowercase, except proper nouns.
-2. Periods, not em dashes.
-3. Specific verbs over vague ones (*shipping* not *making*).
-4. No business-speak. No corporate-tense.
-5. Talk like Adam, not like a brand.
+## Motion
 
-## 5. Motion
+One easing curve owns the site:
 
-### Easing
-Default ease curve: `cubic-bezier(0.16, 1, 0.3, 1)` aka *ease-out-quart*.
-Used for nearly every transition.
-
-### Durations
-| Use | Duration |
-| --- | --- |
-| Micro (hover) | 200ms |
-| Small (state change) | 400ms |
-| Medium (reveal) | 700ms |
-| Large (page transition, splash dismiss) | 600 to 900ms |
-
-### Springs (Framer Motion)
-| Feel | Stiffness | Damping | Mass |
-| --- | --- | --- | --- |
-| Snappy (magnetic) | 220 | 18 | 0.4 |
-| Soft (cursor ring) | 280 | 24 | 0.6 |
-
-### Motion rules
-1. Restrained. Reveal once on scroll, not repeatedly.
-2. Stagger reveals in 40 to 80ms increments.
-3. Hover lifts: `-translate-y-0.5` to `-1`. Never more.
-4. Respect `prefers-reduced-motion`. Skip transforms, keep fades.
-
-## 6. Layout
-
-### Width
-- Long-form sections: `max-w-3xl` (768px)
-- Header + Footer: `max-w-5xl` (1024px)
-
-### Spacing
-- Section vertical: `py-16 sm:py-20 md:py-28`
-- Section horizontal: `px-5 sm:px-6`
-- Card padding: `p-5 md:p-6`
-- Element gaps: `gap-2 sm:gap-3` (buttons), `gap-4` (cards), `gap-8` (sections)
-
-### Radius
-- Buttons: `rounded-full`
-- Cards: `rounded-2xl`
-- Mini elements (pills, dots): `rounded-full`
-
-## 7. Surfaces and depth
-
-- **Glass surfaces**: `bg-paper/60 backdrop-blur-sm` for floating buttons
-- **Glow shadows on CTAs**: `shadow-lg shadow-sunrise/25 hover:shadow-xl hover:shadow-sunrise/40`
-- **Card shadows**: minimal. `shadow-sm` at most. Borders + ambient glows do the depth work.
-- **Section glows**: radial gradient blob, 900px, 32% intensity, 40px blur
-
-## 8. Cursor
-
-CSS-only. Sunrise SVG dot via `cursor: url(...)`.
-- Default body: 24px SVG, 3.5px sunrise dot
-- Interactive (a, button, etc.): 32px SVG with halo + 5px dot
-- Text inputs: native I-beam
-
-## 9. Iconography
-
-- Sigil: a single 6 to 8px sunrise dot, often paired with a mono caption.
-- Arrows: text characters (↗ ↓ → ←) at small sizes. No SVG icon library.
-
-## 10. Favicon
-
-Solid sunrise rounded square. 32x32, rx=9. White is implied by absence.
-
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="9" fill="#FF5C39"/>
-</svg>
+```css
+cubic-bezier(0.16, 1, 0.3, 1)
 ```
 
-## 11. The vibe splash
+| Use | Duration |
+| --- | --- |
+| Hover | `200ms` |
+| State change | `400ms` |
+| Reveal | `700ms` |
 
-First-visit overlay. Full-bleed sunrise radial gradient. Fraunces
-"press play. enter the vibe." Click to dismiss + auto-trigger
-Spotify play. Skips on subsequent same-session visits.
+Motion clarifies hierarchy and state. Hover lift is limited to `2px`. Reveals
+run once. Every animation collapses under `prefers-reduced-motion`.
 
-This is the cfcf.ca pattern adapted: music belongs to first-impression.
+## Imagery
 
-## 12. What this site is not
+Sights contains Adam's real photographs. A small truthful set is stronger than
+a large placeholder gallery.
 
-- Corporate. Not a brand site.
-- A single-page marketing landing. It is a hub.
-- Uniform. Each section has its own warm tonal accent.
-- Restrained for the sake of restraint. Restrained for the sake of clarity.
-- Forever. This is v2. v3 will look different. Update this doc when it does.
+1. The first image is the strongest personal image and receives LCP priority.
+2. Images use a stable aspect ratio and explicit dimensions.
+3. Captions are concrete places or moments, not generic mood words.
+4. Instagram and Pinterest are doors to the wider visual body of work.
+5. New images go in `public/sights/` with numeric filename prefixes.
 
-## 13. Source files
+## Creations
 
-- Tokens: `tailwind.config.ts`
-- Globals: `src/app/globals.css`
-- Section template: `src/components/Section.tsx`
-- Glow primitive: `src/components/SectionGlow.tsx`
-- Vibe splash: `src/components/VibeSplash.tsx`
+The homepage shows a restrained selection of the strongest finished Aether
+projects. `thedojo.fun` owns the complete work portfolio and workshop catalog.
 
-## 14. Personal color identity
+1. A public URL is not proof that a product is finished.
+2. Homepage projects must be usable, differentiated, and accurately described.
+3. Status means public state, not revenue or adoption.
+4. Experiments and work in progress belong in the dojo workshop, not the
+   homepage selection.
 
-> White is the canvas. Sunrise is the spark. Together: adam pang.
+## Voice
 
-White: clarity, openness, honesty, plenty of room to write your own
-future. Sunrise: optimism, the start of things, warmth, guam mornings.
+> lowercase. specific. honest. warm. no em dashes.
+
+Use concrete nouns and verbs. Say what exists. Do not use inflated counts as a
+substitute for outcomes. Calls to action should name the destination or action.
+
+## Iconography
+
+Use Lucide icons for familiar controls. Each bento heading uses its elemental
+sigil. The favicon is a black and white yin-yang on the blue interaction field.
+It represents opposing modes held inside one optimistic system.
+
+## Source map
+
+- Tokens: `src/design/tokens.json`
+- Token generator: `src/design/tokens.ts`
+- Tailwind mapping: `tailwind.config.ts`
+- Global styles: `src/app/globals.css`
+- Living reference: `src/app/design/DesignSystem.tsx`
+- Element sigils: `src/components/ElementSigil.tsx`
+- Sights: `src/components/Sights.tsx`
+- Creations: `src/components/Building.tsx`
+
+When documentation and code disagree, fix the disagreement immediately. Do not
+create a second source of visual truth.

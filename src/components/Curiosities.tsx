@@ -1,15 +1,12 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { reading, curiosityLinks } from '@/data/curiosities';
 import ElementSigil from './ElementSigil';
 
-const ease = [0.16, 1, 0.3, 1] as const;
-
 export default function Curiosities() {
   return (
-    <section className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
+    <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="air" />
         <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
@@ -19,18 +16,14 @@ export default function Curiosities() {
 
       <ul className="mb-5 space-y-1.5">
         {reading.map((book, i) => (
-          <motion.li
+          <li
             key={book.title}
-            initial={{ opacity: 0, x: -6 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-40px' }}
-            transition={{ duration: 0.45, ease, delay: 0.04 * i }}
             className="flex items-baseline gap-2 text-sm text-ink/85 dark:text-paper/85"
           >
             <span className="nums text-caption text-faint">0{i + 1}</span>
             <span className="font-display italic text-ink dark:text-paper">{book.title}</span>
             <span className="text-xs text-muted">. {book.author}</span>
-          </motion.li>
+          </li>
         ))}
       </ul>
 

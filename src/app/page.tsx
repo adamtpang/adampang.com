@@ -16,9 +16,9 @@ import { listSightImages } from '@/lib/blob';
 // distinct from `profile.summary` (used for the JSON-LD Person/WebSite
 // nodes and /api/profile.json), which runs ~340 characters, well past
 // what search/AI crawlers want in a meta description.
-const HOME_TITLE = 'Adam Pang - Builder, Writer, Musician';
+const HOME_TITLE = 'Adam Pang';
 const HOME_DESCRIPTION =
-  'Adam Pang is a builder, writer, and musician living at Network School in Langkawi, Malaysia. He ships software solo, writes essays, and makes music.';
+  'The personal site of Adam Pang: sights, sounds, curiosity, and creations.';
 
 export const metadata: Metadata = {
   title: { absolute: HOME_TITLE },
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   // Root layout sets openGraph.title to profile.name ("Adam Pang"), which
   // no longer matches this page's own <title> now that it carries the
-  // fuller "Builder, Writer, Musician" copy. Override both here so bots
-  // that check <title> against og:title for consistency see a match.
+  // its own concise copy. Override both here so bots that check <title>
+  // against og:title for consistency see a match.
   openGraph: { title: HOME_TITLE, description: HOME_DESCRIPTION },
   twitter: { title: HOME_TITLE, description: HOME_DESCRIPTION },
 };
@@ -42,7 +42,7 @@ export default async function Home() {
     <main className="relative">
       {/* asH1: this page has no other title element, so the name is the h1. */}
       <SiteHeader asH1 />
-      <div className="grid grid-cols-1 gap-2 p-2 pb-3 sm:gap-3 sm:p-3 sm:pb-5 lg:grid-cols-2">
+      <div className="grid min-w-0 grid-cols-1 gap-2 p-2 pb-3 sm:gap-3 sm:p-3 sm:pb-5 lg:grid-cols-2">
         <Sights images={sightImages} />
         <Sounds />
         <Curiosities />

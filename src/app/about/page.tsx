@@ -85,7 +85,7 @@ export default function AboutPage() {
         <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 sm:grid-cols-4 dark:border-paper/15 dark:bg-ink-soft">
           {[
             { n: '#2', l: 'longtermer at ns' },
-            { n: '9', l: 'apps shipped' },
+            { n: '8', l: 'selected projects' },
             { n: '2024', l: 'at ns since day one' },
             { n: '500+', l: 'founders on campus' },
           ].map((r) => (

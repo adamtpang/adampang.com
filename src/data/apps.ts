@@ -1,10 +1,10 @@
 /**
- * Apps and storefronts. The Creativity section reads from this list.
+ * Selected work. The Creations section reads from this list.
  *
  * status:
- *   live       launched and in use
- *   shipping   actively being pushed right now
- *   building   in active development
+ *   live       public and usable
+ *   shipping   actively being improved in public
+ *   building   visible work in progress
  *
  * Only things worth showing go here. Work that is no longer active is
  * simply removed from the list rather than labelled, so the portfolio
@@ -15,15 +15,15 @@
  * founding rule: stay compressed enough to fit on a laptop screen without
  * scrolling ("greatness is hard to vary"). Fourteen of the 26 were tagged
  * 'tools', several doing the same "rank/prioritize your life" thing
- * (8020.best, archimedes.life, moneymeta.fun, themain.quest) — volume
+ * (8020.best, archimedes.life, moneymeta.fun, themain.quest). Volume
  * without differentiation reads as noise, not range. Each entry below is
  * a flagship: one clear idea per facet, nothing redundant with another
  * entry or with another section of this site (pangaea.blog, for example,
  * is already the writing nav link, so it doesn't need a tile here too).
  *
- * The other 18 domains are still real and still live; they're just not
- * claimed on this page. To bring one back, describe it well enough that
- * it earns a distinct spot rather than padding the count.
+ * The full body of work lives at thedojo.fun. To bring a project onto the
+ * homepage, it must be public, usable, differentiated, and accurately
+ * described. A deployed URL alone is not enough.
  */
 
 export type AppStatus = 'live' | 'shipping' | 'building';
@@ -35,71 +35,71 @@ export type App = {
   tagline: string;
   status: AppStatus;
   /** Optional category tag, used for grouping or filtering later. */
-  tag?: 'music' | 'social' | 'tools' | 'studio' | 'civic';
+  tag?: 'music' | 'social' | 'tools' | 'education' | 'civic';
 };
 
 export const apps: App[] = [
   {
-    slug: 'anchormarianas',
-    name: 'anchormarianas.com',
-    url: 'https://anchormarianas.com',
-    tagline: 'ai studio. apps in days, not months',
-    status: 'shipping',
-    tag: 'studio',
-  },
-  {
-    slug: 'sellsniper',
-    name: 'sellsniper.com',
-    url: 'https://sellsniper.com',
-    tagline: 'the ai sales agent',
-    status: 'shipping',
-    tag: 'tools',
-  },
-  {
-    slug: 'deathmoney',
-    name: 'deathmoney.fyi',
-    url: 'https://deathmoney.fyi',
-    tagline: 'your financial freedom number',
-    status: 'shipping',
-    tag: 'tools',
-  },
-  {
-    slug: 'strummer',
-    name: 'strummer.fun',
-    url: 'https://strummer.fun',
-    tagline: 'the music suite',
-    status: 'building',
-    tag: 'music',
-  },
-  {
     slug: 'wonderhall',
     name: 'wonderhall.live',
     url: 'https://wonderhall.live',
-    tagline: 'bimonthly concert series',
+    tagline: 'a recurring live music night',
     status: 'live',
     tag: 'music',
   },
   {
-    slug: 'summon',
-    name: 'summon.guide',
-    url: 'https://summon.guide',
-    tagline: 'chat with legendary founders',
+    slug: 'worldcupelo',
+    name: 'worldcupelo.com',
+    url: 'https://worldcupelo.com',
+    tagline: 'live elo ratings for national teams',
     status: 'live',
-    tag: 'social',
+    tag: 'tools',
   },
   {
-    slug: 'optimism',
-    name: 'optimism.fun',
-    url: 'https://optimism.fun',
-    tagline: "humanity's demand map",
+    slug: 'zcash-school',
+    name: 'zcash.school',
+    url: 'https://zcash.school',
+    tagline: 'a free course on private money',
+    status: 'live',
+    tag: 'education',
+  },
+  {
+    slug: 'ness',
+    name: 'ness.city',
+    url: 'https://ness.city',
+    tagline: 'civic tools for ambitious communities',
     status: 'live',
     tag: 'civic',
   },
   {
-    slug: 'beware',
-    name: 'beware.dog',
-    url: 'https://beware-dog.vercel.app',
-    tagline: '24/7 ai security for small businesses',
+    slug: 'themainquest',
+    name: 'themain.quest',
+    url: 'https://themain.quest',
+    tagline: 'one life. one move that matters now',
+    status: 'live',
+    tag: 'tools',
+  },
+  {
+    slug: 'pokedex',
+    name: 'pokedex.life',
+    url: 'https://pokedex.life',
+    tagline: 'a pokedex for the people around you',
+    status: 'live',
+    tag: 'social',
+  },
+  {
+    slug: 'vercel-school',
+    name: 'vercel.school',
+    url: 'https://vercel.school',
+    tagline: 'learn vercel by shipping',
+    status: 'live',
+    tag: 'education',
+  },
+  {
+    slug: 'storageclean',
+    name: 'storageclean.app',
+    url: 'https://storageclean.app',
+    tagline: 'find and reclaim wasted disk space',
     status: 'live',
     tag: 'tools',
   },

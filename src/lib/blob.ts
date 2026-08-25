@@ -5,11 +5,11 @@ import path from 'node:path';
 /**
  * Sights image source. Two layers, tried in order:
  *
- *   1. LOCAL  — any image in /public/sights/ (committed to the repo).
+ *   1. LOCAL: any image in /public/sights/ (committed to the repo).
  *      Zero setup. Drop a JPG in that folder, it renders on next
  *      deploy. This is the default path.
  *
- *   2. BLOB   — Vercel Blob store, prefix `sights/`. Used only if the
+ *   2. BLOB: Vercel Blob store, prefix `sights/`. Used only if the
  *      local folder is empty AND a BLOB_READ_WRITE_TOKEN is present.
  *      Lets you add photos from the Vercel dashboard without a commit.
  *

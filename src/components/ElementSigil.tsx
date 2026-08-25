@@ -5,19 +5,22 @@
  * glyph, echoing the ceramic element-bead necklace. Replaces the
  * plain colored dots that headed each bento.
  *
- *   water  blue   #2563EB   sounds        (flow, waves, music)
- *   earth  green  #10B981   creativities  (substance, building)
- *   fire   red    #EF4444   sights        (vision, the spark)
- *   air    amber  #F59E0B   curiosities   (mind, freedom, ideas)
+ *   water  sounds       flow, waves, music
+ *   earth  creativity   substance, building
+ *   fire   sights       vision, the spark
+ *   air    curiosity    mind, freedom, ideas
+ *
+ * Colors come from tokens.json through Tailwind. This keeps the sigils in
+ * sync with the bento accents in both light and dark mode.
  */
 
 export type Element = 'water' | 'earth' | 'fire' | 'air';
 
 const COLOR: Record<Element, string> = {
-  water: '#2563EB',
-  earth: '#10B981',
-  fire: '#EF4444',
-  air: '#F59E0B',
+  water: 'bg-sounds',
+  earth: 'bg-creativity',
+  fire: 'bg-sights',
+  air: 'bg-curiosity',
 };
 
 const GLYPH: Record<Element, React.ReactNode> = {
@@ -63,8 +66,8 @@ export default function ElementSigil({
 }) {
   return (
     <span
-      className={`relative inline-flex shrink-0 items-center justify-center rounded-[5px] ${className}`}
-      style={{ width: size, height: size, background: COLOR[element] }}
+      className={`relative inline-flex shrink-0 items-center justify-center rounded-[5px] ${COLOR[element]} ${className}`}
+      style={{ width: size, height: size }}
       aria-hidden
     >
       <svg width={size * 0.78} height={size * 0.78} viewBox="0 0 16 16">

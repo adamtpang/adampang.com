@@ -7,6 +7,7 @@ import ElementSigil from './ElementSigil';
 
 const ease = [0.16, 1, 0.3, 1] as const;
 const IG = 'https://instagram.com/adamtpang';
+const PINTEREST = 'https://pinterest.com/adamtpang';
 
 /** Inline Instagram glyph (lucide build here doesn't export one). */
 function IgGlyph({ size = 18 }: { size?: number }) {
@@ -31,18 +32,18 @@ function IgGlyph({ size = 18 }: { size?: number }) {
 
 /**
  * Sights. What I see. Renders real photos from /public/sights/* and
- * always ends with an Instagram tile — the curated visual life lives
- * on instagram, this is the peek + the door to it.
+ * always ends with Instagram and Pinterest tiles. The curated visual life
+ * lives there. This is the peek and the door to it.
  *
  * Add photos by dropping images in public/sights/ (prefix 01-, 02-…
  * to order; filename becomes the caption).
  */
 export default function Sights({ images = [] }: { images?: SightImage[] }) {
-  const photos = images.slice(0, 3); // leave room for the IG tile
-  const cols = photos.length + 1; // photos + instagram tile
+  const photos = images.slice(0, 2);
+  const hasSecondPhoto = photos.length > 1;
 
   return (
-    <section className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
+    <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="fire" />
         <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
@@ -50,10 +51,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
         </h2>
       </div>
 
-      <div
-        className="grid gap-1.5 sm:gap-2"
-        style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
-      >
+      <div className="grid h-36 grid-cols-4 grid-rows-2 gap-1.5 sm:h-40 sm:gap-2">
         {photos.map((p, i) => (
           // No entrance animation. These tiles are above the fold and the
           // first one is the LCP element; an `initial={{opacity: 0}}` +
@@ -67,7 +65,9 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
             rel="noreferrer noopener"
             whileHover={{ y: -2 }}
             transition={{ duration: 0.5, ease }}
-            className="group relative aspect-square overflow-hidden rounded-lg border border-zinc-200 dark:border-paper/15"
+            className={`group relative overflow-hidden rounded-lg border border-zinc-200 dark:border-paper/15 ${
+              i === 0 ? 'col-span-2 row-span-2' : 'col-span-1 row-span-2'
+            }`}
             // Must contain the visible caption, or voice control ("click
             // <caption>") cannot address this link.
             aria-label={`${p.caption} . view on Instagram`}
@@ -97,50 +97,48 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
           </motion.a>
         ))}
 
-        {/* Instagram tile. Always present, the door to the full feed.
-            Also above the fold, so also no opacity-0 entrance. */}
+        {/* Social tiles are visual doors, not substitute photographs. */}
         <motion.a
           href={IG}
           target="_blank"
           rel="noreferrer noopener"
           whileHover={{ y: -2 }}
           transition={{ duration: 0.5, ease }}
-          className="group relative flex aspect-square flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 text-white transition-all dark:border-paper/15"
+          className={`group relative flex flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 text-white transition-all dark:border-paper/15 ${
+            hasSecondPhoto ? 'col-span-1' : 'col-span-2'
+          }`}
           style={{
             backgroundImage:
-              'linear-gradient(135deg, #2563eb 0%, #38bdf8 100%)',
+              'linear-gradient(135deg, rgb(var(--color-spirit)) 0%, rgb(var(--color-sights)) 52%, rgb(var(--color-curiosity)) 100%)',
           }}
           // Starts with the visible text ("more on ig") so the accessible
           // name matches what a voice-control user would say.
-          aria-label="more on ig . Instagram"
+          aria-label="instagram . visual life"
         >
           <span className="opacity-95"><IgGlyph size={18} /></span>
           <span className="px-1 text-center text-caption uppercase tracking-[0.16em] leading-tight">
-            more on ig
+            instagram
+          </span>
+        </motion.a>
+
+        <motion.a
+          href={PINTEREST}
+          target="_blank"
+          rel="noreferrer noopener"
+          whileHover={{ y: -2 }}
+          transition={{ duration: 0.5, ease }}
+          className={`group relative flex flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 bg-sights text-white transition-all dark:border-paper/15 ${
+            hasSecondPhoto ? 'col-span-1' : 'col-span-2'
+          }`}
+          aria-label="pinterest . visual references"
+        >
+          <span className="font-display text-lg font-semibold leading-none">P</span>
+          <span className="inline-flex items-center gap-0.5 px-1 text-center text-caption uppercase tracking-[0.16em] leading-tight">
+            pinterest
+            <ArrowUpRight aria-hidden size={9} />
           </span>
         </motion.a>
       </div>
-
-      <ul className="mt-4 flex flex-wrap gap-x-3 gap-y-1 text-sm text-ink/70 dark:text-paper/70">
-        {[
-          { label: 'instagram', href: IG },
-          { label: 'pinterest', href: 'https://pinterest.com/adamtpang' },
-        ].map((l) => (
-          <li key={l.href}>
-            <a
-              href={l.href}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="group inline-flex items-baseline gap-1 transition-colors hover:text-sunrise"
-            >
-              <span className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 group-hover:decoration-sunrise">
-                {l.label}
-              </span>
-              <ArrowUpRight aria-hidden size={11} className="opacity-50 transition-opacity group-hover:opacity-100" />
-            </a>
-          </li>
-        ))}
-      </ul>
     </section>
   );
 }
