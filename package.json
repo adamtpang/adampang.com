@@ -6,13 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "check:contrast": "node scripts/contrast.mjs --fail",
     "check:tokens": "node scripts/verify-tokens.mjs",
     "check:jsonld": "node scripts/validate-jsonld.mjs",
     "check:progress": "node scripts/test-progress.mjs",
     "check:journey": "node scripts/test-journey.mjs",
-    "verify": "pnpm build && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld && pnpm check:progress && pnpm check:journey"
+    "check:site": "node scripts/test-site-quality.mjs",
+    "verify": "pnpm build && pnpm check:site && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld && pnpm check:progress && pnpm check:journey"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

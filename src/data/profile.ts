@@ -158,6 +158,8 @@ export const profile = {
   pages: [
     { path: '/', title: 'home', description: 'The four-element bento: sights, sounds, curiosity, creations.' },
     { path: '/about', title: 'about', description: 'Who he is, chronologically. Milestones and receipts.' },
+    { path: '/contact', title: 'contact', description: 'Real ways to contact Adam and what to expect next.' },
+    { path: '/privacy', title: 'privacy', description: 'How this site handles analytics, storage, embeds, links, and contact.' },
     { path: '/now', title: 'now', description: 'What he is doing right now, in the sivers.org/now tradition.' },
     { path: '/ns', title: 'network school', description: 'Living at the internet frontier as longtermer #2.' },
     { path: '/support', title: 'support', description: 'Tip jar, crypto, referral wall.' },

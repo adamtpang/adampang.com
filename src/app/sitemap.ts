@@ -9,6 +9,8 @@ import { profile, SITE_URL, LAST_UPDATED } from '@/data/profile';
 const PRIORITY: Record<string, number> = {
   '/': 1,
   '/about': 0.9,
+  '/contact': 0.8,
+  '/privacy': 0.7,
   '/now': 0.8,
   '/ns': 0.7,
   '/design': 0.6,
