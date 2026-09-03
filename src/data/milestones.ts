@@ -28,11 +28,6 @@ export type Milestone = {
 
 export const milestones: Milestone[] = [
   {
-    year: '2002',
-    title: 'Guam',
-    role: 'born',
-  },
-  {
     year: '2020',
     title: 'Music',
     role: 'started writing seriously',

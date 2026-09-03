@@ -68,8 +68,7 @@ export default async function Home() {
           <div className="grid gap-5 text-base leading-relaxed text-ink/75 sm:text-lg lg:grid-cols-2 lg:gap-10 dark:text-paper/75">
             <div className="space-y-4">
               <p>
-                Adam Pang is a builder, writer, and musician born on Guam and
-                currently living at Network School in Langkawi, Malaysia. This
+                Adam Pang is a builder, writer, and musician from Guam. This
                 personal site is the index for his public work: software
                 projects, essays, music, visual references, and a dated account
                 of what he is doing now.
