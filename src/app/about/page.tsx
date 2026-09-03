@@ -62,10 +62,9 @@ export default function AboutPage() {
 
         <div className="prose-tight mt-6 max-w-none text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">
           <p>
-            Born on Guam. Living at{' '}
-            <ExtLink href="https://ns.com/adam/apply">Network School</ExtLink>{' '}
-            in Langkawi, Malaysia. Builder, writer, musician. I make small bets
-            in public.
+            From Guam. Part of{' '}
+            <ExtLink href="https://ns.com">Network School</ExtLink>. I build,
+            write, and make music.
           </p>
           <p className="mt-4">
             Most of what I do is{' '}
@@ -82,11 +81,10 @@ export default function AboutPage() {
         </div>
 
         {/* Receipts. Honest numbers, including the unflattering one. */}
-        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 sm:grid-cols-4 dark:border-paper/15 dark:bg-ink-soft">
+        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 sm:grid-cols-3 dark:border-paper/15 dark:bg-ink-soft">
           {[
-            { n: '#2', l: 'longtermer at ns' },
             { n: '8', l: 'selected projects' },
-            { n: '2024', l: 'at ns since day one' },
+            { n: '2024', l: 'joined ns' },
             { n: '500+', l: 'founders on campus' },
           ].map((r) => (
             <div key={r.l}>
@@ -128,17 +126,13 @@ export default function AboutPage() {
 
       <article className="mx-auto w-full max-w-[62ch] px-5 pb-14 sm:px-6">
 
-        <Section title="where i’ve lived">
-          <Plain>Guam → United States → Langkawi, Malaysia.</Plain>
-        </Section>
-
         <Section title="what i’m doing now">
           <Plain>
             Building{' '}
             <ExtLink href="https://strummer.fun">strummer.fun</ExtLink>,
             writing{' '}
             <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>,
-            shipping software from a hammock in Malaysia. Full current state
+            and shipping software. Full current state
             is on the <Link href="/" className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise">homepage</Link>.
           </Plain>
         </Section>

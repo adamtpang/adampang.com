@@ -8,7 +8,7 @@ const ease = [0.16, 1, 0.3, 1] as const;
 export default function Hero() {
   return (
     <section className="relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7">
-      {/* Sigil + place + age */}
+      {/* Sigil + site */}
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -16,7 +16,7 @@ export default function Hero() {
         className="mb-3 inline-flex items-center gap-2 text-caption uppercase tracking-[0.22em] text-muted"
       >
         <span className="h-1.5 w-1.5 rounded-full bg-sunrise" />
-        <span className="nums">23 . guam . langkawi</span>
+        <span className="nums">adampang.com</span>
       </motion.div>
 
       {/* Name. Modest scale per andrewp.co. */}

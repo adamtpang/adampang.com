@@ -31,7 +31,7 @@ export default function NSHero() {
         className="mb-6 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-muted"
       >
         <span className="h-1.5 w-1.5 rounded-full bg-sunrise" />
-        <span className="nums">network school · langkawi · malaysia</span>
+        <span className="nums">network school · ns.com</span>
       </motion.div>
 
       <motion.h1
@@ -60,8 +60,8 @@ export default function NSHero() {
           >
             ns.com
           </a>{' '}
-          for the first two days of its launch in 2024. came back for the
-          long haul in march 2025. longtermer #2.
+          for the first two days of its launch in 2024 and later returned as a
+          member of the community.
         </p>
         <p>
           if you&apos;re thinking about coming, use my referral link below and

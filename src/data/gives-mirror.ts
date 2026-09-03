@@ -223,7 +223,7 @@ const TREE = {
 
   who: {
     say: "Who are you?",
-    reply: "<p>Adam Pangelinan. From Guam, currently in Malaysia. I ship a lot: dozens of live products, mostly built solo with AI.</p><p>Straight with you: those products have earned <span class='price'>$147</span> total, from 2 real customers. I am very good at building and I have been bad at asking. This page is me fixing the second part.</p><p>So everything here has a real price and a real date, and nothing claims to be bigger than it is.</p>",
+    reply: "<p>Adam Pang. From Guam. I ship a lot: dozens of live products, mostly built solo with AI.</p><p>Straight with you: those products have earned <span class='price'>$147</span> total, from 2 real customers. I am very good at building and I have been bad at asking. This page is me fixing the second part.</p><p>So everything here has a real price and a real date, and nothing claims to be bigger than it is.</p>",
     ctas: [["My site","https://adampang.com"],["The plain menu","https://adam.gives/menu.html"]],
     chips: ["build","stuck","back"]
   },

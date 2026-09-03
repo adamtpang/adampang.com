@@ -11,7 +11,7 @@ import Milestone from './Milestone';
  *
  * A tall outer section holds a sticky viewport. Scroll position drives a
  * camera that pans a wide strip, so the beats arrive one at a time along a
- * path. Guam to the mainland to Langkawi, drawn as an actual route.
+ * path, drawn as an actual route.
  *
  * This is scroll-LINKED, not scroll-JACKED, and the difference is the
  * whole reason it is acceptable: no wheel handler, no preventDefault, no

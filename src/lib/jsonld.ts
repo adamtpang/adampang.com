@@ -31,22 +31,12 @@ export function buildJsonLd() {
     '@type': 'Person',
     '@id': personId,
     name: profile.name,
-    alternateName: profile.alternateName,
     url: SITE_URL,
     email: `mailto:${profile.contact.email}`,
     description: profile.summary,
     disambiguatingDescription: profile.headline,
     jobTitle: profile.roles.join(', '),
     birthPlace: { '@type': 'Place', name: profile.birthPlace.name },
-    homeLocation: {
-      '@type': 'Place',
-      name: profile.location.current.name,
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: profile.location.current.locality,
-        addressCountry: profile.location.current.country,
-      },
-    },
     worksFor: {
       '@type': 'Organization',
       name: profile.worksFor.name,

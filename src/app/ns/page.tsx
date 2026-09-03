@@ -7,7 +7,7 @@ import NSReferral from '@/components/ns/NSReferral';
 export const metadata: Metadata = {
   title: 'network school',
   description:
-    "Living at Balaji Srinivasan's Network School in Langkawi, Malaysia. Longtermer #2 since March 2025. If you're thinking about coming, use my referral link and I'll give you a tour.",
+    "Notes and referral information for Balaji Srinivasan's Network School.",
   alternates: { canonical: '/ns' },
 };
 
