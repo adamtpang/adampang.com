@@ -28,7 +28,7 @@ export const SITE_URL = 'https://adampang.com';
  * Bump when the facts change, not when the site rebuilds. Agents use this
  * to decide whether a cached copy is stale.
  */
-export const LAST_UPDATED = '2026-08-25';
+export const LAST_UPDATED = '2026-09-03';
 
 /** Places Adam exists online. Drives schema.org sameAs. */
 const SAMEAS_CATEGORIES = ['social', 'video', 'sound', 'words', 'code'] as const;
@@ -50,37 +50,17 @@ export const profile = {
   schemaVersion: '1.0',
 
   name: 'Adam Pang',
-  alternateName: 'Adam Tomas Guzman Pangelinan',
   url: SITE_URL,
 
   headline: 'Builder, writer, musician. Shipping small bets in public.',
   summary:
-    'Adam Pang is a builder, writer, and musician born on Guam, living at ' +
-    'Network School in Langkawi, Malaysia as longtermer #2. He runs Anchor ' +
-    'Marianas, an AI studio, ships software solo and in public, writes essays ' +
-    'at pangaea.blog, and makes music. adampang.com is the hub that links his ' +
-    'whole body of work from one twelve-character address.',
+    'Adam Pang is a builder, writer, and musician from Guam. He runs Anchor ' +
+    'Marianas, ships software solo and in public, writes at pangaea.blog, and ' +
+    'makes music. adampang.com is the hub for his work and public profiles.',
 
   roles: ['builder', 'writer', 'musician', 'founder'],
 
-  /**
-   * Derived age is deliberately absent. birthYear is the durable fact;
-   * an age string goes stale silently every birthday.
-   */
-  birthYear: 2002,
   birthPlace: { name: 'Guam', type: 'Place' },
-
-  location: {
-    current: {
-      name: 'Network School',
-      locality: 'Langkawi',
-      country: 'Malaysia',
-      url: 'https://ns.com',
-      since: '2025-03',
-      note: 'longtermer #2',
-    },
-    lived: ['Guam', 'United States', 'Langkawi, Malaysia'],
-  },
 
   contact: {
     email: 'adamtpang@gmail.com',
@@ -98,7 +78,7 @@ export const profile = {
   affiliation: {
     name: 'Network School',
     url: 'https://ns.com',
-    role: 'longtermer #2',
+    role: 'member',
   },
 
   /** Generated from apps.ts. Adding a project there updates every consumer. */
@@ -161,7 +141,7 @@ export const profile = {
     { path: '/contact', title: 'contact', description: 'Real ways to contact Adam and what to expect next.' },
     { path: '/privacy', title: 'privacy', description: 'How this site handles analytics, storage, embeds, links, and contact.' },
     { path: '/now', title: 'now', description: 'What he is doing right now, in the sivers.org/now tradition.' },
-    { path: '/ns', title: 'network school', description: 'Living at the internet frontier as longtermer #2.' },
+    { path: '/ns', title: 'network school', description: 'Notes and referral information for Network School.' },
     { path: '/support', title: 'support', description: 'Tip jar, crypto, referral wall.' },
     { path: '/design', title: 'design system', description: 'Living token reference. Machine-readable exports.' },
   ],

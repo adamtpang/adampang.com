@@ -53,8 +53,8 @@ export const milestones: Milestone[] = [
   {
     year: '2025',
     title: 'Network School',
-    role: 'longtermer #2',
-    note: 'Moved in full-time and started shipping in public.',
+    role: 'community member',
+    note: 'Returned and started shipping in public.',
   },
   {
     year: '2025',

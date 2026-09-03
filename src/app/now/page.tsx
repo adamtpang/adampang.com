@@ -45,8 +45,7 @@ export default function NowPage() {
 
         <NowSection title="where">
           <p>
-            <Ext href="https://ns.com/adam/apply">Network School</Ext>,
-            Langkawi, Malaysia. Longtermer #2 since March 2025.
+            <Ext href="https://ns.com">Network School</Ext>.
           </p>
         </NowSection>
 

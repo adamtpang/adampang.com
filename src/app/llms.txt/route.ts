@@ -20,7 +20,7 @@ function build(): string {
 
   return `# ${p.name}
 
-> ${p.headline} Born on ${p.birthPlace.name}, living at ${p.location.current.name} in ${p.location.current.locality}, ${p.location.current.country} as ${p.location.current.note}. ${SITE_URL} is the hub that links his whole body of work from one twelve-character address.
+> ${p.headline} From ${p.birthPlace.name}. ${SITE_URL} is the hub for his work and public profiles.
 
 ${p.summary}
 
@@ -50,10 +50,7 @@ ${list(p.machineReadable.map((x) => ({ label: x.path, href: `${SITE_URL}${x.path
 
 ## Facts
 
-- Full name: ${p.alternateName}
-- Born: ${p.birthYear}, ${p.birthPlace.name}
-- Lived: ${p.location.lived.join(' then ')}
-- Current: ${p.location.current.name}, ${p.location.current.locality}, ${p.location.current.country}. ${p.location.current.note}, since ${p.location.current.since}.
+- From: ${p.birthPlace.name}
 - Company: ${p.worksFor.name} (${p.worksFor.url}). ${p.worksFor.description}
 - Roles: ${p.roles.join(', ')}
 - Knows about: ${p.knowsAbout.join(', ')}
