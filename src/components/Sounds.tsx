@@ -176,6 +176,7 @@ export default function Sounds() {
           { label: 'strummer.fun', href: 'https://strummer.fun' },
           { label: 'wonderhall.live', href: 'https://wonderhall.live' },
           { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang' },
+          { label: 'pangpod', href: 'https://pangpod.com' },
         ].map((l) => (
           <a
             key={l.href}

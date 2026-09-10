@@ -27,6 +27,7 @@ export const outlinks: Outlink[] = [
   { label: 'youtube', href: 'https://youtube.com/@adamtpang', category: 'video' },
 
   /* SOUND. Music as the through-line. */
+  { label: 'pangpod', href: 'https://pangpod.com', category: 'sound', note: 'podcast' },
   { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang', category: 'sound' },
   { label: 'spotify', href: 'https://open.spotify.com/user/adamtpang', category: 'sound' },
   { label: 'wonderhall', href: 'https://wonderhall.live', category: 'sound', note: 'concert series' },
