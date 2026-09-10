@@ -71,8 +71,8 @@ becomes a fifth section or a body-text color.
 1. Display text stays compact. Only one statement per page may use display scale.
 2. Card headings remain proportional to their containers.
 3. Numbers and dates use mono.
-4. Letter spacing is never negative beyond the named display tokens.
-5. Labels may use uppercase with the named tracking tokens.
+4. Letter spacing is zero across the shared system.
+5. Labels may use uppercase. Type sizes are fixed, not viewport-scaled.
 6. Lowercase is preferred for interface voice. Proper nouns stay correct.
 
 ## Layout
