@@ -1,3 +1,4 @@
+import SiteAnalytics from './SiteAnalytics';
 import type { Metadata } from 'next';
 import { Space_Grotesk, Lato, JetBrains_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
@@ -159,6 +160,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <SiteAnalytics />
         <Analytics />
         <SpeedInsights />
       </body>

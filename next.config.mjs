@@ -23,7 +23,7 @@ const contentSecurityPolicy = [
   "font-src 'self' data: https://fonts.gstatic.com",
   "img-src 'self' data: blob: https://*.public.blob.vercel-storage.com",
   "frame-src https://open.spotify.com",
-  `connect-src 'self' https://vitals.vercel-insights.com${isDevelopment ? ' ws: http:' : ''}`,
+  `connect-src 'self' https://us.i.posthog.com https://vitals.vercel-insights.com${isDevelopment ? ' ws: http:' : ''}`,
   "media-src 'self'",
   "object-src 'none'",
   "form-action 'self'",

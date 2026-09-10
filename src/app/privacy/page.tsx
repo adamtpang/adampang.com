@@ -8,7 +8,7 @@ import { profile } from '@/data/profile';
 export const metadata: Metadata = {
   title: 'privacy',
   description:
-    'How Adam Pang’s personal site handles Vercel analytics, performance data, local storage, Spotify embeds, external links, and contact.',
+    'How Adam Pang’s personal site handles PostHog and Vercel analytics, performance data, local storage, Spotify embeds, external links, and contact.',
   alternates: { canonical: '/privacy' },
 };
 
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
         </Link>
 
         <header className="mt-6 border-b border-zinc-200 pb-8 dark:border-paper/10">
-          <p className="text-caption uppercase tracking-[0.22em] text-faint">effective 29 August 2026</p>
+          <p className="text-caption uppercase tracking-[0.22em] text-faint">effective 10 September 2026</p>
           <h1
             className="mt-2 font-display text-4xl leading-[0.95] tracking-tightest text-ink dark:text-paper sm:text-5xl"
             style={{ fontVariationSettings: '"opsz" 96' }}
@@ -92,6 +92,18 @@ export default function PrivacyPage() {
             no custom analytics events and builds no advertising profile. More
             detail is available in Vercel’s{' '}
             <ExternalLink href="https://vercel.com/docs/analytics/privacy-policy">Web Analytics privacy documentation</ExternalLink>.
+          </p>
+        </PrivacySection>
+
+        <PrivacySection title="cookieless page analytics">
+          <p>
+            PostHog also measures visits to public pages in its US region. We send
+            the public page path, hostname, and basic browser and device information.
+            Analytics cookies, person profiles, session replay, and automatic interaction
+            capture are disabled. We strip query strings, URL fragments, and referrer
+            data; we do not send form inputs. Network requests expose an IP address
+            to the receiving service. See the{' '}
+            <ExternalLink href="https://posthog.com/privacy">PostHog Privacy Notice</ExternalLink>.
           </p>
         </PrivacySection>
 
