@@ -16,10 +16,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: background-color 150ms ease, color 150ms ease;
-    background: #fafafa;
+    background: rgb(var(--color-bg));
   }
   html.dark {
-    background: #0a0a0a;
+    background: rgb(var(--color-bg));
   }
 
   body {
@@ -34,7 +34,7 @@
     min-height: 100vh;
     color: rgb(var(--color-fg));
     font-family: var(--font-body), system-ui, sans-serif;
-    font-weight: 300; /* Lato Light is the default body weight */
+    font-weight: 400;
     letter-spacing: 0;
     /* Custom blue dot cursor. */
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3.5' fill='%232563eb'/></svg>") 12 12, auto;
@@ -60,12 +60,12 @@
 
   ::selection {
     background: rgb(var(--color-accent) / 0.9);
-    color: #ffffff;
+    color: rgb(var(--color-on-accent));
   }
 
   :focus-visible {
-    outline: 2px solid rgb(var(--color-accent));
-    outline-offset: 3px;
+    outline: 3px solid rgb(var(--color-accent));
+    outline-offset: 5px;
     border-radius: 2px;
   }
 

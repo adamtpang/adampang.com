@@ -85,9 +85,18 @@ const scalarBlock = (
     .map(([k, v]) => `    --${prefix}-${k}: ${v.value};`)
     .join('\n');
 
+function runtimePrimitives(): string {
+  return [
+    ...Object.entries(raw.type.scale).map(([name, t]) => `    --text-${name}: ${t.size}; --leading-${name}: ${t.leading};`),
+    ...Object.entries(raw.space).map(([name, t]) => `    --space-${name}: ${t.value};`),
+    ...Object.entries(raw.radius).map(([name, t]) => `    --radius-${name}: ${t.value};`),
+    ...Object.entries(raw.motion).map(([name, t]) => `    --motion-${name}: ${t.value};`),
+  ].join('\n');
+}
+
 /** The :root and .dark custom-property block injected into <head>. */
 export function cssVarBlock(): string {
-  return `:root{\n${declarations('light')}\n}\n.dark{\n${declarations('dark')}\n}`;
+  return `:root{\n${declarations('light')}\n${runtimePrimitives()}\n}\n.dark{\n${declarations('dark')}\n}`;
 }
 
 /**
