@@ -183,13 +183,14 @@ this repo. Its contract:
 4. pangpod.com's tests assert two shared rules: token letter spacing is zero,
    and type sizes are never viewport-scaled.
 
-## Known drift (code does not yet match this document)
+## Cursor
 
-Recorded 2026-09-14 so it is fixed, not forgotten:
-
-1. **Raw hex.** The custom cursor in `src/app/globals.css` hardcodes `#2563eb`
-   twice instead of reading `accent`, so it will not follow a token change or
-   dark mode.
+The custom cursor is an accent-colored dot, with a larger halo over links and
+controls. SVG cursor images cannot read CSS variables, so
+`src/design/cursor.ts` generates `--cursor-dot` and `--cursor-link` from the
+accent token for light and dark. `globals.css` only uses the variables. This
+generator is adampang.com only, not part of the tokens PangPod syncs.
+`pnpm check:tokens` rejects raw hex in `globals.css`.
 
 ## Source map
 
@@ -197,6 +198,7 @@ Recorded 2026-09-14 so it is fixed, not forgotten:
 - Token generator: `src/design/tokens.ts`
 - Tailwind mapping: `tailwind.config.ts`
 - Global styles: `src/app/globals.css`
+- Cursor generator: `src/design/cursor.ts`
 - Living reference: `src/app/design/DesignSystem.tsx`
 - Element sigils: `src/components/ElementSigil.tsx`
 - Sights: `src/components/Sights.tsx`

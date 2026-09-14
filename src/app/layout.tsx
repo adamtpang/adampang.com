@@ -4,6 +4,7 @@ import { Space_Grotesk, Lato, JetBrains_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { cssVarBlock } from '@/design/tokens';
+import { cursorVarBlock } from '@/design/cursor';
 import { buildJsonLd } from '@/lib/jsonld';
 import { profile } from '@/data/profile';
 import './globals.css';
@@ -119,6 +120,8 @@ export default function RootLayout({
           id="design-tokens"
           dangerouslySetInnerHTML={{ __html: cssVarBlock() }}
         />
+        {/* Cursor images, generated from the accent token (src/design/cursor.ts). */}
+        <style id="cursor-tokens" dangerouslySetInnerHTML={{ __html: cursorVarBlock() }} />
         {/* Theme bootstrap. Runs before paint to avoid FOUC. */}
         <script
           dangerouslySetInnerHTML={{
