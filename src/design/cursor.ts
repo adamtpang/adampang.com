@@ -7,8 +7,8 @@
  * only consumes the variables, so a token change or dark mode now reaches
  * the cursor.
  *
- * adampang.com only. This file is deliberately not part of the shared
- * tokens.ts that pangpod.com syncs, so PangPod's cursor is unchanged.
+ * Shared: pangpod.com syncs this file with tokens.json and tokens.ts, so
+ * both sites use the same cursor. Edit it here, never in PangPod's copy.
  */
 
 import raw from './tokens.json';
