@@ -36,18 +36,18 @@
     font-family: var(--font-body), system-ui, sans-serif;
     font-weight: 400;
     letter-spacing: 0;
-    /* Custom blue dot cursor. */
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><circle cx='12' cy='12' r='3.5' fill='%232563eb'/></svg>") 12 12, auto;
+    /* Accent dot cursor. Generated from the accent token in src/design/cursor.ts. */
+    cursor: var(--cursor-dot), auto;
   }
 
-  /* Bigger blue halo cursor on interactive elements. */
+  /* Bigger accent halo cursor on interactive elements. */
   a,
   button,
   [role='button'],
   label,
   summary,
   select {
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><circle cx='16' cy='16' r='13' fill='%232563eb' fill-opacity='0.16'/><circle cx='16' cy='16' r='5' fill='%232563eb'/></svg>") 16 16, pointer;
+    cursor: var(--cursor-link), pointer;
   }
 
   input[type='text'],

@@ -166,6 +166,30 @@ walk('src');
 if (offenders.length) fail(`letter spacing outside tokens:\n    ${offenders.join('\n    ')}`);
 else ok(`letter spacing uses only zero-valued tokens (${trackingTokens.join(', ')})`);
 
+/* ---------- 7. no raw hex in global styles; cursor follows the accent ---------- */
+
+// Colors in globals.css must come from tokens. The cursor SVGs cannot read
+// CSS variables, so src/design/cursor.ts bakes the accent hex per mode into
+// <style id="cursor-tokens">; assert that block carries today's accent.
+const globalsCss = read('src/app/globals.css') ?? '';
+const rawHex = [...globalsCss.matchAll(/(?:#|%23)[0-9a-fA-F]{3,8}\b/g)].map((m) => m[0]);
+if (rawHex.length) fail(`raw hex in src/app/globals.css: ${[...new Set(rawHex)].join(', ')}`);
+else ok('src/app/globals.css has no raw hex colors');
+
+const cursorMatch = html.match(/id="cursor-tokens"[^>]*>([\s\S]*?)<\/style>/);
+if (!cursorMatch) {
+  fail('no <style id="cursor-tokens"> in the built HTML');
+} else {
+  const block = cursorMatch[1];
+  const light = block.slice(0, block.indexOf('.dark'));
+  const dark = block.slice(block.indexOf('.dark'));
+  const enc = (hex) => hex.replace('#', '%23');
+  const { light: accentLight, dark: accentDark } = tokens.color.brand.accent;
+  if (!light.includes(enc(accentLight))) fail(`cursor light block does not use accent ${accentLight}`);
+  else if (!dark.includes(enc(accentDark))) fail(`cursor dark block does not use accent ${accentDark}`);
+  else ok(`cursor uses accent ${accentLight} (light) and ${accentDark} (dark)`);
+}
+
 /* ---------- scalar sections ---------- */
 
 for (const section of ['type', 'space', 'radius', 'shadow', 'motion']) {
