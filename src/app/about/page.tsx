@@ -36,7 +36,7 @@ export default function AboutPage() {
       <article className="mx-auto w-full max-w-[62ch] px-5 py-10 sm:px-6 sm:py-14">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
+          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-label text-muted transition-colors hover:text-sunrise"
         >
           <ArrowLeft size={11} />
           <span>back home</span>
@@ -88,10 +88,10 @@ export default function AboutPage() {
             { n: '500+', l: 'founders on campus' },
           ].map((r) => (
             <div key={r.l}>
-              <div className="nums font-display text-2xl tracking-tight text-ink dark:text-paper">
+              <div className="nums font-display text-2xl tracking-tighter text-ink dark:text-paper">
                 {r.n}
               </div>
-              <div className="mt-0.5 text-caption uppercase tracking-[0.12em] text-muted">
+              <div className="mt-0.5 text-caption uppercase tracking-label text-muted">
                 {r.l}
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
         <section aria-labelledby="coin-heading" className="mt-12">
           <h2
             id="coin-heading"
-            className="mb-6 text-caption font-medium uppercase tracking-[0.22em] text-faint"
+            className="mb-6 text-caption font-medium uppercase tracking-label text-faint"
           >
             two sides of one coin
           </h2>
@@ -117,7 +117,7 @@ export default function AboutPage() {
       <section aria-labelledby="timeline-heading" className="mt-4">
         <h2
           id="timeline-heading"
-          className="mx-auto max-w-[62ch] px-5 text-caption font-medium uppercase tracking-[0.22em] text-faint sm:px-6"
+          className="mx-auto max-w-[62ch] px-5 text-caption font-medium uppercase tracking-label text-faint sm:px-6"
         >
           important things in my life so far
         </h2>
@@ -170,7 +170,7 @@ export default function AboutPage() {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-10">
-      <h2 className="mb-3 text-caption font-medium uppercase tracking-[0.22em] text-faint">
+      <h2 className="mb-3 text-caption font-medium uppercase tracking-label text-faint">
         {title}
       </h2>
       <div className="text-base leading-relaxed text-ink/80 dark:text-paper/80 sm:text-lg">

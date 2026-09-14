@@ -46,7 +46,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
     <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="fire" />
-        <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
+        <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl">
           sights
         </h2>
       </div>
@@ -91,7 +91,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent" />
-            <span className="absolute bottom-1 left-1.5 text-caption uppercase tracking-[0.16em] text-white/90">
+            <span className="absolute bottom-1 left-1.5 text-caption uppercase tracking-label text-white/90">
               {p.caption}
             </span>
           </motion.a>
@@ -116,7 +116,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
           aria-label="instagram . visual life"
         >
           <span className="opacity-95"><IgGlyph size={18} /></span>
-          <span className="px-1 text-center text-caption uppercase tracking-[0.16em] leading-tight">
+          <span className="px-1 text-center text-caption uppercase tracking-label leading-tight">
             instagram
           </span>
         </motion.a>
@@ -133,7 +133,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
           aria-label="pinterest . visual references"
         >
           <span className="font-display text-lg font-semibold leading-none">P</span>
-          <span className="inline-flex items-center gap-0.5 px-1 text-center text-caption uppercase tracking-[0.16em] leading-tight">
+          <span className="inline-flex items-center gap-0.5 px-1 text-center text-caption uppercase tracking-label leading-tight">
             pinterest
             <ArrowUpRight aria-hidden size={9} />
           </span>

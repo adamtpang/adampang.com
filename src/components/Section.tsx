@@ -48,12 +48,12 @@ export default function Section({
         >
           <div className="flex items-baseline gap-2.5">
             <span className={`relative top-0.5 inline-block h-2 w-2 rounded-full ${SIGIL_BG[sigil]}`} />
-            <h2 className="font-display text-2xl tracking-tight text-ink md:text-3xl">
+            <h2 className="font-display text-2xl tracking-tighter text-ink md:text-3xl">
               {title}
             </h2>
           </div>
           {kicker && (
-            <span className="text-caption uppercase tracking-[0.2em] text-faint nums">
+            <span className="text-caption uppercase tracking-label text-faint nums">
               {kicker}
             </span>
           )}

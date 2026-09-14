@@ -61,7 +61,7 @@ export default async function Home() {
             <span className="relative inline-block h-2 w-2 rounded-full bg-sunrise" />
             <h2
               id="home-map-heading"
-              className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl"
+              className="font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl"
             >
               a map of the work
             </h2>

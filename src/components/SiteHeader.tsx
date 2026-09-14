@@ -28,10 +28,10 @@ export default function SiteHeader({ asH1 = false }: { asH1?: boolean }) {
     >
       <div className="flex items-center gap-3">
         <span className="relative inline-block h-2 w-2 rounded-full bg-sun" />
-        <NameTag className="font-display text-lg tracking-tight text-ink dark:text-paper">
+        <NameTag className="font-display text-lg tracking-tighter text-ink dark:text-paper">
           Adam <span className="italic text-sunrise">Pang</span>
         </NameTag>
-        <span className="hidden items-baseline gap-2.5 text-caption uppercase tracking-[0.2em] text-faint sm:inline-flex">
+        <span className="hidden items-baseline gap-2.5 text-caption uppercase tracking-label text-faint sm:inline-flex">
           {[
             { tag: 'who', label: 'pokedex.life', href: 'https://pokedex.life', color: 'hover:text-sunrise hover:decoration-sunrise' },
             { tag: 'what', label: 'optimism.fun', href: 'https://optimism.fun', color: 'hover:text-sky hover:decoration-sky' },

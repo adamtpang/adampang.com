@@ -71,7 +71,7 @@ export default function Coin() {
         type="button"
         onClick={turn}
         aria-pressed={showingBack}
-        className="mt-6 inline-flex items-center gap-2 rounded-full border border-line bg-card px-4 py-2 text-caption uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent hover:text-accent-ink dark:hover:text-accent"
+        className="mt-6 inline-flex items-center gap-2 rounded-full border border-line bg-card px-4 py-2 text-caption uppercase tracking-label text-muted transition-colors hover:border-accent hover:text-accent-ink dark:hover:text-accent"
       >
         <span
           aria-hidden
@@ -103,7 +103,7 @@ export default function Coin() {
         <p className="mt-3 text-lead leading-relaxed text-fg/75">
           {coin.thesis.body}
         </p>
-        <p className="mt-3 text-caption uppercase tracking-[0.2em] text-faint">
+        <p className="mt-3 text-caption uppercase tracking-label text-faint">
           {coin.thesis.source}
         </p>
       </div>

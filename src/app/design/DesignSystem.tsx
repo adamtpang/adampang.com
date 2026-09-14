@@ -33,14 +33,14 @@ export default function DesignSystem() {
     <div className="mx-auto w-full max-w-4xl px-5 py-10 sm:px-6 sm:py-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-accent"
+        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-label text-muted transition-colors hover:text-accent"
       >
         <ArrowLeft size={11} />
         <span>back home</span>
       </Link>
 
       <header className="mt-6 mb-12">
-        <div className="mb-2 inline-flex items-center gap-2 text-caption uppercase tracking-[0.22em] text-muted">
+        <div className="mb-2 inline-flex items-center gap-2 text-caption uppercase tracking-label text-muted">
           <span className="h-1.5 w-1.5 rounded-full bg-accent" />
           <span>design system v{tokens.meta.version}</span>
         </div>
@@ -315,7 +315,7 @@ export default function DesignSystem() {
                   href={inf.href}
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="font-display text-lg tracking-tight text-fg underline decoration-line decoration-1 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
+                  className="font-display text-lg tracking-tighter text-fg underline decoration-line decoration-1 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                 >
                   {inf.site}
                 </a>
@@ -326,7 +326,7 @@ export default function DesignSystem() {
               <p className="mt-2 text-sm leading-relaxed text-fg/75">
                 {inf.lesson}
               </p>
-              <p className="mt-3 text-caption uppercase tracking-[0.14em] text-faint">
+              <p className="mt-3 text-caption uppercase tracking-label text-faint">
                 landed in{' '}
                 {inf.landedIn.map((path, i) => (
                   <span key={path}>
@@ -494,11 +494,11 @@ function DemoLink({ className = '' }: { className?: string }) {
 function ForAgents() {
   return (
     <section className="mt-12 rounded-lg border border-accent/30 bg-card p-6 sm:p-7">
-      <div className="mb-2 inline-flex items-center gap-2 text-caption uppercase tracking-[0.22em] text-muted">
+      <div className="mb-2 inline-flex items-center gap-2 text-caption uppercase tracking-label text-muted">
         <span className="h-1.5 w-1.5 rounded-full bg-accent" />
         <span>for agents</span>
       </div>
-      <h2 className="font-display text-2xl tracking-tight text-fg">
+      <h2 className="font-display text-2xl tracking-tighter text-fg">
         building something on-brand?
       </h2>
       <p className="mt-2 max-w-2xl text-sm leading-relaxed text-fg/75">
@@ -512,7 +512,7 @@ function ForAgents() {
 curl https://adampang.com/design/tokens.css`}</code>
       </pre>
 
-      <h3 className="mt-6 font-display text-base tracking-tight text-fg">
+      <h3 className="mt-6 font-display text-base tracking-tighter text-fg">
         three rules that keep work on-brand
       </h3>
       <ol className="mt-2 space-y-2.5 text-sm text-fg/80">
@@ -578,8 +578,8 @@ function Section({ n, title, children }: { n: string; title: string; children: R
   return (
     <section className="mb-12">
       <div className="mb-5 flex items-baseline gap-3">
-        <span className="font-mono text-caption uppercase tracking-[0.2em] text-faint">{n}</span>
-        <h2 className="font-display text-2xl tracking-tight text-fg md:text-3xl">{title}</h2>
+        <span className="font-mono text-caption uppercase tracking-label text-faint">{n}</span>
+        <h2 className="font-display text-2xl tracking-tighter text-fg md:text-3xl">{title}</h2>
       </div>
       {children}
     </section>
@@ -589,7 +589,7 @@ function Section({ n, title, children }: { n: string; title: string; children: R
 function GroupLabel({ children, className = '' }: { children: React.ReactNode; className?: string }) {
   return (
     <h3
-      className={`mb-1.5 text-caption font-medium uppercase tracking-[0.2em] text-muted ${className}`}
+      className={`mb-1.5 text-caption font-medium uppercase tracking-label text-muted ${className}`}
     >
       {children}
     </h3>

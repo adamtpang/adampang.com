@@ -35,7 +35,7 @@ export default function MagneticButton({
   const onLeave = () => setPos({ x: 0, y: 0 });
 
   const base =
-    'group relative inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-medium tracking-tight transition-all';
+    'group relative inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-medium tracking-tighter transition-all';
   const styles =
     variant === 'primary'
       ? 'bg-sunrise text-white shadow-md shadow-sunrise/30 hover:bg-sunrise-600 hover:shadow-lg hover:shadow-sunrise/40 hover:-translate-y-0.5'

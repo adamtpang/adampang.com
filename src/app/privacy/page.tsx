@@ -27,7 +27,7 @@ function ExternalLink({ href, children }: { href: string; children: React.ReactN
 function PrivacySection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-9">
-      <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper">{title}</h2>
+      <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper">{title}</h2>
       <div className="mt-3 space-y-4 text-base leading-relaxed text-ink/75 dark:text-paper/75 sm:text-lg">
         {children}
       </div>
@@ -42,14 +42,14 @@ export default function PrivacyPage() {
       <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
+          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-label text-muted transition-colors hover:text-sunrise"
         >
           <ArrowLeft size={11} aria-hidden />
           <span>back home</span>
         </Link>
 
         <header className="mt-6 border-b border-zinc-200 pb-8 dark:border-paper/10">
-          <p className="text-caption uppercase tracking-[0.22em] text-faint">effective 10 September 2026</p>
+          <p className="text-caption uppercase tracking-label text-faint">effective 10 September 2026</p>
           <h1
             className="mt-2 font-display text-4xl leading-[0.95] tracking-tightest text-ink dark:text-paper sm:text-5xl"
             style={{ fontVariationSettings: '"opsz" 96' }}

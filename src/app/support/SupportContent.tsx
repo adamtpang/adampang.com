@@ -45,7 +45,7 @@ export default function SupportContent() {
     <div className="mx-auto w-full max-w-3xl px-5 py-10 sm:px-6 sm:py-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-fire"
+        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-label text-muted transition-colors hover:text-fire"
       >
         <ArrowLeft size={11} />
         <span>back home</span>
@@ -104,7 +104,7 @@ export default function SupportContent() {
               <span className={`relative top-0.5 h-2 w-2 rounded-full ${c.dot}`} />
               <ArrowUpRight aria-hidden size={13} className="text-faint" />
             </div>
-            <div className="font-display text-xl tracking-tight text-ink dark:text-paper">
+            <div className="font-display text-xl tracking-tighter text-ink dark:text-paper">
               {c.title}
             </div>
             <div className="mt-1 text-xs text-muted">{c.sub}</div>
@@ -124,10 +124,10 @@ export default function SupportContent() {
         >
           <div className="mb-3 flex items-baseline gap-2.5">
             <span className="relative top-0.5 h-2 w-2 rounded-full bg-earth" />
-            <h2 className="font-display text-lg tracking-tight text-ink dark:text-paper">
+            <h2 className="font-display text-lg tracking-tighter text-ink dark:text-paper">
               crypto
             </h2>
-            <span className="text-caption uppercase tracking-[0.2em] text-faint">
+            <span className="text-caption uppercase tracking-label text-faint">
               anonymous . click to copy
             </span>
           </div>
@@ -138,7 +138,7 @@ export default function SupportContent() {
                   onClick={() => copy(w.label, w.value)}
                   className="group inline-flex items-center gap-2 rounded-full border border-zinc-200 px-3 py-1.5 text-xs transition-colors hover:border-earth dark:border-paper/15"
                 >
-                  <span className="font-mono uppercase tracking-[0.14em] text-muted">
+                  <span className="font-mono uppercase tracking-label text-muted">
                     {w.label}
                   </span>
                   <span className="font-mono text-ink/80 dark:text-paper/80">{w.value}</span>
@@ -165,10 +165,10 @@ export default function SupportContent() {
         >
           <div className="mb-3 flex items-baseline gap-2.5">
             <span className="relative top-0.5 h-2 w-2 rounded-full bg-air" />
-            <h2 className="font-display text-lg tracking-tight text-ink dark:text-paper">
+            <h2 className="font-display text-lg tracking-tighter text-ink dark:text-paper">
               things i use
             </h2>
-            <span className="text-caption uppercase tracking-[0.2em] text-faint">
+            <span className="text-caption uppercase tracking-label text-faint">
               my codes . you get a perk, i get credit
             </span>
           </div>
@@ -181,7 +181,7 @@ export default function SupportContent() {
                   rel="noreferrer noopener"
                   className="group flex items-baseline justify-between gap-4 py-2.5 transition-colors"
                 >
-                  <span className="font-display text-base tracking-tight text-ink transition-colors group-hover:text-air dark:text-paper">
+                  <span className="font-display text-base tracking-tighter text-ink transition-colors group-hover:text-air dark:text-paper">
                     {r.name}
                   </span>
                   <span className="flex items-baseline gap-1.5 text-right text-xs text-muted">
@@ -203,7 +203,7 @@ export default function SupportContent() {
         transition={{ duration: 0.6, ease, delay: 0.15 }}
         className="mt-10 rounded-2xl border border-zinc-200 bg-white p-6 sm:p-7 dark:border-paper/15 dark:bg-ink-soft"
       >
-        <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper sm:text-3xl">
+        <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper sm:text-3xl">
           first fifty get etched in.
         </h2>
         <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink/70 dark:text-paper/70 sm:text-base">
@@ -220,7 +220,7 @@ export default function SupportContent() {
         transition={{ duration: 0.6, ease, delay: 0.22 }}
         className="mt-10"
       >
-        <h2 className="mb-3 font-display text-2xl tracking-tight text-ink dark:text-paper">
+        <h2 className="mb-3 font-display text-2xl tracking-tighter text-ink dark:text-paper">
           why support
         </h2>
         <ul className="space-y-2 text-sm text-ink/75 dark:text-paper/75">

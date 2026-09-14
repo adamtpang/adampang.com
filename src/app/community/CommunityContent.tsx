@@ -53,7 +53,7 @@ export default function CommunityContent() {
     <div className="mx-auto w-full max-w-3xl px-5 py-10 sm:px-6 sm:py-14">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-fire"
+        className="inline-flex items-center gap-1.5 text-xs uppercase tracking-label text-muted transition-colors hover:text-fire"
       >
         <ArrowLeft size={11} />
         <span>back home</span>
@@ -96,7 +96,7 @@ export default function CommunityContent() {
                 <span className={`relative top-0.5 h-2 w-2 rounded-full ${r.dot}`} />
                 <ArrowUpRight aria-hidden size={13} className="text-faint" />
               </div>
-              <div className="font-display text-xl tracking-tight text-ink dark:text-paper">
+              <div className="font-display text-xl tracking-tighter text-ink dark:text-paper">
                 {r.title}
               </div>
               <div className="mt-1 text-xs text-muted">{r.sub}</div>
@@ -113,7 +113,7 @@ export default function CommunityContent() {
               <div className="mb-3 flex items-baseline justify-between">
                 <span className="relative top-0.5 h-2 w-2 rounded-full bg-faint" />
               </div>
-              <div className="font-display text-xl tracking-tight text-ink dark:text-paper">
+              <div className="font-display text-xl tracking-tighter text-ink dark:text-paper">
                 {r.title}
               </div>
               <div className="mt-1 text-xs text-muted">{r.sub}</div>
