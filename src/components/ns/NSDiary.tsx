@@ -60,7 +60,7 @@ export default function NSDiary() {
             transition={{ duration: 0.6, ease, delay: 0.05 * i }}
             className="grid grid-cols-1 gap-2 py-6 md:grid-cols-[120px_1fr] md:gap-8"
           >
-            <span className="text-xs uppercase tracking-[0.18em] text-faint nums">
+            <span className="text-xs uppercase tracking-label text-faint nums">
               {e.date}
             </span>
             <div>
@@ -68,7 +68,7 @@ export default function NSDiary() {
                 href={e.href}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="group inline-flex items-baseline gap-2 font-display text-xl tracking-tight text-ink dark:text-paper transition-colors hover:text-sunrise"
+                className="group inline-flex items-baseline gap-2 font-display text-xl tracking-tighter text-ink dark:text-paper transition-colors hover:text-sunrise"
               >
                 <span>{e.title}</span>
                 <span aria-hidden className="text-sm opacity-50 group-hover:opacity-100">

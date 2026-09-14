@@ -22,14 +22,14 @@ export default function ContactPage() {
       <article className="mx-auto w-full max-w-2xl px-5 py-10 sm:px-6 sm:py-14">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-sunrise"
+          className="inline-flex items-center gap-1.5 text-xs uppercase tracking-label text-muted transition-colors hover:text-sunrise"
         >
           <ArrowLeft size={11} aria-hidden />
           <span>back home</span>
         </Link>
 
         <header className="mt-6 border-b border-zinc-200 pb-8 dark:border-paper/10">
-          <p className="text-caption uppercase tracking-[0.22em] text-faint">operated by Adam Pang</p>
+          <p className="text-caption uppercase tracking-label text-faint">operated by Adam Pang</p>
           <h1
             className="mt-2 font-display text-4xl leading-[0.95] tracking-tightest text-ink dark:text-paper sm:text-5xl"
             style={{ fontVariationSettings: '"opsz" 96' }}
@@ -45,7 +45,7 @@ export default function ContactPage() {
         </header>
 
         <section aria-labelledby="contact-email" className="mt-9">
-          <h2 id="contact-email" className="font-display text-2xl tracking-tight text-ink dark:text-paper">email</h2>
+          <h2 id="contact-email" className="font-display text-2xl tracking-tighter text-ink dark:text-paper">email</h2>
           <p className="mt-3 text-base leading-relaxed text-ink/75 dark:text-paper/75 sm:text-lg">
             Email Adam at{' '}
             <a className={linkClass} href={`mailto:${profile.contact.email}`}>
@@ -65,7 +65,7 @@ export default function ContactPage() {
         </section>
 
         <section aria-labelledby="contact-calendar" className="mt-9">
-          <h2 id="contact-calendar" className="font-display text-2xl tracking-tight text-ink dark:text-paper">calendar</h2>
+          <h2 id="contact-calendar" className="font-display text-2xl tracking-tighter text-ink dark:text-paper">calendar</h2>
           <p className="mt-3 text-base leading-relaxed text-ink/75 dark:text-paper/75 sm:text-lg">
             Adam also publishes a{' '}
             <a className={linkClass} href={profile.contact.booking} target="_blank" rel="noreferrer noopener">
@@ -79,7 +79,7 @@ export default function ContactPage() {
         </section>
 
         <section aria-labelledby="contact-terms" className="mt-9 rounded-2xl border border-zinc-200 bg-white p-5 dark:border-paper/15 dark:bg-ink-soft sm:p-6">
-          <h2 id="contact-terms" className="font-display text-2xl tracking-tight text-ink dark:text-paper">commercial context</h2>
+          <h2 id="contact-terms" className="font-display text-2xl tracking-tighter text-ink dark:text-paper">commercial context</h2>
           <p className="mt-3 text-base leading-relaxed text-ink/75 dark:text-paper/75 sm:text-lg">
             Adampang.com is a personal hub, not a single storefront. Adam’s
             current published offer menu and its pricing live at{' '}

@@ -49,7 +49,7 @@ export default function Sounds() {
     >
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="water" />
-        <h2 className="font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl">
+        <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl">
           sounds
         </h2>
       </div>
@@ -68,7 +68,7 @@ export default function Sounds() {
         <div className="min-w-0">
           <div className="flex items-baseline gap-2">
             <span className="font-display text-base leading-none">2026 strummer</span>
-            <span className="nums text-caption uppercase tracking-[0.22em] text-white/75">
+            <span className="nums text-caption uppercase tracking-label text-white/75">
               wrapped on demand
             </span>
           </div>
@@ -129,7 +129,7 @@ export default function Sounds() {
                 <span className="block font-display text-base leading-tight text-ink dark:text-paper">
                   {current.year} wrapped
                 </span>
-                <span className="block text-caption uppercase tracking-[0.16em] text-muted">
+                <span className="block text-caption uppercase tracking-label text-muted">
                   play on spotify
                 </span>
               </span>
@@ -157,7 +157,7 @@ export default function Sounds() {
               onClick={() => select(i)}
               aria-label={`Play ${s.year} wrapped`}
               aria-pressed={active}
-              className={`group relative rounded-full px-2.5 py-1 text-caption nums uppercase tracking-[0.16em] transition-all ${
+              className={`group relative rounded-full px-2.5 py-1 text-caption nums uppercase tracking-label transition-all ${
                 active
                   ? // ink on the fill, not white: white on creativity is 2.64:1
                     'bg-creativity text-ink shadow-sm'

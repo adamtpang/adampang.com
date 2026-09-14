@@ -89,7 +89,10 @@ becomes a fifth section or a body-text color. `alert` (`#ef4444`, text
 1. Display text stays compact. Only one statement per page may use display scale.
 2. Card headings remain proportional to their containers.
 3. Numbers and dates use mono.
-4. Letter spacing is zero across the shared system.
+4. Letter spacing is zero across the shared system. Use only the token utilities (`tracking-tightest`,
+   `tracking-tighter`, `tracking-label`, `tracking-wide`), all `0`. Arbitrary
+   `tracking-[...]` values and Tailwind defaults like `tracking-tight` are
+   rejected by `pnpm check:tokens`.
 5. Labels may use uppercase. Type sizes are fixed, not viewport-scaled.
 6. Lowercase is preferred for interface voice. Proper nouns stay correct.
 
@@ -184,11 +187,7 @@ this repo. Its contract:
 
 Recorded 2026-09-14 so it is fixed, not forgotten:
 
-1. **Letter spacing.** The rule is zero, but components use 41 arbitrary
-   `tracking-[0.12em]` to `tracking-[0.22em]` classes, mostly on uppercase
-   labels. Decide: either add a `label` tracking token and use it, or remove
-   them.
-2. **Raw hex.** The custom cursor in `src/app/globals.css` hardcodes `#2563eb`
+1. **Raw hex.** The custom cursor in `src/app/globals.css` hardcodes `#2563eb`
    twice instead of reading `accent`, so it will not follow a token change or
    dark mode.
 

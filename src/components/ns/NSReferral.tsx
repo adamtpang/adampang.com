@@ -47,7 +47,7 @@ export default function NSReferral() {
               0{i + 1}
             </span>
             <div>
-              <div className="font-display text-lg tracking-tight text-ink dark:text-paper">
+              <div className="font-display text-lg tracking-tighter text-ink dark:text-paper">
                 {o.label}
               </div>
               <div className="text-sm text-muted">{o.detail}</div>
@@ -57,7 +57,7 @@ export default function NSReferral() {
       </ul>
 
       <div className="rounded-2xl border border-sunrise/30 bg-sunrise/5 p-6 md:p-8">
-        <h3 className="mb-2 text-xs font-medium uppercase tracking-[0.18em] text-sunrise">
+        <h3 className="mb-2 text-xs font-medium uppercase tracking-label text-sunrise">
           two steps
         </h3>
         <ol className="mb-6 space-y-2 text-base text-ink/85 dark:text-paper/85">

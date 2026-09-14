@@ -111,6 +111,7 @@ const config: Config = {
         tightest: tokens.type.tracking.tightest.value,
         tighter: tokens.type.tracking.tighter.value,
         label: tokens.type.tracking.label.value,
+        wide: tokens.type.tracking.wide.value,
       },
       transitionTimingFunction: {
         brand: tokens.motion.ease.value,

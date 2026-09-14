@@ -12,7 +12,7 @@ const liveCount = apps.filter((a) => a.status === 'live').length;
 
 function Label({ children }: { children: React.ReactNode }) {
   return (
-    <p className="mb-2 text-caption uppercase tracking-[0.16em] text-muted">{children}</p>
+    <p className="mb-2 text-caption uppercase tracking-label text-muted">{children}</p>
   );
 }
 
@@ -41,7 +41,7 @@ export default function Proof() {
     >
       <h2
         id="proof-title"
-        className="mb-5 font-display text-2xl tracking-tight text-ink dark:text-paper lg:text-3xl"
+        className="mb-5 font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl"
       >
         proof of work
       </h2>
@@ -52,7 +52,7 @@ export default function Proof() {
           <Label>client</Label>
           {clientWork.map((c) => (
             <div key={c.client}>
-              <p className="font-display text-xl tracking-tight text-ink dark:text-paper">
+              <p className="font-display text-xl tracking-tighter text-ink dark:text-paper">
                 <Out href={c.href}>{c.client}</Out>
               </p>
               <p className="mt-1 text-sm text-muted">{c.work}</p>
@@ -63,7 +63,7 @@ export default function Proof() {
         {/* Products */}
         <div className="min-w-0">
           <Label>products</Label>
-          <p className="font-display text-xl tracking-tight text-ink dark:text-paper">
+          <p className="font-display text-xl tracking-tighter text-ink dark:text-paper">
             <a
               href="#building"
               className="underline decoration-ink/15 decoration-1 underline-offset-4 transition-colors hover:text-accent-ink hover:decoration-accent dark:decoration-paper/15 dark:hover:text-accent"
@@ -90,7 +90,7 @@ export default function Proof() {
         {/* Podcast */}
         <div className="min-w-0">
           <Label>podcast</Label>
-          <p className="font-display text-xl tracking-tight text-ink dark:text-paper">
+          <p className="font-display text-xl tracking-tighter text-ink dark:text-paper">
             <Out href={podcast.href}>{podcast.name}</Out>
           </p>
           <p className="mt-1 text-sm text-muted">{podcast.line}</p>
