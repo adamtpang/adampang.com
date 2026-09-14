@@ -171,7 +171,8 @@ It represents opposing modes held inside one optimistic system.
 
 ## Sharing with pangpod.com
 
-pangpod.com copies `src/design/tokens.json` and `src/design/tokens.ts` from
+pangpod.com copies `src/design/tokens.json`, `src/design/tokens.ts`, and
+`src/design/cursor.ts` from
 this repo. Its contract:
 
 1. The copy comes from a committed ref, `origin/main` by default (what Vercel
@@ -189,7 +190,7 @@ The custom cursor is an accent-colored dot, with a larger halo over links and
 controls. SVG cursor images cannot read CSS variables, so
 `src/design/cursor.ts` generates `--cursor-dot` and `--cursor-link` from the
 accent token for light and dark. `globals.css` only uses the variables. This
-generator is adampang.com only, not part of the tokens PangPod syncs.
+generator is shared: PangPod syncs it with the tokens.
 `pnpm check:tokens` rejects raw hex in `globals.css`.
 
 ## Source map
