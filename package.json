@@ -13,7 +13,9 @@
     "check:progress": "node scripts/test-progress.mjs",
     "check:journey": "node scripts/test-journey.mjs",
     "check:site": "node scripts/test-site-quality.mjs",
-    "verify": "pnpm build && pnpm check:site && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld && pnpm check:progress && pnpm check:journey"
+    "check:regressions": "node scripts/test-audit-regressions.mjs",
+    "check:release": "node scripts/check-release.mjs",
+    "verify": "pnpm lint --max-warnings=0 && pnpm check:regressions && pnpm build && pnpm check:site && pnpm check:contrast && pnpm check:tokens && pnpm check:jsonld && pnpm check:progress && pnpm check:journey"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",

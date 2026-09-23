@@ -39,12 +39,6 @@ function title(html) {
   return stripMarkup(html.match(/<title>([\s\S]*?)<\/title>/i)?.[1] ?? '');
 }
 
-function paragraphTexts(html) {
-  return [...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
-    .map((match) => stripMarkup(match[1]))
-    .filter(Boolean);
-}
-
 function count(html, pattern) {
   return [...html.matchAll(pattern)].length;
 }
@@ -106,15 +100,7 @@ try {
   const [html, botHtml] = await Promise.all([browserResponse.text(), botResponse.text()]);
   const homeText = visibleBody(html);
   const botText = visibleBody(botHtml);
-  const homeWords = words(homeText);
-  const paragraphs = paragraphTexts(html);
-  const chunkable = paragraphs.filter((paragraph) => {
-    const length = words(paragraph).length;
-    return length >= 25 && length <= 120 && !/^(it|this|that|these|they|he|she|we|you)\b/i.test(paragraph);
-  });
-
-  assert.equal(title(html), 'Adam Pang — Builder, Writer & Musician');
-  assert.ok(title(html).length >= 20 && title(html).length <= 65, 'title must be 20–65 characters');
+  assert.equal(title(html), 'Adam Pang');
   assert.equal(count(html, /<h1\b/gi), 1, 'homepage must have exactly one H1');
   assert.match(html, /<link[^>]+rel="canonical"[^>]+href="https:\/\/adampang\.com"/i);
   assert.match(html, /<meta[^>]+name="description"[^>]+content="[^"]{70,170}"/i);
@@ -122,9 +108,12 @@ try {
   assert.match(html, /"@type":"Organization"/);
   assert.match(html, /"@type":"WebSite"/);
 
-  assert.ok(homeWords.length >= 250, `homepage needs at least 250 visible words; found ${homeWords.length}`);
-  assert.ok(paragraphs.length > 0, 'homepage must contain substantive paragraphs');
-  assert.ok(chunkable.length / paragraphs.length >= 0.35, 'at least 35% of paragraphs must stand alone');
+  for (const heading of ['sights', 'sounds', 'curiosity', 'creations']) {
+    assert.match(html, new RegExp(`<h2[^>]*>\\s*${heading}\\s*</h2>`), `homepage must retain ${heading}`);
+  }
+  assert.match(html, /<details[^>]*>\s*<summary>Proof of work<\/summary>/, 'proof must be available on demand');
+  assert.doesNotMatch(html, /home-map-heading/, 'homepage should not explain its own layout');
+  assert.match(html, /href="https:\/\/thedojo\.fun"/, 'full portfolio remains accessible');
   assert.ok(botText.length / homeText.length >= 0.85, 'GPTBot and browser raw content must remain in parity');
 
   for (const route of ['/about', '/contact', '/privacy']) {
@@ -136,9 +125,12 @@ try {
     assert.ok(words(visibleBody(routeHtml)).length >= 120, `${route} must be a substantial trust page`);
   }
 
-  assert.match(html, /href="\/contact"[^>]*>\s*Contact Adam about a collaboration\s*</i);
-  assert.match(homeText, /published offer menu|pricing/i, 'homepage must state offer and pricing context');
-  assert.match(html, /href="https:\/\/adam\.gives"/i, 'homepage offer context must link the real published menu');
+  assert.match(html, /href="https:\/\/adam\.gives"/i, 'published offers remain accessible without sales copy');
+
+  const supportHtml = await (await fetch(`${origin}/support`)).text();
+  assert.match(supportHtml, /<a[^>]+href="https:\/\/zcash\.me\/adamtpang"/);
+  assert.match(supportHtml, /href="https:\/\/buy\.stripe\.com\/bJe7sLa78cwZcMEc4NaMU08"/);
+  assert.doesNotMatch(supportHtml, /paid subscriber|first fifty|patrons wall|every dollar buys an hour/);
 
   const csp = browserResponse.headers.get('content-security-policy') ?? '';
   assert.match(csp, /default-src 'self'/);
@@ -163,7 +155,7 @@ try {
   }
 
   console.log(
-    `site quality: ${homeWords.length} homepage words, ${Math.round((chunkable.length / paragraphs.length) * 100)}% self-contained paragraphs, trust routes reachable, CSP enforced`,
+    'site quality: four homepage sections, on-demand proof, trust routes reachable, CSP enforced',
   );
 } finally {
   server.kill();

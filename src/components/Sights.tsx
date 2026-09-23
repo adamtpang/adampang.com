@@ -1,7 +1,8 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
+import { useState } from 'react';
+import { motion, useReducedMotion } from 'framer-motion';
+import { ArrowUpRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { SightImage } from '@/lib/blob';
 import ElementSigil from './ElementSigil';
 
@@ -39,7 +40,11 @@ function IgGlyph({ size = 18 }: { size?: number }) {
  * to order; filename becomes the caption).
  */
 export default function Sights({ images = [] }: { images?: SightImage[] }) {
-  const photos = images.slice(0, 2);
+  const [page, setPage] = useState(0);
+  const reducedMotion = useReducedMotion();
+  const pages = Math.max(1, Math.ceil(images.length / 2));
+  const currentPage = Math.min(page, pages - 1);
+  const photos = images.slice(currentPage * 2, currentPage * 2 + 2);
   const hasSecondPhoto = photos.length > 1;
 
   return (
@@ -49,6 +54,21 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
         <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl">
           sights
         </h2>
+        {pages > 1 && (
+          <div className="ml-auto flex items-center gap-1">
+            <button type="button" title="Previous photos" aria-label="Previous photos"
+              disabled={currentPage === 0} onClick={() => setPage(currentPage - 1)}
+              className="flex h-8 w-8 items-center justify-center rounded-md text-fg hover:bg-sunken disabled:opacity-30">
+              <ChevronLeft size={16} aria-hidden />
+            </button>
+            <span className="text-caption text-muted" aria-live="polite">{currentPage + 1}/{pages}</span>
+            <button type="button" title="Next photos" aria-label="Next photos"
+              disabled={currentPage === pages - 1} onClick={() => setPage(currentPage + 1)}
+              className="flex h-8 w-8 items-center justify-center rounded-md text-fg hover:bg-sunken disabled:opacity-30">
+              <ChevronRight size={16} aria-hidden />
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="grid h-36 grid-cols-4 grid-rows-2 gap-1.5 sm:h-40 sm:gap-2">
@@ -63,7 +83,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
             href={IG}
             target="_blank"
             rel="noreferrer noopener"
-            whileHover={{ y: -2 }}
+            whileHover={reducedMotion ? undefined : { y: -2 }}
             transition={{ duration: 0.5, ease }}
             className={`group relative overflow-hidden rounded-lg border border-zinc-200 dark:border-paper/15 ${
               i === 0 ? 'col-span-2 row-span-2' : 'col-span-1 row-span-2'
@@ -91,7 +111,7 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent" />
-            <span className="absolute bottom-1 left-1.5 text-caption uppercase tracking-label text-white/90">
+            <span className="absolute bottom-1 left-1.5 max-w-[95%] rounded-sm bg-black/80 px-1 text-caption text-white">
               {p.caption}
             </span>
           </motion.a>
@@ -102,9 +122,9 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
           href={IG}
           target="_blank"
           rel="noreferrer noopener"
-          whileHover={{ y: -2 }}
+          whileHover={reducedMotion ? undefined : { y: -2 }}
           transition={{ duration: 0.5, ease }}
-          className={`group relative flex flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 text-white transition-all dark:border-paper/15 ${
+          className={`group relative flex flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 text-ink transition-all dark:border-paper/15 ${
             hasSecondPhoto ? 'col-span-1' : 'col-span-2'
           }`}
           style={{
@@ -125,9 +145,9 @@ export default function Sights({ images = [] }: { images?: SightImage[] }) {
           href={PINTEREST}
           target="_blank"
           rel="noreferrer noopener"
-          whileHover={{ y: -2 }}
+          whileHover={reducedMotion ? undefined : { y: -2 }}
           transition={{ duration: 0.5, ease }}
-          className={`group relative flex flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 bg-sights text-white transition-all dark:border-paper/15 ${
+          className={`group relative flex flex-col items-center justify-center gap-1 overflow-hidden rounded-lg border border-zinc-200 bg-sights text-ink transition-all dark:border-paper/15 ${
             hasSecondPhoto ? 'col-span-1' : 'col-span-2'
           }`}
           aria-label="pinterest . visual references"

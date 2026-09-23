@@ -37,7 +37,7 @@ export default function Building() {
         </a>
       </div>
 
-      <ul className="grid grid-cols-1 gap-1.5 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+      <ul className="grid grid-cols-1 gap-x-4 gap-y-1 sm:grid-cols-2">
         {apps.map((app) => (
           <motion.li
             key={app.slug}
@@ -48,13 +48,13 @@ export default function Building() {
               href={app.url}
               target="_blank"
               rel="noreferrer noopener"
-              className="group flex items-center justify-between gap-2 rounded-lg border border-zinc-100 bg-white px-3 py-2 transition-colors hover:border-creativity dark:border-paper/10 dark:bg-ink/40 dark:hover:border-creativity"
+              className="group flex h-full items-center justify-between gap-2 border-b border-line py-1.5 transition-colors hover:border-creativity"
             >
               <div className="min-w-0">
                 <div className="font-display text-sm tracking-tighter text-ink transition-colors group-hover:text-creativity-ink dark:text-paper dark:group-hover:text-creativity">
                   {app.name}
                 </div>
-                <div className="truncate text-caption text-muted">
+                <div className="text-caption text-muted">
                   {app.tagline}
                 </div>
               </div>

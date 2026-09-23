@@ -13,6 +13,7 @@ export default function Footer() {
         Adam Pang operates adampang.com . {year}
       </span>
       <nav aria-label="Trust and contact" className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted">
+        <a className="underline decoration-ink/15 underline-offset-4 hover:text-sunrise dark:decoration-paper/15" href="https://adam.gives" target="_blank" rel="noreferrer noopener">offers ↗</a>
         <a className="underline decoration-ink/15 underline-offset-4 hover:text-sunrise dark:decoration-paper/15" href="/about">about</a>
         <a className="underline decoration-ink/15 underline-offset-4 hover:text-sunrise dark:decoration-paper/15" href="/contact">contact</a>
         <a className="underline decoration-ink/15 underline-offset-4 hover:text-sunrise dark:decoration-paper/15" href="/privacy">privacy</a>

@@ -85,7 +85,6 @@ export default function AboutPage() {
           {[
             { n: '8', l: 'selected projects' },
             { n: '2024', l: 'joined ns' },
-            { n: '500+', l: 'founders on campus' },
           ].map((r) => (
             <div key={r.l}>
               <div className="nums font-display text-2xl tracking-tighter text-ink dark:text-paper">
@@ -157,7 +156,7 @@ export default function AboutPage() {
         <Section title="if you want to support">
           <Plain>
             See <Link href="/support" className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise">/support</Link>.
-            Tipping, founding patrons, referrals to tools I actually use.
+            Optional tips and referrals to tools I use.
           </Plain>
         </Section>
       </article>

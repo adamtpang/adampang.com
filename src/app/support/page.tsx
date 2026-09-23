@@ -5,7 +5,7 @@ import SupportContent from './SupportContent';
 export const metadata: Metadata = {
   title: 'support',
   description:
-    'Support the work. Tip via Stripe, donate via Zcash, or become a Pangaea paid subscriber. Founding patrons get listed here permanently.',
+    'Support Adam Pang\'s software, writing, and music through Stripe, Buy Me a Coffee, or Zcash.',
   alternates: { canonical: '/support' },
 };
 

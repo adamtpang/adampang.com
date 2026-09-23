@@ -3,17 +3,17 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 
 /**
- * Sights image source. Two layers, tried in order:
+ * Sights image sources, merged with newest Blob uploads first:
  *
  *   1. LOCAL: any image in /public/sights/ (committed to the repo).
  *      Zero setup. Drop a JPG in that folder, it renders on next
  *      deploy. This is the default path.
  *
- *   2. BLOB: Vercel Blob store, prefix `sights/`. Used only if the
- *      local folder is empty AND a BLOB_READ_WRITE_TOKEN is present.
+ *   2. BLOB: Vercel Blob store, prefix `sights/`, when a
+ *      BLOB_READ_WRITE_TOKEN is present.
  *      Lets you add photos from the Vercel dashboard without a commit.
  *
- * If both are empty the component falls back to gradient placeholders.
+ * If both are empty the component still links to Instagram and Pinterest.
  * Captions come from the filename (hyphens/underscores -> spaces).
  * Order tiles by prefixing filenames with 01-, 02-, etc.
  */
@@ -28,9 +28,16 @@ export type SightImage = {
 const IMG_RE = /\.(jpe?g|png|webp|avif|gif)$/i;
 
 export async function listSightImages(): Promise<SightImage[]> {
-  const local = await listLocalSights();
-  if (local.length > 0) return local;
-  return listBlobSights();
+  const [local, remote] = await Promise.all([listLocalSights(), listBlobSights()]);
+  return mergeSightImages(local, remote);
+}
+
+export function mergeSightImages(local: SightImage[], remote: SightImage[]): SightImage[] {
+  const unique = new Map<string, SightImage>();
+  for (const photo of [...remote].sort((a, b) => b.uploadedAt - a.uploadedAt).concat(local)) {
+    if (!unique.has(photo.pathname)) unique.set(photo.pathname, photo);
+  }
+  return [...unique.values()];
 }
 
 /** Read /public/sights/ from the filesystem at build/request time. */
@@ -68,6 +75,7 @@ async function listBlobSights(): Promise<SightImage[]> {
       }))
       .sort((a, b) => b.uploadedAt - a.uploadedAt);
   } catch {
+    console.warn('Sights: Blob listing unavailable; using local photos.');
     return [];
   }
 }
