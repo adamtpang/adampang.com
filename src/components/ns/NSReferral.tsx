@@ -17,7 +17,7 @@ const offer = [
   },
   {
     label: 'who to meet first',
-    detail: '500+ founders pass through. i can point you at the right ones.',
+    detail: 'lots of founders pass through. i can point you at the right ones.',
   },
   {
     label: 'how i moved here from guam',

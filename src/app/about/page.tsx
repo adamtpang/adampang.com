@@ -80,11 +80,10 @@ export default function AboutPage() {
         </div>
 
         {/* Receipts. Honest numbers, including the unflattering one. */}
-        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 sm:grid-cols-3 dark:border-paper/15 dark:bg-ink-soft">
+        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 dark:border-paper/15 dark:bg-ink-soft">
           {[
             { n: '8', l: 'selected projects' },
             { n: '2024', l: 'joined ns' },
-            { n: '500+', l: 'founders on campus' },
           ].map((r) => (
             <div key={r.l}>
               <div className="nums font-display text-2xl tracking-tighter text-ink dark:text-paper">
