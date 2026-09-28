@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import SiteHeader from '@/components/SiteHeader';
 import JourneyTimeline from '@/components/JourneyTimeline';
-import Coin from '@/components/Coin';
 import ScrollProgress from '@/components/ScrollProgress';
 import { buildProfilePageJsonLd } from '@/lib/jsonld';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
@@ -97,18 +96,6 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
-
-        {/* The model, before the evidence. The coin says what the work is;
-            the timeline below it says how he got there. */}
-        <section aria-labelledby="coin-heading" className="mt-12">
-          <h2
-            id="coin-heading"
-            className="mb-6 text-caption font-medium uppercase tracking-label text-faint"
-          >
-            two sides of one coin
-          </h2>
-          <Coin />
-        </section>
       </article>
 
       {/* Milestones, full bleed so the journey has room to travel. Data
@@ -151,13 +138,6 @@ export default function AboutPage() {
             <ExtLink href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</ExtLink>
             . Or{' '}
             <ExtLink href="https://cal.com/adamtpang">book a call</ExtLink>.
-          </Plain>
-        </Section>
-
-        <Section title="if you want to support">
-          <Plain>
-            See <Link href="/support" className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise">/support</Link>.
-            Tipping, founding patrons, referrals to tools I actually use.
           </Plain>
         </Section>
       </article>
