@@ -14,7 +14,6 @@ const PRIORITY: Record<string, number> = {
   '/now': 0.8,
   '/ns': 0.7,
   '/design': 0.6,
-  '/support': 0.5,
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {

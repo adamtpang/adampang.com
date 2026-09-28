@@ -20,7 +20,6 @@ import { apps } from './apps';
 import { outlinks } from './outlinks';
 import { reading } from './curiosities';
 import { milestonesAsProse } from './milestones';
-import { coin } from './coin';
 
 export const SITE_URL = 'https://adampang.com';
 
@@ -97,25 +96,6 @@ export const profile = {
     description: 'Essays. The long version of who he is.',
   },
 
-  /**
-   * How he models his own work. Two faces of one object, not two careers.
-   * Rendered as the coin on /about; published here so an agent reading the
-   * site gets the self-model rather than inferring one from the project list.
-   */
-  model: {
-    shape: 'coin',
-    summary:
-      'Art and science are two faces of one object, with people as the edge that joins them.',
-    faces: coin.faces.map((f) => ({
-      side: f.title,
-      disciplines: [...f.disciplines],
-      work: f.practices.map((p) => ({ name: p.label, url: p.href })),
-    })),
-    edge: coin.edge.label,
-    thesis: `${coin.thesis.claim} ${coin.thesis.body}`,
-    influencedBy: coin.thesis.source,
-  },
-
   knowsAbout: [
     'software engineering',
     'building in public',
@@ -142,7 +122,6 @@ export const profile = {
     { path: '/privacy', title: 'privacy', description: 'How this site handles analytics, storage, embeds, links, and contact.' },
     { path: '/now', title: 'now', description: 'What he is doing right now, in the sivers.org/now tradition.' },
     { path: '/ns', title: 'network school', description: 'Notes and referral information for Network School.' },
-    { path: '/support', title: 'support', description: 'Tip jar, crypto, referral wall.' },
     { path: '/design', title: 'design system', description: 'Living token reference. Machine-readable exports.' },
   ],
 

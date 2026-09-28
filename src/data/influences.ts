@@ -35,7 +35,6 @@ export const influences: Influence[] = [
     landedIn: [
       'src/components/JourneyTimeline.tsx',
       'src/lib/journey.ts',
-      'src/components/Coin.tsx',
     ],
   },
   {

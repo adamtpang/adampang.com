@@ -63,7 +63,6 @@ export default function SiteHeader({ asH1 = false }: { asH1?: boolean }) {
           { label: 'cal', href: 'https://cal.com/adamtpang', ext: true },
           { label: 'linkedin', href: 'https://linkedin.com/in/adamtpang', ext: true },
           { label: 'pangaea', href: 'https://pangaea.blog', ext: true },
-          { label: 'support', href: '/support', ext: false },
         ].map((l) => (
           <a
             key={l.href}
