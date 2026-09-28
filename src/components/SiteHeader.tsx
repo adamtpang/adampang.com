@@ -60,8 +60,6 @@ export default function SiteHeader({ asH1 = false }: { asH1?: boolean }) {
           { label: 'about', href: '/about', ext: false },
           { label: 'now', href: '/now', ext: false },
           { label: 'email', href: 'mailto:adamtpang@gmail.com', ext: false },
-          { label: 'cal', href: 'https://cal.com/adamtpang', ext: true },
-          { label: 'linkedin', href: 'https://linkedin.com/in/adamtpang', ext: true },
           { label: 'pangaea', href: 'https://pangaea.blog', ext: true },
         ].map((l) => (
           <a
