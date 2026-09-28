@@ -73,9 +73,8 @@ export default function AboutPage() {
             >
               on the homepage
             </Link>
-            . The long version of who I am is on{' '}
-            <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>. Below
-            is the punch list.
+            . I write longer stuff on{' '}
+            <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>.
           </p>
         </div>
 
@@ -114,12 +113,8 @@ export default function AboutPage() {
 
         <Section title="what i’m doing now">
           <Plain>
-            Building{' '}
-            <ExtLink href="https://strummer.fun">strummer.fun</ExtLink>,
-            writing{' '}
-            <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>,
-            and shipping software. Full current state
-            is on the <Link href="/" className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise">homepage</Link>.
+            Anchor Marianas, PangPod episode 1, and TOKEN2049. More on the{' '}
+            <Link href="/now" className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 hover:text-sunrise hover:decoration-sunrise">now page</Link>.
           </Plain>
         </Section>
 
