@@ -16,7 +16,7 @@ export const metadata: Metadata = {
  * nownownow.com style directories.
  */
 
-const LAST_UPDATED = 'July 2026';
+const LAST_UPDATED = 'September 2026';
 
 export default function NowPage() {
   return (
@@ -52,6 +52,10 @@ export default function NowPage() {
         <NowSection title="building">
           <ul className="space-y-1.5">
             <li>
+              <Ext href="https://pangpod.com">PangPod</Ext> . a podcast where I
+              riff about whatever I&apos;m curious about, sometimes with friends
+            </li>
+            <li>
               <Ext href="https://strummer.fun">strummer.fun</Ext> . the music
               suite
             </li>
@@ -64,6 +68,7 @@ export default function NowPage() {
 
         <NowSection title="reading">
           <ul className="space-y-1.5">
+            <li>Friendly Ambitious Nerd . Visakan Veerasamy</li>
             <li>The Book of Elon . Eric Jorgenson</li>
             <li>38 Letters from Rockefeller</li>
             <li>The Fabric of Reality . David Deutsch</li>
@@ -81,6 +86,8 @@ export default function NowPage() {
 
         <NowSection title="thinking about">
           <ul className="space-y-1.5">
+            <li>money, and where to live</li>
+            <li>making friends on the internet by being open about what I&apos;m into</li>
             <li>compounding . shipping in public</li>
             <li>1000 true fans before monetizing</li>
             <li>building bodies of work that outlive me</li>
@@ -92,6 +99,19 @@ export default function NowPage() {
           <p>
             Twitter scrolling, conferences, taking meetings that don’t lead
             anywhere. Saying no so I can say yes to deep work.
+          </p>
+        </NowSection>
+
+        <NowSection title="say hi">
+          <p>
+            I like meeting people. Email me at{' '}
+            <a
+              href="mailto:adam@pangpod.com"
+              className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise"
+            >
+              adam@pangpod.com
+            </a>
+            .
           </p>
         </NowSection>
 
