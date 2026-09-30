@@ -36,9 +36,31 @@ export default function ContactPage() {
             Say hi<span className="text-sunrise">.</span>
           </h1>
           <p className="mt-5 text-base leading-relaxed text-ink/75 dark:text-paper/75 sm:text-lg">
-            Email is the best way to reach me.
+            text or whatsapp is fastest. email works too.
           </p>
         </header>
+
+        <section aria-labelledby="contact-phone" className="mt-9">
+          <h2 id="contact-phone" className="font-display text-2xl tracking-tighter text-ink dark:text-paper">phone</h2>
+          <p className="mt-3 text-base leading-relaxed text-ink/75 dark:text-paper/75 sm:text-lg">
+            <a className={linkClass} href="tel:+15122540011"><span>+1 (512) 254-0011</span></a>. text, whatsapp or call, whatever&apos;s easiest.
+          </p>
+          <div className="mt-5 flex flex-wrap gap-2">
+            {[
+              { label: 'text', href: 'sms:+15122540011' },
+              { label: 'whatsapp', href: 'https://wa.me/15122540011' },
+              { label: 'call', href: 'tel:+15122540011' },
+            ].map((b) => (
+              <a
+                key={b.label}
+                href={b.href}
+                className="inline-flex min-h-11 items-center rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition-transform hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sunrise dark:bg-paper dark:text-ink"
+              >
+                {b.label}
+              </a>
+            ))}
+          </div>
+        </section>
 
         <section aria-labelledby="contact-email" className="mt-9">
           <h2 id="contact-email" className="font-display text-2xl tracking-tighter text-ink dark:text-paper">email</h2>

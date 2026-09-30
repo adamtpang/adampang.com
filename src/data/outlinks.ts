@@ -14,7 +14,9 @@ export const outlinks: Outlink[] = [
   /* MEET. Synchronous and direct comms. */
   { label: 'email', href: 'mailto:adamtpang@gmail.com', category: 'meet' },
   { label: 'cal.com', href: 'https://cal.com/adamtpang', category: 'meet', note: 'book a call' },
-  { label: 'whatsapp', href: 'https://wa.me/16718885528', category: 'meet' },
+  { label: 'whatsapp', href: 'https://wa.me/15122540011', category: 'meet' },
+  { label: 'text', href: 'sms:+15122540011', category: 'meet' },
+  { label: 'call', href: 'tel:+15122540011', category: 'meet' },
 
   /* SOCIAL. Async and discoverable. */
   { label: 'x', href: 'https://x.com/adamtpang', category: 'social' },
