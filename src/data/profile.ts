@@ -92,7 +92,7 @@ export const profile = {
 
   /** Canonical routes on this site, for agents mapping the surface. */
   pages: [
-    { path: '/', title: 'home', description: 'What he does, a couple of real proofs, a photo, links.' },
+    { path: '/', title: 'home', description: 'What he does, a couple of real proofs, a photo.' },
     { path: '/about', title: 'about', description: 'Who he is, chronologically. Milestones and receipts.' },
     { path: '/contact', title: 'contact', description: 'Real ways to contact Adam and what to expect next.' },
     { path: '/privacy', title: 'privacy', description: 'How this site handles analytics, storage, embeds, links, and contact.' },
