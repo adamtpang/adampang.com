@@ -66,8 +66,8 @@ export const milestones: Milestone[] = [
   {
     year: '2026',
     title: 'Quantus',
-    role: 'ambassador, since july',
-    note: 'wallet activations, security audits toward mainnet, and intros to investors i know.',
+    role: 'paid work, one month',
+    note: 'built on their site and made mining easier.',
   },
 ];
 

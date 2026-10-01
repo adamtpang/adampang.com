@@ -11,8 +11,6 @@
  *   quantus         his claim: paid for a month, built on their site, made
  *                   mining easier. No public link confirmed yet, so none shown.
  *   helium-harness  public repo, 200 on 2026-10-01. Usage claim is his.
- *   font finder     his claim: a friend asked for it and tried it on her own
- *                   sites. No public link yet. The friend is not named here.
  *   pangpod         pangpod.com live with one public episode, checked 2026-09-14.
  */
 
@@ -38,10 +36,6 @@ export const proofs: Proof[] = [
     name: 'helium-harness',
     line: 'lets an ai agent drive my browser. i use it myself, it filled in a hotel booking and a job form for me.',
     href: 'https://github.com/adamtpang/helium-harness',
-  },
-  {
-    name: 'font finder',
-    line: 'a friend asked for it and tried it on her own sites. still rough.',
   },
   {
     name: 'PangPod',
