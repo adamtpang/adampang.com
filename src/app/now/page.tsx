@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'now',
   description:
-    'what adam pang is doing right now.',
+    'What Adam Pang is doing right now. A now page in the spirit of sive.rs/now. Updated whenever the focus shifts.',
   alternates: { canonical: '/now' },
 };
 
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
  * nownownow.com style directories.
  */
 
-const LAST_UPDATED = 'september 2026';
+const LAST_UPDATED = 'September 2026';
 
 export default function NowPage() {
   return (
@@ -45,33 +45,74 @@ export default function NowPage() {
 
         <NowSection title="where">
           <p>
-            <Ext href="https://ns.com">Network School</Ext>, then Singapore for{' '}
-            <Ext href="https://www.asia.token2049.com">TOKEN2049</Ext>.
+            <Ext href="https://ns.com">Network School</Ext>.
           </p>
         </NowSection>
 
         <NowSection title="building">
           <ul className="space-y-1.5">
             <li>
-              <Ext href="https://anchormarianas.com">anchor marianas</Ext>. websites
-              and apps for businesses, starting with guam
+              <Ext href="https://pangpod.com">PangPod</Ext> . a podcast where I
+              riff about whatever I&apos;m curious about, sometimes with friends
             </li>
             <li>
-              <Ext href="https://pangpod.com">pangpod</Ext>. recording episode 1,
-              a solo one on Derek Sivers&apos; Anything You Want
+              <Ext href="https://strummer.fun">strummer.fun</Ext> . the music
+              suite
+            </li>
+            <li>
+              <Ext href="https://pangaea.blog">pangaea.blog</Ext> . essays,
+              first posts soon
             </li>
           </ul>
         </NowSection>
 
         <NowSection title="reading">
           <ul className="space-y-1.5">
-            <li>Anything You Want . Derek Sivers</li>
+            <li>Friendly Ambitious Nerd . Visakan Veerasamy</li>
+            <li>The Book of Elon . Eric Jorgenson</li>
+            <li>38 Letters from Rockefeller</li>
+            <li>The Fabric of Reality . David Deutsch</li>
             <li>The Beginning of Infinity . David Deutsch</li>
           </ul>
         </NowSection>
 
+        <NowSection title="listening">
+          <p>
+            Spotify Wrapped, 2017 to now. Full archive in{' '}
+            <In href="/#sounds">sounds</In> on the homepage. The 2026 vibe is
+            live at <Ext href="https://strummer.fun">strummer.fun</Ext>.
+          </p>
+        </NowSection>
+
+        <NowSection title="thinking about">
+          <ul className="space-y-1.5">
+            <li>money, and where to live</li>
+            <li>making friends on the internet by being open about what I&apos;m into</li>
+            <li>compounding . shipping in public</li>
+            <li>1000 true fans before monetizing</li>
+            <li>building bodies of work that outlive me</li>
+            <li>the infinite game, magnitude by magnitude</li>
+          </ul>
+        </NowSection>
+
         <NowSection title="not doing">
-          <p>starting new projects. finishing the ones i have.</p>
+          <p>
+            Twitter scrolling, conferences, taking meetings that don’t lead
+            anywhere. Saying no so I can say yes to deep work.
+          </p>
+        </NowSection>
+
+        <NowSection title="say hi">
+          <p>
+            I like meeting people. Email me at{' '}
+            <a
+              href="mailto:adam@pangpod.com"
+              className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise"
+            >
+              adam@pangpod.com
+            </a>
+            .
+          </p>
         </NowSection>
 
         <footer className="mt-12 border-t border-zinc-200 dark:border-paper/10 pt-6 text-xs text-faint">
@@ -112,5 +153,17 @@ function Ext({ href, children }: { href: string; children: React.ReactNode }) {
       <span>{children}</span>
       <ArrowUpRight size={11} className="opacity-50 transition-opacity group-hover:opacity-100" />
     </a>
+  );
+}
+
+/** Internal link. No arrow. */
+function In({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <Link
+      href={href}
+      className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise"
+    >
+      {children}
+    </Link>
   );
 }
