@@ -46,7 +46,7 @@ export const profile = {
     'Adam Pang builds small software tools and makes a podcast, PangPod. ' +
     'From Guam. He runs Anchor Marianas and writes at pangaea.blog.',
 
-  roles: ['builder', 'writer', 'musician', 'founder'],
+  roles: ['builder', 'writer', 'musician'],
 
   birthPlace: { name: 'Guam', type: 'Place' },
 
