@@ -101,14 +101,6 @@ export default function AboutPage() {
           </Plain>
         </Section>
 
-        <Section title="people who shaped me">
-          <Plain>
-            David Deutsch, John D. Rockefeller, Elon Musk, Derek Sivers, Balaji
-            Srinivasan, Naval Ravikant. The full list is at{' '}
-            <ExtLink href="https://summon.guide">summon.guide</ExtLink>.
-          </Plain>
-        </Section>
-
         <Section title="how to reach me">
           <Plain>
             Text or WhatsApp is fastest:{' '}

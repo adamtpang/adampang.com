@@ -1,31 +1,18 @@
 'use client';
 
 import { ArrowUpRight } from 'lucide-react';
-import { reading, curiosityLinks } from '@/data/curiosities';
+import { curiosityLinks } from '@/data/curiosities';
 import ElementSigil from './ElementSigil';
 
 export default function Curiosities() {
   return (
-    <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 lg:col-span-2 dark:border-paper/15 dark:bg-ink-soft">
+    <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="air" />
         <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl">
           curiosity
         </h2>
       </div>
-
-      <ul className="mb-5 space-y-1.5">
-        {reading.map((book, i) => (
-          <li
-            key={book.title}
-            className="flex items-baseline gap-2 text-sm text-ink/85 dark:text-paper/85"
-          >
-            <span className="nums text-caption text-faint">0{i + 1}</span>
-            <span className="font-display italic text-ink dark:text-paper">{book.title}</span>
-            <span className="text-xs text-muted">. {book.author}</span>
-          </li>
-        ))}
-      </ul>
 
       <ul className="mt-auto flex flex-wrap gap-x-3 gap-y-1 text-sm text-ink/80 dark:text-paper/80">
         {curiosityLinks.map((l) => (

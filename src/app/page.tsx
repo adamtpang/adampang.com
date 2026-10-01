@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import SiteHeader from '@/components/SiteHeader';
 import Footer from '@/components/Footer';
 import Sights from '@/components/Sights';
-import Sounds from '@/components/Sounds';
 import Curiosities from '@/components/Curiosities';
 import Proof from '@/components/Proof';
 import { listSightImages } from '@/lib/blob';
@@ -46,7 +45,6 @@ export default async function Home() {
       <div className="grid min-w-0 grid-cols-1 gap-2 p-2 pb-3 sm:gap-3 sm:p-3 sm:pb-5 lg:grid-cols-2">
         <Proof />
         <Sights images={sightImages} />
-        <Sounds />
         <Curiosities />
       </div>
       <Footer />

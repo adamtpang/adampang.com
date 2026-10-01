@@ -8,13 +8,6 @@ export type Book = {
   author: string;
 };
 
-export const reading: Book[] = [
-  { title: 'The Book of Elon', author: 'Eric Jorgenson' },
-  { title: '38 Letters from Rockefeller', author: 'John D. Rockefeller' },
-  { title: 'The Fabric of Reality', author: 'David Deutsch' },
-  { title: 'The Beginning of Infinity', author: 'David Deutsch' },
-];
-
 export type CuriosityLink = {
   label: string;
   href: string;
