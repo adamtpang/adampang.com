@@ -18,6 +18,12 @@ type App = { label: string; href?: string; external?: boolean; bg: string; glyph
 
 const stroke = { fill: 'none', stroke: '#fff', strokeWidth: 1.8, strokeLinecap: 'round', strokeLinejoin: 'round' } as const;
 
+const phone: App = {
+  label: 'Phone',
+  href: 'tel:+15122540011',
+  bg: '#34c759',
+  glyph: { node: <path d="M8.2 4.5 6 5.2c-.8.3-1.300 1.100-1.100 2 .5 2.800 1.800 5.400 3.900 7.500s4.700 3.400 7.500 3.900c.9.200 1.700-.300 2-1.100l.7-2.200-3.700-1.900-1.400 1.400c-1.900-.900-3.500-2.500-4.400-4.400l1.400-1.400L8.200 4.500Z" fill="#fff" /> },
+};
 const messages: App = {
   label: 'Messages',
   href: 'sms:+15122540011',
@@ -32,7 +38,7 @@ const mail: App = {
 };
 const whatsapp: App = {
   label: 'WhatsApp',
-  href: 'https://wa.me/15122540011',
+  href: 'https://wa.me/60197981734',
   external: true,
   bg: '#25d366',
   glyph: { path: logos.whatsapp, color: '#fff' },
@@ -177,13 +183,14 @@ export default function Phone() {
             <AppIcon key={a.label} app={a} />
           ))}
           <AppIcon app={photos} onOpen={() => setSheet('photos')} />
+          <AppIcon app={spotify} onOpen={() => setSheet('spotify')} />
         </nav>
 
         <nav aria-label="dock" className="mt-auto flex justify-around rounded-[30px] bg-white/15 px-3 py-3.5 backdrop-blur-xl">
+          <AppIcon app={phone} showLabel={false} />
           <AppIcon app={messages} showLabel={false} />
           <AppIcon app={whatsapp} showLabel={false} />
           <AppIcon app={mail} showLabel={false} />
-          <AppIcon app={spotify} showLabel={false} onOpen={() => setSheet('spotify')} />
         </nav>
       </div>
 
