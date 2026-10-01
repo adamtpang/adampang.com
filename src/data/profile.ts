@@ -15,7 +15,6 @@
  */
 
 import { outlinks } from './outlinks';
-import { reading } from './curiosities';
 import { milestonesAsProse } from './milestones';
 
 export const SITE_URL = 'https://adampang.com';
@@ -85,8 +84,6 @@ export const profile = {
     'writing',
   ],
 
-  reading: reading.map((b) => ({ title: b.title, author: b.author })),
-
   sameAs,
 
   /** Chronological. Generated from src/data/milestones.ts, which /about
@@ -95,7 +92,7 @@ export const profile = {
 
   /** Canonical routes on this site, for agents mapping the surface. */
   pages: [
-    { path: '/', title: 'home', description: 'What he does, a few real proofs, photos, music, reading.' },
+    { path: '/', title: 'home', description: 'What he does, a couple of real proofs, a photo.' },
     { path: '/about', title: 'about', description: 'Who he is, chronologically. Milestones and receipts.' },
     { path: '/contact', title: 'contact', description: 'Real ways to contact Adam and what to expect next.' },
     { path: '/privacy', title: 'privacy', description: 'How this site handles analytics, storage, embeds, links, and contact.' },

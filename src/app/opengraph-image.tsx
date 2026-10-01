@@ -12,7 +12,7 @@ import { ImageResponse } from 'next/og';
  * Prerendered, it is a plain PNG on the CDN.
  */
 
-export const alt = 'Adam Pang. Sights, sounds, curiosity, and creations.';
+export const alt = 'Adam Pang. I build small software tools and make a podcast.';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -103,28 +103,8 @@ export default async function Image() {
               fontFamily: 'sans-serif',
             }}
           >
-            sights, sounds, curiosity, and creations.
+            i build small software tools and make a podcast.
           </div>
-        </div>
-
-        {/* Bottom: four elemental sections */}
-        <div
-          style={{
-            display: 'flex',
-            gap: '32px',
-            color: '#1a1a1a',
-            fontSize: '24px',
-            opacity: 0.55,
-            fontFamily: 'sans-serif',
-          }}
-        >
-          <span style={{ color: '#ef4444' }}>sights</span>
-          <span style={{ opacity: 0.4 }}>·</span>
-          <span style={{ color: '#38bdf8' }}>sounds</span>
-          <span style={{ opacity: 0.4 }}>·</span>
-          <span style={{ color: '#f59e0b' }}>curiosity</span>
-          <span style={{ opacity: 0.4 }}>·</span>
-          <span style={{ color: '#34d399' }}>creations</span>
         </div>
       </div>
     ),

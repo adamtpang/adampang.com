@@ -67,23 +67,6 @@ export default function NowPage() {
           </ul>
         </NowSection>
 
-        <NowSection title="reading">
-          <ul className="space-y-1.5">
-            <li>Friendly Ambitious Nerd . Visakan Veerasamy</li>
-            <li>The Book of Elon . Eric Jorgenson</li>
-            <li>38 Letters from Rockefeller</li>
-            <li>The Fabric of Reality . David Deutsch</li>
-            <li>The Beginning of Infinity . David Deutsch</li>
-          </ul>
-        </NowSection>
-
-        <NowSection title="not doing">
-          <p>
-            Twitter scrolling, taking meetings that don’t lead anywhere, starting
-            new projects before finishing the ones I have.
-          </p>
-        </NowSection>
-
         <NowSection title="say hi">
           <p>
             I like meeting people. Email me at{' '}

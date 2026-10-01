@@ -40,18 +40,6 @@ export const milestones: Milestone[] = [
     note: 'graduated, then got my first engineering job.',
   },
   {
-    year: '2024',
-    title: 'Network School',
-    role: 'there on day one',
-    note: 'there for the first two days of the launch.',
-  },
-  {
-    year: '2025',
-    title: 'Network School',
-    role: 'community member',
-    note: 'came back and started shipping in public.',
-  },
-  {
     year: '2025',
     title: 'Eign',
     role: 'engineer trial, one month',

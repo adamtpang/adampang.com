@@ -56,10 +56,6 @@ ${list(p.machineReadable.map((x) => ({ label: x.path, href: `${SITE_URL}${x.path
 
 ${p.milestones.map((m) => `- ${m.year}: ${m.event}`).join('\n')}
 
-## Reading
-
-${p.reading.map((b) => `- ${b.title}, ${b.author}`).join('\n')}
-
 ---
 ${p.license}
 `;

@@ -8,7 +8,7 @@ import { profile } from '@/data/profile';
 export const metadata: Metadata = {
   title: 'privacy',
   description:
-    'How Adam Pang’s personal site handles PostHog and Vercel analytics, performance data, local storage, Spotify embeds, external links, and contact.',
+    'How Adam Pang’s personal site handles PostHog and Vercel analytics, performance data, local storage, external links, and contact.',
   alternates: { canonical: '/privacy' },
 };
 
@@ -60,8 +60,7 @@ export default function PrivacyPage() {
             Adam Pang operates adampang.com as a public personal site. The site
             has no visitor accounts and no contact form. It uses Vercel for
             hosting, anonymous traffic measurement, and real-user performance
-            measurement, and it loads a Spotify player only after a visitor
-            asks to play one.
+            measurement.
           </p>
         </header>
 
@@ -113,14 +112,6 @@ export default function PrivacyPage() {
             visitor changes light or dark mode. The initial page response sets
             no cookie, and the homepage does not use a cookie for analytics.
             Clearing site data in the browser removes the saved theme.
-          </p>
-          <p>
-            The Spotify player is a click-to-load embed. Before that click, the
-            homepage makes no request to Spotify; after the click, Spotify can
-            receive the visitor’s IP address and browser information and can set
-            its own cookies under its policy. Visitors can avoid loading the
-            player. Spotify explains its processing in the{' '}
-            <ExternalLink href="https://www.spotify.com/legal/privacy-policy/">Spotify Privacy Policy</ExternalLink>.
           </p>
         </PrivacySection>
 
