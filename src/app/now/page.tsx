@@ -62,10 +62,6 @@ export default function NowPage() {
               recording episode 1 now
             </li>
             <li>
-              <Ext href="https://strummer.fun">strummer.fun</Ext> . the music
-              suite
-            </li>
-            <li>
               <Ext href="https://pangaea.blog">pangaea.blog</Ext> . essays
             </li>
           </ul>
@@ -84,8 +80,7 @@ export default function NowPage() {
         <NowSection title="listening">
           <p>
             Spotify Wrapped, 2017 to now. Full archive in{' '}
-            <In href="/#sounds">sounds</In> on the homepage. The 2026 vibe is
-            live at <Ext href="https://strummer.fun">strummer.fun</Ext>.
+            <In href="/#sounds">sounds</In> on the homepage.
           </p>
         </NowSection>
 
