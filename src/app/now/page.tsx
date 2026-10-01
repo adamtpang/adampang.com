@@ -16,7 +16,7 @@ export const metadata: Metadata = {
  * nownownow.com style directories.
  */
 
-const LAST_UPDATED = 'September 2026';
+const LAST_UPDATED = 'October 2026';
 
 export default function NowPage() {
   return (
@@ -77,13 +77,6 @@ export default function NowPage() {
           </ul>
         </NowSection>
 
-        <NowSection title="listening">
-          <p>
-            Spotify Wrapped, 2017 to now. Full archive in{' '}
-            <In href="/#sounds">sounds</In> on the homepage.
-          </p>
-        </NowSection>
-
         <NowSection title="not doing">
           <p>
             Twitter scrolling, taking meetings that don’t lead anywhere, starting
@@ -142,17 +135,5 @@ function Ext({ href, children }: { href: string; children: React.ReactNode }) {
       <span>{children}</span>
       <ArrowUpRight size={11} className="opacity-50 transition-opacity group-hover:opacity-100" />
     </a>
-  );
-}
-
-/** Internal link. No arrow. */
-function In({ href, children }: { href: string; children: React.ReactNode }) {
-  return (
-    <Link
-      href={href}
-      className="underline decoration-ink/15 dark:decoration-paper/15 decoration-1 underline-offset-4 transition-colors hover:text-sunrise hover:decoration-sunrise"
-    >
-      {children}
-    </Link>
   );
 }

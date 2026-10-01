@@ -55,19 +55,13 @@ export const milestones: Milestone[] = [
     year: '2025',
     title: 'Eign',
     role: 'engineer trial, one month',
-    note: 'built internal tools like lightmark.app and tried b2b sales on linkedin. quit in december, it wasn’t paying.',
+    note: 'built internal tools like lightmark.app.',
   },
   {
     year: '2026',
     title: 'Pangaea',
     role: 'writing in public',
-    note: 'also started strummer.fun and rebuilt this site.',
-  },
-  {
-    year: '2026',
-    title: 'Quantus',
-    role: 'ambassador, since july',
-    note: 'wallet activations, security audits toward mainnet, and intros to investors i know.',
+    note: 'also rebuilt this site.',
   },
 ];
 

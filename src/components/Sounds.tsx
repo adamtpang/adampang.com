@@ -146,7 +146,6 @@ export default function Sounds() {
       {/* Outlinks pinned to bottom. */}
       <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-4 text-xs text-muted">
         {[
-          { label: 'strummer.fun', href: 'https://strummer.fun' },
           { label: 'wonderhall.live', href: 'https://wonderhall.live' },
           { label: 'soundcloud', href: 'https://soundcloud.com/adamtpang' },
           { label: 'pangpod', href: 'https://pangpod.com' },
