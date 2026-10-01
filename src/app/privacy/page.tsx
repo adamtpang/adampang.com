@@ -34,8 +34,8 @@ export default function PrivacyPage() {
           <a href="https://posthog.com/privacy">PostHog Privacy Notice</a>.
         </p>
         <p>
-          The links on the home page open other services (your messaging or email app, GitHub,
-          pangpod.com). Nothing is sent to them unless you follow a link.
+          The links on the home page open your messaging or email app. Nothing is sent unless you
+          follow a link.
         </p>
         <p>
           Questions: <a href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</a>.
