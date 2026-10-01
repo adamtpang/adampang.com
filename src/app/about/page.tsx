@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import SiteHeader from '@/components/SiteHeader';
-import JourneyTimeline from '@/components/JourneyTimeline';
-import ScrollProgress from '@/components/ScrollProgress';
+import { milestones } from '@/data/milestones';
 import { buildProfilePageJsonLd } from '@/lib/jsonld';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 
@@ -27,7 +26,6 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(buildProfilePageJsonLd()) }}
       />
-      <ScrollProgress />
       <SiteHeader />
       {/* Measure is set in ch, not px. Sivers holds his whole site to 60ch
           and it is the single biggest reason his prose reads easily: the
@@ -77,22 +75,19 @@ export default function AboutPage() {
             <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>.
           </p>
         </div>
-      </article>
 
-      {/* Milestones, full bleed so the journey has room to travel. Data
-          lives in src/data/milestones.ts, shared with /api/profile.json
-          and /llms.txt so the timeline is stated exactly once. */}
-      <section aria-labelledby="timeline-heading" className="mt-4">
-        <h2
-          id="timeline-heading"
-          className="mx-auto max-w-[62ch] px-5 text-caption font-medium uppercase tracking-label text-faint sm:px-6"
-        >
-          important things in my life so far
-        </h2>
-        <JourneyTimeline />
-      </section>
-
-      <article className="mx-auto w-full max-w-[62ch] px-5 pb-14 sm:px-6">
+        <Section title="so far">
+          <ul className="space-y-1.5">
+            {milestones.map((m) => (
+              <li key={m.year + m.title} className="flex gap-4">
+                <span className="nums shrink-0 text-muted">{m.year}</span>
+                <span>
+                  {m.title}, {m.role}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </Section>
 
         <Section title="what i’m doing now">
           <Plain>
