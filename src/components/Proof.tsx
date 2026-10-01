@@ -19,7 +19,7 @@ export default function Proof() {
         {whatIDo}
       </h2>
 
-      <ul className="grid min-w-0 grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <ul className="grid min-w-0 grid-cols-1 gap-6 sm:grid-cols-2">
         {proofs.map((p) => (
           <li key={p.name} className="min-w-0">
             <p className="font-display text-xl tracking-tighter text-ink dark:text-paper">
