@@ -17,7 +17,7 @@ const contentSecurityPolicy = [
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
   "img-src 'self' data:",
-  "frame-src 'none'",
+  "frame-src https://strummer.fun",
   `connect-src 'self' https://us.i.posthog.com https://vitals.vercel-insights.com${isDevelopment ? ' ws: http:' : ''}`,
   "media-src 'self'",
   "object-src 'none'",

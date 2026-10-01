@@ -22,6 +22,15 @@ export default function Home() {
         <a href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</a>.
       </p>
 
+      <iframe
+        src="https://strummer.fun/vibe/card/adam?embed=1"
+        title="ult, a playlist"
+        height={200}
+        loading="lazy"
+        allow="autoplay; encrypted-media"
+        className="mt-10 block w-full max-w-[420px] border-0"
+      />
+
       <p className="mt-16 text-sm text-muted">
         <Link href="/privacy">privacy</Link>
       </p>
