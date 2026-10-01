@@ -6,7 +6,7 @@ import ElementSigil from './ElementSigil';
 
 export default function Curiosities() {
   return (
-    <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 dark:border-paper/15 dark:bg-ink-soft">
+    <section className="relative flex min-w-0 flex-col rounded-2xl border border-zinc-200 bg-white p-5 sm:p-6 md:p-7 lg:col-span-2 dark:border-paper/15 dark:bg-ink-soft">
       <div className="mb-4 flex items-center gap-2.5">
         <ElementSigil element="air" />
         <h2 className="font-display text-2xl tracking-tighter text-ink dark:text-paper lg:text-3xl">
