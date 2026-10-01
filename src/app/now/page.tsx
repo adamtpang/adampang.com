@@ -89,17 +89,6 @@ export default function NowPage() {
           </p>
         </NowSection>
 
-        <NowSection title="thinking about">
-          <ul className="space-y-1.5">
-            <li>money, and where to live</li>
-            <li>making friends on the internet by being open about what I&apos;m into</li>
-            <li>compounding . shipping in public</li>
-            <li>1000 true fans before monetizing</li>
-            <li>building bodies of work that outlive me</li>
-            <li>the infinite game, magnitude by magnitude</li>
-          </ul>
-        </NowSection>
-
         <NowSection title="not doing">
           <p>
             Twitter scrolling, taking meetings that don’t lead anywhere, starting
