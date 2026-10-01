@@ -1,27 +1,11 @@
 import type { MetadataRoute } from 'next';
-import { profile, SITE_URL, LAST_UPDATED } from '@/data/profile';
 
-/**
- * sitemap.xml, generated from profile.pages so a new route is listed the
- * moment it is added there. The hand-written version had drifted to 2 of
- * the 6 real routes.
- */
-const PRIORITY: Record<string, number> = {
-  '/': 1,
-  '/about': 0.9,
-  '/contact': 0.8,
-  '/privacy': 0.7,
-  '/now': 0.8,
-};
+const SITE_URL = 'https://adampang.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date(LAST_UPDATED);
-
-  return profile.pages.map((p) => ({
-    url: p.path === '/' ? SITE_URL : `${SITE_URL}${p.path}`,
-    lastModified,
-    // /now is the page that changes most; the rest are stable.
-    changeFrequency: p.path === '/now' ? 'monthly' : 'yearly',
-    priority: PRIORITY[p.path] ?? 0.5,
-  }));
+  const lastModified = new Date('2026-10-01');
+  return [
+    { url: SITE_URL, lastModified, changeFrequency: 'yearly', priority: 1 },
+    { url: `${SITE_URL}/privacy`, lastModified, changeFrequency: 'yearly', priority: 0.5 },
+  ];
 }

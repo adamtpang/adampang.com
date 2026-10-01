@@ -3,185 +3,29 @@
 @tailwind utilities;
 
 /*
- * Color custom properties are NOT declared here. They are generated from
- * src/design/tokens.json and injected into <head> by app/layout.tsx, so a
- * hex lives in exactly one place. This file only consumes them.
- * Machine-readable copies: /design/tokens.json and /design/tokens.css
+ * Colors come from src/design/tokens.json, injected into <head> by
+ * app/layout.tsx. This file only consumes them. No raw hex here.
  */
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transition: background-color 150ms ease, color 150ms ease;
-    background: rgb(var(--color-bg));
-  }
-  html.dark {
-    background: rgb(var(--color-bg));
-  }
-
   body {
-    /* Faint cool vertical gradient, fixed. The DS signature background. */
-    background: linear-gradient(
-      180deg,
-      rgb(var(--color-bg)) 0%,
-      rgb(var(--color-bg-mid)) 50%,
-      rgb(var(--color-bg-end)) 100%
-    );
-    background-attachment: fixed;
-    min-height: 100vh;
+    background: rgb(var(--color-bg));
     color: rgb(var(--color-fg));
     font-family: var(--font-body), system-ui, sans-serif;
-    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 1.6;
     letter-spacing: 0;
-    /* Accent dot cursor. Generated from the accent token in src/design/cursor.ts. */
-    cursor: var(--cursor-dot), auto;
   }
 
-  /* Bigger accent halo cursor on interactive elements. */
-  a,
-  button,
-  [role='button'],
-  label,
-  summary,
-  select {
-    cursor: var(--cursor-link), pointer;
-  }
-
-  input[type='text'],
-  input[type='email'],
-  input[type='search'],
-  input[type='url'],
-  textarea {
-    cursor: text;
-  }
-
-  ::selection {
-    background: rgb(var(--color-accent) / 0.9);
-    color: rgb(var(--color-on-accent));
+  a {
+    color: rgb(var(--color-accent-ink));
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 
   :focus-visible {
     outline: 3px solid rgb(var(--color-accent));
-    outline-offset: 5px;
+    outline-offset: 3px;
     border-radius: 2px;
-  }
-
-  /*
-   * Reduced motion. Kills CSS transitions/animations and the smooth-scroll,
-   * and neutralises the hover-lift token so Framer Motion's layout springs
-   * settle instantly rather than travelling.
-   */
-  @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
-    *,
-    *::before,
-    *::after {
-      animation-duration: 0.01ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 0.01ms !important;
-      scroll-behavior: auto !important;
-    }
-  }
-}
-
-@layer components {
-  /*
-   * The coin. One object, two faces, rotating on its vertical axis.
-   *
-   * The keyframes dwell rather than spin: each face holds still for about
-   * five seconds, then turns over in under two. A constant spin looks like
-   * a loading spinner and you can never read either side.
-   *
-   * It pauses on hover and on keyboard focus so a reader can stop it
-   * without clicking, and stops entirely under reduced motion, where the
-   * button becomes a plain instant flip.
-   */
-  .coin-scene {
-    perspective: 1400px;
-  }
-
-  .coin {
-    position: relative;
-    transform-style: preserve-3d;
-    will-change: transform;
-  }
-
-  .coin--auto {
-    animation: coin-turn 15s ease-in-out infinite;
-  }
-
-  /* Manual control. Set once the reader takes over from the animation. */
-  .coin--front {
-    transform: rotateY(0deg);
-    transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
-  }
-  .coin--back {
-    transform: rotateY(180deg);
-    transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  .coin-scene:hover .coin--auto,
-  .coin-scene:focus-within .coin--auto {
-    animation-play-state: paused;
-  }
-
-  .coin-face {
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-  }
-
-  .coin-face--back {
-    transform: rotateY(180deg);
-  }
-
-  @keyframes coin-turn {
-    0%,
-    38% {
-      transform: rotateY(0deg);
-    }
-    50%,
-    88% {
-      transform: rotateY(180deg);
-    }
-    100% {
-      transform: rotateY(360deg);
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .coin--auto {
-      animation: none;
-    }
-    .coin--front,
-    .coin--back {
-      transition: none;
-    }
-  }
-}
-
-@layer utilities {
-  /* Display face: Space Grotesk, confident headings. */
-  .font-display {
-    font-family: var(--font-display), system-ui, sans-serif;
-    font-weight: 700;
-    letter-spacing: 0;
-  }
-
-  /* Mono: JetBrains, tabular numerals + kicker labels. */
-  .nums {
-    font-family: var(--font-mono), ui-monospace, monospace;
-    font-variant-numeric: tabular-nums;
-    font-feature-settings: 'tnum';
-  }
-
-  /* Hairline divider. */
-  .hairline {
-    height: 1px;
-    background: rgb(var(--color-line));
   }
 }

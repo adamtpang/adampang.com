@@ -1,43 +1,40 @@
 import type { Metadata } from 'next';
-import SiteHeader from '@/components/SiteHeader';
-import Footer from '@/components/Footer';
-import Proof from '@/components/Proof';
-
-// Every route declares its own canonical. Setting one in the root layout
-// made all five subpages claim the homepage as theirs, which asks search
-// engines to drop them.
-//
-// title uses `absolute` to bypass the root layout's `%s · Adam Pang`
-// template: the homepage IS the Adam Pang page, so appending the brand
-// again would just repeat it. description is a short, factual summary
-// distinct from `profile.summary` (used for the JSON-LD Person/WebSite
-// nodes and /api/profile.json), which runs ~340 characters, well past
-// what search/AI crawlers want in a meta description.
-const HOME_TITLE = 'Adam Pang';
-const HOME_DESCRIPTION =
-  'Adam Pang builds small software tools and makes a podcast.';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: { absolute: HOME_TITLE },
-  description: HOME_DESCRIPTION,
+  title: { absolute: 'Adam Pang' },
+  description: 'Adam Pang.',
   alternates: { canonical: '/' },
-  // Root layout sets openGraph.title to profile.name ("Adam Pang"), which
-  // no longer matches this page's own <title> now that it carries the
-  // its own concise copy. Override both here so bots that check <title>
-  // against og:title for consistency see a match.
-  openGraph: { title: HOME_TITLE, description: HOME_DESCRIPTION },
-  twitter: { title: HOME_TITLE, description: HOME_DESCRIPTION },
 };
 
+/**
+ * The whole site. Rules (Adam, 2026-10-01): no identity lines, no work or
+ * client material, no unfinished projects, least possible. Add a line only
+ * for something real and finished.
+ */
 export default function Home() {
   return (
-    <main className="relative">
-      {/* asH1: this page has no other title element, so the name is the h1. */}
-      <SiteHeader asH1 />
-      <div className="grid min-w-0 grid-cols-1 gap-2 p-2 pb-3 sm:gap-3 sm:p-3 sm:pb-5 lg:grid-cols-2">
-        <Proof />
-      </div>
-      <Footer />
+    <main className="mx-auto max-w-xl px-6 py-16 sm:py-24">
+      <h1 className="font-display text-2xl font-bold">Adam Pang</h1>
+
+      <ul className="mt-6 space-y-2">
+        <li>
+          <a href="https://pangpod.com">PangPod</a>, a podcast.
+        </li>
+        <li>
+          <a href="https://github.com/adamtpang/helium-harness">helium-harness</a>, a tool that
+          lets an ai agent drive my browser.
+        </li>
+      </ul>
+
+      <p className="mt-6">
+        text or whatsapp <a href="sms:+15122540011">+1 (512) 254-0011</a>, or email{' '}
+        <a href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</a>.
+      </p>
+
+      <p className="mt-16 text-sm text-muted">
+        <Link href="/privacy">privacy</Link>
+      </p>
     </main>
   );
 }
