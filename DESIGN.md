@@ -1,21 +1,15 @@
-# Adam Pang design system
+# Adam Pang design tokens
 
-The human-readable brand book for adampang.com.
+The shared token reference for adampang.com and pangpod.com.
 
-The machine source of truth is `src/design/tokens.json`. The `/design` page,
-Tailwind theme, downloadable JSON, and downloadable CSS all read from it.
+The machine source of truth is `src/design/tokens.json`. The Tailwind theme and
+the downloadable `/design/tokens.json` and `/design/tokens.css` all read from it.
+pangpod.com copies the token files from this repo (see Sharing below), so a token
+change here changes both sites.
 
-This system is shared. pangpod.com consumes the same `tokens.json` and
-`tokens.ts` (see Sharing below), so a token change here is a change to both
-sites.
-
-## Identity
-
-> Elemental optimism on black and white.
-
-The system is professional playful: quiet structure, vivid signals, real
-content, and restrained motion. It should feel made by a person with broad
-curiosity, not assembled from a generic startup template.
+adampang.com itself is one plain page: a name, a contact line, and a privacy
+link. It uses the canvas, text, and accent tokens and nothing else. The rest of
+the system is kept for PangPod.
 
 ## Color
 
@@ -53,7 +47,7 @@ for hover fills.
 Blue is the one global interaction color. It tells a visitor what can be
 acted on. It is not a wash over the entire interface.
 
-### Four elements
+### Section hues
 
 | Element | Section token | Light | Dark | Text (`-ink`, light) | Meaning |
 | --- | --- | --- | --- | --- | --- |
@@ -69,12 +63,11 @@ becomes a fifth section or a body-text color. `alert` (`#ef4444`, text
 ### Color rules
 
 1. Black and white carry the composition.
-2. Blue owns interaction across the whole site.
-3. Each bento owns exactly one elemental hue.
-4. Section hues appear in sigils, fills, progress, and small accents.
-5. Body text uses `fg`, `muted`, or `faint`, never a decorative hue.
-6. Use the `-ink` companion token when colored text is necessary.
-7. Reference tokens, never raw hex values in components.
+2. Blue owns interaction.
+3. Section hues appear only in small accents, never as body text.
+4. Body text uses `fg`, `muted`, or `faint`.
+5. Use the `-ink` companion token when colored text is necessary.
+6. Reference tokens, never raw hex values. `pnpm check:tokens` rejects raw hex in `globals.css`.
 
 ## Typography
 
@@ -96,10 +89,7 @@ becomes a fifth section or a body-text color. `alert` (`#ef4444`, text
 5. Labels may use uppercase. Type sizes are fixed, not viewport-scaled.
 6. Lowercase is preferred for interface voice. Proper nouns stay correct.
 
-## Layout
-
-The homepage is a compressed bento that should fit a typical laptop viewport.
-Mobile may scroll naturally.
+## Radius and shadow
 
 | Token | Value | Use |
 | --- | --- | --- |
@@ -107,15 +97,9 @@ Mobile may scroll naturally.
 | `radius.md` | `12px` | Inputs, small cards |
 | `radius.sm` | `8px` | Badges and media tiles |
 | `radius.full` | `9999px` | Buttons, pills, avatars |
-| Card padding | `20px`, then `24px` | Mobile, then larger screens |
-| Base gap | `12px` to `16px` | Bento and component rhythm |
 
 Shadows are subtle: `shadow.card` at rest, `shadow.card-md` for hover lift,
 `shadow.card-lg` for popovers.
-
-Cards are for bounded tools and repeated items. Do not place decorative cards
-inside cards. Media tiles inside Sights are the exception because they are the
-content itself.
 
 ## Motion
 
@@ -134,41 +118,6 @@ cubic-bezier(0.16, 1, 0.3, 1)
 Motion clarifies hierarchy and state. Hover lift is limited to `2px`. Reveals
 run once. Every animation collapses under `prefers-reduced-motion`.
 
-## Imagery
-
-Sights contains Adam's real photographs. A small truthful set is stronger than
-a large placeholder gallery.
-
-1. The first image is the strongest personal image and receives LCP priority.
-2. Images use a stable aspect ratio and explicit dimensions.
-3. Captions are concrete places or moments, not generic mood words.
-4. Instagram and Pinterest are doors to the wider visual body of work.
-5. New images go in `public/sights/` with numeric filename prefixes.
-
-## Creations
-
-The homepage shows a restrained selection of the strongest finished Aether
-projects. `thedojo.fun` owns the complete work portfolio and workshop catalog.
-
-1. A public URL is not proof that a product is finished.
-2. Homepage projects must be usable, differentiated, and accurately described.
-3. Status means public state, not revenue or adoption.
-4. Experiments and work in progress belong in the dojo workshop, not the
-   homepage selection.
-
-## Voice
-
-> lowercase. specific. honest. warm. no em dashes.
-
-Use concrete nouns and verbs. Say what exists. Do not use inflated counts as a
-substitute for outcomes. Calls to action should name the destination or action.
-
-## Iconography
-
-Use Lucide icons for familiar controls. Each bento heading uses its elemental
-sigil. The favicon is a black and white yin-yang on the blue interaction field.
-It represents opposing modes held inside one optimistic system.
-
 ## Sharing with pangpod.com
 
 pangpod.com copies `src/design/tokens.json`, `src/design/tokens.ts`, and
@@ -186,26 +135,18 @@ this repo. Its contract:
 
 ## Cursor
 
-The custom cursor is an accent-colored dot, with a larger halo over links and
-controls. SVG cursor images cannot read CSS variables, so
 `src/design/cursor.ts` generates `--cursor-dot` and `--cursor-link` from the
-accent token for light and dark. `globals.css` only uses the variables. This
-generator is shared: PangPod syncs it with the tokens.
-`pnpm check:tokens` rejects raw hex in `globals.css`.
+accent token for light and dark, because SVG cursor images cannot read CSS
+variables. PangPod uses it. adampang.com no longer does, but the file stays here
+because PangPod syncs it from this repo.
 
 ## Source map
 
 - Tokens: `src/design/tokens.json`
 - Token generator: `src/design/tokens.ts`
+- Cursor generator: `src/design/cursor.ts`
 - Tailwind mapping: `tailwind.config.ts`
 - Global styles: `src/app/globals.css`
-- Cursor generator: `src/design/cursor.ts`
-- Living reference: `src/app/design/DesignSystem.tsx`
-- Element sigils: `src/components/ElementSigil.tsx`
-- Sights: `src/components/Sights.tsx`
-- Creations: `src/components/Building.tsx`
 - Downloadable tokens: `/design/tokens.json`, `/design/tokens.css`
 - Shared consumer: `pangpod.com/scripts/sync-design.mjs`
-
-When documentation and code disagree, fix the disagreement immediately. Do not
-create a second source of visual truth.
+- Checks: `pnpm check:tokens`, `pnpm check:contrast`
