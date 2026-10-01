@@ -20,15 +20,15 @@ the system is kept for PangPod.
 | `bg` | `#fafafa` | `#0a0a0a` | Page background, gradient start |
 | `bg-mid` | `#f0f4ff` | `#0d0d14` | Page gradient midpoint |
 | `bg-end` | `#e8ecf8` | `#0a0f1a` | Page gradient end |
-| `card` | `#ffffff` | `#141414` | Bento surfaces |
+| `card` | `#ffffff` | `#141414` | Card surfaces |
 | `sunken` | `#f1f5f9` | `#1c1c1f` | Inset wells, code blocks |
 | `line` | `#e2e8f0` | `#27272a` | Borders and dividers |
 | `fg` | `#1a1a1a` | `#fafafa` | Primary text |
 | `muted` | `#5b6674` | `#a1a1aa` | Secondary text, captions |
 | `faint` | `#626b78` | `#8b8b93` | Tertiary text, metadata |
 
-The page background is a faint, fixed vertical gradient from `bg` through
-`bg-mid` to `bg-end`. Cards sit on it as solid surfaces.
+`bg-mid` and `bg-end` exist for an optional faint vertical page gradient.
+adampang.com uses flat `bg`.
 
 Light mode is the default. Dark mode is a complete alternate, not an inverted
 afterthought.
@@ -93,7 +93,7 @@ becomes a fifth section or a body-text color. `alert` (`#ef4444`, text
 
 | Token | Value | Use |
 | --- | --- | --- |
-| `radius.lg` | `16px` | Bento cards, the default container |
+| `radius.lg` | `16px` | Cards, the default container |
 | `radius.md` | `12px` | Inputs, small cards |
 | `radius.sm` | `8px` | Badges and media tiles |
 | `radius.full` | `9999px` | Buttons, pills, avatars |
@@ -121,8 +121,7 @@ run once. Every animation collapses under `prefers-reduced-motion`.
 ## Sharing with pangpod.com
 
 pangpod.com copies `src/design/tokens.json`, `src/design/tokens.ts`, and
-`src/design/cursor.ts` from
-this repo. Its contract:
+`src/design/cursor.ts` from this repo. Its contract:
 
 1. The copy comes from a committed ref, `origin/main` by default (what Vercel
    deploys), never from a local working tree.
