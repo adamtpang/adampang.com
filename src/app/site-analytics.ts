@@ -1,7 +1,7 @@
 import posthog from 'posthog-js';
 
 const siteId = "adampang.com";
-const publicPaths = new Set(["/", "/privacy"]);
+const publicPaths = new Set(["/"]);
 const token = process.env.NEXT_PUBLIC_POSTHOG_KEY;
 let initialized = false;
 let lastPath: string | null = null;
