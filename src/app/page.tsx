@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
 import SiteHeader from '@/components/SiteHeader';
 import Footer from '@/components/Footer';
-import Sights from '@/components/Sights';
 import Proof from '@/components/Proof';
-import { listSightImages } from '@/lib/blob';
 
 // Every route declares its own canonical. Setting one in the root layout
 // made all five subpages claim the homepage as theirs, which asks search
@@ -31,19 +29,13 @@ export const metadata: Metadata = {
   twitter: { title: HOME_TITLE, description: HOME_DESCRIPTION },
 };
 
-// Refresh blob listing every hour without redeploys.
-export const revalidate = 3600;
-
-export default async function Home() {
-  const sightImages = await listSightImages();
-
+export default function Home() {
   return (
     <main className="relative">
       {/* asH1: this page has no other title element, so the name is the h1. */}
       <SiteHeader asH1 />
       <div className="grid min-w-0 grid-cols-1 gap-2 p-2 pb-3 sm:gap-3 sm:p-3 sm:pb-5 lg:grid-cols-2">
         <Proof />
-        <Sights images={sightImages} />
       </div>
       <Footer />
     </main>
