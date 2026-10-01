@@ -59,6 +59,7 @@ export default function SiteHeader({ asH1 = false }: { asH1?: boolean }) {
         {[
           { label: 'about', href: '/about', ext: false },
           { label: 'now', href: '/now', ext: false },
+          { label: 'text me', href: 'sms:+15122540011', ext: false },
           { label: 'email', href: 'mailto:adamtpang@gmail.com', ext: false },
           { label: 'pangaea', href: 'https://pangaea.blog', ext: true },
         ].map((l) => (

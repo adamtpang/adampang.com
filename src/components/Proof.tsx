@@ -71,7 +71,7 @@ export default function Proof() {
               <span className="nums">{liveCount}</span> live
             </a>
           </p>
-          <p className="mt-1 text-sm text-muted">shipped solo, all public and usable</p>
+          <p className="mt-1 text-sm text-muted">built by me, all live</p>
         </div>
 
         {/* Songs */}
