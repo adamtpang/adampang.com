@@ -4,7 +4,6 @@ import Footer from '@/components/Footer';
 import Sights from '@/components/Sights';
 import Sounds from '@/components/Sounds';
 import Curiosities from '@/components/Curiosities';
-import Building from '@/components/Building';
 import Proof from '@/components/Proof';
 import { listSightImages } from '@/lib/blob';
 
@@ -49,7 +48,6 @@ export default async function Home() {
         <Sights images={sightImages} />
         <Sounds />
         <Curiosities />
-        <Building />
       </div>
       <Footer />
     </main>
