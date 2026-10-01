@@ -104,6 +104,9 @@ function StatusBar({ time }: { time: string }) {
   );
 }
 
+const WALLPAPER =
+  'radial-gradient(90% 60% at 15% 10%, #7c2d12 0%, transparent 60%), radial-gradient(80% 60% at 90% 35%, #6d28d9 0%, transparent 62%), radial-gradient(90% 70% at 30% 95%, #0e7490 0%, transparent 60%), #0b1020';
+
 type Sheet = 'spotify' | 'photos' | null;
 
 export default function Phone() {
@@ -137,7 +140,7 @@ export default function Phone() {
       className="relative mx-auto flex min-h-screen w-full max-w-[420px] flex-col overflow-hidden sm:my-8 sm:min-h-[840px] sm:rounded-[48px] sm:border-[10px] sm:border-black sm:outline sm:outline-1 sm:outline-white/15"
       style={{
         fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif',
-        background: 'radial-gradient(120% 80% at 50% 0%, #1f2a44 0%, #0b0f1a 55%, #050608 100%)',
+        background: WALLPAPER,
       }}
     >
       <h1 className="sr-only">Adam Pang</h1>
@@ -145,6 +148,30 @@ export default function Phone() {
       {/* Home screen */}
       <StatusBar time={time} />
       <div className="flex flex-1 flex-col px-6 pb-5 pt-8" aria-hidden={locked}>
+        <div className="mb-8 grid grid-cols-2 gap-4">
+          <button
+            type="button"
+            onClick={() => setSheet('spotify')}
+            className="flex aspect-square flex-col justify-between rounded-[24px] bg-black/55 p-4 text-left text-white backdrop-blur-xl"
+          >
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden>
+              <path d={logos.spotify} fill="#1ed760" />
+            </svg>
+            <span>
+              <span className="block text-[22px] font-semibold leading-tight">ult</span>
+              <span className="block text-[13px] opacity-70">my playlist</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setSheet('photos')}
+            aria-label="Photos"
+            className="relative aspect-square overflow-hidden rounded-[24px] bg-transparent p-0"
+          >
+            <Image src="/profile.png" alt="" fill sizes="180px" className="object-cover" />
+          </button>
+        </div>
+
         <nav aria-label="apps" className="grid grid-cols-4 gap-y-7">
           {grid.map((a) => (
             <AppIcon key={a.label} app={a} />
@@ -193,7 +220,7 @@ export default function Phone() {
           }}
           onPointerUp={() => (startY.current = null)}
           className="absolute inset-0 z-20 flex touch-none flex-col items-center justify-between px-6 pb-3 pt-20 text-white"
-          style={{ background: 'radial-gradient(120% 80% at 50% 0%, #1f2a44 0%, #0b0f1a 55%, #050608 100%)' }}
+          style={{ background: WALLPAPER }}
         >
           <span className="flex flex-col items-center">
             <span className="text-[20px] font-medium opacity-90">{date || ' '}</span>
