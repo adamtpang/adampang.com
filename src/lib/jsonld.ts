@@ -50,14 +50,6 @@ export function buildJsonLd() {
     },
     knowsAbout: [...profile.knowsAbout],
     sameAs: [...profile.sameAs],
-    // Shipped projects, so an agent can enumerate the work without scraping.
-    subjectOf: profile.projects.map((p) => ({
-      '@type': 'CreativeWork',
-      name: p.name,
-      url: p.url,
-      abstract: p.tagline,
-      creativeWorkStatus: p.status,
-    })),
     mainEntityOfPage: { '@id': siteId },
   };
 

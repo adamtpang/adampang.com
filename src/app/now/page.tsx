@@ -45,23 +45,28 @@ export default function NowPage() {
 
         <NowSection title="where">
           <p>
-            <Ext href="https://ns.com">Network School</Ext>.
+            <Ext href="https://ns.com">Network School</Ext>, and Singapore for{' '}
+            <Ext href="https://www.asia.token2049.com">TOKEN2049</Ext>.
           </p>
         </NowSection>
 
         <NowSection title="building">
           <ul className="space-y-1.5">
             <li>
+              <Ext href="https://anchormarianas.com">Anchor Marianas</Ext> . websites
+              and apps for businesses
+            </li>
+            <li>
               <Ext href="https://pangpod.com">PangPod</Ext> . a podcast where I
-              riff about whatever I&apos;m curious about, sometimes with friends
+              riff about whatever I&apos;m curious about, sometimes with friends.
+              recording episode 1 now
             </li>
             <li>
               <Ext href="https://strummer.fun">strummer.fun</Ext> . the music
               suite
             </li>
             <li>
-              <Ext href="https://pangaea.blog">pangaea.blog</Ext> . essays,
-              first posts soon
+              <Ext href="https://pangaea.blog">pangaea.blog</Ext> . essays
             </li>
           </ul>
         </NowSection>
@@ -97,8 +102,8 @@ export default function NowPage() {
 
         <NowSection title="not doing">
           <p>
-            Twitter scrolling, conferences, taking meetings that don’t lead
-            anywhere. Saying no so I can say yes to deep work.
+            Twitter scrolling, taking meetings that don’t lead anywhere, starting
+            new projects before finishing the ones I have.
           </p>
         </NowSection>
 

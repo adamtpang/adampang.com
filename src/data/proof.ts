@@ -1,49 +1,51 @@
 /**
  * Proof of work. The top of the homepage reads from this list.
  *
- * Rule for this file: every entry must be public, verifiable, and worded
- * no stronger than its public source. Verified 2026-09-14:
+ * Rules, from Adam's note "Being someone I would hire" (2026-10-01):
+ * modest and accurate, nothing dressed up, say plainly what is early.
+ * Each sentence is his own claim from that note, or checked on the date
+ * shown. No numbers or outcomes beyond what he wrote.
  *
- *   client   wording matches anchormarianas.com and anchormarianas.com/work,
- *            which already publish "Hilton Guam, paid website & gym app work".
- *            No outcome numbers are claimed because none are public.
- *   songs    each URL resolves to a real SoundCloud track page titled
- *            "Stream <title> by adampang.com". Dates come from the song's
- *            strummer.fun/songs entry.
- *   pangpod  pangpod.com is live; the description is its own meta line.
- *
- * Products live in apps.ts and render in the Creations section, not here.
+ *   hilton guam     same wording anchormarianas.com/work publishes, checked
+ *                   2026-09-14.
+ *   quantus         his claim: paid for a month, built on their site, made
+ *                   mining easier. No public link confirmed yet, so none shown.
+ *   helium-harness  public repo, 200 on 2026-10-01. Usage claim is his.
+ *   font finder     his claim: a friend asked for it and tried it on her own
+ *                   sites. No public link yet. The friend is not named here.
+ *   pangpod         pangpod.com live with one public episode, checked 2026-09-14.
  */
 
-export type ClientProof = {
-  client: string;
-  work: string;
-  href: string;
+export const whatIDo = 'i build small software tools and make a podcast.';
+
+export type Proof = {
+  name: string;
+  line: string;
+  href?: string;
 };
 
-export type SongProof = {
-  title: string;
-  year: number;
-  href: string;
-};
-
-export const clientWork: ClientProof[] = [
+export const proofs: Proof[] = [
   {
-    client: 'Hilton Guam',
-    work: 'paid website and gym app work',
+    name: 'Hilton Guam',
+    line: 'paid website and gym app work.',
     href: 'https://anchormarianas.com/work',
   },
+  {
+    name: 'Quantus',
+    line: 'paid me for a month. i built on their site and made mining easier.',
+  },
+  {
+    name: 'helium-harness',
+    line: 'lets an ai agent drive my browser. i use it myself, it filled in a hotel booking and a job form for me.',
+    href: 'https://github.com/adamtpang/helium-harness',
+  },
+  {
+    name: 'font finder',
+    line: 'a friend asked for it and tried it on her own sites. still rough.',
+  },
+  {
+    name: 'PangPod',
+    line: 'my podcast. one episode out so far.',
+    href: 'https://pangpod.com',
+  },
 ];
-
-export const songs: SongProof[] = [
-  { title: 'aria log day 247', year: 2025, href: 'https://soundcloud.com/adamtpang/aria-log-day-247' },
-  { title: 'metro martian', year: 2025, href: 'https://soundcloud.com/adamtpang/metro-martian' },
-  { title: 'adventure time', year: 2025, href: 'https://soundcloud.com/adamtpang/adventure-time' },
-  { title: 'girl bossa', year: 2021, href: 'https://soundcloud.com/adamtpang/girlbossa' },
-];
-
-export const podcast = {
-  name: 'PangPod',
-  line: 'Long conversations about making things, figuring life out, and becoming friends along the way.',
-  href: 'https://pangpod.com',
-};

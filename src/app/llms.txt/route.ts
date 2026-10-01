@@ -32,10 +32,6 @@ updated ${p.lastUpdated}.
 
 ${list(p.pages.map((x) => ({ label: x.title, href: `${SITE_URL}${x.path}`, note: x.description })))}
 
-## Projects
-
-${list(p.projects.map((x) => ({ label: x.name, href: x.url, note: `${x.tagline} (${x.status})` })))}
-
 ## Writing
 
 - [${p.writing.name}](${p.writing.url}): ${p.writing.description}
