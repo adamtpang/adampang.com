@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { SITE_URL } from '@/data/profile';
+const SITE_URL = 'https://adampang.com';
 
 /**
  * robots.txt
@@ -39,8 +39,6 @@ const AI_AGENTS = [
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // Everything is public. /api/ is allowed on purpose: profile.json is
-      // the point of the machine-readable layer.
       { userAgent: '*', allow: '/' },
       ...AI_AGENTS.map((userAgent) => ({ userAgent, allow: '/' })),
     ],

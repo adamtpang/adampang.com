@@ -177,9 +177,8 @@ if (rawHex.length) fail(`raw hex in src/app/globals.css: ${[...new Set(rawHex)].
 else ok('src/app/globals.css has no raw hex colors');
 
 const cursorMatch = html.match(/id="cursor-tokens"[^>]*>([\s\S]*?)<\/style>/);
-if (!cursorMatch) {
-  fail('no <style id="cursor-tokens"> in the built HTML');
-} else {
+// adampang.com no longer uses the custom cursor; check it only where present.
+if (cursorMatch) {
   const block = cursorMatch[1];
   const light = block.slice(0, block.indexOf('.dark'));
   const dark = block.slice(block.indexOf('.dark'));
