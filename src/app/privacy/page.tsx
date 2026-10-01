@@ -127,18 +127,11 @@ export default function PrivacyPage() {
         <PrivacySection title="contact, payments, and external links">
           <p>
             The <Link className="underline decoration-ink/15 underline-offset-4 hover:text-sunrise dark:decoration-paper/15" href="/contact">contact page</Link>{' '}
-            only links to email and Adam’s public Cal.com page; adampang.com does
+            only links to email, text, phone, WhatsApp, and Adam’s public Cal.com page; adampang.com does
             not submit or store the message itself. Other pages link to services
-            such as WhatsApp, Discord, GitHub, Pangaea, Stripe, Buy Me a Coffee,
-            Zcash, and social networks. A visitor shares data with those
+            such as WhatsApp, GitHub, Pangaea, and social networks. A visitor shares data with those
             services only by following a link or using their service, under the
             destination’s own terms and privacy policy.
-          </p>
-          <p>
-            The mirrored <code className="font-mono text-sm">/gives</code> page
-            requests its typefaces from Google Fonts when that route is opened.
-            It also contains links to external checkout and scheduling services;
-            those destinations are not embedded into the adampang.com homepage.
           </p>
         </PrivacySection>
 

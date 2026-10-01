@@ -24,7 +24,7 @@ export const SITE_URL = 'https://adampang.com';
  * Bump when the facts change, not when the site rebuilds. Agents use this
  * to decide whether a cached copy is stale.
  */
-export const LAST_UPDATED = '2026-09-03';
+export const LAST_UPDATED = '2026-10-01';
 
 /** Places Adam exists online. Drives schema.org sameAs. */
 const SAMEAS_CATEGORIES = ['social', 'video', 'sound', 'words', 'code'] as const;
@@ -41,11 +41,10 @@ export const profile = {
   name: 'Adam Pang',
   url: SITE_URL,
 
-  headline: 'Builder, writer, musician. Shipping small bets in public.',
+  headline: 'Builds small software tools and makes a podcast.',
   summary:
-    'Adam Pang is a builder, writer, and musician from Guam. He runs Anchor ' +
-    'Marianas, ships software solo and in public, writes at pangaea.blog, and ' +
-    'makes music. adampang.com is the hub for his work and public profiles.',
+    'Adam Pang builds small software tools and makes a podcast, PangPod. ' +
+    'From Guam. He runs Anchor Marianas and writes at pangaea.blog.',
 
   roles: ['builder', 'writer', 'musician', 'founder'],
 
@@ -61,7 +60,7 @@ export const profile = {
     name: 'Anchor Marianas',
     url: 'https://anchormarianas.com',
     role: 'founder',
-    description: 'AI studio. Apps in days, not months.',
+    description: 'Websites and apps for businesses.',
   },
 
   affiliation: {
@@ -73,7 +72,7 @@ export const profile = {
   writing: {
     name: 'Pangaea',
     url: 'https://pangaea.blog',
-    description: 'Essays. The long version of who he is.',
+    description: 'Essays.',
   },
 
   knowsAbout: [
@@ -96,13 +95,11 @@ export const profile = {
 
   /** Canonical routes on this site, for agents mapping the surface. */
   pages: [
-    { path: '/', title: 'home', description: 'The four-element bento: sights, sounds, curiosity, creations.' },
+    { path: '/', title: 'home', description: 'What he does, a few real proofs, photos, music, reading.' },
     { path: '/about', title: 'about', description: 'Who he is, chronologically. Milestones and receipts.' },
     { path: '/contact', title: 'contact', description: 'Real ways to contact Adam and what to expect next.' },
     { path: '/privacy', title: 'privacy', description: 'How this site handles analytics, storage, embeds, links, and contact.' },
     { path: '/now', title: 'now', description: 'What he is doing right now, in the sivers.org/now tradition.' },
-    { path: '/ns', title: 'network school', description: 'Notes and referral information for Network School.' },
-    { path: '/design', title: 'design system', description: 'Living token reference. Machine-readable exports.' },
   ],
 
   machineReadable: [

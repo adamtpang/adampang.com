@@ -17,9 +17,9 @@ import { listSightImages } from '@/lib/blob';
 // distinct from `profile.summary` (used for the JSON-LD Person/WebSite
 // nodes and /api/profile.json), which runs ~340 characters, well past
 // what search/AI crawlers want in a meta description.
-const HOME_TITLE = 'Adam Pang — Builder, Writer & Musician';
+const HOME_TITLE = 'Adam Pang';
 const HOME_DESCRIPTION =
-  'Explore Adam Pang’s public software projects, essays, music, current work, and ways to start a thoughtful collaboration.';
+  'Adam Pang builds small software tools and makes a podcast.';
 
 export const metadata: Metadata = {
   title: { absolute: HOME_TITLE },

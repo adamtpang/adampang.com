@@ -54,33 +54,6 @@ export default function Sounds() {
         </h2>
       </div>
 
-      {/* 2026: strummer. Wrapped on demand. CTA always visible. */}
-      <a
-        href="https://strummer.fun"
-        target="_blank"
-        rel="noreferrer noopener"
-        className="group mb-3 flex items-center justify-between gap-3 rounded-xl p-3 text-white transition-all hover:-translate-y-0.5"
-        style={{
-          backgroundImage:
-            'linear-gradient(135deg, #2563eb 0%, #38bdf8 100%)',
-        }}
-      >
-        <div className="min-w-0">
-          <div className="flex items-baseline gap-2">
-            <span className="font-display text-base leading-none">2026 strummer</span>
-            <span className="nums text-caption uppercase tracking-label text-white/75">
-              wrapped on demand
-            </span>
-          </div>
-          <div className="mt-1 text-caption text-white/85">
-            check your vibe weekly. live at strummer.fun.
-          </div>
-        </div>
-        <span className="shrink-0 rounded-full bg-white/95 px-3 py-1 text-caption font-medium text-ink transition-all group-hover:bg-white">
-          get checked ↗
-        </span>
-      </a>
-
       {/* Past years carousel.
 
           Facade until clicked. The live Spotify iframe made 5 network

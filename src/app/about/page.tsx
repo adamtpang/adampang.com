@@ -111,10 +111,9 @@ export default function AboutPage() {
 
         <Section title="how to reach me">
           <Plain>
-            Email is best:{' '}
-            <ExtLink href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</ExtLink>
-            . Or{' '}
-            <ExtLink href="https://cal.com/adamtpang">book a call</ExtLink>.
+            Text or WhatsApp is fastest:{' '}
+            <ExtLink href="sms:+15122540011">+1 (512) 254-0011</ExtLink>. Email works too:{' '}
+            <ExtLink href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</ExtLink>.
           </Plain>
         </Section>
       </article>
