@@ -17,16 +17,6 @@ export default function Home() {
     <main className="mx-auto max-w-xl px-6 py-16 sm:py-24">
       <h1 className="font-display text-2xl font-bold">Adam Pang</h1>
 
-      <ul className="mt-6 space-y-2">
-        <li>
-          <a href="https://pangpod.com">PangPod</a>, a podcast.
-        </li>
-        <li>
-          <a href="https://github.com/adamtpang/helium-harness">helium-harness</a>, a tool that
-          lets an ai agent drive my browser.
-        </li>
-      </ul>
-
       <p className="mt-6">
         text or whatsapp <a href="sms:+15122540011">+1 (512) 254-0011</a>, or email{' '}
         <a href="mailto:adamtpang@gmail.com">adamtpang@gmail.com</a>.
