@@ -77,22 +77,6 @@ export default function AboutPage() {
             <ExtLink href="https://pangaea.blog">pangaea.blog</ExtLink>.
           </p>
         </div>
-
-        {/* Receipts. Honest numbers, including the unflattering one. */}
-        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 rounded-2xl border border-zinc-200 bg-white p-5 dark:border-paper/15 dark:bg-ink-soft">
-          {[
-            { n: '2024', l: 'joined ns' },
-          ].map((r) => (
-            <div key={r.l}>
-              <div className="nums font-display text-2xl tracking-tighter text-ink dark:text-paper">
-                {r.n}
-              </div>
-              <div className="mt-0.5 text-caption uppercase tracking-label text-muted">
-                {r.l}
-              </div>
-            </div>
-          ))}
-        </div>
       </article>
 
       {/* Milestones, full bleed so the journey has room to travel. Data

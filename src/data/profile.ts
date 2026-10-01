@@ -8,15 +8,12 @@
  *   <head> JSON-LD      schema.org Person + WebSite, built from it
  *   /llms.txt           the agent-facing markdown brief, built from it
  *
- * Projects and social profiles are imported from their own source files
- * (apps.ts, outlinks.ts) rather than duplicated here, so adding a project
- * in one place updates the homepage, the JSON-LD, and llms.txt together.
+ * Social profiles are imported from outlinks.ts rather than duplicated here.
  *
  * Every fact below is sourced from the repo or the live site. Nothing is
  * inferred. See OPEN-QUESTIONS in the repo root for the gaps.
  */
 
-import { apps } from './apps';
 import { outlinks } from './outlinks';
 import { reading } from './curiosities';
 import { milestonesAsProse } from './milestones';
@@ -36,13 +33,6 @@ export const sameAs = outlinks
   .filter((l) => (SAMEAS_CATEGORIES as readonly string[]).includes(l.category))
   .filter((l) => l.href.startsWith('http'))
   .map((l) => l.href);
-
-export type ProfileProject = {
-  name: string;
-  url: string;
-  tagline: string;
-  status: string;
-};
 
 export const profile = {
   lastUpdated: LAST_UPDATED,
@@ -79,16 +69,6 @@ export const profile = {
     url: 'https://ns.com',
     role: 'member',
   },
-
-  /** Generated from apps.ts. Adding a project there updates every consumer. */
-  projects: apps.map(
-    (a): ProfileProject => ({
-      name: a.name,
-      url: a.url,
-      tagline: a.tagline,
-      status: a.status,
-    })
-  ),
 
   writing: {
     name: 'Pangaea',
