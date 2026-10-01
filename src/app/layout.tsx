@@ -24,7 +24,7 @@ const body = Lato({
 export const metadata: Metadata = {
   metadataBase: new URL('https://adampang.com'),
   title: { default: 'Adam Pang', template: '%s · Adam Pang' },
-  description: 'Adam Pang. From Guam.',
+  description: 'Adam Pang.',
   openGraph: { type: 'website', url: 'https://adampang.com', siteName: 'adampang.com', title: 'Adam Pang' },
   twitter: { card: 'summary_large_image', title: 'Adam Pang' },
   robots: { index: true, follow: true },
