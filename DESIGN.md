@@ -7,9 +7,15 @@ the downloadable `/design/tokens.json` and `/design/tokens.css` all read from it
 pangpod.com copies the token files from this repo (see Sharing below), so a token
 change here changes both sites.
 
-adampang.com itself is one plain page: a name, a contact line, and a privacy
-link. It uses the canvas, text, and accent tokens and nothing else. The rest of
-the system is kept for PangPod.
+adampang.com is one white page with a framed portrait, a compact introduction,
+music, selected external links, and contact actions. The homepage binds Fraunces
+400 to `--font-display` and Inter 400/500 to `--font-body`. Its white canvas uses
+the `card` surface token. The silver picture-frame treatment and responsive
+composition live in `src/app/home.module.css`.
+
+The shared token files and download routes remain stable for PangPod. The
+typography families and sectional system documented below describe that shared
+consumer; they do not override the homepage's font bindings.
 
 ## Color
 
