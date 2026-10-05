@@ -9,10 +9,10 @@
 
 @layer base {
   body {
-    background: rgb(var(--color-bg));
+    background: rgb(var(--color-card));
     color: rgb(var(--color-fg));
     font-family: var(--font-body), system-ui, sans-serif;
-    font-size: 1.0625rem;
+    font-size: 1rem;
     line-height: 1.6;
     letter-spacing: 0;
   }
