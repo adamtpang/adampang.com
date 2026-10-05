@@ -24,11 +24,11 @@ const body = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://adampang.com'),
   title: { default: 'Adam Pang', template: '%s · Adam Pang' },
-  description: 'Adam Pang, from Guam. Music, ideas, and things I make.',
+  description: 'Adam Pang. Writing, music, and a way to say hello.',
   openGraph: { type: 'website', url: 'https://adampang.com', siteName: 'adampang.com', title: 'Adam Pang' },
   twitter: { card: 'summary_large_image', title: 'Adam Pang' },
   robots: { index: true, follow: true },
-  icons: { icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }] },
+  icons: { icon: [{ url: '/favicon.svg?v=yin-yang-2', type: 'image/svg+xml' }] },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

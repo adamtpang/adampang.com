@@ -16,17 +16,23 @@ export default function Portrait() {
         transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className={styles.frame}>
-          <div className={styles.mat}>
-            <div className={styles.photo}>
-              <Image
-                src="/profile.png"
-                alt="Adam Pang smiling on a flight of outdoor steps"
-                fill
-                priority
-                sizes="(max-width: 600px) 250px, (max-width: 800px) 290px, 260px"
-              />
-            </div>
+          <div className={styles.photo}>
+            <Image
+              src="/profile.png"
+              alt="Adam Pang smiling on a flight of outdoor steps"
+              fill
+              priority
+              sizes="(max-width: 600px) 190px, (max-width: 800px) 185px, 225px"
+            />
           </div>
+          <Image
+            className={styles.frameOrnament}
+            src="/gold-frame.png"
+            alt=""
+            fill
+            priority
+            sizes="(max-width: 600px) 296px, (max-width: 800px) 290px, 350px"
+          />
         </div>
       </m.figure>
     </LazyMotion>

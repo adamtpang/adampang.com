@@ -6,7 +6,7 @@ import styles from './home.module.css';
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang' },
-  description: 'Adam Pang, from Guam. Music, ideas, and things I make. Find my writing, music, and a way to say hello.',
+  description: 'Adam Pang. Find my writing, music, and a way to say hello.',
   alternates: { canonical: '/' },
 };
 
@@ -18,10 +18,6 @@ export default function Home() {
         <div className={styles.content}>
           <header>
             <h1 className={styles.name}>Adam Pang</h1>
-            <p className={styles.about}>
-              I&apos;m from Guam. I like making music, building things,
-              and getting lost in a good idea.
-            </p>
           </header>
 
           <nav aria-label="Writing and music" className={styles.work}>
