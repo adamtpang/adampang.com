@@ -24,7 +24,7 @@ const body = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://adampang.com'),
   title: { default: 'Adam Pang', template: '%s · Adam Pang' },
-  description: 'Adam Pang. Writing, music, and a way to say hello.',
+  description: 'Adam Pang. Music, projects, and ways to reach me.',
   openGraph: { type: 'website', url: 'https://adampang.com', siteName: 'adampang.com', title: 'Adam Pang' },
   twitter: { card: 'summary_large_image', title: 'Adam Pang' },
   robots: { index: true, follow: true },
