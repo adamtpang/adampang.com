@@ -1,0 +1,9 @@
+Generated with the built-in image generation tool. Existing portrait unchanged.
+
+Use case: product-mockup
+Asset type: transparent decorative frame overlay for a personal website portrait.
+Primary request: an ornate, finely carved antique gold picture frame inspired by the opulent gold framing of Kanye West's My Beautiful Dark Twisted Fantasy artwork, but no album art or text.
+Subject: one empty rectangular portrait-format gilded frame, directly front-facing, perfectly straight and symmetrical. Outer frame aspect ratio 3:4. Narrow rich carved acanthus-leaf and bead molding, tasteful elaborate corner details, warm polished yellow gold with darker recessed relief and realistic metallic highlights. Border width approximately 9% of overall width. Center opening a clean straight rectangular aperture, transparent. Exterior transparent too.
+Composition: isolated frame only, centered, fully inside canvas with minimal margin, no perspective tilt. Empty aperture must be genuinely transparent, not white or filled. Suitable for compositing an existing real photograph underneath.
+Lighting: soft daylight from upper left, fine material texture, realistic photographed object, no harsh glare.
+Constraints: no artwork, person, mat board, background, wall, lettering, logo or watermark. Actual alpha transparency both outside and inside frame. Do not draw a checkerboard pattern.
