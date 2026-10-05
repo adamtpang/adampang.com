@@ -1,14 +1,27 @@
 import type { Metadata } from 'next';
-import { ArrowUpRight, Mail, MessageCircle, Phone } from 'lucide-react';
+import { ArrowUpRight, Mail, Phone } from 'lucide-react';
+import { FaGithub, FaInstagram, FaLinkedinIn, FaSoundcloud, FaWhatsapp, FaXTwitter, FaYoutube } from 'react-icons/fa6';
+import { SiCaldotcom } from 'react-icons/si';
 import Portrait from './Portrait';
 import MusicPlayer from './MusicPlayer';
 import styles from './home.module.css';
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang' },
-  description: 'Adam Pang. Find my writing, music, and a way to say hello.',
+  description: 'Adam Pang. Music, projects, and ways to reach me.',
   alternates: { canonical: '/' },
 };
+
+const outlinks = [
+  { label: 'Instagram', href: 'https://instagram.com/adamtpang', Icon: FaInstagram },
+  { label: 'YouTube', href: 'https://youtube.com/@adamtpang', Icon: FaYoutube },
+  { label: 'X', href: 'https://x.com/adamtpang', Icon: FaXTwitter },
+  { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang', Icon: FaSoundcloud },
+  { label: 'GitHub', href: 'https://github.com/adamtpang', Icon: FaGithub },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/adamtpang', Icon: FaLinkedinIn },
+  { label: 'WhatsApp', href: 'https://wa.me/60197981734', Icon: FaWhatsapp },
+  { label: 'Cal.com', href: 'https://cal.com/adamtpang', Icon: SiCaldotcom },
+];
 
 export default function Home() {
   return (
@@ -20,25 +33,12 @@ export default function Home() {
             <h1 className={styles.name}>Adam Pang</h1>
           </header>
 
-          <nav aria-label="Writing and music" className={styles.work}>
-            <a href="https://pangaea.blog" target="_blank" rel="noopener noreferrer">
-              <span>Pangaea <span className={styles.linkNote}>writing</span></span>
-              <ArrowUpRight size={16} aria-hidden />
-            </a>
-            <a href="https://soundcloud.com/adamtpang" target="_blank" rel="noopener noreferrer">
-              <span>SoundCloud <span className={styles.linkNote}>music</span></span>
-              <ArrowUpRight size={16} aria-hidden />
-            </a>
-          </nav>
-
-          <nav aria-label="Elsewhere" className={styles.socials}>
-            {[
-              ['Instagram', 'https://instagram.com/adamtpang'],
-              ['YouTube', 'https://youtube.com/@adamtpang'],
-              ['X', 'https://x.com/adamtpang'],
-            ].map(([label, href]) => (
+          <nav aria-label="Elsewhere" className={styles.outlinks}>
+            {outlinks.map(({ label, href, Icon }) => (
               <a key={href} href={href} target="_blank" rel="noopener noreferrer">
-                {label}<ArrowUpRight size={13} aria-hidden />
+                <Icon size={18} aria-hidden focusable="false" />
+                <span>{label}</span>
+                <ArrowUpRight size={12} aria-hidden className={styles.externalArrow} />
               </a>
             ))}
           </nav>
@@ -46,9 +46,6 @@ export default function Home() {
           <MusicPlayer />
 
           <nav aria-label="Say hello" className={styles.contact}>
-            <a href="https://wa.me/60197981734" target="_blank" rel="noopener noreferrer">
-              <MessageCircle size={15} aria-hidden /> WhatsApp
-            </a>
             <a href="tel:+15122540011"><Phone size={15} aria-hidden /> Call</a>
             <a href="mailto:adamtpang@gmail.com"><Mail size={15} aria-hidden /> Email</a>
           </nav>

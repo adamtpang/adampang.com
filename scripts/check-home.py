@@ -34,11 +34,14 @@ assert js('document.querySelector("iframe").height') == '80'
 assert js('document.querySelector("iframe").src').startswith('https://open.spotify.com/embed/playlist/')
 assert not js('document.body.innerText.includes("from Guam")')
 assert not js('document.body.innerText.includes("Play music")')
+assert not js('document.querySelector("a[href*=\\"pangaea.blog\\"]")')
+assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 8
+assert js('[...document.querySelectorAll("nav[aria-label=Elsewhere] a")].every(a => a.querySelector("svg") && a.target === "_blank" && a.rel.includes("noopener"))')
 assert js('document.querySelector("link[rel=icon]").href').endswith('favicon.svg?v=yin-yang-2')
 assert js('[...document.querySelectorAll("figure img")].some(i => i.src.includes("gold-frame.png"))')
 assert js('document.querySelectorAll("[data-lock], [role=dialog]").length') == 0
 
-for width, height in [(1440, 900), (1366, 768), (1024, 768), (1280, 600), (390, 844), (320, 740)]:
+for width, height in [(1440, 900), (1366, 768), (1024, 768), (1280, 600), (768, 1024), (601, 900), (390, 844), (320, 740)]:
     cdp('Emulation.setDeviceMetricsOverride', width=width, height=height, deviceScaleFactor=1, mobile=width < 600)
     time.sleep(.25)
     info = page_info()
@@ -85,7 +88,7 @@ try:
     time.sleep(1)
     nodes = cdp('Accessibility.getFullAXTree')['nodes']
     roles = [n.get('role', {}).get('value') for n in nodes]
-    assert roles.count('link') >= 9
+    assert roles.count('link') >= 11
     assert 'heading' in roles
     assert 'button' not in roles
     assert js('document.querySelector("h1").innerText') == 'Adam Pang'

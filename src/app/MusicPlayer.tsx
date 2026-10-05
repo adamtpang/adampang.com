@@ -1,4 +1,5 @@
 import { ArrowUpRight } from 'lucide-react';
+import { FaSpotify } from 'react-icons/fa6';
 import styles from './home.module.css';
 
 const PLAYLIST = '35KMxrfO2OqwaJ1PIoYiCa';
@@ -10,7 +11,7 @@ export default function MusicPlayer() {
       <div className={styles.musicHeading}>
         <span>On repeat</span>
         <a href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">
-          Spotify <ArrowUpRight size={12} aria-hidden />
+          <FaSpotify size={14} aria-hidden focusable="false" /> Spotify <ArrowUpRight size={12} aria-hidden />
         </a>
       </div>
       <iframe

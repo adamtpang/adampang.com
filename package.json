@@ -19,7 +19,8 @@
     "next": "^15.1.4",
     "posthog-js": "1.429.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.7.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.6",
