@@ -1,62 +1,38 @@
 {
   "name": "Adam Pang",
-  "headline": "Forward Deployed Engineer",
-  "location": "Austin, TX · US work authorized · Available now",
   "contacts": [
-    {
-      "label": "adamtpang@gmail.com",
-      "href": "mailto:adamtpang@gmail.com"
-    },
-    {
-      "label": "adampang.com",
-      "href": "https://adampang.com"
-    },
-    {
-      "label": "github.com/adamtpang",
-      "href": "https://github.com/adamtpang"
-    },
-    {
-      "label": "cal.com/adamtpang",
-      "href": "https://cal.com/adamtpang"
-    }
+    { "label": "Austin, TX", "href": "" },
+    { "label": "adamtpang@gmail.com", "href": "mailto:adamtpang@gmail.com" },
+    { "label": "adampang.com", "href": "https://adampang.com" },
+    { "label": "github.com/adamtpang", "href": "https://github.com/adamtpang" }
   ],
-  "summary": "I sit with the person who has the problem, find what is actually broken, and ship the **agent system** that fixes it, **end to end**. Co-won the Galatiq and SpaceXAI **Grok Bot Hackathon** with an agent built in **2.5 hours**.",
   "experience": [
     {
       "org": "Quantus",
       "href": "https://quantus.com",
-      "role": "Engineering Contributor, quantum-secure L1",
-      "meta": "Apr 2026 to Oct 2026 · Remote and Singapore",
+      "role": "Ambassador",
+      "meta": "Jul 2026 to Oct 2026",
       "bullets": [
-        "Found a **command injection** in the mining installer: config values were written unescaped into a file the installer sources, so a node name like $(command) would run. Patched it by validating every editable value, in a **19-file** PR with **44** passing tests. [PR #14](https://github.com/Quantus-Network/docs/pull/14)",
-        "Root-caused a Windows **GPU miner crash** (out of memory): the miner saw **5** adapters for **2** physical GPUs. A maintainer confirmed it and shipped the fix. [Issue #61](https://github.com/Quantus-Network/quantus-miner/issues/61), [fix #67](https://github.com/Quantus-Network/quantus-miner/pull/67)",
-        "Built [vc.fail](https://vc.fail): audits the **top 100** RootData VCs for quantum-related holdings; **28** have one. Built [exchange.fail](https://exchange.fail): post-quantum coin volume across CoinGecko exchanges.",
-        "Worked on [q.day](https://q.day) for Quantum & Privacy Day, Tower Club Singapore, **Oct 8, 2026**. Merged **1** PR to the Quantus [chain repo](https://github.com/Quantus-Network/chain/pull/549)."
-      ]
-    },
-    {
-      "org": "Anchor Marianas",
-      "href": "https://anchormarianas.com",
-      "role": "Founder and Software Engineer",
-      "meta": "Oct 2024 to present · Remote",
-      "bullets": [
-        "Sold and delivered **client software**, including for **Hilton**. Owned each job from the **first conversation** to **production**."
+        "Found and patched a **command injection** in the mining installer: unescaped config values let a node name like $(command) run. [PR #14](https://github.com/Quantus-Network/docs/pull/14), **44** passing tests.",
+        "Helped run [q.day](https://q.day), the largest **TOKEN2049** side event; managed VIP room access for headline speakers including Balaji.",
+        "Built [vc.fail](https://vc.fail): **28** of the top **100** VCs hold a quantum-related asset. Built [exchange.fail](https://exchange.fail): **841** of **947** exchanges list no post-quantum coins."
       ]
     },
     {
       "org": "EIGN",
+      "href": "https://eign.xyz",
       "role": "Software Engineer and B2B Sales",
-      "meta": "Dec 2025 · 1-month trial · Remote",
+      "meta": "Dec 2025",
       "bullets": [
-        "Built Lightmark.app's **website diagnostic**, which shows the evidence behind each result. Ran **technical discovery**, **demos** and **outbound sales**."
+        "Sold eign.xyz to **4** B2B customers. Built the website diagnostic for lightmark.app."
       ]
     },
     {
       "org": "Guam Power Authority",
       "role": "Workflow Automation",
-      "meta": "2024 · Guam",
+      "meta": "2024",
       "bullets": [
-        "Automated a legacy **Excel workflow** from about **2 hours** per run to about **2 minutes**."
+        "Wrote a **Python** script that cut an Excel workflow from **~2 hours** to **~2 minutes** per run, used by interns."
       ]
     }
   ],
@@ -64,75 +40,58 @@
     {
       "name": "Garage Sale",
       "href": "https://grokbothackathon.vercel.app",
-      "meta": "Grok Bot agents · Oct 2026",
+      "meta": "Oct 2026",
       "links": [
-        {
-          "label": "Live",
-          "href": "https://grokbothackathon.vercel.app"
-        },
-        {
-          "label": "GitHub",
-          "href": "https://github.com/adamtpang/grokbothackathon"
-        }
+        { "label": "Live", "href": "https://grokbothackathon.vercel.app" },
+        { "label": "GitHub", "href": "https://github.com/adamtpang/grokbothackathon" }
       ],
       "bullets": [
-        "**Grok Bot agents** that scout underpriced Facebook Marketplace deals, price items against market, write the listing and draft buyer replies. A **human approves every step**. Built in **2.5 hours**, **50** commits."
+        "**Grok** agents that find Marketplace deals, price items, write listings and draft buyer replies, with **human approval** on every step. Built in **2.5 hours**."
       ]
     },
     {
       "name": "summon.company",
       "href": "https://github.com/adamtpang/summon.company",
-      "meta": "Agent reliability · 2026",
+      "meta": "2026",
       "links": [
-        {
-          "label": "GitHub",
-          "href": "https://github.com/adamtpang/summon.company"
-        },
-        {
-          "label": "Eval report",
-          "href": "https://github.com/adamtpang/summon.company/blob/master/outbound/register-truth-eval/EVAL-REPORT.md"
-        }
+        { "label": "GitHub", "href": "https://github.com/adamtpang/summon.company" },
+        { "label": "Eval report", "href": "https://github.com/adamtpang/summon.company/blob/master/outbound/register-truth-eval/EVAL-REPORT.md" }
       ],
       "bullets": [
-        "**265** commits on a Paperclip-based **AI agent company**. Built a reconciler that checks agent records against the real repo. **Eval**: **12/12** scenarios across **5** statuses, **0** false auto-closes on **2** security and payment cases."
+        "**265** commits on an **AI agent company** platform. Built a reconciler that checks agent records against the real repo: **12/12** on its eval, **0** false closes on security and payment cases."
       ]
     },
     {
       "name": "skill.supply",
       "href": "https://skill.supply",
-      "meta": "AI career agent · 2026",
+      "meta": "2026",
       "links": [
-        {
-          "label": "Live",
-          "href": "https://skill.supply"
-        },
-        {
-          "label": "GitHub",
-          "href": "https://github.com/adamtpang/skill.supply"
-        }
+        { "label": "Live", "href": "https://skill.supply" },
+        { "label": "GitHub", "href": "https://github.com/adamtpang/skill.supply" }
       ],
       "bullets": [
-        "Solo build, empty repo to **production** in under **2 weeks**, **77** commits. **Structured outputs** with Zod, streamed progress, live roles from **4** ATS APIs and **6** job aggregators."
+        "Solo **AI career agent**, empty repo to production in under **2 weeks**. Pulls live roles from **4** ATS APIs and **6** job boards."
       ]
     }
   ],
   "achievements": [
-    "Co-won the **Grok Bot Hackathon** (SpaceXAI x Galatiq), Austin, **Oct 19, 2026**, with Garage Sale.",
-    "**5,660** GitHub contributions since 2023, **5,033** in 2026, **362** pull requests. Source: [github.com/adamtpang](https://github.com/adamtpang)"
+    "Co-won the **Grok Bot Hackathon** (SpaceXAI x Galatiq), Austin, **Oct 19, 2026**.",
+    "**5,660** GitHub contributions since 2023 and **362** pull requests. [github.com/adamtpang](https://github.com/adamtpang)"
+  ],
+  "education": [
+    {
+      "org": "App Academy",
+      "href": "https://appacademy.io",
+      "role": "Full-Stack Web Development",
+      "meta": "2022 to 2023 · San Francisco",
+      "bullets": ["**<5%** admission rate."]
+    }
   ],
   "skills": [
-    {
-      "label": "Agents",
-      "text": "**Grok Bot**, Anthropic and OpenAI APIs, **tool use**, **MCP**, **structured outputs**, **evals**, human approval loops, browser automation"
-    },
-    {
-      "label": "Engineering",
-      "text": "**TypeScript**, **React**, **Next.js**, Node.js, **Python**, FastAPI, Redis, Vercel, Rust debugging, Bash, PowerShell"
-    },
-    {
-      "label": "Customer",
-      "text": "**Discovery**, **demos**, B2B sales, scoping, shipping to **production**"
-    }
+    { "label": "Languages", "text": "TypeScript, Python, JavaScript, Bash" },
+    { "label": "Frameworks", "text": "React, Next.js, Node.js, FastAPI" },
+    { "label": "AI", "text": "Grok, Anthropic and OpenAI APIs, tool use, MCP, structured outputs, evals" },
+    { "label": "Infra", "text": "Vercel, Redis, Git, Playwright" }
   ],
   "updated": "Last updated: Oct 21, 2026"
 }

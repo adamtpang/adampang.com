@@ -27,4 +27,4 @@ The app-outlink update passed production build, strict lint, contrast and token 
 - `src/app/cv/resume.json` is the single source for the /cv text version and the PDF. `**bold**` and `[label](url)` are the only markup.
 - `node scripts/build-cv-pdf.mjs` renders `public/adam-pang-resume.pdf` (and a copy at `public/cv.pdf` for old links) with headless Chrome. Keep it to one page; check with `pdfinfo` and `pdftoppm`.
 - `next.config.mjs` lets `/cv` frame same-origin documents and lets the two PDF paths be framed by this site only. Every other route keeps `frame-ancestors 'none'`.
-- Every number on the CV needs a receipt (repo, GitHub API, PR, or live site). No dashes, no degree line.
+- Every number on the CV needs a receipt (repo, GitHub API, PR, or live site). No dashes. App Academy is the only education entry.

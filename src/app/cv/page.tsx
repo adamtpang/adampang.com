@@ -4,7 +4,7 @@ import { cv, parse, pdfHref } from './content';
 import styles from './cv.module.css';
 
 const description =
-  'Adam Pang, Forward Deployed Engineer in Austin. Co-won the Grok Bot Hackathon. Ships agent systems end to end.';
+  'Adam Pang, software engineer in Austin. Quantus, EIGN, Grok Bot Hackathon co-winner, 5,660 GitHub contributions.';
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang · CV' },
@@ -74,21 +74,14 @@ export default function CvPage() {
       <article className={styles.text} aria-label="Resume text version">
         <header className={styles.header}>
           <h1 className={styles.name}>{cv.name}</h1>
-          <p className={styles.availability}>
-            {cv.headline} · {cv.location}
-          </p>
           <ul className={styles.contacts}>
             {cv.contacts.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href}>{item.label}</Link>
+              <li key={item.label}>
+                {item.href ? <Link href={item.href}>{item.label}</Link> : item.label}
               </li>
             ))}
           </ul>
         </header>
-
-        <p className={styles.summary}>
-          <Rich text={cv.summary} />
-        </p>
 
         <section className={styles.section} aria-labelledby="experience-heading">
           <h2 id="experience-heading">Experience</h2>
@@ -153,6 +146,30 @@ export default function CvPage() {
               </li>
             ))}
           </ul>
+        </section>
+
+        <section className={styles.section} aria-labelledby="education-heading">
+          <h2 id="education-heading">Education</h2>
+          <ol className={styles.entries}>
+            {cv.education.map((school) => (
+              <li key={school.org}>
+                <div className={styles.entryHead}>
+                  <h3>
+                    <Link href={school.href}>{school.org}</Link>
+                    <span className={styles.role}>{school.role}</span>
+                  </h3>
+                  <p className={styles.meta}>{school.meta}</p>
+                </div>
+                <ul className={styles.bullets}>
+                  {school.bullets.map((b) => (
+                    <li key={b}>
+                      <Rich text={b} />
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
         </section>
 
         <section className={styles.section} aria-labelledby="skills-heading">

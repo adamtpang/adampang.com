@@ -33,7 +33,7 @@ body { margin: 0; font-family: Arial, "Liberation Sans", Helvetica, sans-serif; 
 a { color: #000; text-decoration: none; }
 h1 { margin: 0; font-size: 20pt; line-height: 1.1; text-align: center; }
 .sub { margin: 3pt 0 0; text-align: center; font-size: 10pt; }
-.contacts { margin: 2pt 0 0; text-align: center; font-size: 9.5pt; }
+.contacts { margin: 4pt 0 2pt; text-align: center; font-size: 9.5pt; }
 .summary { margin: 7pt 0 0; }
 h2 { margin: 9pt 0 4pt; padding-bottom: 1.5pt; border-bottom: 0.75pt solid #000; font-size: 10.5pt; letter-spacing: 0.6pt; text-transform: uppercase; }
 .entry { margin-top: 4.5pt; break-inside: avoid; }
@@ -46,15 +46,15 @@ li { margin: 1pt 0 0; }
 .updated { margin-top: 8pt; font-size: 8.5pt; text-align: right; }
 </style></head><body>
 <h1>${esc(cv.name)}</h1>
-<p class="sub"><b>${esc(cv.headline)}</b> · ${esc(cv.location)}</p>
-<p class="contacts">${cv.contacts.map((c) => `<a href="${c.href}">${esc(c.label)}</a>`).join(' · ')}</p>
-<p class="summary">${md(cv.summary)}</p>
+<p class="contacts">${cv.contacts.map((c) => (c.href ? `<a href="${c.href}">${esc(c.label)}</a>` : esc(c.label))).join(' · ')}</p>
 <h2>Experience</h2>
 ${cv.experience.map((j) => entry(j.href ? `<a href="${j.href}">${esc(j.org)}</a>` : esc(j.org), j.role, j.meta, j.bullets)).join('')}
 <h2>Projects</h2>
 ${cv.projects.map((p) => entry(`<a href="${p.href}">${esc(p.name)}</a>`, '', p.meta, p.bullets, p.links.filter((l) => l.label === 'GitHub'))).join('')}
 <h2>Achievements</h2>
 <ul>${cv.achievements.map((a) => `<li>${md(a)}</li>`).join('')}</ul>
+<h2>Education</h2>
+${cv.education.map((e) => entry(`<a href="${e.href}">${esc(e.org)}</a>`, e.role, e.meta, e.bullets)).join('')}
 <h2>Skills</h2>
 <div class="skills">${cv.skills.map((s) => `<div><b>${esc(s.label)}:</b> ${md(s.text)}</div>`).join('')}</div>
 <p class="updated">${esc(cv.updated)}</p>
