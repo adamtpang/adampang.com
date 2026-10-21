@@ -339,9 +339,14 @@
   line-height: 1.4;
 }
 
-.pdfFallback a,
-.page .text a {
+.pdfFallback a {
   color: rgb(var(--color-accent-ink));
+}
+
+.page .text a {
+  color: rgb(var(--color-fg));
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .text {

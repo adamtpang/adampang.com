@@ -30,7 +30,7 @@ const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>
 @page { size: letter; margin: 0.45in 0.55in; }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Arial, "Liberation Sans", Helvetica, sans-serif; font-size: 10.2pt; line-height: 1.3; color: #000; }
-a { color: #000; text-decoration: none; }
+a { color: #000; text-decoration: underline; text-underline-offset: 1.5pt; text-decoration-thickness: 0.5pt; }
 h1 { margin: 0; font-size: 20pt; line-height: 1.1; text-align: center; }
 .sub { margin: 3pt 0 0; text-align: center; font-size: 10pt; }
 .contacts { margin: 4pt 0 2pt; text-align: center; font-size: 9.5pt; }

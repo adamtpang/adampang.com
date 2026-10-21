@@ -1,20 +1,36 @@
 {
   "name": "Adam Pang",
   "contacts": [
-    { "label": "Austin, TX", "href": "" },
-    { "label": "adamtpang@gmail.com", "href": "mailto:adamtpang@gmail.com" },
-    { "label": "adampang.com", "href": "https://adampang.com" },
-    { "label": "github.com/adamtpang", "href": "https://github.com/adamtpang" }
+    {
+      "label": "Austin, TX",
+      "href": ""
+    },
+    {
+      "label": "(512) 254-0011",
+      "href": "tel:+15122540011"
+    },
+    {
+      "label": "adamtpang@gmail.com",
+      "href": "mailto:adamtpang@gmail.com"
+    },
+    {
+      "label": "adampang.com",
+      "href": "https://adampang.com"
+    },
+    {
+      "label": "github.com/adamtpang",
+      "href": "https://github.com/adamtpang"
+    }
   ],
   "experience": [
     {
       "org": "Quantus",
       "href": "https://quantus.com",
       "role": "Ambassador",
-      "meta": "Jul 2026 to Oct 2026",
+      "meta": "2026",
       "bullets": [
-        "Found and patched a **command injection** in the mining installer: unescaped config values let a node name like $(command) run. [PR #14](https://github.com/Quantus-Network/docs/pull/14), **44** passing tests.",
-        "Helped run [q.day](https://q.day), the largest **TOKEN2049** side event; managed VIP room access for headline speakers including Balaji.",
+        "Found a **command injection** vulnerability in the Quantus mining installer, **confirmed** by the engineering lead; submitted a patch with **44** passing tests ([PR #14](https://github.com/Quantus-Network/docs/pull/14)).",
+        "Helped run [q.day](https://q.day), the largest **TOKEN2049** side event, with a waitlist of nearly **1,000**; managed VIP room access for headline speakers including Balaji.",
         "Built [vc.fail](https://vc.fail): **28** of the top **100** VCs hold a quantum-related asset. Built [exchange.fail](https://exchange.fail): **841** of **947** exchanges list no post-quantum coins."
       ]
     },
@@ -22,7 +38,7 @@
       "org": "EIGN",
       "href": "https://eign.xyz",
       "role": "Software Engineer and B2B Sales",
-      "meta": "Dec 2025",
+      "meta": "2025",
       "bullets": [
         "Sold eign.xyz to **4** B2B customers. Built the website diagnostic for [lightmark.app](https://lightmark.app)."
       ]
@@ -40,10 +56,16 @@
     {
       "name": "Garage Sale",
       "href": "https://grokbothackathon.vercel.app",
-      "meta": "Oct 2026",
+      "meta": "Grok Bot Hackathon winner, built solo",
       "links": [
-        { "label": "Live", "href": "https://grokbothackathon.vercel.app" },
-        { "label": "GitHub", "href": "https://github.com/adamtpang/grokbothackathon" }
+        {
+          "label": "Live",
+          "href": "https://grokbothackathon.vercel.app"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/grokbothackathon"
+        }
       ],
       "bullets": [
         "**Grok** agents that find Marketplace deals, price items, write listings and draft buyer replies, with **human approval** on every step. Built in **2.5 hours**."
@@ -52,10 +74,16 @@
     {
       "name": "summon.company",
       "href": "https://github.com/adamtpang/summon.company",
-      "meta": "2026",
+      "meta": "",
       "links": [
-        { "label": "GitHub", "href": "https://github.com/adamtpang/summon.company" },
-        { "label": "Eval report", "href": "https://github.com/adamtpang/summon.company/blob/master/outbound/register-truth-eval/EVAL-REPORT.md" }
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/summon.company"
+        },
+        {
+          "label": "Eval report",
+          "href": "https://github.com/adamtpang/summon.company/blob/master/outbound/register-truth-eval/EVAL-REPORT.md"
+        }
       ],
       "bullets": [
         "**265** commits on an **AI agent company** platform. Built a reconciler that checks agent records against the real repo: **12/12** on its eval, **0** false closes on security and payment cases."
@@ -64,10 +92,16 @@
     {
       "name": "skill.supply",
       "href": "https://skill.supply",
-      "meta": "2026",
+      "meta": "",
       "links": [
-        { "label": "Live", "href": "https://skill.supply" },
-        { "label": "GitHub", "href": "https://github.com/adamtpang/skill.supply" }
+        {
+          "label": "Live",
+          "href": "https://skill.supply"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/skill.supply"
+        }
       ],
       "bullets": [
         "Solo **AI career agent**, empty repo to production in under **2 weeks**. Pulls live roles from **4** ATS APIs and **6** job boards."
@@ -75,7 +109,7 @@
     }
   ],
   "achievements": [
-    "Co-won the **Grok Bot Hackathon** (SpaceXAI x Galatiq), Austin, Oct 19, 2026.",
+    "Won the **Grok Bot Hackathon** (SpaceXAI x Galatiq) with Garage Sale.",
     "**5,660** GitHub contributions and **362** pull requests. [github.com/adamtpang](https://github.com/adamtpang)"
   ],
   "education": [
@@ -84,14 +118,28 @@
       "href": "https://appacademy.io",
       "role": "Full-Stack Web Development",
       "meta": "2022 to 2023 · San Francisco",
-      "bullets": ["**<5%** admission rate."]
+      "bullets": [
+        "**<5%** admission rate."
+      ]
     }
   ],
   "skills": [
-    { "label": "Languages", "text": "TypeScript, Python, JavaScript, Bash" },
-    { "label": "Frameworks", "text": "React, Next.js, Node.js, FastAPI" },
-    { "label": "AI", "text": "Grok, Anthropic and OpenAI APIs, tool use, MCP, structured outputs, evals" },
-    { "label": "Infra", "text": "Vercel, Redis, Git, Playwright" }
+    {
+      "label": "Languages",
+      "text": "TypeScript, Python, JavaScript, Bash"
+    },
+    {
+      "label": "Frameworks",
+      "text": "React, Next.js, Node.js, FastAPI"
+    },
+    {
+      "label": "AI",
+      "text": "Grok, Anthropic and OpenAI APIs, tool use, MCP, structured outputs, evals"
+    },
+    {
+      "label": "Infra",
+      "text": "Vercel, Redis, Git, Playwright"
+    }
   ],
   "updated": "Last updated: Oct 21, 2026"
 }
