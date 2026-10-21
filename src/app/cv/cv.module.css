@@ -1,0 +1,317 @@
+.page {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  padding: 48px 28px 72px;
+  color: rgb(var(--color-fg));
+}
+
+.page a {
+  color: rgb(var(--color-fg));
+  text-decoration: none;
+}
+
+.page a:hover {
+  color: rgb(var(--color-accent-ink));
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 8px;
+}
+
+.toolbar a {
+  color: rgb(var(--color-accent-ink));
+  font-size: 13px;
+  font-weight: 500;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 0;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contacts a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+}
+
+.contacts li + li::before {
+  content: '·';
+  margin: 0 10px;
+  color: rgb(var(--color-faint));
+}
+
+.availability {
+  margin: 2px 0 0;
+  color: rgb(var(--color-muted));
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.summary {
+  margin: 18px 0 0;
+  max-width: 62ch;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.section {
+  margin-top: 28px;
+}
+
+.section h2 {
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgb(var(--color-line));
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: rgb(var(--color-muted));
+}
+
+.entries {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entries > li + li {
+  margin-top: 16px;
+}
+
+.entryHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px 20px;
+}
+
+.entryHead h3 {
+  margin: 0;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.role {
+  font-weight: 400;
+  color: rgb(var(--color-muted));
+}
+
+.role::before {
+  content: '·';
+  margin: 0 8px;
+  color: rgb(var(--color-faint));
+}
+
+.meta {
+  margin: 0;
+  flex: 0 0 auto;
+  color: rgb(var(--color-muted));
+  font-size: 13px;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.body {
+  margin: 4px 0 0;
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 4px;
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  color: rgb(var(--color-accent-ink));
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.links li + li::before {
+  content: '·';
+  margin-right: 8px;
+  color: rgb(var(--color-faint));
+}
+
+.skills {
+  margin: 0;
+}
+
+.skills div + div {
+  margin-top: 8px;
+}
+
+.skills dt {
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.skills dd {
+  margin: 1px 0 0;
+  color: rgb(var(--color-fg));
+  font-size: 14.5px;
+  line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 28px 20px 56px;
+  }
+
+  .name {
+    font-size: 34px;
+  }
+
+  .entryHead {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .meta {
+    text-align: left;
+  }
+
+  .summary {
+    font-size: 16px;
+  }
+}
+
+@media print {
+  .page {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .name {
+    font-size: 22pt;
+  }
+
+  .contacts a,
+  .links a {
+    min-height: 0;
+    color: rgb(var(--color-fg));
+  }
+
+  .contacts a {
+    font-size: 10pt;
+  }
+
+  .availability,
+  .meta,
+  .role {
+    font-size: 10pt;
+  }
+
+  .summary {
+    margin-top: 10pt;
+    font-size: 11pt;
+    line-height: 1.35;
+  }
+
+  .section {
+    margin-top: 9pt;
+  }
+
+  .section h2 {
+    margin-bottom: 5pt;
+    padding-bottom: 3pt;
+    font-size: 9pt;
+  }
+
+  .entries > li + li {
+    margin-top: 6pt;
+  }
+
+  .entryHead h3,
+  .body,
+  .skills dt,
+  .skills dd {
+    font-size: 10.5pt;
+  }
+
+  .body,
+  .skills dd {
+    line-height: 1.35;
+  }
+
+  .links a {
+    font-size: 10pt;
+  }
+
+  .skills div {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 12pt;
+    align-items: baseline;
+  }
+
+  .skills dt {
+    white-space: nowrap;
+  }
+
+  .skills div + div {
+    margin-top: 1pt;
+  }
+
+  .skills dd {
+    margin: 0;
+  }
+
+  .entries > li,
+  .skills div {
+    break-inside: avoid;
+  }
+
+  .page a {
+    text-decoration: none;
+  }
+}
+
+@page {
+  size: letter;
+  margin: 0.48in 0.58in;
+}
