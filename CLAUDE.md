@@ -21,3 +21,10 @@ Run `pnpm verify` and inspect the local browser at laptop and mobile sizes. Test
 Ship through a branch and pull request. Resolve `adampang.com` directly after the merge to verify that it serves the release SHA. The last verified baseline was `ea1691abe8e240abc821c8a3d0a89783d68b01f7`; deployment history alone is not proof of the active domain.
 
 The app-outlink update passed production build, strict lint, contrast and token checks. `scripts/check-home.py` passed desktop sizes 1440x900, 1366x768, 1024x768 and 1280x600, tablet widths 768 and 601, mobile widths 390 and 320, brand-logo links, Pangaea removal, immediate Spotify visibility, keyboard entry without focus stealing, provider outlink fallback and JavaScript-disabled content access. Screenshots were visually reviewed. Audible output was not reviewed in the muted agent browser.
+
+## /cv (v2, October 21, 2026)
+
+- `src/app/cv/resume.json` is the single source for the /cv text version and the PDF. `**bold**` and `[label](url)` are the only markup.
+- `node scripts/build-cv-pdf.mjs` renders `public/adam-pang-resume.pdf` (and a copy at `public/cv.pdf` for old links) with headless Chrome. Keep it to one page; check with `pdfinfo` and `pdftoppm`.
+- `next.config.mjs` lets `/cv` frame same-origin documents and lets the two PDF paths be framed by this site only. Every other route keeps `frame-ancestors 'none'`.
+- Every number on the CV needs a receipt (repo, GitHub API, PR, or live site). No dashes, no degree line.

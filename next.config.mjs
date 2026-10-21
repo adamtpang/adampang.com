@@ -27,6 +27,18 @@ const contentSecurityPolicy = [
   "worker-src 'self' blob:",
 ].join('; ');
 
+/** /cv embeds its own PDF, so it may frame same-origin documents. */
+const cvContentSecurityPolicy = contentSecurityPolicy.replace(
+  'frame-src https://open.spotify.com',
+  "frame-src 'self' https://open.spotify.com",
+);
+
+/** The resume PDF may be framed by this site only (the /cv embed). */
+const pdfHeaders = [
+  { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+  { key: 'Content-Security-Policy', value: "frame-ancestors 'self'" },
+];
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -48,6 +60,10 @@ const nextConfig = {
           },
         ],
       },
+      // Later matches override the same header keys set above.
+      { source: '/cv', headers: [{ key: 'Content-Security-Policy', value: cvContentSecurityPolicy }] },
+      { source: '/adam-pang-resume.pdf', headers: pdfHeaders },
+      { source: '/cv.pdf', headers: pdfHeaders },
     ];
   },
 };

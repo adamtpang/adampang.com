@@ -26,7 +26,7 @@ export default function Image() {
         <div style={{ fontSize: 28, letterSpacing: 3, color: muted.light }}>CV</div>
         <div style={{ fontSize: 92, marginTop: 16, lineHeight: 1 }}>Adam Pang</div>
         <div style={{ fontSize: 34, marginTop: 28, maxWidth: 920, lineHeight: 1.35, color: muted.light }}>
-          Builds full-stack products and AI agents.
+          Forward Deployed Engineer. Ships agent systems end to end.
         </div>
       </div>
     ),
