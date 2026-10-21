@@ -5,7 +5,7 @@ export type TextLink = {
 };
 
 export const summary =
-  'Ships full-stack products and AI agents fast, then stays with the customer from discovery through handoff.';
+  'I build full-stack products and AI agents, and I do the customer work too. 2 to 3 years.';
 
 export const availability = 'Austin area · US work authorized · Available to start immediately';
 
@@ -27,7 +27,7 @@ export const projects: {
     name: 'Garage Sale',
     href: 'https://grokbothackathon.vercel.app',
     meta: 'AI agent · Oct 2026',
-    text: 'Built an agent that finds underpriced Facebook Marketplace listings, prices them against resale comps, and helps list and flip them. Co-won the Grok Bot Hackathon in Austin with team 9b on Oct 19, 2026. Attendees said they would pay $20 a month.',
+    text: 'Built an agent that finds underpriced Facebook Marketplace listings, prices them against what similar items sold for, and helps list and flip them. Co-won the Grok Bot Hackathon in Austin with team 9b on Oct 19, 2026. Attendees said they would pay $20 a month.',
     links: [
       { label: 'Live', href: 'https://grokbothackathon.vercel.app', external: true },
       { label: 'GitHub', href: 'https://github.com/adamtpang/grokbothackathon', external: true },
@@ -37,7 +37,7 @@ export const projects: {
     name: 'skill.supply',
     href: 'https://skill.supply',
     meta: 'Full-stack agent · 2026',
-    text: 'Built and deployed a Next.js 16 career agent from an empty repository in under two weeks, with structured Anthropic outputs, Zod validation, streamed state, and live inventory from 4 ATS APIs plus 6 aggregators.',
+    text: 'Built and deployed a Next.js 16 career agent from an empty repo in under two weeks. Structured Anthropic outputs, Zod validation, streamed state, and live roles from 4 ATS APIs plus 6 aggregators.',
     links: [
       { label: 'Live', href: 'https://skill.supply', external: true },
       { label: 'GitHub', href: 'https://github.com/adamtpang/skill.supply', external: true },
@@ -47,7 +47,7 @@ export const projects: {
     name: 'summon.company',
     href: 'https://github.com/adamtpang/summon.company',
     meta: 'Agent reliability',
-    text: 'Contributed 155 personal commits to a Paperclip-derived agent-company system, including an auditable register-truth reconciler and end-to-end evaluation. The real pipeline classified 12/12 known scenarios across 5 statuses, with 0 false auto-closes in 2 security or payment cases.',
+    text: '155 personal commits on a Paperclip-derived agent-company system. Built a register-truth reconciler you can audit, and an evaluation of the real pipeline. It classified 12/12 known scenarios across 5 statuses, with 0 false auto-closes in 2 security or payment cases.',
     links: [
       { label: 'GitHub', href: 'https://github.com/adamtpang/summon.company', external: true },
       {
@@ -69,13 +69,13 @@ export const experience: {
     org: 'Anchor Marianas',
     role: 'Founder and Software Engineer',
     meta: 'Oct 2024 to present · Remote',
-    text: 'Sold and delivered software directly to clients, including Hilton, owning the work from discovery through implementation and production handoff.',
+    text: 'Sold and delivered software to clients, including Hilton. Took the work from the first conversation through the build and into production.',
   },
   {
     org: 'EIGN',
     role: 'Software Engineer and B2B Sales',
     meta: 'One-month trial, ended Dec 2025 · Remote',
-    text: "Built Lightmark.app's evidence-backed website diagnostic and worked across engineering, technical discovery, product demos, and outbound sales.",
+    text: "Built Lightmark.app's website diagnostic. It shows the evidence behind the result. Also did the engineering, technical discovery, product demos, and outbound sales.",
   },
   {
     org: 'Guam Power Authority',

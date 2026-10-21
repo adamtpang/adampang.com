@@ -4,7 +4,7 @@ import { availability, contacts, experience, projects, skills, summary } from '.
 import styles from './cv.module.css';
 
 const description =
-  'Adam Pang ships full-stack products and AI agents, then stays with the customer through delivery. Austin area. Available to start immediately.';
+  'Adam Pang builds full-stack products and AI agents, and does the customer work too. Austin area. Available to start immediately.';
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang · CV' },
