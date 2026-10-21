@@ -24,7 +24,7 @@
       "role": "Software Engineer and B2B Sales",
       "meta": "Dec 2025",
       "bullets": [
-        "Sold eign.xyz to **4** B2B customers. Built the website diagnostic for lightmark.app."
+        "Sold eign.xyz to **4** B2B customers. Built the website diagnostic for [lightmark.app](https://lightmark.app)."
       ]
     },
     {
@@ -32,7 +32,7 @@
       "role": "Workflow Automation",
       "meta": "2024",
       "bullets": [
-        "Wrote a **Python** script that cut an Excel workflow from **~2 hours** to **~2 minutes** per run, used by interns."
+        "Wrote a **Python** script, used by interns, that cut an Excel workflow from **~2 hours** to **~2 minutes** per run."
       ]
     }
   ],
@@ -75,7 +75,7 @@
     }
   ],
   "achievements": [
-    "Co-won the **Grok Bot Hackathon** (SpaceXAI x Galatiq), Austin, **Oct 19, 2026**.",
+    "Co-won the **Grok Bot Hackathon** (SpaceXAI x Galatiq), Austin, Oct 19, 2026.",
     "**5,660** GitHub contributions since 2023 and **362** pull requests. [github.com/adamtpang](https://github.com/adamtpang)"
   ],
   "education": [
