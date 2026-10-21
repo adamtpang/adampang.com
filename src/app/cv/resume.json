@@ -72,39 +72,49 @@
       ]
     },
     {
-      "name": "summon.company",
-      "href": "https://github.com/adamtpang/summon.company",
-      "meta": "",
-      "links": [
-        {
-          "label": "GitHub",
-          "href": "https://github.com/adamtpang/summon.company"
-        },
-        {
-          "label": "Eval report",
-          "href": "https://github.com/adamtpang/summon.company/blob/master/outbound/register-truth-eval/EVAL-REPORT.md"
-        }
-      ],
-      "bullets": [
-        "**265** commits on an **AI agent company** platform. Built a reconciler that checks agent records against the real repo: **12/12** on its eval, **0** false closes on security and payment cases."
-      ]
-    },
-    {
-      "name": "skill.supply",
-      "href": "https://skill.supply",
+      "name": "shapeable.art",
+      "href": "https://shapeable.art",
       "meta": "",
       "links": [
         {
           "label": "Live",
-          "href": "https://skill.supply"
-        },
-        {
-          "label": "GitHub",
-          "href": "https://github.com/adamtpang/skill.supply"
+          "href": "https://shapeable.art"
         }
       ],
       "bullets": [
-        "Solo **AI career agent**, empty repo to production in under **2 weeks**. Pulls live roles from **4** ATS APIs and **6** job boards."
+        "Paste any site, get a **design and UX audit**: renders it at **2** viewports and scores **21** measured checks. Public API for agents."
+      ]
+    },
+    {
+      "name": "worldcupelo.com",
+      "href": "https://worldcupelo.com",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://worldcupelo.com"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/worldcupelo.com"
+        }
+      ],
+      "bullets": [
+        "Live **Elo ratings** for **98** national teams across all **104** World Cup matches, with **Polymarket** odds."
+      ]
+    },
+    {
+      "name": "bookbox.ink",
+      "href": "https://bookbox.ink",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://bookbox.ink"
+        }
+      ],
+      "bullets": [
+        "Type a book, get the best legal copy: searches **4** open sources and ranks access from free to purchase. JSON API for agents."
       ]
     }
   ],

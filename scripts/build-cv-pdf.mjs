@@ -50,7 +50,7 @@ li { margin: 1pt 0 0; }
 <h2>Experience</h2>
 ${cv.experience.map((j) => entry(j.href ? `<a href="${j.href}">${esc(j.org)}</a>` : esc(j.org), j.role, j.meta, j.bullets)).join('')}
 <h2>Projects</h2>
-${cv.projects.map((p) => entry(`<a href="${p.href}">${esc(p.name)}</a>`, '', p.meta, p.bullets, p.links.filter((l) => l.label === 'GitHub'))).join('')}
+${cv.projects.map((p) => entry(`<a href="${p.href}">${esc(p.name)}</a>`, '', p.meta, p.bullets, [])).join('')}
 <h2>Achievements</h2>
 <ul>${cv.achievements.map((a) => `<li>${md(a)}</li>`).join('')}</ul>
 <h2>Education</h2>
