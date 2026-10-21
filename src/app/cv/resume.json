@@ -72,49 +72,39 @@
       ]
     },
     {
-      "name": "shapeable.art",
-      "href": "https://shapeable.art",
+      "name": "summon.guide",
+      "href": "https://summon.guide",
       "meta": "",
       "links": [
         {
           "label": "Live",
-          "href": "https://shapeable.art"
-        }
-      ],
-      "bullets": [
-        "Paste any site, get a **design and UX audit**: renders it at **2** viewports and scores **21** measured checks. Public API for agents."
-      ]
-    },
-    {
-      "name": "worldcupelo.com",
-      "href": "https://worldcupelo.com",
-      "meta": "",
-      "links": [
-        {
-          "label": "Live",
-          "href": "https://worldcupelo.com"
+          "href": "https://summon.guide"
         },
         {
           "label": "GitHub",
-          "href": "https://github.com/adamtpang/worldcupelo.com"
+          "href": "https://github.com/adamtpang/summon.guide"
         }
       ],
       "bullets": [
-        "Live **Elo ratings** for **98** national teams across all **104** World Cup matches, with **Polymarket** odds."
+        "Chat with **58** AI mentors from history, with cited sources, side-by-side compare and a council mode."
       ]
     },
     {
-      "name": "bookbox.ink",
-      "href": "https://bookbox.ink",
+      "name": "youchop.app",
+      "href": "https://youchop.app",
       "meta": "",
       "links": [
         {
           "label": "Live",
-          "href": "https://bookbox.ink"
+          "href": "https://youchop.app/chop"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/youchop.app"
         }
       ],
       "bullets": [
-        "Type a book, get the best legal copy: searches **4** open sources and ranks access from free to purchase. JSON API for agents."
+        "Paste a YouTube link, get timestamped chapters ready for the description. **66** commits, built solo."
       ]
     }
   ],
