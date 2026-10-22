@@ -29,7 +29,7 @@
       "role": "Ambassador",
       "meta": "2026",
       "bullets": [
-        "Found a **command injection** vulnerability in the Quantus mining installer, **confirmed** by the engineering lead; submitted a patch with **44** passing tests ([PR #14](https://github.com/Quantus-Network/docs/pull/14)).",
+        "Found a **command injection** vulnerability in the Quantus mining installer, confirmed by the engineering lead; wrote the patch ([PR #14](https://github.com/Quantus-Network/docs/pull/14), **44** tests). Merged a Windows mining docs PR to the chain repo ([#549](https://github.com/Quantus-Network/chain/pull/549)).",
         "Helped run [q.day](https://q.day), the largest **TOKEN2049** side event, with a waitlist of nearly **1,000**; managed VIP room access for headline speakers including Balaji.",
         "Built [vc.fail](https://vc.fail): **28** of the top **100** VCs hold a quantum-related asset. Built [exchange.fail](https://exchange.fail): **841** of **947** exchanges list no post-quantum coins."
       ]
