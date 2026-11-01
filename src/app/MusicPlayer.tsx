@@ -9,7 +9,7 @@ export default function MusicPlayer() {
   return (
     <section className={styles.music} aria-label="Music">
       <div className={styles.musicHeading}>
-        <span>On repeat</span>
+        <span>On repeat</span>{' '}
         <a href={SPOTIFY_URL} target="_blank" rel="noopener noreferrer">
           <FaSpotify size={14} aria-hidden focusable="false" /> Spotify <ArrowUpRight size={12} aria-hidden />
         </a>

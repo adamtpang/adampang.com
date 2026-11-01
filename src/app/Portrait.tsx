@@ -20,7 +20,8 @@ export default function Portrait() {
             <Image
               src="/profile.png"
               alt="Adam Pang smiling on a flight of outdoor steps"
-              fill
+              width={851}
+              height={1280}
               priority
               sizes="(max-width: 600px) 190px, (max-width: 800px) 185px, 225px"
             />
@@ -29,7 +30,8 @@ export default function Portrait() {
             className={styles.frameOrnament}
             src="/gold-frame.png"
             alt=""
-            fill
+            width={1086}
+            height={1448}
             priority
             sizes="(max-width: 600px) 296px, (max-width: 800px) 290px, 350px"
           />
