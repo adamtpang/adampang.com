@@ -1,6 +1,6 @@
 # Adam Pang
 
-> Personal website of Adam Pang, a software engineer in Austin, TX. The homepage links to his public profiles, his Spotify playlist and ways to contact him. The CV lists his work and projects.
+> Personal website of Adam Pang, a software engineer in New Braunfels, TX (moving to Austin). The homepage links to his public profiles, his Spotify playlist and ways to contact him. The CV lists his work and projects.
 
 ## Pages
 

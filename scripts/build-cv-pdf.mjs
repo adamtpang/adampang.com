@@ -22,7 +22,7 @@ const entry = (title, role, meta, bullets, links = []) => `
     <div class="head"><span><b>${title}</b>${role ? ` · ${esc(role)}` : ''}${
       links.length ? ` · ${links.map((l) => `<a href="${l.href}">${esc(host(l.href))}</a>`).join(' · ')}` : ''
     }</span><span class="meta">${esc(meta)}</span></div>
-    <ul>${bullets.map((b) => `<li>${md(b)}</li>`).join('')}</ul>
+    ${bullets.length ? `<ul>${bullets.map((b) => `<li>${md(b)}</li>`).join('')}</ul>` : ''}
   </div>`;
 
 const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Adam Pang, Resume</title>

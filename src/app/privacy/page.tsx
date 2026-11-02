@@ -66,7 +66,7 @@ export default function Privacy() {
       <h2>Fonts and links</h2>
       <p>
         Fonts are served from this site, not from a third-party font service. Links to Instagram,
-        YouTube, X, SoundCloud, GitHub, LinkedIn, WhatsApp and Cal.com take you to those services,
+        YouTube, X, SoundCloud, GitHub, LinkedIn and Cal.com take you to those services,
         whose own privacy policies apply once you leave adampang.com.
       </p>
 

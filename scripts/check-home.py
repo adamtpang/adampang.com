@@ -35,7 +35,7 @@ assert js('document.querySelector("iframe").src').startswith('https://open.spoti
 assert not js('document.body.innerText.includes("from Guam")')
 assert not js('document.body.innerText.includes("Play music")')
 assert not js('document.querySelector("a[href*=\\"pangaea.blog\\"]")')
-assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 8
+assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 7
 assert js('[...document.querySelectorAll("nav[aria-label=Elsewhere] a")].every(a => a.querySelector("svg") && a.target === "_blank" && a.rel.includes("noopener"))')
 assert js('document.querySelector("link[rel=icon]").href').endswith('favicon.svg?v=yin-yang-2')
 assert js('[...document.querySelectorAll("figure img")].some(i => i.src.includes("gold-frame.png"))')
@@ -57,7 +57,7 @@ for width, height in [(1440, 900), (1366, 768), (1024, 768), (1280, 600), (768, 
 cdp('Emulation.setDeviceMetricsOverride', width=1366, height=768, deviceScaleFactor=1, mobile=False)
 cdp('Emulation.setEmulatedMedia', features=[{'name': 'prefers-reduced-motion', 'value': 'reduce'}])
 assert js('document.querySelector("figure").getBoundingClientRect().width') > 200
-assert js('''document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"], a[href*="wa.me/"]').length''') == 3
+assert js('''document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"], a[href*="wa.me/"]').length''') == 2
 
 cdp('Input.dispatchKeyEvent', type='keyDown', key='Tab', code='Tab', windowsVirtualKeyCode=9)
 cdp('Input.dispatchKeyEvent', type='keyUp', key='Tab', code='Tab', windowsVirtualKeyCode=9)
