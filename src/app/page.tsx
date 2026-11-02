@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Fragment } from 'react';
 import { ArrowUpRight, Mail, Phone } from 'lucide-react';
-import { FaGithub, FaInstagram, FaLinkedinIn, FaSoundcloud, FaWhatsapp, FaXTwitter, FaYoutube } from 'react-icons/fa6';
+import { FaGithub, FaInstagram, FaLinkedinIn, FaSoundcloud, FaXTwitter, FaYoutube } from 'react-icons/fa6';
 import { SiCaldotcom } from 'react-icons/si';
 import Portrait from './Portrait';
 import MusicPlayer from './MusicPlayer';
@@ -55,7 +55,7 @@ const jsonLd = {
       url: 'https://adampang.com/',
       image: 'https://adampang.com/profile.png',
       jobTitle: 'Software Engineer',
-      address: { '@type': 'PostalAddress', addressLocality: 'Austin', addressRegion: 'TX', addressCountry: 'US' },
+      address: { '@type': 'PostalAddress', addressLocality: 'New Braunfels', addressRegion: 'TX', addressCountry: 'US' },
       alumniOf: { '@type': 'EducationalOrganization', name: 'App Academy', url: 'https://appacademy.io' },
       sameAs: profiles.slice(0, 6),
     },
@@ -69,7 +69,6 @@ const outlinks = [
   { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang', Icon: FaSoundcloud },
   { label: 'GitHub', href: 'https://github.com/adamtpang', Icon: FaGithub },
   { label: 'LinkedIn', href: 'https://linkedin.com/in/adamtpang', Icon: FaLinkedinIn },
-  { label: 'WhatsApp', href: 'https://wa.me/60197981734', Icon: FaWhatsapp },
   { label: 'Book a call', href: 'https://cal.com/adamtpang', Icon: SiCaldotcom },
 ];
 

@@ -4,7 +4,7 @@ import { cv, parse, pdfHref } from './content';
 import styles from './cv.module.css';
 
 const description =
-  'Adam Pang, software engineer in Austin. Quantus, EIGN, Grok Bot Hackathon co-winner, 5,660 GitHub contributions.';
+  'Adam Pang, software engineer. New Braunfels, TX (moving to Austin). Quantus, EIGN, Grok Bot Hackathon winner.';
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang · CV' },
@@ -91,17 +91,19 @@ export default function CvPage() {
                 <div className={styles.entryHead}>
                   <h3>
                     {'href' in job && job.href ? <Link href={job.href}>{job.org}</Link> : job.org}
-                    <span className={styles.role}>{job.role}</span>
+                    {job.role ? <span className={styles.role}>{job.role}</span> : null}
                   </h3>
                   <p className={styles.meta}>{job.meta}</p>
                 </div>
-                <ul className={styles.bullets}>
-                  {job.bullets.map((b) => (
-                    <li key={b}>
-                      <Rich text={b} />
-                    </li>
-                  ))}
-                </ul>
+                {job.bullets.length > 0 ? (
+                  <ul className={styles.bullets}>
+                    {job.bullets.map((b) => (
+                      <li key={b}>
+                        <Rich text={b} />
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
               </li>
             ))}
           </ol>
@@ -156,17 +158,19 @@ export default function CvPage() {
                 <div className={styles.entryHead}>
                   <h3>
                     <Link href={school.href}>{school.org}</Link>
-                    <span className={styles.role}>{school.role}</span>
+                    {school.role ? <span className={styles.role}>{school.role}</span> : null}
                   </h3>
                   <p className={styles.meta}>{school.meta}</p>
                 </div>
-                <ul className={styles.bullets}>
-                  {school.bullets.map((b) => (
-                    <li key={b}>
-                      <Rich text={b} />
-                    </li>
-                  ))}
-                </ul>
+                {school.bullets.length > 0 ? (
+                  <ul className={styles.bullets}>
+                    {school.bullets.map((b) => (
+                      <li key={b}>
+                        <Rich text={b} />
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
               </li>
             ))}
           </ol>

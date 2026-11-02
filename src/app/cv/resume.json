@@ -2,7 +2,7 @@
   "name": "Adam Pang",
   "contacts": [
     {
-      "label": "Austin, TX",
+      "label": "New Braunfels, TX (moving to Austin)",
       "href": ""
     },
     {
@@ -27,36 +27,40 @@
       "org": "Quantus",
       "href": "https://quantus.com",
       "role": "Ambassador",
-      "meta": "2026",
+      "meta": "Jul 2026 to present",
       "bullets": [
-        "Found a **command injection** vulnerability in the Quantus mining installer, confirmed by the engineering lead; wrote the patch ([PR #14](https://github.com/Quantus-Network/docs/pull/14), **44** tests). Merged a Windows mining docs PR to the chain repo ([#549](https://github.com/Quantus-Network/chain/pull/549)).",
-        "Helped run [q.day](https://q.day), the largest **TOKEN2049** side event, with a waitlist of nearly **1,000**; managed VIP room access for headline speakers including Balaji.",
         "Built [vc.fail](https://vc.fail): **28** of the top **100** VCs hold a quantum-related asset. Built [exchange.fail](https://exchange.fail): **841** of **947** exchanges list no post-quantum coins."
       ]
     },
     {
       "org": "EIGN",
       "href": "https://eign.xyz",
-      "role": "Software Engineer and B2B Sales",
-      "meta": "2025",
+      "role": "",
+      "meta": "Dec 2025 to Jan 2026",
       "bullets": [
-        "Sold eign.xyz to **4** B2B customers. Built the website diagnostic for [lightmark.app](https://lightmark.app)."
+        "B2B outreach and AI SEO internal tools."
       ]
     },
     {
       "org": "Guam Power Authority",
-      "role": "Workflow Automation",
-      "meta": "2024",
+      "role": "Intern",
+      "meta": "Summer 2024",
       "bullets": [
         "Wrote a **Python** script, used by interns, that cut an Excel workflow from **~2 hours** to **~2 minutes** per run."
       ]
+    },
+    {
+      "org": "International Distributors",
+      "role": "Sales Associate",
+      "meta": "Oct 2020 to Apr 2021",
+      "bullets": []
     }
   ],
   "projects": [
     {
       "name": "Garage Sale",
       "href": "https://grokbothackathon.vercel.app",
-      "meta": "Grok Bot Hackathon winner, built solo",
+      "meta": "",
       "links": [
         {
           "label": "Live",
@@ -106,21 +110,47 @@
       "bullets": [
         "Paste a YouTube link, get timestamped chapters ready for the description. **66** commits, built solo."
       ]
+    },
+    {
+      "name": "megawatt.fun",
+      "href": "https://megawatt.fun",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://megawatt.fun"
+        }
+      ],
+      "bullets": [
+        "A page on the Kardashev scale with a small battery game."
+      ]
+    },
+    {
+      "name": "senrajobs.com",
+      "href": "https://senrajobs.com",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://senrajobs.com"
+        }
+      ],
+      "bullets": [
+        "Jobs at David Senra's guests' companies."
+      ]
     }
   ],
   "achievements": [
-    "Won the **Grok Bot Hackathon** (SpaceXAI x Galatiq) with Garage Sale.",
+    "Grok Bot Hackathon, Winner (solo), Austin, Oct 2026.",
     "**5,660** GitHub contributions and **362** pull requests. [github.com/adamtpang](https://github.com/adamtpang)"
   ],
   "education": [
     {
       "org": "App Academy",
       "href": "https://appacademy.io",
-      "role": "Full-Stack Web Development",
-      "meta": "2022 to 2023 · San Francisco",
-      "bullets": [
-        "**<5%** admission rate."
-      ]
+      "role": "Certificate",
+      "meta": "2023",
+      "bullets": []
     }
   ],
   "skills": [
@@ -141,5 +171,5 @@
       "text": "Vercel, Redis, Git, Playwright"
     }
   ],
-  "updated": "Last updated: Oct 21, 2026"
+  "updated": "Last updated: Nov 2, 2026"
 }
