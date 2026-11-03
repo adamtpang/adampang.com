@@ -1,5 +1,6 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 import { FlatCompat } from '@eslint/eslintrc';
 
 /**
@@ -20,9 +21,10 @@ import { FlatCompat } from '@eslint/eslintrc';
  */
 const compat = new FlatCompat({
   baseDirectory: dirname(fileURLToPath(import.meta.url)),
+  resolvePluginsRelativeTo: dirname(createRequire(import.meta.url).resolve('eslint-config-next/package.json')),
 });
 
-export default [
+const config = [
   {
     ignores: [
       '.next/**',
@@ -35,3 +37,5 @@ export default [
   },
   ...compat.extends('next/core-web-vitals'),
 ];
+
+export default config;

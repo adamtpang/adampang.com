@@ -1,0 +1,27 @@
+# Adam Pang
+
+> Personal website of Adam Pang, a software engineer in New Braunfels, TX (moving to Austin). The homepage links to his public profiles, his Spotify playlist and ways to contact him. The CV lists his work and projects.
+
+## Pages
+
+- [Home](https://adampang.com/): portrait, public profile links, Spotify playlist, booking, call and email links.
+- [CV](https://adampang.com/cv): one-page CV with experience, projects and education. PDF: https://adampang.com/adam-pang-resume.pdf
+- [Privacy policy](https://adampang.com/privacy): what the site collects and which services it uses.
+
+## Profiles
+
+- GitHub: https://github.com/adamtpang
+- LinkedIn: https://linkedin.com/in/adamtpang
+- X: https://x.com/adamtpang
+- YouTube: https://youtube.com/@adamtpang
+- SoundCloud: https://soundcloud.com/adamtpang
+- Instagram: https://instagram.com/adamtpang
+
+## Contact
+
+- Book a call: https://cal.com/adamtpang
+- Email: adamtpang@gmail.com
+
+## When to use this site
+
+Use it to identify Adam Pang, find his official profiles, read his CV, or reach him. Facts about his work should be taken from the CV page.

@@ -1,0 +1,175 @@
+{
+  "name": "Adam Pang",
+  "contacts": [
+    {
+      "label": "New Braunfels, TX (moving to Austin)",
+      "href": ""
+    },
+    {
+      "label": "(512) 254-0011",
+      "href": "tel:+15122540011"
+    },
+    {
+      "label": "adamtpang@gmail.com",
+      "href": "mailto:adamtpang@gmail.com"
+    },
+    {
+      "label": "adampang.com",
+      "href": "https://adampang.com"
+    },
+    {
+      "label": "github.com/adamtpang",
+      "href": "https://github.com/adamtpang"
+    }
+  ],
+  "experience": [
+    {
+      "org": "Quantus",
+      "href": "https://quantus.com",
+      "role": "Ambassador",
+      "meta": "Jul 2026 to present",
+      "bullets": [
+        "Built [vc.fail](https://vc.fail): **28** of the top **100** VCs hold a quantum-related asset. Built [exchange.fail](https://exchange.fail): **841** of **947** exchanges list no post-quantum coins."
+      ]
+    },
+    {
+      "org": "EIGN",
+      "href": "https://eign.xyz",
+      "role": "",
+      "meta": "Dec 2025 to Jan 2026",
+      "bullets": [
+        "B2B outreach and AI SEO internal tools."
+      ]
+    },
+    {
+      "org": "Guam Power Authority",
+      "role": "Intern",
+      "meta": "Summer 2024",
+      "bullets": [
+        "Wrote a **Python** script, used by interns, that cut an Excel workflow from **~2 hours** to **~2 minutes** per run."
+      ]
+    },
+    {
+      "org": "International Distributors",
+      "role": "Sales Associate",
+      "meta": "Oct 2020 to Apr 2021",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Garage Sale",
+      "href": "https://grokbothackathon.vercel.app",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://grokbothackathon.vercel.app"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/grokbothackathon"
+        }
+      ],
+      "bullets": [
+        "**Grok** agents that find Marketplace deals, price items, write listings and draft buyer replies, with **human approval** on every step. Built in **2.5 hours**."
+      ]
+    },
+    {
+      "name": "summon.guide",
+      "href": "https://summon.guide",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://summon.guide"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/summon.guide"
+        }
+      ],
+      "bullets": [
+        "Chat with **58** AI mentors from history, with cited sources, side-by-side compare and a council mode."
+      ]
+    },
+    {
+      "name": "youchop.app",
+      "href": "https://youchop.app",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://youchop.app/chop"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/adamtpang/youchop.app"
+        }
+      ],
+      "bullets": [
+        "Paste a YouTube link, get timestamped chapters ready for the description. **66** commits, built solo."
+      ]
+    },
+    {
+      "name": "megawatt.fun",
+      "href": "https://megawatt.fun",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://megawatt.fun"
+        }
+      ],
+      "bullets": [
+        "A page on the Kardashev scale with a small battery game."
+      ]
+    },
+    {
+      "name": "senrajobs.com",
+      "href": "https://senrajobs.com",
+      "meta": "",
+      "links": [
+        {
+          "label": "Live",
+          "href": "https://senrajobs.com"
+        }
+      ],
+      "bullets": [
+        "Jobs at David Senra's guests' companies."
+      ]
+    }
+  ],
+  "achievements": [
+    "Grok Bot Hackathon, Winner (solo), Austin, Oct 2026.",
+    "**5,660** GitHub contributions and **362** pull requests. [github.com/adamtpang](https://github.com/adamtpang)"
+  ],
+  "education": [
+    {
+      "org": "App Academy",
+      "href": "https://appacademy.io",
+      "role": "Certificate",
+      "meta": "2023",
+      "bullets": []
+    }
+  ],
+  "skills": [
+    {
+      "label": "Languages",
+      "text": "TypeScript, Python, JavaScript, Bash"
+    },
+    {
+      "label": "Frameworks",
+      "text": "React, Next.js, Node.js, FastAPI"
+    },
+    {
+      "label": "AI",
+      "text": "Grok, Anthropic and OpenAI APIs, tool use, MCP, structured outputs, evals"
+    },
+    {
+      "label": "Infra",
+      "text": "Vercel, Redis, Git, Playwright"
+    }
+  ],
+  "updated": "Last updated: Nov 2, 2026"
+}

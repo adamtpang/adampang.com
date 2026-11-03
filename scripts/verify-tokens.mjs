@@ -15,6 +15,7 @@
  */
 
 import fs from 'node:fs';
+import { join } from 'node:path';
 
 const BUILT = '.next/server/app';
 const read = (p) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null);
@@ -126,6 +127,66 @@ if (!generatesAll) {
   fail('tailwind.config.ts no longer derives colors from the token tree');
 } else {
   ok('tailwind.config.ts derives every color utility from tokens.json');
+}
+
+/* ---------- 6. letter spacing stays on zero-valued tokens ---------- */
+
+// DESIGN.md: letter spacing is zero across the shared system. Arbitrary
+// values (tracking-[0.2em]) and Tailwind's own defaults (tracking-tight,
+// tracking-wide, ...) bypass tokens.json, so only token names are allowed.
+const trackingTokens = Object.keys(tokens.type?.tracking ?? {});
+const nonZero = trackingTokens.filter((k) => tokens.type.tracking[k].value !== '0');
+if (nonZero.length) fail(`tracking tokens must be 0, found: ${nonZero.join(', ')}`);
+// Every token must also be mapped in tailwind.config.ts. An unmapped name
+// (say tracking-wide) silently falls back to Tailwind's non-zero default.
+const lsBlock = (twConfig.match(/letterSpacing:\s*\{([\s\S]*?)\}/) ?? [])[1] ?? '';
+const unmapped = trackingTokens.filter((k) => !new RegExp(`\\b${k}:\\s*tokens\\.type\\.tracking\\.${k}\\.value`).test(lsBlock));
+if (unmapped.length) fail(`tracking tokens not mapped in tailwind.config.ts: ${unmapped.join(', ')}`);
+// gives-mirror.ts is a byte copy of adam.gives, a separate site with its own
+// design; editing it would break the mirror, so it is outside this rule.
+const TRACKING_EXEMPT = new Set([join('src', 'data', 'gives-mirror.ts')]);
+const offenders = [];
+const walk = (dir) => {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, entry.name);
+    if (TRACKING_EXEMPT.has(full)) continue;
+    if (entry.isDirectory()) walk(full);
+    else if (/\.(tsx?|css)$/.test(entry.name)) {
+      const text = fs.readFileSync(full, 'utf8');
+      for (const m of text.matchAll(/(?<![\w-])tracking-(\[[^\]]+\]|[a-z]+)(?![\w-])/g)) {
+        if (!trackingTokens.includes(m[1])) offenders.push(`${full}: tracking-${m[1]}`);
+      }
+      for (const m of text.matchAll(/letter-spacing:\s*([^;]+);/g)) {
+        if (m[1].trim() !== '0') offenders.push(`${full}: letter-spacing: ${m[1].trim()}`);
+      }
+    }
+  }
+};
+walk('src');
+if (offenders.length) fail(`letter spacing outside tokens:\n    ${offenders.join('\n    ')}`);
+else ok(`letter spacing uses only zero-valued tokens (${trackingTokens.join(', ')})`);
+
+/* ---------- 7. no raw hex in global styles; cursor follows the accent ---------- */
+
+// Colors in globals.css must come from tokens. The cursor SVGs cannot read
+// CSS variables, so src/design/cursor.ts bakes the accent hex per mode into
+// <style id="cursor-tokens">; assert that block carries today's accent.
+const globalsCss = read('src/app/globals.css') ?? '';
+const rawHex = [...globalsCss.matchAll(/(?:#|%23)[0-9a-fA-F]{3,8}\b/g)].map((m) => m[0]);
+if (rawHex.length) fail(`raw hex in src/app/globals.css: ${[...new Set(rawHex)].join(', ')}`);
+else ok('src/app/globals.css has no raw hex colors');
+
+const cursorMatch = html.match(/id="cursor-tokens"[^>]*>([\s\S]*?)<\/style>/);
+// adampang.com no longer uses the custom cursor; check it only where present.
+if (cursorMatch) {
+  const block = cursorMatch[1];
+  const light = block.slice(0, block.indexOf('.dark'));
+  const dark = block.slice(block.indexOf('.dark'));
+  const enc = (hex) => hex.replace('#', '%23');
+  const { light: accentLight, dark: accentDark } = tokens.color.brand.accent;
+  if (!light.includes(enc(accentLight))) fail(`cursor light block does not use accent ${accentLight}`);
+  else if (!dark.includes(enc(accentDark))) fail(`cursor dark block does not use accent ${accentDark}`);
+  else ok(`cursor uses accent ${accentLight} (light) and ${accentDark} (dark)`);
 }
 
 /* ---------- scalar sections ---------- */
