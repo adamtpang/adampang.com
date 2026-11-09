@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './privacy.module.css';
 
 const description =
-  'How adampang.com uses hosting, analytics, and embedded players from Spotify and YouTube.';
+  'What adampang.com collects: a cookieless homepage pageview in PostHog, Vercel Web Analytics and Speed Insights, hosting logs, and the Spotify embed.';
 
 export const metadata: Metadata = {
   title: { absolute: 'Privacy policy · Adam Pang' },
@@ -19,7 +19,7 @@ export default function Privacy() {
       </p>
       <h1 className={styles.title}>Privacy policy</h1>
       <p className={styles.meta}>
-        Last updated <time dateTime="2026-11-08">November 8, 2026</time>
+        Last updated <time dateTime="2026-11-01">November 1, 2026</time>
       </p>
 
       <p>
@@ -61,14 +61,6 @@ export default function Privacy() {
           Spotify privacy policy
         </a>
         .
-      </p>
-
-      <h2>YouTube player</h2>
-      <p>
-        The interview uses YouTube&apos;s privacy-enhanced player at youtube-nocookie.com.
-        YouTube receives your browser request when the player loads. Its handling of that data
-        and of playback is covered by the{' '}
-        <a href="https://policies.google.com/privacy">Google privacy policy</a>.
       </p>
 
       <h2>Fonts and links</h2>
