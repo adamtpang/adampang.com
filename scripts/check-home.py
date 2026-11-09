@@ -29,7 +29,14 @@ open_page()
 assert js('document.querySelector("meta[property=\\"og:title\\"]").content') == 'Adam Pang'
 assert js('getComputedStyle(document.body).backgroundColor') == 'rgb(255, 255, 255)'
 assert js('document.querySelector("h1").getBoundingClientRect().height') > 20
-assert js('document.querySelectorAll("iframe").length') == 1
+assert js('document.querySelectorAll("iframe").length') == 2
+assert js('document.querySelector("a[href=\\\"#interview\\\"]").getAttribute("href")') == '#interview'
+assert js('document.querySelector("#interview iframe").src') == 'https://www.youtube-nocookie.com/embed/obwbhba3Y_g'
+assert js('document.querySelector("#interview iframe").loading') == 'lazy'
+assert js('document.querySelector("#interview time").dateTime') == '2026-04-23'
+assert js('document.querySelector("#interview a").href') == 'https://www.youtube.com/watch?v=obwbhba3Y_g'
+assert js('document.body.innerText.includes("5,660 contributions") && document.body.innerText.includes("Legend")')
+assert not js('document.body.innerText.includes("Hackathon, Winner")')
 assert js('document.querySelector("iframe").height') == '80'
 assert js('document.querySelector("iframe").src').startswith('https://open.spotify.com/embed/playlist/')
 assert not js('document.body.innerText.includes("from Guam")')
@@ -47,7 +54,8 @@ for width, height in [(1440, 900), (1366, 768), (1024, 768), (1280, 600), (768, 
     info = page_info()
     assert info['pw'] <= width, info
     if width >= 1024:
-        assert info['ph'] <= height, info
+        assert js('document.querySelector("[data-home-intro]").getBoundingClientRect().bottom') <= height
+    assert js('(() => { const r = document.querySelector("#interview iframe").getBoundingClientRect(); return r.width >= 200 && Math.abs(r.height - Math.max(200, r.width * 9/16)) < 1; })()')
     assert js('[...document.querySelectorAll("nav a")].every(a => a.scrollWidth <= a.clientWidth + 1)')
     print('Layout', width, height, 'passed')
     if width in (1366, 390):
@@ -66,9 +74,10 @@ print('Visible content, immediate music embed, contact links and keyboard entry 
 
 # The ordinary playlist destination remains available if the provider is blocked.
 cdp('Network.enable')
-cdp('Network.setBlockedURLs', urls=['*open.spotify.com*', '*embed-cdn.spotifycdn.com*'])
+cdp('Network.setBlockedURLs', urls=['*open.spotify.com*', '*embed-cdn.spotifycdn.com*', '*youtube-nocookie.com*'])
 open_page()
 assert js('document.querySelector("section[aria-label=Music] a").href').startswith('https://open.spotify.com/playlist/')
+assert js('document.querySelector("#interview a").href') == 'https://www.youtube.com/watch?v=obwbhba3Y_g'
 cdp('Network.setBlockedURLs', urls=[])
 open_page()
 assert js('document.querySelector("iframe").title') == "ult, Adam Pang's Spotify playlist"
@@ -76,7 +85,7 @@ assert js('document.activeElement.tagName') != 'IFRAME'
 frame_id = js('document.querySelector("iframe").src')
 js('document.querySelector("nav[aria-label=Elsewhere] a").focus()')
 assert js('document.querySelector("iframe").src') == frame_id
-assert js('document.querySelectorAll("iframe").length') == 1
+assert js('document.querySelectorAll("iframe").length') == 2
 screenshots.joinpath('adam-framed-music.png').write_bytes(
     base64.b64decode(cdp('Page.captureScreenshot', format='png')['data']))
 print('Provider outlink fallback, loaded player and persistence passed')
