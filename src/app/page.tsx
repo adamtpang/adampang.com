@@ -6,10 +6,11 @@ import { FaGithub, FaInstagram, FaLinkedinIn, FaSoundcloud, FaXTwitter, FaYoutub
 import { SiCaldotcom } from 'react-icons/si';
 import Portrait from './Portrait';
 import MusicPlayer from './MusicPlayer';
+import ProfileHighlights from './ProfileHighlights';
 import styles from './home.module.css';
 
 const description =
-  "Adam Pang's personal site: his Spotify playlist, links to his GitHub, YouTube, SoundCloud and other profiles, his one-page CV, and ways to reach him.";
+  "Adam Pang's Natural Genius interview, selected achievements, one-page CV, music and ways to reach him.";
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang: music, profiles, CV and contact' },
@@ -74,43 +75,47 @@ const outlinks = [
 
 export default function Home() {
   return (
-    <main className={styles.page}>
+    <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <div className={styles.composition}>
-        <Portrait />
-        <div className={styles.content}>
-          <header>
-            <h1 className={styles.name}>Adam Pang</h1>
-          </header>
+      <div className={styles.page}>
+        <div className={styles.composition} data-home-intro>
+          <Portrait />
+          <div className={styles.content}>
+            <header>
+              <h1 className={styles.name}>Adam Pang</h1>
+              <a className={styles.interviewLink} href="#interview">Watch my Natural Genius interview</a>
+            </header>
 
-          <nav aria-label="Elsewhere" className={styles.outlinks}>
-            {outlinks.map(({ label, href, Icon }) => (
-              <Fragment key={href}>
-                <a href={href} target="_blank" rel="noopener noreferrer">
-                  <Icon size={18} aria-hidden focusable="false" />
-                  <span>{label}</span>
-                  <ArrowUpRight size={12} aria-hidden className={styles.externalArrow} />
-                </a>{' '}
-              </Fragment>
-            ))}
-          </nav>
+            <nav aria-label="Elsewhere" className={styles.outlinks}>
+              {outlinks.map(({ label, href, Icon }) => (
+                <Fragment key={href}>
+                  <a href={href} target="_blank" rel="noopener noreferrer">
+                    <Icon size={18} aria-hidden focusable="false" />
+                    <span>{label}</span>
+                    <ArrowUpRight size={12} aria-hidden className={styles.externalArrow} />
+                  </a>{' '}
+                </Fragment>
+              ))}
+            </nav>
 
-          <MusicPlayer />
+            <MusicPlayer />
 
-          <nav aria-label="Say hello" className={styles.contact}>
-            <a href="tel:+15122540011"><Phone size={15} aria-hidden /> Call</a>{' '}
-            <a href="mailto:adamtpang@gmail.com"><Mail size={15} aria-hidden /> Email</a>
-          </nav>
+            <nav aria-label="Say hello" className={styles.contact}>
+              <a href="tel:+15122540011"><Phone size={15} aria-hidden /> Call</a>{' '}
+              <a href="mailto:adamtpang@gmail.com"><Mail size={15} aria-hidden /> Email</a>
+            </nav>
 
-          <footer className={styles.footer}>
-            <Link href="/cv">About</Link>{' '}
-            <Link href="/privacy">Privacy</Link>
-          </footer>
+            <footer className={styles.footer}>
+              <Link href="/cv">CV</Link>{' '}
+              <Link href="/privacy">Privacy</Link>
+            </footer>
+          </div>
         </div>
       </div>
+      <ProfileHighlights />
     </main>
   );
 }

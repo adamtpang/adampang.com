@@ -61,6 +61,16 @@ const nextConfig = {
         ],
       },
       // Later matches override the same header keys set above.
+      {
+        source: '/',
+        headers: [{
+          key: 'Content-Security-Policy',
+          value: contentSecurityPolicy.replace(
+            'frame-src https://open.spotify.com',
+            'frame-src https://open.spotify.com https://www.youtube-nocookie.com',
+          ),
+        }],
+      },
       { source: '/cv', headers: [{ key: 'Content-Security-Policy', value: cvContentSecurityPolicy }] },
       { source: '/adam-pang-resume.pdf', headers: pdfHeaders },
       { source: '/cv.pdf', headers: pdfHeaders },

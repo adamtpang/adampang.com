@@ -4,7 +4,7 @@ import { cv, parse, pdfHref } from './content';
 import styles from './cv.module.css';
 
 const description =
-  'Adam Pang, software engineer. New Braunfels, TX (moving to Austin). Quantus, EIGN, Grok Bot Hackathon winner.';
+  'Adam Pang, software engineer. Experience, selected projects, achievements and skills.';
 
 export const metadata: Metadata = {
   title: { absolute: 'Adam Pang · CV' },
