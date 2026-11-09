@@ -1,6 +1,5 @@
 // Builds public/adam-pang-resume.pdf (and public/cv.pdf) from src/app/cv/resume.json.
 // Usage: node scripts/build-cv-pdf.mjs   (needs Google Chrome or Chromium on PATH, or CHROME=/path)
-// Pass --html-only to print the HTML path and render it in an existing browser session.
 import { execFileSync } from 'node:child_process';
 import { copyFileSync, mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -64,10 +63,6 @@ ${cv.education.map((e) => entry(`<a href="${e.href}">${esc(e.org)}</a>`, e.role,
 const dir = mkdtempSync(path.join(tmpdir(), 'cv-'));
 const htmlPath = path.join(dir, 'resume.html');
 writeFileSync(htmlPath, html);
-if (process.argv.includes('--html-only')) {
-  console.log(htmlPath);
-  process.exit(0);
-}
 const out = path.join(root, 'public/adam-pang-resume.pdf');
 const chrome = process.env.CHROME || 'google-chrome';
 execFileSync(chrome, [
