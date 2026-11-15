@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './privacy.module.css';
 
 const description =
-  'What adampang.com collects: a cookieless homepage pageview in PostHog, Vercel Web Analytics and Speed Insights, hosting logs, and the Spotify and YouTube players that load only when you press play.';
+  'What adampang.com collects: a cookieless homepage pageview in PostHog, Vercel Web Analytics and Speed Insights, hosting logs, and the embedded Spotify and YouTube players.';
 
 export const metadata: Metadata = {
   title: { absolute: 'Privacy policy · Adam Pang' },
@@ -55,16 +55,17 @@ export default function Privacy() {
 
       <h2>Spotify and YouTube players</h2>
       <p>
-        The homepage has two play buttons. Nothing is loaded from Spotify or YouTube until you press
-        one. Pressing &quot;On repeat&quot; loads a playlist player from open.spotify.com, under the{' '}
+        The homepage embeds a Spotify playlist player from open.spotify.com and a YouTube video
+        player from youtube-nocookie.com. Each service receives your request when its player loads
+        and may set its own cookies, under the{' '}
         <a href="https://www.spotify.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">
           Spotify privacy policy
-        </a>
-        . Pressing &quot;Interview&quot; loads a video player from youtube-nocookie.com, under the{' '}
+        </a>{' '}
+        and the{' '}
         <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
           Google privacy policy
         </a>
-        . Either service receives your request when its player loads and may set its own cookies.
+        .
       </p>
 
       <h2>Fonts and links</h2>

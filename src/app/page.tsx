@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import Portrait from './Portrait';
-import MediaPill from './MediaPill';
+import { FaGithub, FaInstagram, FaLinkedinIn, FaPhone, FaSoundcloud, FaXTwitter, FaYoutube } from 'react-icons/fa6';
+import { SiCaldotcom, SiGmail } from 'react-icons/si';
 import styles from './home.module.css';
 
 const description =
@@ -62,12 +62,18 @@ const PLAYLIST = '35KMxrfO2OqwaJ1PIoYiCa';
 const INTERVIEW = 'obwbhba3Y_g';
 
 const outlinks = [
-  { label: 'Instagram', href: 'https://instagram.com/adamtpang' },
-  { label: 'YouTube', href: 'https://youtube.com/@adamtpang' },
-  { label: 'X', href: 'https://x.com/adamtpang' },
-  { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang' },
-  { label: 'GitHub', href: 'https://github.com/adamtpang' },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/adampangelinan' },
+  { label: 'Instagram', href: 'https://instagram.com/adamtpang', Icon: FaInstagram },
+  { label: 'YouTube', href: 'https://youtube.com/@adamtpang', Icon: FaYoutube },
+  { label: 'X', href: 'https://x.com/adamtpang', Icon: FaXTwitter },
+  { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang', Icon: FaSoundcloud },
+  { label: 'GitHub', href: 'https://github.com/adamtpang', Icon: FaGithub },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/adampangelinan', Icon: FaLinkedinIn },
+];
+
+const contact = [
+  { label: 'Call', href: 'tel:+15122540011', Icon: FaPhone, external: false },
+  { label: 'Email', href: 'mailto:adamtpang@gmail.com', Icon: SiGmail, external: false },
+  { label: 'Book a call', href: 'https://cal.com/adampang', Icon: SiCaldotcom, external: true, wide: true },
 ];
 
 export default function Home() {
@@ -83,47 +89,51 @@ export default function Home() {
           <h1 className={styles.name}>Adam Pang</h1>
 
           <nav aria-label="Elsewhere">
-            <ul className={styles.links}>
-              {outlinks.map(({ label, href }) => (
+            <ul className={styles.icons}>
+              {outlinks.map(({ label, href, Icon }) => (
                 <li key={href}>
-                  <a href={href} target="_blank" rel="noopener noreferrer">{label}</a>
+                  <a className={styles.iconButton} href={href} target="_blank" rel="noopener noreferrer" aria-label={label} title={label}>
+                    <Icon size={18} aria-hidden focusable="false" />
+                  </a>
                 </li>
               ))}
             </ul>
           </nav>
 
-          <section className={styles.pills} aria-label="Listen and watch">
-            <MediaPill
-              kind="audio"
-              label="On repeat"
-              detail="ult"
-              title="ult, Adam Pang's Spotify playlist"
+          <section className={styles.players} aria-label="Listen and watch">
+            <iframe
+              className={styles.audioPlayer}
               src={`https://open.spotify.com/embed/playlist/${PLAYLIST}?theme=0`}
-              href={`https://open.spotify.com/playlist/${PLAYLIST}`}
+              title="ult, Adam Pang's Spotify playlist"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             />
-            <MediaPill
-              kind="video"
-              label="Interview"
-              detail="Natural Genius, episode 34"
+            <iframe
+              className={styles.videoPlayer}
+              src={`https://www.youtube-nocookie.com/embed/${INTERVIEW}`}
               title="Adam Pang on Natural Genius, episode 34"
-              src={`https://www.youtube-nocookie.com/embed/${INTERVIEW}?autoplay=1`}
-              href={`https://www.youtube.com/watch?v=${INTERVIEW}`}
+              referrerPolicy="strict-origin-when-cross-origin"
+              allow="encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
             />
           </section>
 
-          <nav aria-label="Say hello" className={styles.contact}>
-            <ul className={styles.links}>
-              <li><a href="tel:+15122540011">Call</a></li>
-              <li><a href="mailto:adamtpang@gmail.com">Email</a></li>
-              <li><a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer">Book a call</a></li>
+          <nav aria-label="Say hello">
+            <ul className={styles.icons}>
+              {contact.map(({ label, href, Icon, external, wide }) => (
+                <li key={href}>
+                  <a
+                    className={wide ? `${styles.iconButton} ${styles.wide}` : styles.iconButton}
+                    href={href}
+                    aria-label={label}
+                    title={label}
+                    {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                  >
+                    <Icon size={wide ? 44 : 18} aria-hidden focusable="false" />
+                  </a>
+                </li>
+              ))}
             </ul>
           </nav>
-
-          <footer className={styles.footer}>
-            <Link href="/cv">CV</Link>
-            <Link href="/outlier">Outlier</Link>
-            <Link href="/privacy">Privacy</Link>
-          </footer>
         </div>
       </div>
     </main>
