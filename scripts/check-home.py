@@ -29,14 +29,15 @@ open_page()
 assert js('document.querySelector("meta[property=\\"og:title\\"]").content') == 'Adam Pang'
 assert js('getComputedStyle(document.body).backgroundColor') == 'rgb(255, 255, 255)'
 assert js('document.querySelector("h1").getBoundingClientRect().height') > 20
-assert js('document.querySelectorAll("iframe").length') == 1
-assert js('document.querySelector("iframe").height') == '80'
-assert js('document.querySelector("iframe").src').startswith('https://open.spotify.com/embed/playlist/')
+# No player loads until a pill is pressed.
+assert js('document.querySelectorAll("iframe").length') == 0
+assert js('document.querySelectorAll("section[aria-label=\\"Listen and watch\\"] a[role=button]").length') == 2
+assert js('document.fonts.size') == 0
 assert not js('document.body.innerText.includes("from Guam")')
 assert not js('document.body.innerText.includes("Play music")')
 assert not js('document.querySelector("a[href*=\\"pangaea.blog\\"]")')
-assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 7
-assert js('[...document.querySelectorAll("nav[aria-label=Elsewhere] a")].every(a => a.querySelector("svg") && a.target === "_blank" && a.rel.includes("noopener"))')
+assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 6
+assert js('[...document.querySelectorAll("nav[aria-label=Elsewhere] a")].every(a => !a.querySelector("svg") && a.target === "_blank" && a.rel.includes("noopener"))')
 assert js('document.querySelector("link[rel=icon]").href').endswith('favicon.svg?v=yin-yang-2')
 assert js('[...document.querySelectorAll("figure img")].some(i => i.src.includes("gold-frame.png"))')
 assert js('document.querySelectorAll("[data-lock], [role=dialog]").length') == 0
@@ -62,24 +63,23 @@ assert js('''document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"], a[h
 cdp('Input.dispatchKeyEvent', type='keyDown', key='Tab', code='Tab', windowsVirtualKeyCode=9)
 cdp('Input.dispatchKeyEvent', type='keyUp', key='Tab', code='Tab', windowsVirtualKeyCode=9)
 assert js('document.activeElement.tagName') == 'A'
-print('Visible content, immediate music embed, contact links and keyboard entry passed')
+print('Visible content, contact links and keyboard entry passed')
 
-# The ordinary playlist destination remains available if the provider is blocked.
-cdp('Network.enable')
-cdp('Network.setBlockedURLs', urls=['*open.spotify.com*', '*embed-cdn.spotifycdn.com*'])
-open_page()
-assert js('document.querySelector("section[aria-label=Music] a").href').startswith('https://open.spotify.com/playlist/')
-cdp('Network.setBlockedURLs', urls=[])
-open_page()
+# Pressing a pill opens its player in place; the pill itself links to the provider.
+pills = 'section[aria-label="Listen and watch"] a[role=button]'
+assert js(f'document.querySelectorAll(\'{pills}\')[0].href').startswith('https://open.spotify.com/playlist/')
+assert js(f'document.querySelectorAll(\'{pills}\')[1].href').startswith('https://www.youtube.com/watch')
+js(f'document.querySelectorAll(\'{pills}\')[0].click()')
+wait_until('document.querySelectorAll("iframe").length === 1')
 assert js('document.querySelector("iframe").title') == "ult, Adam Pang's Spotify playlist"
-assert js('document.activeElement.tagName') != 'IFRAME'
-frame_id = js('document.querySelector("iframe").src')
-js('document.querySelector("nav[aria-label=Elsewhere] a").focus()')
-assert js('document.querySelector("iframe").src') == frame_id
-assert js('document.querySelectorAll("iframe").length') == 1
+assert js('document.querySelector("iframe").src').startswith('https://open.spotify.com/embed/playlist/')
+assert js('document.querySelector("iframe").getBoundingClientRect().height') == 80
+js(f'document.querySelectorAll(\'{pills}\')[1].click()')
+wait_until('document.querySelectorAll("iframe").length === 2')
+assert js('document.querySelectorAll("iframe")[1].src').startswith('https://www.youtube-nocookie.com/embed/')
 screenshots.joinpath('adam-framed-music.png').write_bytes(
     base64.b64decode(cdp('Page.captureScreenshot', format='png')['data']))
-print('Provider outlink fallback, loaded player and persistence passed')
+print('Pills link to the providers and open their players in place')
 
 open_page()
 cdp('Emulation.setScriptExecutionDisabled', value=True)
@@ -88,11 +88,10 @@ try:
     time.sleep(1)
     nodes = cdp('Accessibility.getFullAXTree')['nodes']
     roles = [n.get('role', {}).get('value') for n in nodes]
-    assert roles.count('link') >= 11
+    assert roles.count('link') >= 12
     assert 'heading' in roles
-    assert 'button' not in roles
     assert js('document.querySelector("h1").innerText') == 'Adam Pang'
-    assert js('document.querySelector("iframe").getBoundingClientRect().height') == 80
+    assert js('document.querySelectorAll("iframe").length') == 0
 finally:
     cdp('Emulation.setScriptExecutionDisabled', value=False)
 print('JavaScript-disabled content, media outlink and contact access passed')

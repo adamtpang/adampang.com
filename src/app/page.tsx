@@ -1,11 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { Fragment } from 'react';
-import { ArrowUpRight, Mail, Phone } from 'lucide-react';
-import { FaGithub, FaInstagram, FaLinkedinIn, FaSoundcloud, FaXTwitter, FaYoutube } from 'react-icons/fa6';
-import { SiCaldotcom } from 'react-icons/si';
 import Portrait from './Portrait';
-import MusicPlayer from './MusicPlayer';
+import MediaPill from './MediaPill';
 import styles from './home.module.css';
 
 const description =
@@ -62,14 +58,16 @@ const jsonLd = {
   ],
 };
 
+const PLAYLIST = '35KMxrfO2OqwaJ1PIoYiCa';
+const INTERVIEW = 'obwbhba3Y_g';
+
 const outlinks = [
-  { label: 'Instagram', href: 'https://instagram.com/adamtpang', Icon: FaInstagram },
-  { label: 'YouTube', href: 'https://youtube.com/@adamtpang', Icon: FaYoutube },
-  { label: 'X', href: 'https://x.com/adamtpang', Icon: FaXTwitter },
-  { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang', Icon: FaSoundcloud },
-  { label: 'GitHub', href: 'https://github.com/adamtpang', Icon: FaGithub },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/adampangelinan', Icon: FaLinkedinIn },
-  { label: 'Book a call', href: 'https://cal.com/adampang', Icon: SiCaldotcom },
+  { label: 'Instagram', href: 'https://instagram.com/adamtpang' },
+  { label: 'YouTube', href: 'https://youtube.com/@adamtpang' },
+  { label: 'X', href: 'https://x.com/adamtpang' },
+  { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang' },
+  { label: 'GitHub', href: 'https://github.com/adamtpang' },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/adampangelinan' },
 ];
 
 export default function Home() {
@@ -82,31 +80,48 @@ export default function Home() {
       <div className={styles.composition}>
         <Portrait />
         <div className={styles.content}>
-          <header>
-            <h1 className={styles.name}>Adam Pang</h1>
-          </header>
+          <h1 className={styles.name}>Adam Pang</h1>
 
-          <nav aria-label="Elsewhere" className={styles.outlinks}>
-            {outlinks.map(({ label, href, Icon }) => (
-              <Fragment key={href}>
-                <a href={href} target="_blank" rel="noopener noreferrer">
-                  <Icon size={18} aria-hidden focusable="false" />
-                  <span>{label}</span>
-                  <ArrowUpRight size={12} aria-hidden className={styles.externalArrow} />
-                </a>{' '}
-              </Fragment>
-            ))}
+          <nav aria-label="Elsewhere">
+            <ul className={styles.links}>
+              {outlinks.map(({ label, href }) => (
+                <li key={href}>
+                  <a href={href} target="_blank" rel="noopener noreferrer">{label}</a>
+                </li>
+              ))}
+            </ul>
           </nav>
 
-          <MusicPlayer />
+          <section className={styles.pills} aria-label="Listen and watch">
+            <MediaPill
+              kind="audio"
+              label="On repeat"
+              detail="ult"
+              title="ult, Adam Pang's Spotify playlist"
+              src={`https://open.spotify.com/embed/playlist/${PLAYLIST}?theme=0`}
+              href={`https://open.spotify.com/playlist/${PLAYLIST}`}
+            />
+            <MediaPill
+              kind="video"
+              label="Interview"
+              detail="Natural Genius, episode 34"
+              title="Adam Pang on Natural Genius, episode 34"
+              src={`https://www.youtube-nocookie.com/embed/${INTERVIEW}?autoplay=1`}
+              href={`https://www.youtube.com/watch?v=${INTERVIEW}`}
+            />
+          </section>
 
           <nav aria-label="Say hello" className={styles.contact}>
-            <a href="tel:+15122540011"><Phone size={15} aria-hidden /> Call</a>{' '}
-            <a href="mailto:adamtpang@gmail.com"><Mail size={15} aria-hidden /> Email</a>
+            <ul className={styles.links}>
+              <li><a href="tel:+15122540011">Call</a></li>
+              <li><a href="mailto:adamtpang@gmail.com">Email</a></li>
+              <li><a href="https://cal.com/adampang" target="_blank" rel="noopener noreferrer">Book a call</a></li>
+            </ul>
           </nav>
 
           <footer className={styles.footer}>
-            <Link href="/cv">About</Link>{' '}
+            <Link href="/cv">CV</Link>
+            <Link href="/outlier">Outlier</Link>
             <Link href="/privacy">Privacy</Link>
           </footer>
         </div>
