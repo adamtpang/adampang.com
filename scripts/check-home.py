@@ -32,7 +32,7 @@ assert js('document.querySelector("h1").getBoundingClientRect().height') > 20
 # Both players are embedded directly; the site loads no web fonts.
 assert js('document.querySelectorAll("iframe").length') == 2
 assert js('document.querySelectorAll("iframe")[0].src').startswith('https://open.spotify.com/embed/playlist/')
-assert js('document.querySelectorAll("iframe")[0].getBoundingClientRect().height') == 80
+assert js('[...document.querySelectorAll("nav ul")].every(u => getComputedStyle(u).gridTemplateColumns.split(" ").length === 3)')
 assert js('document.querySelectorAll("iframe")[1].src').startswith('https://www.youtube-nocookie.com/embed/')
 assert js('document.fonts.size') == 0
 assert js('document.querySelector("main").innerText.trim()') == 'Adam Pang'

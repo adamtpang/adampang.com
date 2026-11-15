@@ -47,26 +47,25 @@
   object-fit: cover;
 }
 
+/* One rule sets every vertical gap in the column, so spacing is the same at any width. */
 .content {
+  display: grid;
+  gap: 16px;
   min-width: 0;
-  font-size: 15px;
 }
 
 .name {
-  margin: 0;
+  margin: 0 0 2px;
   font-size: 36px;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: 0;
 }
 
-.name + nav {
-  margin-top: 18px;
-}
-
+/* Three buttons per row, always: six profiles make two rows, contact makes one. */
 .icons {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
   margin: 0;
   padding: 0;
@@ -76,10 +75,9 @@
 .iconButton {
   display: grid;
   place-items: center;
-  width: 44px;
   height: 44px;
   border: 1px solid var(--hairline);
-  border-radius: 50%;
+  border-radius: 999px;
   color: var(--ink);
   transition: border-color 160ms ease;
 }
@@ -88,17 +86,9 @@
   border-color: var(--ink);
 }
 
-/* The Cal.com logo is a wordmark, so its button is a pill. */
-.wide {
-  width: auto;
-  padding: 0 14px;
-  border-radius: 999px;
-}
-
 .players {
   display: grid;
-  gap: 12px;
-  margin: 18px 0;
+  gap: 8px;
 }
 
 .audioPlayer,
@@ -106,11 +96,12 @@
   display: block;
   width: 100%;
   border: 0;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
+/* Spotify only fills fixed heights (80, 152, 352). 152 is the closest to the video. */
 .audioPlayer {
-  height: 80px;
+  height: 152px;
 }
 
 .videoPlayer {

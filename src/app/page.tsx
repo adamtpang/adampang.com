@@ -122,7 +122,7 @@ export default function Home() {
               {contact.map(({ label, href, Icon, external, wide }) => (
                 <li key={href}>
                   <a
-                    className={wide ? `${styles.iconButton} ${styles.wide}` : styles.iconButton}
+                    className={styles.iconButton}
                     href={href}
                     aria-label={label}
                     title={label}
