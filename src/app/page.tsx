@@ -23,7 +23,7 @@ const profiles = [
   'https://x.com/adamtpang',
   'https://soundcloud.com/adamtpang',
   'https://github.com/adamtpang',
-  'https://linkedin.com/in/adamtpang',
+  'https://linkedin.com/in/adampangelinan',
   'https://open.spotify.com/playlist/35KMxrfO2OqwaJ1PIoYiCa',
 ];
 
@@ -68,8 +68,8 @@ const outlinks = [
   { label: 'X', href: 'https://x.com/adamtpang', Icon: FaXTwitter },
   { label: 'SoundCloud', href: 'https://soundcloud.com/adamtpang', Icon: FaSoundcloud },
   { label: 'GitHub', href: 'https://github.com/adamtpang', Icon: FaGithub },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/adamtpang', Icon: FaLinkedinIn },
-  { label: 'Book a call', href: 'https://cal.com/adamtpang', Icon: SiCaldotcom },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/adampangelinan', Icon: FaLinkedinIn },
+  { label: 'Book a call', href: 'https://cal.com/adampang', Icon: SiCaldotcom },
 ];
 
 export default function Home() {
