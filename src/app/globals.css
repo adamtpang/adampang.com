@@ -3,28 +3,43 @@
 @tailwind utilities;
 
 /*
- * Colors come from src/design/tokens.json, injected into <head> by
- * app/layout.tsx. This file only consumes them. No raw hex here.
+ * adampang.com palette and type, from the Adam Pang design system
+ * (white, ink, greys; Helvetica with Arial as the fallback; no accent color).
+ * The only color on the site is the gold picture frame, which is an image.
+ *
+ * Values live in src/design/tokens.json under color.site (no raw hex here).
+ * That file is shared with pangpod.com, so the site group only adds tokens
+ * and leaves every existing one untouched.
  */
+
+:root {
+  --paper: rgb(var(--color-paper));
+  --ink: rgb(var(--color-ink));
+  --ink-muted: rgb(var(--color-ink-muted));
+  --hairline: rgb(var(--color-hairline));
+  --underline: rgb(var(--color-underline));
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 @layer base {
   body {
-    background: rgb(var(--color-card));
-    color: rgb(var(--color-fg));
-    font-family: var(--font-body), system-ui, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
     font-size: 1rem;
     line-height: 1.6;
     letter-spacing: 0;
   }
 
   a {
-    color: rgb(var(--color-accent-ink));
+    color: var(--ink);
     text-decoration: underline;
+    text-decoration-color: var(--underline);
     text-underline-offset: 3px;
   }
 
   :focus-visible {
-    outline: 3px solid rgb(var(--color-accent));
+    outline: 3px solid var(--ink);
     outline-offset: 3px;
     border-radius: 2px;
   }

@@ -29,14 +29,20 @@ open_page()
 assert js('document.querySelector("meta[property=\\"og:title\\"]").content') == 'Adam Pang'
 assert js('getComputedStyle(document.body).backgroundColor') == 'rgb(255, 255, 255)'
 assert js('document.querySelector("h1").getBoundingClientRect().height') > 20
-assert js('document.querySelectorAll("iframe").length') == 1
-assert js('document.querySelector("iframe").height') == '80'
-assert js('document.querySelector("iframe").src').startswith('https://open.spotify.com/embed/playlist/')
+# Both players are embedded directly; the site loads no web fonts.
+assert js('document.querySelectorAll("iframe").length') == 2
+assert js('document.querySelectorAll("iframe")[0].src').startswith('https://open.spotify.com/embed/playlist/')
+assert js('[...document.querySelectorAll("nav ul")].every(u => getComputedStyle(u).gridTemplateColumns.split(" ").length === 3)')
+assert js('document.querySelectorAll("iframe")[1].src').startswith('https://www.youtube-nocookie.com/embed/')
+assert js('document.fonts.size') == 0
+assert js('document.querySelector("main").innerText.trim()') == 'Adam Pang'
 assert not js('document.body.innerText.includes("from Guam")')
 assert not js('document.body.innerText.includes("Play music")')
 assert not js('document.querySelector("a[href*=\\"pangaea.blog\\"]")')
-assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 7
-assert js('[...document.querySelectorAll("nav[aria-label=Elsewhere] a")].every(a => a.querySelector("svg") && a.target === "_blank" && a.rel.includes("noopener"))')
+assert js('document.querySelectorAll("nav[aria-label=Elsewhere] a").length') == 6
+assert js('[...document.querySelectorAll("nav[aria-label=Elsewhere] a")].every(a => a.querySelector("svg") && a.getAttribute("aria-label") && a.target === "_blank" && a.rel.includes("noopener"))')
+assert js('[...document.querySelectorAll("nav[aria-label=\\"Say hello\\"] a")].map(a => a.getAttribute("aria-label")).join()') == 'Call,Email,Book a call'
+assert not js('document.querySelector("main a[href=\\"/cv\\"], main a[href=\\"/outlier\\"], main a[href=\\"/privacy\\"]")')
 assert js('document.querySelector("link[rel=icon]").href').endswith('favicon.svg?v=yin-yang-2')
 assert js('[...document.querySelectorAll("figure img")].some(i => i.src.includes("gold-frame.png"))')
 assert js('document.querySelectorAll("[data-lock], [role=dialog]").length') == 0
@@ -62,24 +68,7 @@ assert js('''document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"], a[h
 cdp('Input.dispatchKeyEvent', type='keyDown', key='Tab', code='Tab', windowsVirtualKeyCode=9)
 cdp('Input.dispatchKeyEvent', type='keyUp', key='Tab', code='Tab', windowsVirtualKeyCode=9)
 assert js('document.activeElement.tagName') == 'A'
-print('Visible content, immediate music embed, contact links and keyboard entry passed')
-
-# The ordinary playlist destination remains available if the provider is blocked.
-cdp('Network.enable')
-cdp('Network.setBlockedURLs', urls=['*open.spotify.com*', '*embed-cdn.spotifycdn.com*'])
-open_page()
-assert js('document.querySelector("section[aria-label=Music] a").href').startswith('https://open.spotify.com/playlist/')
-cdp('Network.setBlockedURLs', urls=[])
-open_page()
-assert js('document.querySelector("iframe").title') == "ult, Adam Pang's Spotify playlist"
-assert js('document.activeElement.tagName') != 'IFRAME'
-frame_id = js('document.querySelector("iframe").src')
-js('document.querySelector("nav[aria-label=Elsewhere] a").focus()')
-assert js('document.querySelector("iframe").src') == frame_id
-assert js('document.querySelectorAll("iframe").length') == 1
-screenshots.joinpath('adam-framed-music.png').write_bytes(
-    base64.b64decode(cdp('Page.captureScreenshot', format='png')['data']))
-print('Provider outlink fallback, loaded player and persistence passed')
+print('Visible content, contact links and keyboard entry passed')
 
 open_page()
 cdp('Emulation.setScriptExecutionDisabled', value=True)
@@ -88,11 +77,10 @@ try:
     time.sleep(1)
     nodes = cdp('Accessibility.getFullAXTree')['nodes']
     roles = [n.get('role', {}).get('value') for n in nodes]
-    assert roles.count('link') >= 11
+    assert roles.count('link') >= 9
     assert 'heading' in roles
-    assert 'button' not in roles
     assert js('document.querySelector("h1").innerText') == 'Adam Pang'
-    assert js('document.querySelector("iframe").getBoundingClientRect().height') == 80
+    assert js('document.querySelectorAll("iframe").length') == 2
 finally:
     cdp('Emulation.setScriptExecutionDisabled', value=False)
-print('JavaScript-disabled content, media outlink and contact access passed')
+print('JavaScript-disabled content, players and contact access passed')

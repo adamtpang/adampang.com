@@ -2,12 +2,12 @@
   width: min(680px, 100%);
   margin: 0 auto;
   padding: 48px 28px 72px;
-  color: rgb(var(--color-fg));
+  color: var(--ink);
   font-size: 15px;
 }
 
 .page a {
-  color: rgb(var(--color-accent-ink));
+  color: var(--ink);
 }
 
 .back {
@@ -17,7 +17,7 @@
 
 .title {
   margin: 0;
-  font-family: var(--font-display), Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 36px;
   font-weight: 400;
   line-height: 1.2;
@@ -26,13 +26,13 @@
 .meta {
   margin: 8px 0 28px;
   font-size: 13px;
-  color: rgb(var(--color-muted));
+  color: var(--ink-muted);
 }
 
 .page h2 {
   margin: 32px 0 8px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .page p {
