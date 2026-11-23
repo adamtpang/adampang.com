@@ -17,7 +17,7 @@ const contentSecurityPolicy = [
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
   "img-src 'self' data:",
-  "frame-src https://open.spotify.com",
+  "frame-src https://open.spotify.com https://www.youtube-nocookie.com",
   `connect-src 'self' https://us.i.posthog.com https://vitals.vercel-insights.com${isDevelopment ? ' ws: http:' : ''}`,
   "media-src 'self'",
   "object-src 'none'",
@@ -29,8 +29,8 @@ const contentSecurityPolicy = [
 
 /** /cv embeds its own PDF, so it may frame same-origin documents. */
 const cvContentSecurityPolicy = contentSecurityPolicy.replace(
-  'frame-src https://open.spotify.com',
-  "frame-src 'self' https://open.spotify.com",
+  'frame-src https://open.spotify.com https://www.youtube-nocookie.com',
+  "frame-src 'self' https://open.spotify.com https://www.youtube-nocookie.com",
 );
 
 /** The resume PDF may be framed by this site only (the /cv embed). */

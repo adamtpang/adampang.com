@@ -3,10 +3,11 @@ import type { MetadataRoute } from 'next';
 const SITE_URL = 'https://adampang.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date('2026-10-05');
+  const lastModified = new Date('2026-11-15');
   return [
     { url: SITE_URL, lastModified, changeFrequency: 'yearly', priority: 1 },
     { url: `${SITE_URL}/cv`, lastModified: new Date('2026-10-21'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${SITE_URL}/outlier`, lastModified, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/privacy`, lastModified: new Date('2026-11-01'), changeFrequency: 'yearly', priority: 0.3 },
   ];
 }
