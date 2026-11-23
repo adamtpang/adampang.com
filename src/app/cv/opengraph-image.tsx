@@ -7,7 +7,9 @@ const { card, line } = tokens.color.surface;
 const { fg, muted } = tokens.color.content;
 
 // Every line on this card comes from resume.json. Never the phone number, email or street address.
-const city = resume.contacts[0].label;
+// The location is the one contact with no link; phone, email and web entries all have one.
+const location = resume.contacts.find((c) => !c.href && !/@|\d{3}/.test(c.label));
+const city = location?.label ?? 'Texas';
 const [first, second] = resume.experience;
 const rows = [
   first.role ? `${first.org} · ${first.role}` : first.org,

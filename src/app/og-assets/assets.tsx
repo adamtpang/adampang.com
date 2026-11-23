@@ -36,7 +36,7 @@ export function FramedPortrait({ frame, photo, width }: { frame: string; photo: 
         alt=""
         width={Math.round(width * 0.64)}
         height={Math.round(height * 0.665)}
-        style={{ position: 'absolute', left: Math.round(width * 0.18), top: Math.round(height * 0.16) }}
+        style={{ position: 'absolute', left: Math.round(width * 0.18), top: Math.round(height * 0.16), objectFit: 'cover' }}
       />
       <img src={frame} alt="" width={width} height={height} style={{ position: 'absolute', left: 0, top: 0 }} />
     </div>
