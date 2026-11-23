@@ -15,6 +15,18 @@ export const metadata: Metadata = {
   title: { absolute: 'Adam Pang: music, profiles, CV and contact' },
   description,
   alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    url: 'https://adampang.com',
+    siteName: 'adampang.com',
+    title: 'Adam Pang: software engineer',
+    description: 'Software engineer in Texas. Projects, music, CV and how to reach me.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Adam Pang: software engineer',
+    description: 'Software engineer in Texas. Projects, music, CV and how to reach me.',
+  },
 };
 
 const profiles = [
